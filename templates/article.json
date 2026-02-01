@@ -68,7 +68,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
@@ -161,7 +161,7 @@
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 100,
         "heading_tag": "automatic"
