@@ -328,7 +328,7 @@
       "settings": {
         "title": "株式会社SOLSTARの魅力",
         "heading_font_size": "heading-large",
-        "description": "<p>当社は、日本市場に特化したShopify専門のECサイト構築・運用支援パートナーです。</p><p>UI/UX設計に強みを持ち、オリジナルテーマ「Cream」を開発・提供することで、幅広い事業者様のEC成長を支援しています。</p>",
+        "description": "<p>当社は、Shopifyを専門に、ブランドの成長フェーズに合わせたECサイトの構築・運営を支援するパートナーです。</p><p>ブランドの魅力が正しく伝わり、お客さんが迷わず購入できる導線までを設計することで、<br/>作って終わらない、運用し続けられるECを実現します。</p><p>また、こうした考え方を形にしたオリジナルテーマ「Cream」を開発・提供し、事業フェーズに応じた、無理のないEC構築を支援しています。</p>",
         "align_heading": "text-center",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
