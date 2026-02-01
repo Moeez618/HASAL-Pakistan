@@ -28,26 +28,26 @@
     "section_rich_text_ikmnxA": {
       "type": "section-rich-text",
       "blocks": {
-        "heading_YUaz9r": {
-          "type": "heading",
-          "settings": {
-            "title": "「説明も丁寧で、細かな調整にも対応していただきました。」",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
         "subheading_MjtNNA": {
           "type": "subheading",
           "settings": {
             "subheading": "株式会社ONETREE",
             "padding_bottom": 16
           }
+        },
+        "heading_YUaz9r": {
+          "type": "heading",
+          "settings": {
+            "title": "「説明も丁寧で、細かな調整にも対応していただきました。」",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
         }
       },
       "block_order": [
-        "heading_YUaz9r",
-        "subheading_MjtNNA"
+        "subheading_MjtNNA",
+        "heading_YUaz9r"
       ],
       "name": "Rich text",
       "settings": {
