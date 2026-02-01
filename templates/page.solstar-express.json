@@ -192,7 +192,7 @@
             "align_text": "text-left",
             "bg_color": "",
             "color": "",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "image_HP9YGj": {
@@ -251,7 +251,7 @@
             "title": "私たちも、同じ悩みを抱えていました。",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 30,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_r6X64K": {
@@ -486,7 +486,7 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         }
       },
@@ -535,7 +535,7 @@
             "title": "Shopifyアカデミー認定資格を3種取得",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_GyN7TV": {
@@ -643,7 +643,7 @@
             "align_text": "text-left",
             "bg_color": "",
             "color": "",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         }
       },
@@ -681,7 +681,7 @@
             "title": "時間・人手・予算の壁を感じているなら",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 50,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_FfXdJr": {
@@ -772,7 +772,7 @@
             "title": "「売れる状態」から始める、Shopifyテーマ。",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_K9bVtz": {
@@ -891,7 +891,7 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 50,
         "padding_bottom": 50,
-        "heading_tag": "automatic"
+        "heading_tag": "h2"
       }
     },
     "section_custom_content_6DpRDR": {
@@ -938,7 +938,7 @@
             "align_text": "text-left",
             "bg_color": "",
             "color": "",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         }
       },
