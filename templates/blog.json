@@ -1,1 +1,71 @@
-{"sections":{"featured":{"type":"featured-posts","blocks":{"feat":{"type":"featured_post","settings":{"featured_post":"","subheading":"Featured post"}}},"block_order":["feat"],"disabled":true,"settings":{"show_author":false,"show_date":false,"heading_font_size":"heading-large","show_button":true,"width":"wrapper--full","height":"five-fifty-height-hero","mobile_height":"screen-height-one-half--mobile","color_scheme":"","padding_top":0,"padding_bottom":0}},"main":{"type":"blog","settings":{"show_title":true,"show_rss":false,"show_tag_nav":true,"aspect_ratio":0.5,"title_font_size":"heading-small","show_tags":true,"show_author":false,"show_date":false,"show_button":true,"show_comments":false,"grid":3,"rows":5,"color_scheme":"","padding_top":50,"padding_bottom":0,"title_tag":"h1"}}},"order":["featured","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured": {
+      "type": "featured-posts",
+      "blocks": {
+        "feat": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "feat"
+      ],
+      "disabled": true,
+      "settings": {
+        "show_author": false,
+        "show_date": false,
+        "heading_font_size": "heading-large",
+        "show_button": true,
+        "button_text": "Read more",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": false,
+        "width": "wrapper--full",
+        "height": "five-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "blog",
+      "settings": {
+        "show_title": true,
+        "show_rss": false,
+        "show_tag_nav": true,
+        "aspect_ratio": 0.5,
+        "title_font_size": "heading-small",
+        "show_tags": true,
+        "show_author": false,
+        "show_date": false,
+        "show_button": true,
+        "show_comments": false,
+        "grid": 3,
+        "rows": 5,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 0,
+        "title_tag": "h1"
+      }
+    }
+  },
+  "order": [
+    "featured",
+    "main"
+  ]
+}
