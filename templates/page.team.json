@@ -1,1 +1,464 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{"subheading":"","show_title":true,"heading_font_size":"heading-large","show_content":true,"text_font_size":"body-medium","align_text":"text-center","width":"wrapper","color_scheme":"","padding_top":50,"padding_bottom":50,"heading_tag":"automatic"}},"section_rich_text_ikmnxA":{"type":"section-rich-text","blocks":{"heading_YUaz9r":{"type":"heading","settings":{"title":"「費用を抑えながらも高品質なECサイトを作って頂けました。」","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"subheading_MjtNNA":{"type":"subheading","settings":{"subheading":"サカイ販促サポート株式会社","padding_bottom":16}}},"block_order":["heading_YUaz9r","subheading_MjtNNA"],"name":"Rich text","settings":{"align_text":"text-center","width":"wrapper","color_scheme":"","padding_top":50,"padding_bottom":50}},"office":{"type":"section-custom-content","blocks":{"image-0":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/PC_Mobile_Mockup_Small_Sized_copy.webp","title":"","heading_font_size":"heading-large","text":"","text_font_size":"body-medium","flex_align":"align--middle-center","show_text_background":false,"bg_color":"","color":"","link_text":"","link":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"heading_tag":"automatic"}},"text-1":{"type":"text","settings":{"subheading":"【公式】EDGBLACK \/ エッジブラック - 転がす砥石","title":"EDGBLACK公式ストア","heading_font_size":"heading-large","text":"<p>『EDGBLACK -All For Your Knives-』は、 誰でも簡単にプロ級の刃物砥ぎが出来る高品質で特徴的な砥石とアクセサリを提供するブランドです。<\/p>","text_font_size":"body-medium","button_text":"構築ストアを見る","button_url":"https:\/\/edgblack.jp\/","button_type":"btn--black","button_size":"","button_style":"btn--outline","show_arrow":false,"show_social_links":false,"text_columns":1,"align_text":"text-left","bg_color":"#fcfbf9","color":"","heading_tag":"automatic"}}},"block_order":["image-0","text-1"],"settings":{"borders":false,"gutters":false,"width":"wrapper--full","height":"image-height","mobile_height":"image-height--mobile","reverse_blocks":false,"color_scheme":"scheme-a834ebaa-257b-48bd-9853-4460159b9060","padding_top":0,"padding_bottom":0}},"section_announcement_axjVAR":{"type":"section-announcement","blocks":{"image_k3q9qA":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/1a625864903033112c22727fa0660556.png","image_width":180}}},"block_order":["image_k3q9qA"],"name":"Scrolling text","settings":{"slider_speed":7,"text_alignment":"center","marquee_speed":100,"direction":"ticker-rtl","message_spacing":30,"show_border":false,"layout":"marquee","color_scheme":"scheme-1","padding_top":50,"padding_bottom":50}},"section_hero_HhMXV4":{"type":"section-hero","blocks":{"heading_XXDWa4":{"type":"heading","disabled":true,"settings":{"title":"Image banner","heading_font_size":"heading-x-large","heading_tag":"automatic"}},"text_6NkkKm":{"type":"text","disabled":true,"settings":{"text":"<p>Tell your brand's story through images.<\/p>","text_font_size":"body-large"}}},"block_order":["heading_XXDWa4","text_6NkkKm"],"name":"Image banner","settings":{"image_1":"shopify:\/\/shop_images\/4_049092ba-dbfb-4b73-b501-911bc54c0161.jpg","link":"","width":"wrapper--full-padded","height":"screen-height-two-thirds","flex_align_desktop":"align--bottom-left-desktop","mobile_height":"screen-height-one-third--mobile","flex_align_mobile":"align--bottom-left-mobile","color_scheme":"","show_text_background":false,"padding_top":0,"padding_bottom":0,"show_placeholder":true}},"story":{"type":"section-custom-content","blocks":{"story-1":{"type":"text","settings":{"subheading":"サカイ販促サポート株式会社","title":"インタビュー with 酒井様","heading_font_size":"heading-large","text":"<p><strong>SOLSTAR（以下、S）：今回ECサイトを構築しようと思ったきっかけ、または背景を教えてください。<\/strong><\/p><p>　<\/p><p>酒井様：きっかけは、御社からの営業提案でした。ちょうどECサイトを作ろうか踏み出せずにいたタイミングだったので、とても良い機会となりました。<\/p><p>背景としては、もともと他社ECプラットフォームでオンラインショップを運用していましたが、拡張性に限界を感じており、今後売上が伸びた際の取引手数料などを考慮して、Shopifyへの移行を決断しました。<\/p><p> <\/p><p><strong>S：Basicプランの構築サービスを利用した感想はいかがでしょうか？<\/strong><\/p><p>　<\/p><p>酒井様：商品数が少ないブランドには、Basicプランがちょうどよかったと感じています。無料テンプレートを使って国内向けに構築でき、費用を抑えながらも高品質なECサイトを作って頂けました。立ち上げたばかりのブランドには特に適したプランだと思います。デメリットは特に感じませんでした。<\/p><p> 　<\/p><p><strong>S：担当ディレクターの対応はいかがでしたか？<\/strong><\/p><p>　<\/p><p>酒井様：とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。専門的な設定や不明点についても調べて対応していただき、大変助かりました。<\/p><p> <\/p><p><strong>S：開発の進め方についてはいかがでしたか？<\/strong><\/p><p>　<\/p><p>酒井様：メールでのやり取りで進行しました。以前もShopifyの立ち上げ依頼をしたことがあったため、スムーズに進めることができました。ただ、初めての方にとってはExcelでの情報入力や、テクニカルな表記が少しわかりにくいかもしれません。ポリシー関連のテンプレートなどがあれば、よりスムーズになると思います。<\/p><p> <\/p><p><strong>S：納品までのスケジュールについてはいかがでしたか？<\/strong><\/p><p>　<\/p><p>酒井様：約2ヶ月で納品され、スケジュールに関して特に問題はありませんでした。<\/p><p> <\/p><p><strong>S：サービス全体を通して困ったことや、改善点があれば教えてください。<\/strong><\/p><p>　<\/p><p>酒井様：強いて言えば、Excelでの作業が少しわかりにくかったことぐらいです。それ以外は特に無かったです。<\/p><p> <\/p><p><strong>S：今後の活動について教えてください。<\/strong><\/p><p>　<\/p><p>酒井様：EDGEBLACKストアに関しては、売上アップに向けた施策に取り組んでいく予定です。ストア内のブログ記事など、コンテンツ制作にも力を入れ、SEO対策を強化していきたいと考えています。<\/p><p> <\/p>","text_font_size":"body-medium","button_text":"","button_url":"","button_type":"btn--primary","button_size":"","button_style":"btn--solid","show_arrow":false,"show_social_links":false,"text_columns":2,"align_text":"text-left","bg_color":"#f7f7f7","color":"","heading_tag":"automatic"}}},"block_order":["story-1"],"disabled":true,"settings":{"borders":false,"gutters":false,"width":"wrapper--full-padded","height":"image-height","mobile_height":"screen-height-one-half--mobile","reverse_blocks":false,"color_scheme":"","padding_top":0,"padding_bottom":0}},"section_rich_text_yFinzB":{"type":"section-rich-text","blocks":{"subheading_VCNmQd":{"type":"subheading","settings":{"subheading":"サカイ販促サポート 代表取締役・酒井様に、ECサイト構築のきっかけや、今後の取り組み・展望についてお話を伺いました。","padding_bottom":16}},"heading_BbzCwi":{"type":"heading","settings":{"title":"インタビュー with 酒井様","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_h7pBhk":{"type":"text","settings":{"text":"<p><strong>SOLSTAR(以下S）：今回ECサイトを構築しようと思ったきっかけ、または背景を教えてください。<\/strong><\/p><p><strong>　<\/strong><\/p><p>酒井様：きっかけは、御社からの営業提案でした。ちょうどECサイトを作ろうか踏み出せずにいたタイミングだったので、とても良い機会となりました。背景としては、もともと他社ECプラットフォームでオンラインショップを運用していましたが、拡張性に限界を感じており、今後売上が伸びた際の取引手数料などを考慮して、Shopifyへの移行を決断しました。<\/p><p> <\/p><p><strong>S：Basicプランの構築サービスを利用した感想はいかがでしょうか？<\/strong><\/p><p><strong>　<\/strong><\/p><p>酒井様：商品数が少ないブランドには、Basicプランがちょうどよかったと感じています。無料テンプレートを使って国内向けに構築でき、費用を抑えながらも高品質なECサイトを作って頂けました。立ち上げたばかりのブランドには特に適したプランだと思います。デメリットは特に感じませんでした。<\/p><p> <\/p><p><strong>S：担当ディレクターの対応はいかがでしたか？<\/strong><\/p><p><strong>　<\/strong><\/p><p>酒井様：とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。専門的な設定や不明点についても調べて対応していただき、大変助かりました。<\/p><p> <\/p><p><strong>S：開発の進め方についてはいかがでしたか？<\/strong><\/p><p>　<\/p><p>酒井様：メールでのやり取りで進行しました。以前もShopifyの立ち上げ依頼をしたことがあったため、スムーズに進めることができました。ただ、初めての方にとってはExcelでの情報入力や、テクニカルな表記が少しわかりにくいかもしれません。ポリシー関連のテンプレートなどがあれば、よりスムーズになると思います。<\/p><p> 　<\/p><p><strong>S：納品までのスケジュールについてはいかがでしたか？<\/strong><\/p><p><strong>　<\/strong><\/p><p>酒井様：約2ヶ月で納品され、スケジュールに関して特に問題はありませんでした。<\/p><p> <\/p><p><strong>S：サービス全体を通して困ったことや、改善点があれば教えてください。<\/strong><\/p><p><strong>　<\/strong><\/p><p>酒井様：強いて言えば、Excelでの作業が少しわかりにくかったことぐらいです。それ以外は特に無かったです。<\/p><p> <\/p><p><strong>S：今後の活動について教えてください。<\/strong><\/p><p><strong>　<\/strong><\/p><p>酒井様：Edgeblackストアに関しては、売上アップに向けた施策に取り組んでいく予定です。ストア内のブログ記事など、コンテンツ制作にも力を入れ、SEO対策を強化していきたいと考えています。<\/p>","text_font_size":"body-medium","padding_bottom":16}}},"block_order":["subheading_VCNmQd","heading_BbzCwi","text_h7pBhk"],"name":"Rich text","settings":{"align_text":"text-left","width":"wrapper","color_scheme":"","padding_top":50,"padding_bottom":50}},"section_highlights_XLe6xn":{"type":"section-highlights","blocks":{"highlight_6KXj8m":{"type":"highlight","settings":{"heading":"Dawn<br>テーマ選択","url":"","color":"","bg_color":"","border_color":""}},"highlight_QNWHhA":{"type":"highlight","settings":{"heading":"Instagram<br>アプリ実装","url":"","color":"","bg_color":"","border_color":""}},"highlight_zUA3GF":{"type":"highlight","settings":{"heading":"カスタムデータ<br>活用","url":"","color":"","bg_color":"","border_color":""}},"highlight_McFWDt":{"type":"highlight","settings":{"heading":"GA4実装","url":"","color":"","bg_color":"","border_color":""}},"highlight_W7NjcJ":{"type":"highlight","settings":{"heading":"ECサイトお引越し","url":"","color":"","bg_color":"","border_color":""}}},"block_order":["highlight_6KXj8m","highlight_QNWHhA","highlight_zUA3GF","highlight_McFWDt","highlight_W7NjcJ"],"name":"Highlights","settings":{"style":"rectangle","grid":6,"heading":"ストア構築のハイライト","heading_position":"text-center","heading_font_size":"heading-large","text_font_size":"body-medium","width":"wrapper--full-padded","layout_mobile":"2","color_scheme":"","padding_top":50,"padding_bottom":50,"heading_tag":"automatic"}},"contact_form_XARiPd":{"type":"contact-form","blocks":{"text_TLwQjX":{"type":"text","settings":{"title":"お名前","required":true}},"email_EyDQ7P":{"type":"email","settings":{"title":"メールアドレス","required":true}},"telephone_fxa9cA":{"type":"telephone","settings":{"title":"電話番号","required":true}},"text_HP3BLQ":{"type":"text","settings":{"title":"会社名","required":false}},"body_BYNV8g":{"type":"body","settings":{"title":"問い合わせ内容","required":false}},"select_V9h8hA":{"type":"select","settings":{"title":"問い合わせ種別","required":true,"label-one":"","label-two":"国内ECサイト構築","label-three":"グローバルECサイト構築","label-four":"ECサイトリニューアル","label-five":"その他","label-six":""}},"select_cCY7AH":{"type":"select","settings":{"title":"ご希望プラン","required":true,"label-one":"","label-two":"Basicプランで相談する","label-three":"Standardプランで相談する","label-four":"Proプランで相談する","label-five":"プランを決めずに相談する","label-six":""}}},"block_order":["text_TLwQjX","email_EyDQ7P","telephone_fxa9cA","text_HP3BLQ","body_BYNV8g","select_V9h8hA","select_cCY7AH"],"name":"Contact form","settings":{"title":"お問い合わせ","heading_font_size":"heading-large","terms":true,"width":"wrapper--narrow","color_scheme":"","padding_top":100,"padding_bottom":100,"heading_tag":"automatic"}}},"order":["main","section_rich_text_ikmnxA","office","section_announcement_axjVAR","section_hero_HhMXV4","story","section_rich_text_yFinzB","section_highlights_XLe6xn","contact_form_XARiPd"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "株式会社SOLSTAR",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_rich_text_ikmnxA": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_MjtNNA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "サカイ販促サポート株式会社",
+            "padding_bottom": 16
+          }
+        },
+        "heading_YUaz9r": {
+          "type": "heading",
+          "settings": {
+            "title": "「費用を抑えながらも高品質なECサイトを作って頂けました。」",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MjtNNA",
+        "heading_YUaz9r"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "office": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_Mobile_Mockup_Small_Sized_copy.webp",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "【公式】EDGBLACK / エッジブラック - 転がす砥石",
+            "title": "EDGBLACK公式ストア",
+            "heading_font_size": "heading-large",
+            "text": "<p>『EDGBLACK -All For Your Knives-』は、 誰でも簡単にプロ級の刃物砥ぎが出来る高品質で特徴的な砥石とアクセサリを提供するブランドです。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "構築ストアを見る",
+            "button_url": "https://edgblack.jp/",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#fcfbf9",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "text-1"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_announcement_axjVAR": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_k3q9qA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1a625864903033112c22727fa0660556.png",
+            "image_width": 180
+          }
+        }
+      },
+      "block_order": [
+        "image_k3q9qA"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-1",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_HhMXV4": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_XXDWa4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image banner",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_6NkkKm": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_XXDWa4",
+        "text_6NkkKm"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/4_049092ba-dbfb-4b73-b501-911bc54c0161.jpg",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "screen-height-two-thirds",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-one-third--mobile",
+        "flex_align_mobile": "align--bottom-left-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "story": {
+      "type": "section-custom-content",
+      "blocks": {
+        "story-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "サカイ販促サポート株式会社",
+            "title": "インタビュー with 酒井様",
+            "heading_font_size": "heading-large",
+            "text": "<p><strong>SOLSTAR（以下、S）：今回ECサイトを構築しようと思ったきっかけ、または背景を教えてください。</strong></p><p>　</p><p>酒井様：きっかけは、御社からの営業提案でした。ちょうどECサイトを作ろうか踏み出せずにいたタイミングだったので、とても良い機会となりました。</p><p>背景としては、もともと他社ECプラットフォームでオンラインショップを運用していましたが、拡張性に限界を感じており、今後売上が伸びた際の取引手数料などを考慮して、Shopifyへの移行を決断しました。</p><p> </p><p><strong>S：Basicプランの構築サービスを利用した感想はいかがでしょうか？</strong></p><p>　</p><p>酒井様：商品数が少ないブランドには、Basicプランがちょうどよかったと感じています。無料テンプレートを使って国内向けに構築でき、費用を抑えながらも高品質なECサイトを作って頂けました。立ち上げたばかりのブランドには特に適したプランだと思います。デメリットは特に感じませんでした。</p><p> 　</p><p><strong>S：担当ディレクターの対応はいかがでしたか？</strong></p><p>　</p><p>酒井様：とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。専門的な設定や不明点についても調べて対応していただき、大変助かりました。</p><p> </p><p><strong>S：開発の進め方についてはいかがでしたか？</strong></p><p>　</p><p>酒井様：メールでのやり取りで進行しました。以前もShopifyの立ち上げ依頼をしたことがあったため、スムーズに進めることができました。ただ、初めての方にとってはExcelでの情報入力や、テクニカルな表記が少しわかりにくいかもしれません。ポリシー関連のテンプレートなどがあれば、よりスムーズになると思います。</p><p> </p><p><strong>S：納品までのスケジュールについてはいかがでしたか？</strong></p><p>　</p><p>酒井様：約2ヶ月で納品され、スケジュールに関して特に問題はありませんでした。</p><p> </p><p><strong>S：サービス全体を通して困ったことや、改善点があれば教えてください。</strong></p><p>　</p><p>酒井様：強いて言えば、Excelでの作業が少しわかりにくかったことぐらいです。それ以外は特に無かったです。</p><p> </p><p><strong>S：今後の活動について教えてください。</strong></p><p>　</p><p>酒井様：EDGEBLACKストアに関しては、売上アップに向けた施策に取り組んでいく予定です。ストア内のブログ記事など、コンテンツ制作にも力を入れ、SEO対策を強化していきたいと考えています。</p><p> </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 2,
+            "align_text": "text-left",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "story-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_yFinzB": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_VCNmQd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "サカイ販促サポート 代表取締役・酒井様に、ECサイト構築のきっかけや、今後の取り組み・展望についてお話を伺いました。",
+            "padding_bottom": 16
+          }
+        },
+        "heading_BbzCwi": {
+          "type": "heading",
+          "settings": {
+            "title": "インタビュー with 酒井様",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_h7pBhk": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SOLSTAR(以下S）：今回ECサイトを構築しようと思ったきっかけ、または背景を教えてください。</strong></p><p><strong>　</strong></p><p>酒井様：きっかけは、御社からの営業提案でした。ちょうどECサイトを作ろうか踏み出せずにいたタイミングだったので、とても良い機会となりました。背景としては、もともと他社ECプラットフォームでオンラインショップを運用していましたが、拡張性に限界を感じており、今後売上が伸びた際の取引手数料などを考慮して、Shopifyへの移行を決断しました。</p><p> </p><p><strong>S：Basicプランの構築サービスを利用した感想はいかがでしょうか？</strong></p><p><strong>　</strong></p><p>酒井様：商品数が少ないブランドには、Basicプランがちょうどよかったと感じています。無料テンプレートを使って国内向けに構築でき、費用を抑えながらも高品質なECサイトを作って頂けました。立ち上げたばかりのブランドには特に適したプランだと思います。デメリットは特に感じませんでした。</p><p> </p><p><strong>S：担当ディレクターの対応はいかがでしたか？</strong></p><p><strong>　</strong></p><p>酒井様：とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。専門的な設定や不明点についても調べて対応していただき、大変助かりました。</p><p> </p><p><strong>S：開発の進め方についてはいかがでしたか？</strong></p><p>　</p><p>酒井様：メールでのやり取りで進行しました。以前もShopifyの立ち上げ依頼をしたことがあったため、スムーズに進めることができました。ただ、初めての方にとってはExcelでの情報入力や、テクニカルな表記が少しわかりにくいかもしれません。ポリシー関連のテンプレートなどがあれば、よりスムーズになると思います。</p><p> 　</p><p><strong>S：納品までのスケジュールについてはいかがでしたか？</strong></p><p><strong>　</strong></p><p>酒井様：約2ヶ月で納品され、スケジュールに関して特に問題はありませんでした。</p><p> </p><p><strong>S：サービス全体を通して困ったことや、改善点があれば教えてください。</strong></p><p><strong>　</strong></p><p>酒井様：強いて言えば、Excelでの作業が少しわかりにくかったことぐらいです。それ以外は特に無かったです。</p><p> </p><p><strong>S：今後の活動について教えてください。</strong></p><p><strong>　</strong></p><p>酒井様：Edgeblackストアに関しては、売上アップに向けた施策に取り組んでいく予定です。ストア内のブログ記事など、コンテンツ制作にも力を入れ、SEO対策を強化していきたいと考えています。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VCNmQd",
+        "heading_BbzCwi",
+        "text_h7pBhk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_highlights_XLe6xn": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_6KXj8m": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Dawn<br>テーマ選択",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_QNWHhA": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Instagram<br>アプリ実装",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_zUA3GF": {
+          "type": "highlight",
+          "settings": {
+            "heading": "カスタムデータ<br>活用",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_McFWDt": {
+          "type": "highlight",
+          "settings": {
+            "heading": "GA4実装",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_W7NjcJ": {
+          "type": "highlight",
+          "settings": {
+            "heading": "ECサイトお引越し",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_6KXj8m",
+        "highlight_QNWHhA",
+        "highlight_zUA3GF",
+        "highlight_McFWDt",
+        "highlight_W7NjcJ"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "style": "rectangle",
+        "grid": 6,
+        "heading": "ストア構築のハイライト",
+        "heading_position": "text-center",
+        "heading_font_size": "heading-large",
+        "text_font_size": "body-medium",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "contact_form_XARiPd": {
+      "type": "contact-form",
+      "blocks": {
+        "text_TLwQjX": {
+          "type": "text",
+          "settings": {
+            "title": "お名前",
+            "heading": "",
+            "required": true
+          }
+        },
+        "email_EyDQ7P": {
+          "type": "email",
+          "settings": {
+            "title": "メールアドレス",
+            "heading": "",
+            "required": true
+          }
+        },
+        "telephone_fxa9cA": {
+          "type": "telephone",
+          "settings": {
+            "title": "電話番号",
+            "heading": "",
+            "required": true
+          }
+        },
+        "text_HP3BLQ": {
+          "type": "text",
+          "settings": {
+            "title": "会社名",
+            "heading": "",
+            "required": false
+          }
+        },
+        "body_BYNV8g": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_V9h8hA": {
+          "type": "select",
+          "settings": {
+            "title": "問い合わせ種別",
+            "required": true,
+            "label-one": "",
+            "label-two": "国内ECサイト構築",
+            "label-three": "グローバルECサイト構築",
+            "label-four": "ECサイトリニューアル",
+            "label-five": "その他",
+            "label-six": ""
+          }
+        },
+        "select_cCY7AH": {
+          "type": "select",
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "",
+            "label-two": "Basicプランで相談する",
+            "label-three": "Standardプランで相談する",
+            "label-four": "Proプランで相談する",
+            "label-five": "プランを決めずに相談する",
+            "label-six": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_TLwQjX",
+        "email_EyDQ7P",
+        "telephone_fxa9cA",
+        "text_HP3BLQ",
+        "body_BYNV8g",
+        "select_V9h8hA",
+        "select_cCY7AH"
+      ],
+      "name": "Contact form",
+      "settings": {
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_ikmnxA",
+    "office",
+    "section_announcement_axjVAR",
+    "section_hero_HhMXV4",
+    "story",
+    "section_rich_text_yFinzB",
+    "section_highlights_XLe6xn",
+    "contact_form_XARiPd"
+  ]
+}
