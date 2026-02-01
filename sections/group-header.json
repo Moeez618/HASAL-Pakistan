@@ -22,7 +22,7 @@
         "marquee_speed": 100,
         "message_spacing": 20,
         "text_font_size": "body-medium",
-        "color_scheme": "scheme-9",
+        "color_scheme": "scheme-10",
         "border_color": "",
         "padding_top": 10,
         "padding_bottom": 10
@@ -34,7 +34,7 @@
         "header_sticky": true,
         "enable_search": true,
         "header_style": "logo_beside",
-        "show_separator_line": false,
+        "show_separator_line": true,
         "header_border_color": "#d1cdc4",
         "separator_opacity": 50,
         "show_icons": true,
