@@ -1,1 +1,176 @@
-{"sections":{"main":{"type":"article","blocks":{"links_UU7xHf":{"type":"links","settings":{"title":"Categories","blog_linklist":""}}},"block_order":["links_UU7xHf"],"settings":{"show_image":true,"show_date":false,"show_author":false,"tags":false,"show_sharing":true,"arrows":false,"height":"screen-height-one-half","mobile_height":"image-height--mobile","color_scheme":"","padding_top":0,"padding_bottom":0}},"section_rich_text_mrU9XE":{"type":"section-rich-text","blocks":{"heading_qzMEnU":{"type":"heading","settings":{"title":"最初の一歩を踏み出しましょう","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_qHnVnk":{"type":"text","settings":{"text":"<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？<\/p>","text_font_size":"body-medium","padding_bottom":16}}},"block_order":["heading_qzMEnU","text_qHnVnk"],"custom_css":["h2 {padding: 0; \/* 本文H2の余白を打ち消し *\/ border: none; \/* 上下ボーダーを打ち消し *\/ color: inherit; \/* 文字色は継承 *\/}"],"settings":{"align_text":"text-left","width":"wrapper","color_scheme":"","padding_top":50,"padding_bottom":50}},"contact_form_EHtdFj":{"type":"contact-form","blocks":{"text_6pyLcF":{"type":"text","settings":{"title":"お名前","required":true}},"email_zNqHWX":{"type":"email","settings":{"title":"メールアドレス","required":true}},"telephone_HLG7qE":{"type":"telephone","settings":{"title":"電話番号","required":true}},"text_6k6MRh":{"type":"text","settings":{"title":"会社名","required":false}},"body_JaAHMw":{"type":"body","settings":{"title":"お問合せ内容","required":false}},"select_mGgAXD":{"type":"select","settings":{"title":"お問い合わせ種別","required":true,"label-one":"国内ECサイト構築","label-two":"グローバルECサイト構築","label-three":"ECサイトリニューアル","label-four":"その他","label-five":"","label-six":""}},"select_mepRka":{"type":"select","settings":{"title":"ご希望プラン","required":true,"label-one":"Basicプランで相談する","label-two":"Standardプランで相談する","label-three":"Proプランで相談する","label-four":"プランを決めずに相談する","label-five":"","label-six":""}}},"block_order":["text_6pyLcF","email_zNqHWX","telephone_HLG7qE","text_6k6MRh","body_JaAHMw","select_mGgAXD","select_mepRka"],"custom_css":["h2 {padding: 0; \/* 本文H2の余白を打ち消し *\/ border: none; \/* 上下ボーダーを打ち消し *\/ color: inherit; \/* 文字色は継承 *\/}"],"settings":{"title":"お問い合わせ","heading_font_size":"heading-large","terms":true,"width":"wrapper--narrow","color_scheme":"","padding_top":50,"padding_bottom":100,"heading_tag":"automatic"}}},"order":["main","section_rich_text_mrU9XE","contact_form_EHtdFj"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "article",
+      "blocks": {
+        "links_UU7xHf": {
+          "type": "links",
+          "settings": {
+            "title": "Categories",
+            "blog_linklist": ""
+          }
+        }
+      },
+      "block_order": [
+        "links_UU7xHf"
+      ],
+      "settings": {
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "tags": false,
+        "show_sharing": true,
+        "arrows": false,
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_mrU9XE": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_qzMEnU": {
+          "type": "heading",
+          "settings": {
+            "title": "最初の一歩を踏み出しましょう",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_qHnVnk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_qzMEnU",
+        "text_qHnVnk"
+      ],
+      "custom_css": [
+        "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "contact_form_EHtdFj": {
+      "type": "contact-form",
+      "blocks": {
+        "text_6pyLcF": {
+          "type": "text",
+          "settings": {
+            "title": "お名前",
+            "heading": "",
+            "required": true
+          }
+        },
+        "email_zNqHWX": {
+          "type": "email",
+          "settings": {
+            "title": "メールアドレス",
+            "heading": "",
+            "required": true
+          }
+        },
+        "telephone_HLG7qE": {
+          "type": "telephone",
+          "settings": {
+            "title": "電話番号",
+            "heading": "",
+            "required": true
+          }
+        },
+        "text_6k6MRh": {
+          "type": "text",
+          "settings": {
+            "title": "会社名",
+            "heading": "",
+            "required": false
+          }
+        },
+        "body_JaAHMw": {
+          "type": "body",
+          "settings": {
+            "title": "お問合せ内容",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_mGgAXD": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "国内ECサイト構築",
+            "label-two": "グローバルECサイト構築",
+            "label-three": "ECサイトリニューアル",
+            "label-four": "その他",
+            "label-five": "",
+            "label-six": ""
+          }
+        },
+        "select_mepRka": {
+          "type": "select",
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Basicプランで相談する",
+            "label-two": "Standardプランで相談する",
+            "label-three": "Proプランで相談する",
+            "label-four": "プランを決めずに相談する",
+            "label-five": "",
+            "label-six": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_6pyLcF",
+        "email_zNqHWX",
+        "telephone_HLG7qE",
+        "text_6k6MRh",
+        "body_JaAHMw",
+        "select_mGgAXD",
+        "select_mepRka"
+      ],
+      "custom_css": [
+        "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
+      ],
+      "settings": {
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 100,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_mrU9XE",
+    "contact_form_EHtdFj"
+  ]
+}
