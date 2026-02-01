@@ -171,7 +171,7 @@
           "settings": {
             "title": "Cream by Solstar の無償体験",
             "heading_font_size": "heading-medium",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_rKKgGJ": {
@@ -225,7 +225,7 @@
             "title": "SOLSTAR EXPRESS",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_JAawQi": {
@@ -337,7 +337,7 @@
         "color_scheme": "scheme-10",
         "padding_top": 100,
         "padding_bottom": 50,
-        "heading_tag": "automatic"
+        "heading_tag": "h2"
       }
     },
     "section_double_qaxP3k": {
@@ -403,7 +403,7 @@
             "title": "Shopifyアカデミー認定資格を3種取得",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_FiRFdK": {
@@ -489,7 +489,7 @@
         "color_scheme": "scheme-10",
         "padding_top": 32,
         "padding_bottom": 0,
-        "heading_tag": "automatic",
+        "heading_tag": "h2",
         "title_tag": "automatic"
       }
     },
