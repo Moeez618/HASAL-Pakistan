@@ -346,10 +346,10 @@
         "heading_twP4zj": {
           "type": "heading",
           "settings": {
-            "title": "大規模〜越境まで幅広く対応",
+            "title": "越境ECへのスケール対応",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_METDwq": {
