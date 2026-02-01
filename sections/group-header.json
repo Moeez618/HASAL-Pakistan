@@ -110,7 +110,7 @@
       "name": "Mobile menu",
       "settings": {
         "logo_max_limit": 120,
-        "color_scheme": ""
+        "color_scheme": "scheme-10"
       }
     }
   },
