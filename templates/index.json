@@ -479,7 +479,7 @@
         "heading_font_size": "heading-medium",
         "title_font_size": "heading-small",
         "show_tags": true,
-        "show_author": false,
+        "show_author": true,
         "show_date": false,
         "show_button": true,
         "show_comments": false,
