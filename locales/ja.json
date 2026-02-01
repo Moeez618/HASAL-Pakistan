@@ -137,7 +137,7 @@
       "tags": "タグ",
       "back_to": "戻る",
       "all": "全て",
-      "by_author": "{{ author }}による",
+      "by_author": "{{ author }}",
       "related_products": "関連製品",
       "older_post": "古い投稿",
       "newer_post": "より新しいポスト",
