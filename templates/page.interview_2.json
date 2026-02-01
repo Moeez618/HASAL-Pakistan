@@ -103,7 +103,7 @@
             "align_text": "text-left",
             "bg_color": "#fcfbf9",
             "color": "",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         }
       },
@@ -254,7 +254,7 @@
             "title": "インタビュー with 沖野様",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_h7pBhk": {
