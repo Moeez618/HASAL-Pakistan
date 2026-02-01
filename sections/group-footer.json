@@ -58,9 +58,7 @@
         "footer-1",
         "footer-2"
       ],
-      "custom_css": [
-        "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo": "shopify://shop_images/Solstar_Rectangle_White.png",
         "logo_image_width": 150,
