@@ -547,7 +547,7 @@
   },
   "date_formats": {
     "full_date_and_time": "%B %d、%Y %I:%M%p",
-    "full_date": ""
+    "full_date": "%B %d, %Y"
   },
   "shopify": {
     "links": {
