@@ -32,7 +32,7 @@
         "tags": false,
         "show_sharing": true,
         "arrows": false,
-        "height": "screen-height-one-half",
+        "height": "screen-height-one-third",
         "mobile_height": "image-height--mobile",
         "color_scheme": "scheme-10",
         "padding_top": 0,
