@@ -103,7 +103,7 @@
             "align_text": "text-left",
             "bg_color": "#fcfbf9",
             "color": "",
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         }
       },
@@ -254,7 +254,7 @@
             "title": "インタビュー with 酒井様",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_h7pBhk": {
@@ -355,7 +355,7 @@
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50,
-        "heading_tag": "automatic"
+        "heading_tag": "h2"
       }
     },
     "contact_form_XARiPd": {
@@ -446,7 +446,7 @@
         "color_scheme": "",
         "padding_top": 100,
         "padding_bottom": 100,
-        "heading_tag": "automatic"
+        "heading_tag": "h2"
       }
     }
   },
