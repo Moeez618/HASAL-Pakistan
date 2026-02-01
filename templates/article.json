@@ -62,9 +62,7 @@
         "heading_qzMEnU",
         "text_qHnVnk"
       ],
-      "custom_css": [
-        "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
-      ],
+      "custom_css": [],
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
@@ -153,9 +151,7 @@
         "select_mGgAXD",
         "select_mepRka"
       ],
-      "custom_css": [
-        "h2 {padding: 0; /* 本文H2の余白を打ち消し */ border: none; /* 上下ボーダーを打ち消し */ color: inherit; /* 文字色は継承 */}"
-      ],
+      "custom_css": [],
       "settings": {
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
