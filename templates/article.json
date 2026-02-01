@@ -25,8 +25,8 @@
       ],
       "settings": {
         "show_image": true,
-        "show_date": false,
-        "show_author": false,
+        "show_date": true,
+        "show_author": true,
         "tags": false,
         "show_sharing": true,
         "arrows": false,
