@@ -103,7 +103,7 @@
         "heading_fdcbPR": {
           "type": "heading",
           "settings": {
-            "title": "無料配布｜Shopify認定パートナー65社の調査レポート",
+            "title": "無料配布｜ECサイト構築会社の比較に悩んでいませんか",
             "heading_font_size": "heading-large",
             "heading_tag": "h2",
             "padding_bottom": 8
@@ -112,7 +112,7 @@
         "text_PcfCqy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Shopifyに認定されたShopifyパートナーのみに限定し、各社の費用やサービスの特徴をまとめました。</strong></p>",
+            "text": "<p>Shopify公式に認定されたパートナー65社を対象に、</p><p>費用感やサービスの特徴を、比較しやすい形でまとめています。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
