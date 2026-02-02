@@ -39,6 +39,47 @@
         "padding_bottom": 0
       }
     },
+    "section_double_bQcH8L": {
+      "type": "section-double",
+      "blocks": {
+        "heading_Yi7WPa": {
+          "type": "heading",
+          "settings": {
+            "title": "著者プロフィール",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_icabqq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>島袋 隼（しまぶくろ しゅん）｜株式会社SOLSTAR 代表取締役。San Diego State University 経済学部卒。</p><p>　</p><p>Shopifyを中心に、ECサイトの構築・運用改善をプロジェクト推進。支援してきたECサイトの累計売上は100億円＋。また、Garry PandaとしてDJ/コンテンツ制作の活動も継続している。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yi7WPa",
+        "text_icabqq"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/20240930_Shimabukuro_sama-24703.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_rich_text_mrU9XE": {
       "type": "section-rich-text",
       "blocks": {
@@ -168,6 +209,7 @@
   },
   "order": [
     "main",
+    "section_double_bQcH8L",
     "section_rich_text_mrU9XE",
     "contact_form_EHtdFj"
   ]
