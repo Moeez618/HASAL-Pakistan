@@ -45,7 +45,7 @@
         "code_Tb3MXC": {
           "type": "code",
           "settings": {
-            "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ProfilePage\",\n  \"@id\": \"https://www.solstar.co.jp/pages/author-shimabukuroshun\",\n  \"mainEntity\": {\n    \"@type\": \"Person\",\n    \"@id\": \"https://www.solstar.co.jp/pages/author-shimabukuroshun#person\",\n    \"name\": \"ShimabukuroShun\",\n    \"url\": \"https://www.solstar.co.jp/pages/author-shimabukuroshun\"\n  }\n}\n</script>",
+            "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ProfilePage\",\n  \"@id\": \"https://www.solstar.co.jp/pages/author-shimabukuroshun\",\n  \"mainEntity\": {\n    \"@type\": \"Person\",\n    \"@id\": \"https://www.solstar.co.jp/pages/author-shimabukuroshun#person\",\n    \"name\": \"島袋隼\",\n    \"url\": \"https://www.solstar.co.jp/pages/author-shimabukuroshun\"\n  }\n}\n</script>",
             "padding_bottom": 16
           }
         },
