@@ -489,7 +489,7 @@
       "ask_title": "この製品について質問する:",
       "out_of_stock": "在庫切れです",
       "duties_and_taxes_included": "関税と税金が含まれています。",
-      "taxes_included": "税金が含まれています。",
+      "taxes_included": "（税込）",
       "duties_included": "関税が含まれています。",
       "remaining_html": "お急ぎください。残り{{ inventory }}個のみです。",
       "remaining_no_count": "お急ぎください！在庫が少なくなっています"
