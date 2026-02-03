@@ -54,7 +54,7 @@
     "parallax_strength": 20,
     "product_grid_outline": false,
     "enable_superscript": false,
-    "show_scroll_top_button": true,
+    "show_scroll_top_button": false,
     "loading_image_1": "shopify://shop_images/Logo_5_copy.png",
     "loading_image_width": 180,
     "predictive_search_enabled": true,
