@@ -56,7 +56,7 @@
         "tabs": {
           "type": "tab_richtext",
           "settings": {
-            "show_description": false,
+            "show_description": true,
             "show_read_more": false,
             "title_1": "Basicプラン",
             "raw_content_1": "<p><strong>ECをこれから始める方・市場検証をしたい方向けのスタートプランです。</strong></p><p>Shopifyの公式設計ルールを前提に、<br/><br/>CREAMテーマの標準機能を活かして、<strong>失敗しにくいECサイトをスピーディに構築</strong>します。<br/><br/>余計な機能や過剰なカスタマイズは行わず、<br/><br/>「まず売れるかどうかを試す」ための最小構成に絞っています。</p><h3>含まれる主な内容</h3><ul><li>Shopifyストアの初期セットアップ<br/></li><li>CREAMテーマを使用した基本デザイン構築<br/></li><li>商品・カテゴリの基本登録<br/></li><li>決済・配送・税設定<br/></li><li>テスト・公開サポート<br/></li></ul><h3>決済方法</h3><ul><li>Shopify Payments<br/></li></ul><h3>こんな方におすすめ</h3><ul><li>ECが初めての方<br/></li><li>まずは小さく始めたい方<br/></li><li>初期投資を抑えてテスト販売したい方</li></ul>",
