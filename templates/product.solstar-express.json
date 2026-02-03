@@ -96,7 +96,7 @@
         "image_layout": "stacked",
         "image_size": "normal",
         "mobile_image_style": "thumbs",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 90,
         "padding_bottom": 30
       }
