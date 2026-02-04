@@ -56,7 +56,7 @@
         "tabs": {
           "type": "tab_richtext",
           "settings": {
-            "show_description": true,
+            "show_description": false,
             "show_read_more": false,
             "title_1": "Basicプラン",
             "raw_content_1": "<h4><strong>まずECを始めたい、日々の更新をお任せしたいあなたへ</strong></h4><p>「ECサイトは開設できたけど、ここからどうすれば…」「商品登録やちょっとした修正に時間がかかって本業が進まない」そんなお悩みを解決する、スタートアップに最適なプランです。</p><p><strong>▼こんな方におすすめ</strong></p><ul><li>ECサイトの運営をプロに任せて、まずは事業を軌道に乗せたい方</li><li>商品登録やバナーの差し替えなど、日々の細かな更新作業から解放されたい方</li><li>コストを抑えながら、専門家による最低限のサポートを受けたい方</li></ul><p><strong>▼主なサポート内容</strong></p><ul><li><strong>月間稼働時間:</strong> 3時間</li><li><strong>商品登録・更新:</strong> 月5点まで</li><li><strong>デザイン調整:</strong> テキスト修正や画像の差し替えなど、軽微な調整</li><li><strong>SEO内部対策:</strong> 基本的な構造最適化</li></ul><p>このプランで、あなたは面倒な更新作業から解放され、商品開発やマーケティングといった「事業のコア業務」に集中できるようになります。プロがストアの基本をしっかり支えるので、安心してビジネスの第一歩を踏み出せます。</p>",
