@@ -90,7 +90,7 @@
       "settings": {
         "product_sticky_enable": true,
         "variant_image_scroll": true,
-        "show_cart_bar": true,
+        "show_cart_bar": false,
         "enable_zoom": true,
         "enable_video_looping": false,
         "image_layout": "stacked",
