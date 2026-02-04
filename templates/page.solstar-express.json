@@ -170,72 +170,6 @@
         "padding_bottom": 100
       }
     },
-    "section_custom_content_LwmMDj": {
-      "type": "section-custom-content",
-      "blocks": {
-        "text_EXtxpA": {
-          "type": "text",
-          "settings": {
-            "subheading": "",
-            "title": "自社ECサイト検討時につまずきやすい3つの壁",
-            "heading_font_size": "heading-x-large",
-            "text": "<h4><strong>1. </strong>初期費用のハードルが高い</h4><p>高品質なECサイトを構築しようとすると、初期費用は100万円以上が一般的。限られた資金で事業を回す立場にとっては、大きなリスクになります。</p><p>　</p><h4><strong>2. </strong>日常業務で手一杯になっている</h4><p>日々の業務に追われ、自社ECサイトの準備や運用まで手が回らない。「後でやろう」と思っているうちに、時間だけが過ぎていきます。</p><p>　</p><h4><strong>3. 専任の</strong>EC担当者がいない</h4><p>「自社ECサイトをやった方がいい」と分かってはいても、社内に任せられるEC担当者がいない。その結果、「今はまだ動けない」「もう少し余裕ができてから」と、始めるタイミングを先延ばしにしてしまいます。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_social_links": false,
-            "text_columns": 1,
-            "align_text": "text-left",
-            "bg_color": "",
-            "color": "",
-            "heading_tag": "h2"
-          }
-        },
-        "image_HP9YGj": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SOLSTAR_EXPRESS_Hero_image_4_copy_a67f7c7c-1a19-414a-a973-07b7f2340fe4.webp",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_EXtxpA",
-        "image_HP9YGj"
-      ],
-      "disabled": true,
-      "name": "Text with Banner (Custom)",
-      "settings": {
-        "borders": false,
-        "gutters": false,
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
     "section_custom_code_w6tfFf": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -1326,7 +1260,6 @@
     "main",
     "section_hero_ij9iAB",
     "section_rich_text_RQU3dK",
-    "section_custom_content_LwmMDj",
     "section_custom_code_w6tfFf",
     "section_double_MDk6CF",
     "section_custom_code_rjHKWi",
