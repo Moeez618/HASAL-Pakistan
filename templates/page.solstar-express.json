@@ -905,6 +905,63 @@
         "padding_bottom": 0
       }
     },
+    "section_double_jzjTnE": {
+      "type": "section-double",
+      "blocks": {
+        "heading_7VWPfU": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_h7AdcH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>株式会社SOLSTARは、Shopifyを専門に、ブランドの成長フェーズに合わせたECサイトの構築・運営を支援するパートナーです。 <br/><br/>立ち上げ・検証段階から、事業成長を見据えたECリニューアル、 さらには越境ECを前提としたグローバル展開まで。<br/>私たちは、ブランドが置かれている状況や判断フェーズに向き合いながら、 「今、どこまで作るべきか」「何に投資すべきか」を共に考え、成果につながるECをShopifyで形にします。 <br/><br/>これまでに、 開発費10億円超の大規模ECサイトや、 年間売上60億円以上のShopify Plusサイトの構築・運用を手がけ、 幅広い業種・事業規模のECに対応してきました。 <br/><br/>パフォーマンス、使いやすさ、デザイン性を両立させながら、 無駄な開発や運用コストを抑え、 事業として継続的に成長できるECサイトを提供しています。 <br/><br/>また、Shopifyアカデミー認定資格を多数保有し、 専門知識と実践経験に基づいた最適なソリューションを提供しています。<br/><br/>今後も、進化し続けるShopifyの機能や仕組みを的確に取り入れながら、国内外でブランドの価値を届け、運用し続けられるECを、パートナーとして共に築いてまいります。<br/><br/>今後ともご支援のほど、よろしくお願い申し上げます。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_yyXRhG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "代表取締役　島袋　隼",
+            "padding_bottom": 16
+          }
+        },
+        "subheading_7Xr9fw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "サンディエゴ州立大学 経済学部 卒業",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_7VWPfU",
+        "text_h7AdcH",
+        "subheading_yyXRhG",
+        "subheading_7Xr9fw"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/20240930_Shimabukuro_sama-24703.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_accordion_group_cHfTyA": {
       "type": "section-accordion-group",
       "blocks": {
@@ -1176,6 +1233,7 @@
     "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
     "section_custom_content_6DpRDR",
+    "section_double_jzjTnE",
     "section_accordion_group_cHfTyA",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
