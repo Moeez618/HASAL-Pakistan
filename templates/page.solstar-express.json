@@ -364,7 +364,7 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": true,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "text_slide_PJPzTz": {
@@ -381,7 +381,7 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "text_slide_gJNBBG": {
@@ -398,7 +398,7 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "text_slide_xQxVDq": {
@@ -415,7 +415,7 @@
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
-            "heading_tag": "automatic"
+            "heading_tag": "h3"
           }
         },
         "text_slide_rBgBGf": {
