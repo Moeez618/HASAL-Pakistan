@@ -8997,6 +8997,32 @@ ticker-bar[paused] .ticker--animated {
   display: inline-block;
   vertical-align: middle;
   transition: color 0.3s linear;
+  position: relative;
+  --bc-main: var(--link);
+  --bc-hover: var(--link-a70, var(--text));
+  background-image: linear-gradient(to right, var(--bc-hover) 0% 50%, var(--bc-main) 50% 100%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+}
+.breadcrumbs a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 1px;
+  width: 100%;
+  pointer-events: none;
+  background: linear-gradient(to right, var(--bc-hover) 0% 50%, var(--bc-main) 50% 100%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+@media (hover: hover) {
+  .breadcrumbs a:hover,
+  .breadcrumbs a:hover::after {
+    background-position: 0 0;
+  }
 }
 
 .breadcrumbs--no-padding {
