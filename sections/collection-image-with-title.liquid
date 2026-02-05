@@ -74,6 +74,16 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-image-with-title"
 >
+  {%- if template.name == 'collection' -%}
+    {%- assign breadcrumb_class = '' -%}
+    {%- if section.settings.flex_align contains 'center' -%}
+      {%- assign breadcrumb_class = 'breadcrumbs--center' -%}
+    {%- endif -%}
+    <div class="wrapper">
+      {%- render 'breadcrumbs', breadcrumbs_modifier: breadcrumb_class -%}
+    </div>
+  {%- endif -%}
+
   {%- if collection.image and section.settings.show_image -%}
     {%- if banner_layout == 'inline' -%}
       <div class="collection__image-inline">

@@ -42,6 +42,10 @@
     data-section-type="cart"
     data-cart-page
   >
+    {%- if template.name == 'cart' -%}
+      {%- render 'breadcrumbs' -%}
+    {%- endif -%}
+
     <div class="cart__empty" data-cart-empty>
       <h1
         class="cart__title body-medium"

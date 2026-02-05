@@ -24,6 +24,12 @@
   data-section-type="blog"
 >
   <div class="wrapper--full-padded">
+    {%- if template.name == 'blog' -%}
+      <div class="wrapper">
+        {%- render 'breadcrumbs' -%}
+      </div>
+    {%- endif -%}
+
     {%- if section.settings.show_title or section.settings.show_rss -%}
       <h1 class="blog__title h2">
         {%- if section.settings.show_title -%}
