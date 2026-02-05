@@ -10,43 +10,45 @@
   {% endif %}
 >
   <div class="product__price__wrap">
-    <div id="Price-{{ section_id }}" role="status" {{ block.shopify_attributes }}>
-      {%- render 'price',
-        product: product,
-        onboarding_product: onboarding_product,
-        use_variant: true,
-        show_badges: true,
-        price_font_size: block.settings.text_font_size,
-        price_class: 'price--large'
-      -%}
-    </div>
-
-    {%- assign show_shipping_policy_source = show_shipping_policy -%}
-    {%- if show_shipping_policy_source == nil and block != blank -%}
-      {%- assign show_shipping_policy_source = block.settings.show_shipping_policy -%}
-    {%- endif -%}
-    {%- assign show_shipping_policy = true -%}
-    {%- if show_shipping_policy_source == false or show_shipping_policy_source == 'false' or show_shipping_policy_source == 0 or show_shipping_policy_source == '0' -%}
-      {%- assign show_shipping_policy = false -%}
-    {%- endif -%}
-    {%- assign show_shipping_policy_and_available = false -%}
-    {%- if shop.shipping_policy.body != blank and show_shipping_policy -%}
-      {%- assign show_shipping_policy_and_available = true -%}
-    {%- endif -%}
-    {%- if cart.taxes_included or cart.duties_included or show_shipping_policy_and_available -%}
-      <div class="product__tax caption rte">
-        {%- if cart.duties_included and cart.taxes_included -%}
-          {{ 'products.product.duties_and_taxes_included' | t }}
-        {%- elsif cart.taxes_included -%}
-          {{ 'products.product.taxes_included' | t }}
-        {%- elsif cart.duties_included -%}
-          {{ 'products.product.duties_included' | t }}
-        {%- endif -%}
-        {%- if show_shipping_policy_and_available -%}
-          {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
-        {%- endif -%}
+    <div class="product__price-line">
+      <div id="Price-{{ section_id }}" role="status" {{ block.shopify_attributes }}>
+        {%- render 'price',
+          product: product,
+          onboarding_product: onboarding_product,
+          use_variant: true,
+          show_badges: true,
+          price_font_size: block.settings.text_font_size,
+          price_class: 'price--large'
+        -%}
       </div>
-    {%- endif -%}
+
+      {%- assign show_shipping_policy_source = show_shipping_policy -%}
+      {%- if show_shipping_policy_source == nil and block != blank -%}
+        {%- assign show_shipping_policy_source = block.settings.show_shipping_policy -%}
+      {%- endif -%}
+      {%- assign show_shipping_policy = true -%}
+      {%- if show_shipping_policy_source == false or show_shipping_policy_source == 'false' or show_shipping_policy_source == 0 or show_shipping_policy_source == '0' -%}
+        {%- assign show_shipping_policy = false -%}
+      {%- endif -%}
+      {%- assign show_shipping_policy_and_available = false -%}
+      {%- if shop.shipping_policy.body != blank and show_shipping_policy -%}
+        {%- assign show_shipping_policy_and_available = true -%}
+      {%- endif -%}
+      {%- if cart.taxes_included or cart.duties_included or show_shipping_policy_and_available -%}
+        <div class="product__tax caption rte">
+          {%- if cart.duties_included and cart.taxes_included -%}
+            {{ 'products.product.duties_and_taxes_included' | t }}
+          {%- elsif cart.taxes_included -%}
+            {{ 'products.product.taxes_included' | t }}
+          {%- elsif cart.duties_included -%}
+            {{ 'products.product.duties_included' | t }}
+          {%- endif -%}
+          {%- if show_shipping_policy_and_available -%}
+            {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
 
     {% if product != blank %}
       <div class="shop-pay-terms" {{ block.shopify_attributes }}>
