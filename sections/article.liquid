@@ -40,7 +40,7 @@
   <div class="article__hero text-center">
     <div class="wrapper">
       {%- if template.name == 'article' -%}
-        {%- render 'breadcrumbs' -%}
+        {%- render 'breadcrumbs', breadcrumbs_modifier: 'breadcrumbs--center' -%}
       {%- endif -%}
 
       <h2 class="article__title h2">{{ article.title }}</h2>

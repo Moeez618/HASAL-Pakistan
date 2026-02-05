@@ -9003,6 +9003,14 @@ ticker-bar[paused] .ticker--animated {
   padding: 0;
 }
 
+.breadcrumbs--center {
+  justify-content: center;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
 .breadcrumbs__arrow {
   width: 4px;
   height: 4px;

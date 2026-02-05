@@ -18,7 +18,11 @@
     <div class="hero__content__wrapper {{ section.settings.align_text }} {{ section.settings.width }}">
       <div class="hero__content hero__content--compact">
         {%- if template.name == 'page' -%}
-          {%- render 'breadcrumbs' -%}
+          {%- assign breadcrumb_class = '' -%}
+          {%- if section.settings.align_text == 'text-center' -%}
+            {%- assign breadcrumb_class = 'breadcrumbs--center' -%}
+          {%- endif -%}
+          {%- render 'breadcrumbs', breadcrumbs_modifier: breadcrumb_class -%}
         {%- endif -%}
 
         {%- if section.settings.subheading != blank -%}
