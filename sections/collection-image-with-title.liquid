@@ -74,6 +74,12 @@
   data-section-id="{{ section.id }}"
   data-section-type="collection-image-with-title"
 >
+  {%- if template.name == 'collection' -%}
+    <div class="wrapper">
+      {%- render 'breadcrumbs' -%}
+    </div>
+  {%- endif -%}
+
   {%- if collection.image and section.settings.show_image -%}
     {%- if banner_layout == 'inline' -%}
       <div class="collection__image-inline">

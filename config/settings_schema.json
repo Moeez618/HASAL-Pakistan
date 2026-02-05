@@ -643,6 +643,12 @@
       },
       {
         "type": "checkbox",
+        "id": "show_breadcrumbs",
+        "label": "Show breadcrumbs",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "product_grid_outline",
         "label": "Enable borders",
         "default": true,

@@ -40,6 +40,12 @@
   data-section-id="{{ section.id }}"
   data-section-type="list-collections"
 >
+  {%- if template.name == 'list-collections' -%}
+    <div class="wrapper">
+      {%- render 'breadcrumbs' -%}
+    </div>
+  {%- endif -%}
+
   {%- if heading != blank -%}
     {%- liquid
       assign heading_tag = 'h2'

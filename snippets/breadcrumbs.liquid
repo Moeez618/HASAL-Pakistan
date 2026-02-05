@@ -1,3 +1,5 @@
+{% unless settings.show_breadcrumbs == false %}
+
 {% assign breadcrumbs_modifier = breadcrumbs_modifier | default: '' %}
 
 {% capture divider_html %}
@@ -23,3 +25,5 @@
 
   <span>{{- page_title -}}</span>
 </nav>
+
+{% endunless %}
