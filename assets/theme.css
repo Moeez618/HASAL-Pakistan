@@ -13550,6 +13550,13 @@ body:has([data-header-transparent]):has(.main-content > .shopify-section.section
   justify-content: flex-start;
 }
 
+.product__price-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
 .product__price {
   display: flex;
   align-items: center;
@@ -13579,6 +13586,10 @@ body:has([data-header-transparent]):has(.main-content > .shopify-section.section
 .product__price--sale {
   margin-right: 10px;
   color: var(--COLOR-SALE);
+}
+
+.product__tax {
+  margin: 0;
 }
 
 .product__price--off {
