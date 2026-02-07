@@ -114,15 +114,7 @@
         "text_NK7Htb": {
           "type": "text",
           "settings": {
-            "text": "<p>限られた時間と予算の中で、「自社ECを始めたい」とは思っている。</p><p>　</p><p>でも、専任のEC担当者を置く余裕はない。</p><p>　</p><p>結局は本業の合間に触るしかなく、「また今度でいいか」と後回しになってしまう。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 50
-          }
-        },
-        "text_9TVpFy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>そんな状態が続いていませんか？</p>",
+            "text": "<p>限られた時間と予算の中で、「自社ECを始めたい」とは思っている。　</p><p>でも、専任のEC担当者を置く余裕はない。</p><p>結局は本業の合間に触るしかなく、「また今度でいいか」と後回しになってしまう。</p><p>そんな状態が続いていませんか？</p>",
             "text_font_size": "body-large",
             "padding_bottom": 50
           }
@@ -140,7 +132,7 @@
           "settings": {
             "text": "<p>理由はシンプルです。</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 30
+            "padding_bottom": 6
           }
         },
         "text_RNRX8y": {
@@ -155,7 +147,6 @@
       "block_order": [
         "heading_8xAyyR",
         "text_NK7Htb",
-        "text_9TVpFy",
         "text_ThLxeR",
         "text_TmwyHn",
         "text_RNRX8y"
