@@ -158,7 +158,7 @@
         "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 100
+        "padding_bottom": 26
       }
     },
     "section_custom_code_w6tfFf": {
@@ -216,7 +216,7 @@
         "mobile_height": "four-fifty-height-hero--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 50,
+        "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
       }
