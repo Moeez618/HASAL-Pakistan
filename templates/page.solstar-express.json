@@ -138,7 +138,7 @@
         "text_RNRX8y": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>ECサイトには、時間・人手・予算と、想像以上に高いハードルがあるからです。</strong></p>",
+            "text": "<p><strong>ECサイトには、「時間・人手・予算」と、想像以上に高いハードルがあるからです。</strong></p>",
             "text_font_size": "body-x-large",
             "padding_bottom": 16
           }
