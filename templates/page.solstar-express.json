@@ -99,35 +99,6 @@
         "show_placeholder": true
       }
     },
-    "section_video_H6t3hY": {
-      "type": "section-video",
-      "name": "Video",
-      "settings": {
-        "show_video_popup": true,
-        "video_popup_social": "https://youtu.be/ydV79fOPG5o",
-        "title": "Video",
-        "heading_font_size": "heading-large",
-        "text": "<p>Tell your brand's story through images.</p>",
-        "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
-        "link_text": "",
-        "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "show_text_background": false,
-        "color": "",
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
-      }
-    },
     "section_rich_text_RQU3dK": {
       "type": "section-rich-text",
       "blocks": {
@@ -1225,7 +1196,6 @@
   "order": [
     "main",
     "section_hero_ij9iAB",
-    "section_video_H6t3hY",
     "section_rich_text_RQU3dK",
     "section_custom_code_w6tfFf",
     "section_double_MDk6CF",
