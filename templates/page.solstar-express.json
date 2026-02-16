@@ -103,7 +103,7 @@
       "type": "section-video",
       "name": "Video",
       "settings": {
-        "show_video_popup": false,
+        "show_video_popup": true,
         "video_popup_social": "https://youtu.be/ydV79fOPG5o",
         "title": "Video",
         "heading_font_size": "heading-large",
