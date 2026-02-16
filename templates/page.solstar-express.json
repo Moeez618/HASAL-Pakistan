@@ -99,6 +99,17 @@
         "show_placeholder": true
       }
     },
+    "section_custom_code_jagiBF": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<div class=\"solstar-video-container\">\n  \n  <div class=\"solstar-text-wrapper\">\n    <h2>動画でSOLSTAR EXPRESSの概要を知る</h2>\n    \n    <p>当サービスを8分程度でわかりやすく解説している動画となっています。</p>\n  </div>\n\n  <div class=\"youtube-facade\" data-id=\"ydV79fOPG5o\" aria-label=\"動画を再生する\">\n    <img src=\"https://img.youtube.com/vi/ydV79fOPG5o/maxresdefault.jpg\" alt=\"SOLSTAR EXPRESS 概要動画\" loading=\"lazy\">\n    \n    <div class=\"play-button\">\n      <svg viewBox=\"0 0 68 48\" width=\"68\" height=\"48\">\n        <path class=\"play-bg\" d=\"M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z\"></path>\n        <path class=\"play-icon\" d=\"M 45,24 27,14 27,34\" fill=\"#FFFFFF\"></path>\n      </svg>\n    </div>\n  </div>\n\n</div>\n\n<style>\n  /* 全体のコンテナ設定 */\n  .solstar-video-container {\n    max-width: 1000px; /* 必要に応じて変更してください */\n    margin: 40px auto;\n    padding: 0 20px;\n    font-family: inherit; /* ストアのフォントを継承 */\n    text-align: center;\n  }\n\n  /* 見出しのデザイン */\n  .solstar-text-wrapper h2 {\n    font-size: 24px;\n    font-weight: bold;\n    margin-bottom: 10px;\n    line-height: 1.4;\n    color: #333; /* ストアのデザインに合わせて変更可 */\n  }\n\n  /* 説明文のデザイン */\n  .solstar-text-wrapper p {\n    font-size: 16px;\n    margin-bottom: 25px;\n    color: #555;\n  }\n\n  /* 動画枠（16:9比率の維持） */\n  .youtube-facade {\n    position: relative;\n    width: 100%;\n    padding-bottom: 56.25%; /* 16:9 アスペクト比 */\n    background-color: #000;\n    cursor: pointer;\n    overflow: hidden;\n    border-radius: 8px; /* 角丸（お好みで削除可） */\n  }\n\n  /* 画像とiframeの配置 */\n  .youtube-facade img,\n  .youtube-facade iframe {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    object-fit: cover;\n    border: none;\n  }\n\n  /* 再生ボタンの位置とスタイル */\n  .play-button {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    z-index: 2;\n    transition: opacity 0.2s ease;\n  }\n\n  /* YouTube風ボタンの色 */\n  .play-bg {\n    fill: #FF0000; /* YouTubeレッド */\n    opacity: 0.9;\n    transition: fill 0.1s;\n  }\n\n  /* ホバー時のエフェクト */\n  .youtube-facade:hover .play-bg {\n    fill: #CC0000;\n    opacity: 1;\n  }\n</style>\n\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    var videoContainers = document.querySelectorAll('.youtube-facade');\n\n    videoContainers.forEach(function(container) {\n      container.addEventListener('click', function() {\n        var videoId = this.getAttribute('data-id');\n        \n        // iframeの作成\n        var iframe = document.createElement('iframe');\n        // rel=0で再生後の関連動画を自チャンネルに限定（または非表示に近い挙動）\n        iframe.setAttribute('src', 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&rel=0');\n        iframe.setAttribute('frameborder', '0');\n        iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture');\n        iframe.setAttribute('allowfullscreen', 'true');\n        \n        // 中身をiframeに入れ替え\n        this.innerHTML = '';\n        this.appendChild(iframe);\n      });\n    });\n  });\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_RQU3dK": {
       "type": "section-rich-text",
       "blocks": {
@@ -1196,6 +1207,7 @@
   "order": [
     "main",
     "section_hero_ij9iAB",
+    "section_custom_code_jagiBF",
     "section_rich_text_RQU3dK",
     "section_custom_code_w6tfFf",
     "section_double_MDk6CF",
