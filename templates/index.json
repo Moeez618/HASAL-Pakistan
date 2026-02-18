@@ -229,8 +229,8 @@
         "text_pFPjzP": {
           "type": "text",
           "settings": {
-            "text": "<p>Cream by Solstar の無償体験</p>",
-            "text_font_size": "body-large",
+            "text": "<p><strong>すべての機能を完全無料でお試しいただけます。</strong></p>",
+            "text_font_size": "body-medium",
             "padding_bottom": 8
           }
         },
