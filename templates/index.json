@@ -206,6 +206,73 @@
         "show_placeholder": true
       }
     },
+    "section_hero_ywHUVn": {
+      "type": "section-hero",
+      "blocks": {
+        "text_6mTxMf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>オリジナルShopifyテーマ</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
+          }
+        },
+        "heading_hAURjE": {
+          "type": "heading",
+          "settings": {
+            "title": "Cream by Solstar",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_PzkdL8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>すべての機能を完全無料でお試しいただけます。</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 8
+          }
+        },
+        "button_FFFgqn": {
+          "type": "button",
+          "settings": {
+            "link_text": "詳細を見る",
+            "link": "shopify://pages/cream-by-solstar",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "text_6mTxMf",
+        "heading_hAURjE",
+        "text_PzkdL8",
+        "button_FFFgqn"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/Standard_plan_image_Vertical_copy.webp",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--top-center-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_hero_YVaiij": {
       "type": "section-hero",
       "blocks": {
@@ -254,6 +321,7 @@
         "text_pFPjzP",
         "button_meBTQz"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/Homepage_Section_Image.webp",
@@ -554,65 +622,6 @@
         "padding_bottom": 0,
         "heading_tag": "h2",
         "title_tag": "automatic"
-      }
-    },
-    "section_hero_ywHUVn": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_hAURjE": {
-          "type": "heading",
-          "settings": {
-            "title": "Standardプラン",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic",
-            "padding_bottom": 8
-          }
-        },
-        "text_PzkdL8": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ブランドの世界観を表現するデザインと</strong></p><p><strong>スムーズな購入体験を重視したECサイト</strong></p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 8
-          }
-        },
-        "button_FFFgqn": {
-          "type": "button",
-          "settings": {
-            "link_text": "詳細を見る",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "full_width": false,
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "heading_hAURjE",
-        "text_PzkdL8",
-        "button_FFFgqn"
-      ],
-      "disabled": true,
-      "name": "Image banner",
-      "settings": {
-        "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "flex_align_desktop": "align--middle-left-desktop",
-        "content_width": 50,
-        "mobile_image": "shopify://shop_images/Standard_plan_image_Vertical_copy.webp",
-        "mobile_height": "image-height--mobile",
-        "flex_align_mobile": "align--top-center-mobile",
-        "color_scheme": "scheme-10",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "section_accordion_tjkJbb": {
@@ -1023,6 +1032,7 @@
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
     "section_hero_FVYjLg",
+    "section_hero_ywHUVn",
     "section_hero_YVaiij",
     "section_double_AptAaD",
     "section_multicolumn_YVyPLA",
@@ -1031,7 +1041,6 @@
     "section_custom_code_YPEkCV",
     "section_custom_code_AaQ3Ee",
     "section_blog_FtdhjN",
-    "section_hero_ywHUVn",
     "section_accordion_tjkJbb",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
