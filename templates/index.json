@@ -188,6 +188,7 @@
         "text_KX9Wwi",
         "button_praaLn"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/Homepage_image_2.webp",
@@ -266,73 +267,6 @@
         "mobile_height": "image-height--mobile",
         "flex_align_mobile": "align--top-left-mobile",
         "color_scheme": "scheme-10",
-        "show_text_background": false,
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
-    "section_hero_YVaiij": {
-      "type": "section-hero",
-      "blocks": {
-        "text_rYhPmd": {
-          "type": "text",
-          "settings": {
-            "text": "<p>オリジナルShopifyテーマ</p>",
-            "text_font_size": "body-small",
-            "padding_bottom": 8
-          }
-        },
-        "heading_TatxF8": {
-          "type": "heading",
-          "settings": {
-            "title": "Cream by Solstarの無償体験",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic",
-            "padding_bottom": 8
-          }
-        },
-        "text_pFPjzP": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>すべての機能を完全無料でお試しいただけます。</strong></p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 8
-          }
-        },
-        "button_meBTQz": {
-          "type": "button",
-          "settings": {
-            "link_text": "詳しく見てみる",
-            "link": "shopify://pages/cream-by-solstar",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "full_width": false,
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "text_rYhPmd",
-        "heading_TatxF8",
-        "text_pFPjzP",
-        "button_meBTQz"
-      ],
-      "disabled": true,
-      "name": "Image banner",
-      "settings": {
-        "image_1": "shopify://shop_images/Homepage_Section_Image.webp",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 50,
-        "mobile_height": "image-height--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "",
         "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
@@ -455,6 +389,7 @@
         "icon_GARgGW",
         "icon_NLgcEe"
       ],
+      "disabled": true,
       "name": "Multi column",
       "settings": {
         "title": "株式会社SOLSTARの魅力",
@@ -1033,7 +968,6 @@
     "section_rich_text_LBH8Lm",
     "section_hero_FVYjLg",
     "section_hero_ywHUVn",
-    "section_hero_YVaiij",
     "section_double_AptAaD",
     "section_multicolumn_YVyPLA",
     "section_double_qaxP3k",
