@@ -206,50 +206,70 @@
         "show_placeholder": true
       }
     },
-    "section_text_promo_34dRqK": {
-      "type": "section-text-promo",
+    "section_hero_YVaiij": {
+      "type": "section-hero",
       "blocks": {
-        "heading_8M4diJ": {
-          "type": "heading",
-          "settings": {
-            "title": "Cream by Solstar の無償体験",
-            "heading_font_size": "heading-medium",
-            "heading_tag": "h2"
-          }
-        },
-        "text_rKKgGJ": {
+        "text_rYhPmd": {
           "type": "text",
           "settings": {
-            "text": "<p>すべての機能を完全無料でお試しいただけます。</p>",
-            "text_font_size": "body-medium"
+            "text": "<p>オリジナルShopifyテーマ</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
           }
         },
-        "button_YEjJ3k": {
+        "heading_TatxF8": {
+          "type": "heading",
+          "settings": {
+            "title": "Cream by Solstarの無償体験",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_pFPjzP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cream by Solstar の無償体験</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_meBTQz": {
           "type": "button",
           "settings": {
-            "button_text": "詳しく見てみる",
-            "button_url": "shopify://pages/cream-by-solstar",
+            "link_text": "詳しく見てみる",
+            "link": "shopify://pages/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": true
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
           }
         }
       },
       "block_order": [
-        "heading_8M4diJ",
-        "text_rKKgGJ",
-        "button_YEjJ3k"
+        "text_rYhPmd",
+        "heading_TatxF8",
+        "text_pFPjzP",
+        "button_meBTQz"
       ],
-      "name": "Text promo",
+      "name": "Image banner",
       "settings": {
-        "border": false,
-        "width": "wrapper",
-        "color_scheme": "scheme-2",
+        "image_1": "shopify://shop_images/Homepage_Section_Image.webp",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
         "overlay_type": "disabled",
-        "inner_padding": 50,
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_double_AptAaD": {
@@ -1003,7 +1023,7 @@
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
     "section_hero_FVYjLg",
-    "section_text_promo_34dRqK",
+    "section_hero_YVaiij",
     "section_double_AptAaD",
     "section_multicolumn_YVyPLA",
     "section_double_qaxP3k",
