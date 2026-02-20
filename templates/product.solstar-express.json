@@ -112,6 +112,134 @@
         "padding_bottom": 30
       }
     },
+    "section_accordion_group_RfdphH": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading_fqFHrF": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "question_AAYnr7": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "本当にECの知識がなくても大丈夫ですか？",
+            "content": "<p><strong>はい、問題ありません。</strong>ECサイトの設計、構築から公開までを弊社が主導して進めるため、専門知識がなくても安心してご利用いただけます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_68GHE9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "どこまでをSOLSTARが対応してくれますか？",
+            "content": "<p>ECサイトの<strong>設計・構築・初期設定・公開</strong>までを一貫して対応します。公開後も、弊社にて更新・運用を行います。<br/><br/>商品の在庫管理や出荷、CS対応などは、お客様対応となります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_6BBRPq": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "30日間キャッシュバックの条件を教えてください",
+            "content": "<p>ご契約後30日以内に、サービス内容にご納得いただけなかった場合、<strong>初期費用および月額費用を返金</strong>いたします。<br/><br/>専属の担当者へメールにて解約の旨ご連絡頂ければと思います。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_kbQG6E": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shopifyの有料テーマは別途購入が必要ですか？",
+            "content": "<p>弊社が提供するオリジナルテーマ「CREAM」をご利用される場合は、有料テーマの購入は不要です。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_rmipN3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "初期費用と月額料金以外に、追加費用はかかりますか？",
+            "content": "<p>基本的な構築・運用範囲については、<strong>追加費用は発生致しません</strong>。<br/><br/>ただし、大幅な仕様変更や特別なカスタマイズ、外部有料アプリの導入などをご希望の場合は、別途費用が発生することがあります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_Y6wwcd": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "どれくらいの期間でECサイトは公開できますか？",
+            "content": "<p>最短２週間で公開可能です。ただし、設計調整やキービジュアル制作などを含めた場合、<strong>平均的には約1〜2ヶ月程度</strong>を想定頂けますと幸いです。</p><p>商品情報や素材のご提出状況によって前後する場合はありますが、スピード感を重視し、可能な限り早く公開できるよう進行致します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_ATA7He": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "商品点数が少なくても利用できますか？",
+            "content": "<p>はい、問題ありません。<br/><br/>SOLSTAR EXPRESSは、<strong>商品数が少ない立ち上げ初期フェーズ</strong>に最適化されたサービスです。<br/><br/>まずは売れるかを検証し、段階的に拡張していくことが可能です。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_mCALNd": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "途中で解約することはできますか？",
+            "content": "<p><strong>30日間のキャッシュバック期間中であれば、解約が可能です。</strong><br/><br/>SOLSTAR EXPRESSの契約期間は<strong>最低1年間</strong>となりますが、ご契約から1年経過後は<strong>月ごとの契約</strong>となり、解約をご希望の場合はお申し出いただけますと幸いです。</p><p>なお、最低契約期間中（キャッシュバック期間終了後）の解約はお受けしておりませんので、あらかじめご了承ください。<br/><br/>詳細な条件や手続きについては、ご契約時に書面にてご案内致します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_fqFHrF",
+        "question_AAYnr7",
+        "question_68GHE9",
+        "question_6BBRPq",
+        "question_kbQG6E",
+        "question_rmipN3",
+        "question_Y6wwcd",
+        "question_ATA7He",
+        "question_mCALNd"
+      ],
+      "name": "Accordion group",
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "related": {
       "type": "related",
       "blocks": {
@@ -151,6 +279,7 @@
   "order": [
     "main",
     "section_custom_code_try4Fq",
+    "section_accordion_group_RfdphH",
     "related"
   ]
 }
