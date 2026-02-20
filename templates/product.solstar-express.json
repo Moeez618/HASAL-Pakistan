@@ -126,6 +126,17 @@
         "padding_bottom": 30
       }
     },
+    "section_divider_GBrD7J": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_custom_code_w73kwN": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -418,6 +429,7 @@
   "order": [
     "main",
     "section_custom_code_try4Fq",
+    "section_divider_GBrD7J",
     "section_custom_code_w73kwN",
     "section_double_slider_JMwHDJ",
     "section_accordion_group_RfdphH",
