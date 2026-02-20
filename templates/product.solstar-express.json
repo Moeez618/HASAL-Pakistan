@@ -38,6 +38,19 @@
             "padding_bottom": 16
           }
         },
+        "features_fgRdhU": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-donation",
+            "icon_size": 20,
+            "title": "30日間の返金保証",
+            "text_font_size": "body-medium",
+            "text": "<p>万が一、サービス内容にご納得いただけなかった場合は、<strong>初期費用および月額費用を返金</strong>致します。</p>",
+            "bg_color": "",
+            "color": "",
+            "padding_bottom": 0
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -50,19 +63,6 @@
             "button_size_dynamic": "btn--large",
             "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
-            "padding_bottom": 0
-          }
-        },
-        "features_fgRdhU": {
-          "type": "features",
-          "settings": {
-            "icon_name": "icon-donation",
-            "icon_size": 20,
-            "title": "30日間の返金保証",
-            "text_font_size": "body-medium",
-            "text": "<p>万が一、サービス内容にご納得いただけなかった場合は、<strong>初期費用および月額費用を返金</strong>致します。</p>",
-            "bg_color": "",
-            "color": "",
             "padding_bottom": 0
           }
         },
@@ -96,8 +96,8 @@
         "title",
         "price",
         "variants",
-        "buttons",
         "features_fgRdhU",
+        "buttons",
         "tabs",
         "divider_1"
       ],
