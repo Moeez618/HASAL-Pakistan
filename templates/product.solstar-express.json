@@ -148,120 +148,6 @@
         "padding_bottom": 0
       }
     },
-    "section_double_slider_JMwHDJ": {
-      "type": "section-double-slider",
-      "blocks": {
-        "text_slide_MkckyT": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 01",
-            "title": "お問い合わせ",
-            "heading_font_size": "heading-x-large",
-            "text": "<p>「自社ECを始めたいけど、何から相談すればいいかわからない」そんな段階でも問題ありません。まずはお問い合わせいただき、状況を整理するところからサポートします。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_PywwTE": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 02",
-            "title": "無料ヒアリング",
-            "heading_font_size": "heading-x-large",
-            "text": "<p>事業内容や商品、現在の課題、ECで実現したいゴールをお伺いし、立ち上げ初期に必要な範囲を整理します。</p><p>ヒアリング内容をもとに、最適なSOLSTAR EXPRESSプランをご提案・お見積りとなります。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_yDT73f": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 03",
-            "title": "ご契約",
-            "heading_font_size": "heading-x-large",
-            "text": "<p>ヒアリング内容とご提案・お見積りにご納得いただけましたら、電子契約にて正式にご契約となります。</p><p>契約内容や条件についても事前に丁寧にご説明しますので、ご安心して頂ければと思います。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_fgKcw3": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 04",
-            "title": "ECサイト構築",
-            "heading_font_size": "heading-x-large",
-            "text": "<p>ご契約完了後、速やかにECサイトの構築を開始します。</p><p>ディレクターが窓口となり、進捗や確認事項を共有しながら進行するため、専門知識がなくても安心してお任せいただけます。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_slide_YWprzg": {
-          "type": "text-slide",
-          "settings": {
-            "subheading": "STEP 05",
-            "title": "公開・支援開始",
-            "heading_font_size": "heading-x-large",
-            "text": "<p>構築完了後、Shopifyストアを公開し販売を開始します。</p><p>公開後も運用・更新・改善を継続的にサポートし、安心してEC運営を続けられる体制を提供します。</p>",
-            "text_font_size": "body-large",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "text_slide_MkckyT",
-        "text_slide_PywwTE",
-        "text_slide_yDT73f",
-        "text_slide_fgKcw3",
-        "text_slide_YWprzg"
-      ],
-      "name": "Image with text slider",
-      "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Infographic_copy.webp",
-        "image_width": "one-half",
-        "autoplay": true,
-        "autoplay_speed": 4,
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_accordion_group_RfdphH": {
       "type": "section-accordion-group",
       "blocks": {
@@ -431,7 +317,6 @@
     "section_custom_code_try4Fq",
     "section_divider_GBrD7J",
     "section_custom_code_w73kwN",
-    "section_double_slider_JMwHDJ",
     "section_accordion_group_RfdphH",
     "related"
   ]
