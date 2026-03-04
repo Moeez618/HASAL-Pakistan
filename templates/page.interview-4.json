@@ -1,0 +1,454 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "subheading": "株式会社SOLSTAR",
+        "show_title": true,
+        "heading_font_size": "heading-large",
+        "show_content": true,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h1"
+      }
+    },
+    "section_rich_text_ikmnxA": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_MjtNNA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "株式会社楽京",
+            "padding_bottom": 16
+          }
+        },
+        "heading_YUaz9r": {
+          "type": "heading",
+          "settings": {
+            "title": "「細かな点まで丁寧に対応していただき、安心して進めることができました。」",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MjtNNA",
+        "heading_YUaz9r"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "office": {
+      "type": "section-custom-content",
+      "blocks": {
+        "image-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fund_Plus.jpg",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "毎日の暮らしをアップデートする海外ガジェット＆生活雑貨専門EC",
+            "title": "FUND+公式ストア",
+            "heading_font_size": "heading-large",
+            "text": "<p>FUND+ は、海外製のアイテムを中心に生活雑貨・ガジェット・DIY用品など日常使いの商品を販売するECサイトです。 </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "https://fund-plus.com/",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "#0d0326",
+            "color": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image-0",
+        "text-1"
+      ],
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_announcement_axjVAR": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_k3q9qA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Fund_Logo.webp",
+            "image_width": 110
+          }
+        }
+      },
+      "block_order": [
+        "image_k3q9qA"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_hero_HhMXV4": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_XXDWa4": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image banner",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_6NkkKm": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Tell your brand's story through images.</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_XXDWa4",
+        "text_6NkkKm"
+      ],
+      "disabled": true,
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Screenshot_2026-02-03_at_10.44.14.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "content_width": 50,
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--bottom-left-mobile",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "story": {
+      "type": "section-custom-content",
+      "blocks": {
+        "story-1": {
+          "type": "text",
+          "settings": {
+            "subheading": "サカイ販促サポート株式会社",
+            "title": "インタビュー with 酒井様",
+            "heading_font_size": "heading-large",
+            "text": "<p><strong>SOLSTAR（以下、S）：今回ECサイトを構築しようと思ったきっかけ、または背景を教えてください。</strong></p><p>　</p><p>酒井様：きっかけは、御社からの営業提案でした。ちょうどECサイトを作ろうか踏み出せずにいたタイミングだったので、とても良い機会となりました。</p><p>背景としては、もともと他社ECプラットフォームでオンラインショップを運用していましたが、拡張性に限界を感じており、今後売上が伸びた際の取引手数料などを考慮して、Shopifyへの移行を決断しました。</p><p> </p><p><strong>S：Basicプランの構築サービスを利用した感想はいかがでしょうか？</strong></p><p>　</p><p>酒井様：商品数が少ないブランドには、Basicプランがちょうどよかったと感じています。無料テンプレートを使って国内向けに構築でき、費用を抑えながらも高品質なECサイトを作って頂けました。立ち上げたばかりのブランドには特に適したプランだと思います。デメリットは特に感じませんでした。</p><p> 　</p><p><strong>S：担当ディレクターの対応はいかがでしたか？</strong></p><p>　</p><p>酒井様：とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。専門的な設定や不明点についても調べて対応していただき、大変助かりました。</p><p> </p><p><strong>S：開発の進め方についてはいかがでしたか？</strong></p><p>　</p><p>酒井様：メールでのやり取りで進行しました。以前もShopifyの立ち上げ依頼をしたことがあったため、スムーズに進めることができました。ただ、初めての方にとってはExcelでの情報入力や、テクニカルな表記が少しわかりにくいかもしれません。ポリシー関連のテンプレートなどがあれば、よりスムーズになると思います。</p><p> </p><p><strong>S：納品までのスケジュールについてはいかがでしたか？</strong></p><p>　</p><p>酒井様：約2ヶ月で納品され、スケジュールに関して特に問題はありませんでした。</p><p> </p><p><strong>S：サービス全体を通して困ったことや、改善点があれば教えてください。</strong></p><p>　</p><p>酒井様：強いて言えば、Excelでの作業が少しわかりにくかったことぐらいです。それ以外は特に無かったです。</p><p> </p><p><strong>S：今後の活動について教えてください。</strong></p><p>　</p><p>酒井様：EDGEBLACKストアに関しては、売上アップに向けた施策に取り組んでいく予定です。ストア内のブログ記事など、コンテンツ制作にも力を入れ、SEO対策を強化していきたいと考えています。</p><p> </p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 2,
+            "align_text": "text-left",
+            "bg_color": "#f7f7f7",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "story-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "borders": false,
+        "gutters": false,
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_rich_text_yFinzB": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_VCNmQd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "株式会社楽京 代表取締役・趙様に、ECサイト構築のきっかけや、今後の取り組み・展望についてお話を伺いました。",
+            "padding_bottom": 16
+          }
+        },
+        "heading_BbzCwi": {
+          "type": "heading",
+          "settings": {
+            "title": "インタビュー with 趙様",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_h7pBhk": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>SOLSTAR(以下S）：</strong>今回、ECサイトを構築しようと思ったきっかけや背景を教えてください。</h4><h4>　</h4><p>趙様：これまで海外の商品を日本向けに販売しており、主な販路はMakuakeのみでした。しかし、販路が限定的であることに課題を感じており、またShopifyが国内でもメジャーになってきたことを背景に、自社ECサイトの構築を検討するようになりました。その中で、御社からの提案内容に納得し、本プロジェクトを進める決断に至りました。</p><h4><strong>　</strong></h4><h4><strong>S：</strong>SOLSTAR EXPRESSの構築サービスを利用した感想はいかがでしたか？</h4><h4>　</h4><p>趙様：ECサイトの立ち上げ経験がなく、テーマ選定や進め方が分からない状態でした。そのため、ECサイト構築を専門とする御社に依頼できたことは非常に心強く、大変助かりました。</p><p>　</p><h4><strong>S：</strong>担当ディレクターの対応はいかがでしたか？</h4><h4>　</h4><p>趙様：全体的にとても良かったと感じています。細かな点まで丁寧に対応していただき、安心して進めることができました。</p><p>　</p><h4><strong>S：</strong>開発の進め方についてはいかがでしたか？</h4><h4>　</h4><p>趙様：最初にキックオフミーティングを実施し、その後は主にメールでのやり取りでした。必要に応じてChatwork（チャットでのコミュニケーション）なども利用しても良いのかなと感じました。</p><h4><strong>　</strong></h4><h4><strong>S：</strong>納品までのスケジュールについてはいかがでしたか？</h4><h4>　</h4><p>趙様：ECサイトの土台をしっかり構築してもらえたため、特に大きな問題はありませんでした。あらかじめカテゴリーなども作成していただいていた点は、とても良かったです。</p><p>　</p><h4><strong>S：</strong>サービス全体を通して、困ったことや改善点があれば教えてください。</h4><h4>　</h4><p>趙様：ユーザー向けのマニュアルや操作手順があると、より助かると感じました。あわせて、テーマ機能（Cream by SOLSTAR）の説明資料などがあると、なお良いと思います。</p><p>　</p><h4><strong>S：</strong>今後の活動について教えてください。</h4><h4>　</h4><p>趙様：サイトは完成したばかりの段階ですが、今後は集客に力を入れていく必要があると感じています。広告戦略の検討や、既存顧客に向けたメールマーケティングなどにも取り組んでいきたいと考えています。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VCNmQd",
+        "heading_BbzCwi",
+        "text_h7pBhk"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_highlights_XLe6xn": {
+      "type": "section-highlights",
+      "blocks": {
+        "highlight_6KXj8m": {
+          "type": "highlight",
+          "settings": {
+            "heading": "弊社テーマを活用",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_QNWHhA": {
+          "type": "highlight",
+          "settings": {
+            "heading": "Instagram<br>アプリ実装",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_zUA3GF": {
+          "type": "highlight",
+          "settings": {
+            "heading": "カスタムデータ<br>活用",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        },
+        "highlight_McFWDt": {
+          "type": "highlight",
+          "settings": {
+            "heading": "新規ECサイト制作",
+            "url": "",
+            "color": "",
+            "bg_color": "",
+            "border_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_6KXj8m",
+        "highlight_QNWHhA",
+        "highlight_zUA3GF",
+        "highlight_McFWDt"
+      ],
+      "name": "Highlights",
+      "settings": {
+        "style": "rectangle",
+        "grid": 6,
+        "heading": "ストア構築のハイライト",
+        "heading_position": "text-center",
+        "heading_font_size": "heading-large",
+        "text_font_size": "body-medium",
+        "width": "wrapper--full-padded",
+        "layout_mobile": "2",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "contact_form_XARiPd": {
+      "type": "contact-form",
+      "blocks": {
+        "text_TLwQjX": {
+          "type": "text",
+          "settings": {
+            "title": "お名前",
+            "heading": "",
+            "required": true
+          }
+        },
+        "email_EyDQ7P": {
+          "type": "email",
+          "settings": {
+            "title": "メールアドレス",
+            "heading": "",
+            "required": true
+          }
+        },
+        "telephone_fxa9cA": {
+          "type": "telephone",
+          "settings": {
+            "title": "電話番号",
+            "heading": "",
+            "required": true
+          }
+        },
+        "text_HP3BLQ": {
+          "type": "text",
+          "settings": {
+            "title": "会社名",
+            "heading": "",
+            "required": false
+          }
+        },
+        "body_BYNV8g": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_V9h8hA": {
+          "type": "select",
+          "settings": {
+            "title": "問い合わせ種別",
+            "required": true,
+            "label-one": "",
+            "label-two": "国内ECサイト構築",
+            "label-three": "グローバルECサイト構築",
+            "label-four": "ECサイトリニューアル",
+            "label-five": "その他",
+            "label-six": ""
+          }
+        },
+        "select_cCY7AH": {
+          "type": "select",
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "",
+            "label-two": "Basicプランで相談する",
+            "label-three": "Standardプランで相談する",
+            "label-four": "Proプランで相談する",
+            "label-five": "プランを決めずに相談する",
+            "label-six": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_TLwQjX",
+        "email_EyDQ7P",
+        "telephone_fxa9cA",
+        "text_HP3BLQ",
+        "body_BYNV8g",
+        "select_V9h8hA",
+        "select_cCY7AH"
+      ],
+      "name": "Contact form",
+      "settings": {
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "heading_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_ikmnxA",
+    "office",
+    "section_announcement_axjVAR",
+    "section_hero_HhMXV4",
+    "story",
+    "section_rich_text_yFinzB",
+    "section_highlights_XLe6xn",
+    "contact_form_XARiPd"
+  ]
+}
