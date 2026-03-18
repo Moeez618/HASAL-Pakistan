@@ -622,7 +622,7 @@
           "type": "text",
           "settings": {
             "text": "<p>初期費用55,000円（税込）・月額36,500円（税込）〜</p>",
-            "text_font_size": "body-large",
+            "text_font_size": "body-medium",
             "padding_bottom": 30
           }
         },
@@ -695,7 +695,7 @@
         "heading_BCjf9J": {
           "type": "heading",
           "settings": {
-            "title": "「売れる状態」から始める、Shopifyテーマ。",
+            "title": "「売れる状態」を作り出すデザイン設計。",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
