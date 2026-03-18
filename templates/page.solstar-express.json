@@ -621,7 +621,7 @@
         "text_LGUWy6": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>初期費用55,000円（税込）・月額36,500円（税込）〜</strong></p>",
+            "text": "<p>初期費用55,000円（税込）・月額36,500円（税込）〜</p>",
             "text_font_size": "body-large",
             "padding_bottom": 30
           }
