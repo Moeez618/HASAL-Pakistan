@@ -263,7 +263,6 @@
         },
         "code_KLPcVj": {
           "type": "code",
-          "disabled": true,
           "settings": {
             "code": "<style>\n  .solstar-brand {\n    font-size: 26px; /* Desktop */\n    line-height: 1.3;\n    margin: 0;\n  }\n\n  .solstar-brand strong {\n    font-weight: 700;\n  }\n\n  @media (max-width: 600px) {\n    .solstar-brand {\n      font-size: 22px; /* Mobile */\n    }\n  }\n</style>\n\n<p class=\"solstar-brand\"><strong>SOLSATR EXPRESS</strong></p>",
             "padding_bottom": 20
