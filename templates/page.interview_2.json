@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "subheading": "株式会社SOLSTAR",
+        "subheading": "",
         "show_title": true,
         "heading_font_size": "heading-large",
         "show_content": true,
