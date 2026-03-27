@@ -41,6 +41,13 @@
     "section_announcement_qqjQ8T": {
       "type": "section-announcement",
       "blocks": {
+        "image_B6QYYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MORFU_copy.png",
+            "image_width": 100
+          }
+        },
         "image_zXJNrJ": {
           "type": "image",
           "settings": {
@@ -78,6 +85,7 @@
         }
       },
       "block_order": [
+        "image_B6QYYA",
         "image_zXJNrJ",
         "image_VcaPw8",
         "image_p4PUBr",
