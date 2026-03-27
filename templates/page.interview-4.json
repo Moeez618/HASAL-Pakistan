@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "subheading": "株式会社SOLSTAR",
+        "subheading": "",
         "show_title": true,
         "heading_font_size": "heading-large",
         "show_content": true,
@@ -31,14 +31,14 @@
         "subheading_MjtNNA": {
           "type": "subheading",
           "settings": {
-            "subheading": "株式会社楽京",
+            "subheading": "株式会社F&HARU",
             "padding_bottom": 16
           }
         },
         "heading_YUaz9r": {
           "type": "heading",
           "settings": {
-            "title": "「細かな点まで丁寧に対応していただき、安心して進めることができました。」",
+            "title": "「想像以上に良いECサイトに仕上げていただきました。」",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -65,7 +65,7 @@
         "image-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Fund_Plus.jpg",
+            "image": "shopify://shop_images/MORFU_PC_Mobile_copy.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -87,10 +87,10 @@
         "text-1": {
           "type": "text",
           "settings": {
-            "subheading": "毎日の暮らしをアップデートする海外ガジェット＆生活雑貨専門EC",
-            "title": "FUND+公式ストア",
+            "subheading": "MORFU スーツケース｜拡張・圧縮・収納自由自在のスマート可変モデル｜高機能デザイン",
+            "title": "MORFU公式ストア",
             "heading_font_size": "heading-large",
-            "text": "<p>FUND+ は、海外製のアイテムを中心に生活雑貨・ガジェット・DIY用品など日常使いの商品を販売するECサイトです。 </p>",
+            "text": "<p>拡張も圧縮も自在。MORFUは収納量を変えられる次世代スーツケース。可変式・フロントオープン・ドリンクホルダー・PCポケット付きで、出張も旅行もスマートに。MORFU公式オンラインストア。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "https://fund-plus.com/",
@@ -129,7 +129,7 @@
         "image_k3q9qA": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Fund_Logo.webp",
+            "image": "shopify://shop_images/MORFU_copy.png",
             "image_width": 110
           }
         }
@@ -146,7 +146,7 @@
         "message_spacing": 30,
         "show_border": false,
         "layout": "marquee",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "color_scheme": "scheme-10",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -245,14 +245,14 @@
         "subheading_VCNmQd": {
           "type": "subheading",
           "settings": {
-            "subheading": "株式会社楽京 代表取締役・趙様に、ECサイト構築のきっかけや、今後の取り組み・展望についてお話を伺いました。",
+            "subheading": "株式会社F&HARU 代表取締役・中村様に、ECサイト構築のきっかけや、今後の取り組み・展望についてお話を伺いました。",
             "padding_bottom": 16
           }
         },
         "heading_BbzCwi": {
           "type": "heading",
           "settings": {
-            "title": "インタビュー with 趙様",
+            "title": "インタビュー with 中村様",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -261,7 +261,7 @@
         "text_h7pBhk": {
           "type": "text",
           "settings": {
-            "text": "<h4><strong>SOLSTAR(以下S）：</strong>今回、ECサイトを構築しようと思ったきっかけや背景を教えてください。</h4><h4>　</h4><p>趙様：これまで海外の商品を日本向けに販売しており、主な販路はMakuakeのみでした。しかし、販路が限定的であることに課題を感じており、またShopifyが国内でもメジャーになってきたことを背景に、自社ECサイトの構築を検討するようになりました。その中で、御社からの提案内容に納得し、本プロジェクトを進める決断に至りました。</p><h4><strong>　</strong></h4><h4><strong>S：</strong>SOLSTAR EXPRESSの構築サービスを利用した感想はいかがでしたか？</h4><h4>　</h4><p>趙様：ECサイトの立ち上げ経験がなく、テーマ選定や進め方が分からない状態でした。そのため、ECサイト構築を専門とする御社に依頼できたことは非常に心強く、大変助かりました。</p><p>　</p><h4><strong>S：</strong>担当ディレクターの対応はいかがでしたか？</h4><h4>　</h4><p>趙様：全体的にとても良かったと感じています。細かな点まで丁寧に対応していただき、安心して進めることができました。</p><p>　</p><h4><strong>S：</strong>開発の進め方についてはいかがでしたか？</h4><h4>　</h4><p>趙様：最初にキックオフミーティングを実施し、その後は主にメールでのやり取りでした。必要に応じてChatwork（チャットでのコミュニケーション）なども利用しても良いのかなと感じました。</p><h4><strong>　</strong></h4><h4><strong>S：</strong>納品までのスケジュールについてはいかがでしたか？</h4><h4>　</h4><p>趙様：ECサイトの土台をしっかり構築してもらえたため、特に大きな問題はありませんでした。あらかじめカテゴリーなども作成していただいていた点は、とても良かったです。</p><p>　</p><h4><strong>S：</strong>サービス全体を通して、困ったことや改善点があれば教えてください。</h4><h4>　</h4><p>趙様：ユーザー向けのマニュアルや操作手順があると、より助かると感じました。あわせて、テーマ機能（Cream by SOLSTAR）の説明資料などがあると、なお良いと思います。</p><p>　</p><h4><strong>S：</strong>今後の活動について教えてください。</h4><h4>　</h4><p>趙様：サイトは完成したばかりの段階ですが、今後は集客に力を入れていく必要があると感じています。広告戦略の検討や、既存顧客に向けたメールマーケティングなどにも取り組んでいきたいと考えています。</p>",
+            "text": "<h4><strong>SOLSTAR(以下S）：</strong>今回、ECサイトを構築しようと思ったきっかけや背景を教えてください。</h4><h4>　</h4><p>中村様：当社でも以前からBASEでECサイトを運営していましたが、なかなかプロフェッショナルな品質のサイトを作ることができずにいました。そうした中で御社からご提案をいただき、改めてECサイトを構築しようと思いました。商品数もまだ多くなかったため、このタイミングで進めやすいと感じました。</p><h4><strong>　</strong></h4><h4><strong>S：</strong>SOLSTAR EXPRESSの構築サービスを利用した感想はいかがでしたか？</h4><h4>　</h4><p>中村様：Shopifyを利用するのは初めてだったため、最初はわからないことも多く不安がありました。ただ、担当者の方が丁寧に説明してくださったので、安心してお任せすることができました。全体としてスムーズに進みました。専門用語で少しわかりづらい部分もありましたが、大きな問題はありませんでした。</p><p>　</p><h4><strong>S：</strong>担当ディレクターの対応はいかがでしたか？</h4><h4>　</h4><p>中村様：レスポンスが早く、やり取りもスムーズでした。わからない部分が多かったのですが、丁寧に教えていただけたのでとても助かりました。</p><p>　</p><h4><strong>S：</strong>開発の進め方についてはいかがでしたか？</h4><h4>　</h4><p>中村様：写真素材などがあまり多くなかったのですが、限られた素材の中でも画像を作成していただき、想像以上に良いECサイトに仕上げていただきました。ここまで品質の高いECサイトを作ってもらえるとは思っていなかったので、大変満足しています。</p><h4><strong>　</strong></h4><h4><strong>S：</strong>納品までのスケジュールについてはいかがでしたか？</h4><h4>　</h4><p>中村様：納品までは3週間でした。予想していたよりも早くECサイトが完成したので、とても良かったです。</p><p>　</p><h4><strong>S：</strong>サービス全体を通して、困ったことや改善点があれば教えてください。</h4><h4>　</h4><p>中村様：大きく困ったことは特にありません。ただ、Excelシート内に専門用語があり、少し戸惑う場面はありました。それ以外は特にありません。</p><p>　</p><h4><strong>S：</strong>今後の活動について教えてください。</h4><h4>　</h4><p>中村様：まずは今回制作していただいたECサイトを活用し、広告運用を通じて販売につなげ、売上の拡大を目指していきたいと考えています。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
