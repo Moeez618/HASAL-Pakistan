@@ -186,9 +186,9 @@
           "settings": {
             "image_width": 100,
             "image_shape": "normal",
-            "title": "Speed, accessibility, and a mobile-friendly design",
+            "title": "スピード、アクセシビリティ、そしてモバイルフレンドリーなデザイン",
             "heading_font_size": "heading-x-small",
-            "text": "<p>With a strong focus on performance, accessibility, and mobile responsiveness, the Broadcast theme ensures your store runs smoothly across all devices. Benefit from quicker load times and a design that's accessible to all, ensuring no customer is left behind.</p>",
+            "text": "<p>CREAMテーマは、パフォーマンス、アクセシビリティ、そしてモバイル対応を重視して設計されており、あらゆるデバイスでストアを快適に表示・運用できるようにします。読み込み速度の向上と、誰にとっても使いやすいデザインによって、取りこぼしのないショッピング体験を実現します。</p>",
             "text_font_size": "body-small",
             "button_text": "",
             "button_url": "",
