@@ -331,7 +331,7 @@
       "settings": {
         "image_1": "shopify://shop_images/Solstar_Express_Image_copy.webp",
         "image_width": "one-half",
-        "text_alignment": "text-center",
+        "text_alignment": "text-left",
         "layout": "is-reversed",
         "width": "wrapper--full",
         "height": "image-height",
