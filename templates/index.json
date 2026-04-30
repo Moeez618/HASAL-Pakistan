@@ -187,9 +187,9 @@
         "text_tx8jki": {
           "type": "text",
           "settings": {
-            "text": "<p>※弊社</p>",
+            "text": "<p>※本資料は、弊社の独自基準および調査結果に基づき実施しております。</p><p></p>",
             "text_font_size": "body-x-small",
-            "padding_bottom": 16
+            "padding_bottom": 0
           }
         },
         "buttons_DMXQEk": {
