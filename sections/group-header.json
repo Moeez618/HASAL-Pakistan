@@ -14,6 +14,18 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "text_FCtkwp": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Shopifyテーマ「CREAM」無料体験実施中</strong></p>",
+            "target_url_enabled": true,
+            "target_url": "shopify://pages/contact",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
         "text_GntGQL": {
           "type": "text",
           "settings": {
@@ -28,6 +40,7 @@
         }
       },
       "block_order": [
+        "text_FCtkwp",
         "text_GntGQL"
       ],
       "settings": {
