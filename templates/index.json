@@ -151,7 +151,6 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "image": "shopify://shop_images/SOLSTAR_Logo_black.png",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 0,
