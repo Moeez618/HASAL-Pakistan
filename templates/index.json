@@ -157,6 +157,52 @@
         "padding_bottom": 100
       }
     },
+    "section_text_promo_9XTT6T": {
+      "type": "section-text-promo",
+      "blocks": {
+        "heading_RGr66M": {
+          "type": "heading",
+          "settings": {
+            "title": "無料配布｜ECサイト構築会社の比較に悩んでいませんか？",
+            "heading_font_size": "heading-medium",
+            "heading_tag": "h2"
+          }
+        },
+        "text_p7T8Bz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopify公式に認定されたパートナー50社を対象に、</p><p>費用感やサービスの特徴を、比較しやすい形でまとめています。</p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "button_cqFAaR": {
+          "type": "button",
+          "settings": {
+            "button_text": "資料を請求する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RGr66M",
+        "text_p7T8Bz",
+        "button_cqFAaR"
+      ],
+      "name": "Text promo",
+      "settings": {
+        "border": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-2",
+        "overlay_type": "disabled",
+        "inner_padding": 50,
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "section_hero_FVYjLg": {
       "type": "section-hero",
       "blocks": {
@@ -983,6 +1029,7 @@
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
+    "section_text_promo_9XTT6T",
     "section_hero_FVYjLg",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
