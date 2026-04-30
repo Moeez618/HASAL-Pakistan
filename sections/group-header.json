@@ -18,7 +18,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>Shopifyテーマ「CREAM」無料体験実施中</strong></p>",
-            "target_url_enabled": true,
+            "target_url_enabled": false,
             "target_url": "shopify://pages/contact",
             "target_referrer_enabled": false,
             "target_referrer": "",
