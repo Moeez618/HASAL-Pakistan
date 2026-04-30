@@ -38,7 +38,7 @@
         "show_arrows": false,
         "marquee_speed": 100,
         "message_spacing": 20,
-        "text_font_size": "body-medium",
+        "text_font_size": "body-small",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "border_color": "",
         "padding_top": 10,
