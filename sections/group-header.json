@@ -13,6 +13,23 @@
   "sections": {
     "announcement": {
       "type": "announcement",
+      "blocks": {
+        "text_GntGQL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>EC制作会社比較資料を無料配布中！</strong></p>",
+            "target_url_enabled": false,
+            "target_url": "shopify://pages/contact",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        }
+      },
+      "block_order": [
+        "text_GntGQL"
+      ],
       "settings": {
         "show_border": false,
         "layout": "slider",
@@ -22,7 +39,7 @@
         "marquee_speed": 100,
         "message_spacing": 20,
         "text_font_size": "body-medium",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "border_color": "",
         "padding_top": 10,
         "padding_bottom": 10
