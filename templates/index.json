@@ -157,50 +157,76 @@
         "padding_bottom": 0
       }
     },
-    "section_text_promo_9XTT6T": {
-      "type": "section-text-promo",
+    "section_divider_JCer7N": {
+      "type": "section-divider",
+      "name": "Divider",
+      "settings": {
+        "show_line": true,
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_columns_396z4K": {
+      "type": "section-rich-text-columns",
       "blocks": {
-        "heading_RGr66M": {
+        "heading_Exx4mG": {
           "type": "heading",
           "settings": {
             "title": "無料配布｜ECサイト構築会社の比較に悩んでいませんか？",
-            "heading_font_size": "heading-medium",
-            "heading_tag": "h2"
+            "heading_font_size": "heading-large",
+            "position": "left",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
           }
         },
-        "text_p7T8Bz": {
+        "text_EXyL3y": {
           "type": "text",
           "settings": {
             "text": "<p>Shopify公式に認定されたパートナー50社を対象に、</p><p>費用感やサービスの特徴を、比較しやすいようにまとめました。</p>",
-            "text_font_size": "body-medium"
+            "text_font_size": "body-medium",
+            "position": "right",
+            "padding_bottom": 16
           }
         },
-        "button_cqFAaR": {
-          "type": "button",
+        "buttons_U8jheh": {
+          "type": "buttons",
           "settings": {
+            "position": "right",
             "button_text": "資料を請求する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
-            "show_arrow": false
+            "show_arrow": false,
+            "button_secondary_text": "",
+            "button_secondary_url": "",
+            "button_secondary_type": "btn--primary",
+            "button_secondary_size": "",
+            "button_secondary_style": "btn--outline",
+            "show_secondary_arrow": false,
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "heading_RGr66M",
-        "text_p7T8Bz",
-        "button_cqFAaR"
+        "heading_Exx4mG",
+        "text_EXyL3y",
+        "buttons_U8jheh"
       ],
-      "name": "Text promo",
+      "name": "Rich text columns",
       "settings": {
-        "border": true,
+        "left_column_width": 40,
+        "divider_width": 20,
+        "show_line": true,
+        "right_column_width": 40,
+        "align_text": "text-left",
         "width": "wrapper--full-padded",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "overlay_type": "disabled",
-        "inner_padding": 50,
-        "padding_top": 50,
-        "padding_bottom": 50
+        "align_text_mobile": "text-left--mobile",
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_hero_FVYjLg": {
@@ -1029,7 +1055,8 @@
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
-    "section_text_promo_9XTT6T",
+    "section_divider_JCer7N",
+    "section_rich_text_columns_396z4K",
     "section_hero_FVYjLg",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
