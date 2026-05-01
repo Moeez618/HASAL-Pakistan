@@ -87,7 +87,7 @@
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
@@ -186,11 +186,11 @@
         "p {margin: 1em;}"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/SOLSTAR_EXPRESS_Hero_image_5_copy_2_45076a4d-9efd-4f94-9fd9-8f1f5e50217c.webp",
+        "image_1": "shopify://shop_images/2_iphones_Hero_Image_copy_2.webp",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
