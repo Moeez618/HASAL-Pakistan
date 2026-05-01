@@ -190,7 +190,7 @@
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
-        "width": "wrapper",
+        "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
