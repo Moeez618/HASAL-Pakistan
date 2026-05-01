@@ -91,7 +91,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -143,7 +143,7 @@
         "message_spacing": 30,
         "show_border": false,
         "layout": "marquee",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 5,
         "padding_bottom": 5
       }
@@ -194,7 +194,7 @@
         "height": "screen-height-one-half",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -246,7 +246,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -347,7 +347,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -665,7 +665,7 @@
         "icon_image": "shopify://shop_images/shopify_glyph.png",
         "icon_size": 50,
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "icon_color": "",
         "padding_top": 0,
         "padding_bottom": 0
@@ -690,7 +690,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 0
@@ -756,7 +756,7 @@
         "show_quotation_marks": false,
         "heading_font_size": "heading-small",
         "text_align": "text-left",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "card_bg_color": "",
         "padding_top": 50,
         "padding_bottom": 0
@@ -871,7 +871,7 @@
         "question_font_size": "heading-small",
         "width": "wrapper",
         "columns": "1",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 50,
         "padding_bottom": 50
       }
@@ -904,7 +904,7 @@
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 0
