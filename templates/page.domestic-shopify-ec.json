@@ -191,7 +191,7 @@
         "text_alignment": "text-left",
         "layout": "",
         "width": "wrapper",
-        "height": "screen-height-two-thirds",
+        "height": "screen-height-one-half",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-1",
