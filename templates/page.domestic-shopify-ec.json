@@ -83,11 +83,11 @@
         "text_8kVtJR"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/New_Hero_Image_2_copy_b340535b-c956-4dd1-9900-216c42858f0d.png",
+        "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
-        "width": "wrapper",
+        "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
