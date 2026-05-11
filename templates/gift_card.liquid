@@ -101,10 +101,10 @@
     {% endstyle %}
 
     {%- unless settings.type_base_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_base_font | font_url }}" type="font/woff2" crossorigin>
+      {{ settings.type_base_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      {{ settings.type_header_font | font_url | preload_tag: as: 'font', type: 'font/woff2', crossorigin: 'anonymous' }}
     {%- endunless -%}
 
     {{ 'template-gift-card.css' | asset_url | stylesheet_tag }}
@@ -147,7 +147,7 @@
                 </div>
 
                 <div class="giftcard__wrap">
-                  <img src="{{ 'gift-card/card.jpg' | shopify_asset_url }}" loading="lazy" alt="Gift card illustration">
+                  <img src="{{ 'gift-card/card.jpg' | shopify_asset_url }}" width="570" height="360" loading="lazy" alt="Gift card illustration">
 
                   {%- assign initial_value_size = formatted_initial_value | size -%}
 
