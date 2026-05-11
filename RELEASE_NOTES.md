@@ -2,6 +2,13 @@
 
 ## 2026-05-11
 
+### Added
+
+- Broadcast の Release Notes ページに Cream by Solstar の全リリースノートを掲載しました。
+- Cream の `Version 3.0.1` から `Version 3.4.9` までの更新内容を日本語で確認できるようにしました。
+- Release Notes 本文を `snippets/cream-release-notes.liquid` に分離し、テンプレート側の Custom code 設定値が Shopify の 50KB 制限を超えないようにしました。
+- Release Notes ページ専用の CSS スコープを追加し、背景色、文字色、罫線、余白、フォントサイズが Broadcast テーマの CSS 変数に追従するようにしました。
+
 ### Fixed
 
 - Resolved all standard Shopify Theme Check errors.

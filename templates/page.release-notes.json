@@ -72,15 +72,15 @@
         "heading_tag": "h1"
       }
     },
-    "section_custom_code_V4MYMd": {
+    "section_custom_code_release_notes": {
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "",
+        "code": "{% render 'cream-release-notes' %}",
         "width": "wrapper",
         "color_scheme": "scheme-10",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 50
       }
     },
     "section_rich_text_7wY9EH": {
@@ -211,7 +211,7 @@
   "order": [
     "section_text_promo_DxE9mD",
     "main",
-    "section_custom_code_V4MYMd",
+    "section_custom_code_release_notes",
     "section_rich_text_7wY9EH",
     "contact_form_XtLXAm"
   ]
