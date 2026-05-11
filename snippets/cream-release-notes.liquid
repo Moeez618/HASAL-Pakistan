@@ -131,7 +131,7 @@
 <div class="cream-release-notes">
   <div class="cream-release-notes__timeline">
 
-    <details class="cream-release-notes__entry">
+    <details class="cream-release-notes__entry" open>
       <summary class="cream-release-notes__toggle">
         <span class="cream-release-notes__version-line">
           <span class="cream-release-notes__version heading-small">Version 3.4.9</span>
@@ -1375,55 +1375,3 @@
     </details>
   </div>
 </div>
-
-<script>
-  (() => {
-    const sectionId = 'CustomCode--section_custom_code_release_notes';
-
-    function initCreamReleaseNotes(root = document) {
-      const section =
-        root.id === sectionId
-          ? root
-          : root.getElementById
-            ? root.getElementById(sectionId)
-            : root.querySelector?.('#' + sectionId);
-      if (!section || section.dataset.releaseNotesHoverReady === 'true') return;
-
-      section.dataset.releaseNotesHoverReady = 'true';
-
-      const entries = Array.from(section.querySelectorAll('.cream-release-notes__entry'));
-
-      function closeEntry(entry) {
-        if (!entry.matches(':hover, :focus-within')) {
-          entry.open = false;
-        }
-      }
-
-      entries.forEach((entry) => {
-        entry.open = false;
-
-        entry.addEventListener('pointerenter', () => {
-          entry.open = true;
-        });
-
-        entry.addEventListener('pointerleave', () => {
-          closeEntry(entry);
-        });
-
-        entry.addEventListener('focusin', () => {
-          entry.open = true;
-        });
-
-        entry.addEventListener('focusout', () => {
-          window.setTimeout(() => closeEntry(entry), 0);
-        });
-      });
-    }
-
-    initCreamReleaseNotes();
-
-    document.addEventListener('shopify:section:load', (event) => {
-      initCreamReleaseNotes(event.target);
-    });
-  })();
-</script>
