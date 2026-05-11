@@ -147,8 +147,6 @@
 <div class="cream-release-notes">
   <header class="cream-release-notes__header">
     <p class="cream-release-notes__eyebrow">Cream by Solstar Release Notes</p>
-    <h2 class="cream-release-notes__title heading-large">全リリースノート</h2>
-    <p class="cream-release-notes__summary body-medium">Cream Repo の release-notes.md をもとに、Version 3.0.1 から Version 3.4.9 までの更新内容を日本語で掲載しています。最新バージョンは開いた状態で表示し、過去バージョンは各行を開いて確認できます。</p>
   </header>
 
   <div class="cream-release-notes__timeline">
@@ -1397,3 +1395,35 @@
     </details>
   </div>
 </div>
+
+<script>
+  (() => {
+    const section = document.getElementById('CustomCode--section_custom_code_release_notes');
+    if (!section) return;
+
+    const entries = section.querySelectorAll('.cream-release-notes__entry');
+    entries.forEach((entry) => {
+      entry.addEventListener('mouseenter', () => {
+        entry.open = true;
+      });
+
+      entry.addEventListener('mouseleave', () => {
+        if (!entry.matches(':focus-within')) {
+          entry.open = false;
+        }
+      });
+
+      entry.addEventListener('focusin', () => {
+        entry.open = true;
+      });
+
+      entry.addEventListener('focusout', () => {
+        window.setTimeout(() => {
+          if (!entry.matches(':hover, :focus-within')) {
+            entry.open = false;
+          }
+        }, 0);
+      });
+    });
+  })();
+</script>
