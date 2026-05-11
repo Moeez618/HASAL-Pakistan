@@ -56,13 +56,13 @@
           <tbody>
             {% for line_item in order.line_items %}
               {%- liquid
-                assign unitPrice = false
+                assign unit_price = false
                 assign line_item_original_price = line_item.original_price | money
                 assign line_item_final_price = line_item.final_price | money
                 assign line_item_unit_price = line_item.unit_price | money
               -%}
               {%- if line_item.unit_price_measurement -%}
-                {%- assign unitPrice = true -%}
+                {%- assign unit_price = true -%}
                 {%- capture unit_price_separator -%}
                   <span aria-hidden="true">/</span><span class="visually-hidden">{{ 'general.accessibility.unit_price_separator' | t }}&nbsp;</span>
                 {%- endcapture -%}
@@ -139,7 +139,7 @@
                   {%- else -%}
                     {{ line_item_final_price }}
                   {%- endif -%}
-                  {%- if unitPrice -%}
+                  {%- if unit_price -%}
                     <p class="body-x-small">{{ line_item_unit_price }}{{ unit_price_separator }}{{ unit_price_base_unit }}</p>
                   {%- endif -%}
                 </td>
@@ -231,7 +231,7 @@
                       {{ 'customer.order.details.sku' | t }}: {{ line_item.sku }}<br>
                       {{ 'customer.order.details.quantity' | t }}: {{ line_item.quantity }}<br>
                       {{ 'customer.order.details.price' | t }}: {{ line_item_final_price }}
-                      {%- if unitPrice -%}
+                      {%- if unit_price -%}
                         <p class="body-x-small">{{ line_item_unit_price }}{{ unit_price_separator }}{{ unit_price_base_unit }}</p>
                       {%- endif -%}
                       {% if line_item.quantity > 1 %}

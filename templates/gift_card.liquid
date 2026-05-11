@@ -1,5 +1,10 @@
 {% layout none %}
-{%- assign formatted_balance = gift_card.balance | money_without_trailing_zeros | strip_html -%}
+{%- liquid
+  assign formatted_balance = gift_card.balance | money_without_trailing_zeros | strip_html
+  assign formatted_initial_value = gift_card.initial_value | money_without_trailing_zeros | strip_html
+  assign gift_card_balance = formatted_balance
+  assign hover_opacity = 0.70
+-%}
 
 <!doctype html>
 <html class="no-touch supports-no-cookies" lang="{{ request.locale.iso_code }}">

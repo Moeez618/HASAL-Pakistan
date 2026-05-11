@@ -1,3 +1,4 @@
+{% comment %}theme-check-disable UnclosedHTMLElement{% endcomment %}
 {% comment %} Icon block for Product page & Cart drawer/page {% endcomment %}
 {%- liquid
   assign text = block.settings.text
@@ -80,7 +81,6 @@
 </div>
 
 {%- if is_product -%}
-  {%- assign blocks_size = section.blocks.size | minus: 1 -%}
   {%- if index == section.blocks.size or next_block.type != 'icon' -%}
     </div>
   {%- endif -%}

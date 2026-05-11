@@ -12,8 +12,6 @@
 {%- liquid
   assign form_style = settings.form_style
   assign enable_size_chart = enable_size_chart | default: false
-  assign show_size_chart = false
-  assign has_size_option = false
   assign tags_string = product.tags | join: ','
   assign size_separator = '_size_'
   assign specific_pages = ''
@@ -56,7 +54,6 @@
   -%}
 
   {%- if translation_string_size contains option_name -%}
-    {%- assign has_size_option = true -%}
     {%- assign show_size_link_separated = false -%}
   {%- endif -%}
 {%- endfor -%}
@@ -90,7 +87,6 @@
   {%- if enable_size_chart -%}
     {%- if block.settings.info_page != blank or specific_pages != '' -%}
       {%- liquid
-        assign show_size_chart = true
         assign specific_pages_arr = specific_pages | split: ','
       -%}
 
@@ -294,7 +290,6 @@
                 </fieldset>
               {%- elsif picker_type == 'button' -%}
                 {%- liquid
-                  assign current_value = current_variant.options[forloop.index0]
                   capture radio_fieldset_class
                     echo 'radio__fieldset'
 

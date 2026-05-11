@@ -183,11 +183,11 @@
                    assign count_string_other = 'collections.general.colors_with_count.other' | t
 
                   if count > 5 and settings.collection_swatch_style == 'limited'
-                    assign siblingSwatchesLeft = count | minus: 5
+                    assign sibling_swatches_left = count | minus: 5
                     assign limit = 5
                   endif
                   if count > 3
-                    assign mobileSwatchesLeft = count | minus: 3
+                    assign mobile_swatches_left = count | minus: 3
                   endif
                 -%}
 
@@ -222,11 +222,11 @@
                     </tooltip-component>
                   {%- endfor -%}
 
-                  {%- if settings.collection_swatch_style == 'limited' and siblingSwatchesLeft > 0 -%}
-                    <div class="swatch-limited desktop">{{ '+' | append: siblingSwatchesLeft }}</div>
+                  {%- if settings.collection_swatch_style == 'limited' and sibling_swatches_left > 0 -%}
+                    <div class="swatch-limited desktop">{{ '+' | append: sibling_swatches_left }}</div>
                   {%- endif -%}
-                  {%- if mobileSwatchesLeft > 0 -%}
-                    <div class="swatch-limited mobile">{{ '+' | append: mobileSwatchesLeft }}</div>
+                  {%- if mobile_swatches_left > 0 -%}
+                    <div class="swatch-limited mobile">{{ '+' | append: mobile_swatches_left }}</div>
                   {%- endif -%}
                 {% endif %}
               {%- endif -%}
@@ -277,10 +277,10 @@
     assign count_string_other = 'collections.general.colors_with_count.other' | t
 
     if count > 5 and settings.collection_swatch_style == 'limited'
-      assign siblingSwatchesLeft = count | minus: 5
+      assign sibling_swatches_left = count | minus: 5
     endif
     if count > 3
-      assign mobileSiblingSwatchesLeft = count | minus: 3
+      assign mobile_sibling_swatches_left = count | minus: 3
     endif
   -%}
 
@@ -366,11 +366,11 @@
               </tooltip-component>
             {%- endfor -%}
 
-            {%- if settings.collection_swatch_style == 'limited' and siblingSwatchesLeft > 0 -%}
-              <div class="swatch-limited desktop">{{ '+' | append: siblingSwatchesLeft }}</div>
+            {%- if settings.collection_swatch_style == 'limited' and sibling_swatches_left > 0 -%}
+              <div class="swatch-limited desktop">{{ '+' | append: sibling_swatches_left }}</div>
             {%- endif -%}
-            {%- if mobileSiblingSwatchesLeft > 0 -%}
-              <div class="swatch-limited mobile">{{ '+' | append: mobileSiblingSwatchesLeft }}</div>
+            {%- if mobile_sibling_swatches_left > 0 -%}
+              <div class="swatch-limited mobile">{{ '+' | append: mobile_sibling_swatches_left }}</div>
             {%- endif -%}
           </div>
 

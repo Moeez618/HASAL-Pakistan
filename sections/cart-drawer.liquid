@@ -12,6 +12,8 @@
   assign empty_cart_products = settings.empty_cart_products | default: null
   assign has_cart_title = false
   assign has_checkout_buttons = false
+  assign pinned_blocks = ''
+  assign static_blocks = ''
 
   assign title_block = section.blocks | where: 'type', 'title'
   assign product_block = section.blocks | where: 'type', 'products'
@@ -29,6 +31,7 @@
 
       when 'checkout-buttons'
         assign has_checkout_buttons = true
+        assign buttons_block_index = forloop.index
     endcase
   endfor
 -%}

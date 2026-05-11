@@ -24,8 +24,6 @@
 
   assign compare_at_price = target.compare_at_price
   assign price = target.price
-  assign price_min = product.price_min
-  assign price_max = product.price_max
   assign available = target.available | default: false
 
   if compare_at_price > price
@@ -37,9 +35,6 @@
   else
     assign money_price = target.price | money
   endif
-
-  assign money_price_min = price_min | money
-  assign money_price_max = price_max | money
 
   assign has_units = false
   if target.unit_price_measurement != null
@@ -57,9 +52,6 @@
     if has_units
       assign unit_price = target.unit_price | money_with_currency
     endif
-
-    assign money_price_min = price_min | money_with_currency
-    assign money_price_max = price_max | money_with_currency
   endif
 
   if target == product and product.price_varies

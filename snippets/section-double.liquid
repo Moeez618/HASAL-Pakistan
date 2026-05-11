@@ -1,3 +1,4 @@
+{% comment %}theme-check-disable UnclosedHTMLElement{% endcomment %}
 {%- comment -%}
   "enable_slider" is used for "text-slide" blocks with "Optional image" added and make the entire Image & text block a single slide.
   "enable_text_slider" is used for "text-slide" blocks without "Optional image" added. Then we only create a slider for the text blocks and the images are static.
@@ -94,13 +95,6 @@
     echo '--COLUMNS-MOBILE: ' | append: item_placeholder | append: ';'
   endcapture
 
-  capture alignment
-    if section.settings.text_alignment == 'text-left'
-      echo ' align--middle-left'
-    else
-      echo ' align--middle-center'
-    endif
-  endcapture
 -%}
 
 {%- capture section_images -%}
@@ -684,7 +678,6 @@
                       assign collection_sizes_placeholder = '||collection-sizes-placeholder||'
                       assign button_empty_counter = 0
                       assign animation_order = animation_order | plus: 1
-                      assign animation_duration = 800
                       assign aspect_ratio = 1
                       assign alignment_class = ''
                       if settings.product_grid_center
@@ -694,7 +687,6 @@
 
                     {%- for i in (1..2) -%}
                       {%- liquid
-                        assign animation_delay = forloop.index0
                         assign collection = 'collection_' | append: forloop.index
                         assign collection = block.settings[collection]
                         assign collection_image_string = 'image_' | append: forloop.index

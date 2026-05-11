@@ -1,3 +1,4 @@
+{% comment %}theme-check-disable UnclosedHTMLElement{% endcomment %}
 {% comment %}
   Renders product buy-buttons.
   Accepts:
@@ -21,28 +22,6 @@
   assign show_newsletter = settings.show_newsletter
   assign color_scheme = 'color-' | append: section.settings.color_scheme
   assign section_id = unique | default: section.id
-
-  assign form_qty = current_variant.quantity_rule.min
-  assign cart_qty = cart | item_count_for_variant: current_variant.id
-  assign qty_sum = form_qty | plus: cart_qty
-
-  assign max_inventory = ''
-  assign max_inventory_reached = false
-  assign error_message_position = 'cart'
-
-  if current_variant.inventory_management and current_variant.inventory_policy == 'deny'
-    assign max_inventory = current_variant.inventory_quantity
-  endif
-
-  if max_inventory != ''
-    if qty_sum > max_inventory
-      assign max_inventory_reached = true
-    endif
-
-    if cart_qty == max_inventory
-      assign error_message_position = 'form'
-    endif
-  endif
 
   if quickview
     assign show_newsletter = false
@@ -116,7 +95,6 @@
       {{ block.shopify_attributes }}
     >
       {%- assign cart_qty = cart | item_count_for_variant: current_variant.id -%}
-      {% # theme-check-enable %}
       <label class="form__label label-hidden" for="Quantity-{{ section_id }}" data-quantity-label>
         {{ 'cart.general.quantity_field_label' | t }}
         <span class="quantity__rules-cart{% if cart_qty == 0 %} hidden{% endif %}">
