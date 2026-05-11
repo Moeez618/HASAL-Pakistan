@@ -1,0 +1,1399 @@
+{% comment %}theme-check-disable OrphanedSnippet{% endcomment %}
+<style>
+  #CustomCode--section_custom_code_release_notes.custom-code {
+    background: var(--bg);
+    color: var(--text);
+    margin-inline: 0;
+    max-width: none;
+    width: 100%;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes {
+    box-sizing: border-box;
+    color: var(--text);
+    margin: 0 auto;
+    max-width: 1120px;
+    padding-inline: var(--LAYOUT-OUTER, 50px);
+    width: 100%;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__header {
+    border-bottom: 1px solid var(--border);
+    display: grid;
+    gap: 16px;
+    margin-bottom: 32px;
+    padding-bottom: 28px;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__eyebrow,
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__meta,
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__count {
+    color: var(--text-light);
+    font-family: var(--FONT-STACK-SUBHEADING);
+    font-size: var(--font-subheading);
+    font-style: var(--FONT-STYLE-SUBHEADING);
+    font-weight: var(--FONT-WEIGHT-SUBHEADING);
+    letter-spacing: var(--LETTER-SPACING-SUBHEADING);
+    text-transform: var(--FONT-UPPERCASE-SUBHEADING);
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__title,
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__version {
+    color: var(--text);
+    margin: 0;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__summary,
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__intro,
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__item {
+    color: var(--text-a80);
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__summary {
+    margin: 0;
+    max-width: 78ch;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__timeline {
+    display: grid;
+    gap: 16px;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__entry {
+    background: var(--bg-accent);
+    border: 1px solid var(--border);
+    border-radius: var(--RADIUS, 0);
+    overflow: clip;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__entry[open] {
+    background: var(--bg-accent-lighten, var(--bg-accent));
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__toggle {
+    align-items: center;
+    cursor: pointer;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    list-style: none;
+    padding: 22px 24px;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__toggle::-webkit-details-marker {
+    display: none;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__toggle::after {
+    color: var(--text-light);
+    content: '+';
+    font-family: var(--FONT-STACK-HEADING);
+    font-size: var(--font-heading-small);
+    line-height: 1;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__entry[open] .cream-release-notes__toggle::after {
+    content: '-';
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__version-line {
+    display: grid;
+    gap: 6px;
+    min-width: 0;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__body {
+    border-top: 1px solid var(--border);
+    display: grid;
+    gap: 18px;
+    padding: 0 24px 28px;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__intro {
+    margin: 24px 0 0;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__list {
+    display: grid;
+    gap: 10px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #CustomCode--section_custom_code_release_notes .cream-release-notes__item {
+    border-left: 1px solid var(--border);
+    margin: 0;
+    padding-left: 14px;
+  }
+
+  @media only screen and (max-width: 749px) {
+    #CustomCode--section_custom_code_release_notes .cream-release-notes {
+      padding-inline: var(--LAYOUT-OUTER-SMALL, 16px);
+    }
+
+    #CustomCode--section_custom_code_release_notes .cream-release-notes__toggle,
+    #CustomCode--section_custom_code_release_notes .cream-release-notes__body {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+    #CustomCode--section_custom_code_release_notes .cream-release-notes__count {
+      display: none;
+    }
+  }
+</style>
+
+<div class="cream-release-notes">
+  <header class="cream-release-notes__header">
+    <p class="cream-release-notes__eyebrow">Cream by Solstar Release Notes</p>
+    <h2 class="cream-release-notes__title heading-large">全リリースノート</h2>
+    <p class="cream-release-notes__summary body-medium">Cream Repo の release-notes.md をもとに、Version 3.0.1 から Version 3.4.9 までの更新内容を日本語で掲載しています。最新バージョンは開いた状態で表示し、過去バージョンは各行を開いて確認できます。</p>
+  </header>
+
+  <div class="cream-release-notes__timeline">
+
+    <details class="cream-release-notes__entry" open>
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.9</span>
+          <span class="cream-release-notes__meta">Header モバイルメニュー、問い合わせページ、Theme editor、CI 検証を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">13件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Header モバイルメニュー、問い合わせページ、Theme editor、CI 検証を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">モバイルドロワー第1階層ヘッダー用の専用ロゴ画像設定を追加。</li>
+          <li class="cream-release-notes__item">モバイルドロワーロゴをグローバルロゴとは別に調整できる Logo width 設定を追加。</li>
+          <li class="cream-release-notes__item">Broadcast を参考にした編集可能な問い合わせフォームセクションとページテンプレートを追加。</li>
+          <li class="cream-release-notes__item">問い合わせフォームに名前、メール、電話、テキスト、テキストエリア、ドロップダウン、スペーサー、注記、送信ボタンの各ブロックを追加。</li>
+          <li class="cream-release-notes__item">Pull request と main / master への push で warning レベルまで Theme Check を実行する GitHub Actions workflow を追加。</li>
+          <li class="cream-release-notes__item">モバイルドロワーのロゴと閉じるボタンをメニューリンクと同じ左右余白に揃えました。</li>
+          <li class="cream-release-notes__item">大きなロゴが画面上部で切れたり、メニュー内容と重なったりしないよう高さとヘッダー領域を安定化。</li>
+          <li class="cream-release-notes__item">第1階層メディアエリアを安定化し、プロモ画像の重なりと不要な区切り線を解消。</li>
+          <li class="cream-release-notes__item">問い合わせフォーム幅をページセクション幅に追従させ、narrow レイアウトにも対応。</li>
+          <li class="cream-release-notes__item">空の placeholder 非表示、フォーカス時の placeholder 挙動、入力済みテキストの視認性を改善。</li>
+          <li class="cream-release-notes__item">Spacing、padding、section width、color scheme など Theme editor の設定ラベルを統一。</li>
+          <li class="cream-release-notes__item">Theme Check warning を解消し、Liquid 変数依存の false positive 抑制範囲を限定。</li>
+          <li class="cream-release-notes__item">Mobile menu ロゴ、ロゴ幅、第1階層メディアの manual と release notes を更新。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.8</span>
+          <span class="cream-release-notes__meta">Header announcement 用 Countdown timer とモバイルメニューの SNS / メディア設定を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Header announcement 用 Countdown timer とモバイルメニューの SNS / メディア設定を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Header announcement に Countdown timer block を追加。</li>
+          <li class="cream-release-notes__item">プロモ文言とタイマーを inline / stacked で表示できる desktop layout control を追加。</li>
+          <li class="cream-release-notes__item">終了後に countdown slide を非表示にする処理を追加。</li>
+          <li class="cream-release-notes__item">新規ブロックの日本語 editor translation と schema translation key を追加。</li>
+          <li class="cream-release-notes__item">Utility social links block と同期する SNS links area を第1階層 mobile drawer に追加。</li>
+          <li class="cream-release-notes__item">画像 / 動画、見出し、本文、リンクを設定できる第1階層 media area を Mobile menu block に追加。</li>
+          <li class="cream-release-notes__item">SNS icon サイズと spacing を Utility social links block に合わせて調整。</li>
+          <li class="cream-release-notes__item">子階層を持たない第1階層リンクの divider と SNS 前の重複 divider を修正。</li>
+          <li class="cream-release-notes__item">未使用の Expand first group accordion setting と初期オープン処理を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.7</span>
+          <span class="cream-release-notes__meta">Prestige 風 Header mega menu を追加し、旧 menu media controls を整理。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Prestige 風 Header mega menu を追加し、旧 menu media controls を整理。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Header に Mega menu block を追加し、大型 dropdown、navigation links、最大2つの image promotion を表示可能にしました。</li>
+          <li class="cream-release-notes__item">Mega menu の日本語 editor label、help text、placeholder を追加。</li>
+          <li class="cream-release-notes__item">旧 desktop / mobile menu media type controls と関連 rendering を削除。</li>
+          <li class="cream-release-notes__item">テキストのみの第2階層 desktop mega menu を中央寄せに調整。</li>
+          <li class="cream-release-notes__item">desktop top-level menu spacing を dedicated gap variable で拡大。</li>
+          <li class="cream-release-notes__item">overflow More menu の invalid selector 依存を修正。</li>
+          <li class="cream-release-notes__item">resize と header-group mutation で header group height syncing を更新。</li>
+          <li class="cream-release-notes__item">bottom row search visibility 判定を computed style ベースに修正。</li>
+          <li class="cream-release-notes__item">mobile menu block documentation を共有 mobile/header style responsibilities に合わせて整理。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.6</span>
+          <span class="cream-release-notes__meta">モバイル carousel、画像品質、alt fallback、LCP、不要 asset 削減を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">13件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">モバイル carousel、画像品質、alt fallback、LCP、不要 asset 削減を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Collection list、Tab collection、Featured blog posts などの mobile horizontal carousel を native scrolling に寄せて滑らかにしました。</li>
+          <li class="cream-release-notes__item">Tab collection 切り替え時に page-wide resize を避け、必要な navigation / overflow のみ更新。</li>
+          <li class="cream-release-notes__item">Hero video の uploaded video preview image を初期 poster として表示し、最初の section では優先読み込み。</li>
+          <li class="cream-release-notes__item">YouTube player code と Google Maps を必要になるまで遅延読み込み。</li>
+          <li class="cream-release-notes__item">Wishlist page 専用 CSS と shared wishlist UI CSS を分離。</li>
+          <li class="cream-release-notes__item">global jQuery と Remixicon stylesheet を layout から削除。</li>
+          <li class="cream-release-notes__item">shared image helper に responsive sizes、loading、fetchpriority を追加。</li>
+          <li class="cream-release-notes__item">Collection list / Tab collection / Resource images の desktop image quality と lazy-loaded sizes を改善。</li>
+          <li class="cream-release-notes__item">Hero、Hero video poster、Shop the look、collection cards、featured blog images に alt fallback を追加。</li>
+          <li class="cream-release-notes__item">Before/After と Map の fallback images を optimized JPG に変更し async decoding を追加。</li>
+          <li class="cream-release-notes__item">Quick add script と page transition hint を設定有効時のみ出力。</li>
+          <li class="cream-release-notes__item">Hero schema translation key を追加し Theme Check を通過。</li>
+          <li class="cream-release-notes__item">不要な .DS_Store、backup script、Remixicon assets、PNG fallback assets を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.5</span>
+          <span class="cream-release-notes__meta">Slideshow の media、height、transition、navigation を強化。</span>
+        </span>
+        <span class="cream-release-notes__count">10件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Slideshow の media、height、transition、navigation を強化。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">各 slide に desktop / mobile image/video setting を追加。</li>
+          <li class="cream-release-notes__item">section-level desktop / mobile height controls を Hero video と揃えて追加。</li>
+          <li class="cream-release-notes__item">slide、fade、zoom-out、wipe の transition style options を追加。</li>
+          <li class="cream-release-notes__item">non-scroll transition style でも drag で切り替えられる swipe support を追加。</li>
+          <li class="cream-release-notes__item">Button block に left / center / right alignment controls を追加。</li>
+          <li class="cream-release-notes__item">Show navigation arrows on hover の位置と表示条件を整理。</li>
+          <li class="cream-release-notes__item">不要な None navigation option と Full width padded size option を削除。</li>
+          <li class="cream-release-notes__item">previous-slide navigation の wipe direction を修正。</li>
+          <li class="cream-release-notes__item">block-level media height settings を削除し section-level height に統一。</li>
+          <li class="cream-release-notes__item">duplicate Theme Editor block attributes を整理し、mobile height label を translation key 化。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.4</span>
+          <span class="cream-release-notes__meta">商品詳細、Product tabs、Video intro、editor wording を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">11件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">商品詳細、Product tabs、Video intro、editor wording を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">product title block が product-details column 全幅を使うよう default を更新。</li>
+          <li class="cream-release-notes__item">price block に Show shipping note control を追加。</li>
+          <li class="cream-release-notes__item">無効または重複した price block settings を削除。</li>
+          <li class="cream-release-notes__item">Tabs block 名を localize し、空 tab panel を描画しないよう改善。</li>
+          <li class="cream-release-notes__item">Product specifications、Shipping、Returns/exchanges tabs の default content を追加。</li>
+          <li class="cream-release-notes__item">swatch dropdown の到達不能 logic と旧 tab JavaScript を削除。</li>
+          <li class="cream-release-notes__item">product detail layout settings の日本語 width / max-width wording を改善。</li>
+          <li class="cream-release-notes__item">Video intro に 3 / 4 / 5 秒または full-video の playback duration control を追加。</li>
+          <li class="cream-release-notes__item">manual start 時の duration 計測と audio sync を改善。</li>
+          <li class="cream-release-notes__item">短い metadata や早期 ended event で設定 duration が短縮されないよう修正。</li>
+          <li class="cream-release-notes__item">optional audio field で Shopify file reference をサポート。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.3</span>
+          <span class="cream-release-notes__meta">Hero marquee、Hero spacing、Shop the look、Featured blog posts を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Hero marquee、Hero spacing、Shop the look、Featured blog posts を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Hero marquee に Scrolling text と同じ Speed control を追加。</li>
+          <li class="cream-release-notes__item">horizontal layout 時の加速、mobile hover slowdown、translation key 不足、spacing reference を修正。</li>
+          <li class="cream-release-notes__item">page-width / full-width 時の marquee clipping、media width、content width を整合。</li>
+          <li class="cream-release-notes__item">Hero image cropping を auto / height presets 全体で中央寄せに改善。</li>
+          <li class="cream-release-notes__item">Hero に Outer spacing controls を追加し、既存 spacing を Inner spacing として整理。</li>
+          <li class="cream-release-notes__item">Shop the look に section-level heading/text alignment control を追加。</li>
+          <li class="cream-release-notes__item">very wide desktop で Shop the look media height を制限。</li>
+          <li class="cream-release-notes__item">Featured blog posts の mobile image aspect ratio、title rendering、title wrapping、text override scope を修正。</li>
+          <li class="cream-release-notes__item">Marquee speed / direction / shared styling logic を統合。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.2</span>
+          <span class="cream-release-notes__meta">Announcement bar、free shipping message、Tab collection、Featured collection、Shop the look を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">11件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Announcement bar、free shipping message、Tab collection、Featured collection、Shop the look を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Announcement bar の multi-block autoplay と editor block change 後の rotation を修正。</li>
+          <li class="cream-release-notes__item">Time to next announcement 変更時に autoplay interval を再起動。</li>
+          <li class="cream-release-notes__item">hover と browser tab visibility 後の autoplay resume を修正。</li>
+          <li class="cream-release-notes__item">Ajax cart update 後に free shipping messages を更新。</li>
+          <li class="cream-release-notes__item">generic style が announcement slides 外へ漏れないよう scope。</li>
+          <li class="cream-release-notes__item">circular collection image の hover zoom crop を修正。</li>
+          <li class="cream-release-notes__item">Tab collection の product image / aspect ratio controls を section level に移動。</li>
+          <li class="cream-release-notes__item">Tab collection に configurable すべて表示 link、active tab URL sync、hover styling を追加。</li>
+          <li class="cream-release-notes__item">featured image sizing、product-card hover、loop rendering、swatch count hover、tab arrow labels を整理。</li>
+          <li class="cream-release-notes__item">Featured collection の すべて表示 link に under-bar hover animation を追加。</li>
+          <li class="cream-release-notes__item">Shop the look の left/right column sizing、mobile overlay label、responsive image sizing を調整。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.4.1</span>
+          <span class="cream-release-notes__meta">Text promo、Text columns with images、Shop the look を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Text promo、Text columns with images、Shop the look を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">キャンペーンや CTA 用の Text promo section を追加。</li>
+          <li class="cream-release-notes__item">Text promo に image/video background、section width、desktop/mobile height、overlay、text alignment、inline layout controls を追加。</li>
+          <li class="cream-release-notes__item">Text promo に heading / text / button blocks と border animation styles を追加。</li>
+          <li class="cream-release-notes__item">Text columns with images に3カラム storytelling、image shape、grid/slider、mobile slider、ratio、alignment controls を追加。</li>
+          <li class="cream-release-notes__item">Shop the look に product hotspots と product cards を備えた shoppable image section を追加。</li>
+          <li class="cream-release-notes__item">Shop the look に desktop/mobile product layout、grid products-per-row、image aspect ratio、price/tax/color swatch 対応を追加。</li>
+          <li class="cream-release-notes__item">Text promo の color scheme scope、inner padding、mobile-specific controls、width option を整理。</li>
+          <li class="cream-release-notes__item">Shimmer、Rainbow glow、SVG trace の border thickness、glow、trace、timing を調整。</li>
+          <li class="cream-release-notes__item">Shop the look の hotspot icon、color scheme、product page link、hover zoom、mobile overflow、placeholder、schema translation を改善。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.21</span>
+          <span class="cream-release-notes__meta">Featured product、Sticky bottom menu Glass effect、Hero marquee、default imagery、documentation を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">11件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Featured product、Sticky bottom menu Glass effect、Hero marquee、default imagery、documentation を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Featured product に vertical / horizontal image scrolling layouts を持つ enhanced showcase を追加。</li>
+          <li class="cream-release-notes__item">desktop / mobile background image settings と upload guidance を追加。</li>
+          <li class="cream-release-notes__item">title、price、image、swatches、custom Liquid、app blocks の reorderable nested product-card blocks を追加。</li>
+          <li class="cream-release-notes__item">Sticky bottom menu Glass effect に sheen-style animation を追加。</li>
+          <li class="cream-release-notes__item">Featured product の horizontal scroll、mobile sticky image scroll、scroll timing を改善。</li>
+          <li class="cream-release-notes__item">Wishlist icon を product image 内に維持し、Theme wishlist settings と表示を同期。</li>
+          <li class="cream-release-notes__item">Featured product price block settings を product-card nested price block と揃えました。</li>
+          <li class="cream-release-notes__item">Glass sheen を menu item の背面に配置し、reduced motion に対応。</li>
+          <li class="cream-release-notes__item">Hero marquee の duration、full-width placement、loop gap、hover pause、resize recalculation を修正。</li>
+          <li class="cream-release-notes__item">Tab collection、Map、Before/After の placeholder artwork / fallback assets を更新。</li>
+          <li class="cream-release-notes__item">Sticky bottom menu と Sticky Add to Cart の manual / version を更新。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.20</span>
+          <span class="cream-release-notes__meta">Sticky Add to Cart の位置、設定、variant sync、responsive behavior を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">8件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Sticky Add to Cart の位置、設定、variant sync、responsive behavior を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">desktop で bar が画面下部に正しく固定されるよう bottom spacing を修正。</li>
+          <li class="cream-release-notes__item">mobile bottom navigation menu との互換性を改善。</li>
+          <li class="cream-release-notes__item">main product form position に基づく show / hide behavior を安定化。</li>
+          <li class="cream-release-notes__item">variant、price、image、availability、quantity rules を main product form と同期。</li>
+          <li class="cream-release-notes__item">product info、quantity selector、variant picker 非表示時の layout behavior を更新。</li>
+          <li class="cream-release-notes__item">button、quantity selector、variant picker styling を global theme settings に近づけました。</li>
+          <li class="cream-release-notes__item">日本語 translation と editor messaging を追加・整理。</li>
+          <li class="cream-release-notes__item">他の sticky UI との integration と responsive behavior を改善。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.19</span>
+          <span class="cream-release-notes__meta">Header menu editor を desktop / mobile で分離。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Header menu editor を desktop / mobile で分離。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">desktop menu を dedicated Desktop menu block に分離。</li>
+          <li class="cream-release-notes__item">mobile navigation block を Mobile menu に rename し、drawer / menu bar controls を集約。</li>
+          <li class="cream-release-notes__item">mobile menu bar 用の independent menu selector を追加。</li>
+          <li class="cream-release-notes__item">mobile drawer / menu bar visibility controls を mobile menu settings に移動。</li>
+          <li class="cream-release-notes__item">dedicated desktop menu block 導入後、mobile menu block の obsolete desktop fallback rendering を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.18</span>
+          <span class="cream-release-notes__meta">Theme Check と editor diagnostics を解消。</span>
+        </span>
+        <span class="cream-release-notes__count">8件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Theme Check と editor diagnostics を解消。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">product cards、collection cards、header/cart icons、cart drawer/summary、resource lists、slideshow、video、localization、quantity selectors、variant pickers、tab collection の diagnostics を整理。</li>
+          <li class="cream-release-notes__item">sticky bottom menu cart icon の scoped CSS class diagnostics を修正。</li>
+          <li class="cream-release-notes__item">PDP product tabs から unused generic tabs class を削除。</li>
+          <li class="cream-release-notes__item">password layout に password dialog / main-content styles を移動。</li>
+          <li class="cream-release-notes__item">product title truncation に standard line-clamp を追加。</li>
+          <li class="cream-release-notes__item">orphaned toggle-ellipsis snippet と unused legacy CSS を削除。</li>
+          <li class="cream-release-notes__item">JavaScript diagnostics を cart discount、events、product cards、pricing、maps、timer、media、quick add、variant picker、facets、wishlist、marquee、QR code などで改善。</li>
+          <li class="cream-release-notes__item">Theme Check、TypeScript、whitespace validation を再実行し offense / type error なしを確認。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.17</span>
+          <span class="cream-release-notes__meta">Sticky bottom menu に Glass effect と compact display を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">7件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Sticky bottom menu に Glass effect と compact display を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Glass effect checkbox、Compact display checkbox、corner-radius control、schema translations を追加。</li>
+          <li class="cream-release-notes__item">Glass effect、Compact display、Hide border、Corner radius を General settings に集約。</li>
+          <li class="cream-release-notes__item">deprecated font-size / height controls を削除し、CSS default sizing を維持。</li>
+          <li class="cream-release-notes__item">corner radius 増加時の floating-menu positioning と radius 0 時の Glass shape を修正。</li>
+          <li class="cream-release-notes__item">compact display 時の外側 spacing を整え、menu item spacing を維持。</li>
+          <li class="cream-release-notes__item">invalid wrappers、unused imports、legacy handlers、obsolete CSS を整理。</li>
+          <li class="cream-release-notes__item">popup markup と behavior を real close button、valid markup、aria-expanded、safe event rebinding で改善。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.16</span>
+          <span class="cream-release-notes__meta">Cart icon styling と bottom navigation icon sizing / stroke を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">6件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Cart icon styling と bottom navigation icon sizing / stroke を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">cart icon を Default / The Sleek Basket から選べる Theme setting を追加。</li>
+          <li class="cream-release-notes__item">選択した cart icon を header、cart drawer、sticky bottom menu、Quick add、Add to cart buttons に適用。</li>
+          <li class="cream-release-notes__item">cart icon setting と The Sleek Basket option の英日 schema translations を追加。</li>
+          <li class="cream-release-notes__item">Sleek Basket icon と Theme icon stroke setting を同期。</li>
+          <li class="cream-release-notes__item">Wishlist heart icon sizing を全 wishlist surface で調整。</li>
+          <li class="cream-release-notes__item">Sticky bottom menu の Home icon を更新し、Home / Wishlist icon proportions を調整。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.15</span>
+          <span class="cream-release-notes__meta">Quick add hover と Countdown timer background media を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Quick add hover と Countdown timer background media を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Countdown timer section に Background media setting を追加。</li>
+          <li class="cream-release-notes__item">desktop Quick add icon hover animation を追加。</li>
+          <li class="cream-release-notes__item">Quick add hover transition の border-line color bleed を修正。</li>
+          <li class="cream-release-notes__item">product-card content 不在時に Quick add modal が stale / missing content で開かないよう修正。</li>
+          <li class="cream-release-notes__item">Quick add form の disabled submit guarding を修正し obsolete logic を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.14</span>
+          <span class="cream-release-notes__meta">共有 Section / Image block と Sticky bottom menu SNS Link を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">7件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">共有 Section / Image block と Sticky bottom menu SNS Link を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">shared Section / nested Group に mobile の Reverse block order toggle を追加。</li>
+          <li class="cream-release-notes__item">Image block に mobile image aspect ratio control を追加。</li>
+          <li class="cream-release-notes__item">旧 LINE block を reusable SNS Link block に変更。</li>
+          <li class="cream-release-notes__item">horizontal layout mobile 時の nested text group width を修正。</li>
+          <li class="cream-release-notes__item">preset / homepage default data に mobile image ratio を初期化。</li>
+          <li class="cream-release-notes__item">FAQ default text と accordion row labels の schema translation reference を修正。</li>
+          <li class="cream-release-notes__item">mobile-specific ratio が storefront に反映されるよう image ratio rendering を再設計。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.13</span>
+          <span class="cream-release-notes__meta">Scrolling text に Image block と Repeat display を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">6件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Scrolling text に Image block と Repeat display を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Image block と recommended 360 x 360px upload guidance、20px から 180px の width controls を追加。</li>
+          <li class="cream-release-notes__item">repeat mode selector を Repeat display toggle に置き換え。</li>
+          <li class="cream-release-notes__item">hover pause / resume を滑らかにしました。</li>
+          <li class="cream-release-notes__item">mobile / desktop 幅を満たす repeated marquee fill logic を改善。</li>
+          <li class="cream-release-notes__item">mixed content と image-only combination の sizing を安定化。</li>
+          <li class="cream-release-notes__item">unused CSS を削除し repeat_enabled setting の translation key を整理。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.12</span>
+          <span class="cream-release-notes__meta">Product-card badge animation と Sold out badge contrast を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Product-card badge animation と Sold out badge contrast を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Sale / New / Bestseller badge 用 shared badge animation setting を追加。</li>
+          <li class="cream-release-notes__item">flash treatment を置き換える sheen-style badge animation を追加。</li>
+          <li class="cream-release-notes__item">badge animation setting label を localize。</li>
+          <li class="cream-release-notes__item">Sold out badge overlay を濃くし視認性を改善。</li>
+          <li class="cream-release-notes__item">badge animation rendering を共通化し leftover sale-specific code を削減。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.11</span>
+          <span class="cream-release-notes__meta">Currency code、Quick add、Wishlist、Sold out badge、Hero image を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">11件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Currency code、Quick add、Wishlist、Sold out badge、Hero image を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Announcement bar に Free shipping message block を追加。</li>
+          <li class="cream-release-notes__item">Free shipping message block 名を英日 translation key 化。</li>
+          <li class="cream-release-notes__item">Quick add icon background corner radius setting を追加。</li>
+          <li class="cream-release-notes__item">Hero image の Media 2 に Mobile image setting を追加。</li>
+          <li class="cream-release-notes__item">PDP、product cards、sticky add to cart、featured product、tab collection の価格表示を currency-code setting と同期。</li>
+          <li class="cream-release-notes__item">cart summary、discount、free-shipping progress、cart item pricing、accessibility caption を currency-code setting に同期。</li>
+          <li class="cream-release-notes__item">Announcement bar autoplay / arrows と lifecycle を修正。</li>
+          <li class="cream-release-notes__item">Quick add icon の size、shadow、hover behavior、corner-radius を改善。</li>
+          <li class="cream-release-notes__item">Sold out badge を semi-transparent gray overlay に再設計し設定を簡素化。</li>
+          <li class="cream-release-notes__item">Wishlist price formatting と heart icon stroke を Theme settings と同期。</li>
+          <li class="cream-release-notes__item">Hero image section 名 / labels / unused code を整理し、dual-video playback と height/aspect-ratio を修正。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.10</span>
+          <span class="cream-release-notes__meta">Intro video の fallback、playback logic、media controls を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Intro video の fallback、playback logic、media controls を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">desktop / mobile thumbnail settings と uploaded video preview poster fallback を追加。</li>
+          <li class="cream-release-notes__item">manual intro button の blink animation toggle を追加。</li>
+          <li class="cream-release-notes__item">intro video render を body へ移動し fullscreen overlay を強化。</li>
+          <li class="cream-release-notes__item">desktop / mobile asset selection と contain fallback background を改善。</li>
+          <li class="cream-release-notes__item">button typography を theme body font と同期し、manual playback trigger を限定。</li>
+          <li class="cream-release-notes__item">autoplay skip と click-for-sound を改善。</li>
+          <li class="cream-release-notes__item">active intro video のみ preload し、slow-connection skip logic を緩和。</li>
+          <li class="cream-release-notes__item">manual-play button readiness、failed load handling、viewport change selection を修正。</li>
+          <li class="cream-release-notes__item">redundant intro code paths を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.9</span>
+          <span class="cream-release-notes__meta">Tab collection と price refresh / CTA alignment を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Tab collection と price refresh / CTA alignment を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">tab title markup/style を PDP tabs と揃えました。</li>
+          <li class="cream-release-notes__item">product-title width / max-width settings を削除し title rendering を簡素化。</li>
+          <li class="cream-release-notes__item">Show sale price first setting と variant/swatch price refresh の表示順を修正。</li>
+          <li class="cream-release-notes__item">mobile featured-image CTA alignment の overflow を修正。</li>
+          <li class="cream-release-notes__item">redundant slide-count pre-calculation と unreachable fallback markup を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.8</span>
+          <span class="cream-release-notes__meta">Cart の free shipping progress と cart page layout を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">6件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Cart の free shipping progress と cart page layout を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">cart summary に configurable free shipping progress card を追加。</li>
+          <li class="cream-release-notes__item">cart page と cart drawer の両方で progress message を live update。</li>
+          <li class="cream-release-notes__item">desktop cart items と summary の開始位置を揃えました。</li>
+          <li class="cream-release-notes__item">cart item details に unit price、sale、compare-at price を表示。</li>
+          <li class="cream-release-notes__item">empty-cart layout を中央寄せに修正。</li>
+          <li class="cream-release-notes__item">cart page background を selected color scheme と同期。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.7</span>
+          <span class="cream-release-notes__meta">Sticky add to cart と tax-included label / Wishlist price を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Sticky add to cart と tax-included label / Wishlist price を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">combined listing product switch 後の sticky form 再同期を修正。</li>
+          <li class="cream-release-notes__item">mobile で元の Add to cart button より上に戻った時の sticky hide behavior を修正。</li>
+          <li class="cream-release-notes__item">discounted variants の compare-at price 表示を修正。</li>
+          <li class="cream-release-notes__item">PDP、collection cards、sticky add to cart に tax-included label を追加。</li>
+          <li class="cream-release-notes__item">tax label の Theme toggle と translation key を追加。</li>
+          <li class="cream-release-notes__item">Featured collection、Product highlight、Recommended products、Tab collection、Wishlist に tax label support を拡張。</li>
+          <li class="cream-release-notes__item">variant / swatch refresh 後も tax labels が維持されるよう修正。</li>
+          <li class="cream-release-notes__item">Wishlist に compare-at price display を追加し price formatting を同期。</li>
+          <li class="cream-release-notes__item">tax-label rendering を shared CSS と metadata に整理。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.6</span>
+          <span class="cream-release-notes__meta">Newsletter popup の構造、layout、close behavior を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">8件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Newsletter popup の構造、layout、close behavior を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">modal container と customer form の duplicate id を修正。</li>
+          <li class="cream-release-notes__item">single instance 制限と editor reload / repeated script load 対策を追加。</li>
+          <li class="cream-release-notes__item">mobile / success-state popup の close button reliability を改善。</li>
+          <li class="cream-release-notes__item">render-time failsafe で eligible popup を1つだけ出力。</li>
+          <li class="cream-release-notes__item">success state でも dialog heading を aria-labelledby 用に維持。</li>
+          <li class="cream-release-notes__item">input click / focus で popup が閉じないよう dismissal logic を修正。</li>
+          <li class="cream-release-notes__item">長い heading と close button の重なりを防止。</li>
+          <li class="cream-release-notes__item">close button の background / border を color scheme と input tokens に同期し、modal scrolling を復元。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.5</span>
+          <span class="cream-release-notes__meta">Wishlist UX、accessibility、asset loading を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">4件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Wishlist UX、accessibility、asset loading を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Wishlist section の top padding controls を削除し top spacing を修正。</li>
+          <li class="cream-release-notes__item">empty-state text、accessibility labels、counters、notifications の localization support を追加。</li>
+          <li class="cream-release-notes__item">remove buttons と toggle states に explicit labels を追加。</li>
+          <li class="cream-release-notes__item">Wishlist CSS/JS を enabled 時または wishlist page rendering 時のみ読み込み。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.4</span>
+          <span class="cream-release-notes__meta">Wishlist page の layout stability と color scheme consistency を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">4件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Wishlist page の layout stability と color scheme consistency を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">wishlist page top/bottom spacing areas を selected color scheme background と同期。</li>
+          <li class="cream-release-notes__item">empty-state message と CTA を vertical center に維持。</li>
+          <li class="cream-release-notes__item">heading-to-grid spacing を section padding controls から独立。</li>
+          <li class="cream-release-notes__item">wishlist page layout defaults を padding-block-start 50px / end 35px に更新。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.3</span>
+          <span class="cream-release-notes__meta">Product page breadcrumbs を Product information section と Header link pattern に合わせました。</span>
+        </span>
+        <span class="cream-release-notes__count">4件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Product page breadcrumbs を Product information section と Header link pattern に合わせました。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">product page breadcrumbs を Product information section color scheme に同期。</li>
+          <li class="cream-release-notes__item">section lifecycle events と pageshow で color scheme sync reliability を改善。</li>
+          <li class="cream-release-notes__item">breadcrumb link underline animation を header menu hover animation と整合。</li>
+          <li class="cream-release-notes__item">redundant fallback と environment checks を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.2</span>
+          <span class="cream-release-notes__meta">Countdown timer と product details 内 countdown support を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">10件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Countdown timer と product details 内 countdown support を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Detail block に Countdown timer block を追加。</li>
+          <li class="cream-release-notes__item">Hide section after end of timer の default を off に変更。</li>
+          <li class="cream-release-notes__item">AM/PM options を translation keys 化。</li>
+          <li class="cream-release-notes__item">desktop split layout で content width を制約し中央寄せ。</li>
+          <li class="cream-release-notes__item">Pull quote section preset と関連 locale keys を削除。</li>
+          <li class="cream-release-notes__item">mobile bottom overlap behavior と sticky positioning を bottom navigation height に同期。</li>
+          <li class="cream-release-notes__item">obsolete Padding / Bottom mobile settings と code paths を削除。</li>
+          <li class="cream-release-notes__item">Before/After button alignment と per-block padding controls を追加。</li>
+          <li class="cream-release-notes__item">Before/After default compare fallback を Hero / Map と同じ placeholder に更新。</li>
+          <li class="cream-release-notes__item">Newsletter popup の preset category を Forms にし、global render を layout から削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3.1</span>
+          <span class="cream-release-notes__meta">Testimonial section の layout cleanup、controls、localization を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">8件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Testimonial section の layout cleanup、controls、localization を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">card border toggle と card corner radius setting を追加。</li>
+          <li class="cream-release-notes__item">新規 section / block settings と default values の translation keys を追加。</li>
+          <li class="cream-release-notes__item">content alignment を統一し、image placement を voice label 上へ移動。</li>
+          <li class="cream-release-notes__item">obsolete paths と unused JS/schema entries を削除。</li>
+          <li class="cream-release-notes__item">card border color を selected color scheme default border token に変更。</li>
+          <li class="cream-release-notes__item">Quote heading を Quote / 引用文 に変更。</li>
+          <li class="cream-release-notes__item">image / card radius settings を px control に更新。</li>
+          <li class="cream-release-notes__item">heading margin collapse を section inner wrapper で修正。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.3</span>
+          <span class="cream-release-notes__meta">Testimonial section の layout、settings label、default value、fallback image を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">9件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Testimonial section の layout、settings label、default value、fallback image を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">customer block fields の default text を追加。</li>
+          <li class="cream-release-notes__item">testimonial image 未設定時の default placeholder image display を追加。</li>
+          <li class="cream-release-notes__item">section bottom padding range setting を default 0 で復元。</li>
+          <li class="cream-release-notes__item">desktop footer metadata と navigation controls を image bottom に揃えました。</li>
+          <li class="cream-release-notes__item">desktop fixed card height を削除。</li>
+          <li class="cream-release-notes__item">mobile image-to-label spacing を縮小。</li>
+          <li class="cream-release-notes__item">settings labels を日本語化し supplemental info text を削除。</li>
+          <li class="cream-release-notes__item">mobile_revert padding behavior を mobile のみに scope。</li>
+          <li class="cream-release-notes__item">unnecessary delay と resize listeners を整理。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.19</span>
+          <span class="cream-release-notes__meta">Localization schema errors、duplicate translations、FAQ width を修正。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Localization schema errors、duplicate translations、FAQ width を修正。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">default/map/sticky ATC/tab collection/product description translations を追加。</li>
+          <li class="cream-release-notes__item">locale files の duplicate sections blocks を削除。</li>
+          <li class="cream-release-notes__item">FAQ narrow width が desktop spacing と mobile margins を尊重するよう修正。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.18</span>
+          <span class="cream-release-notes__meta">Tab collection featured CTA button の styling と alignment を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">1件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Tab collection featured CTA button の styling と alignment を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Featured CTA が standard button layouts と alignment offsets を共有し、featured_button_alignment が画像上の URL wrap を安定して維持。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.17</span>
+          <span class="cream-release-notes__meta">Header、drawer、product card の icon affordance を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Header、drawer、product card の icon affordance を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">account、cart、quick add glyphs を placeholder から明確な icon に置き換え。</li>
+          <li class="cream-release-notes__item">thin/default/thick theme settings に応じて icon stroke が一貫して変化。</li>
+          <li class="cream-release-notes__item">swatches block presets から unsupported hide_padding を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.16</span>
+          <span class="cream-release-notes__meta">Icon artwork と stroke controls を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Icon artwork と stroke controls を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Theme settings に stroke weight selector を追加。</li>
+          <li class="cream-release-notes__item">interface glyphs を刷新し、outline と spacing を最適化。</li>
+          <li class="cream-release-notes__item">swatches block presets から unsupported hide_padding を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.14</span>
+          <span class="cream-release-notes__meta">Swatch visuals と recommendation card swatches を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">4件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Swatch visuals と recommendation card swatches を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">variant image を使わない場合、swatch border が swatch color に追従。</li>
+          <li class="cream-release-notes__item">PDP / collection cards の swatch sizing と spacing を標準化。</li>
+          <li class="cream-release-notes__item">disabled swatch hover preview 関連 code を削除。</li>
+          <li class="cream-release-notes__item">Product recommendations card に color swatches を default で追加。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.13</span>
+          <span class="cream-release-notes__meta">Featured collection と Tab collection の swatches / Quick add を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Featured collection と Tab collection の swatches / Quick add を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Featured collection の grid / carousel cards で price 後に color swatches を表示。</li>
+          <li class="cream-release-notes__item">Tab collection product cards に color swatches と Quick add to cart を追加。</li>
+          <li class="cream-release-notes__item">Tab collection の unused settings と dead references を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.12</span>
+          <span class="cream-release-notes__meta">Filters の currency-aware price parsing と duplicate markup を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Filters の currency-aware price parsing と duplicate markup を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">store currency に基づいて price range input values を正規化。</li>
+          <li class="cream-release-notes__item">filters-toggle snippet に toggle markup / styles を統合。</li>
+          <li class="cream-release-notes__item">unused filter IDs / data attributes を削除。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.11</span>
+          <span class="cream-release-notes__meta">Header menu に optional link hover animation を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">1件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Header menu に optional link hover animation を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">underline sweep と hover color highlight を持つ link hover animation toggle を追加。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.10</span>
+          <span class="cream-release-notes__meta">Wishlist section を wishlist page template のみに限定。</span>
+        </span>
+        <span class="cream-release-notes__count">1件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Wishlist section を wishlist page template のみに限定。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Wishlist section が wishlist page template でのみ render されるよう修正。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.9</span>
+          <span class="cream-release-notes__meta">Before/After compare section と localization keys を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">2件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Before/After compare section と localization keys を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">draggable slider、Remixicon handle、aspect ratio 0.5-1.5、corner radius を持つ compare section を追加。</li>
+          <li class="cream-release-notes__item">Before/After settings、options、blocks、presets の translation keys を英日で追加。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.8</span>
+          <span class="cream-release-notes__meta">Countdown Timer section を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">1件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Countdown Timer section を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">end date、labels、styling を設定できる timed message section を追加。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.7</span>
+          <span class="cream-release-notes__meta">Tab Collection carousel cards と Featured collection width を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">6件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Tab Collection carousel cards と Featured collection width を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">mobile carousel cards を grid と同じ width math に変更。</li>
+          <li class="cream-release-notes__item">Carousel featured cards を grid cards と同じ高さに stretch。</li>
+          <li class="cream-release-notes__item">section-level aspect ratio を削除し block-level を single source に。</li>
+          <li class="cream-release-notes__item">section layout label と width handling を carousel layout に合わせて整理。</li>
+          <li class="cream-release-notes__item">Featured collection carousel が Page width option を尊重。</li>
+          <li class="cream-release-notes__item">Tab collection heading と tab title alignment control を追加。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.6</span>
+          <span class="cream-release-notes__meta">Tab Collection section を追加し、tab behavior を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Tab Collection section を追加し、tab behavior を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">per-tab collection selection を持つ tabbed collections section を追加。</li>
+          <li class="cream-release-notes__item">featured image card、image override、alignment、aspect ratio、CTA button controls を追加。</li>
+          <li class="cream-release-notes__item">product title / price styling controls を tab ごとに追加。</li>
+          <li class="cream-release-notes__item">tab switching 時の viewport jump を防止。</li>
+          <li class="cream-release-notes__item">tab cards に product card badges と wishlist icon rendering を追加。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.5</span>
+          <span class="cream-release-notes__meta">Sale price visibility を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">1件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Sale price visibility を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Compare-at price がある場合、current price を red で表示。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.4</span>
+          <span class="cream-release-notes__meta">Hero Video、Newsletter Popup timing、Video Intro translation を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Hero Video、Newsletter Popup timing、Video Intro translation を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">desktop / mobile video sources を Uploaded / External URL で設定可能にし、mobile は desktop video に fallback。</li>
+          <li class="cream-release-notes__item">Video Intro 完了後に Newsletter popup delay countdown を開始。</li>
+          <li class="cream-release-notes__item">Video intro の translation keys と redundant event listeners を整理。</li>
+          <li class="cream-release-notes__item">active device video のみ再生し uploaded-video overlay text を削除。</li>
+          <li class="cream-release-notes__item">Hero video settings を Typography / Button / Video に整理し translation key 化。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.3</span>
+          <span class="cream-release-notes__meta">Video Intro source management と playback behavior を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">7件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Video Intro source management と playback behavior を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">desktop / mobile の Video Source selection を追加。</li>
+          <li class="cream-release-notes__item">fade-out animation 付き configurable start button を追加。</li>
+          <li class="cream-release-notes__item">start button click で確実に playback を開始。</li>
+          <li class="cream-release-notes__item">uploaded videos は HLS を優先し高品質 MP4 fallback を使用。</li>
+          <li class="cream-release-notes__item">desktop / mobile の correct device video のみ再生。</li>
+          <li class="cream-release-notes__item">native aspect ratio を保持。</li>
+          <li class="cream-release-notes__item">Video intro settings label を Interface から Typography に変更。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.2</span>
+          <span class="cream-release-notes__meta">Badges の label、radius、Bestseller、sale discount display を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">4件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Badges の label、radius、Bestseller、sale discount display を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Sale / Sold out / New / Bestseller badges の custom labels と per-badge corner radius controls を追加。</li>
+          <li class="cream-release-notes__item">bestseller tag による Bestseller badge を追加。</li>
+          <li class="cream-release-notes__item">percent / amount 形式の sale discount value display を OFF として追加。</li>
+          <li class="cream-release-notes__item">Badge styling が primary button colors を使用するよう変更。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.1</span>
+          <span class="cream-release-notes__meta">Cart drawer layout regression を修正。</span>
+        </span>
+        <span class="cream-release-notes__count">1件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Cart drawer layout regression を修正。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">product page の table cell styles が cart drawer item に漏れないよう reset。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.2.0</span>
+          <span class="cream-release-notes__meta">Collection cards の circle aspect ratio と Collection list schema defaults を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">2件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Collection cards の circle aspect ratio と Collection list schema defaults を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">collection card image を真円に表示する Circle aspect ratio option を追加。</li>
+          <li class="cream-release-notes__item">Collection list schema defaults を修正し validation errors を回避。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.9</span>
+          <span class="cream-release-notes__meta">Map section を新規構築。</span>
+        </span>
+        <span class="cream-release-notes__count">2件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Map section を新規構築。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">desktop / mobile で一貫した spacing と height options を持つ Map section を追加。</li>
+          <li class="cream-release-notes__item">CTA buttons を中央寄せし directions link を新しいタブで開くよう変更。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.8</span>
+          <span class="cream-release-notes__meta">Product page breadcrumb の位置と typography を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">2件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Product page breadcrumb の位置と typography を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Breadcrumb を header 下ではなく footer 上に移動。</li>
+          <li class="cream-release-notes__item">Breadcrumb font size を desktop / mobile とも 12.8px に統一。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.7</span>
+          <span class="cream-release-notes__meta">Variant picker UX を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">2件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Variant picker UX を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">option name/value block を左側に配置し buttons を横に整列。</li>
+          <li class="cream-release-notes__item">button / dropdown style の labels を bold にして視認性を改善。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.6</span>
+          <span class="cream-release-notes__meta">Product detail variant picker と sticky add-to-cart typography を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">2件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Product detail variant picker と sticky add-to-cart typography を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">product detail に新しい variant picker visuals を適用。</li>
+          <li class="cream-release-notes__item">sticky add to cart の variant name/value typography を PDP specs と統一。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.5</span>
+          <span class="cream-release-notes__meta">Product description tab に Read more toggle を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Product description tab に Read more toggle を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">collapsed height と label を持つ product description tab 用 Read more toggle を追加。</li>
+          <li class="cream-release-notes__item">tab toggle settings を英日で translation。</li>
+          <li class="cream-release-notes__item">collapsed state の fade-out overlay を高くしました。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.4</span>
+          <span class="cream-release-notes__meta">Scrolling text の repeat count と defaults/translations を更新。</span>
+        </span>
+        <span class="cream-release-notes__count">3件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Scrolling text の repeat count と defaults/translations を更新。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">6/12/18/24 または no repeat を選べる repeat count selector を追加。</li>
+          <li class="cream-release-notes__item">default copy を fixed text size ではなく text block で render。</li>
+          <li class="cream-release-notes__item">fallback translation を locale に接続し repeat help text を明確化。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.3</span>
+          <span class="cream-release-notes__meta">Hero video text editing と validation / sizing を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">4件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Hero video text editing と validation / sizing を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Hero video heading / subheading を rich text 対応に変更。</li>
+          <li class="cream-release-notes__item">Hero video text settings を text block experience に合わせて簡素化。</li>
+          <li class="cream-release-notes__item">plain text を paragraph で auto-wrap し validation errors を回避。</li>
+          <li class="cream-release-notes__item">nested heading/subheading elements が section font-size controls を継承。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.2</span>
+          <span class="cream-release-notes__meta">Page content layout controls と translation を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Page content layout controls と translation を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">page content block に Standard / Wide 1200px の width selector を追加。</li>
+          <li class="cream-release-notes__item">section width control を page / full に対応。</li>
+          <li class="cream-release-notes__item">Standard/Wide option labels を日本語含め translation。</li>
+          <li class="cream-release-notes__item">Blog posts width option labels を Standard/Wide naming に合わせて明確化。</li>
+          <li class="cream-release-notes__item">hardcoded page-width constraint を削除し block width settings を反映。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.1.0</span>
+          <span class="cream-release-notes__meta">Wishlist、Sticky add to cart、Bottom menu、Video intro、Mega menu を追加。</span>
+        </span>
+        <span class="cream-release-notes__count">5件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Wishlist、Sticky add to cart、Bottom menu、Video intro、Mega menu を追加。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Wishlist feature を追加。</li>
+          <li class="cream-release-notes__item">Product detail に Sticky add to cart option を追加。</li>
+          <li class="cream-release-notes__item">Bottom menu feature を追加。</li>
+          <li class="cream-release-notes__item">landing pages 用 Video intro component を追加。</li>
+          <li class="cream-release-notes__item">Mega menu を3階層対応に更新。</li>
+        </ul>
+      </div>
+    </details>
+
+    <details class="cream-release-notes__entry">
+      <summary class="cream-release-notes__toggle">
+        <span class="cream-release-notes__version-line">
+          <span class="cream-release-notes__version heading-small">Version 3.0.1</span>
+          <span class="cream-release-notes__meta">Accessibility、infinite scroll、product selection / display bugs を改善。</span>
+        </span>
+        <span class="cream-release-notes__count">10件</span>
+      </summary>
+      <div class="cream-release-notes__body">
+        <p class="cream-release-notes__intro body-medium">Accessibility、infinite scroll、product selection / display bugs を改善。</p>
+        <ul class="cream-release-notes__list body-medium">
+          <li class="cream-release-notes__item">Product grid に optional infinite scroll を追加。</li>
+          <li class="cream-release-notes__item">Password page footer を独立した section に変更。</li>
+          <li class="cream-release-notes__item">Gift card recipient form character count の color inheritance を修正。</li>
+          <li class="cream-release-notes__item">Quantity rules の number comparison bug を修正。</li>
+          <li class="cream-release-notes__item">Product cards の swatch mouseover image preview missing を修正。</li>
+          <li class="cream-release-notes__item">Variant picker motion を改善。</li>
+          <li class="cream-release-notes__item">More payment options 使用時の variant selection を修正。</li>
+          <li class="cream-release-notes__item">Quick Add modal、Hero reflection slider、Collection link wrapping、Header drawer、Blog app blocks を修正。</li>
+          <li class="cream-release-notes__item">mobile account drawer、cart launcher、popovers、search dialog/buttons、localization、predictive search clear button、page template h1、dialog ARIA labeling の accessibility を改善。</li>
+          <li class="cream-release-notes__item">dialog open / close performance を改善。</li>
+        </ul>
+      </div>
+    </details>
+  </div>
+</div>
