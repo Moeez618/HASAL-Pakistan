@@ -1,3 +1,4 @@
+{%- if settings.enable_loading_screen -%}
 {%- liquid
   assign image_1 = settings.loading_image_1
   assign image_2 = settings.loading_image_2
@@ -49,4 +50,5 @@
       </div>
     {%- endif -%}
   </div>
+{%- endif -%}
 {%- endif -%}

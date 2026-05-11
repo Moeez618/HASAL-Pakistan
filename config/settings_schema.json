@@ -677,6 +677,12 @@
         "info": "Icon appears while site is loading"
       },
       {
+        "type": "checkbox",
+        "id": "enable_loading_screen",
+        "label": "Enable loading screen",
+        "default": false
+      },
+      {
         "type": "image_picker",
         "id": "loading_image_1",
         "label": "Image 1",

@@ -21,6 +21,11 @@
 - Removed unnecessary high-priority image hints from lazy-loaded mobile menu images.
 - Removed preload/high-priority hints from the loading-screen image and added explicit image height output to reduce layout and resource-priority noise.
 - Ensured the shared image snippet always passes an explicit empty `alt` value when image alt text is blank.
+- Added a loading-screen enable setting that defaults off so the decorative loader does not block LCP rendering unless explicitly enabled.
+- Added explicit height and fallback empty alt output to hero images, including video posters.
+- Added a high priority hint to the first video poster image path and ensured generated video fallback images include empty alt text.
+- Added more responsive image candidates around common mobile and desktop render widths to reduce oversized image downloads.
+- Changed `swatches.css` to preload and apply asynchronously to reduce render-blocking CSS.
 
 ### Verification
 

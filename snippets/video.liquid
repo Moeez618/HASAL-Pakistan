@@ -54,9 +54,14 @@
   endif
 
   assign animation_order = 0
+  assign poster_fetchpriority = fetchpriority | default: null
+
+  if poster_fetchpriority == null and section.location == 'template' and section.index == 1
+    assign poster_fetchpriority = 'high'
+  endif
 
   capture video_poster
-    render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height, aspect_ratio: aspect_ratio, aspect_ratio_mobile: aspect_ratio
+    render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height, aspect_ratio: aspect_ratio, aspect_ratio_mobile: aspect_ratio, fetchpriority: poster_fetchpriority
   endcapture
 -%}
 
@@ -91,7 +96,10 @@
         data-video-id="{{ section.id }}-video-background"
       >
         <template data-video-template>
-          {{ video | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+          {%- capture video_tag_html -%}
+            {{ video | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+          {%- endcapture -%}
+          {{ video_tag_html | replace: '<img ', '<img alt="" ' }}
         </template>
       </video-background>
     {%- endif -%}
@@ -111,7 +119,10 @@
         data-video-id="{{ section.id }}-video-background-mobile"
       >
         <template data-video-template>
-          {{ video_mobile_source | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+          {%- capture video_mobile_tag_html -%}
+            {{ video_mobile_source | video_tag: autoplay: true, image_size: '1085x', loop: true, muted: true, controls: false }}
+          {%- endcapture -%}
+          {{ video_mobile_tag_html | replace: '<img ', '<img alt="" ' }}
         </template>
       </video-background>
     </div>
