@@ -57,6 +57,7 @@
     },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -69,6 +70,17 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h1"
+      }
+    },
+    "section_custom_code_V4MYMd": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_rich_text_7wY9EH": {
@@ -199,6 +211,7 @@
   "order": [
     "section_text_promo_DxE9mD",
     "main",
+    "section_custom_code_V4MYMd",
     "section_rich_text_7wY9EH",
     "contact_form_XtLXAm"
   ]
