@@ -8,6 +8,8 @@
 - Cream の `Version 3.0.1` から `Version 3.4.9` までの更新内容を日本語で確認できるようにしました。
 - Release Notes 本文を `snippets/cream-release-notes.liquid` に分離し、テンプレート側の Custom code 設定値が Shopify の 50KB 制限を超えないようにしました。
 - Release Notes ページ専用の CSS スコープを追加し、背景色、文字色、罫線、余白、フォントサイズが Broadcast テーマの CSS 変数に追従するようにしました。
+- Cream manual ページの Custom code セクションに Cream の `manual.md` 全内容を掲載しました。
+- Cream manual ページにカテゴリタブと機能別の「詳細を見る」展開 UI を追加しました。
 
 ### Fixed
 
@@ -21,6 +23,10 @@
 - Removed duplicate render arguments in header localization and tab collection image rendering.
 - Updated gift card font preloading to use Shopify's `preload_tag` filter.
 - Resolved all standard Shopify Theme Check warnings by removing unused Liquid assignments, normalizing variable names, initializing captured output buffers, and limiting suppressions to dynamic Liquid markup false positives.
+- Cream manual ページの Custom code を 50KB 未満に圧縮し、Shopify の `Liquid file size cannot exceed 50 kilobytes` エラーを回避しました。
+- Cream manual ページ内の重複 `h1` を削除し、ページ本体の見出し構造と競合しないようにしました。
+- Cream manual の「概要」項目を bullet から外し、機能名に添える説明文として表示するようにしました。
+- Cream manual のタブと「詳細を見る」に、Header メニューリンクと同じ下線ホバーアニメーションを適用しました。
 
 ### Performance
 
