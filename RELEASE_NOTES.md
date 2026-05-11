@@ -14,6 +14,14 @@
 - Removed duplicate render arguments in header localization and tab collection image rendering.
 - Updated gift card font preloading to use Shopify's `preload_tag` filter.
 
+### Performance
+
+- Added `fetchpriority="high"` to the first template hero image path so the mobile LCP poster image is prioritized.
+- Prioritized the first image block in early Rich text sections to address the desktop LCP image that PageSpeed reported as lazy-loaded.
+- Removed unnecessary high-priority image hints from lazy-loaded mobile menu images.
+- Removed preload/high-priority hints from the loading-screen image and added explicit image height output to reduce layout and resource-priority noise.
+- Ensured the shared image snippet always passes an explicit empty `alt` value when image alt text is blank.
+
 ### Verification
 
 - `shopify theme check --output json --no-color`: passed with `errors=0`.

@@ -3,6 +3,14 @@
   assign image_2 = settings.loading_image_2
   assign image_width = settings.loading_image_width
   assign image_width_retina = settings.loading_image_width | times: 2
+  assign image_1_height_retina = nil
+  assign image_2_height_retina = nil
+  if image_1 != blank
+    assign image_1_height_retina = image_width_retina | divided_by: image_1.aspect_ratio
+  endif
+  if image_2 != blank
+    assign image_2_height_retina = image_width_retina | divided_by: image_2.aspect_ratio
+  endif
   assign two_images_exist = false
   if image_1 != blank and image_2 != blank
     assign two_images_exist = true
@@ -16,13 +24,13 @@
     {%- if image_1 != blank -%}
       <div class="loading__image__holder">
         {{ image_1 | image_url: width: image_width_retina | image_tag:
-          preload: true,
           width: image_width_retina,
+          height: image_1_height_retina,
           widths: widths,
           sizes: sizes,
           loading: 'eager',
-          class: 'loading__image',
-          fetchpriority: 'high'
+          alt: '',
+          class: 'loading__image'
         }}
       </div>
     {%- endif -%}
@@ -30,13 +38,13 @@
     {%- if image_2 != blank -%}
       <div class="loading__image__holder">
         {{ image_2 | image_url: width: image_width_retina | image_tag:
-          preload: true,
           width: image_width_retina,
+          height: image_2_height_retina,
           widths: widths,
           sizes: sizes,
           loading: 'eager',
-          class: 'loading__image',
-          fetchpriority: 'high'
+          alt: '',
+          class: 'loading__image'
         }}
       </div>
     {%- endif -%}
