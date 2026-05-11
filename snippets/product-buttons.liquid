@@ -118,7 +118,7 @@
       {%- assign cart_qty = cart | item_count_for_variant: current_variant.id -%}
       {% # theme-check-enable %}
       <label class="form__label label-hidden" for="Quantity-{{ section_id }}" data-quantity-label>
-        {{ 'products.product.quantity' | t }}
+        {{ 'cart.general.quantity_field_label' | t }}
         <span class="quantity__rules-cart{% if cart_qty == 0 %} hidden{% endif %}">
           <span
             >(

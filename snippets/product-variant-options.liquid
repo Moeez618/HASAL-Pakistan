@@ -110,10 +110,7 @@
             {%- assign variant_option_image_translation = 'products.product.variant_option_image' | t -%}
 
             {%- if option.name == variant_option_image_translation -%}
-              {%- liquid
-                assign product_option_value = value | product_option_value: product, option
-                assign variant_option_image = product_option_value.variant.featured_media.preview_image
-              -%}
+              {%- assign variant_option_image = value.variant.featured_media.preview_image -%}
 
               {% if variant_option_image %}
                 {%- capture srcset -%}

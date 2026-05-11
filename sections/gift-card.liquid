@@ -4,6 +4,8 @@
       <a href="{{ shop.url }}" itemprop="url">
         <img
           src="{{ section.settings.logo | image_url }}"
+          width="{{ section.settings.logo.width }}"
+          height="{{ section.settings.logo.height }}"
           style="width: {{ section.settings.logo_max_limit }}px; margin: 0 auto;"
           alt="{{ section.settings.logo.alt | default: shop.name }}"
           loading="eager"

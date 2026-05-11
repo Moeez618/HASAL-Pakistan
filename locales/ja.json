@@ -83,7 +83,9 @@
       "show_menu": "メニューを表示",
       "exit_menu": "メニューを終了",
       "footer_logo": "フッターロゴ",
-      "slide_image": "スライド画像"
+      "slide_image": "スライド画像",
+      "play_video": "動画を再生",
+      "pause_video": "動画を一時停止"
     },
     "social": {
       "share_on_facebook": "共有",
@@ -127,7 +129,6 @@
     "shop_the_look": {
       "button": "ルックを購入する"
     },
-    "ie11_support_message": "このサイトは、お使いのブラウザに対して限定的なサポートを提供しています。Edge、Chrome、Safari、または Firefox に切り替えることをお勧めします。",
     "forms": {
       "post_error": "申し訳ございませんが、問題が発生したようです。以下の点を修正して再度送信してください。"
     }
@@ -142,7 +143,6 @@
       "older_post": "古い投稿",
       "newer_post": "より新しいポスト",
       "read_more": "続きを読む",
-      "read_more_descriptive": "全文を読むにはここをクリックしてください",
       "no_articles": "表示する記事はありません。"
     },
     "comments": {
@@ -194,6 +194,11 @@
       "accepted_terms": "利用規約に同意しますか?",
       "increase_quantity_label": "ボタンの数量を増やす",
       "decrease_quantity_label": "ボタンの数量を減らす",
+      "discount_code_label": "割引コード",
+      "discount_code_placeholder": "割引コードを入力",
+      "discount_not_applicable": "割引は適用できません",
+      "discount_already_applied": "割引はすでに適用されています",
+      "apply_button": "適用",
       "discount_label": "{{ title }}で{{ amount }}節約できます",
       "limit_message": "購入可能な商品はもうありません",
       "add_message": "製品を追加しました: ",
@@ -438,7 +443,6 @@
       "view_product": "製品を見る",
       "see_all": "すべてを見る",
       "upsell_out_of_stock": "在庫切れ",
-      "shop_now": "今すぐ購入",
       "product_info": "セクション設定から1つ選択",
       "upsell_error_title": "アップセル製品を選択する",
       "upsell_error_info": "ここで製品を表示するにはメタフィールドを使用します。空のアップセルはライブサイトには表示されません。",
@@ -448,6 +452,8 @@
       "new": "新しい",
       "on_sale": "セール",
       "save": "保存",
+      "save_badge_html": "{{ discount }}お得",
+      "save_badge_up_to_html": "最大{{ discount }}お得",
       "off": "オフ",
       "sku": "製品コード",
       "vendor": "ベンダー",
@@ -456,6 +462,8 @@
       "variant_option_image": "サイズ",
       "zoom": "ズーム",
       "select": "選択する",
+      "value_unavailable": "{{ option_value }} - 利用不可",
+      "variant_sold_out_or_unavailable": "バリエーションは売り切れまたは利用できません",
       "each": "それぞれ",
       "regular_price": "通常価格",
       "one_time_purchase": "1回限りの購入",
@@ -463,6 +471,12 @@
       "select_value": "値を選択",
       "select_color": "色を選択",
       "in_stock": "商品は在庫あり",
+      "inventory_low_stock_show_count": "在庫わずか: 残り{{ quantity }}点",
+      "inventory_low_stock": "在庫わずか",
+      "inventory_in_stock_show_count": "{{ quantity }}点在庫あり",
+      "inventory_in_stock": "在庫あり",
+      "inventory_out_of_stock_continue_selling": "在庫あり",
+      "inventory_out_of_stock": "在庫切れ",
       "item_unavailable": "商品は入手できません",
       "pickup_availability": {
         "pickup_options": "ピックアップオプション",
@@ -483,7 +497,13 @@
       "shipping_policy_html": "<a href=\"{{ link }}\">配送</a>はチェックアウト時に計算されます。",
       "unit_price_label": "単価",
       "subscription": "サブスクリプション",
-      "quantity": "量",
+      "quantity": {
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}</span>点がカートに入っています",
+        "decrease": "{{ product }}の数量を減らす",
+        "multiples_of": "{{ quantity }}単位",
+        "minimum_of": "最小{{ quantity }}",
+        "maximum_of": "最大{{ quantity }}"
+      },
       "add_to_cart": "カートに追加",
       "configure": "構成、設定",
       "ask_title": "この製品について質問する:",
@@ -492,7 +512,27 @@
       "taxes_included": "（税込）",
       "duties_included": "関税が含まれています。",
       "remaining_html": "お急ぎください。残り{{ inventory }}個のみです。",
-      "remaining_no_count": "お急ぎください！在庫が少なくなっています"
+      "remaining_no_count": "お急ぎください！在庫が少なくなっています",
+      "price": {
+        "from_price_html": "{{ price }}から",
+        "regular_price": "通常価格",
+        "sale_price": "セール価格",
+        "unit_price": "単価"
+      },
+      "volume_pricing": {
+        "price_range": "{{ minimum }} - {{ maximum }}",
+        "price_at_each_html": "{{ price }}/点",
+        "title": "数量割引",
+        "note": "数量割引があります"
+      }
+    },
+    "facets": {
+      "show_more": "もっと見る"
+    }
+  },
+  "sections": {
+    "quick_order_list": {
+      "each": "{{ money }}/点"
     }
   },
   "countdown": {
@@ -568,11 +608,6 @@
     },
     "checkpoint": {
       "submit_button_text": "送信する"
-    }
-  },
-  "customer_accounts": {
-    "ui_components": {
-      "submit": "送信する"
     }
   }
 }

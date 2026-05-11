@@ -152,6 +152,8 @@
               loading: loading,
               fetchpriority: fetchpriority,
               alt: alt,
+              width: image.width,
+              height: image.height,
               sizes: sizes,
               srcset: srcset_mobile,
               class: 'is-loading',
@@ -159,7 +161,7 @@
           }}
         </picture>
       {%- elsif image contains 'blank.svg' or image == blank -%}
-        <img src="{{ 'blank.svg' | asset_url }}" loading="lazy" class="is-loading">
+        <img src="{{ 'blank.svg' | asset_url }}" width="1" height="1" loading="lazy" class="is-loading">
       {%- else -%}
         {{
           image
@@ -169,6 +171,8 @@
             srcset: srcset,
             sizes: sizes,
             alt: alt,
+            width: width,
+            height: height,
             fetchpriority: fetchpriority,
             preload: preload,
             class: 'is-loading'
