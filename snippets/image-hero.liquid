@@ -59,6 +59,10 @@
     assign loading = 'lazy'
   endif
 
+  if fetchpriority == null and section.location == 'template' and section.index == 1
+    assign fetchpriority = 'high'
+  endif
+
   if show_backfill == null
     assign show_backfill = true
   endif

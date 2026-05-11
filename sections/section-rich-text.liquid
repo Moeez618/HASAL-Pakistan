@@ -13,6 +13,7 @@
   endif
   assign animation_anchor = '#Rte--' | append: section.id
   assign animation_order = 0
+  assign priority_image_loaded = false
 -%}
 
 {%- style -%}
@@ -113,6 +114,14 @@
                 assign animation_order = animation_order | plus: 1
                 assign image_width_percent = block.settings.image_width
                 assign image_width_ratio = image_width_percent | times: 0.01
+                assign image_loading = 'lazy'
+                assign image_fetchpriority = null
+
+                if section.location == 'template' and section.index <= 3 and priority_image_loaded == false
+                  assign image_loading = 'eager'
+                  assign image_fetchpriority = 'high'
+                  assign priority_image_loaded = true
+                endif
 
                 capture block_style
                   echo 'style="'
@@ -145,7 +154,12 @@
                 {{ block.shopify_attributes }}
                 {{ block_style }}
               >
-                {%- render 'image', image: block.settings.image, sizes: sizes -%}
+                {%- render 'image',
+                  image: block.settings.image,
+                  sizes: sizes,
+                  loading: image_loading,
+                  fetchpriority: image_fetchpriority
+                -%}
               </div>
 
             {%- when 'buttons' -%}
