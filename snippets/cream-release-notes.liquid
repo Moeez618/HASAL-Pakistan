@@ -17,15 +17,6 @@
     width: 100%;
   }
 
-  #CustomCode--section_custom_code_release_notes .cream-release-notes__header {
-    border-bottom: 1px solid var(--border);
-    display: grid;
-    gap: 16px;
-    margin-bottom: 32px;
-    padding-bottom: 28px;
-  }
-
-  #CustomCode--section_custom_code_release_notes .cream-release-notes__eyebrow,
   #CustomCode--section_custom_code_release_notes .cream-release-notes__meta,
   #CustomCode--section_custom_code_release_notes .cream-release-notes__count {
     color: var(--text-light);
@@ -37,21 +28,14 @@
     text-transform: var(--FONT-UPPERCASE-SUBHEADING);
   }
 
-  #CustomCode--section_custom_code_release_notes .cream-release-notes__title,
   #CustomCode--section_custom_code_release_notes .cream-release-notes__version {
     color: var(--text);
     margin: 0;
   }
 
-  #CustomCode--section_custom_code_release_notes .cream-release-notes__summary,
   #CustomCode--section_custom_code_release_notes .cream-release-notes__intro,
   #CustomCode--section_custom_code_release_notes .cream-release-notes__item {
     color: var(--text-a80);
-  }
-
-  #CustomCode--section_custom_code_release_notes .cream-release-notes__summary {
-    margin: 0;
-    max-width: 78ch;
   }
 
   #CustomCode--section_custom_code_release_notes .cream-release-notes__timeline {
@@ -145,13 +129,9 @@
 </style>
 
 <div class="cream-release-notes">
-  <header class="cream-release-notes__header">
-    <p class="cream-release-notes__eyebrow">Cream by Solstar Release Notes</p>
-  </header>
-
   <div class="cream-release-notes__timeline">
 
-    <details class="cream-release-notes__entry" open>
+    <details class="cream-release-notes__entry">
       <summary class="cream-release-notes__toggle">
         <span class="cream-release-notes__version-line">
           <span class="cream-release-notes__version heading-small">Version 3.4.9</span>
@@ -1398,32 +1378,52 @@
 
 <script>
   (() => {
-    const section = document.getElementById('CustomCode--section_custom_code_release_notes');
-    if (!section) return;
+    const sectionId = 'CustomCode--section_custom_code_release_notes';
 
-    const entries = section.querySelectorAll('.cream-release-notes__entry');
-    entries.forEach((entry) => {
-      entry.addEventListener('mouseenter', () => {
-        entry.open = true;
-      });
+    function initCreamReleaseNotes(root = document) {
+      const section =
+        root.id === sectionId
+          ? root
+          : root.getElementById
+            ? root.getElementById(sectionId)
+            : root.querySelector?.('#' + sectionId);
+      if (!section || section.dataset.releaseNotesHoverReady === 'true') return;
 
-      entry.addEventListener('mouseleave', () => {
-        if (!entry.matches(':focus-within')) {
+      section.dataset.releaseNotesHoverReady = 'true';
+
+      const entries = Array.from(section.querySelectorAll('.cream-release-notes__entry'));
+
+      function closeEntry(entry) {
+        if (!entry.matches(':hover, :focus-within')) {
           entry.open = false;
         }
-      });
+      }
 
-      entry.addEventListener('focusin', () => {
-        entry.open = true;
-      });
+      entries.forEach((entry) => {
+        entry.open = false;
 
-      entry.addEventListener('focusout', () => {
-        window.setTimeout(() => {
-          if (!entry.matches(':hover, :focus-within')) {
-            entry.open = false;
-          }
-        }, 0);
+        entry.addEventListener('pointerenter', () => {
+          entry.open = true;
+        });
+
+        entry.addEventListener('pointerleave', () => {
+          closeEntry(entry);
+        });
+
+        entry.addEventListener('focusin', () => {
+          entry.open = true;
+        });
+
+        entry.addEventListener('focusout', () => {
+          window.setTimeout(() => closeEntry(entry), 0);
+        });
       });
+    }
+
+    initCreamReleaseNotes();
+
+    document.addEventListener('shopify:section:load', (event) => {
+      initCreamReleaseNotes(event.target);
     });
   })();
 </script>
