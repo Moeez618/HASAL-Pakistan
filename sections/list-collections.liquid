@@ -87,7 +87,7 @@
 
         {%- if skip_collection == false and collection.products_count > 0 -%}
           <div class="collection-block__wrapper collection-block__wrapper--{{ collection.handle }}">
-            {%- render 'collection-block', collection: collection, block: block, limit: limit -%}
+            {%- render 'collection-block', collection: collection, limit: limit -%}
           </div>
         {%- endif -%}
       {%- endfor -%}

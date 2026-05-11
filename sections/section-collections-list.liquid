@@ -15,6 +15,7 @@
   endif
 
   assign aspect_ratio = 1 | divided_by: section.settings.aspect_ratio
+  assign animation_order = 0
 
   assign grid_columns = section.settings.grid
   assign limit_onboarding = grid_columns
@@ -147,7 +148,7 @@
                 capture index
                   cycle 1, 2, 3, 5, 6
                 endcapture
-                render 'collection-grid-item', block: block, aspect_ratio: aspect_ratio, animation_delay: animation_delay, animation_anchor: animation_anchor, index: index
+                render 'collection-grid-item', aspect_ratio: aspect_ratio, animation_delay: animation_delay, animation_anchor: animation_anchor, index: index
               endfor
             endif
           endcapture

@@ -8,6 +8,8 @@
   assign block_index_dynamic = 1
   assign search_id = 'mobile--' | append: section.id
   assign color_scheme = 'color-' | append: section.settings.color_scheme
+  assign dynamic_blocks = ''
+  assign pinned_blocks = ''
 
   capture section_style
     echo '--COLUMNS: 2; --COLUMNS-MEDIUM: 2; --COLUMNS-SMALL: 2; --COLUMNS-MOBILE: 1;'
@@ -69,7 +71,6 @@
       assign bg_color = block.settings.bg_color
       assign text_color = block.settings.color
       assign has_background_color = false
-      assign block_padding = ''
       assign pin_to_bottom = block.settings.pin_to_bottom
 
       if pin_to_bottom
@@ -86,7 +87,6 @@
         assign image_width = image_width_percent | times: 0.01 | times: container_width
         assign image_width_x15 = image_width | times: 1.5
         assign image_width_x2 = image_width | times: 2
-        assign width = image_width_x2
         assign sizes = image_width | append: 'px'
         assign widths = image_width | append: ', ' | append: image_width_x15 | append: ', ' | append: image_width_x2 | append: ', 350, 525, 700'
       endif

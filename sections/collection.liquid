@@ -7,6 +7,8 @@
   assign filter_layout = section.settings.filter_layout
   assign show_recently_viewed_indicator = settings.show_recently_viewed_indicator
   assign color_scheme = 'color-' | append: section.settings.color_scheme
+  assign selected_color_scheme = section.settings.color_scheme | strip
+  assign border_color = settings.color_schemes[selected_color_scheme].settings.lines_and_border
 
   if filter_layout == 'inline-open'
     assign filters_expanded = true
@@ -16,7 +18,6 @@
   endcomment
 
   assign product_limit = section.settings.products_per_page
-  assign blocks_featured_image = section.blocks | where: 'type', 'featured_image'
 
   assign columns_desktop = section.settings.grid | plus: 0
   assign columns_medium = 3
@@ -26,9 +27,6 @@
   if columns_desktop == 2 or columns_desktop == 4
     assign columns_medium = 2
   endif
-
-  assign animation_anchor = '.collection-' | append: collection.handle
-  assign animation_duration = 800
 
   assign items_container_tag = 'div'
   if enable_infinity_scroll

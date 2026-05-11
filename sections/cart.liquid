@@ -131,8 +131,6 @@
     </div>
 
     <form id="cartForm" class="cart__form" action="{{ routes.cart_url }}" method="post" novalidate data-cart-form>
-      {{ form.errors | default_errors }}
-
       <div class="cart__inner">
         <div class="cart__content">
           <h1

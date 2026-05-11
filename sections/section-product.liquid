@@ -74,7 +74,7 @@
         {%- if product != blank -%}
           {%- render 'product-grid-item',
             product: product,
-            index: forloop.index,
+            index: 1,
             show_product_card: section.settings.show_product_card,
             sizes: grid_item_sizes,
             disable_image_hover: true
@@ -82,7 +82,7 @@
         {%- else -%}
           {%- render 'onboarding-product-grid-item',
             show_product_card: section.settings.show_product_card,
-            index: forloop.index
+            index: 1
           -%}
         {%- endif -%}
       </div>
