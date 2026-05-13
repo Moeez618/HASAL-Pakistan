@@ -251,11 +251,13 @@
         "video_Xc8Ttf": {
           "type": "video",
           "settings": {
-            "badge_text": "@instagram",
-            "heading": "Add a title or tagline",
+            "image": "shopify://shop_images/Thumbnail_Responsive_copy.webp",
+            "video": "shopify://files/videos/Responsive video.mp4",
+            "badge_text": "",
+            "heading": "CVRを最大化するレスポンシブUI",
             "heading_font_size": "heading-small",
-            "text": "<p>Add supporting copy here.</p>",
-            "text_font_size": "body-medium"
+            "text": "<p>あらゆるデバイスで購入体験を最適化するレスポンシブ設計を採用。画面サイズに左右されない直感的なUIで、離脱を防ぎ、売上につながるUXを実現します。</p>",
+            "text_font_size": "body-small"
           }
         }
       },
