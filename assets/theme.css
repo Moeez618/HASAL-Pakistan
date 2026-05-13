@@ -14093,6 +14093,10 @@ dialog[closing] .product-modal__outer {
   padding: var(--inner);
 }
 
+popup-component.product__block .drawer__inner {
+  color: var(--text);
+}
+
 /*================ Product Media ================*/
 .product__photo {
   position: relative;
