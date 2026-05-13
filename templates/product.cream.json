@@ -43,7 +43,7 @@
         "popup_ihyPHp": {
           "type": "popup",
           "settings": {
-            "title": "Release Notes",
+            "title": "リリースノート",
             "text": "<p>Additional information about the product.</p>",
             "page": "cream-release-notes",
             "text_font_size": "body-small",
