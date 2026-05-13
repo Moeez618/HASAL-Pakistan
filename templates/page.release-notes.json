@@ -71,17 +71,6 @@
         "heading_tag": "h1"
       }
     },
-    "section_custom_code_release_notes": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "{% render 'cream-release-notes' %}\n<style>#CustomCode--{{ section.id }} .cream-release-notes__toggle{align-items:center;display:flex;flex-wrap:nowrap;gap:10px;grid-template-columns:none;justify-content:flex-start}#CustomCode--{{ section.id }} .cream-release-notes__toggle::after{display:none}#CustomCode--{{ section.id }} .cream-release-notes__version-line{align-items:center;display:flex;flex:0 1 auto;flex-wrap:nowrap;gap:10px;min-width:0;width:auto}#CustomCode--{{ section.id }} .cream-release-notes__version,#CustomCode--{{ section.id }} .cream-release-notes__count{flex:0 0 auto;white-space:nowrap}#CustomCode--{{ section.id }} .cream-release-notes__meta{display:block;flex:0 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}#CustomCode--{{ section.id }} .cream-release-notes__intro{display:none}#CustomCode--{{ section.id }} .cream-release-notes__actions{align-items:center;display:flex;flex:0 0 auto;gap:0;white-space:nowrap}#CustomCode--{{ section.id }} .cream-release-notes__detail{align-items:center;color:var(--text);cursor:pointer;display:inline-flex}#CustomCode--{{ section.id }} .cream-release-notes__detail::before{content:\"  \";white-space:pre}#CustomCode--{{ section.id }} .cream-release-notes__detail>span{display:block;margin-bottom:2px;position:relative}#CustomCode--{{ section.id }} .cream-release-notes__detail>span::after{background-color:var(--link);bottom:-2px;content:\"\";height:1px;left:0;position:absolute;transition:width .3s cubic-bezier(.39,.575,.565,1);width:0}@media(hover:hover){#CustomCode--{{ section.id }} .cream-release-notes__detail:hover>span::after{width:100%}}#CustomCode--{{ section.id }} .cream-release-notes__detail:focus-visible>span::after{width:100%}@media(max-width:749px){#CustomCode--{{ section.id }} .cream-release-notes__count{display:inline-block}}</style>\n<script>(function(){function init(scope){var root=(scope||document).querySelector('.cream-release-notes');if(!root||root.classList.contains('is-enhanced'))return;root.classList.add('is-enhanced');root.querySelectorAll('.cream-release-notes__intro').forEach(function(intro){intro.remove()});root.querySelectorAll('.cream-release-notes__toggle').forEach(function(toggle){var entry=toggle.closest('details');var line=toggle.querySelector('.cream-release-notes__version-line');var count=Array.prototype.filter.call(toggle.children,function(el){return el.classList&&el.classList.contains('cream-release-notes__count')})[0];if(!entry||!line||!count)return;var actions=document.createElement('span');var detail=document.createElement('span');var detailText=document.createElement('span');actions.className='cream-release-notes__actions';detail.className='cream-release-notes__detail';detailText.textContent='詳細を見る';detail.setAttribute('role','button');detail.setAttribute('tabindex','0');detail.setAttribute('aria-expanded',entry.open?'true':'false');detail.appendChild(detailText);actions.appendChild(count);actions.appendChild(detail);line.appendChild(actions);function toggleEntry(e){e.preventDefault();e.stopPropagation();entry.open=!entry.open;detail.setAttribute('aria-expanded',entry.open?'true':'false')}toggle.addEventListener('click',function(e){e.preventDefault()});toggle.addEventListener('keydown',function(e){if(e.target===toggle&&(e.key==='Enter'||e.key===' ')){e.preventDefault()}});detail.addEventListener('click',toggleEntry);detail.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){toggleEntry(e)}})})}init(document);document.addEventListener('shopify:section:load',function(e){init(e.target)})})();</script>",
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 50
-      }
-    },
     "section_rich_text_7wY9EH": {
       "type": "section-rich-text",
       "blocks": {
@@ -210,7 +199,6 @@
   "order": [
     "section_text_promo_DxE9mD",
     "main",
-    "section_custom_code_release_notes",
     "section_rich_text_7wY9EH",
     "contact_form_XtLXAm"
   ]
