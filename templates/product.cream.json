@@ -236,17 +236,19 @@
             "text_font_size": "body-small"
           }
         },
-        "video_Xc8Ttf": {
+        "video_M3Axhc": {
           "type": "video",
           "settings": {
-            "badge_text": "@instagram",
-            "heading": "Add a title or tagline",
+            "image": "shopify://shop_images/Thunbnail_copy.webp",
+            "video": "shopify://files/videos/SEO Focused Video_b57d75e8-5820-4ad0-8855-05ce8a39e0b2.mp4",
+            "badge_text": "",
+            "heading": "持続的な集客を支えるSEO基盤",
             "heading_font_size": "heading-small",
-            "text": "<p>Add supporting copy here.</p>",
-            "text_font_size": "body-medium"
+            "text": "<p>SEOを意識したテーマ構造により、商品・コレクションページの評価を最大化。集客から購入までを一貫して最適化します。</p>",
+            "text_font_size": "body-small"
           }
         },
-        "video_Kaqenx": {
+        "video_Xc8Ttf": {
           "type": "video",
           "settings": {
             "badge_text": "@instagram",
@@ -260,8 +262,8 @@
       "block_order": [
         "video_pJYVtC",
         "video_EDcV6F",
-        "video_Xc8Ttf",
-        "video_Kaqenx"
+        "video_M3Axhc",
+        "video_Xc8Ttf"
       ],
       "name": "Social videos",
       "settings": {
