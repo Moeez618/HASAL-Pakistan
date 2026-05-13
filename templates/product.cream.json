@@ -148,10 +148,71 @@
         "padding_top": 30,
         "padding_bottom": 0
       }
+    },
+    "section_announcement_qnCgXe": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_n4ayyc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_1_copy.png",
+            "image_width": 70
+          }
+        },
+        "image_9rEPb8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Paw_Mint_Logo_copy.png",
+            "image_width": 60
+          }
+        },
+        "image_3rNQJw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Asset_2_4x_53374d2c-2e47-46a9-9540-563f098bdfc6.png",
+            "image_width": 60
+          }
+        },
+        "image_Nw4GUn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MORFU_copy.png",
+            "image_width": 100
+          }
+        },
+        "image_4fA49J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shopify-mono-white.png",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_n4ayyc",
+        "image_9rEPb8",
+        "image_3rNQJw",
+        "image_Nw4GUn",
+        "image_4fA49J"
+      ],
+      "name": "Scrolling text",
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 75,
+        "direction": "ticker-ltr",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "related"
+    "related",
+    "section_announcement_qnCgXe"
   ]
 }
