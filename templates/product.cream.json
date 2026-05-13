@@ -40,6 +40,20 @@
             "padding_bottom": 16
           }
         },
+        "popup_cBw9xK": {
+          "type": "popup",
+          "settings": {
+            "title": "リリースノート",
+            "text": "<p>Additional information about the product.</p>",
+            "page": "cream-release-notes",
+            "text_font_size": "body-small",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -95,6 +109,7 @@
         "title",
         "price",
         "text_9GJrnc",
+        "popup_cBw9xK",
         "variants",
         "buttons",
         "tabs",
