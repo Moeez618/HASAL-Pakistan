@@ -41,7 +41,7 @@
         "buttons": {
           "type": "buttons",
           "settings": {
-            "show_quantity": true,
+            "show_quantity": false,
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
