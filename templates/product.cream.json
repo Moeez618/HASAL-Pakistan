@@ -28,6 +28,18 @@
             "padding_bottom": 16
           }
         },
+        "text_9GJrnc": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "heading_font_size": "body-medium",
+            "text": "<p>Version: {{ product.metafields.custom.version.value }}</p>",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
+            "layout": "left",
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -82,6 +94,7 @@
       "block_order": [
         "title",
         "price",
+        "text_9GJrnc",
         "variants",
         "buttons",
         "tabs",
