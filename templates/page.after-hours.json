@@ -11,10 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "subheading": "",
-        "show_title": true,
+        "show_title": false,
         "heading_font_size": "heading-x-large",
         "show_content": true,
         "text_font_size": "body-medium",
