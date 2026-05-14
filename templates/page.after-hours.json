@@ -40,7 +40,7 @@
         "hero_text": {
           "type": "text",
           "settings": {
-            "text": "<p>ゼロから構築した本格ストリートブランド「After Hours」を、ストアごとプレゼント。Shopifyオーナーアカウント、独自ドメイン、キービジュアル、登録済み商品、商品デザイン一式まで含めて譲渡します。</p><p>YouTube動画『【2026年最新版】初心者向けShopify完全ガイド！』公開記念の特別企画です。</p>",
+            "text": "<p>ゼロから作り上げた本格ストリートブランド「After Hours」のShopify ECサイトを<strong>抽選でプレゼント</strong>します。</p><p><em>※YouTube動画『【2026年最新版】初心者向けShopify完全ガイド！』公開記念の特別企画です。　</em></p>",
             "text_font_size": "body-large",
             "padding_bottom": 14
           }
