@@ -392,7 +392,7 @@
         "pillar_concept": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-flare",
+            "icon_name": "icon-check-circle",
             "icon_size": 30,
             "icon_color": "",
             "title": "洗練されたブランドコンセプト",
@@ -439,7 +439,7 @@
         "title": "プレゼントされるブランド「After Hours」とは？",
         "heading_font_size": "heading-large",
         "align_heading": "text-center",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "icon_alignment": "icon--top",
         "width": "wrapper",
         "align_columns": "flex-align-top",
