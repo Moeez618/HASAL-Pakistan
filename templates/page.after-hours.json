@@ -444,9 +444,9 @@
             "icon_name": "icon-cloud",
             "icon_size": 30,
             "icon_color": "",
-            "title": "オリジナルテーマ「Cream」による独自デザイン",
+            "title": "オリジナルテーマによるデザイン設計",
             "heading_font_size": "heading-small",
-            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ<strong>「Cream」</strong>を採用。お気に入り追加、下部追従メニュー、LINE友だち追加訴求など、購入導線や回遊性を高める機能を備えています。黒背景にアクセントカラーを効かせた、夜のライフスタイルに映える世界観です。</p>",
+            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ<strong>「Cream」</strong>を採用。お気に入り追加、下部追従メニュー、LINE友だち追加訴求など、購入導線や回遊性を高める機能を備えています。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
