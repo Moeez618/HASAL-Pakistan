@@ -709,6 +709,7 @@
         "audience_no_inventory": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/unisex-french-terry-pullover-hoodie-black-front-69b220aea46e4.jpg",
             "image_width": 100,
             "image_shape": "normal",
             "title": "無在庫販売モデルに興味がある方",
