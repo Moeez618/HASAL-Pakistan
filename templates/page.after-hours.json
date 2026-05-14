@@ -917,7 +917,7 @@
       }
     },
     "message": {
-      "type": "section-rich-text",
+      "type": "section-double",
       "blocks": {
         "message_subheading": {
           "type": "subheading",
@@ -951,13 +951,18 @@
       ],
       "name": "Message",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--narrow",
-        "image": "shopify://shop_images/ChatGPT_Image_2026_3_13_17_21_12.png",
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_13_17_21_12.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
         "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 80,
-        "padding_bottom": 80
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "final_cta": {
