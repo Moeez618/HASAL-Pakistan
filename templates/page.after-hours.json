@@ -667,6 +667,7 @@
         "audience_brand": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_5_14_15_11_25.png",
             "image_width": 100,
             "image_shape": "normal",
             "title": "自分のブランドでECサイトを始めたい方",
@@ -687,6 +688,7 @@
         "audience_shopify": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_5_14_15_08_20.png",
             "image_width": 100,
             "image_shape": "normal",
             "title": "Shopifyを実践的に学びたい方",
