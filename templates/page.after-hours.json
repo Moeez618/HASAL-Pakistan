@@ -418,7 +418,7 @@
         "pillar_cream": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-star",
+            "icon_name": "icon-cloud",
             "icon_size": 30,
             "icon_color": "",
             "title": "オリジナルテーマ「Cream」による独自デザイン",
@@ -497,7 +497,7 @@
             "title": "1. ブランド設計",
             "content": "<p>ChatGPTを活用した競合分析と差別化ポイントの発見。ブランドコンセプトとブランドストーリーの作成。ペルソナの設定と、ブランドの方向性のドキュメント化。ChatGPTでのロゴとファビコンの作成まで解説します。</p>",
             "show_icon": true,
-            "icon_name": "icon-flare",
+            "icon_name": "icon-cloud",
             "icon_size": 20,
             "icon_color": ""
           }
@@ -533,7 +533,7 @@
             "title": "4. テーマ設定とデザイン・UIの基礎設計",
             "content": "<p>SOLSTARオリジナルテーマ<strong>「Cream」</strong>の導入。ブランドカラーに合わせた配色設定。ヘッダー、ロゴ、ファビコンのサイズ・余白調整を行います。</p>",
             "show_icon": true,
-            "icon_name": "icon-star",
+            "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_color": ""
           }
@@ -569,7 +569,7 @@
             "title": "7. ページのブラッシュアップ",
             "content": "<p>送料無料を訴求する<strong>「お知らせバー」</strong>を設定。メルマガ登録を促す<strong>「ニュースレターポップアップ」</strong>を実装。商品詳細ページの不要要素を削減し、決済アイコンを追加。PC・モバイル両方での表示と動作を確認します。</p>",
             "show_icon": true,
-            "icon_name": "icon-check-circle",
+            "icon_name": "icon-info-empty",
             "icon_size": 20,
             "icon_color": ""
           }
@@ -593,7 +593,7 @@
             "title": "9. 最終確認",
             "content": "<p>テストモードで購入を実施。送料無料条件や地域別送料が正しく反映されるか確認し、注文からチェックアウトまでの流れをチェックします。</p>",
             "show_icon": true,
-            "icon_name": "icon-shield",
+            "icon_name": "icon-check-circle",
             "icon_size": 20,
             "icon_color": ""
           }
