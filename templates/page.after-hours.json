@@ -210,7 +210,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-award",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "Shopifyオーナーアカウント",
             "heading_font_size": "heading-small",
             "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
@@ -222,7 +222,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-planet",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "独自ドメイン",
             "heading_font_size": "heading-small",
             "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
@@ -234,7 +234,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-box",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "登録済み商品情報",
             "heading_font_size": "heading-small",
             "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
@@ -246,7 +246,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-pants",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "商品デザイン一式",
             "heading_font_size": "heading-small",
             "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
@@ -258,7 +258,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-flare",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "キービジュアル・ロゴ",
             "heading_font_size": "heading-small",
             "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
@@ -270,7 +270,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-star",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "Creamテーマのストアデザイン",
             "heading_font_size": "heading-small",
             "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
@@ -282,7 +282,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-notes",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "各種ページ",
             "heading_font_size": "heading-small",
             "text": "<p>商品ページ、コレクションページ、About Us、FAQなどのページ構成を含みます。</p>",
@@ -294,7 +294,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-check-circle",
-            "icon_size": 28,
+            "icon_size": 30,
             "title": "基本的なストア設定",
             "heading_font_size": "heading-small",
             "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始に近い状態でお渡しします。</p>",
@@ -386,7 +386,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-flare",
-            "icon_size": 32,
+            "icon_size": 30,
             "title": "洗練されたブランドコンセプト",
             "heading_font_size": "heading-small",
             "text": "<p>After Hoursは、<strong>「夜の都市生活を編集するブランド」</strong>をテーマにした、大人のストリートウェアブランドです。深夜の街、バー、クラブ帰りの空気感、少し気だるく洗練されたムードをまとった、20代後半から30代に向けたブランドとして設計しています。</p>",
@@ -398,7 +398,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-truck",
-            "icon_size": 32,
+            "icon_size": 30,
             "title": "在庫リスクを抑えた無在庫販売モデル",
             "heading_font_size": "heading-small",
             "text": "<p>商品が売れたタイミングで製造・発送されるアプリ<strong>「Printful」</strong>を導入済みです。在庫を抱える必要がなく、梱包や発送作業も不要な構成で、初期在庫を大量に抱えずにアパレルブランドの運営を始められます。</p>",
@@ -410,7 +410,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-star",
-            "icon_size": 32,
+            "icon_size": 30,
             "title": "オリジナルテーマ「Cream」による独自デザイン",
             "heading_font_size": "heading-small",
             "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ<strong>「Cream」</strong>を採用。お気に入り追加、下部追従メニュー、LINE友だち追加訴求など、購入導線や回遊性を高める機能を備えています。黒背景にアクセントカラーを効かせた、夜のライフスタイルに映える世界観です。</p><p>※現在「Cream」は限定的に全機能を無料で提供しています。</p>",
@@ -622,7 +622,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-star",
-            "icon_size": 26,
+            "icon_size": 25,
             "title": "自分のブランドでECサイトを始めたい方",
             "heading_font_size": "heading-small",
             "text": "<p>完成済みストアをベースに、ブランド運営の一歩目を踏み出せます。</p>",
@@ -634,7 +634,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-notes",
-            "icon_size": 26,
+            "icon_size": 25,
             "title": "Shopifyを実践的に学びたい方",
             "heading_font_size": "heading-small",
             "text": "<p>動画と実際のストア構成を見ながら、構築から公開までの流れを学べます。</p>",
@@ -646,7 +646,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-box",
-            "icon_size": 26,
+            "icon_size": 25,
             "title": "無在庫販売モデルに興味がある方",
             "heading_font_size": "heading-small",
             "text": "<p>Printfulを活用したアパレルブランド運営に挑戦できます。</p>",
@@ -658,7 +658,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-lightning",
-            "icon_size": 26,
+            "icon_size": 25,
             "title": "集客や改善に取り組みたい方",
             "heading_font_size": "heading-small",
             "text": "<p>完成済みのストアを受け取って終わりではなく、そこから自分の手で運営・改善していきたい方に向けた企画です。</p>",
