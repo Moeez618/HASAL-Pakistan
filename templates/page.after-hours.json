@@ -92,6 +92,30 @@
     "campaign_overview": {
       "type": "section-custom-content",
       "blocks": {
+        "overview_video": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ブランドAfter_Hoursのブランド動画を作ってください.mp4",
+            "show_video_popup": false,
+            "video_popup_social": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "h2"
+          }
+        },
         "overview_text_block": {
           "type": "text",
           "settings": {
@@ -113,34 +137,11 @@
             "color": "",
             "heading_tag": "h2"
           }
-        },
-        "overview_video": {
-          "type": "video",
-          "settings": {
-            "show_video_popup": false,
-            "video_popup_social": "",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled",
-            "heading_tag": "h2"
-          }
         }
       },
       "block_order": [
-        "overview_text_block",
-        "overview_video"
+        "overview_video",
+        "overview_text_block"
       ],
       "name": "Campaign overview",
       "settings": {
@@ -479,7 +480,7 @@
       "type": "section-video",
       "name": "YouTube video highlight",
       "settings": {
-        "video": "shopify://files/videos/ブランドAfter_Hoursのブランド動画を作ってください.mp4",
+        "video": "shopify://files/videos/mp_.mp4",
         "video_mobile": "shopify://files/videos/Cinematic_Brand_Video_for_After_Hours.mp4",
         "show_video_popup": true,
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
