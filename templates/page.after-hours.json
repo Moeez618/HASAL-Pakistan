@@ -89,34 +89,6 @@
         "show_placeholder": true
       }
     },
-    "section_announcement_wqXrUi": {
-      "type": "section-announcement",
-      "blocks": {
-        "image_TTYknm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/shopify_logo_black_d9175d6e-5e09-4f22-935c-fdeb88f0c158.png",
-            "image_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "image_TTYknm"
-      ],
-      "name": "Scrolling text",
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 30,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "campaign_overview": {
       "type": "section-rich-text",
       "blocks": {
@@ -1066,7 +1038,6 @@
   "order": [
     "main",
     "after_hours_hero",
-    "section_announcement_wqXrUi",
     "campaign_overview",
     "deadline_countdown",
     "giveaway_contents",
