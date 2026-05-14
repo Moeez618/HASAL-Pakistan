@@ -27,7 +27,7 @@
       }
     },
     "after_hours_hero": {
-      "type": "section-hero-video",
+      "type": "section-double",
       "blocks": {
         "hero_heading": {
           "type": "heading",
@@ -55,15 +55,14 @@
           }
         },
         "hero_button": {
-          "type": "button",
+          "type": "buttons",
           "settings": {
-            "link_text": "動画を見て、無料エントリーする",
-            "link": "",
+            "button_text": "動画を見て、無料エントリーする",
+            "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
             "show_arrow": true,
-            "full_width": false,
             "padding_bottom": 0
           }
         }
@@ -76,15 +75,13 @@
       ],
       "name": "Hero / Campaign first view",
       "settings": {
-        "link": "",
-        "video_width": 45,
-        "aspect_ratio": 1.5,
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
         "width": "wrapper--full",
         "height": "screen-height-three-quarters",
-        "flex_align_desktop": "align--middle-left-desktop",
-        "content_width": 56,
         "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
+        "reverse_blocks": false,
         "color_scheme": "scheme-10",
         "padding_top": 0,
         "padding_bottom": 0,
