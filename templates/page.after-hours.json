@@ -496,7 +496,7 @@
             "default_open": true,
             "title": "1. ブランド設計",
             "content": "<p>ChatGPTを活用した競合分析と差別化ポイントの発見。ブランドコンセプトとブランドストーリーの作成。ペルソナの設定と、ブランドの方向性のドキュメント化。ChatGPTでのロゴとファビコンの作成まで解説します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-cloud",
             "icon_size": 20,
             "icon_color": ""
@@ -508,7 +508,7 @@
             "default_open": false,
             "title": "2. Shopify環境構築",
             "content": "<p>Shopifyアカウントの作成とプラン選定、Shopify Paymentsの決済設定、不正注文防止設定、チェックアウト設定、ゲスト購入許可、メルマガ登録、配送設定、特定商取引法に基づく表記や各種ポリシーページの作成を扱います。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-shield",
             "icon_size": 20,
             "icon_color": ""
@@ -520,7 +520,7 @@
             "default_open": false,
             "title": "3. 商品作成・カタログ登録",
             "content": "<p>無在庫販売を実現するアプリ<strong>「Printful」</strong>のインストールと初期設定。Tシャツ、スウェット、フーディーなどの商品作成。Shopifyの<strong>「コレクション」</strong>を活用したカテゴリー分けを実践します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-box",
             "icon_size": 20,
             "icon_color": ""
@@ -532,7 +532,7 @@
             "default_open": false,
             "title": "4. テーマ設定とデザイン・UIの基礎設計",
             "content": "<p>SOLSTARオリジナルテーマ<strong>「Cream」</strong>の導入。ブランドカラーに合わせた配色設定。ヘッダー、ロゴ、ファビコンのサイズ・余白調整を行います。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_color": ""
@@ -544,7 +544,7 @@
             "default_open": false,
             "title": "5. 各ページのワイヤーフレーム構築と制作",
             "content": "<p>ホームページ、商品詳細ページ、コレクションページ、お気に入りページ、お問い合わせページ、カート＆決済ページ、About Us、FAQページを制作します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_color": ""
@@ -556,7 +556,7 @@
             "default_open": false,
             "title": "6. ヘッダー・フッターの設計",
             "content": "<p>メインメニューとフッターメニューを作成。お客様が必要なページへ迷わず移動できるように、リンク構造を整理します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-notes",
             "icon_size": 20,
             "icon_color": ""
@@ -568,7 +568,7 @@
             "default_open": false,
             "title": "7. ページのブラッシュアップ",
             "content": "<p>送料無料を訴求する<strong>「お知らせバー」</strong>を設定。メルマガ登録を促す<strong>「ニュースレターポップアップ」</strong>を実装。商品詳細ページの不要要素を削減し、決済アイコンを追加。PC・モバイル両方での表示と動作を確認します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-info-empty",
             "icon_size": 20,
             "icon_color": ""
@@ -580,7 +580,7 @@
             "default_open": false,
             "title": "8. メール通知・ドメイン・SEO設定",
             "content": "<p>自動送信メールのデザインをカスタマイズ。独自ドメインを取得してShopifyストアに接続。メタタイトル、メタディスクリプション、SNSシェア画像を設定します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-planet",
             "icon_size": 20,
             "icon_color": ""
@@ -592,7 +592,7 @@
             "default_open": false,
             "title": "9. 最終確認",
             "content": "<p>テストモードで購入を実施。送料無料条件や地域別送料が正しく反映されるか確認し、注文からチェックアウトまでの流れをチェックします。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-check-circle",
             "icon_size": 20,
             "icon_color": ""
@@ -604,7 +604,7 @@
             "default_open": false,
             "title": "10. ストア公開",
             "content": "<p>取得した独自ドメインを<strong>「プライマリドメイン」</strong>に変更。パスワード保護を解除し、サイトを本番公開します。</p>",
-            "show_icon": true,
+            "show_icon": false,
             "icon_name": "icon-trophy",
             "icon_size": 20,
             "icon_color": ""
@@ -628,7 +628,7 @@
       "settings": {
         "heading_font_size": "heading-large",
         "question_font_size": "heading-small",
-        "width": "wrapper",
+        "width": "wrapper--narrow",
         "columns": "1",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 80,
