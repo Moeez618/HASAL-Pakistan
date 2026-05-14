@@ -34,8 +34,8 @@
           "settings": {
             "title": "After Hoursストア プレゼント企画",
             "heading_font_size": "heading-x-large",
-            "heading_tag": "h1",
-            "padding_bottom": 12
+            "padding_bottom": 12,
+            "heading_tag": "h1"
           }
         },
         "hero_text": {
@@ -75,6 +75,7 @@
       ],
       "name": "Hero / Campaign first view",
       "settings": {
+        "image_1": "shopify://shop_images/CreamImage4copy.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -208,6 +209,7 @@
           "settings": {
             "icon_name": "icon-award",
             "icon_size": 30,
+            "icon_color": "",
             "title": "Shopifyオーナーアカウント",
             "heading_font_size": "heading-small",
             "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
@@ -220,6 +222,7 @@
           "settings": {
             "icon_name": "icon-planet",
             "icon_size": 30,
+            "icon_color": "",
             "title": "独自ドメイン",
             "heading_font_size": "heading-small",
             "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
@@ -232,6 +235,7 @@
           "settings": {
             "icon_name": "icon-box",
             "icon_size": 30,
+            "icon_color": "",
             "title": "登録済み商品情報",
             "heading_font_size": "heading-small",
             "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
@@ -244,6 +248,7 @@
           "settings": {
             "icon_name": "icon-pants",
             "icon_size": 30,
+            "icon_color": "",
             "title": "商品デザイン一式",
             "heading_font_size": "heading-small",
             "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
@@ -256,6 +261,7 @@
           "settings": {
             "icon_name": "icon-flare",
             "icon_size": 30,
+            "icon_color": "",
             "title": "キービジュアル・ロゴ",
             "heading_font_size": "heading-small",
             "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
@@ -268,6 +274,7 @@
           "settings": {
             "icon_name": "icon-star",
             "icon_size": 30,
+            "icon_color": "",
             "title": "Creamテーマのストアデザイン",
             "heading_font_size": "heading-small",
             "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
@@ -280,6 +287,7 @@
           "settings": {
             "icon_name": "icon-notes",
             "icon_size": 30,
+            "icon_color": "",
             "title": "各種ページ",
             "heading_font_size": "heading-small",
             "text": "<p>商品ページ、コレクションページ、About Us、FAQなどのページ構成を含みます。</p>",
@@ -292,6 +300,7 @@
           "settings": {
             "icon_name": "icon-check-circle",
             "icon_size": 30,
+            "icon_color": "",
             "title": "基本的なストア設定",
             "heading_font_size": "heading-small",
             "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始に近い状態でお渡しします。</p>",
@@ -384,6 +393,7 @@
           "settings": {
             "icon_name": "icon-flare",
             "icon_size": 30,
+            "icon_color": "",
             "title": "洗練されたブランドコンセプト",
             "heading_font_size": "heading-small",
             "text": "<p>After Hoursは、<strong>「夜の都市生活を編集するブランド」</strong>をテーマにした、大人のストリートウェアブランドです。深夜の街、バー、クラブ帰りの空気感、少し気だるく洗練されたムードをまとった、20代後半から30代に向けたブランドとして設計しています。</p>",
@@ -396,6 +406,7 @@
           "settings": {
             "icon_name": "icon-truck",
             "icon_size": 30,
+            "icon_color": "",
             "title": "在庫リスクを抑えた無在庫販売モデル",
             "heading_font_size": "heading-small",
             "text": "<p>商品が売れたタイミングで製造・発送されるアプリ<strong>「Printful」</strong>を導入済みです。在庫を抱える必要がなく、梱包や発送作業も不要な構成で、初期在庫を大量に抱えずにアパレルブランドの運営を始められます。</p>",
@@ -408,6 +419,7 @@
           "settings": {
             "icon_name": "icon-star",
             "icon_size": 30,
+            "icon_color": "",
             "title": "オリジナルテーマ「Cream」による独自デザイン",
             "heading_font_size": "heading-small",
             "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ<strong>「Cream」</strong>を採用。お気に入り追加、下部追従メニュー、LINE友だち追加訴求など、購入導線や回遊性を高める機能を備えています。黒背景にアクセントカラーを効かせた、夜のライフスタイルに映える世界観です。</p><p>※現在「Cream」は限定的に全機能を無料で提供しています。</p>",
@@ -485,7 +497,8 @@
             "content": "<p>ChatGPTを活用した競合分析と差別化ポイントの発見。ブランドコンセプトとブランドストーリーの作成。ペルソナの設定と、ブランドの方向性のドキュメント化。ChatGPTでのロゴとファビコンの作成まで解説します。</p>",
             "show_icon": true,
             "icon_name": "icon-flare",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_02": {
@@ -496,7 +509,8 @@
             "content": "<p>Shopifyアカウントの作成とプラン選定、Shopify Paymentsの決済設定、不正注文防止設定、チェックアウト設定、ゲスト購入許可、メルマガ登録、配送設定、特定商取引法に基づく表記や各種ポリシーページの作成を扱います。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_03": {
@@ -507,7 +521,8 @@
             "content": "<p>無在庫販売を実現するアプリ<strong>「Printful」</strong>のインストールと初期設定。Tシャツ、スウェット、フーディーなどの商品作成。Shopifyの<strong>「コレクション」</strong>を活用したカテゴリー分けを実践します。</p>",
             "show_icon": true,
             "icon_name": "icon-box",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_04": {
@@ -518,7 +533,8 @@
             "content": "<p>SOLSTARオリジナルテーマ<strong>「Cream」</strong>の導入。ブランドカラーに合わせた配色設定。ヘッダー、ロゴ、ファビコンのサイズ・余白調整を行います。</p>",
             "show_icon": true,
             "icon_name": "icon-star",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_05": {
@@ -529,7 +545,8 @@
             "content": "<p>ホームページ、商品詳細ページ、コレクションページ、お気に入りページ、お問い合わせページ、カート＆決済ページ、About Us、FAQページを制作します。</p>",
             "show_icon": true,
             "icon_name": "icon-notes",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_06": {
@@ -540,7 +557,8 @@
             "content": "<p>メインメニューとフッターメニューを作成。お客様が必要なページへ迷わず移動できるように、リンク構造を整理します。</p>",
             "show_icon": true,
             "icon_name": "icon-notes",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_07": {
@@ -551,7 +569,8 @@
             "content": "<p>送料無料を訴求する<strong>「お知らせバー」</strong>を設定。メルマガ登録を促す<strong>「ニュースレターポップアップ」</strong>を実装。商品詳細ページの不要要素を削減し、決済アイコンを追加。PC・モバイル両方での表示と動作を確認します。</p>",
             "show_icon": true,
             "icon_name": "icon-check-circle",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_08": {
@@ -562,7 +581,8 @@
             "content": "<p>自動送信メールのデザインをカスタマイズ。独自ドメインを取得してShopifyストアに接続。メタタイトル、メタディスクリプション、SNSシェア画像を設定します。</p>",
             "show_icon": true,
             "icon_name": "icon-planet",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_09": {
@@ -573,7 +593,8 @@
             "content": "<p>テストモードで購入を実施。送料無料条件や地域別送料が正しく反映されるか確認し、注文からチェックアウトまでの流れをチェックします。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "step_10": {
@@ -584,7 +605,8 @@
             "content": "<p>取得した独自ドメインを<strong>「プライマリドメイン」</strong>に変更。パスワード保護を解除し、サイトを本番公開します。</p>",
             "show_icon": true,
             "icon_name": "icon-trophy",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         }
       },
@@ -620,6 +642,7 @@
           "settings": {
             "icon_name": "icon-star",
             "icon_size": 25,
+            "icon_color": "",
             "title": "自分のブランドでECサイトを始めたい方",
             "heading_font_size": "heading-small",
             "text": "<p>完成済みストアをベースに、ブランド運営の一歩目を踏み出せます。</p>",
@@ -632,6 +655,7 @@
           "settings": {
             "icon_name": "icon-notes",
             "icon_size": 25,
+            "icon_color": "",
             "title": "Shopifyを実践的に学びたい方",
             "heading_font_size": "heading-small",
             "text": "<p>動画と実際のストア構成を見ながら、構築から公開までの流れを学べます。</p>",
@@ -644,6 +668,7 @@
           "settings": {
             "icon_name": "icon-box",
             "icon_size": 25,
+            "icon_color": "",
             "title": "無在庫販売モデルに興味がある方",
             "heading_font_size": "heading-small",
             "text": "<p>Printfulを活用したアパレルブランド運営に挑戦できます。</p>",
@@ -656,6 +681,7 @@
           "settings": {
             "icon_name": "icon-lightning",
             "icon_size": 25,
+            "icon_color": "",
             "title": "集客や改善に取り組みたい方",
             "heading_font_size": "heading-small",
             "text": "<p>完成済みのストアを受け取って終わりではなく、そこから自分の手で運営・改善していきたい方に向けた企画です。</p>",
@@ -790,7 +816,8 @@
             "content": "<p>本キャンペーンは、動画内で制作したAfter Hoursストアを抽選で1名様にプレゼントする企画です。応募締切は2026年6月21日（日）23:59までです。締切日時を過ぎてからのエントリーは、抽選対象外となります。応募は、After Hoursストア内の専用エントリーページから0円チェックアウトを完了した時点で有効となります。</p>",
             "show_icon": true,
             "icon_name": "icon-info-empty",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "notes_cost": {
@@ -801,7 +828,8 @@
             "content": "<p>ストア譲渡後のShopify月額利用料、アプリ利用料、ドメイン更新費用、Printfulの商品原価・送料、決済手数料、広告費、その他運営に必要な費用は当選者様のご負担となります。</p>",
             "show_icon": true,
             "icon_name": "icon-discount",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "notes_settings": {
@@ -812,7 +840,8 @@
             "content": "<p>ストア譲渡後は、特定商取引法に基づく表記、プライバシーポリシー、配送ポリシー、返品・返金ポリシー、決済情報、銀行口座情報、通知メール、問い合わせ先などを、当選者様ご自身の情報に更新していただく必要があります。</p>",
             "show_icon": true,
             "icon_name": "icon-notes",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "notes_transfer": {
@@ -823,7 +852,8 @@
             "content": "<p>本キャンペーンは、ストア譲渡後の売上・利益・集客成果を保証するものではありません。ドメイン譲渡には、レジストラや管理サービスの仕様により、移管手続きや一定の期間が必要となる場合があります。Shopify、Printful、ドメイン管理サービス等の規約により、譲渡手続きの方法が変更となる場合があります。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "notes_invalid": {
@@ -834,7 +864,8 @@
             "content": "<p>応募内容に虚偽や不正が確認された場合、応募または当選を無効とさせていただく場合があります。キャンペーン内容は、予告なく変更・終了となる場合があります。本キャンペーンは株式会社SOLSTARが独自に実施する企画です。YouTube、Shopify、Printfulが主催・協賛・運営するものではありません。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
-            "icon_size": 20
+            "icon_size": 20,
+            "icon_color": ""
           }
         }
       },
