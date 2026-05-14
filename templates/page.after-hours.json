@@ -636,57 +636,85 @@
       }
     },
     "recommended_audience": {
-      "type": "section-text-row",
+      "type": "section-columns",
       "blocks": {
         "audience_brand": {
-          "type": "icon",
+          "type": "image",
           "settings": {
-            "icon_name": "icon-star",
-            "icon_size": 25,
-            "icon_color": "",
+            "image_width": 100,
+            "image_shape": "normal",
             "title": "自分のブランドでECサイトを始めたい方",
             "heading_font_size": "heading-small",
             "text": "<p>完成済みストアをベースに、ブランド運営の一歩目を踏み出せます。</p>",
             "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
             "heading_tag": "h3"
           }
         },
         "audience_shopify": {
-          "type": "icon",
+          "type": "image",
           "settings": {
-            "icon_name": "icon-notes",
-            "icon_size": 25,
-            "icon_color": "",
+            "image_width": 100,
+            "image_shape": "normal",
             "title": "Shopifyを実践的に学びたい方",
             "heading_font_size": "heading-small",
             "text": "<p>動画と実際のストア構成を見ながら、構築から公開までの流れを学べます。</p>",
             "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
             "heading_tag": "h3"
           }
         },
         "audience_no_inventory": {
-          "type": "icon",
+          "type": "image",
           "settings": {
-            "icon_name": "icon-box",
-            "icon_size": 25,
-            "icon_color": "",
+            "image_width": 100,
+            "image_shape": "normal",
             "title": "無在庫販売モデルに興味がある方",
             "heading_font_size": "heading-small",
             "text": "<p>Printfulを活用したアパレルブランド運営に挑戦できます。</p>",
             "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
             "heading_tag": "h3"
           }
         },
         "audience_growth": {
-          "type": "icon",
+          "type": "image",
           "settings": {
-            "icon_name": "icon-lightning",
-            "icon_size": 25,
-            "icon_color": "",
+            "image_width": 100,
+            "image_shape": "normal",
             "title": "集客や改善に取り組みたい方",
             "heading_font_size": "heading-small",
             "text": "<p>完成済みのストアを受け取って終わりではなく、そこから自分の手で運営・改善していきたい方に向けた企画です。</p>",
             "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
             "heading_tag": "h3"
           }
         }
@@ -703,7 +731,6 @@
         "heading_font_size": "heading-large",
         "align_heading": "text-center",
         "align_text": "text-left",
-        "icon_alignment": "icon--top",
         "width": "wrapper",
         "align_columns": "flex-align-top",
         "layout": "grid",
