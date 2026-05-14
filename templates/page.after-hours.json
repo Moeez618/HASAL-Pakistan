@@ -349,7 +349,7 @@
         "align_heading": "text-center",
         "align_text": "text-left",
         "icon_alignment": "icon--top",
-        "width": "wrapper--full-padded",
+        "width": "wrapper",
         "align_columns": "flex-align-top",
         "layout": "grid",
         "grid": 4,
