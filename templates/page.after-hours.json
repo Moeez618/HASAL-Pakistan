@@ -56,7 +56,7 @@
         "hero_button": {
           "type": "buttons",
           "settings": {
-            "button_text": "動画を見て、無料エントリーする",
+            "button_text": "応募について詳しく確認する",
             "button_url": "",
             "button_type": "btn--primary",
             "button_size": "btn--large",
