@@ -457,6 +457,7 @@
       "name": "YouTube video highlight",
       "settings": {
         "video": "shopify://files/videos/tunnel-green-neon-2026-01-28-02-49-53-utc.mp4",
+        "video_mobile": "shopify://files/videos/Homepage Video Final.mp4",
         "show_video_popup": true,
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
         "title": "YouTube動画の見どころ",
