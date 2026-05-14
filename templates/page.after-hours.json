@@ -90,44 +90,67 @@
       }
     },
     "campaign_overview": {
-      "type": "section-rich-text",
+      "type": "section-custom-content",
       "blocks": {
-        "overview_subheading": {
-          "type": "subheading",
+        "overview_text_block": {
+          "type": "text",
           "settings": {
             "subheading": "Campaign Overview",
-            "padding_bottom": 12
-          }
-        },
-        "overview_heading": {
-          "type": "heading",
-          "settings": {
             "title": "動画で作った本物のECサイトを、あなたに贈ります。",
             "heading_font_size": "heading-large",
-            "padding_bottom": 18,
+            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。今回のYouTube動画では、ShopifyとChatGPTを活用し、ブランド設計からストア公開までの流れを実践形式で解説しました。</p><p>　</p><p>動画をご覧いただいた方に向けた特別企画として、動画内で実際に制作したデモストア<strong>「After Hours」</strong>を、抽選で1名様に無料でプレゼントいたします。</p><p>　</p><p>今回プレゼントするのは、単なるデモサイトの閲覧権限ではありません。Shopifyオーナーアカウント、独自ドメイン、登録済み商品、商品デザイン、キービジュアル、ブランドページまで含めた、After Hoursストア一式です。</p><p>　</p><p><strong>応募締切は、2026年6月21日（日）23:59までです。</strong></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
             "heading_tag": "h2"
           }
         },
-        "overview_text": {
-          "type": "text",
+        "overview_video": {
+          "type": "video",
           "settings": {
-            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。今回のYouTube動画では、ShopifyとChatGPTを活用し、ブランド設計からストア公開までの流れを実践形式で解説しました。</p><p>　</p><p>動画をご覧いただいた方に向けた特別企画として、動画内で実際に制作したデモストア<strong>「After Hours」</strong>を、抽選で1名様に無料でプレゼントいたします。</p><p>　</p><p>今回プレゼントするのは、単なるデモサイトの閲覧権限ではありません。Shopifyオーナーアカウント、独自ドメイン、登録済み商品、商品デザイン、キービジュアル、ブランドページまで含めた、After Hoursストア一式です。</p><p>　</p><p><strong>応募締切は、2026年6月21日（日）23:59までです。</strong></p>",
+            "show_video_popup": false,
+            "video_popup_social": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
             "text_font_size": "body-medium",
-            "padding_bottom": 0
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "overview_subheading",
-        "overview_heading",
-        "overview_text"
+        "overview_text_block",
+        "overview_video"
       ],
       "name": "Campaign overview",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--narrow",
+        "borders": false,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "overlay_type": "disabled",
         "padding_top": 80,
         "padding_bottom": 80
       }
