@@ -456,7 +456,7 @@
       "type": "section-video",
       "name": "YouTube video highlight",
       "settings": {
-        "video": "shopify://files/videos/tunnel-green-neon-2026-01-28-02-49-53-utc.mp4",
+        "video": "shopify://files/videos/mp_.mp4",
         "video_mobile": "shopify://files/videos/Cinematic_Brand_Video_for_After_Hours.mp4",
         "show_video_popup": true,
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
@@ -471,7 +471,7 @@
         "button_size": "",
         "button_style": "btn--solid",
         "show_arrow": false,
-        "desktop_height": "image-height",
+        "desktop_height": "screen-height-three-quarters",
         "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
