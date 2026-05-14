@@ -456,6 +456,7 @@
       "type": "section-video",
       "name": "YouTube video highlight",
       "settings": {
+        "video": "shopify://files/videos/名称_未_設定.mp4",
         "show_video_popup": true,
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
         "title": "YouTube動画の見どころ",
