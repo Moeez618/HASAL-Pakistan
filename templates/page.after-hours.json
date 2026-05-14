@@ -456,7 +456,7 @@
       "type": "section-video",
       "name": "YouTube video highlight",
       "settings": {
-        "video": "shopify://files/videos/mp_.mp4",
+        "video": "shopify://files/videos/ブランドAfter_Hoursのブランド動画を作ってください.mp4",
         "video_mobile": "shopify://files/videos/Cinematic_Brand_Video_for_After_Hours.mp4",
         "show_video_popup": true,
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
