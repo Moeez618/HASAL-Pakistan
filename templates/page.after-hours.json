@@ -456,8 +456,8 @@
       "type": "section-video",
       "name": "YouTube video highlight",
       "settings": {
-        "show_video_popup": false,
-        "video_popup_social": "",
+        "show_video_popup": true,
+        "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
         "title": "YouTube動画の見どころ",
         "heading_font_size": "heading-large",
         "text": "<p>ただの操作マニュアルではない、EC構築スキルが学べる完全ガイドです。プレゼントに応募する前に、ぜひ動画で<strong>「このサイトがどのように作られたのか」</strong>をご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、ストア公開まで、ECサイト構築に必要な流れを実践形式で解説しています。</p>",
