@@ -41,12 +41,12 @@
         "buttons": {
           "type": "buttons",
           "settings": {
-            "show_quantity": true,
+            "show_quantity": false,
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
             "show_dynamic_checkout": false,
-            "button_type_dynamic": "btn--secondary",
+            "button_type_dynamic": "btn--primary",
             "button_size_dynamic": "btn--large",
             "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
