@@ -45,29 +45,18 @@
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
-            "show_dynamic_checkout": false,
-            "button_type_dynamic": "btn--primary",
+            "show_dynamic_checkout": true,
+            "button_type_dynamic": "btn--white",
             "button_size_dynamic": "btn--large",
             "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
             "padding_bottom": 32
           }
         },
-        "tabs": {
-          "type": "tab_richtext",
+        "description_njFQtP": {
+          "type": "description",
           "settings": {
-            "show_description": true,
             "show_read_more": false,
-            "title_1": "製品仕様",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "title_2": "配送",
-            "raw_content_2": "<p>送料は全国一律 ¥350 (税込)となります。<br/>商品を合計 ¥4,950(税込)以上お買い上げ頂きますと、送料が無料となります。</p>",
-            "title_3": "返品交換",
-            "raw_content_3": "<p><strong>返品条件</strong>・商品に欠陥がない場合<br/>-未使用かつ未開封の場合であって、商品受取後30日以内にカスタマーセンターへメールで返品を依頼した場合に限り、返品に応じます。<br/>-返品には、タグ、元のパッケージ、及び領収書（又は購入証明）が必要です。<br/>-送料は、お客様負担といたします。</p>",
-            "title_4": "",
-            "raw_content_4": "",
-            "title_5": "",
-            "raw_content_5": "",
             "padding_bottom": 0
           }
         },
@@ -84,7 +73,7 @@
         "price",
         "variants",
         "buttons",
-        "tabs",
+        "description_njFQtP",
         "divider_1"
       ],
       "settings": {
