@@ -13550,6 +13550,11 @@ body:has([data-header-transparent]):has(.main-content > .shopify-section.section
   padding-right: 70px;
   padding-top: 0;
 }
+@media only screen and (max-width: 749px) {
+  .product__title__wrapper {
+    padding-right: 0;
+  }
+}
 
 .product__title {
   margin-top: 0.5em;
