@@ -264,6 +264,7 @@
         "custom-0": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CreamImage4copy.jpg",
             "title": "",
             "heading_font_size": "heading-large",
             "text": "",
@@ -286,9 +287,9 @@
           "type": "text",
           "settings": {
             "subheading": "Introducing",
-            "title": "Product feature",
+            "title": "After Hoursとは",
             "heading_font_size": "heading-large",
-            "text": "<p>Use this section to create unique side-by-side layouts with various content blocks. Pair text with images, newsletter blocks, products, videos, testimonials and more.</p>",
+            "text": "<p>Made for the hours after midnight.<br/> 夜に似合う服だけを。</p><p>夜の都市生活を編集するストリートウェアブランド「After Hours」。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
