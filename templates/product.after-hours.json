@@ -160,7 +160,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-award",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "Shopifyオーナーアカウント",
             "heading_font_size": "heading-x-small",
             "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
@@ -172,7 +172,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-cloud",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "カスタムドメイン",
             "heading_font_size": "heading-x-small",
             "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
@@ -184,7 +184,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-box",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "登録済み商品情報",
             "heading_font_size": "heading-x-small",
             "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
@@ -196,7 +196,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-notes",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "商品デザイン一式",
             "heading_font_size": "heading-x-small",
             "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
@@ -208,7 +208,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-star",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "キービジュアル・ロゴ",
             "heading_font_size": "heading-x-small",
             "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
@@ -220,7 +220,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-flare",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "Creamテーマのストアデザイン",
             "heading_font_size": "heading-x-small",
             "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
@@ -232,7 +232,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-chat",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "各種ページ",
             "heading_font_size": "heading-x-small",
             "text": "<p>商品ページ、コレクションページ、About Us、FAQなどのページ構成を含みます。</p>",
@@ -244,7 +244,7 @@
           "type": "icon",
           "settings": {
             "icon_name": "icon-check-circle",
-            "icon_size": 24,
+            "icon_size": 25,
             "title": "基本的なストア設定",
             "heading_font_size": "heading-x-small",
             "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始しやすい状態でお渡しします。</p>",
