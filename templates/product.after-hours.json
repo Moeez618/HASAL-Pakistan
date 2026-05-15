@@ -38,6 +38,24 @@
             "padding_bottom": 16
           }
         },
+        "countdown_dcACTy": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2026-06-21",
+            "end_time": "11:59",
+            "period": "pm",
+            "end_message": "<p>Offer has expired</p>",
+            "hide_on_complete": true,
+            "digits_font_size": "heading-x-large",
+            "text_font_size": "body-small",
+            "text": "<h2><strong>応募締切</strong></h2>",
+            "heading_font_size": "heading-x-small",
+            "bg_color": "",
+            "color": "",
+            "text_align": "text-center",
+            "padding_bottom": 16
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -72,6 +90,7 @@
         "title",
         "price",
         "variants",
+        "countdown_dcACTy",
         "buttons",
         "description_njFQtP",
         "divider_1"
