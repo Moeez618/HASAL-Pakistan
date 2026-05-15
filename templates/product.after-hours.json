@@ -113,25 +113,6 @@
     "after_hours_gift_overview": {
       "type": "section-custom-content",
       "blocks": {
-        "gift_video": {
-          "type": "video",
-          "settings": {
-            "show_video_popup": false,
-            "video_popup_social": "",
-            "title": "",
-            "heading_font_size": "heading-large",
-            "text": "",
-            "text_font_size": "body-medium",
-            "flex_align": "align--middle-center",
-            "link_text": "",
-            "link": "",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "h2"
-          }
-        },
         "gift_text_block": {
           "type": "text",
           "settings": {
@@ -153,22 +134,46 @@
             "color": "",
             "heading_tag": "h2"
           }
+        },
+        "gift_video": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/Cinematic_Brand_Video_for_After_Hours.mp4",
+            "show_video_popup": false,
+            "video_popup_social": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "#ffffff",
+            "overlay_type": "disabled",
+            "heading_tag": "h2"
+          }
         }
       },
       "block_order": [
-        "gift_video",
-        "gift_text_block"
+        "gift_text_block",
+        "gift_video"
       ],
       "name": "After Hours giveaway overview",
       "settings": {
         "borders": false,
         "gutters": true,
         "width": "wrapper--full-padded",
-        "height": "screen-height-one-half",
-        "mobile_height": "image-height--mobile",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-one-half--mobile",
         "reverse_blocks": false,
         "color_scheme": "",
-        "padding_top": 70,
+        "padding_top": 50,
         "padding_bottom": 50
       }
     },
@@ -180,6 +185,7 @@
           "settings": {
             "icon_name": "icon-award",
             "icon_size": 25,
+            "icon_color": "",
             "title": "Shopifyオーナーアカウント",
             "heading_font_size": "heading-x-small",
             "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
@@ -192,6 +198,7 @@
           "settings": {
             "icon_name": "icon-cloud",
             "icon_size": 25,
+            "icon_color": "",
             "title": "カスタムドメイン",
             "heading_font_size": "heading-x-small",
             "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
@@ -204,6 +211,7 @@
           "settings": {
             "icon_name": "icon-box",
             "icon_size": 25,
+            "icon_color": "",
             "title": "登録済み商品情報",
             "heading_font_size": "heading-x-small",
             "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
@@ -216,6 +224,7 @@
           "settings": {
             "icon_name": "icon-notes",
             "icon_size": 25,
+            "icon_color": "",
             "title": "商品デザイン一式",
             "heading_font_size": "heading-x-small",
             "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
@@ -228,6 +237,7 @@
           "settings": {
             "icon_name": "icon-star",
             "icon_size": 25,
+            "icon_color": "",
             "title": "キービジュアル・ロゴ",
             "heading_font_size": "heading-x-small",
             "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
@@ -240,6 +250,7 @@
           "settings": {
             "icon_name": "icon-flare",
             "icon_size": 25,
+            "icon_color": "",
             "title": "Creamテーマのストアデザイン",
             "heading_font_size": "heading-x-small",
             "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
@@ -252,6 +263,7 @@
           "settings": {
             "icon_name": "icon-chat",
             "icon_size": 25,
+            "icon_color": "",
             "title": "各種ページ",
             "heading_font_size": "heading-x-small",
             "text": "<p>商品ページ、コレクションページ、About Us、FAQなどのページ構成を含みます。</p>",
@@ -264,6 +276,7 @@
           "settings": {
             "icon_name": "icon-check-circle",
             "icon_size": 25,
+            "icon_color": "",
             "title": "基本的なストア設定",
             "heading_font_size": "heading-x-small",
             "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始しやすい状態でお渡しします。</p>",
@@ -344,7 +357,10 @@
             "default_open": true,
             "title": "エントリー手順",
             "content": "<ol><li>このページの「抽選に無料エントリーする」をクリックします。</li><li>カート画面へ進み、購入手続きへ進みます。</li><li>決済ページにて連絡先などを入力し、0円でチェックアウトを完了してください。</li></ol><p>無料設定のため、クレジットカード情報等を入力して決済されることはありません。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "entry_deadline": {
@@ -353,7 +369,10 @@
             "default_open": false,
             "title": "応募締切",
             "content": "<p><strong>2026年6月21日（日）23:59まで</strong></p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "entry_lottery": {
@@ -362,7 +381,10 @@
             "default_open": false,
             "title": "抽選方法",
             "content": "<p>応募締切後、応募完了順にエントリー番号を付与し、Google検索の「乱数ジェネレーター」を使用して当選者を選定します。</p><p>抽選時は、応募総数に応じて最小値と最大値を設定し、その範囲内でランダムに表示された番号を当選番号といたします。</p><p>当選者の方には、ご入力いただいたメールアドレス宛にご連絡いたします。</p>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         },
         "entry_notes": {
@@ -371,7 +393,10 @@
             "default_open": false,
             "title": "注意事項",
             "content": "<ul><li>本アイテムは応募専用のデジタルチケットのようなものであり、物理的な商品は発送されません。</li><li>ストア譲渡後に発生するShopify月額利用料、ドメイン更新費用などの維持費は、当選者様のご負担となります。</li><li>抽選結果に関する個別のお問い合わせには対応いたしかねます。</li></ul>",
-            "show_icon": false
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
           }
         }
       },
