@@ -536,7 +536,7 @@
     }
   },
   "countdown": {
-    "days": "日々",
+    "days": "日",
     "hours": "時間",
     "minutes": "分",
     "seconds": "秒"
