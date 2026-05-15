@@ -261,7 +261,7 @@
         "included_pages": {
           "type": "icon",
           "settings": {
-            "icon_name": "icon-chat",
+            "icon_name": "icon-notes",
             "icon_size": 25,
             "icon_color": "",
             "title": "各種ページ",
