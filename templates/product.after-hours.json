@@ -111,44 +111,63 @@
       }
     },
     "after_hours_gift_overview": {
-      "type": "section-rich-text",
+      "type": "section-custom-content",
       "blocks": {
-        "gift_subheading": {
-          "type": "subheading",
+        "gift_video": {
+          "type": "video",
           "settings": {
-            "subheading": "After Hours EC Store Giveaway",
-            "padding_bottom": 8
-          }
-        },
-        "gift_heading": {
-          "type": "heading",
-          "settings": {
-            "title": "プレゼント内容",
+            "show_video_popup": false,
+            "video_popup_social": "",
+            "title": "",
             "heading_font_size": "heading-large",
-            "padding_bottom": 16,
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
             "heading_tag": "h2"
           }
         },
-        "gift_text": {
+        "gift_text_block": {
           "type": "text",
           "settings": {
+            "subheading": "After Hours EC Store Giveaway",
+            "title": "プレゼント内容",
+            "heading_font_size": "heading-large",
             "text": "<p>あなたが今ご覧になっている<strong>「After Hours」のECストア一式</strong>を、抽選で1名様に無料で譲渡いたします。</p><p>After Hoursストア一式を、そのまま譲渡します。Shopifyで構築されたECサイト、登録済み商品情報、ブランドデザイン、基本的なストア設定まで含めた、運営開始しやすい状態のプレゼント企画です。</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 0
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "h2"
           }
         }
       },
       "block_order": [
-        "gift_subheading",
-        "gift_heading",
-        "gift_text"
+        "gift_video",
+        "gift_text_block"
       ],
       "name": "After Hours giveaway overview",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--narrow",
+        "borders": false,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
         "color_scheme": "",
-        "overlay_type": "disabled",
         "padding_top": 70,
         "padding_bottom": 50
       }
