@@ -299,9 +299,9 @@
       "settings": {
         "title": "譲渡に含まれるもの",
         "heading_font_size": "heading-medium",
-        "align_heading": "text-left",
-        "align_text": "text-left",
-        "icon_alignment": "icon--left",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
         "width": "wrapper--full-padded",
         "align_columns": "flex-align-top",
         "layout": "grid",
