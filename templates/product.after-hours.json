@@ -110,6 +110,269 @@
         "padding_bottom": 30
       }
     },
+    "after_hours_gift_overview": {
+      "type": "section-rich-text",
+      "blocks": {
+        "gift_subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "After Hours EC Store Giveaway",
+            "padding_bottom": 8
+          }
+        },
+        "gift_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "プレゼント内容",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "gift_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>あなたが今ご覧になっている<strong>「After Hours」のECストア一式</strong>を、抽選で1名様に無料で譲渡いたします。</p><p>After Hoursストア一式を、そのまま譲渡します。Shopifyで構築されたECサイト、登録済み商品情報、ブランドデザイン、基本的なストア設定まで含めた、運営開始しやすい状態のプレゼント企画です。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "gift_subheading",
+        "gift_heading",
+        "gift_text"
+      ],
+      "name": "After Hours giveaway overview",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 70,
+        "padding_bottom": 50
+      }
+    },
+    "after_hours_included": {
+      "type": "section-text-row",
+      "blocks": {
+        "included_owner": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 24,
+            "title": "Shopifyオーナーアカウント",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_domain": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-cloud",
+            "icon_size": 24,
+            "title": "カスタムドメイン",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_products": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-box",
+            "icon_size": 24,
+            "title": "登録済み商品情報",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_designs": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-notes",
+            "icon_size": 24,
+            "title": "商品デザイン一式",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_brand": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-star",
+            "icon_size": 24,
+            "title": "キービジュアル・ロゴ",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_theme": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 24,
+            "title": "Creamテーマのストアデザイン",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_pages": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 24,
+            "title": "各種ページ",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>商品ページ、コレクションページ、About Us、FAQなどのページ構成を含みます。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        },
+        "included_settings": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-check-circle",
+            "icon_size": 24,
+            "title": "基本的なストア設定",
+            "heading_font_size": "heading-x-small",
+            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始しやすい状態でお渡しします。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "included_owner",
+        "included_domain",
+        "included_products",
+        "included_designs",
+        "included_brand",
+        "included_theme",
+        "included_pages",
+        "included_settings"
+      ],
+      "name": "Included in giveaway",
+      "settings": {
+        "title": "譲渡に含まれるもの",
+        "heading_font_size": "heading-medium",
+        "align_heading": "text-left",
+        "align_text": "text-left",
+        "icon_alignment": "icon--left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "1",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 70,
+        "heading_tag": "h2"
+      }
+    },
+    "after_hours_entry_intro": {
+      "type": "section-rich-text",
+      "blocks": {
+        "entry_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "エントリー手順と抽選について",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 14,
+            "heading_tag": "h2"
+          }
+        },
+        "entry_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After HoursのShopifyストア無料譲渡企画への応募は、0円チェックアウトの完了でエントリーとなります。物理的な商品は発送されません。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "entry_heading",
+        "entry_text"
+      ],
+      "name": "Entry intro",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--narrow",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "after_hours_entry_details": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "entry_steps": {
+          "type": "question",
+          "settings": {
+            "default_open": true,
+            "title": "エントリー手順",
+            "content": "<ol><li>このページの「抽選に無料エントリーする」をクリックします。</li><li>カート画面へ進み、購入手続きへ進みます。</li><li>決済ページにて連絡先などを入力し、0円でチェックアウトを完了してください。</li></ol><p>無料設定のため、クレジットカード情報等を入力して決済されることはありません。</p>",
+            "show_icon": false
+          }
+        },
+        "entry_deadline": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "応募締切",
+            "content": "<p><strong>2026年6月21日（日）23:59まで</strong></p>",
+            "show_icon": false
+          }
+        },
+        "entry_lottery": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "抽選方法",
+            "content": "<p>応募締切後、応募完了順にエントリー番号を付与し、Google検索の「乱数ジェネレーター」を使用して当選者を選定します。</p><p>抽選時は、応募総数に応じて最小値と最大値を設定し、その範囲内でランダムに表示された番号を当選番号といたします。</p><p>当選者の方には、ご入力いただいたメールアドレス宛にご連絡いたします。</p>",
+            "show_icon": false
+          }
+        },
+        "entry_notes": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "注意事項",
+            "content": "<ul><li>本アイテムは応募専用のデジタルチケットのようなものであり、物理的な商品は発送されません。</li><li>ストア譲渡後に発生するShopify月額利用料、ドメイン更新費用などの維持費は、当選者様のご負担となります。</li><li>抽選結果に関する個別のお問い合わせには対応いたしかねます。</li></ul>",
+            "show_icon": false
+          }
+        }
+      },
+      "block_order": [
+        "entry_steps",
+        "entry_deadline",
+        "entry_lottery",
+        "entry_notes"
+      ],
+      "name": "Entry details",
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-x-small",
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "color_scheme": "",
+        "padding_top": 20,
+        "padding_bottom": 80
+      }
+    },
     "related": {
       "type": "related",
       "blocks": {
@@ -148,6 +411,10 @@
   },
   "order": [
     "main",
+    "after_hours_gift_overview",
+    "after_hours_included",
+    "after_hours_entry_intro",
+    "after_hours_entry_details",
     "related"
   ]
 }
