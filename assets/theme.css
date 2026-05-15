@@ -13519,7 +13519,7 @@ body:has([data-header-transparent]):has(.main-content > .shopify-section.section
 
 @media only screen and (min-width: 990px) {
   .form__width {
-    max-width: 550px;
+    max-width: none;
     margin: 0 auto;
   }
 }
@@ -13549,6 +13549,11 @@ body:has([data-header-transparent]):has(.main-content > .shopify-section.section
   position: relative;
   padding-right: 70px;
   padding-top: 0;
+}
+@media only screen and (max-width: 749px) {
+  .product__title__wrapper {
+    padding-right: 0;
+  }
 }
 
 .product__title {
