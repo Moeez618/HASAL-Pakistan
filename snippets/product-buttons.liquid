@@ -46,12 +46,18 @@
     assign preorder = true
   endif
 
+  assign add_to_cart_text = 'products.product.add_to_cart' | t
+
   if current_variant == null
     assign button_text = 'products.product.unavailable' | t
   elsif current_variant.available == false or quantity_rule_soldout
     assign button_text = 'products.product.sold_out' | t
   else
-    assign button_text = 'products.product.add_to_cart' | t
+    assign button_text = add_to_cart_text
+  endif
+
+  if template.name == 'product' and template.suffix == 'after-hours' and button_text == add_to_cart_text
+    assign button_text = '抽選に無料エントリーする'
   endif
 
   if preorder

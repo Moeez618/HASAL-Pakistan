@@ -5,6 +5,11 @@
   assign selling_plan_hide = true
   assign button_add = false
   assign blocks_form = section.blocks | where: 'type', 'form'
+  assign add_to_cart_text = 'products.product.add_to_cart' | t
+
+  if template.name == 'product' and template.suffix == 'after-hours'
+    assign add_to_cart_text = '抽選に無料エントリーする'
+  endif
 
   if settings.currency_code_enable
     assign current_variant_price = current_variant.price | money_with_currency
@@ -104,7 +109,7 @@
               {%- if current_variant.available and preorder_check -%}
                 {{ 'products.product.pre_order' | t }}
               {%- elsif current_variant.available -%}
-                {{ 'products.product.add_to_cart' | t }}
+                {{ add_to_cart_text }}
               {%- else -%}
                 {{ 'products.product.sold_out' | t }}
               {%- endif -%}
