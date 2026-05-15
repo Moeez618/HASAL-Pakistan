@@ -13,7 +13,7 @@
       "type": "main-page",
       "settings": {
         "subheading": "",
-        "show_title": true,
+        "show_title": false,
         "heading_font_size": "heading-x-large",
         "show_content": true,
         "text_font_size": "body-medium",
@@ -24,9 +24,1039 @@
         "padding_bottom": 50,
         "heading_tag": "h1"
       }
+    },
+    "after_hours_hero": {
+      "type": "section-double",
+      "blocks": {
+        "hero_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "After Hoursストア プレゼント企画",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 12,
+            "heading_tag": "h1"
+          }
+        },
+        "hero_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ゼロから作り上げた本格ストリートブランド「After Hours」のShopify ECサイトを<strong>抽選でプレゼント</strong>します。</p><p><em>※YouTube動画『【2026年最新版】初心者向けShopify完全ガイド！』公開記念の特別企画です。　</em></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 14
+          }
+        },
+        "hero_deadline": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 18
+          }
+        },
+        "hero_button": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "応募について詳しく確認する",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "hero_heading",
+        "hero_text",
+        "hero_deadline",
+        "hero_button"
+      ],
+      "name": "Hero / Campaign first view",
+      "settings": {
+        "image_1": "shopify://shop_images/CreamImage4copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "campaign_overview": {
+      "type": "section-custom-content",
+      "blocks": {
+        "overview_video": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ブランドAfter_Hoursのブランド動画を作ってください.mp4",
+            "show_video_popup": false,
+            "video_popup_social": "",
+            "title": "",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "heading_tag": "h2"
+          }
+        },
+        "overview_text_block": {
+          "type": "text",
+          "settings": {
+            "subheading": "Campaign Overview",
+            "title": "本物のECサイトを、あなたに贈ります。",
+            "heading_font_size": "heading-large",
+            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。今回のYouTube動画では、ShopifyとChatGPTを活用し、ブランド設計からストア公開までの流れを実践形式で解説しました。</p><p>　</p><p>本編のYoutube動画をご覧いただいた方に向けた特別企画として、動画内で実際に制作したデモストア<strong>「After Hours」</strong>を、抽選で1名様に無料でプレゼントいたします。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "show_social_links": false,
+            "text_columns": 1,
+            "align_text": "text-left",
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "overview_video",
+        "overview_text_block"
+      ],
+      "name": "Campaign overview",
+      "settings": {
+        "borders": false,
+        "gutters": true,
+        "width": "wrapper--full-padded",
+        "height": "screen-height-one-half",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "deadline_countdown": {
+      "type": "section-countdown-timer",
+      "blocks": {
+        "deadline_subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "応募締切"
+          }
+        },
+        "deadline_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "2026年6月21日（日）23:59まで",
+            "heading_font_size": "heading-large",
+            "heading_tag": "h2"
+          }
+        },
+        "deadline_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>期間内に、After Hoursストア内の専用エントリーページから0円チェックアウトを完了した方が応募対象となります。</p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "deadline_button": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "無料エントリーする",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "deadline_timer": {
+          "type": "timer",
+          "settings": {
+            "end_date": "2026-06-21",
+            "end_time": "11:59",
+            "period": "pm",
+            "end_message": "<p>応募受付は終了しました。</p>",
+            "digits_font_size": "heading-x-large",
+            "text_font_size": "body-small"
+          }
+        }
+      },
+      "block_order": [
+        "deadline_subheading",
+        "deadline_heading",
+        "deadline_text",
+        "deadline_button",
+        "deadline_timer"
+      ],
+      "name": "Deadline countdown",
+      "settings": {
+        "hide_on_complete": false,
+        "width": "wrapper",
+        "text_align": "text-left",
+        "height": "three-hundred-height-hero",
+        "mobile_height": "three-hundred-height-hero--mobile",
+        "text_align_mobile": "text-center--mobile",
+        "color_scheme": "scheme-10",
+        "digits_gradient": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "giveaway_contents": {
+      "type": "section-text-row",
+      "blocks": {
+        "gift_account": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "Shopifyオーナーアカウント",
+            "heading_font_size": "heading-small",
+            "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_domain": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-planet",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "独自ドメイン",
+            "heading_font_size": "heading-small",
+            "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_products": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-box",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "登録済み商品情報",
+            "heading_font_size": "heading-small",
+            "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_designs": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-pants",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "商品デザイン一式",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_visuals": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "キービジュアル・ロゴ",
+            "heading_font_size": "heading-small",
+            "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_theme": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-star",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "Creamテーマのストアデザイン",
+            "heading_font_size": "heading-small",
+            "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_pages": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-notes",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "各種ページ",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品ページ、コレクションページ、About Us、FAQなどのページ構成を含みます。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "gift_settings": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-check-circle",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "基本的なストア設定",
+            "heading_font_size": "heading-small",
+            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始に近い状態でお渡しします。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "gift_account",
+        "gift_domain",
+        "gift_products",
+        "gift_designs",
+        "gift_visuals",
+        "gift_theme",
+        "gift_pages",
+        "gift_settings"
+      ],
+      "name": "Giveaway contents",
+      "settings": {
+        "title": "After Hoursストア一式を、そのまま譲渡します。",
+        "heading_font_size": "heading-large",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 4,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "heading_tag": "h2"
+      }
+    },
+    "brand_intro": {
+      "type": "section-double",
+      "blocks": {
+        "brand_subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "About After Hours",
+            "padding_bottom": 14
+          }
+        },
+        "brand_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "単なるデモサイトではなく、実践を想定して設計したアパレルブランドです。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "brand_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>お渡しする<strong>「After Hours」</strong>は、単なる練習用のデモサイトではありません。</p><p>ブランドコンセプト、ターゲット、商品構成、デザイン、ストア導線まで、実際のEC運営を想定して制作したストリートウェアブランドです。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "brand_subheading",
+        "brand_heading",
+        "brand_text"
+      ],
+      "name": "Brand intro with media",
+      "settings": {
+        "image_1": "shopify://shop_images/Mockup_4_copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "brand_pillars": {
+      "type": "section-text-row",
+      "blocks": {
+        "pillar_concept": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-check-circle",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "洗練されたブランドコンセプト",
+            "heading_font_size": "heading-small",
+            "text": "<p>After Hoursは、<strong>「夜の都市生活を編集するブランド」</strong>をテーマにした、大人のストリートウェアブランドです。深夜の街、バー、クラブ帰りの空気感、少し気だるく洗練されたムードをまとった、20代後半から30代に向けたブランドとして設計しています。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "pillar_printful": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-truck",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "在庫リスクを抑えた無在庫販売モデル",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品が売れたタイミングで製造・発送されるアプリ<strong>「Printful」</strong>を導入済みです。在庫を抱える必要がなく、梱包や発送作業も不要な構成で、初期在庫を大量に抱えずにアパレルブランドの運営を始められます。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        },
+        "pillar_cream": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-cloud",
+            "icon_size": 30,
+            "icon_color": "",
+            "title": "オリジナルテーマによるデザイン設計",
+            "heading_font_size": "heading-small",
+            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ<strong>「Cream」</strong>を採用。お気に入り追加、下部追従メニュー、LINE友だち追加訴求など、購入導線や回遊性を高める機能を備えています。</p>",
+            "text_font_size": "body-small",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_concept",
+        "pillar_printful",
+        "pillar_cream"
+      ],
+      "name": "Brand pillars",
+      "settings": {
+        "title": "After Hoursストア概要",
+        "heading_font_size": "heading-large",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "heading_tag": "h2"
+      }
+    },
+    "youtube_video": {
+      "type": "section-video",
+      "name": "YouTube video highlight",
+      "settings": {
+        "video": "shopify://files/videos/mp_.mp4",
+        "video_mobile": "shopify://files/videos/Cinematic_Brand_Video_for_After_Hours.mp4",
+        "show_video_popup": true,
+        "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
+        "title": "YouTube動画の見どころ",
+        "heading_font_size": "heading-large",
+        "text": "<p>ただの操作マニュアルではない、EC構築スキルが学べる完全ガイドです。プレゼントに応募する前に、ぜひ動画で<strong>「このサイトがどのように作られたのか」</strong>をご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、ストア公開まで、ECサイト構築に必要な流れを実践形式で解説しています。</p>",
+        "text_font_size": "body-medium",
+        "flex_align": "align--middle-center",
+        "link_text": "",
+        "link": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "desktop_height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "text",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "h2"
+      }
+    },
+    "roadmap": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "roadmap_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "実践ロードマップ｜全10ステップ"
+          }
+        },
+        "step_01": {
+          "type": "question",
+          "settings": {
+            "default_open": true,
+            "title": "1. ブランド設計",
+            "content": "<p>ChatGPTを活用した競合分析と差別化ポイントの発見。ブランドコンセプトとブランドストーリーの作成。ペルソナの設定と、ブランドの方向性のドキュメント化。ChatGPTでのロゴとファビコンの作成まで解説します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-cloud",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_02": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "2. Shopify環境構築",
+            "content": "<p>Shopifyアカウントの作成とプラン選定、Shopify Paymentsの決済設定、不正注文防止設定、チェックアウト設定、ゲスト購入許可、メルマガ登録、配送設定、特定商取引法に基づく表記や各種ポリシーページの作成を扱います。</p>",
+            "show_icon": false,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_03": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "3. 商品作成・カタログ登録",
+            "content": "<p>無在庫販売を実現するアプリ<strong>「Printful」</strong>のインストールと初期設定。Tシャツ、スウェット、フーディーなどの商品作成。Shopifyの<strong>「コレクション」</strong>を活用したカテゴリー分けを実践します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-box",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_04": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "4. テーマ設定とデザイン・UIの基礎設計",
+            "content": "<p>SOLSTARオリジナルテーマ<strong>「Cream」</strong>の導入。ブランドカラーに合わせた配色設定。ヘッダー、ロゴ、ファビコンのサイズ・余白調整を行います。</p>",
+            "show_icon": false,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_05": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "5. 各ページのワイヤーフレーム構築と制作",
+            "content": "<p>ホームページ、商品詳細ページ、コレクションページ、お気に入りページ、お問い合わせページ、カート＆決済ページ、About Us、FAQページを制作します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_06": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "6. ヘッダー・フッターの設計",
+            "content": "<p>メインメニューとフッターメニューを作成。お客様が必要なページへ迷わず移動できるように、リンク構造を整理します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_07": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "7. ページのブラッシュアップ",
+            "content": "<p>送料無料を訴求する<strong>「お知らせバー」</strong>を設定。メルマガ登録を促す<strong>「ニュースレターポップアップ」</strong>を実装。商品詳細ページの不要要素を削減し、決済アイコンを追加。PC・モバイル両方での表示と動作を確認します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_08": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "8. メール通知・ドメイン・SEO設定",
+            "content": "<p>自動送信メールのデザインをカスタマイズ。独自ドメインを取得してShopifyストアに接続。メタタイトル、メタディスクリプション、SNSシェア画像を設定します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-planet",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_09": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "9. 最終確認",
+            "content": "<p>テストモードで購入を実施。送料無料条件や地域別送料が正しく反映されるか確認し、注文からチェックアウトまでの流れをチェックします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-check-circle",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "step_10": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "10. ストア公開",
+            "content": "<p>取得した独自ドメインを<strong>「プライマリドメイン」</strong>に変更。パスワード保護を解除し、サイトを本番公開します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "roadmap_heading",
+        "step_01",
+        "step_02",
+        "step_03",
+        "step_04",
+        "step_05",
+        "step_06",
+        "step_07",
+        "step_08",
+        "step_09",
+        "step_10"
+      ],
+      "name": "YouTube roadmap",
+      "settings": {
+        "heading_font_size": "heading-large",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "recommended_audience": {
+      "type": "section-columns",
+      "blocks": {
+        "audience_brand": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_03476f1d-b1cb-4393-a7fe-828a41fa32f7.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "自分のブランドでECサイトを始めたい方",
+            "heading_font_size": "heading-small",
+            "text": "<p>完成済みストアをベースに、ブランド運営の一歩目を踏み出せます。</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "h3"
+          }
+        },
+        "audience_shopify": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2026_5_14_15_08_20.png",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "Shopifyを実践的に学びたい方",
+            "heading_font_size": "heading-small",
+            "text": "<p>動画と実際のストア構成を見ながら、構築から公開までの流れを学べます。</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "h3"
+          }
+        },
+        "audience_no_inventory": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/unisex-french-terry-pullover-hoodie-black-front-69b220aea46e4.jpg",
+            "image_width": 100,
+            "image_shape": "normal",
+            "title": "無在庫販売モデルに興味がある方",
+            "heading_font_size": "heading-small",
+            "text": "<p>Printfulを活用したアパレルブランド運営に挑戦できます。</p>",
+            "text_font_size": "body-small",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "image_aspect_ratio": 1,
+            "mobile_image_aspect_ratio": 1,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "audience_brand",
+        "audience_shopify",
+        "audience_no_inventory"
+      ],
+      "name": "Recommended audience",
+      "settings": {
+        "title": "この企画がおすすめの方",
+        "heading_font_size": "heading-large",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-10",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "heading_tag": "h2"
+      }
+    },
+    "entry_steps": {
+      "type": "section-timeline",
+      "blocks": {
+        "entry_step_1": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "Step 1",
+            "title": "専用エントリーページへアクセス",
+            "heading_font_size": "heading-medium",
+            "text": "<p>YouTube動画の概要欄にあるリンクから、After Hoursストア内の<strong>「専用エントリーページ」</strong>へアクセスします。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "entry_step_2": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "Step 2",
+            "title": "無料エントリー商品をカートに追加",
+            "heading_font_size": "heading-medium",
+            "text": "<p>通常の商品購入と同じ流れで、エントリーページから<strong>「カートに追加」</strong>をクリックします。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "entry_step_3": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "Step 3",
+            "title": "0円でチェックアウトを完了",
+            "heading_font_size": "heading-medium",
+            "text": "<p>チェックアウト画面へ進み、必要情報を入力してエントリーを完了してください。エントリー商品は0円のため、費用は発生しません。</p><p><strong>応募フロー：エントリーページ ＞ カートページ ＞ 0円チェックアウト ＞ エントリー完了</strong></p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "entry_step_1",
+        "entry_step_2",
+        "entry_step_3"
+      ],
+      "name": "Entry steps",
+      "settings": {
+        "show_images": false,
+        "title": "応募方法",
+        "heading_font_size": "heading-large",
+        "text": "<p>応募は、After Hoursストア内の専用エントリーページから行えます。<strong>2026年6月21日（日）23:59まで</strong>に0円チェックアウトを完了してください。</p>",
+        "text_font_size": "body-medium",
+        "text_alignment": "text-center",
+        "button_text": "After Hoursストアのオーナーに応募する",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "promo_text": "",
+        "promo_text_font_size": "body-small",
+        "width": "wrapper--full-padded",
+        "mobile_height": "screen-height-one-third--mobile",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "dot_background": "",
+        "padding_top": 80,
+        "padding_bottom": 80,
+        "heading_tag": "h2"
+      }
+    },
+    "campaign_notes": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "notes_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "注意事項"
+          }
+        },
+        "notes_entry": {
+          "type": "question",
+          "settings": {
+            "default_open": true,
+            "title": "応募条件について",
+            "content": "<p>本キャンペーンは、動画内で制作したAfter Hoursストアを抽選で1名様にプレゼントする企画です。応募締切は2026年6月21日（日）23:59までです。締切日時を過ぎてからのエントリーは、抽選対象外となります。応募は、After Hoursストア内の専用エントリーページから0円チェックアウトを完了した時点で有効となります。</p>",
+            "show_icon": true,
+            "icon_name": "icon-info-empty",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "notes_cost": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "譲渡後に発生する費用について",
+            "content": "<p>ストア譲渡後のShopify月額利用料、アプリ利用料、ドメイン更新費用、Printfulの商品原価・送料、決済手数料、広告費、その他運営に必要な費用は当選者様のご負担となります。</p>",
+            "show_icon": true,
+            "icon_name": "icon-discount",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "notes_settings": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "当選後に更新が必要な情報について",
+            "content": "<p>ストア譲渡後は、特定商取引法に基づく表記、プライバシーポリシー、配送ポリシー、返品・返金ポリシー、決済情報、銀行口座情報、通知メール、問い合わせ先などを、当選者様ご自身の情報に更新していただく必要があります。</p>",
+            "show_icon": true,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "notes_transfer": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "譲渡手続きと免責について",
+            "content": "<p>本キャンペーンは、ストア譲渡後の売上・利益・集客成果を保証するものではありません。ドメイン譲渡には、レジストラや管理サービスの仕様により、移管手続きや一定の期間が必要となる場合があります。Shopify、Printful、ドメイン管理サービス等の規約により、譲渡手続きの方法が変更となる場合があります。</p>",
+            "show_icon": true,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "notes_invalid": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "不正・変更・主催について",
+            "content": "<p>応募内容に虚偽や不正が確認された場合、応募または当選を無効とさせていただく場合があります。キャンペーン内容は、予告なく変更・終了となる場合があります。本キャンペーンは株式会社SOLSTARが独自に実施する企画です。YouTube、Shopify、Printfulが主催・協賛・運営するものではありません。</p>",
+            "show_icon": true,
+            "icon_name": "icon-shield",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "notes_heading",
+        "notes_entry",
+        "notes_cost",
+        "notes_settings",
+        "notes_transfer",
+        "notes_invalid"
+      ],
+      "name": "Campaign notes",
+      "settings": {
+        "heading_font_size": "heading-large",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "message": {
+      "type": "section-double",
+      "blocks": {
+        "message_subheading": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Message",
+            "padding_bottom": 12
+          }
+        },
+        "message_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "ECサイト制作は、作って終わりではありません。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 18,
+            "heading_tag": "h2"
+          }
+        },
+        "message_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>今回プレゼントする<strong>「After Hours」</strong>は、完成度の高いストアとして制作しています。ただし、ECサイトは公開して終わりではなく、そこからが本当のスタートです。</p><p>ストアを手に入れた後は、SNSや広告、SEOなどを活用してトラフィックを集め、アクセスデータや購入データを見ながら改善を重ねていく必要があります。</p><p>商品ページの見せ方を変える。キービジュアルを改善する。SNSでブランドの世界観を発信する。お客様の反応を見ながら、商品や導線を調整する。</p><p>そうした積み重ねによって、ECサイトは少しずつブランドとして育っていきます。After Hoursは、そのスタート地点として活用できるストアです。あなたが新しいブランドのオーナーになる日を楽しみにしています。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "message_subheading",
+        "message_heading",
+        "message_text"
+      ],
+      "name": "Message",
+      "settings": {
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_13_17_21_12.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "final_cta": {
+      "type": "section-countdown-timer",
+      "blocks": {
+        "final_subheading": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Final CTA"
+          }
+        },
+        "final_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "After Hoursストアのオーナーに応募する",
+            "heading_font_size": "heading-large",
+            "heading_tag": "h2"
+          }
+        },
+        "final_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopifyオーナーアカウント、独自ドメイン、キービジュアル、商品デザイン一式まで含めて、After Hoursストアを抽選で1名様にプレゼントします。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
+            "text_font_size": "body-medium"
+          }
+        },
+        "final_button": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "今すぐYouTube動画を見て、無料エントリーする",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "btn--large",
+            "button_style": "btn--solid",
+            "show_arrow": true
+          }
+        },
+        "final_timer": {
+          "type": "timer",
+          "settings": {
+            "end_date": "2026-06-21",
+            "end_time": "11:59",
+            "period": "pm",
+            "end_message": "<p>応募受付は終了しました。</p>",
+            "digits_font_size": "heading-x-large",
+            "text_font_size": "body-small"
+          }
+        }
+      },
+      "block_order": [
+        "final_subheading",
+        "final_heading",
+        "final_text",
+        "final_button",
+        "final_timer"
+      ],
+      "name": "Final CTA",
+      "settings": {
+        "hide_on_complete": false,
+        "width": "wrapper",
+        "text_align": "text-left",
+        "height": "four-hundred-height-hero",
+        "mobile_height": "four-hundred-height-hero--mobile",
+        "text_align_mobile": "text-center--mobile",
+        "color_scheme": "scheme-10",
+        "digits_gradient": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "after_hours_hero",
+    "campaign_overview",
+    "deadline_countdown",
+    "giveaway_contents",
+    "brand_intro",
+    "brand_pillars",
+    "youtube_video",
+    "roadmap",
+    "recommended_audience",
+    "entry_steps",
+    "campaign_notes",
+    "message",
+    "final_cta"
   ]
 }
