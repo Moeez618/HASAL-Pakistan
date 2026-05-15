@@ -13519,7 +13519,7 @@ body:has([data-header-transparent]):has(.main-content > .shopify-section.section
 
 @media only screen and (min-width: 990px) {
   .form__width {
-    max-width: 550px;
+    max-width: none;
     margin: 0 auto;
   }
 }
