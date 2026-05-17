@@ -20971,7 +20971,9 @@ body.grid-compact.has-line-design .brick__block__collection .look__slide {
 
 /* Video */
 .video-background {
+  position: relative;
   width: 100%;
+  overflow: hidden;
 }
 
 @media only screen and (min-width: 750px) {
