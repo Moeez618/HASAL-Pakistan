@@ -150,7 +150,7 @@
         "link": "",
         "width": "wrapper--full",
         "height": "image-height",
-        "flex_align_desktop": "align--middle-center-desktop",
+        "flex_align_desktop": "align--top-left-desktop",
         "content_width": 50,
         "mobile_image": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_37_40.png",
         "mobile_height": "image-height--mobile",
