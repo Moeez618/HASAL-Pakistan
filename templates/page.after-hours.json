@@ -487,7 +487,7 @@
         "heading_font_size": "heading-large",
         "text": "<p>プレゼントに応募する前に、ぜひ「After Hours」がどのように制作されたのかをご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、サイト公開まで、ECサイト構築に必要な流れを実践形式で解説しています。</p>",
         "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
+        "flex_align": "align--bottom-center",
         "link_text": "",
         "link": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
         "button_type": "btn--primary",

@@ -9,8 +9,10 @@
   assign video = block_settings.video
   assign video_mobile = block_settings.video_mobile
   assign video_mobile_source = video_mobile | default: video
-  assign aspect_ratio = aspect_ratio | default: video.aspect_ratio
-  assign video_aspect_ratio = video_aspect_ratio | default: video.aspect_ratio | default: 1
+  assign video_aspect_ratio = video_aspect_ratio | default: video.aspect_ratio | default: video_mobile_source.aspect_ratio | default: 1
+  assign video_mobile_aspect_ratio = video_mobile_aspect_ratio | default: video_mobile_source.aspect_ratio | default: video_aspect_ratio
+  assign aspect_ratio = aspect_ratio | default: video_aspect_ratio
+  assign aspect_ratio_mobile = aspect_ratio_mobile | default: video_mobile_aspect_ratio
   assign video_popup = block_settings.video_popup | default: block_settings.video_popup_social
   assign image_desktop = block_settings.image | default: video.preview_image
   assign image_mobile = block_settings.mobile_image
@@ -61,7 +63,7 @@
   endif
 
   capture video_poster
-    render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height, aspect_ratio: aspect_ratio, aspect_ratio_mobile: aspect_ratio, fetchpriority: poster_fetchpriority
+    render 'image-hero', image_desktop: image_desktop, image_mobile: image_mobile, desktop_height: desktop_height, mobile_height: mobile_height, aspect_ratio: aspect_ratio, aspect_ratio_mobile: aspect_ratio_mobile, fetchpriority: poster_fetchpriority
   endcapture
 -%}
 
@@ -108,7 +110,7 @@
   {%- if video_mobile_source != blank -%}
     <div
       class="video-background {{ desktop_height }} {{ mobile_height }} mobile"
-      style="--aspect-ratio: {{ video_aspect_ratio }};"
+      style="--aspect-ratio: {{ video_mobile_aspect_ratio }};"
     >
       <div class="video__poster">
         {{ video_poster }}
