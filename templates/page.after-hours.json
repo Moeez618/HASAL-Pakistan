@@ -31,7 +31,7 @@
         "hero_heading": {
           "type": "heading",
           "settings": {
-            "title": "After Hoursストア プレゼント企画",
+            "title": "After Hours ECサイト プレゼント企画",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 12,
             "heading_tag": "h1"
@@ -40,7 +40,7 @@
         "hero_text": {
           "type": "text",
           "settings": {
-            "text": "<p>ゼロから作り上げた本格ストリートブランド「After Hours」のShopify ECサイトを<strong>抽選でプレゼント</strong>します。</p><p><em>※YouTube動画『【2026年最新版】初心者向けShopify完全ガイド！』公開記念の特別企画です。　</em></p>",
+            "text": "<p>Shopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選でプレゼントします。</p><p>YouTube動画「【2026年最新版】初心者向けShopify完全ガイド！」内で、実際にゼロから構築したECサイト「After Hours」をプレゼントする特別企画です。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 14
           }
@@ -56,8 +56,8 @@
         "hero_button": {
           "type": "buttons",
           "settings": {
-            "button_text": "応募について詳しく確認する",
-            "button_url": "",
+            "button_text": "応募ページへ進む",
+            "button_url": "https://www.solstar.co.jp/products/after-hours-giveaway",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
@@ -118,13 +118,13 @@
         "overview_text_block": {
           "type": "text",
           "settings": {
-            "subheading": "Campaign Overview",
-            "title": "本物のECサイトを、あなたに贈ります。",
+            "subheading": "",
+            "title": "実際に運営できるECサイトを、抽選でプレゼントします。",
             "heading_font_size": "heading-large",
-            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。今回のYouTube動画では、ShopifyとChatGPTを活用し、ブランド設計からストア公開までの流れを実践形式で解説しました。</p><p>　</p><p>本編のYoutube動画をご覧いただいた方に向けた特別企画として、動画内で実際に制作したデモストア<strong>「After Hours」</strong>を、抽選で1名様に無料でプレゼントいたします。</p>",
+            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。</p><p>今回、YouTubeにて『【2026年最新版】初心者向けShopify完全ガイド！』を公開しました。この動画では、ShopifyとChatGPTを活用し、ブランド設計からストア公開までの流れを、実践形式で解説しています。</p><p>そして今回の特別企画として、動画内で実際に制作したECサイト「After Hours」を、抽選で1名様に無料でプレゼントいたします。</p>",
             "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
+            "button_text": "応募ページへ進む",
+            "button_url": "https://www.solstar.co.jp/products/after-hours-giveaway",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -175,15 +175,15 @@
         "deadline_text": {
           "type": "text",
           "settings": {
-            "text": "<p>期間内に、After Hoursストア内の専用エントリーページから0円チェックアウトを完了した方が応募対象となります。</p>",
+            "text": "<p>応募期間内に、専用エントリーページから0円でチェックアウトを完了すると、応募完了となります。</p>",
             "text_font_size": "body-medium"
           }
         },
         "deadline_button": {
           "type": "buttons",
           "settings": {
-            "button_text": "無料エントリーする",
-            "button_url": "",
+            "button_text": "応募ページへ進む",
+            "button_url": "https://www.solstar.co.jp/products/after-hours-giveaway",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -233,9 +233,9 @@
             "icon_name": "icon-award",
             "icon_size": 30,
             "icon_color": "",
-            "title": "Shopifyオーナーアカウント",
+            "title": "ECサイトの管理権限",
             "heading_font_size": "heading-small",
-            "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
+            "text": "<p>After HoursのECサイトを、自分のストアとして運営できる状態でお渡しします。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -248,7 +248,7 @@
             "icon_color": "",
             "title": "独自ドメイン",
             "heading_font_size": "heading-small",
-            "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
+            "text": "<p>ECサイトに設定済みの独自ドメインも含めてお渡しします。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -259,9 +259,9 @@
             "icon_name": "icon-box",
             "icon_size": 30,
             "icon_color": "",
-            "title": "登録済み商品情報",
+            "title": "商品情報",
             "heading_font_size": "heading-small",
-            "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
+            "text": "<p>Tシャツ、スウェット、フーディーなどの商品情報を含みます。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -274,7 +274,7 @@
             "icon_color": "",
             "title": "商品デザイン一式",
             "heading_font_size": "heading-small",
-            "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
+            "text": "<p>商品に使用したデザインデータを含めて譲渡します。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -287,7 +287,7 @@
             "icon_color": "",
             "title": "キービジュアル・ロゴ",
             "heading_font_size": "heading-small",
-            "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
+            "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコンを含みます。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -298,9 +298,9 @@
             "icon_name": "icon-star",
             "icon_size": 30,
             "icon_color": "",
-            "title": "Creamテーマのストアデザイン",
+            "title": "Cream Shopifyテーマのストアデザイン",
             "heading_font_size": "heading-small",
-            "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
+            "text": "<p>SOLSTARオリジナルテーマ「Cream」のデザインをそのまま利用できます。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -326,7 +326,7 @@
             "icon_color": "",
             "title": "基本的なストア設定",
             "heading_font_size": "heading-small",
-            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始に近い状態でお渡しします。</p>",
+            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、ECサイト運営を始めやすい状態でお渡しします。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -344,7 +344,7 @@
       ],
       "name": "Giveaway contents",
       "settings": {
-        "title": "After Hoursストア一式を、そのまま譲渡します。",
+        "title": "After HoursのECサイト一式を、そのまま譲渡します。",
         "heading_font_size": "heading-large",
         "align_heading": "text-center",
         "align_text": "text-left",
@@ -366,14 +366,14 @@
         "brand_subheading": {
           "type": "subheading",
           "settings": {
-            "subheading": "About After Hours",
+            "subheading": "",
             "padding_bottom": 14
           }
         },
         "brand_heading": {
           "type": "heading",
           "settings": {
-            "title": "単なるデモサイトではなく、実践を想定して設計したアパレルブランドです。",
+            "title": "単なるデモサイトではなく、実際の運営を想定して制作したブランドです。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -382,7 +382,7 @@
         "brand_text": {
           "type": "text",
           "settings": {
-            "text": "<p>お渡しする<strong>「After Hours」</strong>は、単なる練習用のデモサイトではありません。</p><p>ブランドコンセプト、ターゲット、商品構成、デザイン、ストア導線まで、実際のEC運営を想定して制作したストリートウェアブランドです。</p>",
+            "text": "<p>お渡しする「After Hours」は、単なる練習用のデモサイトではありません。</p><p>ブランドコンセプト、ターゲット、商品構成、デザイン、ECサイト導線まで、実際のECサイト運営を想定して制作しています。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 0
           }
@@ -433,7 +433,7 @@
             "icon_color": "",
             "title": "在庫リスクを抑えた無在庫販売モデル",
             "heading_font_size": "heading-small",
-            "text": "<p>商品が売れたタイミングで製造・発送されるアプリ<strong>「Printful」</strong>を導入済みです。在庫を抱える必要がなく、梱包や発送作業も不要な構成で、初期在庫を大量に抱えずにアパレルブランドの運営を始められます。</p>",
+            "text": "<p>商品が売れたタイミングで製造・発送されるアプリ「Printful」を導入済みです。</p><p>在庫を大量に抱える必要がなく、梱包や発送作業を行わずにアパレルブランドの運営を始められます。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -444,9 +444,9 @@
             "icon_name": "icon-cloud",
             "icon_size": 30,
             "icon_color": "",
-            "title": "オリジナルテーマによるデザイン設計",
+            "title": "SOLSTARオリジナルテーマ「Cream」を採用",
             "heading_font_size": "heading-small",
-            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ<strong>「Cream」</strong>を採用。お気に入り追加、下部追従メニュー、LINE友だち追加訴求など、購入導線や回遊性を高める機能を備えています。</p>",
+            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ「Cream」を使用しています。</p><p>お気に入り追加機能、下部追従メニュー、LINE追加導線など、購入のしやすさを高める機能を備えています。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -459,7 +459,7 @@
       ],
       "name": "Brand pillars",
       "settings": {
-        "title": "After Hoursストア概要",
+        "title": "プレゼントされるブランド「After Hours」とは？",
         "heading_font_size": "heading-large",
         "align_heading": "text-center",
         "align_text": "text-center",
@@ -483,9 +483,9 @@
         "video_mobile": "shopify://files/videos/Cinematic_Brand_Video_for_After_Hours.mp4",
         "show_video_popup": true,
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
-        "title": "YouTube動画の見どころ",
+        "title": "ただの操作説明ではなく、ECサイトを実際に作りながら学べる完全ガイドです。",
         "heading_font_size": "heading-large",
-        "text": "<p>ただの操作マニュアルではない、EC構築スキルが学べる完全ガイドです。プレゼントに応募する前に、ぜひ動画で<strong>「このサイトがどのように作られたのか」</strong>をご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、ストア公開まで、ECサイト構築に必要な流れを実践形式で解説しています。</p>",
+        "text": "<p>プレゼントに応募する前に、ぜひ「After Hours」がどのように制作されたのかをご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、ストア公開まで、ECサイト構築に必要な流れを実践形式で解説しています。</p>",
         "text_font_size": "body-medium",
         "flex_align": "align--middle-center",
         "link_text": "",
@@ -512,7 +512,7 @@
         "roadmap_heading": {
           "type": "heading",
           "settings": {
-            "title": "実践ロードマップ｜全10ステップ"
+            "title": "ECサイト公開までの全10ステップ"
           }
         },
         "step_01": {
@@ -520,7 +520,7 @@
           "settings": {
             "default_open": true,
             "title": "1. ブランド設計",
-            "content": "<p>ChatGPTを活用した競合分析と差別化ポイントの発見。ブランドコンセプトとブランドストーリーの作成。ペルソナの設定と、ブランドの方向性のドキュメント化。ChatGPTでのロゴとファビコンの作成まで解説します。</p>",
+            "content": "<p>ChatGPTを活用しながら、競合分析、ブランドコンセプト設計、ペルソナ設計、ブランドストーリー作成を行います。ロゴやファビコンの制作まで含めて、ブランドの方向性を整理していきます。</p>",
             "show_icon": false,
             "icon_name": "icon-cloud",
             "icon_size": 20,
@@ -532,7 +532,7 @@
           "settings": {
             "default_open": false,
             "title": "2. Shopify環境構築",
-            "content": "<p>Shopifyアカウントの作成とプラン選定、Shopify Paymentsの決済設定、不正注文防止設定、チェックアウト設定、ゲスト購入許可、メルマガ登録、配送設定、特定商取引法に基づく表記や各種ポリシーページの作成を扱います。</p>",
+            "content": "<p>Shopifyアカウント作成、決済設定、配送設定、各種ポリシーページの作成など、ECサイト公開に必要な初期設定を行います。</p>",
             "show_icon": false,
             "icon_name": "icon-shield",
             "icon_size": 20,
@@ -544,7 +544,7 @@
           "settings": {
             "default_open": false,
             "title": "3. 商品作成・カタログ登録",
-            "content": "<p>無在庫販売を実現するアプリ<strong>「Printful」</strong>のインストールと初期設定。Tシャツ、スウェット、フーディーなどの商品作成。Shopifyの<strong>「コレクション」</strong>を活用したカテゴリー分けを実践します。</p>",
+            "content": "<p>Printfulを活用した無在庫販売の設定を行い、Tシャツやフーディーなどの商品登録、カテゴリ設定を進めます。</p>",
             "show_icon": false,
             "icon_name": "icon-box",
             "icon_size": 20,
@@ -555,8 +555,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "4. テーマ設定とデザイン・UIの基礎設計",
-            "content": "<p>SOLSTARオリジナルテーマ<strong>「Cream」</strong>の導入。ブランドカラーに合わせた配色設定。ヘッダー、ロゴ、ファビコンのサイズ・余白調整を行います。</p>",
+            "title": "4. テーマ設定とデザイン調整",
+            "content": "<p>SOLSTARオリジナルテーマ「Cream」を使用し、ブランドカラーやロゴ設定など、ECサイト全体のデザインを整えます。</p>",
             "show_icon": false,
             "icon_name": "icon-notes",
             "icon_size": 20,
@@ -567,8 +567,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "5. 各ページのワイヤーフレーム構築と制作",
-            "content": "<p>ホームページ、商品詳細ページ、コレクションページ、お気に入りページ、お問い合わせページ、カート＆決済ページ、About Us、FAQページを制作します。</p>",
+            "title": "5. 各ページ制作",
+            "content": "<p>ホーム、商品ページ、About Us、FAQ、お問い合わせページなど、ECサイトに必要なページを制作します。</p>",
             "show_icon": false,
             "icon_name": "icon-notes",
             "icon_size": 20,
@@ -579,8 +579,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "6. ヘッダー・フッターの設計",
-            "content": "<p>メインメニューとフッターメニューを作成。お客様が必要なページへ迷わず移動できるように、リンク構造を整理します。</p>",
+            "title": "6. ヘッダー・フッター設定",
+            "content": "<p>メニューやリンク構造を整理し、ユーザーが商品を探しやすいECサイト導線を構築します。</p>",
             "show_icon": false,
             "icon_name": "icon-notes",
             "icon_size": 20,
@@ -592,7 +592,7 @@
           "settings": {
             "default_open": false,
             "title": "7. ページのブラッシュアップ",
-            "content": "<p>送料無料を訴求する<strong>「お知らせバー」</strong>を設定。メルマガ登録を促す<strong>「ニュースレターポップアップ」</strong>を実装。商品詳細ページの不要要素を削減し、決済アイコンを追加。PC・モバイル両方での表示と動作を確認します。</p>",
+            "content": "<p>ニュースレター登録、送料無料の訴求、決済導線の改善などを行い、購入しやすいECサイトへ調整します。</p>",
             "show_icon": false,
             "icon_name": "icon-info-empty",
             "icon_size": 20,
@@ -603,8 +603,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "8. メール通知・ドメイン・SEO設定",
-            "content": "<p>自動送信メールのデザインをカスタマイズ。独自ドメインを取得してShopifyストアに接続。メタタイトル、メタディスクリプション、SNSシェア画像を設定します。</p>",
+            "title": "8. ドメイン・SEO・メール設定",
+            "content": "<p>独自ドメイン設定、自動送信メール設定、SEO設定など、公開前に必要な最終調整を行います。</p>",
             "show_icon": false,
             "icon_name": "icon-planet",
             "icon_size": 20,
@@ -616,7 +616,7 @@
           "settings": {
             "default_open": false,
             "title": "9. 最終確認",
-            "content": "<p>テストモードで購入を実施。送料無料条件や地域別送料が正しく反映されるか確認し、注文からチェックアウトまでの流れをチェックします。</p>",
+            "content": "<p>テスト購入を行い、送料設定や購入フローに問題がないかを確認します。</p>",
             "show_icon": false,
             "icon_name": "icon-check-circle",
             "icon_size": 20,
@@ -627,8 +627,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "10. ストア公開",
-            "content": "<p>取得した独自ドメインを<strong>「プライマリドメイン」</strong>に変更。パスワード保護を解除し、サイトを本番公開します。</p>",
+            "title": "10. ECサイト公開",
+            "content": "<p>独自ドメインを設定し、パスワード保護を解除してECサイトを公開します。</p>",
             "show_icon": false,
             "icon_name": "icon-trophy",
             "icon_size": 20,
@@ -669,9 +669,9 @@
             "image": "shopify://shop_images/5_03476f1d-b1cb-4393-a7fe-828a41fa32f7.jpg",
             "image_width": 100,
             "image_shape": "normal",
-            "title": "自分のブランドでECサイトを始めたい方",
+            "title": "自分のブランドでECサイトを始めてみたい方",
             "heading_font_size": "heading-small",
-            "text": "<p>完成済みストアをベースに、ブランド運営の一歩目を踏み出せます。</p>",
+            "text": "<p>完成済みのECサイトをベースに、ブランドづくりを始められます。</p>",
             "text_font_size": "body-small",
             "button_text": "",
             "button_url": "",
@@ -692,7 +692,7 @@
             "image_shape": "normal",
             "title": "Shopifyを実践的に学びたい方",
             "heading_font_size": "heading-small",
-            "text": "<p>動画と実際のストア構成を見ながら、構築から公開までの流れを学べます。</p>",
+            "text": "<p>動画と実際のECサイトを見ながら、構築から公開までの流れを学べます。</p>",
             "text_font_size": "body-small",
             "button_text": "",
             "button_url": "",
@@ -713,7 +713,7 @@
             "image_shape": "normal",
             "title": "無在庫販売モデルに興味がある方",
             "heading_font_size": "heading-small",
-            "text": "<p>Printfulを活用したアパレルブランド運営に挑戦できます。</p>",
+            "text": "<p>Printfulを活用した、在庫を持たないアパレル販売に挑戦できます。</p>",
             "text_font_size": "body-small",
             "button_text": "",
             "button_url": "",
@@ -734,7 +734,7 @@
       ],
       "name": "Recommended audience",
       "settings": {
-        "title": "この企画がおすすめの方",
+        "title": "こんな方におすすめです",
         "heading_font_size": "heading-large",
         "align_heading": "text-center",
         "align_text": "text-left",
@@ -755,10 +755,10 @@
         "entry_step_1": {
           "type": "timeline",
           "settings": {
-            "subheading": "Step 1",
-            "title": "専用エントリーページへアクセス",
+            "subheading": "",
+            "title": "1. 応募ページへアクセス",
             "heading_font_size": "heading-medium",
-            "text": "<p>YouTube動画の概要欄にあるリンクから、After Hoursストア内の<strong>「専用エントリーページ」</strong>へアクセスします。</p>",
+            "text": "<p>ページ内のボタン、またはYouTube動画概要欄のリンクから、応募ページへアクセスします。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -772,10 +772,10 @@
         "entry_step_2": {
           "type": "timeline",
           "settings": {
-            "subheading": "Step 2",
-            "title": "無料エントリー商品をカートに追加",
+            "subheading": "",
+            "title": "2. 応募ページからカートに追加",
             "heading_font_size": "heading-medium",
-            "text": "<p>通常の商品購入と同じ流れで、エントリーページから<strong>「カートに追加」</strong>をクリックします。</p>",
+            "text": "<p>通常の商品購入と同じ流れで、「カートに追加」をクリックします。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -789,10 +789,10 @@
         "entry_step_3": {
           "type": "timeline",
           "settings": {
-            "subheading": "Step 3",
-            "title": "0円でチェックアウトを完了",
+            "subheading": "",
+            "title": "3. 0円でチェックアウトを完了",
             "heading_font_size": "heading-medium",
-            "text": "<p>チェックアウト画面へ進み、必要情報を入力してエントリーを完了してください。エントリー商品は0円のため、費用は発生しません。</p><p><strong>応募フロー：エントリーページ ＞ カートページ ＞ 0円チェックアウト ＞ エントリー完了</strong></p>",
+            "text": "<p>チェックアウト画面へ進み、必要情報を入力して0円でチェックアウトを完了してください。費用は発生しません。</p><p><strong>応募フロー：応募ページ ＞ カートページ ＞ 0円チェックアウト ＞ 応募完了</strong></p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -814,11 +814,11 @@
         "show_images": false,
         "title": "応募方法",
         "heading_font_size": "heading-large",
-        "text": "<p>応募は、After Hoursストア内の専用エントリーページから行えます。<strong>2026年6月21日（日）23:59まで</strong>に0円チェックアウトを完了してください。</p>",
+        "text": "<p>専用応募ページから、0円でチェックアウトを完了すると応募完了となります。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
         "text_font_size": "body-medium",
         "text_alignment": "text-center",
-        "button_text": "After Hoursストアのオーナーに応募する",
-        "button_url": "",
+        "button_text": "After Hoursに応募する",
+        "button_url": "https://www.solstar.co.jp/products/after-hours-giveaway",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
@@ -848,7 +848,7 @@
           "settings": {
             "default_open": true,
             "title": "応募条件について",
-            "content": "<p>本キャンペーンは、動画内で制作したAfter Hoursストアを抽選で1名様にプレゼントする企画です。応募締切は2026年6月21日（日）23:59までです。締切日時を過ぎてからのエントリーは、抽選対象外となります。応募は、After Hoursストア内の専用エントリーページから0円チェックアウトを完了した時点で有効となります。</p>",
+            "content": "<p>本キャンペーンは、動画内で制作したECサイト「After Hours」を抽選で1名様にプレゼントする企画です。</p><p>応募締切は2026年6月21日（日）23:59までです。応募ページにて、0円チェックアウトを完了した時点で応募完了となります。締切後の応募は無効となります。</p>",
             "show_icon": true,
             "icon_name": "icon-info-empty",
             "icon_size": 20,
@@ -860,7 +860,7 @@
           "settings": {
             "default_open": false,
             "title": "譲渡後に発生する費用について",
-            "content": "<p>ストア譲渡後のShopify月額利用料、アプリ利用料、ドメイン更新費用、Printfulの商品原価・送料、決済手数料、広告費、その他運営に必要な費用は当選者様のご負担となります。</p>",
+            "content": "<p>Shopify月額利用料、アプリ利用料、ドメイン更新費用、Printfulの商品原価・送料、決済手数料、広告費など、運営に必要な費用は当選者様のご負担となります。</p>",
             "show_icon": true,
             "icon_name": "icon-discount",
             "icon_size": 20,
@@ -871,8 +871,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "当選後に更新が必要な情報について",
-            "content": "<p>ストア譲渡後は、特定商取引法に基づく表記、プライバシーポリシー、配送ポリシー、返品・返金ポリシー、決済情報、銀行口座情報、通知メール、問い合わせ先などを、当選者様ご自身の情報に更新していただく必要があります。</p>",
+            "title": "当選後に必要な設定変更について",
+            "content": "<p>特定商取引法に基づく表記、各種ポリシー、決済情報、銀行口座情報、通知メール、問い合わせ先などは、当選者様ご自身の情報へ変更していただく必要があります。</p>",
             "show_icon": true,
             "icon_name": "icon-notes",
             "icon_size": 20,
@@ -883,8 +883,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "譲渡手続きと免責について",
-            "content": "<p>本キャンペーンは、ストア譲渡後の売上・利益・集客成果を保証するものではありません。ドメイン譲渡には、レジストラや管理サービスの仕様により、移管手続きや一定の期間が必要となる場合があります。Shopify、Printful、ドメイン管理サービス等の規約により、譲渡手続きの方法が変更となる場合があります。</p>",
+            "title": "譲渡手続きについて",
+            "content": "<p>本キャンペーンは、売上・利益・集客成果を保証するものではありません。</p><p>ドメイン譲渡には、管理会社の仕様により、一定期間が必要となる場合があります。また、Shopify、Printful、ドメイン管理サービス等の仕様変更により、譲渡方法が変更となる場合があります。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
             "icon_size": 20,
@@ -895,8 +895,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "不正・変更・主催について",
-            "content": "<p>応募内容に虚偽や不正が確認された場合、応募または当選を無効とさせていただく場合があります。キャンペーン内容は、予告なく変更・終了となる場合があります。本キャンペーンは株式会社SOLSTARが独自に実施する企画です。YouTube、Shopify、Printfulが主催・協賛・運営するものではありません。</p>",
+            "title": "その他",
+            "content": "<p>応募内容に虚偽や不正が確認された場合、応募または当選を無効とする場合があります。</p><p>また、本キャンペーン内容は予告なく変更・終了となる場合があります。</p><p>本キャンペーンは株式会社SOLSTARが独自に実施する企画であり、YouTube、Shopify、Printfulによる主催・協賛・運営ではありません。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
             "icon_size": 20,
@@ -929,7 +929,7 @@
         "message_subheading": {
           "type": "subheading",
           "settings": {
-            "subheading": "Message",
+            "subheading": "",
             "padding_bottom": 12
           }
         },
@@ -945,7 +945,7 @@
         "message_text": {
           "type": "text",
           "settings": {
-            "text": "<p>今回プレゼントする<strong>「After Hours」</strong>は、完成度の高いストアとして制作しています。ただし、ECサイトは公開して終わりではなく、そこからが本当のスタートです。</p><p>ストアを手に入れた後は、SNSや広告、SEOなどを活用してトラフィックを集め、アクセスデータや購入データを見ながら改善を重ねていく必要があります。</p><p>商品ページの見せ方を変える。キービジュアルを改善する。SNSでブランドの世界観を発信する。お客様の反応を見ながら、商品や導線を調整する。</p><p>そうした積み重ねによって、ECサイトは少しずつブランドとして育っていきます。After Hoursは、そのスタート地点として活用できるストアです。あなたが新しいブランドのオーナーになる日を楽しみにしています。</p>",
+            "text": "<p>今回プレゼントする「After Hours」は、実際の運営を想定して制作したECサイトです。</p><p>ただし、ECサイトは公開して終わりではなく、そこからが本当のスタートになります。</p><p>SNSでブランドの世界観を発信する。<br>商品ページを改善する。<br>お客様の反応を見ながら、商品や導線を調整していく。</p><p>そうした積み重ねによって、ECサイトは少しずつブランドとして育っていきます。</p><p>「After Hours」は、その第一歩として活用できるECサイトです。</p><p>あなた自身のブランドを育てていくきっかけになれば嬉しく思います。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 0
           }
@@ -985,7 +985,7 @@
         "final_heading": {
           "type": "heading",
           "settings": {
-            "title": "After Hoursストアのオーナーに応募する",
+            "title": "After Hoursに応募する",
             "heading_font_size": "heading-large",
             "heading_tag": "h2"
           }
@@ -993,15 +993,15 @@
         "final_text": {
           "type": "text",
           "settings": {
-            "text": "<p>Shopifyオーナーアカウント、独自ドメイン、キービジュアル、商品デザイン一式まで含めて、After Hoursストアを抽選で1名様にプレゼントします。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
+            "text": "<p>ECサイトの管理権限、独自ドメイン、商品情報、ブランド素材を含むECサイト「After Hours」を抽選で1名様にプレゼントします。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
             "text_font_size": "body-medium"
           }
         },
         "final_button": {
           "type": "buttons",
           "settings": {
-            "button_text": "今すぐYouTube動画を見て、無料エントリーする",
-            "button_url": "",
+            "button_text": "After Hoursに応募する",
+            "button_url": "https://www.solstar.co.jp/products/after-hours-giveaway",
             "button_type": "btn--primary",
             "button_size": "btn--large",
             "button_style": "btn--solid",
