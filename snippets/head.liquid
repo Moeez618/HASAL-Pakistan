@@ -691,7 +691,7 @@
         smoothscroll: '{{ "smoothscroll.js" | asset_url }}',
       },
       strings: {
-        addToCart: {% if template.name == 'product' and template.suffix == 'after-hours' %}{{ '抽選に無料エントリーする' | json }}{% else %}{{ 'products.product.add_to_cart' | t | json }}{% endif %},
+        addToCart: {% if template.name == 'product' and template.suffix == 'after-hours' %}{{ '抽選に無料応募する' | json }}{% else %}{{ 'products.product.add_to_cart' | t | json }}{% endif %},
         sale: {{ 'products.product.on_sale' | t | json }},
         soldOut: {{ 'products.product.sold_out' | t | json }},
         preOrder: {{ 'products.product.pre_order' | t | json }},
