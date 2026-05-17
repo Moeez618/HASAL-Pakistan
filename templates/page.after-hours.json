@@ -31,7 +31,7 @@
         "hero_heading": {
           "type": "heading",
           "settings": {
-            "title": "After Hours ECサイト プレゼント企画",
+            "title": "ECサイト「After Hours」プレゼント企画",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 12,
             "heading_tag": "h1"
