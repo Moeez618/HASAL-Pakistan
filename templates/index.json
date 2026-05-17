@@ -105,56 +105,62 @@
         "padding_bottom": 5
       }
     },
-    "section_rich_text_LBH8Lm": {
-      "type": "section-rich-text",
+    "section_hero_KXKF4d": {
+      "type": "section-hero",
       "blocks": {
-        "image_T97ewF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Outdoor_Poster_Mockup_copy.jpg",
-            "image_width": 100,
-            "padding_bottom": 16
-          }
-        },
-        "subheading_Dx7ER7": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "株式会社SOLSTAR",
-            "padding_bottom": 16
-          }
-        },
-        "heading_mwxG8e": {
+        "heading_cB4kaB": {
           "type": "heading",
           "settings": {
-            "title": "気づけば購入されているECサイトを作るShopify専門ECパートナー",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "h1"
+            "title": "ECサイト「After Hours」プレゼント企画",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h2",
+            "padding_bottom": 8
           }
         },
-        "text_m4UgTi": {
+        "text_YdXDMN": {
           "type": "text",
           "settings": {
-            "text": "<p>8年以上の実績｜成長フェーズに合わせたEC設計｜国内から越境まで</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "text": "<p>Shopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選でプレゼントします。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_UkgqyV": {
+          "type": "button",
+          "settings": {
+            "link_text": "詳細を見る",
+            "link": "shopify://pages/after-hours-giveaway",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
           }
         }
       },
       "block_order": [
-        "image_T97ewF",
-        "subheading_Dx7ER7",
-        "heading_mwxG8e",
-        "text_m4UgTi"
+        "heading_cB4kaB",
+        "text_YdXDMN",
+        "button_UkgqyV"
       ],
-      "name": "Rich text",
+      "name": "Image banner",
       "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_31_55.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_37_40.png",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "scheme-10",
+        "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_double_pi63CE": {
@@ -354,6 +360,58 @@
         "padding_top": 30,
         "padding_bottom": 0,
         "show_placeholder": true
+      }
+    },
+    "section_rich_text_LBH8Lm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "image_T97ewF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Outdoor_Poster_Mockup_copy.jpg",
+            "image_width": 100,
+            "padding_bottom": 16
+          }
+        },
+        "subheading_Dx7ER7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "株式会社SOLSTAR",
+            "padding_bottom": 16
+          }
+        },
+        "heading_mwxG8e": {
+          "type": "heading",
+          "settings": {
+            "title": "気づけば購入されているECサイトを作るShopify専門ECパートナー",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h1"
+          }
+        },
+        "text_m4UgTi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>8年以上の実績｜成長フェーズに合わせたEC設計｜国内から越境まで</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "image_T97ewF",
+        "subheading_Dx7ER7",
+        "heading_mwxG8e",
+        "text_m4UgTi"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_multicolumn_YVyPLA": {
@@ -986,10 +1044,11 @@
   "order": [
     "section_video_gbncyG",
     "section_announcement_qqjQ8T",
-    "section_rich_text_LBH8Lm",
+    "section_hero_KXKF4d",
     "section_double_pi63CE",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
+    "section_rich_text_LBH8Lm",
     "section_multicolumn_YVyPLA",
     "section_double_qaxP3k",
     "section_double_qLiMQE",
