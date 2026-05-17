@@ -120,7 +120,7 @@
         "text_YdXDMN": {
           "type": "text",
           "settings": {
-            "text": "<p>Shopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選でプレゼントします。</p>",
+            "text": "<p>弊社がShopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選でプレゼントします。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 8
           }
