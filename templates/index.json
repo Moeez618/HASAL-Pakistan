@@ -228,73 +228,6 @@
         "show_placeholder": true
       }
     },
-    "section_hero_FVYjLg": {
-      "type": "section-hero",
-      "blocks": {
-        "heading_fdcbPR": {
-          "type": "heading",
-          "settings": {
-            "title": "無料配布｜ECサイト構築会社の比較に悩んでいませんか",
-            "heading_font_size": "heading-large",
-            "heading_tag": "h2",
-            "padding_bottom": 8
-          }
-        },
-        "text_PcfCqy": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shopify公式に認定されたパートナー65社を対象に、</p><p>費用感やサービスの特徴を、比較しやすい形でまとめています。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        },
-        "text_KX9Wwi": {
-          "type": "text",
-          "settings": {
-            "text": "<p>しつこい営業は一切ございません🫡</p>",
-            "text_font_size": "body-small",
-            "padding_bottom": 8
-          }
-        },
-        "button_praaLn": {
-          "type": "button",
-          "settings": {
-            "link_text": "調査レポートを無料でゲットする",
-            "link": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "full_width": false,
-            "padding_bottom": 8
-          }
-        }
-      },
-      "block_order": [
-        "heading_fdcbPR",
-        "text_PcfCqy",
-        "text_KX9Wwi",
-        "button_praaLn"
-      ],
-      "disabled": true,
-      "name": "Image banner",
-      "settings": {
-        "image_1": "shopify://shop_images/Homepage_image_2.webp",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-one-third",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 50,
-        "mobile_height": "screen-height-one-half--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "scheme-10",
-        "show_text_background": false,
-        "overlay_type": "text",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_hero_ywHUVn": {
       "type": "section-hero",
       "blocks": {
@@ -1055,7 +988,6 @@
     "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
     "section_double_pi63CE",
-    "section_hero_FVYjLg",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
     "section_multicolumn_YVyPLA",
