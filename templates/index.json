@@ -159,7 +159,7 @@
         "show_text_background": false,
         "overlay_type": "disabled",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 100,
         "show_placeholder": true
       }
     },
