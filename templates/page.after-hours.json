@@ -31,7 +31,7 @@
         "hero_heading": {
           "type": "heading",
           "settings": {
-            "title": "ECサイト「After Hours」プレゼント企画",
+            "title": "After Hours ECサイト プレゼント企画",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 12,
             "heading_tag": "h1"
@@ -121,7 +121,7 @@
             "subheading": "",
             "title": "実際に運営できるECサイトを、抽選でプレゼントします。",
             "heading_font_size": "heading-large",
-            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。</p><p>今回、YouTubeにて『【2026年最新版】初心者向けShopify完全ガイド！』を公開しました。この動画では、ShopifyとChatGPTを活用し、ブランド設計からストア公開までの流れを、実践形式で解説しています。そして今回の特別企画として、動画内で実際に制作したECサイト「After Hours」を、抽選で1名様に無料でプレゼントいたします。</p>",
+            "text": "<p>ECサイト制作を外部に依頼する場合、内容によっては数十万円から数百万円の費用がかかることもあります。</p><p>今回、YouTubeにて『【2026年最新版】初心者向けShopify完全ガイド！』を公開しました。この動画では、ShopifyとChatGPTを活用し、ブランド設計からサイト公開までの流れを、実践形式で解説しています。</p><p>そして今回の特別企画として、動画内で実際に制作したECサイト「After Hours」を、抽選で1名様に無料でプレゼントいたします。</p>",
             "text_font_size": "body-medium",
             "button_text": "応募ページへ進む",
             "button_url": "https://www.solstar.co.jp/products/after-hours-giveaway",
@@ -175,7 +175,7 @@
         "deadline_text": {
           "type": "text",
           "settings": {
-            "text": "<p>応募期間内に、専用エントリーページから0円でチェックアウトを完了すると、応募完了となります。</p>",
+            "text": "<p>応募期間内に、専用応募ページから0円でチェックアウトを完了すると、応募完了となります。</p>",
             "text_font_size": "body-medium"
           }
         },
@@ -235,7 +235,7 @@
             "icon_color": "",
             "title": "ECサイトの管理権限",
             "heading_font_size": "heading-small",
-            "text": "<p>After HoursのECサイトを、自分のストアとして運営できる状態でお渡しします。</p>",
+            "text": "<p>After HoursのECサイトを、自分のサイトとして運営できる状態でお渡しします。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -298,7 +298,7 @@
             "icon_name": "icon-star",
             "icon_size": 30,
             "icon_color": "",
-            "title": "Cream Shopifyテーマのストアデザイン",
+            "title": "Cream Shopifyテーマのサイトデザイン",
             "heading_font_size": "heading-small",
             "text": "<p>SOLSTARオリジナルテーマ「Cream」のデザインをそのまま利用できます。</p>",
             "text_font_size": "body-small",
@@ -324,9 +324,9 @@
             "icon_name": "icon-check-circle",
             "icon_size": 30,
             "icon_color": "",
-            "title": "基本的なストア設定",
+            "title": "基本的なサイト設定",
             "heading_font_size": "heading-small",
-            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、ECサイト運営を始めやすい状態でお渡しします。</p>",
+            "text": "<p>ブランドビジュアル、商品情報、サイト構成を整えた、ECサイト運営を始めやすい状態でお渡しします。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -446,7 +446,7 @@
             "icon_color": "",
             "title": "SOLSTARオリジナルテーマ「Cream」を採用",
             "heading_font_size": "heading-small",
-            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ「Cream」を使用しています。お気に入り追加機能、下部追従メニュー、LINE追加導線など、購入のしやすさを高める機能を備えています。</p>",
+            "text": "<p>株式会社SOLSTARが開発したオリジナルテーマ「Cream」を使用しています。</p><p>お気に入り追加機能、下部追従メニュー、LINE追加導線など、購入のしやすさを高める機能を備えています。</p>",
             "text_font_size": "body-small",
             "heading_tag": "h3"
           }
@@ -459,7 +459,7 @@
       ],
       "name": "Brand pillars",
       "settings": {
-        "title": "After Hoursについて",
+        "title": "プレゼントされるブランド「After Hours」とは？",
         "heading_font_size": "heading-large",
         "align_heading": "text-center",
         "align_text": "text-center",
@@ -485,7 +485,7 @@
         "video_popup_social": "https://www.youtube.com/watch?v=ZJG9qwTIm8A",
         "title": "ただの操作説明ではなく、ECサイトを実際に作りながら学べる完全ガイドです。",
         "heading_font_size": "heading-large",
-        "text": "<p>プレゼントに応募する前に、ぜひ「After Hours」がどのように制作されたのかををご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、ストア公開まで、ECサイト制作の構築に必要な流れを実践形式で解説しています。</p>",
+        "text": "<p>プレゼントに応募する前に、ぜひ「After Hours」がどのように制作されたのかをご覧ください。</p><p>Shopifyの基本操作だけでなく、ブランド設計、商品登録、デザイン調整、配送設定、SEO設定、テスト購入、サイト公開まで、ECサイト構築に必要な流れを実践形式で解説しています。</p>",
         "text_font_size": "body-medium",
         "flex_align": "align--middle-center",
         "link_text": "",
@@ -567,7 +567,7 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "5. 各ページ",
+            "title": "5. 各ページ制作",
             "content": "<p>ホーム、商品ページ、About Us、FAQ、お問い合わせページなど、ECサイトに必要なページを制作します。</p>",
             "show_icon": false,
             "icon_name": "icon-notes",
@@ -792,7 +792,7 @@
             "subheading": "",
             "title": "3. 0円でチェックアウトを完了",
             "heading_font_size": "heading-medium",
-            "text": "<p>チェックアウト画面へ進み、必要情報を入力して0円でチェックアウトを完了してください。 費用は発生しません。</p><p><strong>応募フロー：応募ページ ＞ カートページ ＞ 0円チェックアウト ＞ 応募完了</strong></p>",
+            "text": "<p>チェックアウト画面へ進み、必要情報を入力して0円でチェックアウトを完了してください。費用は発生しません。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -814,7 +814,7 @@
         "show_images": false,
         "title": "応募方法",
         "heading_font_size": "heading-large",
-        "text": "<p>専用エントリーページから、0円でチェックアウトを完了すると応募完了となります。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p><p><strong>応募の手順</strong></p>",
+        "text": "<p>専用応募ページから、0円でチェックアウトを完了すると応募完了となります。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
         "text_font_size": "body-medium",
         "text_alignment": "text-center",
         "button_text": "After Hoursに応募する",
@@ -847,8 +847,8 @@
           "type": "question",
           "settings": {
             "default_open": true,
-            "title": "・応募条件について",
-            "content": "<p>本キャンペーンは、動画内で制作したECサイト「After Hours」を抽選で1名様にプレゼントする企画です。応募締切は2026年6月21日（日）23:59までです。応募ページにて、0円チェックアウトを完了した時点で応募完了となります。締切後の応募は無効となります。</p>",
+            "title": "応募条件について",
+            "content": "<p>本キャンペーンは、動画内で制作したECサイト「After Hours」を抽選で1名様にプレゼントする企画です。</p><p>応募締切は2026年6月21日（日）23:59までです。応募ページにて、0円チェックアウトを完了した時点で応募完了となります。締切後の応募は無効となります。</p>",
             "show_icon": true,
             "icon_name": "icon-info-empty",
             "icon_size": 20,
@@ -859,7 +859,7 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "・譲渡後に発生する費用について",
+            "title": "譲渡後に発生する費用について",
             "content": "<p>Shopify月額利用料、アプリ利用料、ドメイン更新費用、Printfulの商品原価・送料、決済手数料、広告費など、運営に必要な費用は当選者様のご負担となります。</p>",
             "show_icon": true,
             "icon_name": "icon-discount",
@@ -871,7 +871,7 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "・当選後に必要な設定変更について",
+            "title": "当選後に必要な設定変更について",
             "content": "<p>特定商取引法に基づく表記、各種ポリシー、決済情報、銀行口座情報、通知メール、問い合わせ先などは、当選者様ご自身の情報へ変更していただく必要があります。</p>",
             "show_icon": true,
             "icon_name": "icon-notes",
@@ -883,8 +883,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "・譲渡手続きについて",
-            "content": "<p>本キャンペーンは、売上・利益・集客成果を保証するものではありません。ドメイン譲渡には、管理会社の仕様により、一定期間が必要となる場合があります。また、Shopify、Printful、ドメイン管理サービス等の仕様変更により、譲渡方法が変更となる場合があります。</p>",
+            "title": "譲渡手続きについて",
+            "content": "<p>本キャンペーンは、売上・利益・集客成果を保証するものではありません。</p><p>ドメイン譲渡には、管理会社の仕様により、一定期間が必要となる場合があります。また、Shopify、Printful、ドメイン管理サービス等の仕様変更により、譲渡方法が変更となる場合があります。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
             "icon_size": 20,
@@ -895,8 +895,8 @@
           "type": "question",
           "settings": {
             "default_open": false,
-            "title": "・その他",
-            "content": "<p>応募内容に虚偽や不正が確認された場合、応募または当選を無効とする場合があります。また、本キャンペーン内容は予告なく変更・終了となる場合があります。本キャンペーンは株式会社SOLSTARが独自に実施する企画であり、YouTube、Shopify、Printfulによる主催・協賛・運営ではありません。</p>",
+            "title": "その他",
+            "content": "<p>応募内容に虚偽や不正が確認された場合、応募または当選を無効とする場合があります。</p><p>また、本キャンペーン内容は予告なく変更・終了となる場合があります。</p><p>本キャンペーンは株式会社SOLSTARが独自に実施する企画であり、YouTube、Shopify、Printfulによる主催・協賛・運営ではありません。</p>",
             "show_icon": true,
             "icon_name": "icon-shield",
             "icon_size": 20,
