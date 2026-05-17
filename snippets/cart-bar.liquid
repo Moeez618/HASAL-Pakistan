@@ -8,7 +8,7 @@
   assign add_to_cart_text = 'products.product.add_to_cart' | t
 
   if template.name == 'product' and template.suffix == 'after-hours'
-    assign add_to_cart_text = '抽選に無料エントリーする'
+    assign add_to_cart_text = '抽選に無料応募する'
   endif
 
   if settings.currency_code_enable

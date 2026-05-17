@@ -20,6 +20,18 @@
             "padding_bottom": 8
           }
         },
+        "entry_summary": {
+          "type": "text",
+          "settings": {
+            "title": "0円チェックアウトで応募完了",
+            "heading_font_size": "body-large",
+            "text": "<p>このページは、ECサイト「After Hours」プレゼント企画の専用応募ページです。ページ内のボタンからカートへ進み、0円でチェックアウトを完了すると応募完了となります。</p>",
+            "text_font_size": "body-medium",
+            "text_alignment": "text-left",
+            "layout": "left",
+            "padding_bottom": 18
+          }
+        },
         "price": {
           "type": "price",
           "disabled": true,
@@ -45,11 +57,11 @@
             "end_date": "2026-06-21",
             "end_time": "11:59",
             "period": "pm",
-            "end_message": "<p>Offer has expired</p>",
+            "end_message": "<p>応募受付は終了しました。</p>",
             "hide_on_complete": true,
             "digits_font_size": "heading-x-large",
             "text_font_size": "body-small",
-            "text": "<h2><strong>応募締切</strong></h2>",
+            "text": "<h2><strong>応募締切</strong></h2><p>2026年6月21日（日）23:59まで</p>",
             "heading_font_size": "heading-x-small",
             "bg_color": "",
             "color": "",
@@ -74,6 +86,7 @@
         },
         "description_njFQtP": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "show_read_more": false,
             "padding_bottom": 0
@@ -81,6 +94,7 @@
         },
         "divider_1": {
           "type": "divider",
+          "disabled": true,
           "settings": {
             "show_line": true,
             "padding_bottom": 16
@@ -89,6 +103,7 @@
       },
       "block_order": [
         "title",
+        "entry_summary",
         "price",
         "variants",
         "countdown_dcACTy",
@@ -110,16 +125,159 @@
         "padding_bottom": 30
       }
     },
+    "after_hours_entry_intro": {
+      "type": "section-rich-text",
+      "blocks": {
+        "entry_heading": {
+          "type": "heading",
+          "settings": {
+            "title": "応募方法と注意事項",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 14,
+            "heading_tag": "h2"
+          }
+        },
+        "entry_text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>専用応募ページから、0円でチェックアウトを完了すると応募完了となります。費用は発生しません。</p><p><strong>応募締切：2026年6月21日（日）23:59まで</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "entry_heading",
+        "entry_text"
+      ],
+      "name": "Entry guide",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 60,
+        "padding_bottom": 20
+      }
+    },
+    "after_hours_entry_details": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "entry_steps": {
+          "type": "question",
+          "settings": {
+            "default_open": true,
+            "title": "応募の手順",
+            "content": "<ol><li>ページ内のボタンから、応募ページの商品をカートに追加します。</li><li>カートページへ進み、通常の商品購入と同じ流れでチェックアウトへ進みます。</li><li>必要情報を入力し、0円でチェックアウトを完了してください。</li></ol><p><strong>応募フロー：応募ページ ＞ カートページ ＞ 0円チェックアウト ＞ 応募完了</strong></p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "entry_deadline": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "応募締切と応募条件",
+            "content": "<p><strong>2026年6月21日（日）23:59まで</strong></p><p>応募ページにて、0円チェックアウトを完了した時点で応募完了となります。締切後の応募は無効となります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "entry_lottery": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "抽選方法と当選連絡",
+            "content": "<p>応募締切後、応募完了順にエントリー番号を付与し、Google検索の「乱数ジェネレーター」を使用して当選者を選定します。</p><p>抽選時は、応募総数に応じて最小値と最大値を設定し、その範囲内でランダムに表示された番号を当選番号といたします。</p><p>当選者の方には、ご入力いただいたメールアドレス宛にご連絡いたします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "entry_notes": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "譲渡後に発生する費用",
+            "content": "<p>Shopify月額利用料、アプリ利用料、ドメイン更新費用、Printfulの商品原価・送料、決済手数料、広告費など、運営に必要な費用は当選者様のご負担となります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "entry_settings": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "当選後に必要な設定変更",
+            "content": "<p>特定商取引法に基づく表記、各種ポリシー、決済情報、銀行口座情報、通知メール、問い合わせ先などは、当選者様ご自身の情報へ変更していただく必要があります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "entry_transfer": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "譲渡手続きと免責",
+            "content": "<p>本キャンペーンは、売上・利益・集客成果を保証するものではありません。ドメイン譲渡には、管理会社の仕様により、一定期間が必要となる場合があります。また、Shopify、Printful、ドメイン管理サービス等の仕様変更により、譲渡方法が変更となる場合があります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "entry_other_notes": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "その他の注意事項",
+            "content": "<ul><li>本アイテムは応募専用のデジタルチケットのようなものであり、物理的な商品は発送されません。</li><li>応募内容に虚偽や不正が確認された場合、応募または当選を無効とする場合があります。</li><li>本キャンペーン内容は予告なく変更・終了となる場合があります。</li><li>本キャンペーンは株式会社SOLSTARが独自に実施する企画であり、YouTube、Shopify、Printfulによる主催・協賛・運営ではありません。</li></ul>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "entry_steps",
+        "entry_deadline",
+        "entry_lottery",
+        "entry_notes",
+        "entry_settings",
+        "entry_transfer",
+        "entry_other_notes"
+      ],
+      "name": "Entry details",
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-x-small",
+        "width": "wrapper--narrow",
+        "columns": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 20,
+        "padding_bottom": 80
+      }
+    },
     "after_hours_gift_overview": {
       "type": "section-custom-content",
       "blocks": {
         "gift_text_block": {
           "type": "text",
           "settings": {
-            "subheading": "After Hours EC Store Giveaway",
-            "title": "プレゼント内容",
+            "subheading": "",
+            "title": "After HoursのECサイト一式を、そのまま譲渡します。",
             "heading_font_size": "heading-large",
-            "text": "<p>あなたが今ご覧になっている<strong>「After Hours」のECストア一式</strong>を、抽選で1名様に無料で譲渡いたします。</p><p>After Hoursストア一式を、そのまま譲渡します。Shopifyで構築されたECサイト、登録済み商品情報、ブランドデザイン、基本的なストア設定まで含めた、運営開始しやすい状態のプレゼント企画です。</p>",
+            "text": "<p>Shopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選で1名様に無料でプレゼントします。</p><p>管理権限、独自ドメイン、商品情報、ブランド素材、Cream Shopifyテーマのストアデザインを含め、当選後にECサイト運営を始めやすい状態でお渡しします。</p>",
             "text_font_size": "body-large",
             "button_text": "",
             "button_url": "",
@@ -184,9 +342,9 @@
             "icon_name": "icon-award",
             "icon_size": 25,
             "icon_color": "",
-            "title": "Shopifyオーナーアカウント",
+            "title": "ECサイトの管理権限",
             "heading_font_size": "heading-x-small",
-            "text": "<p>After HoursのShopifyストアを、運営者として引き継げる状態で譲渡します。</p>",
+            "text": "<p>After HoursのECサイトを、自分のストアとして運営できる状態でお渡しします。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -197,9 +355,9 @@
             "icon_name": "icon-cloud",
             "icon_size": 25,
             "icon_color": "",
-            "title": "カスタムドメイン",
+            "title": "独自ドメイン",
             "heading_font_size": "heading-x-small",
-            "text": "<p>Shopifyストアに接続済みの独自ドメインも含めてお渡しします。</p>",
+            "text": "<p>ECサイトに設定済みの独自ドメインも含めてお渡しします。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -210,9 +368,9 @@
             "icon_name": "icon-box",
             "icon_size": 25,
             "icon_color": "",
-            "title": "登録済み商品情報",
+            "title": "商品情報",
             "heading_font_size": "heading-x-small",
-            "text": "<p>Tシャツ、スウェット、フーディーなど、ストア内に登録済みの商品情報を含みます。</p>",
+            "text": "<p>Tシャツ、スウェット、フーディーなどの商品情報を含みます。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -225,7 +383,7 @@
             "icon_color": "",
             "title": "商品デザイン一式",
             "heading_font_size": "heading-x-small",
-            "text": "<p>商品に使用したデザインデータ一式を含めて譲渡します。</p>",
+            "text": "<p>商品に使用したデザインデータを含めて譲渡します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -238,7 +396,7 @@
             "icon_color": "",
             "title": "キービジュアル・ロゴ",
             "heading_font_size": "heading-x-small",
-            "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコン、ブランド関連データを含みます。</p>",
+            "text": "<p>サイト内で使用しているキービジュアル、ロゴ、ファビコンを含みます。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -249,9 +407,9 @@
             "icon_name": "icon-flare",
             "icon_size": 25,
             "icon_color": "",
-            "title": "Creamテーマのストアデザイン",
+            "title": "Cream Shopifyテーマのストアデザイン",
             "heading_font_size": "heading-x-small",
-            "text": "<p>SOLSTARオリジナルテーマ「Cream」を適用したデザインをそのまま利用できます。</p>",
+            "text": "<p>SOLSTARオリジナルテーマ「Cream」のデザインをそのまま利用できます。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -277,7 +435,7 @@
             "icon_color": "",
             "title": "基本的なストア設定",
             "heading_font_size": "heading-x-small",
-            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、運営開始しやすい状態でお渡しします。</p>",
+            "text": "<p>ブランドビジュアル、商品情報、ストア構成を整えた、ECサイト運営を始めやすい状態でお渡しします。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "h3"
           }
@@ -295,7 +453,7 @@
       ],
       "name": "Included in giveaway",
       "settings": {
-        "title": "譲渡に含まれるもの",
+        "title": "プレゼントされる内容",
         "heading_font_size": "heading-medium",
         "align_heading": "text-center",
         "align_text": "text-center",
@@ -309,110 +467,6 @@
         "padding_top": 50,
         "padding_bottom": 70,
         "heading_tag": "h2"
-      }
-    },
-    "after_hours_entry_intro": {
-      "type": "section-rich-text",
-      "blocks": {
-        "entry_heading": {
-          "type": "heading",
-          "settings": {
-            "title": "エントリー手順と抽選について",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 14,
-            "heading_tag": "h2"
-          }
-        },
-        "entry_text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>After HoursのShopifyストア無料譲渡企画への応募は、0円チェックアウトの完了でエントリーとなります。物理的な商品は発送されません。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "entry_heading",
-        "entry_text"
-      ],
-      "name": "Entry intro",
-      "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--narrow",
-        "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 60,
-        "padding_bottom": 20
-      }
-    },
-    "after_hours_entry_details": {
-      "type": "section-accordion-group",
-      "blocks": {
-        "entry_steps": {
-          "type": "question",
-          "settings": {
-            "default_open": true,
-            "title": "エントリー手順",
-            "content": "<ol><li>このページの「抽選に無料エントリーする」をクリックします。</li><li>カート画面へ進み、購入手続きへ進みます。</li><li>決済ページにて連絡先などを入力し、0円でチェックアウトを完了してください。</li></ol><p>無料設定のため、クレジットカード情報等を入力して決済されることはありません。</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "entry_deadline": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "応募締切",
-            "content": "<p><strong>2026年6月21日（日）23:59まで</strong></p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "entry_lottery": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "抽選方法",
-            "content": "<p>応募締切後、応募完了順にエントリー番号を付与し、Google検索の「乱数ジェネレーター」を使用して当選者を選定します。</p><p>抽選時は、応募総数に応じて最小値と最大値を設定し、その範囲内でランダムに表示された番号を当選番号といたします。</p><p>当選者の方には、ご入力いただいたメールアドレス宛にご連絡いたします。</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "entry_notes": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "注意事項",
-            "content": "<ul><li>本アイテムは応募専用のデジタルチケットのようなものであり、物理的な商品は発送されません。</li><li>ストア譲渡後に発生するShopify月額利用料、ドメイン更新費用などの維持費は、当選者様のご負担となります。</li><li>抽選結果に関する個別のお問い合わせには対応いたしかねます。</li></ul>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "entry_steps",
-        "entry_deadline",
-        "entry_lottery",
-        "entry_notes"
-      ],
-      "name": "Entry details",
-      "settings": {
-        "heading_font_size": "heading-medium",
-        "question_font_size": "heading-x-small",
-        "width": "wrapper--narrow",
-        "columns": "1",
-        "color_scheme": "scheme-10",
-        "padding_top": 20,
-        "padding_bottom": 80
       }
     },
     "related": {
@@ -453,10 +507,10 @@
   },
   "order": [
     "main",
-    "after_hours_gift_overview",
-    "after_hours_included",
     "after_hours_entry_intro",
     "after_hours_entry_details",
+    "after_hours_gift_overview",
+    "after_hours_included",
     "related"
   ]
 }
