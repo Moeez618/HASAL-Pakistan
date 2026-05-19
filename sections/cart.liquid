@@ -37,7 +37,7 @@
 {%- endstyle -%}
 <div class="cart-holder {{ color_scheme }}">
   <div
-    class="cart{% if settings.quantity_style == 'dropdown' %} cart--no-overflow{% endif %} section-padding{% if empty_cart %} is-empty{% endif %}"
+    class="cart{% if settings.quantity_style == 'dropdown' %} cart--no-overflow{% endif %}{% unless section.settings.show_quantity %} cart--hide-quantity{% endunless %} section-padding{% if empty_cart %} is-empty{% endif %}"
     data-section-id="{{ section.id }}"
     data-section-type="cart"
     data-cart-page
@@ -329,9 +329,11 @@
                         </div>
                       </div>
 
-                      <em class="cart__note">
-                        {{- 'cart.general.subtotal_note' | t -}}
-                      </em>
+                      {%- if section.settings.show_subtotal_note -%}
+                        <em class="cart__note">
+                          {{- 'cart.general.subtotal_note' | t -}}
+                        </em>
+                      {%- endif -%}
                     </div>
                 {%- endcase -%}
               </div>
@@ -360,6 +362,18 @@
         {"value": "body-large", "label": "Large"},
         {"value": "body-x-large", "label": "Extra large"}
       ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_quantity",
+      "label": "Show quantity selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_subtotal_note",
+      "label": "Show subtotal note",
+      "default": true
     },
     {
       "type": "header",

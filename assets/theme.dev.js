@@ -1428,6 +1428,7 @@
         this.cartAddEvent = this.cartAddEvent.bind(this);
         this.updateProgress = this.updateProgress.bind(this);
         this.onCartDrawerClose = this.onCartDrawerClose.bind(this);
+        this.getCartCallback = this.getCart.bind(this);
 
         // Set global event listeners for "Add to cart" and Announcement bar wheel progress
         document.addEventListener('theme:cart:add', this.cartAddEvent);
@@ -1483,15 +1484,20 @@
 
         document.addEventListener('theme:product:add', this.productAddCallback);
         document.addEventListener('theme:product:add-error', this.productAddCallback);
-        document.addEventListener('theme:cart:refresh', this.getCart.bind(this));
+        document.addEventListener('theme:cart:refresh', this.getCartCallback);
       }
 
       disconnectedCallback() {
         document.removeEventListener('theme:cart:add', this.cartAddEvent);
-        document.removeEventListener('theme:cart:refresh', this.cartAddEvent);
+        document.removeEventListener('theme:cart:refresh', this.getCartCallback);
         document.removeEventListener('theme:announcement:init', this.updateProgress);
         document.removeEventListener('theme:product:add', this.productAddCallback);
         document.removeEventListener('theme:product:add-error', this.productAddCallback);
+
+        if (theme.settings.cartType == 'drawer') {
+          document.removeEventListener('theme:cart-drawer:open', this.animateItems);
+          document.removeEventListener('theme:cart-drawer:close', this.onCartDrawerClose);
+        }
 
         if (document.documentElement.hasAttribute(attributes$d.scrollLocked)) {
           document.dispatchEvent(new CustomEvent('theme:scroll:unlock', {bubbles: true}));
@@ -1718,6 +1724,7 @@
           })
           .catch((error) => {
             console.log(error);
+            this.enableCartButtons();
           });
       }
 
@@ -1745,10 +1752,6 @@
 
         // Disable form submit if terms and conditions are not accepted
         if (!termsAccepted) {
-          if (document.querySelector(selectors$l.termsErrorMessage).length > 0) {
-            return;
-          }
-
           termsError.innerText = theme.strings.cartAcceptanceError;
           this.cartCheckoutButton.setAttribute(attributes$d.disabled, true);
           termsError.classList.add(classes$i.expanded);
@@ -1898,7 +1901,11 @@
         const lineIndex = newItem?.hasAttribute(attributes$d.itemIndex) ? parseInt(newItem.getAttribute(attributes$d.itemIndex)) : 0;
         const itemTitle = newItem?.hasAttribute(attributes$d.itemTitle) ? newItem.getAttribute(attributes$d.itemTitle) : null;
 
-        if (lineIndex === 0) return;
+        if (lineIndex === 0) {
+          currentItem?.classList.remove(classes$i.loading, classes$i.removed);
+          this.enableCartButtons();
+          return;
+        }
 
         const data = {
           line: lineIndex,
@@ -1931,6 +1938,7 @@
           })
           .catch((error) => {
             console.log(error);
+            this.resetLineItem(currentItem);
             this.enableCartButtons();
           });
       }
@@ -1941,10 +1949,15 @@
        * @return  {Void}
        */
       resetLineItem(item) {
+        if (!item) return;
+
         const qtyInput = item.querySelector(selectors$l.qtyInput);
-        const qty = qtyInput.getAttribute('value');
-        qtyInput.value = qty;
-        item.classList.remove(classes$i.loading);
+        if (qtyInput) {
+          const qty = qtyInput.getAttribute('value');
+          qtyInput.value = qty;
+        }
+
+        item.classList.remove(classes$i.loading, classes$i.removed);
       }
 
       /**
