@@ -148,7 +148,7 @@
       "settings": {
         "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_31_55.png",
         "link": "",
-        "width": "wrapper--full",
+        "width": "wrapper--full-padded",
         "height": "image-height",
         "flex_align_desktop": "align--bottom-left-desktop",
         "content_width": 50,
@@ -157,7 +157,7 @@
         "flex_align_mobile": "align--bottom-center-mobile",
         "color_scheme": "scheme-10",
         "show_text_background": false,
-        "overlay_type": "disabled",
+        "overlay_type": "text",
         "padding_top": 0,
         "padding_bottom": 100,
         "show_placeholder": true

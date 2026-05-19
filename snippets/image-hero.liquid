@@ -28,7 +28,7 @@
   assign image_desktop = image_desktop | default: image
   assign image_mobile = image_mobile | default: null
   assign aspect_ratio = aspect_ratio | default: image_desktop.aspect_ratio | default: 2.63
-  assign aspect_ratio_mobile = image_mobile.aspect_ratio | default: aspect_ratio
+  assign aspect_ratio_mobile = aspect_ratio_mobile | default: image_mobile.aspect_ratio | default: aspect_ratio
   assign image_width = image.width | at_most: 5760 | default: 5760
   assign width = width | default: image_width
   assign height = height | default: width | divided_by: aspect_ratio

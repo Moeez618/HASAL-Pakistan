@@ -495,7 +495,7 @@
         "button_style": "btn--solid",
         "show_arrow": false,
         "desktop_height": "screen-height-three-quarters",
-        "mobile_height": "screen-height-three-quarters--mobile",
+        "mobile_height": "screen-height-one-half--mobile",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "show_text_background": false,
