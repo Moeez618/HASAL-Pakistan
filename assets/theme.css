@@ -16176,7 +16176,7 @@ a.review {
   }
 }
 .cart__items .cart__price {
-  width: calc(60% - 95px);
+  width: calc(60% - 127px);
   padding: 0 10px;
   text-align: center;
 }
@@ -16213,7 +16213,7 @@ a.review {
   }
 }
 .cart__items .cart__quantity {
-  width: 80px;
+  width: 112px;
 }
 .cart__items .cart__discount {
   margin: 10px 0 0 120px;
@@ -16580,6 +16580,11 @@ input.cart__acceptance__input {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 112px;
+}
+.cart__items .cart__quantity .cart__quantity-field {
+  padding-left: 32px;
+  padding-right: 32px;
 }
 .cart__quantity-wrapper .select-popout__toggle,
 .cart__quantity-wrapper .select-popout__option {
