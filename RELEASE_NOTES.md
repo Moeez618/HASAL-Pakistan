@@ -1,12 +1,33 @@
 # Release Notes
 
+## 2026-05-19
+
+### Added
+
+- カートページセクションに `Show quantity selector` 設定を追加し、Quantity selector の表示 / 非表示をテーマエディタから切り替え可能にしました。
+- カートページセクションに `Show subtotal note` 設定を追加し、「配送料、税金、割引コードはチェックアウト時に計算されます」の表示 / 非表示を切り替え可能にしました。
+
+### Fixed
+
+- カートページの Quantity selector と削除リンクの重なりを解消し、Drawer と同じく数量操作と削除導線が縦に整理されるよう調整しました。
+- Quantity selector の横幅と入力欄の左右余白を拡張し、数量値と増減アイコンが重ならないようにしました。
+- カート Ajax の割引コード更新、数量更新、削除処理で失敗時にボタンや入力欄が無効のまま残らないよう復帰処理を追加しました。
+- Cart refresh / Cart drawer event listener の解除漏れを修正し、Theme editor や section 再読み込み時の重複リスナー発生を防止しました。
+- カート内 upsell / bundle 商品の重複判定を部分一致から区切り付きの完全一致に変更し、商品IDやhandleの一部一致で誤除外されるリスクを解消しました。
+
+### Verification
+
+- `node --check assets/theme.dev.js`: passed.
+- `node --check assets/theme.js`: passed.
+- `sections/cart.liquid` schema JSON parsing passed.
+- `git diff --check`: passed.
+
 ## 2026-05-11
 
 ### Added
 
 - Broadcast の Release Notes ページに Cream by Solstar の全リリースノートを掲載しました。
 - Cream の `Version 3.0.1` から `Version 3.4.9` までの更新内容を日本語で確認できるようにしました。
-- Release Notes 本文を `snippets/cream-release-notes.liquid` に分離し、テンプレート側の Custom code 設定値が Shopify の 50KB 制限を超えないようにしました。
 - Release Notes ページ専用の CSS スコープを追加し、背景色、文字色、罫線、余白、フォントサイズが Broadcast テーマの CSS 変数に追従するようにしました。
 - Cream manual ページの Custom code セクションに Cream の `manual.md` 全内容を掲載しました。
 - Cream manual ページにカテゴリタブと機能別の「詳細を見る」展開 UI を追加しました。
