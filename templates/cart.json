@@ -38,6 +38,8 @@
       ],
       "settings": {
         "text_font_size": "body-medium",
+        "show_quantity": false,
+        "show_subtotal_note": false,
         "color_scheme": "scheme-10",
         "padding_top": 80,
         "padding_bottom": 50
