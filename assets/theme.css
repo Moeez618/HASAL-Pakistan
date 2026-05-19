@@ -16031,6 +16031,15 @@ a.review {
   display: none;
 }
 
+.cart--hide-quantity .cart__items .select-popout,
+.cart--hide-quantity .cart__items .cart__quantity {
+  display: none !important;
+}
+
+.cart--hide-quantity .cart__items .cart__item__remove {
+  margin-top: 0;
+}
+
 .cart--no-overflow {
   z-index: 1;
 }
