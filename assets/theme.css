@@ -16205,9 +16205,11 @@ a.review {
 }
 @media only screen and (min-width: 750px) {
   .cart__items .cart__item__remove {
-    position: absolute;
-    top: 100%;
-    margin: 10px auto 0;
+    position: static;
+    display: block;
+    width: 100%;
+    margin: 8px 0 0;
+    text-align: center;
   }
 }
 .cart__items .cart__quantity {
@@ -16573,6 +16575,11 @@ input.cart__acceptance__input {
 .cart__quantity-wrapper {
   position: relative;
   width: 80px;
+}
+.cart__items .cart__quantity-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .cart__quantity-wrapper .select-popout__toggle,
 .cart__quantity-wrapper .select-popout__option {
