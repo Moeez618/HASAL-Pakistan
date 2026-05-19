@@ -52,6 +52,7 @@
         "order-note",
         "checkout-buttons"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-10"
       }

@@ -36,7 +36,6 @@
         "order-note",
         "checkout-buttons"
       ],
-      "disabled": true,
       "settings": {
         "text_font_size": "body-medium",
         "color_scheme": "scheme-10",
