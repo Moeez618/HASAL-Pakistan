@@ -1,6 +1,7 @@
 {%- liquid
-  assign cart_products = ''
-  assign upsell_products = ''
+  assign cart_products = ','
+  assign upsell_products = ','
+  assign bundle_products = ','
   assign line_items_html = ''
   assign upsell_items_html = ''
   assign animation_name = animation_name | default: 'cart-items-fade'
@@ -296,8 +297,10 @@
       endcomment
       if upsell_product_single.value != nil and upsell_product_single.type == 'product_reference'
         assign upsell_product = upsell_product_single.value
+        assign upsell_product_marker = ',' | append: upsell_product.handle | append: ','
+        assign cart_product_marker = ',' | append: upsell_product.id | append: ','
 
-        unless upsell_products contains upsell_product.handle or cart_products contains upsell_product.id
+        unless upsell_products contains upsell_product_marker or cart_products contains cart_product_marker
           render 'upsell-product' upsell_product: upsell_product, is_cart: true
           assign upsell_products = upsell_products | append: upsell_product.handle | append: ','
         endunless
@@ -308,7 +311,10 @@
       endcomment
       if upsell_product_list.value != nil and upsell_product_list.type == 'list.product_reference'
         for upsell_product in upsell_product_list.value
-          unless upsell_products contains upsell_product.handle or cart_products contains upsell_product.id
+          assign upsell_product_marker = ',' | append: upsell_product.handle | append: ','
+          assign cart_product_marker = ',' | append: upsell_product.id | append: ','
+
+          unless upsell_products contains upsell_product_marker or cart_products contains cart_product_marker
             render 'upsell-product' upsell_product: upsell_product, is_cart: true
             assign upsell_products = upsell_products | append: upsell_product.handle | append: ','
           endunless
@@ -326,8 +332,10 @@
 
       if bundle_product_single.value != nil and bundle_product_single.type == 'product_reference'
         assign bundle_product = bundle_product_single.value
+        assign bundle_product_marker = ',' | append: bundle_product.handle | append: ','
+        assign cart_product_marker = ',' | append: bundle_product.id | append: ','
 
-        unless bundle_products contains bundle_product.handle or cart_products contains bundle_product.id
+        unless bundle_products contains bundle_product_marker or cart_products contains cart_product_marker
           render 'upsell-product' upsell_product: bundle_product, is_cart: true
           assign bundle_products = bundle_products | append: bundle_product.handle | append: ','
         endunless
@@ -335,7 +343,10 @@
 
       if bundle_product_list.value != nil and bundle_product_list.type == 'list.product_reference'
         for bundle_product in bundle_product_list.value
-          unless bundle_products contains bundle_product.handle or cart_products contains bundle_product.id
+          assign bundle_product_marker = ',' | append: bundle_product.handle | append: ','
+          assign cart_product_marker = ',' | append: bundle_product.id | append: ','
+
+          unless bundle_products contains bundle_product_marker or cart_products contains cart_product_marker
             render 'upsell-product' upsell_product: bundle_product, is_cart: true
             assign bundle_products = bundle_products | append: bundle_product.handle | append: ','
           endunless
