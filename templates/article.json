@@ -14,9 +14,8 @@
       "blocks": {
         "links_UU7xHf": {
           "type": "links",
-          "disabled": true,
           "settings": {
-            "title": "Categories",
+            "title": "カテゴリー",
             "blog_linklist": ""
           }
         }
