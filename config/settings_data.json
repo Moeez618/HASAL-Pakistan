@@ -335,10 +335,10 @@
           "btn_secondary_bg": "#00385d",
           "btn_secondary_text": "#ffffff",
           "btn_secondary_border": "#00385d",
-          "accent": "#80ccff",
+          "accent": "#1a73e8",
           "lines_and_border": "#d1cdc4",
           "overlay": "#000000",
-          "links": "#80ccff"
+          "links": "#1a73e8"
         }
       },
       "scheme-095dcabc-98ed-41b0-b79b-f86ee18c44c7": {
