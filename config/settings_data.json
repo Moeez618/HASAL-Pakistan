@@ -332,13 +332,13 @@
           "btn_primary_bg": "#ab8c52",
           "btn_primary_text": "#ffffff",
           "btn_primary_border": "#ab8c52",
-          "btn_secondary_bg": "#00385d",
+          "btn_secondary_bg": "#0d0326",
           "btn_secondary_text": "#ffffff",
-          "btn_secondary_border": "#00385d",
+          "btn_secondary_border": "#0d0326",
           "accent": "#1a73e8",
           "lines_and_border": "#d1cdc4",
           "overlay": "#000000",
-          "links": "#1a73e8"
+          "links": "#0d0326"
         }
       },
       "scheme-095dcabc-98ed-41b0-b79b-f86ee18c44c7": {
