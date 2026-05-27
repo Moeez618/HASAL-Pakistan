@@ -77,7 +77,7 @@
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
-        "width": "wrapper--full",
+        "width": "wrapper",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
