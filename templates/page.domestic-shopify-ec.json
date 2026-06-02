@@ -629,6 +629,7 @@
         "text_slide_7RT6fJ",
         "text_slide_gEjMb4"
       ],
+      "disabled": true,
       "settings": {
         "image_1": "shopify://shop_images/WORKFLOW_SOLSTAR.png",
         "image_width": "one-half",
@@ -644,6 +645,124 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "show_placeholder": true
+      }
+    },
+    "section_multicolumn_Nffy6i": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_MmPfCU": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-pants",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "商品登録 20点",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_WnPnMP": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-star",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "カテゴリ 6点",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_r3wfCy": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-cloud",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "アプリ連携 3点",
+            "heading_font_size": "heading-small",
+            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_KGXaBP": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "オリジナルページ制作 3ページ",
+            "heading_font_size": "heading-small",
+            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_XrbhYG": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-smile",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "体制：ディレクター1名＋エンジニア1名",
+            "heading_font_size": "heading-small",
+            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_b8ffEz": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-truck",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "納期：約4〜8週間",
+            "heading_font_size": "heading-small",
+            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_MmPfCU",
+        "icon_WnPnMP",
+        "icon_r3wfCy",
+        "icon_KGXaBP",
+        "icon_XrbhYG",
+        "icon_b8ffEz"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "title": "Shopify自社ECサイトの立ち上げ｜含まれるもの・進め方",
+        "heading_font_size": "heading-medium",
+        "description": "<h3>制作範囲</h3>",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     },
     "section_accordion_bY3qrm": {
@@ -1150,6 +1269,7 @@
     "section_custom_code_yebmBH",
     "section_double_QrkJEP",
     "section_double_slider_aygLCe",
+    "section_multicolumn_Nffy6i",
     "section_accordion_bY3qrm",
     "section_rich_text_8Wzkhi",
     "section_reviews_Cfcb3N",
