@@ -220,7 +220,7 @@
         "heading_yeWDU3": {
           "type": "heading",
           "settings": {
-            "title": "こんな悩みございませんか？",
+            "title": "ECサイト制作で、こんな心当たりはありませんか？",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -229,7 +229,7 @@
         "text_BcigKh": {
           "type": "text",
           "settings": {
-            "text": "<h5>1. 投資収益率（ROI）の向上</h5><p>Shopifyのチェックアウトは他のプラットフォームより最大36%高いコンバージョン率を実現し、売上向上をサポートします。</p><h5>2. 運用コストの削減</h5><p>ShopifyのTotal cost of ownershipは、競合他社より平均33％優れています。</p><h5>3. 顧客獲得コストの上昇</h5><p>トップファネル向けのターゲティングを強化して、コンバージョン費用を削減。</p>",
+            "text": "<ul><li>販売チャネルが分散し、ブランドの魅力や世界観がうまく伝わらない</li></ul><p></p><ul><li>制作会社に依頼したのに、思っていたものと違うものが出来上がったことがある </li></ul><p></p><ul><li>過去の制作で、意図が伝わらない・返信が遅い・追加費用がかさむ、といったことに苦労した</li></ul><p></p><ul><li>要望は伝えたのに、期待した提案が返ってこなかった</li></ul><p></p><ul><li>専門用語ばかりで判断できない／今さら修正をお願いしづらい</li></ul><p></p><ul><li>作った後、社内に運用ノウハウや人手が足りず、続けられるか不安</li></ul><p></p><ul><li>価格だけで選んでしまい、結局つくり直しになるのではないかと不安</li></ul>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
