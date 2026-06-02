@@ -681,10 +681,18 @@
             "padding_bottom": 16
           }
         },
-        "text_iwBJrt": {
+        "text_CbjEe4": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<h3><strong>ご契約に含まれる内容</strong></h3><ol><li>自社開発テーマ「Cream」を無料利用可能（テーマ購入費0円）</li><li>納品物の著作権は、お支払い完了後にお客様に帰属します</li><li>お引き渡しから6ヶ月以内、当社の納品物に起因する不具合へ対応（納品後にお客様側で追加・変更された内容や、第三者アプリの導入による不具合は対象外）</li><li>ご納得いただけるまで無償で修正対応</li></ol>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_8gitkz": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>料金に含まれないもの</strong></h3><ul><li>Shopifyの月額利用料</li><li>各種アプリの利用料（連携作業は本プランに含まれますが、アプリ自体の利用料はお客様負担となります）</li><li>有料テーマの購入費 ※無料の「Cream」をご利用いただけるため、テーマ購入費はかかりません</li><li>納品後の保守・運用（別途サービスとして承っています）</li></ul>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -692,12 +700,20 @@
         "buttons_mpxkbV": {
           "type": "buttons",
           "settings": {
-            "button_text": "Learn more",
-            "button_url": "",
+            "button_text": "まずは無料で相談する",
+            "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
             "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "text_iwBJrt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※標準の制作範囲を含む最低価格です。制作範囲内であれば追加費用は発生しません。</p><p>商品点数やページ追加など、制作範囲を超えるご要望については、コンセプト設計・仕様確認の段階で書面にてお見積もりをご提示します。 </p><p>　<br/>※別途、Shopifyの月額利用料および各種アプリ利用料がかかります（テーマは無料の「Cream」で購入費0円）。</p><p>　</p><p><strong>この価格に含まれる制作範囲：</strong>商品登録20点／カテゴリ6点／アプリ連携3点／オリジナルページ制作3ページ／体制：ディレクター1名＋エンジニア1名／納期：約4〜8週間</p>",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         }
@@ -705,8 +721,10 @@
       "block_order": [
         "heading_37NEta",
         "subheading_eLRLQG",
-        "text_iwBJrt",
-        "buttons_mpxkbV"
+        "text_CbjEe4",
+        "text_8gitkz",
+        "buttons_mpxkbV",
+        "text_iwBJrt"
       ],
       "name": "Image with text",
       "settings": {
