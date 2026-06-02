@@ -665,20 +665,20 @@
     "section_double_hUXYzk": {
       "type": "section-double",
       "blocks": {
-        "subheading_eLRLQG": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_37NEta": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
+            "title": "料金とご契約内容",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
+          }
+        },
+        "subheading_eLRLQG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BASICプラン 1,100,000円（税込）〜",
+            "padding_bottom": 16
           }
         },
         "text_iwBJrt": {
@@ -703,8 +703,8 @@
         }
       },
       "block_order": [
-        "subheading_eLRLQG",
         "heading_37NEta",
+        "subheading_eLRLQG",
         "text_iwBJrt",
         "buttons_mpxkbV"
       ],
