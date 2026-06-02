@@ -47,6 +47,7 @@
         },
         "text_4qFCMP": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>ブランドのコンセプト設計から、世界観・購入導線・運用のしやすさまで考えたECサイトを、Shopifyで設計・構築します。 </p>",
             "text_font_size": "body-small",
@@ -55,6 +56,7 @@
         },
         "buttons_3JFeeh": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_text": "今すぐ相談する",
             "button_url": "shopify://pages/contact",
@@ -145,6 +147,63 @@
         "color_scheme": "scheme-1",
         "padding_top": 5,
         "padding_bottom": 5
+      }
+    },
+    "section_rich_text_VK9QYe": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_PN7j8V": {
+          "type": "heading",
+          "settings": {
+            "title": "ブランドのコンセプト設計から、世界観・購入導線・運用のしやすさまで考えたECサイトを、Shopifyで設計・構築します。 ",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_qXPENN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト制作でいちばん多い失敗は、作りたいものと出来上がるものがずれてしまうこと。 私たちはブランドのコンセプト設計と制作内容のすり合わせを丁寧に行い、この食い違いを防ぎます。</p><p>SOLSTARは、ブランドの価値を整理するコンセプト設計から始め、認識をそろえながら、設計・構築・品質確認までを一貫して担当します。 </p><p>楽天・Amazon・Instagramなどに分散した販売を、ブランドの魅力が伝わる自社ECサイトへ。その設計をご支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_6MLxYX": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは話を聞いてみる（無料・営業なし）",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "text_yTngM7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いきなり契約やお見積もりではありません。他社と比較検討中の段階でも歓迎です。事例を見ながらのご相談も可能です。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_PN7j8V",
+        "text_qXPENN",
+        "buttons_6MLxYX",
+        "text_yTngM7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_double_Yd3Ryk": {
@@ -1002,6 +1061,7 @@
     "main",
     "section_double_3i48QY",
     "section_announcement_eRD9xd",
+    "section_rich_text_VK9QYe",
     "section_double_Yd3Ryk",
     "section_double_xtYqGK",
     "section_double_fp3eKN",
