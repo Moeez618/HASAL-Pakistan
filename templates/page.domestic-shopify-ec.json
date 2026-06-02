@@ -81,7 +81,6 @@
         "buttons_3JFeeh",
         "text_8kVtJR"
       ],
-      "disabled": true,
       "settings": {
         "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
         "image_width": "one-half",
@@ -91,7 +90,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -135,7 +134,6 @@
         "image_C4Eb7y",
         "image_mAKnnf"
       ],
-      "disabled": true,
       "settings": {
         "slider_speed": 7,
         "text_alignment": "center",
@@ -144,7 +142,7 @@
         "message_spacing": 30,
         "show_border": false,
         "layout": "marquee",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "color_scheme": "scheme-1",
         "padding_top": 5,
         "padding_bottom": 5
       }
@@ -183,7 +181,6 @@
         "heading_Q9eYHr",
         "text_QneaLY"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin: 1em;}"
       ],
@@ -236,7 +233,6 @@
         "heading_yeWDU3",
         "text_BcigKh"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin: 1em;}"
       ],
@@ -289,7 +285,6 @@
         "heading_cjixc8",
         "text_TaDWkB"
       ],
-      "disabled": true,
       "custom_css": [
         "p {margin: 1em;}"
       ],
@@ -342,7 +337,6 @@
         "heading_jhtjLH",
         "text_wJdiJE"
       ],
-      "disabled": true,
       "settings": {
         "image_1": "shopify://shop_images/Shopify_Academy_Image_copy.png",
         "image_width": "one-half",
@@ -374,7 +368,6 @@
       "block_order": [
         "heading_KJhzjF"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
@@ -397,7 +390,6 @@
       "block_order": [
         "xb_pricing_table_xo_pricing_NyJbXN"
       ],
-      "disabled": true,
       "settings": {
         "include_margins": false
       }
@@ -498,7 +490,6 @@
         "text_slide_7RT6fJ",
         "text_slide_gEjMb4"
       ],
-      "disabled": true,
       "settings": {
         "image_1": "shopify://shop_images/WORKFLOW_SOLSTAR.png",
         "image_width": "one-half",
@@ -662,7 +653,6 @@
         "icon_PqGKaM",
         "icon_nFL6q9"
       ],
-      "disabled": true,
       "settings": {
         "default_open": true,
         "title": "Why Shopify?",
@@ -694,7 +684,6 @@
       "block_order": [
         "heading_hfYgEQ"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
@@ -758,7 +747,6 @@
         "review_yRA7MM",
         "review_fYHPcp"
       ],
-      "disabled": true,
       "settings": {
         "show_featured_image": true,
         "image_aspect_ratio": 1,
@@ -875,7 +863,6 @@
         "question_n4wyrF",
         "question_7UkGBU"
       ],
-      "disabled": true,
       "settings": {
         "heading_font_size": "heading-medium",
         "question_font_size": "heading-small",
@@ -911,7 +898,6 @@
         "heading_8iQFx7",
         "text_jfXdQt"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
