@@ -12,12 +12,12 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "subheading": "",
+        "subheading": "モール・SNSで売れている。でも「ブランドとして」届いている実感がない方へ。",
         "show_title": true,
         "heading_font_size": "heading-large",
         "show_content": true,
         "text_font_size": "body-medium",
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "",
         "padding_top": 50,
@@ -39,7 +39,7 @@
         "heading_JmMbza": {
           "type": "heading",
           "settings": {
-            "title": "さぁ、進めよう。",
+            "title": "ブランドの魅力を、売上につなげる自社ECサイトへ。",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -48,8 +48,8 @@
         "text_4qFCMP": {
           "type": "text",
           "settings": {
-            "text": "<p>すべては一歩から。Shopify ECサイトで新しい未来を。</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>ブランドのコンセプト設計から、世界観・購入導線・運用のしやすさまで考えたECサイトを、Shopifyで設計・構築します。 </p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         },
