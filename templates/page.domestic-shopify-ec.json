@@ -258,6 +258,31 @@
         "show_placeholder": true
       }
     },
+    "section_rich_text_3dy8mP": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text_aeaFyM": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>補足：Web制作を外注した企業の約9割が「失敗した経験がある」と回答しています。また、格安で自作・依頼した企業の約3割が「つくり直し」を経験しています。さらにECサイト運用では、ノウハウ不足（約55.6%）・人材不足（約46.7%）が大きな課題となっています。（各種Web制作・ECサイト運用に関する調査より）</strong></p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_aeaFyM"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "section_double_fp3eKN": {
       "type": "section-double",
       "blocks": {
@@ -1011,6 +1036,7 @@
     "section_announcement_eRD9xd",
     "section_rich_text_VK9QYe",
     "section_double_xtYqGK",
+    "section_rich_text_3dy8mP",
     "section_double_fp3eKN",
     "section_double_QrkJEP",
     "section_rich_text_tAHfyn",
