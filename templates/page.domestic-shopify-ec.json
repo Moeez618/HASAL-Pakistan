@@ -440,48 +440,6 @@
         "show_placeholder": true
       }
     },
-    "section_rich_text_tAHfyn": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_KJhzjF": {
-          "type": "heading",
-          "settings": {
-            "title": "ニーズに合わせて<br>選べる3つのプラン",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        }
-      },
-      "block_order": [
-        "heading_KJhzjF"
-      ],
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "1739435395c77dbd94": {
-      "type": "apps",
-      "blocks": {
-        "xb_pricing_table_xo_pricing_NyJbXN": {
-          "type": "shopify://apps/xb-pricing-table/blocks/xo-pricing/1f0c62e0-05b8-4253-b892-33c4344fae3e",
-          "settings": {
-            "id_pricing": 4
-          }
-        }
-      },
-      "block_order": [
-        "xb_pricing_table_xo_pricing_NyJbXN"
-      ],
-      "settings": {
-        "include_margins": false
-      }
-    },
     "section_double_slider_aygLCe": {
       "type": "section-double-slider",
       "blocks": {
@@ -1096,8 +1054,6 @@
     "section_rich_text_WcBEQp",
     "section_double_fp3eKN",
     "section_double_QrkJEP",
-    "section_rich_text_tAHfyn",
-    "1739435395c77dbd94",
     "section_double_slider_aygLCe",
     "section_accordion_bY3qrm",
     "section_rich_text_8Wzkhi",
