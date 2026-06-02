@@ -338,18 +338,10 @@
     "section_double_fp3eKN": {
       "type": "section-double",
       "blocks": {
-        "subheading_dhE4KW": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_cjixc8": {
           "type": "heading",
           "settings": {
-            "title": "SOLSTARが選ばれる理由",
+            "title": "Shopify ECサイト構築 Basicプラン",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -358,16 +350,28 @@
         "text_TaDWkB": {
           "type": "text",
           "settings": {
-            "text": "<h5>1. 8年以上のShopify専門知識</h5><p>ShopifyやShopify PlusのECサイト開発・運用で培った専門知識を提供します。  </p><h5>2. ワンストップサービス</h5><p>Shopifyコア機能、アプリ提案、サイト運営から物流対応まで一括でサポートします。</p><h5>3. カスタム機能の開発</h5><p>特定のニーズに応じたカスタム機能を開発します。</p>",
+            "text": "<p>私たちは、ただECサイトを制作する会社ではありません。ブランドの成長に合わせて、ECサイトの設計・構築を行うパートナーです。</p><p>これまで、年間売上60億円超のShopify Plusサイトや大規模ECサイトの構築・運用にも携わってきました。そうしたプロジェクトを通じて培った、ブランドのコンセプト設計や購入導線、運用設計の考え方を、これから自社ECサイトを育てていくブランドにも活かしています。</p><p>BASICプランは、はじめて自社ECサイトを立ち上げるブランドや、モール・SNS中心の販売から自社ECへ移行したいブランド向けのプランです。  </p><p>まずは、話を聞かせてください。</p><p>いきなりご契約やお見積もりではありません。まずはヒアリングで、御社の状況やお悩みを整理しながら、Shopifyでできることや進め方を分かりやすくご説明します。 </p><p>無理な営業は一切しません。お話だけでも歓迎です。</p>",
             "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_wrKKFT": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは話を聞いてみる（無料・営業なし）",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "subheading_dhE4KW",
         "heading_cjixc8",
-        "text_TaDWkB"
+        "text_TaDWkB",
+        "buttons_wrKKFT"
       ],
       "custom_css": [
         "p {margin: 1em;}"
@@ -377,7 +381,7 @@
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
-        "width": "wrapper",
+        "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
