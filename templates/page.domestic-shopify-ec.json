@@ -488,13 +488,35 @@
             "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
+        },
+        "buttons_jabVAa": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは無料で話を聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "text_kVacCa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ヒアリングだけでも歓迎です。無理な営業は一切行いません。 </p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 0
+          }
         }
       },
       "block_order": [
         "heading_jhtjLH",
         "text_wJdiJE",
         "text_qDWk9M",
-        "text_gJeGXm"
+        "text_gJeGXm",
+        "buttons_jabVAa",
+        "text_kVacCa"
       ],
       "settings": {
         "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
