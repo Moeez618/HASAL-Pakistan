@@ -488,11 +488,11 @@
         "text_qDWk9M"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/Shopify_Academy_Image_copy.png",
+        "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
-        "width": "wrapper",
+        "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
