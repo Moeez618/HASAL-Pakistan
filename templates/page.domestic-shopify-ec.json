@@ -907,41 +907,58 @@
     "section_rich_text_MhcHJQ": {
       "type": "section-rich-text",
       "blocks": {
+        "divider_pdcN6c": {
+          "type": "divider",
+          "disabled": true,
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
         "heading_yxwwLj": {
           "type": "heading",
           "settings": {
             "title": "向いている方／向いていない方",
             "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "padding_bottom": 50,
+            "heading_tag": "h2"
           }
         },
         "text_TtF8Fi": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>向いている方</strong></p><ul><li>少数SKU（商品点数の少ない）で、ブランドの世界観を育てながら運用したい方</li><li>モールやSNS中心の販売から、自社ECサイトへ移行したい方 </li><li>はじめての自社ECサイト立ち上げで、何から決めればよいか分からない方</li><li>制作だけでなく、コンセプト設計から相談したい方</li><li>納品後も自社で更新・運用しやすいECサイトをつくりたい方 </li></ul>",
+            "text": "<p><strong>向いている方</strong></p><p>少数SKU（商品点数の少ない）で、ブランドの世界観を育てながら運用したい方</p><p>モールやSNS中心の販売から、自社ECサイトへ移行したい方 </p><p>はじめての自社ECサイト立ち上げで、何から決めればよいか分からない方</p><p>制作だけでなく、コンセプト設計から相談したい方</p><p>納品後も自社で更新・運用しやすいECサイトをつくりたい方 </p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "padding_bottom": 50
           }
         },
         "text_rdFgaT": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>向いていない方</strong></p><ul><li>ブランド設計や運用のしやすさよりも、制作費の安さを最優先したい方</li><li>すでに社内にECサイトの設計・運用体制があり、外部パートナーを必要としていない方</li><li>商品登録20点を大きく超える大規模な商品登録を前提としている方</li></ul>",
+            "text": "<p><strong>向いていない方</strong></p><p>ブランド設計や運用のしやすさよりも、制作費の安さを最優先したい方</p><p>すでに社内にECサイトの設計・運用体制があり、外部パートナーを必要としていない方</p><p>商品登録20点を大きく超える大規模な商品登録を前提としている方</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "padding_bottom": 50
+          }
+        },
+        "divider_LTUCfN": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
           }
         }
       },
       "block_order": [
+        "divider_pdcN6c",
         "heading_yxwwLj",
         "text_TtF8Fi",
-        "text_rdFgaT"
+        "text_rdFgaT",
+        "divider_LTUCfN"
       ],
       "name": "Rich text",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper--narrow",
+        "align_text": "text-center",
+        "width": "wrapper",
         "color_scheme": "",
         "overlay_type": "disabled",
         "padding_top": 50,
