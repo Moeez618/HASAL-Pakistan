@@ -431,7 +431,7 @@
       "name": "Rich text columns",
       "settings": {
         "left_column_width": 40,
-        "divider_width": 20,
+        "divider_width": 0,
         "show_line": true,
         "right_column_width": 40,
         "align_text": "text-left",
@@ -445,14 +445,6 @@
     "section_double_QrkJEP": {
       "type": "section-double",
       "blocks": {
-        "subheading_ReEByY": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_jhtjLH": {
           "type": "heading",
           "settings": {
@@ -472,7 +464,6 @@
         }
       },
       "block_order": [
-        "subheading_ReEByY",
         "heading_jhtjLH",
         "text_wJdiJE"
       ],
