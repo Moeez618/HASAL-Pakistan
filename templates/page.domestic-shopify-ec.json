@@ -888,6 +888,7 @@
         "icon_PqGKaM",
         "icon_nFL6q9"
       ],
+      "disabled": true,
       "settings": {
         "default_open": true,
         "title": "Why Shopify?",
@@ -903,95 +904,61 @@
         "padding_bottom": 0
       }
     },
-    "section_rich_text_8Wzkhi": {
+    "section_rich_text_MhcHJQ": {
       "type": "section-rich-text",
       "blocks": {
-        "heading_hfYgEQ": {
+        "heading_yxwwLj": {
           "type": "heading",
           "settings": {
-            "title": "実績紹介",
-            "heading_font_size": "heading-medium",
+            "title": "向いている方／向いていない方",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
+        },
+        "text_TtF8Fi": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>向いている方</strong></p><ul><li>少数SKU（商品点数の少ない）で、ブランドの世界観を育てながら運用したい方</li><li>モールやSNS中心の販売から、自社ECサイトへ移行したい方 </li><li>はじめての自社ECサイト立ち上げで、何から決めればよいか分からない方</li><li>制作だけでなく、コンセプト設計から相談したい方</li><li>納品後も自社で更新・運用しやすいECサイトをつくりたい方 </li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_rdFgaT": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>向いていない方</strong></p><ul><li>ブランド設計や運用のしやすさよりも、制作費の安さを最優先したい方</li><li>すでに社内にECサイトの設計・運用体制があり、外部パートナーを必要としていない方</li><li>商品登録20点を大きく超える大規模な商品登録を前提としている方（追加対応も可能ですが、本プランの標準範囲を超えるため別途お見積もりとなります） </li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_eBp63j": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは無料で話を聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
         }
       },
       "block_order": [
-        "heading_hfYgEQ"
+        "heading_yxwwLj",
+        "text_TtF8Fi",
+        "text_rdFgaT",
+        "buttons_eBp63j"
       ],
+      "name": "Rich text",
       "settings": {
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "color_scheme": "",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "section_reviews_Cfcb3N": {
-      "type": "section-reviews",
-      "blocks": {
-        "review_f8k9mU": {
-          "type": "review",
-          "settings": {
-            "title": "Paw Mint",
-            "subheading": "ペットショップ",
-            "review_content": "<p>商品企画、商品撮影、ECサイト構築、デジタルマーケティングと多岐に渡り支援をさせて頂きました。可愛いくオシャレなデザインにこだわったECサイトです。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_1_copy.png",
-            "bio_image": "shopify://shop_images/Paw_Mint_Logo.png",
-            "review_url": ""
-          }
-        },
-        "review_6LGbjA": {
-          "type": "review",
-          "settings": {
-            "title": "Sandy Haze",
-            "subheading": "水着ショップ",
-            "review_content": "<p>アメリカ発の水着専門ショップの越境ECサイト構築の支援をさせて頂きました。販促アプリを実装しCVR向上を強化しました。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_2_copy.png",
-            "bio_image": "shopify://shop_images/Sandy_Haze.png",
-            "review_url": ""
-          }
-        },
-        "review_yRA7MM": {
-          "type": "review",
-          "settings": {
-            "title": "Multi Paradox",
-            "subheading": "セレクトショップ",
-            "review_content": "<p>多機能な有料テーマを使用し、アプリを多用せずパフォーマンスにこだわりました。ハイブランドのECサイトのようにシンプルかつ見えやすい商品詳細画面が特徴です。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_4_copy.png",
-            "bio_image": "shopify://shop_images/Multi_Paradox.png",
-            "review_url": ""
-          }
-        },
-        "review_fYHPcp": {
-          "type": "review",
-          "settings": {
-            "title": "Shun Smith",
-            "subheading": "アクセサリーショップ",
-            "review_content": "<p>商品企画、モデル撮影、ECサイト構築の支援をさせて頂きました。白と黒を基調とした高級感溢れるレイアウトが特徴です。</p>",
-            "featured_image": "shopify://shop_images/Testimonial_3_copy.png",
-            "bio_image": "shopify://shop_images/Shun_Smith_1747169c-6276-4114-808b-e819b346b61e.png",
-            "review_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "review_f8k9mU",
-        "review_6LGbjA",
-        "review_yRA7MM",
-        "review_fYHPcp"
-      ],
-      "settings": {
-        "show_featured_image": true,
-        "image_aspect_ratio": 1,
-        "show_quotation_marks": false,
-        "heading_font_size": "heading-small",
-        "text_align": "text-left",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "card_bg_color": "",
-        "padding_top": 50,
-        "padding_bottom": 0
+        "padding_bottom": 50
       }
     },
     "section_accordion_group_ErQqQX": {
@@ -1249,8 +1216,7 @@
     "section_custom_code_YCJ9UU",
     "section_double_hUXYzk",
     "section_accordion_bY3qrm",
-    "section_rich_text_8Wzkhi",
-    "section_reviews_Cfcb3N",
+    "section_rich_text_MhcHJQ",
     "section_accordion_group_ErQqQX",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
