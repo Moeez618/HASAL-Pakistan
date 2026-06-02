@@ -206,58 +206,6 @@
         "padding_bottom": 50
       }
     },
-    "section_double_Yd3Ryk": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_NUje9Q": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
-        "heading_Q9eYHr": {
-          "type": "heading",
-          "settings": {
-            "title": "なぜShopifyが注目されているのか？",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_QneaLY": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>1. 最高のコンバージョンをもたらすチェックアウトを実現</h5><p>Shopifyの全体的なコンバージョン率は競合他社を<strong>平均15%</strong>上回っています。</p><h5>2. 向上した柔軟性と使いやすさ</h5><p>技術的負債を抱えることなく、運用の効率化と柔軟性を実現。</p><h5>3. 最高のカスタマージャーニーを提供</h5><p>世界最高のECプラットフォームで、独自の購買体験を構築・カスタマイズ。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_NUje9Q",
-        "heading_Q9eYHr",
-        "text_QneaLY"
-      ],
-      "custom_css": [
-        "p {margin: 1em;}"
-      ],
-      "settings": {
-        "image_1": "shopify://shop_images/2_iphones_Hero_Image_copy_2.webp",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper",
-        "height": "screen-height-one-half",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "section_double_xtYqGK": {
       "type": "section-double",
       "blocks": {
@@ -1062,7 +1010,6 @@
     "section_double_3i48QY",
     "section_announcement_eRD9xd",
     "section_rich_text_VK9QYe",
-    "section_double_Yd3Ryk",
     "section_double_xtYqGK",
     "section_double_fp3eKN",
     "section_double_QrkJEP",
