@@ -283,6 +283,58 @@
         "padding_bottom": 100
       }
     },
+    "section_rich_text_WcBEQp": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_jDzjwN": {
+          "type": "heading",
+          "settings": {
+            "title": "「伝わらない」をなくすために、私たちがしていること。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_Ld4Nif": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Web制作を外注した企業の約9割が「失敗した経験がある」と回答しています。 その大半は、発注側のイメージや意図が、制作側に正しく伝わらないことに起因するといわれています。</p><p>だから私たちは、次のことを徹底しています。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "divider_rYpT4N": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 20
+          }
+        },
+        "text_dK9G7X": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>つくり始める前に、ブランドのコンセプト（誰に・何を・なぜ・どんな世界観で）を言語化し、プロジェクト全体の軸をそろえます</strong></li><li><strong>作る内容や進め方を書面で整理・確認し、認識のズレを防ぎます</strong></li><li><strong>専門用語はできるだけ使わず、判断に必要なことを分かりやすくご説明します。「聞きづらい」「修正を頼みづらい」をつくりません</strong></li><li><strong>コンセプト設計から構築・確認までを一貫して担当し、伝言による意図のズレを減らします</strong></li><li><strong>「作って終わり」にしないために、設計段階から「育てられるECサイト」を一緒に考えます</strong></li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_jDzjwN",
+        "text_Ld4Nif",
+        "divider_rYpT4N",
+        "text_dK9G7X"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "section_double_fp3eKN": {
       "type": "section-double",
       "blocks": {
@@ -1037,6 +1089,7 @@
     "section_rich_text_VK9QYe",
     "section_double_xtYqGK",
     "section_rich_text_3dy8mP",
+    "section_rich_text_WcBEQp",
     "section_double_fp3eKN",
     "section_double_QrkJEP",
     "section_rich_text_tAHfyn",
