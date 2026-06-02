@@ -931,25 +931,12 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
-        },
-        "buttons_eBp63j": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "まずは無料で話を聞いてみる",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "heading_yxwwLj",
         "text_TtF8Fi",
-        "text_rdFgaT",
-        "buttons_eBp63j"
+        "text_rdFgaT"
       ],
       "name": "Rich text",
       "settings": {
