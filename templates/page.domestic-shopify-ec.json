@@ -948,6 +948,17 @@
         "padding_bottom": 50
       }
     },
+    "section_custom_code_RcTXxd": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_accordion_group_ErQqQX": {
       "type": "section-accordion-group",
       "blocks": {
@@ -1204,6 +1215,7 @@
     "section_double_hUXYzk",
     "section_accordion_bY3qrm",
     "section_rich_text_MhcHJQ",
+    "section_custom_code_RcTXxd",
     "section_accordion_group_ErQqQX",
     "section_rich_text_pijWhf",
     "contact_form_KKiTE3"
