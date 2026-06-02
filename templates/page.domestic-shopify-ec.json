@@ -327,7 +327,7 @@
       ],
       "name": "Rich text",
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
