@@ -50,7 +50,7 @@
     "grid_style": "classic",
     "dots_style": "hidden",
     "icon_style": "1",
-    "parallax_enable": false,
+    "parallax_enable": true,
     "parallax_strength": 20,
     "show_breadcrumbs": true,
     "product_grid_outline": false,
