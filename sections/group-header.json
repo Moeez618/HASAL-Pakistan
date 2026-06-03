@@ -37,11 +37,24 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
+        },
+        "text_zHbQN3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"/pages/shopifyで一時大規模障害-管理画面-決済-ストア表示に影響-2026年6月\" title=\"Shopifyで一時大規模障害　管理画面・決済・ストア表示に影響【2026年6月】\">Shopifyで一時大規模障害について</a></p>",
+            "target_url_enabled": false,
+            "target_url": "shopify://pages/contact",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
         }
       },
       "block_order": [
         "text_FCtkwp",
-        "text_GntGQL"
+        "text_GntGQL",
+        "text_zHbQN3"
       ],
       "settings": {
         "show_border": false,
