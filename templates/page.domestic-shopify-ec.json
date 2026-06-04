@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "subheading": "モール・SNSで売れている。でも「ブランドとして」届いている実感がない方へ。",
         "show_title": true,
@@ -83,6 +86,9 @@
         "buttons_3JFeeh",
         "text_8kVtJR"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
         "image_width": "one-half",
@@ -96,10 +102,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      },
-      "custom_css": [
-        ".hero__subheading { color: #ab8c52; }"
-      ]
+      }
     },
     "section_announcement_eRD9xd": {
       "type": "section-announcement",
@@ -207,6 +210,9 @@
         "buttons_6MLxYX",
         "text_yTngM7"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Rich text",
       "settings": {
         "align_text": "text-center",
@@ -215,10 +221,7 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      },
-      "custom_css": [
-        ".hero__subheading { color: #ab8c52; }"
-      ]
+      }
     },
     "section_double_xtYqGK": {
       "type": "section-double",
@@ -256,7 +259,7 @@
       ],
       "custom_css": [
         "p {margin: 1em;}",
-        ".hero__subheading { color: #ab8c52; }"
+        ".hero__subheading {color: #ab8c52;}"
       ],
       "settings": {
         "image_1": "shopify://shop_images/copy.png",
@@ -348,6 +351,9 @@
         "divider_rYpT4N",
         "text_dK9G7X"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Rich text",
       "settings": {
         "align_text": "text-center",
@@ -356,10 +362,7 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      },
-      "custom_css": [
-        ".hero__subheading { color: #ab8c52; }"
-      ]
+      }
     },
     "section_double_fp3eKN": {
       "type": "section-double",
@@ -409,7 +412,7 @@
       ],
       "custom_css": [
         "p {margin: 1em;}",
-        ".hero__subheading { color: #ab8c52; }"
+        ".hero__subheading {color: #ab8c52;}"
       ],
       "settings": {
         "image_1": "shopify://shop_images/2_iphones_Hero_Image_copy_2.webp",
@@ -573,6 +576,9 @@
         "buttons_jabVAa",
         "text_kVacCa"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
         "image_width": "one-half",
@@ -586,10 +592,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      },
-      "custom_css": [
-        ".hero__subheading { color: #ab8c52; }"
-      ]
+      }
     },
     "section_multicolumn_Nffy6i": {
       "type": "section-multicolumn",
@@ -693,6 +696,9 @@
         "icon_XrbhYG",
         "icon_b8ffEz"
       ],
+      "custom_css": [
+        ".grid__subheading {margin: 0 0 12px; color: #ab8c52;}"
+      ],
       "name": "Multi column",
       "settings": {
         "subheading": "Scope",
@@ -708,10 +714,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
-      },
-      "custom_css": [
-        ".grid__subheading { margin: 0 0 12px; color: #ab8c52; }"
-      ]
+      }
     },
     "section_custom_code_YCJ9UU": {
       "type": "section-custom-code",
@@ -975,6 +978,9 @@
         "faq_shopify_05",
         "faq_shopify_06"
       ],
+      "custom_css": [
+        ".accordion__subheading {margin: 0 0 12px; color: #ab8c52;}"
+      ],
       "name": "FAQ",
       "settings": {
         "heading_font_size": "heading-medium",
@@ -984,10 +990,7 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 40,
         "padding_bottom": 56
-      },
-      "custom_css": [
-        ".accordion__subheading { margin: 0 0 12px; color: #ab8c52; }"
-      ]
+      }
     },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
@@ -1022,6 +1025,9 @@
         "heading_8iQFx7",
         "text_jfXdQt"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
@@ -1029,10 +1035,7 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      },
-      "custom_css": [
-        ".hero__subheading { color: #ab8c52; }"
-      ]
+      }
     },
     "contact_form_KKiTE3": {
       "type": "contact-form",
@@ -1125,6 +1128,9 @@
         "select_GTz36X",
         "Options-select"
       ],
+      "custom_css": [
+        ".contact__form__subheading {width: 100%; margin: 0 auto 12px; color: #ab8c52; text-align: center; display: block;}"
+      ],
       "settings": {
         "subheading": "Contact",
         "title": "お問い合わせ",
@@ -1135,10 +1141,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
-      },
-      "custom_css": [
-        ".contact__form__subheading { width: 100%; margin: 0 auto 12px; color: #ab8c52; text-align: center; display: block; }"
-      ]
+      }
     }
   },
   "order": [
