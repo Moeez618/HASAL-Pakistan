@@ -391,6 +391,17 @@
         "show_placeholder": true
       }
     },
+    "section_custom_code_MWjcTp": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .solstar-benefits {\n    background: #fcfbf9;\n    color: #221c14;\n    padding: 72px 20px;\n  }\n  .solstar-benefits * { box-sizing: border-box; }\n  .solstar-benefits__inner { max-width: 1120px; margin: 0 auto; }\n  .solstar-benefits__head { max-width: 760px; margin: 0 0 34px; }\n  .solstar-benefits__eyebrow {\n    margin: 0 0 12px;\n    color: #665035;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 0.24em;\n    text-transform: uppercase;\n  }\n  .solstar-benefits__title { margin: 0; font-size: clamp(26px, 3vw, 38px); line-height: 1.35; letter-spacing: 0; }\n  .solstar-benefits__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }\n  .solstar-benefits__card {\n    min-height: 178px;\n    padding: 24px;\n    border: 1px solid #e8e0d3;\n    border-radius: 8px;\n    background: #fff;\n  }\n  .solstar-benefits__num { display: block; margin-bottom: 28px; color: #665035; font-size: 12px; font-weight: 700; letter-spacing: 0.18em; }\n  .solstar-benefits__card p { margin: 0; color: #221c14; font-size: 14.5px; font-weight: 700; line-height: 1.75; }\n  .solstar-benefits__note {\n    margin: 18px 0 0;\n    padding: 16px 18px;\n    border-left: 3px solid #665035;\n    background: #f1ebe0;\n    color: #4f3d27;\n    font-size: 13px;\n    line-height: 1.8;\n  }\n  @media (max-width: 900px) { .solstar-benefits__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }\n  @media (max-width: 640px) {\n    .solstar-benefits { padding: 52px 16px; }\n    .solstar-benefits__grid { grid-template-columns: 1fr; }\n    .solstar-benefits__card { min-height: auto; padding: 20px; }\n  }\n</style>\n<section class=\"solstar-benefits\">\n  <div class=\"solstar-benefits__inner\">\n    <div class=\"solstar-benefits__head\">\n      <p class=\"solstar-benefits__eyebrow\">What you get</p>\n      <h2 class=\"solstar-benefits__title\">ブランドを「自分たちで運用できる形」に。BASICで得られること</h2>\n    </div>\n    <div class=\"solstar-benefits__grid\">\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">01</span><p>ブランドの想い・差別化・世界観を言語化するコンセプト設計から始めるため、ブランドの魅力が伝わるECサイトに</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">02</span><p>モールやSNSに分散した販売を自社ECサイトに集約し、一貫した発信・運用ができる形に</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">03</span><p>コンセプト設計から構築・確認までを一貫して担当するため、認識のズレが起きにくい</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">04</span><p>専門知識がなくても、「何を決めればいいか」「次に何が起きるか」が分かる</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">05</span><p>「丸投げ」ではなく「一緒に決める」進め方だから、納品後も自社で更新・運用しやすい</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">06</span><p>自社開発テーマ「Cream」を無料利用可能（テーマ購入費0円）</p></article>\n    </div>\n    <p class=\"solstar-benefits__note\">お引き渡しから6ヶ月以内は、当社が制作した部分に起因する不具合に無償で対応（納品後にお客様側で加えた変更や、別途追加したアプリによる不具合は対象外です）</p>\n    <p class=\"solstar-benefits__note\">※本プランの範囲は「自社で運用できる状態までの設計・構築」です。納品後の保守・運用は、別途サービスとして承っています。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_columns_EYannw": {
       "type": "section-rich-text-columns",
       "blocks": {
@@ -428,6 +439,7 @@
         "text_b3hQwV",
         "text_yyRfN3"
       ],
+      "disabled": true,
       "name": "Rich text columns",
       "settings": {
         "left_column_width": 40,
@@ -971,6 +983,7 @@
     "section_rich_text_3dy8mP",
     "section_rich_text_WcBEQp",
     "section_double_fp3eKN",
+    "section_custom_code_MWjcTp",
     "section_rich_text_columns_EYannw",
     "section_custom_code_yebmBH",
     "section_double_QrkJEP",
