@@ -74,7 +74,7 @@
     },
     "accessibility": {
       "unit_price_separator": "あたり",
-      "close": "近い",
+      "close": "閉じる",
       "view": "ビュー",
       "skip_to_content": "コンテンツにスキップ",
       "scroll_to_top": "トップにスクロールします",
@@ -108,8 +108,8 @@
       "free": "無料"
     },
     "pagination": {
-      "next": "次",
-      "prev": "前の"
+      "next": "次へ",
+      "prev": "前へ"
     },
     "swatches": {
       "color": "色、色"
@@ -426,7 +426,7 @@
   },
   "products": {
     "general": {
-      "next": "次",
+      "next": "次へ",
       "from": "から",
       "to": "に",
       "upsell_add_to_cart": "追加",
@@ -436,7 +436,7 @@
       "complementary_products_title": "相性が良い",
       "choose_product": "製品を選択",
       "upsell_title": "外観を完成させる:",
-      "previous": "前の",
+      "previous": "前へ",
       "quick_add": "クイック追加",
       "description": "説明",
       "read_more": "続きを読む",
