@@ -13,6 +13,7 @@
   assign type = type | default: ''
   assign animation_order = 0
   assign animation_anchor = unique | prepend: '#'
+  assign subheading = section.settings.subheading
   assign heading = section.settings.title
   assign description = section.settings.description
   assign color_scheme = 'color-' | append: section.settings.color_scheme
@@ -63,7 +64,7 @@
 
   assign columns_mobile = layout_mobile | plus: 0
 
-  if heading != blank or description != blank
+  if subheading != blank or heading != blank or description != blank
     assign has_content = true
   endif
 
@@ -125,6 +126,19 @@
   <div class="{{ section.settings.width }}">
     {%- if has_content -%}
       <div class="grid__heading-holder {{ section.settings.align_heading }}">
+        {%- if subheading != blank -%}
+          {%- assign animation_order = animation_order | plus: 1 -%}
+
+          <p
+            class="grid__subheading hero__subheading"
+            data-aos="hero"
+            data-aos-anchor="{{ animation_anchor }}"
+            data-aos-order="{{ animation_order }}"
+          >
+            {{- subheading -}}
+          </p>
+        {%- endif -%}
+
         {%- if heading != blank -%}
           {%- liquid
             assign animation_order = animation_order | plus: 1

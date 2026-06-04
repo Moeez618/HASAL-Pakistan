@@ -45,6 +45,20 @@
               </h3>
             {%- endif -%}
 
+            {%- if block.type == 'subheading' and title != blank -%}
+              {%- assign animation_order = animation_order | plus: 1 -%}
+
+              <p
+                class="accordion__subheading hero__subheading"
+                data-aos="hero"
+                data-aos-anchor="{{ animation_anchor }}"
+                data-aos-order="{{ animation_order }}"
+                {{ block.shopify_attributes }}
+              >
+                {{ title }}
+              </p>
+            {%- endif -%}
+
             {%- if block.type == 'question' and title != blank and content != blank -%}
               {%- if title != blank -%}
                 {%- assign animation_order = animation_order | plus: 1 -%}
@@ -219,6 +233,18 @@
     }
   ],
   "blocks": [
+    {
+      "name": "Subheading",
+      "type": "subheading",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Subheading",
+          "default": "FAQ"
+        }
+      ]
+    },
     {
       "name": "Heading",
       "type": "heading",
