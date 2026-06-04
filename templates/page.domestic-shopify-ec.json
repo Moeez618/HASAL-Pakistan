@@ -788,6 +788,155 @@
         "padding_bottom": 0
       }
     },
+    "section_accordion_group_faq_domestic": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "faq_heading_intro": {
+          "type": "heading",
+          "settings": {
+            "title": "「依頼して大丈夫かな？」その不安に、先にお答えします。"
+          }
+        },
+        "faq_intro_01": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "丸投げになりませんか？",
+            "content": "<p>「一緒に決める」進め方です。制作内容や仕様は書面で確認しながら進めるため、認識のズレが起きにくくなっています。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_intro_02": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納品後、自社で運用できますか？",
+            "content": "<p>本プランは、「自分たちで運用できる状態」までの設計・構築を前提としています。更新や運用を見据えた設計を行い、操作や更新方法の引き継ぎも行います。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_intro_03": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "しつこく営業されませんか？",
+            "content": "<p>まずはヒアリングから。相談段階で契約の義務や費用は発生しません。無理な営業も一切行いません。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_heading_shopify": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Shopify制作でよくあるご質問"
+          }
+        },
+        "faq_shopify_01": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "まだ検討段階ですが、相談だけでも大丈夫ですか？",
+            "content": "<p>もちろんです。まずはヒアリングで状況やお悩みをお聞かせください。Shopifyでできることや進め方を分かりやすくご説明します。ご相談だけでも歓迎です。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_shopify_02": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "金額は1,100,000円（税込）で確定ですか？",
+            "content": "<p>標準範囲（商品登録20点／カテゴリ6点／アプリ連携3点／オリジナルページ制作3ページ）を含む最低価格です。制作範囲内であれば追加費用は発生しません。追加のご要望については、仕様確認の段階で書面にてお見積もりをご提示します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_shopify_03": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "料金以外に何がかかりますか？",
+            "content": "<p>Shopifyの月額利用料と各種アプリ利用料、有料テーマの購入費はお客様負担となります。ただし自社開発テーマ「Cream」をご利用いただく場合は、テーマ購入費はかかりません。納品後の保守・運用は、別途サービスとして承っています。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_shopify_04": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納期と体制を教えてください。",
+            "content": "<p>納期は約4〜8週間です。ディレクター1名、エンジニア1名の体制で対応します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_shopify_05": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納品物の著作権はどうなりますか？",
+            "content": "<p>お支払い完了後、納品物の著作権はお客様に帰属します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_shopify_06": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納品後に不具合が発生した場合は？",
+            "content": "<p>お引き渡しから6ヶ月以内、当社の納品物に起因する不具合に対応します。また、ご確認時に修正が必要な箇所があれば、ご納得いただけるまで無償で対応します。</p><p>※納品後にお客様側で追加・変更された内容や、第三者アプリの導入に起因する不具合は対象外となります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_heading_intro",
+        "faq_intro_01",
+        "faq_intro_02",
+        "faq_intro_03",
+        "faq_heading_shopify",
+        "faq_shopify_01",
+        "faq_shopify_02",
+        "faq_shopify_03",
+        "faq_shopify_04",
+        "faq_shopify_05",
+        "faq_shopify_06"
+      ],
+      "name": "FAQ",
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-1",
+        "padding_top": 40,
+        "padding_bottom": 56
+      }
+    },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
@@ -910,163 +1059,6 @@
         "padding_top": 100,
         "padding_bottom": 100,
         "heading_tag": "h2"
-      }
-    },
-    "section_accordion_group_faq_domestic": {
-      "type": "section-accordion-group",
-      "name": "FAQ",
-      "blocks": {
-        "faq_heading_intro": {
-          "type": "heading",
-          "settings": {
-            "title": "「依頼して大丈夫かな」その不安に、先にお答えします"
-          }
-        },
-        "faq_intro_01": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "丸投げになりませんか？",
-            "content": "<p>「一緒に決める」進め方です。制作内容や仕様は書面で確認しながら進めるため、認識のズレが起きにくくなっています。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_intro_02": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "納品後、自社で運用できますか？",
-            "content": "<p>本プランは、「自分たちで運用できる状態」までの設計・構築を前提としています。更新や運用を見据えた設計を行い、操作や更新方法の引き継ぎも行います。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_intro_03": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "しつこく営業されませんか？",
-            "content": "<p>まずはヒアリングから。相談段階で契約の義務や費用は発生しません。無理な営業も一切行いません。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_heading_shopify": {
-          "type": "heading",
-          "settings": {
-            "title": "Shopify制作でよくあるご質問"
-          }
-        },
-        "faq_shopify_01": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "まだ検討段階ですが、相談だけでも大丈夫ですか？",
-            "content": "<p>もちろんです。まずはヒアリングで状況やお悩みをお聞かせください。Shopifyでできることや進め方を分かりやすくご説明します。ご相談だけでも歓迎です。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_shopify_02": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "金額は1,100,000円（税込）で確定ですか？",
-            "content": "<p>標準範囲（商品登録20点／カテゴリ6点／アプリ連携3点／オリジナルページ制作3ページ）を含む最低価格です。制作範囲内であれば追加費用は発生しません。追加のご要望については、仕様確認の段階で書面にてお見積もりをご提示します。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_shopify_03": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "料金以外に何がかかりますか？",
-            "content": "<p>Shopifyの月額利用料と各種アプリ利用料、有料テーマの購入費はお客様負担となります。ただし自社開発テーマ「Cream」をご利用いただく場合は、テーマ購入費はかかりません。納品後の保守・運用は、別途サービスとして承っています。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_shopify_04": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "納期と体制を教えてください。",
-            "content": "<p>納期は約4〜8週間です。ディレクター1名、エンジニア1名の体制で対応します。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_shopify_05": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "納品物の著作権はどうなりますか？",
-            "content": "<p>お支払い完了後、納品物の著作権はお客様に帰属します。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "faq_shopify_06": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "納品後に不具合が発生した場合は？",
-            "content": "<p>お引き渡しから6ヶ月以内、当社の納品物に起因する不具合に対応します。また、ご確認時に修正が必要な箇所があれば、ご納得いただけるまで無償で対応します。</p><p>※納品後にお客様側で追加・変更された内容や、第三者アプリの導入に起因する不具合は対象外となります。</p>",
-            "show_icon": false,
-            "icon_name": "icon-chat",
-            "icon_image": "",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "faq_heading_intro",
-        "faq_intro_01",
-        "faq_intro_02",
-        "faq_intro_03",
-        "faq_heading_shopify",
-        "faq_shopify_01",
-        "faq_shopify_02",
-        "faq_shopify_03",
-        "faq_shopify_04",
-        "faq_shopify_05",
-        "faq_shopify_06"
-      ],
-      "settings": {
-        "heading_font_size": "heading-medium",
-        "question_font_size": "heading-small",
-        "width": "wrapper--narrow",
-        "columns": "1",
-        "color_scheme": "scheme-1",
-        "padding_top": 40,
-        "padding_bottom": 56
       }
     }
   },
