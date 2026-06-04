@@ -96,7 +96,10 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
+      },
+      "custom_css": [
+        ".hero__subheading { color: #ab8c52; }"
+      ]
     },
     "section_announcement_eRD9xd": {
       "type": "section-announcement",
@@ -212,7 +215,10 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      }
+      },
+      "custom_css": [
+        ".hero__subheading { color: #ab8c52; }"
+      ]
     },
     "section_double_xtYqGK": {
       "type": "section-double",
@@ -249,7 +255,8 @@
         "text_BcigKh"
       ],
       "custom_css": [
-        "p {margin: 1em;}"
+        "p {margin: 1em;}",
+        ".hero__subheading { color: #ab8c52; }"
       ],
       "settings": {
         "image_1": "shopify://shop_images/copy.png",
@@ -349,7 +356,10 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      }
+      },
+      "custom_css": [
+        ".hero__subheading { color: #ab8c52; }"
+      ]
     },
     "section_double_fp3eKN": {
       "type": "section-double",
@@ -398,7 +408,8 @@
         "buttons_wrKKFT"
       ],
       "custom_css": [
-        "p {margin: 1em;}"
+        "p {margin: 1em;}",
+        ".hero__subheading { color: #ab8c52; }"
       ],
       "settings": {
         "image_1": "shopify://shop_images/2_iphones_Hero_Image_copy_2.webp",
@@ -575,7 +586,10 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
+      },
+      "custom_css": [
+        ".hero__subheading { color: #ab8c52; }"
+      ]
     },
     "section_multicolumn_Nffy6i": {
       "type": "section-multicolumn",
@@ -694,7 +708,10 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
-      }
+      },
+      "custom_css": [
+        ".grid__subheading { margin: 0 0 12px; color: #ab8c52; }"
+      ]
     },
     "section_custom_code_YCJ9UU": {
       "type": "section-custom-code",
@@ -967,7 +984,10 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 40,
         "padding_bottom": 56
-      }
+      },
+      "custom_css": [
+        ".accordion__subheading { margin: 0 0 12px; color: #ab8c52; }"
+      ]
     },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
@@ -1009,7 +1029,10 @@
         "overlay_type": "disabled",
         "padding_top": 50,
         "padding_bottom": 50
-      }
+      },
+      "custom_css": [
+        ".hero__subheading { color: #ab8c52; }"
+      ]
     },
     "contact_form_KKiTE3": {
       "type": "contact-form",
@@ -1112,7 +1135,10 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
-      }
+      },
+      "custom_css": [
+        ".contact__form__subheading { width: 100%; margin: 0 auto 12px; color: #ab8c52; text-align: center; display: block; }"
+      ]
     }
   },
   "order": [
