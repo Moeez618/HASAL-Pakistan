@@ -61,73 +61,6 @@
         "padding_bottom": 0
       }
     },
-    "section_announcement_qqjQ8T": {
-      "type": "section-announcement",
-      "blocks": {
-        "image_B6QYYA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/MORFU_copy.png",
-            "image_width": 100
-          }
-        },
-        "image_zXJNrJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/shopify-mono-white.png",
-            "image_width": 100
-          }
-        },
-        "image_VcaPw8": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_4_copy.png",
-            "image_width": 50
-          }
-        },
-        "image_p4PUBr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_2_copy.png",
-            "image_width": 90
-          }
-        },
-        "image_qQFVRW": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_1_copy.png",
-            "image_width": 70
-          }
-        },
-        "image_KfmrPa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Garry_Panda_copy.png",
-            "image_width": 100
-          }
-        }
-      },
-      "block_order": [
-        "image_B6QYYA",
-        "image_zXJNrJ",
-        "image_VcaPw8",
-        "image_p4PUBr",
-        "image_qQFVRW",
-        "image_KfmrPa"
-      ],
-      "settings": {
-        "slider_speed": 7,
-        "text_alignment": "center",
-        "marquee_speed": 100,
-        "direction": "ticker-rtl",
-        "message_spacing": 30,
-        "show_border": false,
-        "layout": "marquee",
-        "color_scheme": "scheme-10",
-        "padding_top": 5,
-        "padding_bottom": 5
-      }
-    },
     "section_hero_ywHUVn": {
       "type": "section-hero",
       "blocks": {
@@ -541,6 +474,73 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "heading_tag": "automatic"
+      }
+    },
+    "section_announcement_qqjQ8T": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_B6QYYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MORFU_copy.png",
+            "image_width": 100
+          }
+        },
+        "image_zXJNrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shopify-mono-white.png",
+            "image_width": 100
+          }
+        },
+        "image_VcaPw8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_4_copy.png",
+            "image_width": 50
+          }
+        },
+        "image_p4PUBr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_2_copy.png",
+            "image_width": 90
+          }
+        },
+        "image_qQFVRW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_1_copy.png",
+            "image_width": 70
+          }
+        },
+        "image_KfmrPa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Garry_Panda_copy.png",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_B6QYYA",
+        "image_zXJNrJ",
+        "image_VcaPw8",
+        "image_p4PUBr",
+        "image_qQFVRW",
+        "image_KfmrPa"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-10",
+        "padding_top": 5,
+        "padding_bottom": 5
       }
     },
     "section_multicolumn_YVyPLA": {
@@ -1044,7 +1044,6 @@
   },
   "order": [
     "section_rich_text_LBH8Lm",
-    "section_announcement_qqjQ8T",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
     "section_double_qaxP3k",
@@ -1054,6 +1053,7 @@
     "section_hero_KXKF4d",
     "section_double_pi63CE",
     "section_video_gbncyG",
+    "section_announcement_qqjQ8T",
     "section_multicolumn_YVyPLA",
     "section_blog_FtdhjN",
     "section_accordion_tjkJbb",
