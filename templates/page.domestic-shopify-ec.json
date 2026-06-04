@@ -199,7 +199,7 @@
       "name": "Rich text",
       "settings": {
         "align_text": "text-center",
-        "width": "wrapper--narrow",
+        "width": "wrapper",
         "color_scheme": "",
         "overlay_type": "disabled",
         "padding_top": 50,
