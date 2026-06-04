@@ -23,6 +23,11 @@
   assign animation_duration = 800
   assign animation_order = 0
   assign title_tag = 'h2'
+  assign mobile_slider_class = ''
+
+  if section.settings.enable_mobile_slider
+    assign mobile_slider_class = 'grid--mobile-slider'
+  endif
 
   unless section.settings.title_tag == 'automatic'
     assign title_tag = section.settings.title_tag
@@ -44,7 +49,7 @@
 -%}
 
 <div class="grid-outer">
-  <div class="grid blog-listing">
+  <div class="grid blog-listing {{ mobile_slider_class }}">
     {%- if onboarding -%}
       {%- for i in (1..article_limit) -%}
         {%- assign animation_order = animation_order | plus: 1 -%}
