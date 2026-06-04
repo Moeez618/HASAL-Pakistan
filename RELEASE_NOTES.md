@@ -1,5 +1,16 @@
 # Release Notes
 
+## 2026-06-04
+
+### Added
+
+- Blog posts セクションに `Enable mobile slider` 設定を追加し、モバイル画面で記事一覧を横スクロールスライダー表示に切り替え可能にしました。
+
+### Verification
+
+- `shopify theme check`: passed with no offenses.
+- `sections/section-blog.liquid` schema JSON parsing passed.
+
 ## 2026-05-19
 
 ### Added
