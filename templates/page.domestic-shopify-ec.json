@@ -726,6 +726,7 @@
         "buttons_mpxkbV",
         "text_iwBJrt"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_2_14_24_01.png",
@@ -742,164 +743,13 @@
         "show_placeholder": true
       }
     },
-    "section_accordion_bY3qrm": {
-      "type": "section-accordion",
-      "blocks": {
-        "icon_fV4TnM": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-notes",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "直感的で使いやすい管理画面",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_EQaBEq": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "豊富なデザインテンプレート",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_NmaQbn": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-cloud",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "多彩なアプリ連携",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_W43PGQ": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-trophy",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "多言語・多通貨対応",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_cq4NE7": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "充実したカスタマーサポート",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>24時間365日対応のサポートがあり、英語や日本語でも質問に応じてもらえます。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_RD89bH": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-pin",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "モバイル最適化",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>テンプレートや管理画面はモバイルフレンドリーで、スマホからの閲覧や購入がスムーズ。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_j9qhmW": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-star",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "SEOに強い設計",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>メタタグやURL構造が最適化されており、検索エンジンでのランキング向上をサポート。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_TtnpAB": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-gift",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "豊富な決済オプション",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>クレジットカード、PayPal、Apple Pay、Google Payなど、幅広い決済手段をサポート。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_PqGKaM": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-diameter",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "スケーラビリティ",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>小規模から始めても、ビジネスの成長に合わせて機能やプランを拡張できる柔軟性があります。</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "icon_nFL6q9": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-ruler",
-            "icon_size": 20,
-            "icon_color": "",
-            "title": "在庫管理や分析ツール",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>在庫管理機能が充実しており、売上データや顧客分析も簡単に行えるダッシュボードを提供。</p>",
-            "text_alignment": "text-left"
-          }
-        }
-      },
-      "block_order": [
-        "icon_fV4TnM",
-        "icon_EQaBEq",
-        "icon_NmaQbn",
-        "icon_W43PGQ",
-        "icon_cq4NE7",
-        "icon_RD89bH",
-        "icon_j9qhmW",
-        "icon_TtnpAB",
-        "icon_PqGKaM",
-        "icon_nFL6q9"
-      ],
-      "disabled": true,
+    "section_custom_code_jyWnnr": {
+      "type": "section-custom-code",
+      "name": "Custom code",
       "settings": {
-        "default_open": true,
-        "title": "Why Shopify?",
-        "heading_font_size": "heading-large",
-        "show_icon": true,
-        "icon_name": "icon-award",
-        "icon_image": "shopify://shop_images/shopify_glyph.png",
-        "icon_size": 50,
-        "width": "wrapper",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "icon_color": "",
+        "code": "<style>\n  .solstar-pricing {\n    background: #fcfbf9;\n    color: #221c14;\n    padding: 72px 20px;\n  }\n  .solstar-pricing * { box-sizing: border-box; }\n  .solstar-pricing__inner { max-width: 1120px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 0.95fr) minmax(320px, 1.05fr); gap: 22px; align-items: stretch; }\n  .solstar-pricing__summary,\n  .solstar-pricing__detail { border: 1px solid #e8e0d3; border-radius: 8px; background: #fff; }\n  .solstar-pricing__summary { padding: 34px; display: flex; flex-direction: column; justify-content: space-between; gap: 28px; background: #221c14; color: #fff; }\n  .solstar-pricing__eyebrow { margin: 0 0 14px; color: #d9c8ae; font-size: 12px; font-weight: 700; letter-spacing: 0.24em; text-transform: uppercase; }\n  .solstar-pricing__summary h2 { margin: 0 0 16px; color: #fff; font-size: clamp(28px, 3.2vw, 42px); line-height: 1.28; letter-spacing: 0; }\n  .solstar-pricing__price { margin: 0; font-size: clamp(30px, 4vw, 48px); font-weight: 800; line-height: 1; }\n  .solstar-pricing__price span { font-size: 15px; font-weight: 600; color: #d9c8ae; }\n  .solstar-pricing__lead { margin: 14px 0 0; color: #e9dfd0; line-height: 1.85; }\n  .solstar-pricing__button { display: inline-flex; align-items: center; justify-content: center; width: fit-content; min-height: 48px; padding: 14px 26px; border-radius: 8px; background: #665035; color: #fff; font-weight: 700; text-decoration: none; }\n  .solstar-pricing__button:hover { background: #4f3d27; color: #fff; }\n  .solstar-pricing__detail { padding: 30px; }\n  .solstar-pricing__detail h3 { margin: 0 0 18px; font-size: 18px; letter-spacing: 0; }\n  .solstar-pricing__list { margin: 0 0 26px; padding-left: 1.4em; display: grid; gap: 12px; }\n  .solstar-pricing__list li { color: #4f3d27; line-height: 1.75; }\n  .solstar-pricing__exclude { margin-top: 22px; padding-top: 22px; border-top: 1px solid #e8e0d3; }\n  .solstar-pricing__note { margin: 0 0 10px; color: #766b5d; font-size: 13px; line-height: 1.8; }\n  @media (max-width: 860px) { .solstar-pricing__inner { grid-template-columns: 1fr; } }\n  @media (max-width: 640px) {\n    .solstar-pricing { padding: 52px 16px; }\n    .solstar-pricing__summary, .solstar-pricing__detail { padding: 24px 20px; }\n    .solstar-pricing__button { width: 100%; }\n  }\n</style>\n<section class=\"solstar-pricing\">\n  <div class=\"solstar-pricing__inner\">\n    <div class=\"solstar-pricing__summary\">\n      <div>\n        <p class=\"solstar-pricing__eyebrow\">Price</p>\n        <h2>料金とご契約内容</h2>\n        <p class=\"solstar-pricing__price\">BASICプラン 1,100,000円<span>（税込）〜</span></p>\n        <p class=\"solstar-pricing__lead\">※標準の制作範囲を含む最低価格です。制作範囲内であれば追加費用は発生しません。</p>\n      </div>\n      <a class=\"solstar-pricing__button\" href=\"/pages/contact\">まずは無料で相談する</a>\n    </div>\n    <div class=\"solstar-pricing__detail\">\n      <h3><strong>ご契約に含まれる内容</strong></h3>\n      <ol class=\"solstar-pricing__list\">\n        <li>自社開発テーマ「Cream」を無料利用可能（テーマ購入費0円）</li>\n        <li>納品物の著作権は、お支払い完了後にお客様に帰属します</li>\n        <li>お引き渡しから6ヶ月以内、当社の納品物に起因する不具合へ対応（納品後にお客様側で追加・変更された内容や、第三者アプリの導入による不具合は対象外）</li>\n        <li>ご納得いただけるまで無償で修正対応</li>\n      </ol>\n      <div class=\"solstar-pricing__exclude\">\n        <h3><strong>料金に含まれないもの</strong></h3>\n        <ul class=\"solstar-pricing__list\">\n          <li>Shopifyの月額利用料</li>\n          <li>各種アプリの利用料（連携作業は本プランに含まれますが、アプリ自体の利用料はお客様負担となります）</li>\n          <li>有料テーマの購入費 ※無料の「Cream」をご利用いただけるため、テーマ購入費はかかりません</li>\n          <li>納品後の保守・運用（別途サービスとして承っています）</li>\n        </ul>\n      </div>\n      <p class=\"solstar-pricing__note\"><strong>この価格に含まれる制作範囲：</strong>商品登録20点／カテゴリ6点／アプリ連携3点／オリジナルページ制作3ページ／体制：ディレクター1名＋エンジニア1名／納期：約4〜8週間</p>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -1127,7 +977,7 @@
     "section_multicolumn_Nffy6i",
     "section_custom_code_YCJ9UU",
     "section_double_hUXYzk",
-    "section_accordion_bY3qrm",
+    "section_custom_code_jyWnnr",
     "section_rich_text_MhcHJQ",
     "section_custom_code_RcTXxd",
     "section_custom_code_Az8xqi",
