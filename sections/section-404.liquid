@@ -1,11 +1,35 @@
 {%- assign color_scheme = 'color-' | append: section.settings.color_scheme -%}
 
 <section class="page-404 {{ color_scheme }}">
-  <h2 class="page__heading">{{ 'general.404.title' | t }}</h2>
+  <h1 class="page__heading">{{ 'general.404.title' | t }}</h1>
   <p class="center text--404">{{ 'general.404.subtext_html' | t }}</p>
 
   {%- render 'search-form' -%}
+
+  <nav class="page-404__links" aria-label="Helpful links">
+    <a href="/pages/domestic-shopify-ec">国内ECサイト構築</a>
+    <a href="/pages/cross-border-shopify-ec">越境ECサイト構築</a>
+    <a href="/pages/pricing">料金プラン</a>
+    <a href="/blogs/shopify">Shopifyブログ</a>
+    <a href="/pages/contact">お問い合わせ</a>
+  </nav>
 </section>
+
+{%- style -%}
+  .page-404__links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px 20px;
+    margin: 28px auto 0;
+    max-width: 760px;
+  }
+
+  .page-404__links a {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+{%- endstyle -%}
 
 {% schema %}
 {

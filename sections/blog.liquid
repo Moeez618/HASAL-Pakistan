@@ -67,7 +67,7 @@
               class="inline-nav--active"
             {% endif %}
           >
-            {{ tag | link_to_tag: tag }}
+            <a href="{{ blog.url }}/tagged/{{ tag | handleize }}">{{ tag }}</a>
           </li>
         {%- endfor -%}
       </ul>

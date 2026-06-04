@@ -148,14 +148,12 @@
       </p>
     {%- endif -%}
 
-    <div class="newsletter__message newsletter__message--error errors" id="Newsletter-error--{{ unique }}">
-      {%- if form.errors -%}
+    {%- if form.errors -%}
+      <div class="newsletter__message newsletter__message--error errors" id="Newsletter-error--{{ unique }}">
         {{ form.errors.translated_fields.email | capitalize }}
         {{ form.errors.messages.email }}
-      {%- else -%}
-        <em>{{ 'general.newsletter_form.error_message' | t }}</em>
-      {%- endif -%}
-    </div>
+      </div>
+    {%- endif -%}
 
     <input type="hidden" name="contact[accepts_marketing]" value="true">
 
