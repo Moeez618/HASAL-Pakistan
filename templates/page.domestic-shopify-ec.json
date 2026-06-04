@@ -546,7 +546,7 @@
             "icon_color": "",
             "title": "商品登録 20点",
             "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text": "<p>商品情報・価格・画像など、公開に必要な基本情報を20点まで登録します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -561,7 +561,7 @@
             "icon_color": "",
             "title": "カテゴリ 6点",
             "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text": "<p>商品を探しやすくするためのカテゴリ構成を整理し、6カテゴリまで設定します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -576,7 +576,7 @@
             "icon_color": "",
             "title": "アプリ連携 3点",
             "heading_font_size": "heading-small",
-            "text": "<p>Share details about your shipping policies, item returns, or customer service.</p>",
+            "text": "<p>メール、レビュー、販促など、初期運用に必要なアプリを3点まで連携します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -591,7 +591,7 @@
             "icon_color": "",
             "title": "オリジナルページ制作 3ページ",
             "heading_font_size": "heading-small",
-            "text": "<p>Our secure checkout is quick and easy to use.</p>",
+            "text": "<p>ブランド紹介やキャンペーンなど、標準テンプレート以外のページを3ページまで制作します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -606,7 +606,7 @@
             "icon_color": "",
             "title": "体制：ディレクター1名＋エンジニア1名",
             "heading_font_size": "heading-small",
-            "text": "<p>Transactions are handled with bank-grade security.</p>",
+            "text": "<p>ディレクター1名とエンジニア1名が、要件整理から公開まで一貫して進行します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -621,7 +621,7 @@
             "icon_color": "",
             "title": "納期：約4〜8週間",
             "heading_font_size": "heading-small",
-            "text": "<p>Have questions? Get in touch with us at any time.</p>",
+            "text": "<p>標準的な制作期間は約4〜8週間です。素材のご準備状況や確認回数により変動します。</p>",
             "text_font_size": "body-medium",
             "heading_tag": "automatic"
           }
@@ -1059,7 +1059,7 @@
         "body_6KVzr6": {
           "type": "body",
           "settings": {
-            "title": "問い合わせ内容",
+            "title": "お問い合わせ内容",
             "heading": "",
             "required": false
           }
