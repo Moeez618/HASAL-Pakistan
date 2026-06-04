@@ -369,6 +369,7 @@
       "blocks": {
         "subheading_fp3eKN": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "subheading": "Basic plan",
             "padding_bottom": 16
