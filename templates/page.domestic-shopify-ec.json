@@ -980,7 +980,8 @@
         "faq_shopify_06"
       ],
       "custom_css": [
-        ".accordion__subheading {margin: 0 0 12px; color: #ab8c52;} .accordion__subheading + .accordion__heading {margin-top: 0;}"
+        ".accordion__subheading {margin: 0 0 12px; color: #ab8c52;}",
+        ".accordion__subheading + .accordion__heading {margin-top: 0;}"
       ],
       "name": "FAQ",
       "settings": {
@@ -999,7 +1000,7 @@
         "subheading_pijWhf": {
           "type": "subheading",
           "settings": {
-            "subheading": "Contact",
+            "subheading": "Let's Talk",
             "padding_bottom": 16
           }
         },
