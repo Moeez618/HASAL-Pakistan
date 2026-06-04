@@ -6,6 +6,7 @@
   assign has_required_field = false
   assign animation_anchor = '#ContactForm--' | append: section.id
   assign animation_order = 1
+  assign subheading = section.settings.subheading
 -%}
 
 {%- style -%}
@@ -22,6 +23,18 @@
   data-section-type="contact"
 >
   <div class="{{ section.settings.width }}">
+    {%- if subheading != blank -%}
+      <p
+        class="contact__form__subheading hero__subheading"
+        data-aos="hero"
+        data-aos-anchor="{{ animation_anchor }}"
+        data-aos-order="{{ animation_order }}"
+      >
+        {{ subheading }}
+      </p>
+      {%- assign animation_order = animation_order | plus: 1 -%}
+    {%- endif -%}
+
     {%- if section.settings.title != blank -%}
       {%- liquid
         assign heading_tag = 'h2'
@@ -628,6 +641,11 @@
     {
       "type": "header",
       "content": "Typography"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
     },
     {
       "type": "text",
