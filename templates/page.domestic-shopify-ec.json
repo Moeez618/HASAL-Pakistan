@@ -95,10 +95,7 @@
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0,
-        "show_placeholder": true,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "show_placeholder": true
       }
     },
     "section_announcement_eRD9xd": {
@@ -155,6 +152,13 @@
     "section_rich_text_VK9QYe": {
       "type": "section-rich-text",
       "blocks": {
+        "subheading_VK9QYe": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Concept",
+            "padding_bottom": 16
+          }
+        },
         "heading_PN7j8V": {
           "type": "heading",
           "settings": {
@@ -191,13 +195,6 @@
             "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
-        },
-        "subheading_VK9QYe": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Concept",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
@@ -214,10 +211,7 @@
         "color_scheme": "",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "padding_bottom": 50
       }
     },
     "section_double_xtYqGK": {
@@ -269,10 +263,7 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
         "padding_bottom": 0,
-        "show_placeholder": true,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "show_placeholder": true
       }
     },
     "section_rich_text_3dy8mP": {
@@ -303,6 +294,13 @@
     "section_rich_text_WcBEQp": {
       "type": "section-rich-text",
       "blocks": {
+        "subheading_WcBEQp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Approach",
+            "padding_bottom": 16
+          }
+        },
         "heading_jDzjwN": {
           "type": "heading",
           "settings": {
@@ -334,13 +332,6 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
-        },
-        "subheading_WcBEQp": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Approach",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
@@ -357,15 +348,19 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "padding_bottom": 50
       }
     },
     "section_double_fp3eKN": {
       "type": "section-double",
       "blocks": {
+        "subheading_fp3eKN": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Basic plan",
+            "padding_bottom": 16
+          }
+        },
         "heading_cjixc8": {
           "type": "heading",
           "settings": {
@@ -394,13 +389,6 @@
             "show_arrow": false,
             "padding_bottom": 16
           }
-        },
-        "subheading_fp3eKN": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Basic plan",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
@@ -424,10 +412,7 @@
         "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50,
-        "show_placeholder": true,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "show_placeholder": true
       }
     },
     "section_custom_code_MWjcTp": {
@@ -507,6 +492,13 @@
     "section_double_QrkJEP": {
       "type": "section-double",
       "blocks": {
+        "subheading_QrkJEP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Expertise",
+            "padding_bottom": 16
+          }
+        },
         "heading_jhtjLH": {
           "type": "heading",
           "settings": {
@@ -559,13 +551,6 @@
             "text_font_size": "body-x-small",
             "padding_bottom": 0
           }
-        },
-        "subheading_QrkJEP": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Expertise",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
@@ -589,10 +574,7 @@
         "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 0,
-        "show_placeholder": true,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "show_placeholder": true
       }
     },
     "section_multicolumn_Nffy6i": {
@@ -699,6 +681,7 @@
       ],
       "name": "Multi column",
       "settings": {
+        "subheading": "Scope",
         "title": "Shopify自社ECサイトの立ち上げ｜含まれるもの・進め方",
         "heading_font_size": "heading-medium",
         "description": "<h3>制作範囲</h3>",
@@ -710,11 +693,7 @@
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50,
-        "heading_tag": "automatic",
-        "subheading": "Scope",
-        "custom_css": [
-          ".grid__subheading { margin: 0 0 12px; color: var(--COLOR-ACCENT); }"
-        ]
+        "heading_tag": "automatic"
       }
     },
     "section_custom_code_YCJ9UU": {
@@ -845,6 +824,12 @@
     "section_accordion_group_faq_domestic": {
       "type": "section-accordion-group",
       "blocks": {
+        "faq_subheading_intro": {
+          "type": "subheading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
         "faq_heading_intro": {
           "type": "heading",
           "settings": {
@@ -885,13 +870,6 @@
             "icon_name": "icon-chat",
             "icon_size": 20,
             "icon_color": ""
-          }
-        },
-        "faq_heading_shopify": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "title": "Shopify制作でよくあるご質問"
           }
         },
         "faq_shopify_01": {
@@ -965,18 +943,6 @@
             "icon_size": 20,
             "icon_color": ""
           }
-        },
-        "faq_subheading_intro": {
-          "type": "subheading",
-          "settings": {
-            "title": "Assurance"
-          }
-        },
-        "faq_subheading_shopify": {
-          "type": "subheading",
-          "settings": {
-            "title": "FAQ"
-          }
         }
       },
       "block_order": [
@@ -985,8 +951,6 @@
         "faq_intro_01",
         "faq_intro_02",
         "faq_intro_03",
-        "faq_subheading_shopify",
-        "faq_heading_shopify",
         "faq_shopify_01",
         "faq_shopify_02",
         "faq_shopify_03",
@@ -999,18 +963,22 @@
         "heading_font_size": "heading-medium",
         "question_font_size": "heading-small",
         "width": "wrapper",
-        "columns": "1",
+        "columns": "2",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 40,
-        "padding_bottom": 56,
-        "custom_css": [
-          ".accordion__subheading { margin: 0 0 12px; color: var(--COLOR-ACCENT); }"
-        ]
+        "padding_bottom": 56
       }
     },
     "section_rich_text_pijWhf": {
       "type": "section-rich-text",
       "blocks": {
+        "subheading_pijWhf": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Contact",
+            "padding_bottom": 16
+          }
+        },
         "heading_8iQFx7": {
           "type": "heading",
           "settings": {
@@ -1027,13 +995,6 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
-        },
-        "subheading_pijWhf": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Contact",
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
@@ -1047,10 +1008,7 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "custom_css": [
-          ".hero__subheading { color: var(--COLOR-ACCENT); }"
-        ]
+        "padding_bottom": 50
       }
     },
     "contact_form_KKiTE3": {
@@ -1145,6 +1103,7 @@
         "Options-select"
       ],
       "settings": {
+        "subheading": "Contact",
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
         "terms": true,
@@ -1152,11 +1111,7 @@
         "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50,
-        "heading_tag": "automatic",
-        "subheading": "Contact",
-        "custom_css": [
-          ".contact__form__subheading { margin: 0 0 12px; color: var(--COLOR-ACCENT); text-align: center; }"
-        ]
+        "heading_tag": "automatic"
       }
     }
   },
