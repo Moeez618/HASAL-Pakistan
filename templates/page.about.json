@@ -277,36 +277,6 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
-    },
-    "section_video_dDGycg": {
-      "type": "section-video",
-      "name": "Video",
-      "settings": {
-        "show_video_popup": true,
-        "video_popup_social": "https://www.youtube.com/watch?v=OZaXjZ4jO-s",
-        "title": "TOKYO HIPHOP MIX",
-        "heading_font_size": "heading-x-large",
-        "text": "<p><strong>Garry Panda（代表アーティスト名）による、2020年代の日本語ラップをミックスした動画です。</strong></p>",
-        "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
-        "link_text": "",
-        "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "image": "shopify://shop_images/Thumbnail_3.jpg",
-        "desktop_height": "image-height",
-        "mobile_height": "screen-height-one-half--mobile",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "show_text_background": false,
-        "color": "",
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
-      }
     }
   },
   "order": [
@@ -318,7 +288,6 @@
     "section_rich_text_FiDmCf",
     "double-1",
     "divider",
-    "section_rich_text_UkQey4",
-    "section_video_dDGycg"
+    "section_rich_text_UkQey4"
   ]
 }

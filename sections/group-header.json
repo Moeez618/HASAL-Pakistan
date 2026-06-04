@@ -14,22 +14,10 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
-        "text_FCtkwp": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Shopifyテーマ「CREAM」無料体験実施中</strong></p>",
-            "target_url_enabled": false,
-            "target_url": "shopify://pages/contact",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
         "text_GntGQL": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>EC制作会社比較資料を無料配布中！</strong></p>",
+            "text": "<p><strong>EC制作会社比較資料を無料配布中</strong></p>",
             "target_url_enabled": false,
             "target_url": "shopify://pages/contact",
             "target_referrer_enabled": false,
@@ -41,7 +29,7 @@
         "text_zHbQN3": {
           "type": "text",
           "settings": {
-            "text": "<p><a href=\"/pages/shopifyで一時大規模障害-管理画面-決済-ストア表示に影響-2026年6月\" title=\"Shopifyで一時大規模障害　管理画面・決済・ストア表示に影響【2026年6月】\">Shopifyで一時大規模障害について</a></p>",
+            "text": "<p><a href=\"/pages/shopify-outage-june-2026\" title=\"Shopify一時大規模障害レポート【2026年6月】\">Shopify一時大規模障害レポート</a></p>",
             "target_url_enabled": false,
             "target_url": "shopify://pages/contact",
             "target_referrer_enabled": false,
@@ -52,7 +40,6 @@
         }
       },
       "block_order": [
-        "text_FCtkwp",
         "text_GntGQL",
         "text_zHbQN3"
       ],
@@ -87,7 +74,7 @@
         "logo_max_limit_mobile": 120,
         "main_menu_linklist": "",
         "enable_call_to_action": true,
-        "button_text": "資料請求はこちら",
+        "button_text": "無料相談はこちら",
         "button_link": "shopify://pages/contact",
         "button_type": "btn--primary",
         "show_social_icons": true,

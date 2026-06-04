@@ -97,7 +97,7 @@
         "body_wym9b4": {
           "type": "body",
           "settings": {
-            "title": "問い合せ内容",
+            "title": "お問い合わせ内容",
             "heading": "",
             "required": false
           }

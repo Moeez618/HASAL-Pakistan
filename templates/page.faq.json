@@ -1,1 +1,137 @@
-{"sections":{"main":{"type":"main-page","settings":{"align_text":"text-center"}},"faq-first":{"type":"section-accordion-group","blocks":{"faq-heading":{"type":"heading","settings":{"title":"FAQ"}},"faq-0":{"type":"question","settings":{}},"faq-1":{"type":"question","settings":{}},"faq-2":{"type":"question","settings":{}}},"block_order":["faq-heading","faq-0","faq-1","faq-2"],"settings":{"padding_top":50,"padding_bottom":50}},"faq-second":{"type":"section-accordion-group","blocks":{"heading-0":{"type":"heading","settings":{"title":"Shipping questions"}},"question-1":{"type":"question","settings":{}},"question-2":{"type":"question","settings":{}},"question-3":{"type":"question","settings":{}}},"block_order":["heading-0","question-1","question-2","question-3"],"settings":{"padding_top":50,"padding_bottom":50}},"faq-third":{"type":"section-accordion-group","blocks":{"heading-0":{"type":"heading","settings":{"title":"Returns questions"}},"question-1":{"type":"question","settings":{}},"question-2":{"type":"question","settings":{}},"question-3":{"type":"question","settings":{}}},"block_order":["heading-0","question-1","question-2","question-3"],"settings":{"padding_top":50,"padding_bottom":50}},"icons":{"type":"section-text-row","blocks":{"icon-0":{"type":"icon","settings":{"icon_name":"icon-shield","title":"Secure transactions","text":"<p>Transactions are handled with bank-grade security.<\/p>"}},"icon-1":{"type":"icon","settings":{"icon_name":"icon-recycle","title":"Simple checkout","text":"<p>Our secure checkout is quick and easy to use.<\/p>"}},"icon-2":{"type":"icon","settings":{"icon_name":"icon-chat","title":"Get in touch","text":"<p>Have questions? Get in touch with us at any time.<\/p>"}}},"block_order":["icon-0","icon-1","icon-2"],"settings":{}}},"order":["main","faq-first","faq-second","faq-third","icons"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "align_text": "text-center"
+      }
+    },
+    "faq-main": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "faq_1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "サイト制作の期間はどれくらいですか？",
+            "content": "<p>要件によりますが、Basicプランは約4〜8週間、Standardプランは約10〜12週間、Proプランは約14〜16週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "予算が限られている場合でも対応可能ですか？",
+            "content": "<p>はい、もちろんです。Basicプランは最もリーズナブルな価格でご提供しており、商品数の少ないマーチャント様向けに、必要な機能に絞った内容となっております。まずはお気軽にご相談ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "多言語対応は可能ですか？",
+            "content": "<p>はい、多言語・多通貨にも対応しております。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納品後のサポート内容を教えてください。",
+            "content": "<p>お引き渡しから6ヶ月以内、当社の納品物に起因する不具合に対応します。また、ご確認時に修正が必要な箇所があれば、ご納得いただけるまで無償で対応します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_5": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "お見積もりは無料ですか？",
+            "content": "<p>はい、お見積もりは完全無料です。ご要件をヒアリング後、透明性のある価格と内容で最適なプランをご提案します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "なぜSOLSTARがオススメなのですか？",
+            "content": "<p>弊社では、Shopifyの開発や運用に精通したエンジニアと、Shopifyアカデミー認定の専門ディレクターによるチーム体制を整えております。運用コストを抑えながら最適なソリューションを自信を持って提供いたします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "faq_7": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "実績を教えてください。",
+            "content": "<p>主な実績として、開発費10億円を超える大規模ECサイトや、UK・US・シンガポール向けの越境ECサイト、年間売上60億円以上のShopify Plusサイトの構築および長期運用サポートを手がけた実績がございます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4",
+        "faq_5",
+        "faq_6",
+        "faq_7"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq-main"
+  ]
+}
