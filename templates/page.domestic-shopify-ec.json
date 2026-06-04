@@ -25,7 +25,7 @@
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50,
-        "heading_tag": "automatic"
+        "heading_tag": "h1"
       }
     },
     "section_double_3i48QY": {
@@ -45,7 +45,7 @@
             "title": "ブランドの魅力を、売上につなげる自社ECサイトへ。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
         "text_4qFCMP": {
