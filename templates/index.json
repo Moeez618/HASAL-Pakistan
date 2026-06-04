@@ -623,7 +623,7 @@
         "title": "失敗しないECサイト構築のためのShopify戦略ブログ",
         "heading_font_size": "heading-medium",
         "title_font_size": "heading-small",
-        "show_tags": true,
+        "show_tags": false,
         "show_author": true,
         "show_date": false,
         "show_button": true,
