@@ -19,15 +19,47 @@
         "text_font_size": "body-medium",
         "align_text": "text-left",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h1"
       }
     },
+    "section_blog_VYfrpC": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "marketing",
+        "aspect_ratio": 0.5,
+        "title": "マーケティング記事",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": false,
+        "show_date": true,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "enable_mobile_slider": true,
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "heading_tag": "automatic",
+        "title_tag": "automatic"
+      }
+    },
     "section_rich_text_7wY9EH": {
       "type": "section-rich-text",
       "blocks": {
+        "subheading_EAGNfd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Let's Talk",
+            "padding_bottom": 16
+          }
+        },
         "heading_479Hpq": {
           "type": "heading",
           "settings": {
@@ -47,13 +79,14 @@
         }
       },
       "block_order": [
+        "subheading_EAGNfd",
         "heading_479Hpq",
         "text_JXb9yN"
       ],
       "settings": {
-        "align_text": "text-left",
+        "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 26,
         "padding_bottom": 26
@@ -139,11 +172,12 @@
         "select_P47BmL"
       ],
       "settings": {
+        "subheading": "",
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 0,
         "padding_bottom": 100,
         "heading_tag": "automatic"
@@ -152,6 +186,7 @@
   },
   "order": [
     "main",
+    "section_blog_VYfrpC",
     "section_rich_text_7wY9EH",
     "contact_form_XtLXAm"
   ]
