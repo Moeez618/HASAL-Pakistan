@@ -12,7 +12,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "subheading": "日本市場に特化したShopifyテーマ",
+        "subheading": "Cream by Solstar｜日本市場に特化したShopifyテーマ",
         "show_title": true,
         "heading_font_size": "heading-x-large",
         "show_content": true,
@@ -61,7 +61,7 @@
         "heading_UfTEME": {
           "type": "heading",
           "settings": {
-            "title": "「売れる状態」から始める、Shopifyテーマ。",
+            "title": "ブランドの熱量を、購入体験まで落とし込むShopifyテーマ。",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -70,7 +70,7 @@
         "text_bDn7tr": {
           "type": "text",
           "settings": {
-            "text": "<p>Creamは、株式会社SOLSTAR が独自開発したShopifyテーマで、ECサイトの構築・運用における最初の一歩 を圧倒的にスムーズにすることを目的に設計されています。</p><p>　</p><p>SOLSTARの実戦的なEC開発ノウハウをテーマ設計に落とし込み、立ち上げフェーズからコンバージョン最適化、集客基盤の強化までを見据えたテーマとなります。</p>",
+            "text": "<p>Creamは、株式会社SOLSTARが実際のEC構築・運用で培った知見をもとに開発したShopifyテーマです。</p><p>きれいに見せるだけではなく、商品を探し、比較し、迷わず購入するまでの流れを最初から整えます。立ち上げ直後から使える購入導線、運用しやすい編集性、SEOを意識した構造までをひとつのテーマにまとめました。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -94,6 +94,72 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
+      }
+    },
+    "section_text_row_cream_value": {
+      "type": "section-text-row",
+      "blocks": {
+        "icon_buy": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-lightning",
+            "icon_size": 35,
+            "icon_color": "",
+            "title": "購入までを短くする",
+            "heading_font_size": "heading-small",
+            "text": "<p>追従カートや迷いにくい商品導線で、気持ちが高まった瞬間を逃さない設計。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_operate": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-notes",
+            "icon_size": 35,
+            "icon_color": "",
+            "title": "更新し続けられる",
+            "heading_font_size": "heading-small",
+            "text": "<p>画像、動画、テキスト、コレクションを管理画面から組み替えやすく、公開後の改善が止まりません。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_growth": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-planet",
+            "icon_size": 35,
+            "icon_color": "",
+            "title": "集客の土台をつくる",
+            "heading_font_size": "heading-small",
+            "text": "<p>SEOを意識したページ構造とレスポンシブUIで、広告だけに頼らない成長基盤を整えます。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_buy",
+        "icon_operate",
+        "icon_growth"
+      ],
+      "name": "Cream value points",
+      "settings": {
+        "title": "Creamが最初から整える3つの体験",
+        "heading_font_size": "heading-large",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "icon_alignment": "icon--top",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 70,
+        "padding_bottom": 70,
+        "heading_tag": "automatic"
       }
     },
     "section_social_videos_Um4GQT": {
@@ -156,9 +222,9 @@
       ],
       "name": "Social videos",
       "settings": {
-        "heading": "CREAMの4つの標準機能",
+        "heading": "見た目だけでは終わらない、Creamの標準機能",
         "heading_font_size": "heading-large",
-        "text": "<p>売れるECサイトに必要な機能を、最初から。</p>",
+        "text": "<p>購入導線、再訪、SEO、レスポンシブ対応。ECの成果に直結する体験をテーマ標準で備えています。</p>",
         "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
@@ -172,13 +238,83 @@
         "heading_tag": "automatic"
       }
     },
+    "section_accordion_cream_decision": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "subheading_cream": {
+          "type": "subheading",
+          "settings": {
+            "title": "Before you try Cream"
+          }
+        },
+        "heading_cream": {
+          "type": "heading",
+          "settings": {
+            "title": "導入前に確認したいこと"
+          }
+        },
+        "question_target": {
+          "type": "question",
+          "settings": {
+            "default_open": true,
+            "title": "どんなブランドに向いていますか？",
+            "content": "<p>これからShopifyでECを始めるブランド、既存サイトを見直したいブランド、運用しながらページ改善を続けたいブランドに向いています。商品数が少ない立ち上げ期でも、商品数が増えていく成長期でも使いやすい構成です。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_diff": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "一般的な有料テーマとの違いは何ですか？",
+            "content": "<p>CreamはSOLSTARが日本市場向けのEC構築で必要になる導線や運用項目を前提に設計しています。デザインの自由度だけでなく、購入体験、モバイル表示、カート導線、SEO基盤までを実運用目線でまとめています。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_trial": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "無料でどこまで試せますか？",
+            "content": "<p>デモストアでページ構成、商品ページ、追従カート、お気に入り、レスポンシブ表示など主要な体験を確認できます。実際の導入を検討される場合は、ブランドの商材や必要機能に合わせてご相談いただけます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cream",
+        "heading_cream",
+        "question_target",
+        "question_diff",
+        "question_trial"
+      ],
+      "name": "Cream FAQ",
+      "settings": {
+        "heading_font_size": "heading-large",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 70,
+        "padding_bottom": 70
+      }
+    },
     "section_double_CgzWpz": {
       "type": "section-double",
       "blocks": {
         "heading_itjNzd": {
           "type": "heading",
           "settings": {
-            "title": "Creamを利用したデモサイト",
+            "title": "Creamの世界観を、デモストアで体験する",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -187,7 +323,7 @@
         "text_ayqcUP": {
           "type": "text",
           "settings": {
-            "text": "<p>Umi Hana は Cream by Solstar のデモストアとして構築されています。構成・導線・UI はすべて実運用ベースで設計されていますのでぜひご確認ください。</p><p>※閲覧するにはパスワードが必要ですので下記の数字をご入力ください。</p><p>パスワード：1</p>",
+            "text": "<p>Umi Hanaは、Cream by Solstarで構築したデモストアです。トップページから商品詳細、購入導線、モバイル表示まで、実際のブランド運用を想定した体験として確認できます。</p><p>※閲覧にはパスワードが必要です。下記の数字をご入力ください。</p><p>パスワード：1</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -233,7 +369,7 @@
         "heading_GhdFMY": {
           "type": "heading",
           "settings": {
-            "title": "Cream by Solstar の無償体験",
+            "title": "次のECサイトを、Creamから始める。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -242,7 +378,7 @@
         "text_PPLAnz": {
           "type": "text",
           "settings": {
-            "text": "<p>すべての機能を完全無料でお試しいただけます。</p><p>下記よりお問い合わせください。</p>",
+            "text": "<p>ブランドの世界観、商品数、運用体制に合わせて、Creamでどこまで実現できるかをご案内します。</p><p>デモ確認、導入相談、構築プランのご相談は下記フォームよりお問い合わせください。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -355,7 +491,9 @@
     "main",
     "section_video_CA3Knt",
     "section_double_wppnCF",
+    "section_text_row_cream_value",
     "section_social_videos_Um4GQT",
+    "section_accordion_cream_decision",
     "section_double_CgzWpz",
     "section_rich_text_d9hfdL",
     "contact_form_Gq94hq"
