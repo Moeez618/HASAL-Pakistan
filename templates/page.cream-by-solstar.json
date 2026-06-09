@@ -191,7 +191,7 @@
         "text_ayqcUP": {
           "type": "text",
           "settings": {
-            "text": "<p id='cream-demo'>Umi Hanaは、Cream by Solstarで構築したデモストアです。トップページ、商品詳細、購入導線、モバイル表示まで、実際のブランド運用を想定した体験として確認できます。</p><p>※閲覧にはパスワードが必要です。下記の数字をご入力ください。</p><p>パスワード：1</p>",
+            "text": "<p>Umi Hanaは、Cream by Solstarで構築したデモストアです。トップページ、商品詳細、購入導線、モバイル表示まで、実際のブランド運用を想定した体験として確認できます。</p><p>※閲覧にはパスワードが必要です。下記の数字をご入力ください。</p><p>パスワード：1</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -229,6 +229,17 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
+      }
+    },
+    "section_custom_code_cream_demo_anchor": {
+      "type": "section-custom-code",
+      "name": "Demo anchor",
+      "settings": {
+        "code": "<div id='cream-demo' aria-hidden='true'></div>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "section_custom_code_cream_usecases": {
@@ -582,6 +593,7 @@
     "section_custom_code_cream_japan",
     "section_custom_code_cream_features",
     "section_custom_code_cream_design",
+    "section_custom_code_cream_demo_anchor",
     "section_double_CgzWpz",
     "section_custom_code_cream_usecases",
     "section_text_row_cream_quality",
