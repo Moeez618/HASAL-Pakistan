@@ -586,17 +586,17 @@
         "name_zRJQ8m": {
           "type": "name",
           "settings": {
-            "first_heading": "姓",
-            "first_label": "姓",
-            "last_heading": "名",
-            "last_label": "名",
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
             "required": true
           }
         },
         "email_FPFy6z": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
+            "title": "Email",
             "heading": "メールアドレス",
             "required": true
           }
@@ -604,7 +604,7 @@
         "telephone_ta8rec": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
+            "title": "Phone Number",
             "heading": "電話番号",
             "required": true
           }
@@ -612,15 +612,15 @@
         "text_7ciehP": {
           "type": "text",
           "settings": {
-            "title": "会社名",
+            "title": "Company",
             "heading": "会社名",
-            "required": false
+            "required": true
           }
         },
         "text_FgRwa3": {
           "type": "text",
           "settings": {
-            "title": "役職",
+            "title": "Position",
             "heading": "役職",
             "required": false
           }
@@ -628,9 +628,9 @@
         "body_MjYj43": {
           "type": "body",
           "settings": {
-            "title": "お問い合わせ内容",
+            "title": "問い合わせ内容（任意）",
             "heading": "",
-            "required": true
+            "required": false
           }
         },
         "select_Ut4fd9": {
@@ -638,12 +638,26 @@
           "settings": {
             "title": "お問い合わせ種別",
             "required": true,
-            "label-one": "Cream by Solstarについて",
-            "label-two": "その他",
-            "label-three": "",
-            "label-four": "",
-            "label-five": "",
-            "label-six": ""
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
           }
         }
       },
@@ -654,7 +668,8 @@
         "text_7ciehP",
         "text_FgRwa3",
         "body_MjYj43",
-        "select_Ut4fd9"
+        "select_Ut4fd9",
+        "Options-select"
       ],
       "name": "Contact form",
       "settings": {
@@ -664,8 +679,8 @@
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 80,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     }
