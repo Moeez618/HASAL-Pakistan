@@ -63,7 +63,7 @@
         "buttons_HUcgJy": {
           "type": "buttons",
           "settings": {
-            "button_text": "無料テーマの詳細を見る",
+            "button_text": "期間限定の無料体験を見る",
             "button_url": "/products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
@@ -101,7 +101,7 @@
       "disabled": true,
       "name": "Cream announcement and anchor nav",
       "settings": {
-        "code": "<style>.cream-sticky-nav{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;position:sticky;top:0;z-index:20;background:var(--cream-bg);color:var(--cream-text);border-bottom:1px solid var(--cream-border)}.cream-sticky-nav__notice{display:flex;justify-content:center;gap:10px;padding:9px 16px;line-height:1.5;background:var(--cream-primary)}.cream-sticky-nav__bar{max-width:1240px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 24px}.cream-sticky-nav__brand{white-space:nowrap}.cream-sticky-nav__links{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:center}.cream-sticky-nav__links a{color:inherit;text-decoration:none;opacity:.86}.cream-sticky-nav__links a:hover{opacity:1}.cream-sticky-nav__cta{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;border:1px solid var(--cream-text);border-radius:999px;color:var(--cream-text);text-decoration:none;white-space:nowrap}@media(max-width:749px){.cream-sticky-nav{position:relative}.cream-sticky-nav__bar{padding:12px 16px;align-items:flex-start;flex-direction:column}.cream-sticky-nav__links{justify-content:flex-start;gap:12px}.cream-sticky-nav__cta{width:100%}}</style><div class='cream-sticky-nav' id='cream-top'><div class='cream-sticky-nav__notice'><strong>導入相談受付中</strong><span>Creamの機能・無料提供条件・導入方法を製品詳細ページで確認できます。</span></div><div class='cream-sticky-nav__bar'><div class='cream-sticky-nav__brand'>CREAM by SOLSTAR</div><nav class='cream-sticky-nav__links' aria-label='Cream page navigation'><a href='#cream-features'>機能</a><a href='#cream-japan'>日本対応</a><a href='#cream-demo'>デモ</a><a href='#cream-pricing'>無料提供</a></nav><a class='cream-sticky-nav__cta' href='/products/cream-by-solstar'>無料テーマの詳細を見る</a></div></div>",
+        "code": "<style>.cream-sticky-nav{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;position:sticky;top:0;z-index:20;background:var(--cream-bg);color:var(--cream-text);border-bottom:1px solid var(--cream-border)}.cream-sticky-nav__notice{display:flex;justify-content:center;gap:10px;padding:9px 16px;line-height:1.5;background:var(--cream-primary)}.cream-sticky-nav__bar{max-width:1240px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:13px 24px}.cream-sticky-nav__brand{white-space:nowrap}.cream-sticky-nav__links{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:center}.cream-sticky-nav__links a{color:inherit;text-decoration:none;opacity:.86}.cream-sticky-nav__links a:hover{opacity:1}.cream-sticky-nav__cta{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 18px;border:1px solid var(--cream-text);border-radius:999px;color:var(--cream-text);text-decoration:none;white-space:nowrap}@media(max-width:749px){.cream-sticky-nav{position:relative}.cream-sticky-nav__bar{padding:12px 16px;align-items:flex-start;flex-direction:column}.cream-sticky-nav__links{justify-content:flex-start;gap:12px}.cream-sticky-nav__cta{width:100%}}</style><div class='cream-sticky-nav' id='cream-top'><div class='cream-sticky-nav__notice'><strong>導入相談受付中</strong><span>Creamの機能・無料体験条件・導入方法を製品詳細ページで確認できます。</span></div><div class='cream-sticky-nav__bar'><div class='cream-sticky-nav__brand'>CREAM by SOLSTAR</div><nav class='cream-sticky-nav__links' aria-label='Cream page navigation'><a href='#cream-features'>機能</a><a href='#cream-japan'>日本対応</a><a href='#cream-demo'>デモ</a><a href='#cream-pricing'>無料提供</a></nav><a class='cream-sticky-nav__cta' href='/products/cream-by-solstar'>期間限定の無料体験を見る</a></div></div>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -113,7 +113,7 @@
       "disabled": true,
       "name": "Cream hero",
       "settings": {
-        "code": "<style>.cream-hero{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:88px 24px 54px;overflow:hidden}.cream-hero__inner{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(300px,.98fr);gap:48px;align-items:center}.cream-hero__eyebrow{margin:0 0 18px;color:var(--cream-text-muted)}.cream-hero h1{margin:0;line-height:.96;color:var(--cream-text)}.cream-hero__lead{margin:22px 0 0;line-height:1.5}.cream-hero__text{margin:18px 0 0;max-width:680px;line-height:1.9;color:var(--cream-text-muted)}.cream-hero__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.cream-hero__btn{display:inline-flex;min-height:48px;align-items:center;justify-content:center;padding:0 22px;border-radius:999px;border:1px solid var(--cream-text);color:var(--cream-text);text-decoration:none}.cream-hero__btn.is-primary{background:var(--cream-primary);color:var(--cream-primary-text);border-color:var(--cream-primary-border)}.cream-hero__mock{display:grid;place-items:center;min-height:560px}.cream-hero__image-frame{position:relative;width:min(86vw,620px);aspect-ratio:2534/1425;border:1px solid var(--cream-border);border-radius:28px;overflow:hidden;box-shadow:0 34px 100px var(--cream-shadow);background:transparent}.cream-hero__image-frame img{width:100%;height:100%;display:block;object-fit:contain}.cream-hero__image-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,var(--cream-bg-transparent),rgba(13,3,38,.28));pointer-events:none}@media(max-width:899px){.cream-hero{padding:56px 16px 36px}.cream-hero__inner{grid-template-columns:1fr}.cream-hero__mock{min-height:auto}.cream-hero__image-frame{width:min(100%,360px)}.cream-hero__actions{display:grid}.cream-hero__btn{width:100%}}</style><section class='cream-hero'><div class='cream-hero__inner'><div><p class='cream-hero__eyebrow hero__subheading'>Premium Shopify Theme for Japan</p><h1>CREAM<br>by SOLSTAR</h1><p class='cream-hero__lead'>購入導線を整えた状態から始める、Shopifyテーマ。</p><p class='cream-hero__text'>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。日本市場のEC運用で使いやすい導線・セクション・表示設定を備え、構築初期から運用しやすいストアづくりを支援します。</p><div class='cream-hero__actions'><a class='cream-hero__btn is-primary' href='/products/cream-by-solstar'>無料テーマの詳細を見る</a><a class='cream-hero__btn' href='/products/cream-by-solstar'>無料テーマの詳細を見る</a></div></div><div class='cream-hero__mock' aria-label='Cream visual preview'><div class='cream-hero__image-frame'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Solstar_x_Customer_Result_Image_Fixed_copy.webp?v=1771409441' alt='CREAM by SOLSTAR visual preview' loading='eager'></div></div></div></section>",
+        "code": "<style>.cream-hero{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:88px 24px 54px;overflow:hidden}.cream-hero__inner{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(300px,.98fr);gap:48px;align-items:center}.cream-hero__eyebrow{margin:0 0 18px;color:var(--cream-text-muted)}.cream-hero h1{margin:0;line-height:.96;color:var(--cream-text)}.cream-hero__lead{margin:22px 0 0;line-height:1.5}.cream-hero__text{margin:18px 0 0;max-width:680px;line-height:1.9;color:var(--cream-text-muted)}.cream-hero__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.cream-hero__btn{display:inline-flex;min-height:48px;align-items:center;justify-content:center;padding:0 22px;border-radius:999px;border:1px solid var(--cream-text);color:var(--cream-text);text-decoration:none}.cream-hero__btn.is-primary{background:var(--cream-primary);color:var(--cream-primary-text);border-color:var(--cream-primary-border)}.cream-hero__mock{display:grid;place-items:center;min-height:560px}.cream-hero__image-frame{position:relative;width:min(86vw,620px);aspect-ratio:2534/1425;border:1px solid var(--cream-border);border-radius:28px;overflow:hidden;box-shadow:0 34px 100px var(--cream-shadow);background:transparent}.cream-hero__image-frame img{width:100%;height:100%;display:block;object-fit:contain}.cream-hero__image-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,var(--cream-bg-transparent),rgba(13,3,38,.28));pointer-events:none}@media(max-width:899px){.cream-hero{padding:56px 16px 36px}.cream-hero__inner{grid-template-columns:1fr}.cream-hero__mock{min-height:auto}.cream-hero__image-frame{width:min(100%,360px)}.cream-hero__actions{display:grid}.cream-hero__btn{width:100%}}</style><section class='cream-hero'><div class='cream-hero__inner'><div><p class='cream-hero__eyebrow hero__subheading'>Premium Shopify Theme for Japan</p><h1>CREAM<br>by SOLSTAR</h1><p class='cream-hero__lead'>購入導線を整えた状態から始める、Shopifyテーマ。</p><p class='cream-hero__text'>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。日本市場のEC運用で使いやすい導線・セクション・表示設定を備え、構築初期から運用しやすいストアづくりを支援します。</p><div class='cream-hero__actions'><a class='cream-hero__btn is-primary' href='/products/cream-by-solstar'>期間限定の無料体験を見る</a><a class='cream-hero__btn' href='/products/cream-by-solstar'>Creamの詳細を見る</a></div></div><div class='cream-hero__mock' aria-label='Cream visual preview'><div class='cream-hero__image-frame'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Solstar_x_Customer_Result_Image_Fixed_copy.webp?v=1771409441' alt='CREAM by SOLSTAR visual preview' loading='eager'></div></div></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -231,7 +231,7 @@
       "type": "section-custom-code",
       "name": "Japan market fit",
       "settings": {
-        "code": "<style>.cream-japan{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:90px 24px}.cream-japan__inner{max-width:1240px;margin:0 auto}.cream-japan__head{max-width:860px;margin:0 auto 42px;text-align:center}.cream-japan__eyebrow{margin:0 0 12px;color:var(--cream-primary)}.cream-japan h2{margin:0;line-height:1.18}.cream-japan__lead{margin:18px auto 0;line-height:1.9;color:var(--cream-text-muted)}.cream-japan__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.cream-japan__card{border:1px solid var(--cream-border);border-radius:8px;background:var(--cream-surface);color:var(--cream-bg);padding:24px;min-height:250px;display:flex;flex-direction:column;gap:14px}.cream-japan__icon{width:42px;height:42px;min-width:42px;min-height:42px;line-height:1;border-radius:999px;background:var(--cream-bg);color:var(--cream-text);border:2px solid var(--cream-primary);display:grid;place-items:center;text-align:center}.cream-japan__card h3{margin:0;line-height:1.4}.cream-japan__card p{margin:0;color:var(--cream-bg);line-height:1.8}.cream-japan__compare{margin-top:26px;border:1px solid var(--cream-border);border-radius:8px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr}.cream-japan__side{padding:28px;background:var(--cream-surface)}.cream-japan__side.is-cream{background:var(--cream-bg);color:var(--cream-text)}.cream-japan__side h3{margin:0 0 12px}.cream-japan__side p{margin:0 0 14px;line-height:1.8;color:inherit;opacity:.82}.cream-japan__side ul{margin:0;padding-left:1.2em;display:grid;gap:8px;line-height:1.75}.cream-japan__side:not(.is-cream){color:var(--cream-bg)}@media(max-width:899px){.cream-japan{padding:64px 16px}.cream-japan__grid{grid-template-columns:1fr}.cream-japan__compare{grid-template-columns:1fr}}</style><section class='cream-japan' id='cream-japan'><div class='cream-japan__inner'><div class='cream-japan__head'><p class='cream-japan__eyebrow hero__subheading'>Built for Japan</p><h2>海外テーマの調整に時間をかける前に、日本のEC運用を前提に。</h2><p class='cream-japan__lead'>多くのShopifyテーマはグローバル市場を前提に設計されています。Creamは、日本語表示、スマートフォンでの購入導線、「税込」表記、販促導線など、国内運用で確認したいポイントを最初から整理しやすいテーマです。</p></div><div class='cream-japan__grid'><article class='cream-japan__card'><div class='cream-japan__icon'>01</div><h3>スマホ起点の購入導線</h3><p>商品ページを読み進めている途中でも、購入ボタンへアクセスしやすい設計です。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>02</div><h3>LINE友だち追加導線</h3><p>友だち追加や告知導線を設置し、購入後の再訪やリピート施策につなげやすい接点を作れます。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>03</div><h3>「税込」表記のOn/Offに対応</h3><p>商品価格の近くに表示する「税込」などの補足文言を、テーマ設定から切り替えられます。日本のECサイトで求められやすい価格表示のわかりやすさを整えやすい構成です。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>04</div><h3>レビュー・期間限定訴求を見せやすい</h3><p>Testimonials、Countdown、Saleバッジで、安心感や購入のきっかけを作りやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>05</div><h3>アプリ追加コストを抑える</h3><p>頻出する販促・演出・回遊機能をテーマ側に備え、管理の複雑化を抑えやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>06</div><h3>越境運用を見据えたセレクターUI</h3><p>Shopify Marketsを活用した越境運用を見据え、多言語・多通貨セレクターを設置できる構成です。対象国、決済、配送、翻訳運用については、Shopifyの設定や運用要件に応じた整理が必要です。</p></article></div><div class='cream-japan__compare'><div class='cream-japan__side'><h3>海外製テーマで起きがちなこと</h3><p>デザイン性は高くても、日本語表示や国内向けの購入導線に合わせるため、公開前に細かな調整が必要になることがあります。</p><ul><li>日本の購入行動に合う導線を後から追加する</li><li>価格補足文言やLINE導線をアプリで補う</li><li>運用時の調整項目が足りず、更新しづらくなる</li></ul></div><div class='cream-japan__side is-cream'><h3>Creamの考え方</h3><p>SOLSTARがEC構築・運用で培ったノウハウを設計に反映し、公開後も扱いやすいストアづくりを支援します。</p><ul><li>モバイル購入導線を最初から設計する</li><li>日本市場の表記・販促・再訪導線を前提にする</li><li>ブランド表現と購入導線を同じテーマ内で両立する</li></ul></div></div></div></section>",
+        "code": "<style>.cream-japan{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:90px 24px}.cream-japan__inner{max-width:1240px;margin:0 auto}.cream-japan__head{max-width:860px;margin:0 auto 42px;text-align:center}.cream-japan__eyebrow{margin:0 0 12px;color:var(--cream-primary)}.cream-japan h2{margin:0;line-height:1.18}.cream-japan__lead{margin:18px auto 0;line-height:1.9;color:var(--cream-text-muted)}.cream-japan__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.cream-japan__card{border:1px solid var(--cream-border);border-radius:8px;background:var(--cream-surface);color:var(--cream-bg);padding:24px;min-height:250px;display:flex;flex-direction:column;gap:14px}.cream-japan__icon{width:42px;height:42px;min-width:42px;min-height:42px;line-height:1;border-radius:999px;background:var(--cream-bg);color:var(--cream-text);border:2px solid var(--cream-primary);display:grid;place-items:center;text-align:center}.cream-japan__card h3{margin:0;line-height:1.4}.cream-japan__card p{margin:0;color:var(--cream-bg);line-height:1.8}.cream-japan__compare{margin-top:26px;border:1px solid var(--cream-border);border-radius:8px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr}.cream-japan__side{padding:28px;background:var(--cream-surface)}.cream-japan__side.is-cream{background:var(--cream-bg);color:var(--cream-text)}.cream-japan__side h3{margin:0 0 12px}.cream-japan__side p{margin:0 0 14px;line-height:1.8;color:inherit;opacity:.82}.cream-japan__side ul{margin:0;padding-left:1.2em;display:grid;gap:8px;line-height:1.75}.cream-japan__side:not(.is-cream){color:var(--cream-bg)}@media(max-width:899px){.cream-japan{padding:64px 16px}.cream-japan__grid{grid-template-columns:1fr}.cream-japan__compare{grid-template-columns:1fr}}</style><section class='cream-japan' id='cream-japan'><div class='cream-japan__inner'><div class='cream-japan__head'><p class='cream-japan__eyebrow hero__subheading'>Built for Japan</p><h2>海外テーマの調整に時間をかける前に、日本のEC運用を前提に。</h2><p class='cream-japan__lead'>多くのShopifyテーマはグローバル市場を前提に設計されています。Creamは、日本語表示、スマートフォンでの購入導線、「税込」表記、販促導線など、国内運用で確認したいポイントを最初から整理しやすいテーマです。</p></div><div class='cream-japan__grid'><article class='cream-japan__card'><div class='cream-japan__icon'>01</div><h3>スマホ起点の購入導線</h3><p>スマホ画面下部にナビや購入ボタンを表示し、商品閲覧中でも購入操作へ進みやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>02</div><h3>LINE友だち追加導線</h3><p>友だち追加や告知導線を設置し、購入後の再訪やリピート施策につなげやすい接点を作れます。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>03</div><h3>「税込」表記のOn/Offに対応</h3><p>商品価格の近くに表示する「税込」などの補足文言を、テーマ設定から切り替えられます。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>04</div><h3>レビュー・セール表示</h3><p>レビュー表示、カウントダウン、Saleバッジで、商品選びの判断材料を見せやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>05</div><h3>アプリ追加コストを抑える</h3><p>頻出する販促・演出・回遊機能をテーマ側に備え、管理の複雑化を抑えやすくします。</p></article><article class='cream-japan__card'><div class='cream-japan__icon'>06</div><h3>言語・通貨セレクター</h3><p>Shopify Marketsの設定に合わせて、言語や国・地域のセレクターを表示できます。</p></article></div><div class='cream-japan__compare'><div class='cream-japan__side'><h3>海外製テーマで起きがちなこと</h3><p>デザイン性は高くても、日本語表示や国内向けの購入導線に合わせるため、公開前に細かな調整が必要になることがあります。</p><ul><li>日本の購入行動に合う導線を後から追加する</li><li>価格補足文言やLINE導線をアプリで補う</li><li>運用時の調整項目が足りず、更新しづらくなる</li></ul></div><div class='cream-japan__side is-cream'><h3>Creamの考え方</h3><p>SOLSTARがEC構築・運用で培ったノウハウを設計に反映し、公開後も扱いやすいストアづくりを支援します。</p><ul><li>モバイル購入導線を最初から設計する</li><li>日本市場の表記・販促・再訪導線を前提にする</li><li>ブランド表現と購入導線を同じテーマ内で両立する</li></ul></div></div></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -286,7 +286,7 @@
         "text_ayqcUP": {
           "type": "text",
           "settings": {
-            "text": "<p>製品詳細ページで、Creamの機能、無料提供条件、導入方法を確認できます。</p>",
+            "text": "<p>製品詳細ページで、Creamの機能、無料体験条件、導入方法を確認できます。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -294,7 +294,7 @@
         "buttons_6Q8xz3": {
           "type": "buttons",
           "settings": {
-            "button_text": "無料テーマの詳細を見る",
+            "button_text": "期間限定の無料体験を見る",
             "button_url": "/products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
@@ -405,9 +405,10 @@
     },
     "section_custom_code_cream_pricing": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Pricing options",
       "settings": {
-        "code": "<style>.cream-pricing{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:90px 24px}.cream-pricing__inner{max-width:980px;margin:0 auto}.cream-pricing__head{text-align:center;max-width:820px;margin:0 auto 34px}.cream-pricing__head p{margin:0 0 12px;color:var(--cream-primary);}.cream-pricing__head h2{margin:0;line-height:1.18}.cream-pricing__card{background:var(--cream-surface);color:var(--cream-bg);border:1px solid var(--cream-border);border-radius:8px;padding:30px}.cream-pricing__card p{margin:0 0 18px;color:var(--cream-bg);line-height:1.8}.cream-pricing__card p:last-child{margin-bottom:0}.cream-pricing__list{margin:0 0 18px;padding-left:1.2em;display:grid;gap:8px;line-height:1.75}.cream-pricing__cta{display:inline-flex;align-items:center;justify-content:center;min-height:46px;margin-top:22px;padding:0 22px;border-radius:999px;background:var(--cream-primary);color:var(--cream-primary-text);border:1px solid var(--cream-primary-border);text-decoration:none}@media(max-width:799px){.cream-pricing{padding:64px 16px}.cream-pricing__card{padding:24px}}</style><section class='cream-pricing' id='cream-pricing'><div class='cream-pricing__inner'><div class='cream-pricing__head'><p class='hero__subheading'>Free offering</p><h2>Cream by SOLSTARは、現在無料で提供しています。</h2></div><article class='cream-pricing__card'><p>Cream by SOLSTARは、日本市場向けのShopifyテーマとして、現在無料でご利用いただけます。51セクションや約180項目のデザイン設定、販促・回遊に役立つ一部機能を備え、構築初期から運用しやすいストアづくりを支援します。</p><ul class='cream-pricing__list'><li>51セクション</li><li>約180項目のデザイン設定</li><li>販促・回遊に役立つ一部機能</li></ul><p>ただし、Shopifyの月額利用料、決済手数料、有料アプリ、個別カスタマイズ、構築代行、運用サポートなどは別途費用が発生する場合があります。</p><a class='cream-pricing__cta' href='/products/cream-by-solstar'>無料テーマの詳細を見る</a></article></div></section>",
+        "code": "<style>.cream-pricing{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:90px 24px}.cream-pricing__inner{max-width:980px;margin:0 auto}.cream-pricing__head{text-align:center;max-width:820px;margin:0 auto 34px}.cream-pricing__head p{margin:0 0 12px;color:var(--cream-primary);}.cream-pricing__head h2{margin:0;line-height:1.18}.cream-pricing__card{background:var(--cream-surface);color:var(--cream-bg);border:1px solid var(--cream-border);border-radius:8px;padding:30px}.cream-pricing__card p{margin:0 0 18px;color:var(--cream-bg);line-height:1.8}.cream-pricing__card p:last-child{margin-bottom:0}.cream-pricing__list{margin:0 0 18px;padding-left:1.2em;display:grid;gap:8px;line-height:1.75}.cream-pricing__cta{display:inline-flex;align-items:center;justify-content:center;min-height:46px;margin-top:22px;padding:0 22px;border-radius:999px;background:var(--cream-primary);color:var(--cream-primary-text);border:1px solid var(--cream-primary-border);text-decoration:none}@media(max-width:799px){.cream-pricing{padding:64px 16px}.cream-pricing__card{padding:24px}}</style><section class='cream-pricing' id='cream-pricing'><div class='cream-pricing__inner'><div class='cream-pricing__head'><p class='hero__subheading'>Free offering</p><h2>Cream by SOLSTARは、現在期間限定で無料体験を提供しています。</h2></div><article class='cream-pricing__card'><p>Cream by SOLSTARは、日本市場向けのShopifyテーマとして、現在期間限定で無料体験をご利用いただけます。51セクションや約180項目のデザイン設定、販促・回遊に役立つ一部機能を備え、構築初期から運用しやすいストアづくりを支援します。</p><ul class='cream-pricing__list'><li>51セクション</li><li>約180項目のデザイン設定</li><li>販促・回遊に役立つ一部機能</li></ul><p>ただし、Shopifyの月額利用料、決済手数料、有料アプリ、個別カスタマイズ、構築代行、運用サポートなどは別途費用が発生する場合があります。</p><a class='cream-pricing__cta' href='/products/cream-by-solstar'>期間限定の無料体験を見る</a></article></div></section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
@@ -532,7 +533,7 @@
         "text_final": {
           "type": "text",
           "settings": {
-            "text": "<p>Creamの機能、無料提供条件、導入方法を確認したい方は、製品詳細ページをご覧ください。</p>",
+            "text": "<p>Creamの機能、無料体験条件、導入方法を確認したい方は、製品詳細ページをご覧ください。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 18
           }
@@ -540,7 +541,7 @@
         "button_demo": {
           "type": "buttons",
           "settings": {
-            "button_text": "無料テーマの詳細を見る",
+            "button_text": "期間限定の無料体験を見る",
             "button_url": "/products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
@@ -585,17 +586,17 @@
         "name_zRJQ8m": {
           "type": "name",
           "settings": {
-            "first_heading": "姓",
-            "first_label": "姓",
-            "last_heading": "名",
-            "last_label": "名",
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
             "required": true
           }
         },
         "email_FPFy6z": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
+            "title": "Email",
             "heading": "メールアドレス",
             "required": true
           }
@@ -603,7 +604,7 @@
         "telephone_ta8rec": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
+            "title": "Phone Number",
             "heading": "電話番号",
             "required": true
           }
@@ -611,15 +612,15 @@
         "text_7ciehP": {
           "type": "text",
           "settings": {
-            "title": "会社名",
+            "title": "Company",
             "heading": "会社名",
-            "required": false
+            "required": true
           }
         },
         "text_FgRwa3": {
           "type": "text",
           "settings": {
-            "title": "役職",
+            "title": "Position",
             "heading": "役職",
             "required": false
           }
@@ -627,9 +628,9 @@
         "body_MjYj43": {
           "type": "body",
           "settings": {
-            "title": "お問い合わせ内容",
+            "title": "問い合わせ内容（任意）",
             "heading": "",
-            "required": true
+            "required": false
           }
         },
         "select_Ut4fd9": {
@@ -637,12 +638,26 @@
           "settings": {
             "title": "お問い合わせ種別",
             "required": true,
-            "label-one": "Cream by Solstarについて",
-            "label-two": "その他",
-            "label-three": "",
-            "label-four": "",
-            "label-five": "",
-            "label-six": ""
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
           }
         }
       },
@@ -653,7 +668,8 @@
         "text_7ciehP",
         "text_FgRwa3",
         "body_MjYj43",
-        "select_Ut4fd9"
+        "select_Ut4fd9",
+        "Options-select"
       ],
       "name": "Contact form",
       "settings": {
@@ -663,8 +679,8 @@
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 80,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     }
