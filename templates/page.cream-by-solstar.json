@@ -25,6 +25,77 @@
         "heading_tag": "h1"
       }
     },
+    "section_double_dPR33e": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_GNjBX9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Premium Shopify Theme for Japan",
+            "padding_bottom": 16
+          }
+        },
+        "heading_4JJ7wJ": {
+          "type": "heading",
+          "settings": {
+            "title": "CREAM by SOLSTAR",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_e7Af9P": {
+          "type": "text",
+          "settings": {
+            "text": "<p>世界観も、購入体験も、あきらめない。</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "text_4MTE9V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。日本市場でのEC運用に必要な導線・UI・SEO基盤をあらかじめ備え、構築初期から運用しやすいストアづくりを支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_HUcgJy": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "無料で体験する",
+            "button_url": "shopify://products/cream-by-solstar",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GNjBX9",
+        "heading_4JJ7wJ",
+        "text_e7Af9P",
+        "text_4MTE9V",
+        "buttons_HUcgJy"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "section_custom_code_cream_nav": {
       "type": "section-custom-code",
       "name": "Cream announcement and anchor nav",
@@ -38,6 +109,7 @@
     },
     "section_custom_code_cream_hero": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Cream hero",
       "settings": {
         "code": "<style>.cream-hero{--cream-bg:#0d0326;--cream-text:#ffffff;--cream-text-muted:rgba(255,255,255,.8);--cream-shadow:rgba(255,255,255,.35);--cream-surface:#f5f2ec;--cream-surface-light:#ffffff;--cream-bg-brighter:#26124f;--cream-bg-transparent:rgba(13,3,38,0);--cream-primary:#ab8c52;--cream-primary-text:#fcfbf9;--cream-primary-border:#fcfbf9;--cream-accent:#665035;--cream-border:#d1cdc4;background:var(--cream-bg);color:var(--cream-text);padding:88px 24px 54px;overflow:hidden}.cream-hero__inner{max-width:1240px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(300px,.98fr);gap:48px;align-items:center}.cream-hero__eyebrow{margin:0 0 18px;color:var(--cream-text-muted)}.cream-hero h1{margin:0;line-height:.96;color:var(--cream-text)}.cream-hero__lead{margin:22px 0 0;line-height:1.5}.cream-hero__text{margin:18px 0 0;max-width:680px;line-height:1.9;color:var(--cream-text-muted)}.cream-hero__actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.cream-hero__btn{display:inline-flex;min-height:48px;align-items:center;justify-content:center;padding:0 22px;border-radius:999px;border:1px solid var(--cream-text);color:var(--cream-text);text-decoration:none}.cream-hero__btn.is-primary{background:var(--cream-primary);color:var(--cream-primary-text);border-color:var(--cream-primary-border)}.cream-hero__mock{display:grid;place-items:center;min-height:560px}.cream-hero__image-frame{position:relative;width:min(86vw,620px);aspect-ratio:2534/1425;border:1px solid var(--cream-border);border-radius:28px;overflow:hidden;box-shadow:0 34px 100px var(--cream-shadow);background:transparent}.cream-hero__image-frame img{width:100%;height:100%;display:block;object-fit:contain}.cream-hero__image-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,var(--cream-bg-transparent),rgba(13,3,38,.28));pointer-events:none}@media(max-width:899px){.cream-hero{padding:56px 16px 36px}.cream-hero__inner{grid-template-columns:1fr}.cream-hero__mock{min-height:auto}.cream-hero__image-frame{width:min(100%,360px)}.cream-hero__actions{display:grid}.cream-hero__btn{width:100%}}</style><section class='cream-hero'><div class='cream-hero__inner'><div><p class='cream-hero__eyebrow hero__subheading'>Premium Shopify Theme for Japan</p><h1>CREAM<br>by SOLSTAR</h1><p class='cream-hero__lead'>世界観も、購入体験も、あきらめない。</p><p class='cream-hero__text'>Creamは、株式会社SOLSTARが独自開発したShopifyテーマです。日本市場でのEC運用に必要な導線・UI・SEO基盤をあらかじめ備え、構築初期から運用しやすいストアづくりを支援します。</p><div class='cream-hero__actions'><a class='cream-hero__btn is-primary' href='#cream-demo'>デモを見る</a><a class='cream-hero__btn' href='#ContactForm--contact_form_Gq94hq'>無料体験を相談する</a></div></div><div class='cream-hero__mock' aria-label='Cream visual preview'><div class='cream-hero__image-frame'><img src='https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Solstar_x_Customer_Result_Image_Fixed_copy.webp?v=1771409441' alt='CREAM by SOLSTAR visual preview' loading='eager'></div></div></div></section>",
@@ -598,6 +670,7 @@
   },
   "order": [
     "main",
+    "section_double_dPR33e",
     "section_custom_code_cream_nav",
     "section_custom_code_cream_hero",
     "section_video_CA3Knt",
