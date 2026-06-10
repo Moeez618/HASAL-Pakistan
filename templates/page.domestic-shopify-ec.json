@@ -1049,7 +1049,8 @@
             "first_label": "太郎",
             "last_heading": "苗字",
             "last_label": "鈴木",
-            "required": true
+            "required": true,
+            "reverse_name": true
           }
         },
         "email_zEpefz": {
