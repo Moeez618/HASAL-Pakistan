@@ -52,7 +52,7 @@
             "title": "CREAM",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h1"
           }
         },
         "text_micm3U": {
