@@ -210,7 +210,7 @@
               data-aos-order="{{ animation_order }}"
               {{ block.shopify_attributes }}
             >
-              <div class="contact-form__name-grid">
+              {%- capture name_field_first -%}
                 <div>
                   {%- assign normalized_first_heading = block.settings.first_heading | strip -%}
                   {%- assign show_first_heading = false -%}
@@ -247,6 +247,8 @@
                     {{ required }}
                   >
                 </div>
+              {%- endcapture -%}
+              {%- capture name_field_last -%}
                 <div>
                   {%- assign normalized_last_heading = block.settings.last_heading | strip -%}
                   {%- assign show_last_heading = false -%}
@@ -283,6 +285,15 @@
                     {{ required }}
                   >
                 </div>
+              {%- endcapture -%}
+              <div class="contact-form__name-grid">
+                {%- if block.settings.reverse_name -%}
+                  {{ name_field_last }}
+                  {{ name_field_first }}
+                {%- else -%}
+                  {{ name_field_first }}
+                  {{ name_field_last }}
+                {%- endif -%}
               </div>
             </div>
 
@@ -845,6 +856,13 @@
           "id": "last_label",
           "label": "Last name label",
           "default": "Last name"
+        },
+        {
+          "type": "checkbox",
+          "id": "reverse_name",
+          "label": "Reverse first and last name order",
+          "info": "Shows the last name field before the first name field.",
+          "default": false
         },
         {
           "type": "checkbox",
