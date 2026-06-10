@@ -583,18 +583,18 @@
     "contact_form_Gq94hq": {
       "type": "contact-form",
       "blocks": {
-        "name_zRJQ8m": {
+        "name_iQFAiV": {
           "type": "name",
           "settings": {
             "first_heading": "名前",
             "first_label": "太郎",
             "last_heading": "苗字",
             "last_label": "鈴木",
-            "required": true,
-            "reverse_name": true
+            "reverse_name": true,
+            "required": true
           }
         },
-        "email_FPFy6z": {
+        "email_zEpefz": {
           "type": "email",
           "settings": {
             "title": "Email",
@@ -602,7 +602,7 @@
             "required": true
           }
         },
-        "telephone_ta8rec": {
+        "telephone_DmUA6B": {
           "type": "telephone",
           "settings": {
             "title": "Phone Number",
@@ -610,7 +610,7 @@
             "required": true
           }
         },
-        "text_7ciehP": {
+        "text_UNiVit": {
           "type": "text",
           "settings": {
             "title": "Company",
@@ -618,7 +618,7 @@
             "required": true
           }
         },
-        "text_FgRwa3": {
+        "text_7YcUqW": {
           "type": "text",
           "settings": {
             "title": "Position",
@@ -626,7 +626,7 @@
             "required": false
           }
         },
-        "body_MjYj43": {
+        "Message": {
           "type": "body",
           "settings": {
             "title": "問い合わせ内容（任意）",
@@ -634,7 +634,7 @@
             "required": false
           }
         },
-        "select_Ut4fd9": {
+        "select_GTz36X": {
           "type": "select",
           "settings": {
             "title": "お問い合わせ種別",
@@ -663,16 +663,15 @@
         }
       },
       "block_order": [
-        "name_zRJQ8m",
-        "email_FPFy6z",
-        "telephone_ta8rec",
-        "text_7ciehP",
-        "text_FgRwa3",
-        "body_MjYj43",
-        "select_Ut4fd9",
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X",
         "Options-select"
       ],
-      "name": "Contact form",
       "settings": {
         "subheading": "",
         "title": "お問い合わせ",

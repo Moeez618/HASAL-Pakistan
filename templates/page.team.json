@@ -361,92 +361,105 @@
     "contact_form_XARiPd": {
       "type": "contact-form",
       "blocks": {
-        "text_TLwQjX": {
-          "type": "text",
+        "name_iQFAiV": {
+          "type": "name",
           "settings": {
-            "title": "お名前",
-            "heading": "",
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
             "required": true
           }
         },
-        "email_EyDQ7P": {
+        "email_zEpefz": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
-            "heading": "",
+            "title": "Email",
+            "heading": "メールアドレス",
             "required": true
           }
         },
-        "telephone_fxa9cA": {
+        "telephone_DmUA6B": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
-            "heading": "",
+            "title": "Phone Number",
+            "heading": "電話番号",
             "required": true
           }
         },
-        "text_HP3BLQ": {
+        "text_UNiVit": {
           "type": "text",
           "settings": {
-            "title": "会社名",
-            "heading": "",
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
             "required": false
           }
         },
-        "body_BYNV8g": {
+        "Message": {
           "type": "body",
           "settings": {
-            "title": "問い合わせ内容",
+            "title": "問い合わせ内容（任意）",
             "heading": "",
             "required": false
           }
         },
-        "select_V9h8hA": {
+        "select_GTz36X": {
           "type": "select",
           "settings": {
-            "title": "問い合わせ種別",
+            "title": "お問い合わせ種別",
             "required": true,
-            "label-one": "",
-            "label-two": "国内ECサイト構築",
-            "label-three": "グローバルECサイト構築",
-            "label-four": "ECサイトリニューアル",
-            "label-five": "その他",
-            "label-six": ""
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
           }
         },
-        "select_cCY7AH": {
+        "Options-select": {
           "type": "select",
+          "disabled": true,
           "settings": {
             "title": "ご希望プラン",
             "required": true,
-            "label-one": "",
-            "label-two": "Basicプランで相談する",
-            "label-three": "Standardプランで相談する",
-            "label-four": "Proプランで相談する",
-            "label-five": "プランを決めずに相談する",
-            "label-six": ""
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
           }
         }
       },
       "block_order": [
-        "text_TLwQjX",
-        "email_EyDQ7P",
-        "telephone_fxa9cA",
-        "text_HP3BLQ",
-        "body_BYNV8g",
-        "select_V9h8hA",
-        "select_cCY7AH"
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X",
+        "Options-select"
       ],
-      "name": "Contact form",
       "settings": {
+        "subheading": "",
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "heading_tag": "h2"
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
       }
     }
   },

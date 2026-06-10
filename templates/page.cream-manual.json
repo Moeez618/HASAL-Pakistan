@@ -39,90 +39,104 @@
     "contact_form_XtLXAm": {
       "type": "contact-form",
       "blocks": {
-        "text_89HtmC": {
-          "type": "text",
+        "name_iQFAiV": {
+          "type": "name",
           "settings": {
-            "title": "お名前",
-            "heading": "",
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
             "required": true
           }
         },
-        "email_KiembB": {
+        "email_zEpefz": {
           "type": "email",
           "settings": {
-            "title": "メールアドレス",
-            "heading": "",
+            "title": "Email",
+            "heading": "メールアドレス",
             "required": true
           }
         },
-        "telephone_dtJFzB": {
+        "telephone_DmUA6B": {
           "type": "telephone",
           "settings": {
-            "title": "電話番号",
-            "heading": "",
+            "title": "Phone Number",
+            "heading": "電話番号",
             "required": true
           }
         },
-        "text_tYADix": {
+        "text_UNiVit": {
           "type": "text",
           "settings": {
-            "title": "会社名",
-            "heading": "",
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
             "required": false
           }
         },
-        "body_wym9b4": {
+        "Message": {
           "type": "body",
           "settings": {
-            "title": "お問い合わせ内容",
+            "title": "問い合わせ内容（任意）",
             "heading": "",
             "required": false
           }
         },
-        "select_tkmRUi": {
+        "select_GTz36X": {
           "type": "select",
           "settings": {
             "title": "お問い合わせ種別",
             "required": true,
-            "label-one": "国内ECサイト構築",
-            "label-two": "グローバルECサイト構築",
-            "label-three": "ECサイトリニューアル",
-            "label-four": "その他",
-            "label-five": "",
-            "label-six": ""
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
           }
         },
-        "select_P47BmL": {
+        "Options-select": {
           "type": "select",
+          "disabled": true,
           "settings": {
             "title": "ご希望プラン",
             "required": true,
-            "label-one": "Basicプランで相談する",
-            "label-two": "Standardプランで相談する",
-            "label-three": "Proプランで相談する",
-            "label-four": "プランを決めずに相談する",
-            "label-five": "",
-            "label-six": ""
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
           }
         }
       },
       "block_order": [
-        "text_89HtmC",
-        "email_KiembB",
-        "telephone_dtJFzB",
-        "text_tYADix",
-        "body_wym9b4",
-        "select_tkmRUi",
-        "select_P47BmL"
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X",
+        "Options-select"
       ],
       "settings": {
+        "subheading": "",
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 100,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "automatic"
       }
     }

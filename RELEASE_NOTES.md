@@ -1,5 +1,16 @@
 # Release Notes
 
+## 2026-06-10
+
+### Added
+
+- お問い合わせフォーム（Contact form）の Name ブロックに `Reverse first and last name order` 設定を追加し、姓（Last name）→ 名（First name）の順で入力欄を表示できるようにしました。設定は `Required` チェックボックスの前に配置しています。
+- DOM の並び順自体を入れ替える実装としたため、タブ移動順やスクリーンリーダーの読み上げ順も表示順と一致します。送信値の `contact[first_name]` / `contact[last_name]` は従来どおり維持されます。
+
+### Verification
+
+- `sections/contact-form.liquid` schema JSON parsing passed.
+
 ## 2026-06-04
 
 ### Added

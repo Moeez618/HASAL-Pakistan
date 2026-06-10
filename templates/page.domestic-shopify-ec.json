@@ -1049,8 +1049,8 @@
             "first_label": "太郎",
             "last_heading": "苗字",
             "last_label": "鈴木",
-            "required": true,
-            "reverse_name": true
+            "reverse_name": true,
+            "required": true
           }
         },
         "email_zEpefz": {
@@ -1131,16 +1131,13 @@
         "select_GTz36X",
         "Options-select"
       ],
-      "custom_css": [
-        ".contact__form__subheading {width: 100%; margin: 0 auto 12px; color: #ab8c52; text-align: center; display: block;}"
-      ],
       "settings": {
-        "subheading": "Contact",
+        "subheading": "",
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
