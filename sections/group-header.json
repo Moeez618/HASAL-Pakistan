@@ -25,23 +25,10 @@
             "target_device_enabled": false,
             "target_device": "mobile"
           }
-        },
-        "text_zHbQN3": {
-          "type": "text",
-          "settings": {
-            "text": "<p><a href=\"/pages/shopify-outage-june-2026\" title=\"Shopify一時大規模障害レポート【2026年6月】\">Shopify一時大規模障害レポート</a></p>",
-            "target_url_enabled": false,
-            "target_url": "shopify://pages/contact",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
         }
       },
       "block_order": [
-        "text_GntGQL",
-        "text_zHbQN3"
+        "text_GntGQL"
       ],
       "settings": {
         "show_border": false,
