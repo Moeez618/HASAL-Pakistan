@@ -360,11 +360,14 @@
         </a>
       </div>
     {%- endif -%}
-    <div class="header__mobile__button">
-      <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" data-cart-toggle>
-        {{ cart_status }}
-      </a>
-    </div>
+    {%- comment -%} カートに商品があるときだけカートアイコンを表示 {%- endcomment -%}
+    {%- if cart.item_count > 0 -%}
+      <div class="header__mobile__button">
+        <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" data-cart-toggle>
+          {{ cart_status }}
+        </a>
+      </div>
+    {%- endif -%}
   </div>
 
   {%- if secondary_menu_linklist != blank and linklists[secondary_menu_linklist].links.size > 0 -%}
@@ -437,11 +440,14 @@
       </div>
     {%- endif -%}
 
-    <div class="header__desktop__button">
-      <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" data-cart-toggle>
-        {{ cart_status }}
-      </a>
-    </div>
+    {%- comment -%} カートに商品があるときだけカートアイコンを表示 {%- endcomment -%}
+    {%- if cart.item_count > 0 -%}
+      <div class="header__desktop__button">
+        <a href="{{ routes.cart_url }}" class="navlink {{ navlink_cart_classes }}" title="{{ 'cart.general.title' | t }}" data-cart-toggle>
+          {{ cart_status }}
+        </a>
+      </div>
+    {%- endif -%}
   </div>
 {%- endcapture -%}
 
