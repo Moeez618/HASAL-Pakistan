@@ -90,6 +90,7 @@
             "first_label": "太郎",
             "last_heading": "苗字",
             "last_label": "鈴木",
+            "reverse_name": true,
             "required": true
           }
         },
@@ -172,6 +173,7 @@
         "Options-select"
       ],
       "settings": {
+        "subheading": "",
         "title": "お問い合わせ",
         "heading_font_size": "heading-large",
         "terms": true,

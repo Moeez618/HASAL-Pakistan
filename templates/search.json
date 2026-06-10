@@ -1,1 +1,167 @@
-{"sections":{"main":{"type":"search","settings":{"enable_sort":false,"enable_filters":false,"filter_layout":"inline-open","collection_linklist":"","color_scheme":"","padding_top":50,"padding_bottom":50}},"section_rich_text_77DVpz":{"type":"section-rich-text","blocks":{"heading_n6Hqhh":{"type":"heading","settings":{"title":"最初の一歩を踏み出しましょう","heading_font_size":"heading-large","padding_bottom":16,"heading_tag":"automatic"}},"text_ngF8gV":{"type":"text","settings":{"text":"<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？<\/p>","text_font_size":"body-medium","padding_bottom":16}}},"block_order":["heading_n6Hqhh","text_ngF8gV"],"settings":{"align_text":"text-left","width":"wrapper","color_scheme":"","padding_top":0,"padding_bottom":50}},"contact_form_WptQBB":{"type":"contact-form","blocks":{"text_fTtA6d":{"type":"text","settings":{"title":"名前","required":true}},"email_hVz478":{"type":"email","settings":{"title":"メールアドレス","required":true}},"telephone_PjcnrP":{"type":"telephone","settings":{"title":"電話番号","required":true}},"text_tnCPEd":{"type":"text","settings":{"title":"会社名","required":false}},"body_V6i99f":{"type":"body","settings":{"title":"問い合わせ内容","required":false}},"select_hn7Aqa":{"type":"select","settings":{"title":"お問い合わせ種別","required":true,"label-one":"国内ECサイト構築","label-two":"グローバルECサイト構築","label-three":"ECサイトリニューアル","label-four":"その他","label-five":"","label-six":""}},"select_BGAjAY":{"type":"select","settings":{"title":"ご希望プラン","required":true,"label-one":"Basicプランで相談する","label-two":"Standardプランで相談する","label-three":"Proプランで相談する","label-four":"プランを決めずに相談する","label-five":"","label-six":""}}},"block_order":["text_fTtA6d","email_hVz478","telephone_PjcnrP","text_tnCPEd","body_V6i99f","select_hn7Aqa","select_BGAjAY"],"settings":{"title":"お問い合わせ","heading_font_size":"heading-large","terms":true,"width":"wrapper--narrow","color_scheme":"","padding_top":0,"padding_bottom":50,"heading_tag":"automatic"}}},"order":["main","section_rich_text_77DVpz","contact_form_WptQBB"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "search",
+      "settings": {
+        "enable_sort": false,
+        "enable_filters": false,
+        "filter_layout": "inline-open",
+        "collection_linklist": "",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_rich_text_77DVpz": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading_n6Hqhh": {
+          "type": "heading",
+          "settings": {
+            "title": "最初の一歩を踏み出しましょう",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_ngF8gV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6Hqhh",
+        "text_ngF8gV"
+      ],
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "contact_form_WptQBB": {
+      "type": "contact-form",
+      "blocks": {
+        "name_iQFAiV": {
+          "type": "name",
+          "settings": {
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
+            "required": true
+          }
+        },
+        "email_zEpefz": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "heading": "メールアドレス",
+            "required": true
+          }
+        },
+        "telephone_DmUA6B": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number",
+            "heading": "電話番号",
+            "required": true
+          }
+        },
+        "text_UNiVit": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
+            "required": false
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容（任意）",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_GTz36X": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
+          }
+        }
+      },
+      "block_order": [
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X",
+        "Options-select"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "section_rich_text_77DVpz",
+    "contact_form_WptQBB"
+  ]
+}
