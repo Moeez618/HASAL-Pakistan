@@ -1202,7 +1202,7 @@
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "automatic"
