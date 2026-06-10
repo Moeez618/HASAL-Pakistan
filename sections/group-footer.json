@@ -17,9 +17,9 @@
         "footer-0": {
           "type": "newsletter",
           "settings": {
-            "title": "ニュースレター",
+            "title": "EC運用の「次の一手」が届くメールマガジン",
             "heading_font_size": "heading-medium",
-            "text": "<p>「売上アップのヒントが届く！」最新のEC運用ノウハウとセール情報をお届けします。</p>",
+            "text": "<p>Shopify最新アップデートの解説、売上改善の実践ノウハウ、セミナー・無料資料のご案内をお届けします。</p>",
             "button_text": "登録する",
             "show_arrow": true,
             "terms": false,
