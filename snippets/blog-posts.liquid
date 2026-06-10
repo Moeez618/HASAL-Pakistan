@@ -17,7 +17,11 @@
   assign show_button = section.settings.show_button
   assign show_tags = section.settings.show_tags
   assign show_comments = section.settings.show_comments
-  assign aspect_ratio = 1 | divided_by: section.settings.aspect_ratio
+  if section.settings.aspect_ratio == 'natural'
+    assign aspect_ratio = ''
+  else
+    assign aspect_ratio = 1.0 | divided_by: section.settings.aspect_ratio
+  endif
   assign onboarding = true
   assign animation_anchor = '#Blog--' | append: section.id
   assign animation_duration = 800
@@ -67,7 +71,7 @@
                 data-aos-duration="{{ animation_duration }}"
                 data-aos-easing="ease-out-quart"
               >
-                <div class="image-wrapper" style="--aspect-ratio: {{ aspect_ratio }};">
+                <div class="image-wrapper" style="--aspect-ratio: {{ aspect_ratio | default: 1 }};">
                   {{ 'image' | placeholder_svg_tag }}
                 </div>
               </a>

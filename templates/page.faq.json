@@ -12,6 +12,8 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "heading_tag": "h1",
         "align_text": "text-center"
       }
     },

@@ -7,9 +7,19 @@
 - お問い合わせフォーム（Contact form）の Name ブロックに `Reverse first and last name order` 設定を追加し、姓（Last name）→ 名（First name）の順で入力欄を表示できるようにしました。設定は `Required` チェックボックスの前に配置しています。
 - DOM の並び順自体を入れ替える実装としたため、タブ移動順やスクリーンリーダーの読み上げ順も表示順と一致します。送信値の `contact[first_name]` / `contact[last_name]` は従来どおり維持されます。
 
+### Fixed (SEO)
+
+- H1 が存在しなかった 5 ページに H1 を 1 つずつ設定しました。`page.faq`・`page.story` は main-page セクションの見出しを、`page.contact` はお問い合わせフォームの見出し（「お問い合わせ」）を、`page.lookbook` は先頭 section-double の見出しを、`page.theme-features` は先頭 rich-text の見出し（「CREAM」）をそれぞれ H1 化しました。いずれも font-size クラスは据え置きのため見た目は変わらず、文書構造（意味タグ）のみを変更しています。
+- ブログ記事ページの記事タイトルを `<h2>` から `<h1>` に変更しました（`sections/article.liquid`）。`h2` クラスは維持しているため表示サイズは従来どおりです。
+- `page.about` の H1 重複を解消しました。本文側の見出し「SOLSTARについて」を `h2` に降格し、ページタイトル（main-page）を唯一の H1 に統一しました。
+- アコーディオン（FAQ）のグループ見出しを `<h3>` から `<h2>` に変更し、H1 → H3 の見出しレベルスキップを解消しました（`sections/section-accordion-group.liquid`）。質問項目は `<summary>` 要素で見出しタグではないため影響はありません。
+- OGP 画像メタタグ `og:image` のプロトコルを `http:` から `https:` に統一しました（`snippets/social-meta.liquid`）。
+
 ### Verification
 
 - `sections/contact-form.liquid` schema JSON parsing passed.
+- 編集した 6 テンプレート（`page.about` / `page.contact` / `page.faq` / `page.lookbook` / `page.story` / `page.theme-features`）の JSON parsing passed。
+- 各対象ページの H1 が 1 つずつになっていることを確認しました。
 
 ## 2026-06-04
 
