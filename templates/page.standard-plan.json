@@ -293,7 +293,7 @@
         "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
         "link": "",
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "flex_align_desktop": "align--middle-left-desktop",
         "content_width": 50,
         "mobile_image": "shopify://shop_images/Standard_plan_image_Vertical_copy_41b6dfe0-04c6-4000-a441-61410005f9c9.webp",
