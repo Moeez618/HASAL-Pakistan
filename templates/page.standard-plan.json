@@ -500,61 +500,62 @@
         "padding_bottom": 0
       }
     },
-    "section_multicolumn_EkpXmA": {
-      "type": "section-multicolumn",
+    "section_double_QfWFJw": {
+      "type": "section-double",
       "blocks": {
-        "text_qQp84K": {
-          "type": "text",
+        "subheading_Fc7Hrp": {
+          "type": "subheading",
           "settings": {
-            "column_width": 33,
-            "title": "ブランド表現・デザインの面",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>日本市場向けに開発したオリジナルテーマをベースに構築</li><li>商品詳細ページ、コレクションページ、LOOK導線を設計</li><li>アパレル・D2Cブランドで重要になりやすい導線を反映</li><li>完成イメージを具体的に整理</li></ul>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "h3"
+            "subheading": "Expertise",
+            "padding_bottom": 16
           }
         },
-        "text_EJhwEW": {
+        "heading_iU7gVP": {
+          "type": "heading",
+          "settings": {
+            "title": "実績と専門性 ",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_tP8cG3": {
           "type": "text",
           "settings": {
-            "column_width": 33,
-            "title": "移行・運用設計の面",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>大規模ECサイトやShopify Plus支援で培った知見</li><li>URL変更やデータ移行の影響を考慮</li><li>ブランドや運用体制に合わせて必要な機能やアプリを見極める</li><li>アプリを増やすのではなく、必要な仕組みに絞る</li></ul>",
+            "text": "<ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul>",
             "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "h3"
+            "padding_bottom": 0
+          }
+        },
+        "text_RBzxhM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※掲載の売上・開発費は、当社が構築・運用を担当した対象サイトの規模を示すものです。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "text_qQp84K",
-        "text_EJhwEW"
+        "subheading_Fc7Hrp",
+        "heading_iU7gVP",
+        "text_tP8cG3",
+        "text_RBzxhM"
       ],
-      "disabled": true,
+      "name": "Image with text",
       "settings": {
-        "subheading": "",
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "description": "",
-        "align_heading": "text-center",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-top",
-        "layout_mobile": "1",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "h2"
+        "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "evidence": {
@@ -1070,7 +1071,7 @@
     "benefit",
     "section_hero_XWjLgY",
     "growth",
-    "section_multicolumn_EkpXmA",
+    "section_double_QfWFJw",
     "evidence",
     "contents",
     "offer",
