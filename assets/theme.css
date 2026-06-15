@@ -24900,13 +24900,3 @@ body.has-header-sticky .timeline {
 }
 
 /*! ============ Add any custom styles below this line ================== */
-
-/* === Standard-plan LP: unify section Subheadings to brand brown (#ab8c52) === */
-/* Theme default is `.hero__subheading{color:var(--text)}`; this guarantees brown
-   for native sections on this page regardless of per-section custom_css. */
-#shopify-section-fv .hero__subheading,
-#shopify-section-problem .hero__subheading,
-#shopify-section-section_double_i8kpjn .hero__subheading,
-#shopify-section-section_double_QfWFJw .hero__subheading,
-#shopify-section-fit .hero__subheading,
-#shopify-section-solution .hero__subheading { color: #ab8c52; }
