@@ -27,33 +27,41 @@
       }
     },
     "fv": {
-      "type": "section-rich-text",
+      "type": "section-double",
       "blocks": {
-        "subheading_fv": {
+        "sub": {
           "type": "subheading",
           "settings": {
-            "subheading": "Standard Plan",
+            "subheading": "Shopify移行・リニューアル｜Standardプラン",
             "padding_bottom": 16
           }
         },
-        "heading_fv": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "title": "SNSでは魅力的に見えるのに、ECサイトでは「普通のネットショップ」に見えてしまっていませんか。ブランドの世界観を崩さず、売上とリピートを育てるECサイトへ。",
+            "title": "SNSでは魅力的に見えるのに、ECサイトでは「普通のネットショップ」に見えてしまっていませんか。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h1"
           }
         },
-        "text_fv_lead": {
+        "subcopy": {
           "type": "text",
           "settings": {
-            "text": "<p>いま使っているECサイトが悪いわけではありません。ブランドが成長するにつれて、求められる役割が変わってきただけです。</p><p>月商800万〜1,000万円規模になると、ブランド表現、リピート施策、運用効率、データ活用など、創業期には見えなかった課題が少しずつ増えていきます。</p><p>SOLSTARのStandardプランは、ブランドの世界観を崩さず、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text": "<p><strong>ブランドの世界観を崩さず、売上とリピートを育てるShopify ECサイトへ。</strong></p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 50
+            "padding_bottom": 16
           }
         },
-        "buttons_fv": {
+        "lead": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いま使っているECサイトが悪いわけではありません。ブランドが成長するにつれて、ECサイトに求められる役割が変わってきただけです。SOLSTARのStandardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "cta": {
           "type": "buttons",
           "settings": {
             "button_text": "自社ECサイトの移行範囲と概算費用を無料で確認する",
@@ -65,101 +73,24 @@
             "padding_bottom": 16
           }
         },
-        "text_fv_info": {
+        "info": {
           "type": "text",
           "settings": {
-            "text": "<p>Standardプラン：2,200,000円（税込）から／納期 約6〜12週間／商品ページ100点まで登録・移行対応</p>",
+            "text": "<p>2,200,000円（税込）から ／ 約6〜12週間 ／ 商品ページ100点まで登録・移行対応</p>",
             "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
-        },
-        "buttons_fv_sub": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "まずは移行の不安を相談する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--secondary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
-        "subheading_fv",
-        "heading_fv",
-        "text_fv_lead",
-        "buttons_fv",
-        "text_fv_info",
-        "buttons_fv_sub"
+        "sub",
+        "heading",
+        "subcopy",
+        "lead",
+        "cta",
+        "info"
       ],
       "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "problem": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_problem": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Problem",
-            "padding_bottom": 16
-          }
-        },
-        "heading_problem": {
-          "type": "heading",
-          "settings": {
-            "title": "成長したブランドだからこそ見えてくる、いまのECサイトの課題。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_problem_intro": {
-          "type": "text",
-          "settings": {
-            "text": "<p>商品も顧客も増えている。それなのに、ECサイトにこんな違和感はありませんか。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_problem_list": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>ブランドの世界観が、ECサイトで十分に表現できていない。SNSでは魅力的に見えているのに、商品ページや購入導線に入るとテンプレート感が出てしまう。</li><li>新作発売のたびに、運用が慌ただしくなる。商品登録・画像差し替え・在庫調整に時間を取られ、企画や改善に手が回らない。</li><li>新規集客に偏り、リピート施策が弱い。リピート購入を促す仕組みや、購入後のフォローが十分に整っていない。</li><li>手数料や外部ツールの費用が増えてきた。決済手数料や追加ツールの費用が積み重なり、運営コストが膨らんでいる。</li><li>データはあるのに、改善に活かせていない。アクセス解析は入っていても、どの施策や導線が売上につながっているのか把握できない。</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_problem_close": {
-          "type": "text",
-          "settings": {
-            "text": "<p>これらは、担当者の努力不足でも商品力の問題でもありません。立ち上げ期に選んだシステムが、いまの成長フェーズに合わなくなってきているだけです。放置しているあいだにも、せっかく獲得した顧客との接点を活かしきれない状態が続いていきます。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_problem",
-        "heading_problem",
-        "text_problem_intro",
-        "text_problem_list",
-        "text_problem_close"
-      ],
-      "custom_css": [
-        "p {margin: 1em 0;}",
         ".hero__subheading {color: #ab8c52;}"
       ],
       "settings": {
@@ -177,111 +108,278 @@
         "show_placeholder": true
       }
     },
-    "affinity": {
-      "type": "section-rich-text",
+    "problem": {
+      "type": "section-multicolumn",
       "blocks": {
-        "subheading_affinity": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Affinity",
-            "padding_bottom": 16
-          }
-        },
-        "heading_affinity": {
-          "type": "heading",
-          "settings": {
-            "title": "「このままのECサイトでいいのだろうか」。そう感じるのには理由があります。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_affinity": {
+        "card_1": {
           "type": "text",
           "settings": {
-            "text": "<p>いま使っているECサイトが悪いわけではありません。</p><p>創業期には十分だった仕組みも、商品数や顧客数が増え、ブランドが成長するにつれて少しずつ合わなくなっていきます。問題は「良いシステムか、悪いシステムか」ではありません。いまの成長フェーズに対して、ECサイトに求められる役割が変わってきているだけです。</p><p>そして、それは誰のせいでもありません。</p><p>代表やクリエイティブディレクターには「ブランドの世界観を、ECサイトでも崩したくない」という想いがあり、運用担当には「本当はもっとリピート施策や改善に取り組みたいのに、日々の作業で精一杯」という現実があります。</p><p>月商800万〜1,000万円規模のD2Cブランドの多くが、同じような壁にぶつかります。</p><p>だからこそ、ブランド表現と運用のしやすさを切り離さずに考えることが大切です。</p>",
+            "column_width": 33,
+            "title": "世界観が伝わりきらない",
+            "heading_font_size": "heading-small",
+            "text": "<p>SNSでは魅力的に見えるのに、商品ページや購入導線に入るとテンプレート感が出てしまう。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_2": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "新作発売のたびに運用が慌ただしい",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品登録、画像差し替え、在庫調整に追われ、企画や改善に手が回らない。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_3": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "リピート施策が弱い",
+            "heading_font_size": "heading-small",
+            "text": "<p>新規集客に偏り、購入後のフォローや再購入の導線が整っていない。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_4": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "ツール費用が増えている",
+            "heading_font_size": "heading-small",
+            "text": "<p>決済手数料や外部ツール費用が積み重なり、運営コストが見えにくくなっている。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_5": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "データを改善に活かせていない",
+            "heading_font_size": "heading-small",
+            "text": "<p>解析は入っていても、どの導線が売上につながっているのか把握しづらい。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
           }
         }
       },
       "block_order": [
-        "subheading_affinity",
-        "heading_affinity",
-        "text_affinity"
+        "card_1",
+        "card_2",
+        "card_3",
+        "card_4",
+        "card_5"
       ],
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "name": "Rich text",
       "settings": {
-        "align_text": "text-center",
+        "subheading": "Problem",
+        "title": "成長したブランドだからこそ見えてくる、いまのECサイトの課題。",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
         "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
         "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "growth": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { margin: 0 0 12px; color: var(--COLOR-ACCENT); font-weight: 700; text-transform: uppercase; }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; }\n  .sp-table th, .sp-table td { border: 1px solid var(--COLOR-BORDER-LIGHT); padding: 14px 16px; text-align: left; vertical-align: top; line-height: 1.8; }\n  .sp-table th { background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); font-weight: 700; }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 16px 14px 48px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; border-radius: 50%; background: var(--COLOR-ACCENT); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 22px; top: 21px; width: 5px; height: 9px; border: solid var(--COLOR-BG); border-width: 0 2px 2px 0; transform: rotate(45deg); }\n  .sp-note { max-width: 1000px; margin: 18px auto 0; padding: 14px 16px; border-left: 3px solid var(--COLOR-ACCENT); background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); line-height: 1.8; }\n  .sp-cta { display: inline-block; margin-top: 8px; padding: 16px 30px; border-radius: var(--btn-radius); background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); border: 1px solid var(--BTN-PRIMARY-BORDER); font-weight: 700; text-decoration: none; }\n  .sp-cta:hover { background: var(--BTN-PRIMARY-BG-BRIGHTER); border-color: var(--BTN-PRIMARY-BG-BRIGHTER); }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; }\n  .sp-price { color: var(--COLOR-ACCENT); font-weight: 800; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { font-weight: 700; margin: 18px 0 6px; }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Growth Phase</p>\n      <h2 class=\"sp-title\">「このままのECサイトでいいのだろうか」。そう感じるのには理由があります。</h2>\n      <p class=\"sp-lead\">いま使っているECサイトが悪いわけではありません。ブランドが成長したことで、ECサイトに求められる役割が変わってきただけです。今のECサイトを否定するのではなく、フェーズに合わせて再設計することが大切です。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>創業期のECサイト</th><th>成長期のECサイト</th></tr></thead>\n      <tbody>\n        <tr><td>まず販売できることが重要</td><td>ブランド表現と運用効率が重要</td></tr>\n        <tr><td>商品数が少ない</td><td>商品数・SKU・顧客数が増える</td></tr>\n        <tr><td>手作業でも回せる</td><td>更新性と管理画面設計が必要</td></tr>\n        <tr><td>新規購入が中心</td><td>リピート・LTV改善が必要</td></tr>\n        <tr><td>とりあえず形にする</td><td>事業基盤として再設計する</td></tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "solution": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "pillar_1": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "ブランド表現",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>ブランドの世界観を、ECサイトでも崩さない。</strong></p><ul><li>商品の魅力が伝わる見せ方</li><li>スマートフォンでの購入体験</li><li>新作、ランキング、カテゴリ別、LOOK別導線</li><li>テンプレート感を抑えたページ構成</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "pillar_2": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "移行設計",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>公開後の検索流入や運用への影響を見据える。</strong></p><ul><li>旧URLから新URLへの301リダイレクト</li><li>サイトマップ再送信</li><li>商品・顧客データの整理</li><li>移行時に起きやすいリスクの事前確認</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "pillar_3": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "リピートと運用",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>公開後に、自分たちで育てられるECサイトにする。</strong></p><ul><li>再入荷通知</li><li>LINE連携</li><li>レビュー機能</li><li>カゴ落ち対策</li><li>更新しやすい管理画面設計</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_1",
+        "pillar_2",
+        "pillar_3"
+      ],
+      "settings": {
+        "subheading": "Solution",
+        "title": "「乗り換える」のではなく、成長に合わせてECサイトを再設計する。",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "migration": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { margin: 0 0 12px; color: var(--COLOR-ACCENT); font-weight: 700; text-transform: uppercase; }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; }\n  .sp-table th, .sp-table td { border: 1px solid var(--COLOR-BORDER-LIGHT); padding: 14px 16px; text-align: left; vertical-align: top; line-height: 1.8; }\n  .sp-table th { background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); font-weight: 700; }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 16px 14px 48px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; border-radius: 50%; background: var(--COLOR-ACCENT); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 22px; top: 21px; width: 5px; height: 9px; border: solid var(--COLOR-BG); border-width: 0 2px 2px 0; transform: rotate(45deg); }\n  .sp-note { max-width: 1000px; margin: 18px auto 0; padding: 14px 16px; border-left: 3px solid var(--COLOR-ACCENT); background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); line-height: 1.8; }\n  .sp-cta { display: inline-block; margin-top: 8px; padding: 16px 30px; border-radius: var(--btn-radius); background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); border: 1px solid var(--BTN-PRIMARY-BORDER); font-weight: 700; text-decoration: none; }\n  .sp-cta:hover { background: var(--BTN-PRIMARY-BG-BRIGHTER); border-color: var(--BTN-PRIMARY-BG-BRIGHTER); }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; }\n  .sp-price { color: var(--COLOR-ACCENT); font-weight: 800; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { font-weight: 700; margin: 18px 0 6px; }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Migration Risk</p>\n      <h2 class=\"sp-title\">Shopify移行で大切なのは、デザインだけではありません。</h2>\n      <p class=\"sp-lead\">売上や検索流入への影響、商品・顧客データの扱い、公開直後の不具合。移行時の不安を抑えるために、SOLSTARは次のような工程をあらかじめ設計に組み込みます。</p>\n    </div>\n    <ul class=\"sp-checklist\">\n      <li>URL変更に伴う301リダイレクト設計</li>\n      <li>商品データの整理・移行</li>\n      <li>主要ページの移行</li>\n      <li>コレクション構成の再設計</li>\n      <li>Search Console・サイトマップの基本確認</li>\n      <li>公開前の購入テスト（決済フローの確認）</li>\n      <li>PC・スマートフォンでの表示確認</li>\n    </ul>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "benefit": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { margin: 0 0 12px; color: var(--COLOR-ACCENT); font-weight: 700; text-transform: uppercase; }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; }\n  .sp-table th, .sp-table td { border: 1px solid var(--COLOR-BORDER-LIGHT); padding: 14px 16px; text-align: left; vertical-align: top; line-height: 1.8; }\n  .sp-table th { background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); font-weight: 700; }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 16px 14px 48px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; border-radius: 50%; background: var(--COLOR-ACCENT); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 22px; top: 21px; width: 5px; height: 9px; border: solid var(--COLOR-BG); border-width: 0 2px 2px 0; transform: rotate(45deg); }\n  .sp-note { max-width: 1000px; margin: 18px auto 0; padding: 14px 16px; border-left: 3px solid var(--COLOR-ACCENT); background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); line-height: 1.8; }\n  .sp-cta { display: inline-block; margin-top: 8px; padding: 16px 30px; border-radius: var(--btn-radius); background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); border: 1px solid var(--BTN-PRIMARY-BORDER); font-weight: 700; text-decoration: none; }\n  .sp-cta:hover { background: var(--BTN-PRIMARY-BG-BRIGHTER); border-color: var(--BTN-PRIMARY-BG-BRIGHTER); }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; }\n  .sp-price { color: var(--COLOR-ACCENT); font-weight: 800; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { font-weight: 700; margin: 18px 0 6px; }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Benefit</p>\n      <h2 class=\"sp-title\">リニューアルで変わるのは、見た目だけではありません。</h2>\n      <p class=\"sp-lead\">運用のしやすさや、リピート施策の進めやすさも変わります。リニューアルのあと、現場の毎日がどう変わるかでお伝えします。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>Before</th><th>After</th></tr></thead>\n      <tbody>\n        <tr><td>新作発売前に商品登録や在庫調整で慌ただしい</td><td>商品登録や更新の手戻りが減り、準備しやすくなる</td></tr>\n        <tr><td>特集やLOOKページの更新に手間がかかる</td><td>社内で更新しやすい構成になる</td></tr>\n        <tr><td>再入荷希望やカゴ落ちが機会損失になる</td><td>再購入・購入検討につなげやすくなる</td></tr>\n        <tr><td>LINEやレビュー導線がバラバラ</td><td>購入後も顧客とつながりやすくなる</td></tr>\n        <tr><td>データはあるが改善に使いづらい</td><td>商品ページや導線の改善点を見つけやすくなる</td></tr>\n        <tr><td>新作発売時の売上に依存しやすい</td><td>リピート購入の土台を作りやすくなる</td></tr>\n      </tbody>\n    </table>\n    <p class=\"sp-note\">※ 効果はブランドの規模・商材・運用体制によって異なり、特定の成果を保証するものではありません。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "evidence": {
       "type": "section-double",
       "blocks": {
-        "subheading_solution": {
+        "sub": {
           "type": "subheading",
           "settings": {
-            "subheading": "Solution",
+            "subheading": "Evidence",
             "padding_bottom": 16
           }
         },
-        "heading_solution": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "title": "「乗り換える」のではなく、成長に合わせてECサイトを再設計する。",
+            "title": "ブランド表現から移行設計まで、ひとつのチームで支援します。",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
-        "text_solution_intro": {
+        "intro": {
           "type": "text",
           "settings": {
-            "text": "<p>Shopifyへの移行そのものが目的ではありません。</p><p>大切なのは、ブランドの世界観を表現しながら、リピート施策や運用改善にも取り組みやすいECサイトへ再設計することです。</p><p>SOLSTARでは、次の3つの観点で進めます。</p>",
+            "text": "<p>成長期のD2Cブランドが気にするのは、ブランドらしい仕上がりと、移行の安全性の両方です。SOLSTARは、ブランド表現と移行設計を切り離さず、ひとつのチームで一貫して支援します。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         },
-        "text_solution_1": {
+        "a": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>ブランド表現</strong></p><p>ブランドの世界観を、ECサイトでも崩さない。テンプレートを当てはめるのではなく、ブランドの世界観や商品の魅力が伝わる見せ方を設計します。スマートフォンでの購入体験を整えながら、新作・ランキング・カテゴリ別・LOOK別など、回遊しやすい導線を構築します。</p>",
+            "text": "<p><strong>ブランド表現・デザインの面</strong></p><ul><li>日本市場向けに開発したオリジナルテーマをベースに構築</li><li>商品詳細ページ、コレクションページ、LOOK導線を設計</li><li>アパレル・D2Cブランドで重要になりやすい導線を反映</li><li>完成イメージを具体的に整理</li></ul>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         },
-        "text_solution_2": {
+        "b": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>移行設計</strong></p><p>移行で避けたいのは、公開後の売上や検索流入への影響です。リニューアル後にアクセス数や検索流入が落ちる要因は、デザインだけではありません。URL変更にともなうリダイレクト漏れや、商品・顧客データの不整合など、移行設計の不備が影響することもあります。SOLSTARは、旧URLから新URLへの転送設定（301リダイレクト）やサイトマップの再送信といった重要な手順を工程に組み込みます。検索流入や運用面で起こりやすいリスクを想定し、事前に対策を設計します。</p>",
+            "text": "<p><strong>移行・運用設計の面</strong></p><ul><li>大規模ECサイトやShopify Plus支援で培った知見</li><li>URL変更やデータ移行の影響を考慮</li><li>ブランドや運用体制に合わせて必要な機能やアプリを見極める</li><li>アプリを増やすのではなく、必要な仕組みに絞る</li></ul>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         },
-        "text_solution_3": {
+        "close": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>リピートと運用</strong></p><p>公開後に、自分たちで育てられるECサイトにする。リピート施策を進めやすいよう、再入荷通知、LINE連携、レビュー機能など、本当に必要な仕組みだけを厳選して組み込みます。あわせて、商品や特集ページを社内で更新しやすいよう、管理画面やコレクション構成も整理します。</p>",
-            "text_font_size": "body-medium",
+            "text": "<p>数字だけで期待を煽ることはしません。ブランドの世界観を表現する設計と、移行リスクを抑える工程をもとに、現実的なご提案を行います。</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "subheading_solution",
-        "heading_solution",
-        "text_solution_intro",
-        "text_solution_1",
-        "text_solution_2",
-        "text_solution_3"
+        "sub",
+        "heading",
+        "intro",
+        "a",
+        "b",
+        "close"
       ],
       "custom_css": [
         "p {margin: 1em 0;}",
@@ -292,158 +390,6 @@
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_placeholder": true
-      }
-    },
-    "benefit": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading_benefit": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Benefit",
-            "padding_bottom": 16
-          }
-        },
-        "heading_benefit": {
-          "type": "heading",
-          "settings": {
-            "title": "リニューアルで変わるのは見た目だけではありません。運用のしやすさや、リピート施策の進めやすさも変わります。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_benefit_intro": {
-          "type": "text",
-          "settings": {
-            "text": "<p>リニューアルのあと、現場の毎日がどう変わるかでお伝えします。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_benefit_list": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>新作発売前の商品登録の手戻りが減り、在庫調整の慌ただしさが和らぐ</li><li>LOOKや特集ページを、社内で更新しやすくなる</li><li>再入荷希望やカゴ落ちを、そのまま機会損失で終わらせず、購入につなげやすくなる</li><li>LINE登録やレビュー獲得の導線が整い、購入後も顧客とつながりやすくなる</li><li>どの商品ページで離脱し、どの商品が売上につながっているのかを把握しやすくなる</li><li>新作発売時の売上だけに頼らず、リピート購入につなげやすくなる</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_benefit_close": {
-          "type": "text",
-          "settings": {
-            "text": "<p>経営の視点では、手作業に追われる時間や、取りこぼしていた売上機会を減らしながら、ブランドづくりやリピート施策により多くの時間を使える状態を目指せます。実店舗との連携や海外展開を見据えても、拡張しやすいShopifyの土台が整います。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_benefit_note": {
-          "type": "text",
-          "settings": {
-            "text": "<p>※ 効果はブランドの規模・商材・運用体制によって異なり、特定の成果を保証するものではありません。</p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_benefit",
-        "heading_benefit",
-        "text_benefit_intro",
-        "text_benefit_list",
-        "text_benefit_close",
-        "text_benefit_note"
-      ],
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
-    "evidence": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_evidence": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Evidence",
-            "padding_bottom": 16
-          }
-        },
-        "heading_evidence": {
-          "type": "heading",
-          "settings": {
-            "title": "ブランド表現から移行設計まで、ひとつのチームで支援します。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_evidence_intro": {
-          "type": "text",
-          "settings": {
-            "text": "<p>成長期のD2Cブランドが気にするのは、ブランドらしい仕上がりと、移行の安全性の両方です。SOLSTARは、ブランド表現と移行設計を切り離さず、ひとつのチームで一貫して支援します。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_evidence_design": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ブランド表現・デザインの面</strong></p><ul><li>SOLSTARでは、日本市場向けに開発したオリジナルテーマをベースに構築することで、ブランドの世界観と運用のしやすさを両立しやすい設計を目指しています。</li><li>商品詳細ページ、コレクションページ、LOOK導線、再入荷通知など、アパレル・D2Cブランドで重要になりやすい構成を踏まえながら、完成イメージを具体的に整理していきます。</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_evidence_migration": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>移行・運用設計の面</strong></p><ul><li>大規模ECサイトやShopify Plusを利用するストアの構築・運用支援で培った知見をもとに、ブランドや運用体制に合わせて必要な機能やアプリを見極めます。</li><li>移行時に見落とされやすいURL変更やデータ移行の影響まで考慮し、公開後のリスクを抑えるための工程を重視しています。</li><li>リピート施策はアプリを増やすことではなく、自社に必要な仕組みを整理することだと考えています。再入荷通知やLINE連携なども、その考え方に沿って選定します。</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_evidence_close": {
-          "type": "text",
-          "settings": {
-            "text": "<p>数字だけで期待を煽ることはしません。「リニューアルすれば必ず売上が上がる」とはお伝えできませんが、ブランドの世界観を表現する設計と、移行リスクを抑える工程をもとに、現実的なご提案を行います。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_evidence",
-        "heading_evidence",
-        "text_evidence_intro",
-        "text_evidence_design",
-        "text_evidence_migration",
-        "text_evidence_close"
-      ],
-      "custom_css": [
-        "p {margin: 1em 0;}",
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "settings": {
-        "image_1": "",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
         "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
@@ -455,273 +401,406 @@
       }
     },
     "contents": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading_contents": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Contents",
-            "padding_bottom": 16
-          }
-        },
-        "heading_contents": {
-          "type": "heading",
-          "settings": {
-            "title": "サイトを作って終わりではありません。公開後の運用まで見据えたリニューアルプランです。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_contents_intro": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Standardプランは、デザイン制作だけでなく、Shopifyへの移行や運用基盤づくりまでを含むリニューアルプランです。主な内容は次のとおりです。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_contents_list": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>要件整理：ブランドの方向性や商品構成、購入導線、必要な機能を整理し、Shopifyの基本設定（決済・配送・税設定など）もあわせて設計します。</li><li>デザイン調整（オリジナルページ6ページまで／複数テンプレート作成）：ブランドの世界観を表現しながら、公開後も社内で更新・運用しやすい構成を設計します。</li><li>バナー制作（3点まで）：キービジュアルや特集用のバナー画像を制作します。</li><li>商品データの登録・移行（商品ページ100点まで）：商品名、価格、説明文、画像、在庫などを整理し、Shopifyで運用しやすい形で移行します。バリエーション数が多い場合は、事前に対応範囲を確認します。</li><li>カテゴリー・コレクション設計（コレクション20点まで）：新作、ランキング、カテゴリ別、LOOK別など、商品を探しやすく回遊しやすい導線を設計します。</li><li>主要ページの移行・整備（20ページまで）：About、FAQ、送料、返品、特定商取引法に基づく表記など、主要な固定ページを移行・整備します。</li><li>SEO移行の基本対応：主要URLの確認、301リダイレクト設定、サイトマップ・Search Consoleの基本確認を行います。リダイレクト対象が大量になる場合は、対応範囲を確認のうえ別途お見積もりとなる場合があります。</li><li>アプリ連携（6点まで）：レビュー、再入荷通知、LINE連携、カゴ落ち対策、フォーム、配送・分析関連など、本当に必要な機能を厳選して組み込みます。</li><li>公開前チェック：PC・スマートフォンでの表示確認や購入テスト（決済フローの確認）を行い、対応範囲内で不具合を修正したうえで公開します。</li><li>納品物：構築済みのECサイト（Shopifyストア）と、運用に必要な管理画面・テーマ関連の権限をお渡しします。</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_contents_note": {
-          "type": "text",
-          "settings": {
-            "text": "<p>※ 商品データの登録・移行（商品ページ100点）、カテゴリー・コレクション設計（20点）、主要ページの移行・整備（20ページ）は、それぞれ別枠の対応範囲です。なお、顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認したうえで、別途お見積もりとなる場合があります。移行できるデータ・できないデータは、無料相談の段階で整理してお伝えします。</p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_contents",
-        "heading_contents",
-        "text_contents_intro",
-        "text_contents_list",
-        "text_contents_note"
-      ],
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "name": "Rich text",
+      "type": "section-custom-code",
+      "name": "Custom code",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { margin: 0 0 12px; color: var(--COLOR-ACCENT); font-weight: 700; text-transform: uppercase; }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; }\n  .sp-table th, .sp-table td { border: 1px solid var(--COLOR-BORDER-LIGHT); padding: 14px 16px; text-align: left; vertical-align: top; line-height: 1.8; }\n  .sp-table th { background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); font-weight: 700; }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 16px 14px 48px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; border-radius: 50%; background: var(--COLOR-ACCENT); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 22px; top: 21px; width: 5px; height: 9px; border: solid var(--COLOR-BG); border-width: 0 2px 2px 0; transform: rotate(45deg); }\n  .sp-note { max-width: 1000px; margin: 18px auto 0; padding: 14px 16px; border-left: 3px solid var(--COLOR-ACCENT); background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); line-height: 1.8; }\n  .sp-cta { display: inline-block; margin-top: 8px; padding: 16px 30px; border-radius: var(--btn-radius); background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); border: 1px solid var(--BTN-PRIMARY-BORDER); font-weight: 700; text-decoration: none; }\n  .sp-cta:hover { background: var(--BTN-PRIMARY-BG-BRIGHTER); border-color: var(--BTN-PRIMARY-BG-BRIGHTER); }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; }\n  .sp-price { color: var(--COLOR-ACCENT); font-weight: 800; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { font-weight: 700; margin: 18px 0 6px; }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Contents</p>\n      <h2 class=\"sp-title\">サイトを作って終わりではありません。公開後の運用まで見据えたリニューアルプランです。</h2>\n      <p class=\"sp-lead\">Standardプランは、デザイン制作だけでなく、Shopifyへの移行や運用基盤づくりまでを含むリニューアルプランです。主な内容は次のとおりです。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>項目</th><th>対応内容</th></tr></thead>\n      <tbody>\n        <tr><td>要件整理</td><td>ブランド方向性、商品構成、購入導線、必要機能の整理（決済・配送・税設定など基本設定を含む）</td></tr>\n        <tr><td>デザイン調整</td><td>オリジナルページ6ページまで、複数テンプレート作成</td></tr>\n        <tr><td>バナー制作</td><td>3点まで</td></tr>\n        <tr><td>商品登録・移行</td><td>商品ページ100点まで（商品名・価格・説明文・画像・在庫などを整理）</td></tr>\n        <tr><td>コレクション設計</td><td>20点まで（新作・ランキング・カテゴリ別・LOOK別などの回遊導線）</td></tr>\n        <tr><td>主要ページ移行</td><td>20ページまで（About、FAQ、送料、返品、特定商取引法に基づく表記など）</td></tr>\n        <tr><td>SEO移行基本対応</td><td>主要URL確認、301リダイレクト設定、サイトマップ・Search Console確認</td></tr>\n        <tr><td>アプリ連携</td><td>6点まで（レビュー、再入荷通知、LINE連携、カゴ落ち対策、フォーム、配送・分析など）</td></tr>\n        <tr><td>公開前チェック</td><td>PC・スマートフォン表示確認、購入テスト、対応範囲内の不具合修正</td></tr>\n        <tr><td>納品物</td><td>構築済みShopifyストア、運用に必要な管理画面・テーマ関連の権限</td></tr>\n      </tbody>\n    </table>\n    <p class=\"sp-note\">※ 商品ページ100点、コレクション20点、主要ページ20ページは、それぞれ別枠の対応範囲です。顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認のうえ、別途お見積もりとなる場合があります。移行できるデータ・できないデータは、無料相談の段階で整理してお伝えします。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
         "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "offer": {
-      "type": "section-double",
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { margin: 0 0 12px; color: var(--COLOR-ACCENT); font-weight: 700; text-transform: uppercase; }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; }\n  .sp-table th, .sp-table td { border: 1px solid var(--COLOR-BORDER-LIGHT); padding: 14px 16px; text-align: left; vertical-align: top; line-height: 1.8; }\n  .sp-table th { background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); font-weight: 700; }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 16px 14px 48px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; border-radius: 50%; background: var(--COLOR-ACCENT); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 22px; top: 21px; width: 5px; height: 9px; border: solid var(--COLOR-BG); border-width: 0 2px 2px 0; transform: rotate(45deg); }\n  .sp-note { max-width: 1000px; margin: 18px auto 0; padding: 14px 16px; border-left: 3px solid var(--COLOR-ACCENT); background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); line-height: 1.8; }\n  .sp-cta { display: inline-block; margin-top: 8px; padding: 16px 30px; border-radius: var(--btn-radius); background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); border: 1px solid var(--BTN-PRIMARY-BORDER); font-weight: 700; text-decoration: none; }\n  .sp-cta:hover { background: var(--BTN-PRIMARY-BG-BRIGHTER); border-color: var(--BTN-PRIMARY-BG-BRIGHTER); }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; }\n  .sp-price { color: var(--COLOR-ACCENT); font-weight: 800; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { font-weight: 700; margin: 18px 0 6px; }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Offer</p>\n      <h2 class=\"sp-title\">単なるリニューアルではなく、ブランドの成長を支えるEC基盤づくりです。</h2>\n      <p class=\"sp-lead\">移行設計や公開前テストも含め、公開後の運用を見据えたEC基盤づくりを行います。あとから費用が膨らまないよう、対応範囲や別途費用まで事前に整理してお伝えします。</p>\n    </div>\n    <div class=\"sp-grid2\">\n      <div class=\"sp-card\">\n        <h3>Standardプラン</h3>\n        <p class=\"sp-price\">2,200,000円（税込）から</p>\n        <ul>\n          <li>納期：約6〜12週間</li>\n          <li>商品ページ100点まで登録・移行対応</li>\n          <li>コレクション20点まで</li>\n          <li>主要ページ20ページまで</li>\n          <li>アプリ連携6点まで</li>\n          <li>打ち合わせ5回</li>\n          <li>修正対応3回まで</li>\n        </ul>\n        <a class=\"sp-cta\" href=\"/pages/contact\">移行範囲と概算費用を無料で確認する</a>\n      </div>\n      <div class=\"sp-card\">\n        <p class=\"sp-sub\">制作体制</p>\n        <p>ディレクター1名、エンジニア2名を中心とした制作体制</p>\n        <p class=\"sp-sub\">お客様にご準備いただくもの</p>\n        <p>キービジュアル、商品情報、画像素材、ドメイン、各ページ原稿</p>\n        <p class=\"sp-sub\">別途発生する費用</p>\n        <p>Shopify月額、決済手数料、一部アプリ利用料、保守運用、追加開発、越境対応、外部連携など</p>\n        <p class=\"sp-sub\">対象外</p>\n        <p>Shopifyアプリそのものの独自開発</p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fit": {
+      "type": "section-multicolumn",
       "blocks": {
-        "subheading_offer": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Offer",
-            "padding_bottom": 16
-          }
-        },
-        "heading_offer": {
-          "type": "heading",
-          "settings": {
-            "title": "単なるリニューアルではなく、ブランドの成長を支えるEC基盤づくりです。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_offer_intro": {
+        "yes": {
           "type": "text",
           "settings": {
-            "text": "<p>Standardプランは、ECサイトの見た目を整えるだけのリニューアルプランではありません。ブランドの世界観を表現するデザイン、Shopifyへの移行設計、商品データの登録・移行、SEO移行の基本対応、アプリ連携、公開前テストまでを含めて整えるプランです。安価なテンプレート制作では省略されがちな移行設計や公開前テストも含め、公開後の運用を見据えたEC基盤づくりを行います。</p>",
+            "column_width": 50,
+            "title": "向いているブランド・企業",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>月商800万〜1,000万円規模まで成長している</li><li>今のECサイトに限界を感じ始めている</li><li>ブランド表現や運用に物足りなさがある</li><li>Shopifyへの本格移行を検討している</li><li>リピート施策やLTV改善の土台を整えたい</li><li>SNSの世界観とECサイトのギャップを解消したい</li></ul>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
           }
         },
-        "text_offer_price": {
+        "no": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>料金・進め方</strong></p><ul><li>価格：2,200,000円（税込）から（要件や対応範囲により変動します）</li><li>納期：約6〜12週間（要件や、お客様側の素材手配のスピードによって変動します）</li><li>制作体制：ディレクター1名、エンジニア2名を中心とした制作体制</li><li>打ち合わせ：進行・進捗の打ち合わせを合計5回</li><li>修正対応：3回まで（大幅な仕様変更が発生する場合は、別途お見積もりとなります）</li></ul>",
+            "column_width": 50,
+            "title": "いまは向いていない企業",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>まだ売る商品がなく、低予算でまず始めたい</li><li>年商10億円を大きく超え、複雑な基幹連携が前提</li><li>Shopify移行や運用基盤の整備は不要</li><li>デザインだけを少し変えたい</li></ul>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_offer_prepare": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>お客様にご準備いただくもの</strong></p><p>キービジュアル、商品情報、画像素材、ドメイン、各ページの掲載原稿。なお、公開後の商品更新や受注対応、コンテンツ更新などの日々の運用は、お客様側でご対応いただきます。運用しやすい状態を整えたうえでお引き渡しします。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_offer_extra": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>別途発生する費用</strong></p><ul><li>ランニングコスト：Shopifyの月額利用料、決済手数料、一部アプリの利用料など、外部サービスの費用はお客様のご負担となります。</li><li>別途お見積もり：保守運用サポート、追加アプリの実装・追加ページ制作・追加バナー制作、越境対応（多言語・多通貨）、外部システム（在庫管理・店舗レジ・基幹システムなど）との連携、進行途中の大幅な仕様変更。</li><li>対象外：Shopifyアプリそのものの独自開発。</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_offer_close": {
-          "type": "text",
-          "settings": {
-            "text": "<p>事前に、対応範囲や別途費用、運用後に発生する外部サービス費用まで整理してお伝えします。制作途中で想定外の費用が膨らまないよう、できるだけ分かりやすく進めることを大切にしています。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
           }
         }
       },
       "block_order": [
-        "subheading_offer",
-        "heading_offer",
-        "text_offer_intro",
-        "text_offer_price",
-        "text_offer_prepare",
-        "text_offer_extra",
-        "text_offer_close"
-      ],
-      "custom_css": [
-        "p {margin: 1em 0;}",
-        ".hero__subheading {color: #ab8c52;}"
+        "yes",
+        "no"
       ],
       "settings": {
-        "image_1": "",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "is-reversed",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
+        "subheading": "Fit / Not Fit",
+        "title": "正直にお伝えします。Standardプランは、すべての企業に向いているわけではありません。",
+        "heading_font_size": "heading-medium",
+        "description": "<p>複雑な基幹連携や越境対応の有無によっては、上位プランが適している場合もあります。どのプランが最適かは、無料相談で客観的に整理できます。</p>",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
         "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50,
-        "show_placeholder": true
+        "heading_tag": "h2"
       }
     },
-    "narrow": {
-      "type": "section-rich-text",
+    "process": {
+      "type": "section-timeline",
       "blocks": {
-        "subheading_narrow": {
-          "type": "subheading",
+        "step_1": {
+          "type": "timeline",
           "settings": {
-            "subheading": "Narrow",
-            "padding_bottom": 16
-          }
-        },
-        "heading_narrow": {
-          "type": "heading",
-          "settings": {
-            "title": "正直にお伝えします。Standardプランは、すべての企業に向いているわけではありません。",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_narrow_fit": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>向いているブランド・企業</strong></p><ul><li>月商800万〜1,000万円規模まで成長し、今のECサイトに限界を感じ始めている</li><li>現在のEC基盤では、ブランド表現や運用、リピート施策に物足りなさを感じている</li><li>Shopifyへの本格移行を検討している</li><li>新規集客だけでなく、リピート施策やLTV改善の土台を整えたい</li><li>SNSの世界観とECサイトのギャップを解消したい</li></ul>",
+            "subheading": "STEP 01",
+            "title": "無料相談・課題診断",
+            "heading_font_size": "heading-small",
+            "text": "<p>現行ECサイトの課題、移行目的、必要な範囲を整理。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
           }
         },
-        "text_narrow_unfit": {
-          "type": "text",
+        "step_2": {
+          "type": "timeline",
           "settings": {
-            "text": "<p><strong>いまは向いていない企業</strong></p><ul><li>まだ売る商品がなく、低予算でまずは立ち上げたい（より小さく始めるプランが適しています）</li><li>年商10億円を大きく超え、基幹システムや複数店舗POSとの複雑な連携を前提としている（上位プランや大規模開発が適しています）</li><li>Shopifyへの移行や運用基盤の整備は不要で、デザインだけを少し変えたい</li></ul>",
+            "subheading": "STEP 02",
+            "title": "要件整理・お見積もり",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品点数、ページ数、アプリ、移行データ、SEO移行範囲を確認。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
           }
         },
-        "text_narrow_close": {
-          "type": "text",
+        "step_3": {
+          "type": "timeline",
           "settings": {
-            "text": "<p>複雑な基幹連携や越境対応の有無によっては、上位プランが適している場合もあります。どのプランが最適かは、無料相談で客観的に整理できます。</p>",
+            "subheading": "STEP 03",
+            "title": "設計・デザイン調整",
+            "heading_font_size": "heading-small",
+            "text": "<p>ブランド表現、導線、コレクション、テンプレート構成を設計。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "step_4": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "STEP 04",
+            "title": "Shopify構築・データ移行",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品、ページ、アプリ、設定、リダイレクトを実装。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "step_5": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "STEP 05",
+            "title": "公開前チェック",
+            "heading_font_size": "heading-small",
+            "text": "<p>表示確認、購入テスト、スマホ確認、修正対応。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "step_6": {
+          "type": "timeline",
+          "settings": {
+            "subheading": "STEP 06",
+            "title": "公開・引き渡し",
+            "heading_font_size": "heading-small",
+            "text": "<p>運用しやすい状態で管理画面・権限をお渡し。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
           }
         }
       },
       "block_order": [
-        "subheading_narrow",
-        "heading_narrow",
-        "text_narrow_fit",
-        "text_narrow_unfit",
-        "text_narrow_close"
+        "step_1",
+        "step_2",
+        "step_3",
+        "step_4",
+        "step_5",
+        "step_6"
       ],
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "name": "Rich text",
       "settings": {
-        "align_text": "text-left",
-        "width": "wrapper",
+        "show_images": false,
+        "title": "無料相談から公開までの流れ",
+        "heading_font_size": "heading-medium",
+        "text": "<p>ご相談から公開まで、次のステップで進めます。約6〜12週間が目安です。</p>",
+        "text_font_size": "body-medium",
+        "text_alignment": "text-center",
+        "button_text": "",
+        "button_url": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "promo_text": "",
+        "promo_text_font_size": "body-small",
+        "width": "wrapper--full",
+        "mobile_height": "screen-height-one-third--mobile",
         "color_scheme": "scheme-10",
-        "overlay_type": "disabled",
+        "dot_background": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "consultation": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { margin: 0 0 12px; color: var(--COLOR-ACCENT); font-weight: 700; text-transform: uppercase; }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; }\n  .sp-table th, .sp-table td { border: 1px solid var(--COLOR-BORDER-LIGHT); padding: 14px 16px; text-align: left; vertical-align: top; line-height: 1.8; }\n  .sp-table th { background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); font-weight: 700; }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 16px 14px 48px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 16px; top: 16px; width: 20px; height: 20px; border-radius: 50%; background: var(--COLOR-ACCENT); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 22px; top: 21px; width: 5px; height: 9px; border: solid var(--COLOR-BG); border-width: 0 2px 2px 0; transform: rotate(45deg); }\n  .sp-note { max-width: 1000px; margin: 18px auto 0; padding: 14px 16px; border-left: 3px solid var(--COLOR-ACCENT); background: var(--COLOR-BG-ACCENT); color: var(--COLOR-TEXT); line-height: 1.8; }\n  .sp-cta { display: inline-block; margin-top: 8px; padding: 16px 30px; border-radius: var(--btn-radius); background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); border: 1px solid var(--BTN-PRIMARY-BORDER); font-weight: 700; text-decoration: none; }\n  .sp-cta:hover { background: var(--BTN-PRIMARY-BG-BRIGHTER); border-color: var(--BTN-PRIMARY-BG-BRIGHTER); }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER-LIGHT); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; }\n  .sp-price { color: var(--COLOR-ACCENT); font-weight: 800; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { font-weight: 700; margin: 18px 0 6px; }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Free Consultation</p>\n      <h2 class=\"sp-title\">まずは無料相談で、自社の課題と移行範囲を整理してみませんか。</h2>\n      <p class=\"sp-lead\"><strong>まだリニューアルするか決まっていない段階でも問題ありません。</strong>無料相談では、次のようなことを整理できます。</p>\n    </div>\n    <ul class=\"sp-checklist\">\n      <li>現行ECサイトの課題診断</li>\n      <li>Shopify移行で注意すべきポイント</li>\n      <li>Standardプランで対応できる範囲</li>\n      <li>別途費用が出そうな項目</li>\n      <li>概算のお見積もり</li>\n      <li>移行スケジュールの目安</li>\n    </ul>\n    <p class=\"sp-note\">※ 無料の対象は、ヒアリング・課題診断・概算見積もりの提示までです（実際の構築作業は有料です）。</p>\n    <div style=\"text-align:center; margin-top: 28px;\">\n      <a class=\"sp-cta\" href=\"/pages/contact\">自社ECサイトの課題と移行範囲を、無料で整理する</a>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading0": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "q_1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "まだShopifyへ移行するか決まっていなくても相談できますか？",
+            "content": "<p>はい。リニューアルを前提にしていない段階でもご相談いただけます。無料相談では、現行ECサイトの課題や、移行が必要かどうかの整理からお手伝いします。無理なご提案はいたしません。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "今のECサイトから商品データはすべて移行できますか？",
+            "content": "<p>商品名・価格・説明文・画像・在庫などは、Shopifyで運用しやすい形で整理して移行します（商品ページ100点まで）。バリエーション数が多い場合や、顧客データ・注文履歴などは、既存サービスの仕様を確認のうえ、移行できるデータ・できないデータを無料相談で整理してお伝えします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "SEO評価は引き継げますか？",
+            "content": "<p>旧URLから新URLへの301リダイレクト設定やサイトマップの再送信など、検索流入への影響を抑える工程を組み込みます。ただし、検索評価の維持を保証するものではありません。（301リダイレクトとは、旧URLにアクセスした人を新URLへ自動で案内し、検索評価の引き継ぎを目指す設定です。）</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "顧客データや注文履歴も移行できますか？",
+            "content": "<p>顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認したうえで、別途お見積もりとなる場合があります。詳細は無料相談で整理します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_5": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "デザインだけの依頼はできますか？",
+            "content": "<p>Standardプランは、デザイン制作だけでなく、Shopifyへの移行や運用基盤づくりまでを含むプランです。デザインだけを少し変えたい場合は、より適したご提案ができることがありますので、まずはご相談ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "公開後の運用サポートは含まれますか？",
+            "content": "<p>本プランは「自分たちで運用しやすい状態に整えてお引き渡しするまで」が範囲です。公開後の保守運用サポートは、別途お見積もりとなります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_7": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shopifyの月額費用やアプリ費用は別ですか？",
+            "content": "<p>はい。Shopifyの月額利用料、決済手数料、一部アプリの利用料など、外部サービスの費用はお客様のご負担となります。事前に整理してお伝えします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_8": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Standardプランでは対応できないケースはありますか？",
+            "content": "<p>越境対応（多言語・多通貨）、外部システム（在庫管理・店舗レジ・基幹システムなど）との連携、Shopifyアプリそのものの独自開発などは、別途お見積もりまたは対象外です。複雑な基幹連携が前提の場合は、上位プランが適していることもあります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納期はどれくらいですか？",
+            "content": "<p>約6〜12週間が目安です。要件や、お客様側の素材手配のスピードによって変動します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_10": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "相談時に何を準備すればいいですか？",
+            "content": "<p>特別な準備は不要です。現行ECサイトの状況や、伸ばしたいカテゴリ、運用の負担感などをお聞かせいただければ、その場で課題や移行範囲を整理できます。お手元にあれば、商品情報や画像素材のイメージもご共有ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading0",
+        "q_1",
+        "q_2",
+        "q_3",
+        "q_4",
+        "q_5",
+        "q_6",
+        "q_7",
+        "q_8",
+        "q_9",
+        "q_10"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50
       }
     },
-    "action": {
+    "finalcta": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_action": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Action",
-            "padding_bottom": 16
-          }
-        },
-        "heading_action": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "title": "まずは無料相談で、自社の課題と移行範囲を整理してみませんか。",
+            "title": "今のECサイトで十分なのか。Shopifyへ移行すべきなのか。まずは無料相談で整理できます。",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
-            "heading_tag": "automatic"
+            "heading_tag": "h2"
           }
         },
-        "text_action_intro": {
+        "text": {
           "type": "text",
           "settings": {
-            "text": "<p>無料相談では、次のようなことを整理できます。</p>",
+            "text": "<p>リニューアルを前提にしていなくても問題ありません。現行ECサイトの課題、移行で注意すべき点、Standardプランで対応できる範囲、別途費用が出そうな項目まで、無料相談で整理します。</p>",
             "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_action_list": {
-          "type": "text",
-          "settings": {
-            "text": "<ul><li>現行ECサイトの課題診断</li><li>Shopify移行で注意すべきポイントの整理</li><li>Standardプランで対応できる範囲の確認</li><li>別途費用が出そうな項目の洗い出し</li><li>概算のお見積もり</li><li>移行スケジュールの目安</li></ul>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_action_close": {
-          "type": "text",
-          "settings": {
-            "text": "<p>まだリニューアルするか決まっていない段階でも問題ありません。「今のECサイトで十分なのか」「Shopifyへの移行が必要なのか」を整理するところからご相談いただけます。無理なご提案はいたしません。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_action_note": {
-          "type": "text",
-          "settings": {
-            "text": "<p>※ 無料の対象は、ヒアリング・課題診断・概算見積もりの提示までです（実際の構築作業は有料です）。</p>",
-            "text_font_size": "body-x-small",
             "padding_bottom": 50
           }
         },
-        "buttons_action": {
+        "cta": {
           "type": "buttons",
           "settings": {
             "button_text": "自社ECサイトの課題と移行範囲を、無料で整理する",
@@ -733,7 +812,7 @@
             "padding_bottom": 16
           }
         },
-        "buttons_action_sub": {
+        "sub": {
           "type": "buttons",
           "settings": {
             "button_text": "まずはオンラインで話を聞いてみる",
@@ -747,14 +826,10 @@
         }
       },
       "block_order": [
-        "subheading_action",
-        "heading_action",
-        "text_action_intro",
-        "text_action_list",
-        "text_action_close",
-        "text_action_note",
-        "buttons_action",
-        "buttons_action_sub"
+        "heading",
+        "text",
+        "cta",
+        "sub"
       ],
       "custom_css": [
         ".hero__subheading {color: #ab8c52;}"
@@ -870,7 +945,7 @@
         "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50,
-        "heading_tag": "h1"
+        "heading_tag": "h2"
       }
     }
   },
@@ -878,14 +953,18 @@
     "main",
     "fv",
     "problem",
-    "affinity",
+    "growth",
     "solution",
+    "migration",
     "benefit",
     "evidence",
     "contents",
     "offer",
-    "narrow",
-    "action",
+    "fit",
+    "process",
+    "consultation",
+    "faq",
+    "finalcta",
     "contact"
   ]
 }
