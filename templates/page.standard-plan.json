@@ -552,7 +552,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
