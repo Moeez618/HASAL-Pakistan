@@ -39,7 +39,7 @@
           "type": "heading",
           "settings": {
             "title": "SNSでは魅力的に見えるのに、ECサイトでは「普通のネットショップ」に見えてしまっていませんか。",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "h1"
           }
