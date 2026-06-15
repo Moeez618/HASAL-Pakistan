@@ -458,6 +458,49 @@
         "padding_bottom": 0
       }
     },
+    "section_hero_XWjLgY": {
+      "type": "section-hero",
+      "blocks": {
+        "heading_EByBDA": {
+          "type": "heading",
+          "settings": {
+            "title": "ブランド表現から移行設計まで、ひとつのチームで支援します。",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "automatic",
+            "padding_bottom": 8
+          }
+        },
+        "text_hkCRA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>成長期のD2Cブランドが気にするのは、ブランドらしい仕上がりと、移行の安全性の両方です。SOLSTARは、ブランド表現と移行設計を切り離さず、ひとつのチームで一貫して支援します。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "heading_EByBDA",
+        "text_hkCRA6"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_15_15_54_03.png",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 50,
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "evidence": {
       "type": "section-double",
       "blocks": {
@@ -969,6 +1012,7 @@
     "migration",
     "section_before_after_FByLA8",
     "benefit",
+    "section_hero_XWjLgY",
     "evidence",
     "contents",
     "offer",
