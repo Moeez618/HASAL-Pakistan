@@ -11,7 +11,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": true,
@@ -56,7 +55,7 @@
         "lead": {
           "type": "text",
           "settings": {
-            "text": "<p>いま使っているECサイトが悪いわけではありません。ブランドが成長するにつれて、ECサイトに求められる役割が変わってきただけです。SOLSTARのStandardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text": "<p>Standardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -64,7 +63,7 @@
         "cta": {
           "type": "buttons",
           "settings": {
-            "button_text": "自社ECサイトの移行範囲と概算費用を無料で確認する",
+            "button_text": "まずは無料で相談する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -208,7 +207,7 @@
         "align_text": "text-left",
         "width": "wrapper",
         "align_columns": "flex-align-top",
-        "layout_mobile": "1",
+        "layout_mobile": "2",
         "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50,
