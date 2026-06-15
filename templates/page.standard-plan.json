@@ -294,7 +294,7 @@
             "column_width": 33,
             "title": "移行設計",
             "heading_font_size": "heading-small",
-            "text": "<p><strong>検索流入や運用への影響を見据える。</strong></p><ul><li>主要URLの確認・リダイレクト方針の整理</li><li>計測タグの基本設定</li><li>商品・顧客データの整理</li><li>移行時に起きやすいリスクの事前確認</li></ul>",
+            "text": "<p><strong>検索流入や運用への影響を見据える。</strong></p><ul><li>主要URLの整理</li><li>計測タグの基本設定</li><li>商品・顧客データの整理</li><li>移行リスクの事前確認</li></ul>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
