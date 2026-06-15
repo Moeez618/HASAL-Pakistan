@@ -195,7 +195,7 @@
                       {{ block.shopify_attributes }}
                       style="--block-padding-bottom: {{ block.settings.padding_bottom }}px;"
                     >
-                      {{ block.settings.title | escape -}}
+                      {{ block.settings.title | escape | newline_to_br -}}
                     </{{ heading_tag }}>
                   {%- endif -%}
 

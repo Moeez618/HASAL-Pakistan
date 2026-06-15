@@ -15,7 +15,14 @@
   data-section-id="{{ section.id }}"
   data-section-type="custom-code"
 >
-  {{ section.settings.code }}
+  <div
+    class="custom-code__inner"
+    data-aos="hero"
+    data-aos-anchor="#CustomCode--{{ section.id }}"
+    data-aos-order="1"
+  >
+    {{ section.settings.code }}
+  </div>
 </section>
 
 {% schema %}
