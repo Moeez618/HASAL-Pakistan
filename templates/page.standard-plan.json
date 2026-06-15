@@ -501,6 +501,63 @@
         "show_placeholder": true
       }
     },
+    "section_multicolumn_EkpXmA": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "text_qQp84K": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "ブランド表現・デザインの面",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>日本市場向けに開発したオリジナルテーマをベースに構築</li><li>商品詳細ページ、コレクションページ、LOOK導線を設計</li><li>アパレル・D2Cブランドで重要になりやすい導線を反映</li><li>完成イメージを具体的に整理</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "text_EJhwEW": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "移行・運用設計の面",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>大規模ECサイトやShopify Plus支援で培った知見</li><li>URL変更やデータ移行の影響を考慮</li><li>ブランドや運用体制に合わせて必要な機能やアプリを見極める</li><li>アプリを増やすのではなく、必要な仕組みに絞る</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "text_qQp84K",
+        "text_EJhwEW"
+      ],
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
     "evidence": {
       "type": "section-double",
       "blocks": {
@@ -561,6 +618,7 @@
         "b",
         "close"
       ],
+      "disabled": true,
       "custom_css": [
         "p {margin: 1em 0;}",
         ".hero__subheading {color: #ab8c52;}"
@@ -1013,6 +1071,7 @@
     "section_before_after_FByLA8",
     "benefit",
     "section_hero_XWjLgY",
+    "section_multicolumn_EkpXmA",
     "evidence",
     "contents",
     "offer",
