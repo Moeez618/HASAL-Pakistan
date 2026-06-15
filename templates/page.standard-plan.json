@@ -56,7 +56,7 @@
           "type": "text",
           "settings": {
             "text": "<p>Standardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         },
