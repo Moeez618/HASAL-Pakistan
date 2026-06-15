@@ -94,7 +94,7 @@
         ".hero__subheading {color: #ab8c52;}"
       ],
       "settings": {
-        "image_1": "",
+        "image_1": "shopify://shop_images/Standard_Plan_copy.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -386,7 +386,6 @@
         ".hero__subheading {color: #ab8c52;}"
       ],
       "settings": {
-        "image_1": "",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
