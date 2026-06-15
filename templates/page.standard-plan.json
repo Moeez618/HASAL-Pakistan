@@ -11,25 +11,833 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
+      "disabled": true,
       "settings": {
-        "subheading": "モール・SNSで売れている。でも「ブランドとして」届いている実感がない方へ。",
+        "subheading": "",
         "show_title": true,
         "heading_font_size": "heading-large",
         "show_content": true,
         "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h1"
       }
+    },
+    "fv": {
+      "type": "section-double",
+      "blocks": {
+        "sub": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shopify移行・リニューアル｜Standardプラン",
+            "padding_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "SNSでは魅力的に見えるのに、ECサイトでは「普通のネットショップ」に見えてしまっていませんか。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h1"
+          }
+        },
+        "subcopy": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ブランドの世界観を崩さず、売上とリピートを育てるShopify ECサイトへ。</strong></p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "lead": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いま使っているECサイトが悪いわけではありません。ブランドが成長するにつれて、ECサイトに求められる役割が変わってきただけです。SOLSTARのStandardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "cta": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "自社ECサイトの移行範囲と概算費用を無料で確認する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "info": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2,200,000円（税込）から ／ 約8〜12週間 ／ 商品ページ100点まで登録・移行対応</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "sub",
+        "heading",
+        "subcopy",
+        "lead",
+        "cta",
+        "info"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "problem": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "card_1": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "世界観が伝わりきらない",
+            "heading_font_size": "heading-small",
+            "text": "<p>SNSでは魅力的に見えるのに、商品ページや購入導線に入るとテンプレート感が出てしまう。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_2": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "新作発売のたびに運用が慌ただしい",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品登録、画像差し替え、在庫調整に追われ、企画や改善に手が回らない。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_3": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "リピート施策が弱い",
+            "heading_font_size": "heading-small",
+            "text": "<p>新規集客に偏り、購入後のフォローや再購入の導線が整っていない。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_4": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "ツール費用が増えている",
+            "heading_font_size": "heading-small",
+            "text": "<p>決済手数料や外部ツール費用が積み重なり、運営コストが見えにくくなっている。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "card_5": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "データを改善に活かせていない",
+            "heading_font_size": "heading-small",
+            "text": "<p>解析は入っていても、どの導線が売上につながっているのか把握しづらい。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3",
+        "card_4",
+        "card_5"
+      ],
+      "settings": {
+        "subheading": "Problem",
+        "title": "成長したブランドだからこそ見えてくる、いまのECサイトの課題。",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "growth": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Growth Phase</p>\n      <h2 class=\"sp-title\">「このままのECサイトでいいのだろうか」。<br>そう感じるのには理由があります。</h2>\n      <p class=\"sp-lead\">いま使っているECサイトが悪いわけではありません。ブランドが成長したことで、ECサイトに求められる役割が変わってきただけです。今のECサイトを否定するのではなく、フェーズに合わせて再設計することが大切です。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>創業期のECサイト</th><th>成長期のECサイト</th></tr></thead>\n      <tbody>\n        <tr><td>まず販売できることが重要</td><td>ブランド表現と運用効率が重要</td></tr>\n        <tr><td>商品数が少ない</td><td>商品数・SKU・顧客数が増える</td></tr>\n        <tr><td>手作業でも回せる</td><td>更新性と管理画面設計が必要</td></tr>\n        <tr><td>新規購入が中心</td><td>リピート・LTV改善が必要</td></tr>\n        <tr><td>とりあえず形にする</td><td>事業基盤として再設計する</td></tr>\n      </tbody>\n    </table>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "solution": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "pillar_1": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "ブランド表現",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>ブランドの世界観を、ECサイトでも崩さない。</strong></p><ul><li>商品の魅力が伝わる見せ方</li><li>スマートフォンでの購入体験</li><li>新作、ランキング、カテゴリ別、LOOK別導線</li><li>テンプレート感を抑えたページ構成</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "pillar_2": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "移行設計",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>公開後の検索流入や運用への影響を見据える。</strong></p><ul><li>主要URLの確認・リダイレクト方針の整理</li><li>計測タグ（GA4／Search Console／Meta等）の基本設定</li><li>商品・顧客データの整理</li><li>移行時に起きやすいリスクの事前確認</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "pillar_3": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "リピートと運用",
+            "heading_font_size": "heading-small",
+            "text": "<p><strong>公開後に、自分たちで育てられるECサイトにする。</strong></p><ul><li>再入荷通知</li><li>LINE連携</li><li>レビュー機能</li><li>カゴ落ち対策</li><li>更新しやすい管理画面設計</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "pillar_1",
+        "pillar_2",
+        "pillar_3"
+      ],
+      "settings": {
+        "subheading": "Solution",
+        "title": "「乗り換える」のではなく、成長に合わせてECサイトを再設計する。",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "migration": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Migration Risk</p>\n      <h2 class=\"sp-title\">Shopify移行で大切なのは、<br>デザインだけではありません。</h2>\n      <p class=\"sp-lead\">売上や検索流入への影響、商品・顧客データの扱い、公開直後の不具合。移行時の不安を抑えるために、SOLSTARは次のような工程をあらかじめ設計に組み込みます。</p>\n    </div>\n    <ul class=\"sp-checklist\">\n      <li>URL変更にともなうリダイレクト方針の整理</li>\n      <li>商品データの整理・移行</li>\n      <li>主要ページの移行</li>\n      <li>コレクション構成の再設計</li>\n      <li>計測タグ（GA4／Search Console／Meta等）の基本設定確認</li>\n      <li>公開前の購入テスト（決済フローの確認）</li>\n      <li>PC・スマートフォンでの表示確認</li>\n    </ul>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "benefit": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Benefit</p>\n      <h2 class=\"sp-title\">リニューアルで変わるのは、<br>見た目だけではありません。</h2>\n      <p class=\"sp-lead\">運用のしやすさや、リピート施策の進めやすさも変わります。<br>リニューアルのあと、現場の毎日がどう変わるかでお伝えします。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>Before</th><th>After</th></tr></thead>\n      <tbody>\n        <tr><td>新作発売前に商品登録や在庫調整で慌ただしい</td><td>商品登録や更新の手戻りが減り、準備しやすくなる</td></tr>\n        <tr><td>特集やLOOKページの更新に手間がかかる</td><td>社内で更新しやすい構成になる</td></tr>\n        <tr><td>再入荷希望やカゴ落ちが機会損失になる</td><td>再購入・購入検討につなげやすくなる</td></tr>\n        <tr><td>LINEやレビュー導線がバラバラ</td><td>購入後も顧客とつながりやすくなる</td></tr>\n        <tr><td>データはあるが改善に使いづらい</td><td>商品ページや導線の改善点を見つけやすくなる</td></tr>\n        <tr><td>新作発売時の売上に依存しやすい</td><td>リピート購入の土台を作りやすくなる</td></tr>\n      </tbody>\n    </table>\n    <p class=\"sp-note\">※ 効果はブランドの規模・商材・運用体制によって異なり、特定の成果を保証するものではありません。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "evidence": {
+      "type": "section-double",
+      "blocks": {
+        "sub": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Evidence",
+            "padding_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "ブランド表現から移行設計まで、ひとつのチームで支援します。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>成長期のD2Cブランドが気にするのは、ブランドらしい仕上がりと、移行の安全性の両方です。SOLSTARは、ブランド表現と移行設計を切り離さず、ひとつのチームで一貫して支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ブランド表現・デザインの面</strong></p><ul><li>日本市場向けに開発したオリジナルテーマをベースに構築</li><li>商品詳細ページ、コレクションページ、LOOK導線を設計</li><li>アパレル・D2Cブランドで重要になりやすい導線を反映</li><li>完成イメージを具体的に整理</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "b": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>移行・運用設計の面</strong></p><ul><li>大規模ECサイトやShopify Plus支援で培った知見</li><li>URL変更やデータ移行の影響を考慮</li><li>ブランドや運用体制に合わせて必要な機能やアプリを見極める</li><li>アプリを増やすのではなく、必要な仕組みに絞る</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>数字だけで期待を煽ることはしません。ブランドの世界観を表現する設計と、移行リスクを抑える工程をもとに、現実的なご提案を行います。</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "sub",
+        "heading",
+        "intro",
+        "a",
+        "b",
+        "close"
+      ],
+      "custom_css": [
+        "p {margin: 1em 0;}",
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "contents": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Contents</p>\n      <h2 class=\"sp-title\">サイトを作って終わりではありません。公開後の運用まで見据えたリニューアルプランです。</h2>\n      <p class=\"sp-lead\">デザイン制作だけでなく、Shopify移行や運用基盤づくりまで含むプランです。<br>主な内容は次のとおりです。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>項目</th><th>対応内容</th></tr></thead>\n      <tbody>\n        <tr><td>要件整理</td><td>ブランド方向性、商品構成、購入導線、必要機能の整理（決済・配送・税設定など基本設定を含む）</td></tr>\n        <tr><td>デザイン調整</td><td>オリジナルページ6ページまで、複数テンプレート作成</td></tr>\n        <tr><td>バナー制作</td><td>3点まで</td></tr>\n        <tr><td>商品登録・移行</td><td>商品ページ100点まで（商品名・価格・説明文・画像・在庫などを整理）</td></tr>\n        <tr><td>コレクション設計</td><td>20点まで（新作・ランキング・カテゴリ別・LOOK別などの回遊導線）</td></tr>\n        <tr><td>主要ページ移行</td><td>20ページまで（About、FAQ、送料、返品、特定商取引法に基づく表記など）</td></tr>\n        <tr><td>SEO移行の基本対応</td><td>主要URLの確認、リダイレクト方針の整理、計測タグ設定（GA4 / Search Console / Meta ピクセル等）の基本確認</td></tr>\n        <tr><td>アプリ連携</td><td>6点まで（レビュー、再入荷通知、LINE連携、カゴ落ち対策、フォーム、配送・分析など）</td></tr>\n        <tr><td>公開前チェック</td><td>PC・スマートフォン表示確認、購入テスト、対応範囲内の不具合修正</td></tr>\n        <tr><td>納品物</td><td>構築済みShopifyストア、運用に必要な管理画面・テーマ関連の権限</td></tr>\n      </tbody>\n    </table>\n    <p class=\"sp-note\">※ 商品ページ100点、コレクション20点、主要ページ20ページは、それぞれ別枠の対応範囲です。顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認のうえ、別途お見積もりとなる場合があります。移行できるデータ・できないデータは、無料相談の段階で整理してお伝えします。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "offer": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Offer</p>\n      <h2 class=\"sp-title\">単なるリニューアルではなく、<br>ブランドの成長を支えるEC基盤づくりです。</h2>\n      <p class=\"sp-lead\">移行設計や公開前テストも含め、公開後の運用を見据えたEC基盤づくりを行います。<br>あとから費用が膨らまないよう、対応範囲や別途費用まで事前に整理してお伝えします。</p>\n    </div>\n    <div class=\"sp-grid2\">\n      <div class=\"sp-card\">\n        <h3>Standardプラン</h3>\n        <p class=\"sp-price\"><strong>2,200,000円（税込）から</strong></p>\n        <ul>\n          <li>納期：約8〜12週間</li>\n          <li>商品ページ100点まで登録・移行対応</li>\n          <li>コレクション20点まで</li>\n          <li>主要ページ20ページまで</li>\n          <li>アプリ連携6点まで</li>\n          <li>打ち合わせ5回</li>\n          <li>修正対応3回まで</li>\n        </ul>\n        <a class=\"btn btn--solid btn--primary\" href=\"/pages/contact\"><span>移行範囲と概算費用を無料で確認する</span></a>\n      </div>\n      <div class=\"sp-card\">\n        <p class=\"sp-sub\"><strong>制作体制</strong></p>\n        <p>ディレクター1名、エンジニア2名を中心とした制作体制</p>\n        <p class=\"sp-sub\"><strong>お客様にご準備いただくもの</strong></p>\n        <p>キービジュアル、商品情報、画像素材、ドメイン、各ページ原稿</p>\n        <p class=\"sp-sub\"><strong>別途発生する費用</strong></p>\n        <p>Shopify月額、決済手数料、一部アプリ利用料、保守運用、追加開発、越境対応、外部・POS連携、大量URLの301リダイレクト設計・設定、詳細なSEO設計など</p>\n        <p class=\"sp-sub\"><strong>対象外</strong></p>\n        <p>Shopifyアプリそのものの独自開発</p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fit": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "yes": {
+          "type": "text",
+          "settings": {
+            "column_width": 50,
+            "title": "向いているブランド・企業",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>月商800万〜1,000万円規模まで成長している</li><li>今のECサイトに限界を感じ始めている</li><li>ブランド表現や運用に物足りなさがある</li><li>Shopifyへの本格移行を検討している</li><li>リピート施策やLTV改善の土台を整えたい</li><li>SNSの世界観とECサイトのギャップを解消したい</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "no": {
+          "type": "text",
+          "settings": {
+            "column_width": 50,
+            "title": "いまは向いていない企業",
+            "heading_font_size": "heading-small",
+            "text": "<ul><li>まだ売る商品がなく、低予算でまず始めたい</li><li>年商10億円を大きく超え、複雑な基幹連携が前提</li><li>Shopify移行や運用基盤の整備は不要</li><li>デザインだけを少し変えたい</li></ul>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "yes",
+        "no"
+      ],
+      "settings": {
+        "subheading": "Fit / Not Fit",
+        "title": "正直にお伝えします。Standardプランは、すべての企業に向いているわけではありません。",
+        "heading_font_size": "heading-medium",
+        "description": "<p>複雑な基幹連携や越境対応の有無によっては、上位プランが適している場合もあります。どのプランが最適かは、無料相談で客観的に整理できます。</p>",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "process": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Process</p>\n      <h2 class=\"sp-title\">無料相談から公開までの流れ</h2>\n      <p class=\"sp-lead\">ご相談から公開まで、次のステップで進めます。約8〜12週間が目安です。</p>\n    </div>\n    <div class=\"sp-flow\">\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>01</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">無料相談・課題診断</h3><p class=\"sp-flow__desc\">現行ECサイトの課題、移行目的、必要な範囲を整理。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>02</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">要件整理・お見積もり</h3><p class=\"sp-flow__desc\">商品点数、ページ数、アプリ、移行データ、SEO移行範囲を確認。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>03</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">設計・デザイン調整</h3><p class=\"sp-flow__desc\">ブランド表現、導線、コレクション、テンプレート構成を設計。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>04</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">Shopify構築・データ移行</h3><p class=\"sp-flow__desc\">商品、ページ、アプリ、各種設定を実装し、主要URLのリダイレクト方針を反映。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>05</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開前チェック</h3><p class=\"sp-flow__desc\">表示確認、購入テスト、スマホ確認、修正対応。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>06</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開・引き渡し</h3><p class=\"sp-flow__desc\">運用しやすい状態で管理画面・権限をお渡し。</p></div></div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "consultation": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: var(--COLOR-ACCENT); font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-BORDER); border-radius: 14px; overflow: hidden; background: var(--COLOR-BG-ACCENT-LIGHTEN); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-BG-ACCENT); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-BORDER); border-radius: 12px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-BORDER); border-radius: 12px; padding: 28px; background: var(--COLOR-BG-ACCENT-LIGHTEN); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: var(--COLOR-ACCENT); margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-BORDER); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: var(--COLOR-ACCENT); line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Free Consultation</p>\n      <h2 class=\"sp-title\">まずは無料相談で、<br>自社の課題を整理してみませんか。</h2>\n      <p class=\"sp-lead\"><strong>まだリニューアルするか決まっていない段階でも問題ありません。</strong><br>無料相談では、次のようなことを整理できます。</p>\n    </div>\n    <ul class=\"sp-checklist sp-checklist--grid\">\n      <li>現行ECサイトの課題診断</li>\n      <li>Shopify移行で注意すべきポイント</li>\n      <li>Standardプランで対応できる範囲</li>\n      <li>別途費用が出そうな項目</li>\n      <li>概算のお見積もり</li>\n      <li>移行スケジュールの目安</li>\n    </ul>\n    <p class=\"sp-note\">※ 無料の対象は、ヒアリング・課題診断・概算見積もりの提示までです（実際の構築作業は有料です）。</p>\n    <div style=\"text-align:center; margin-top: 28px;\">\n      <a class=\"btn btn--solid btn--primary\" href=\"/pages/contact\"><span>自社ECサイトの課題と移行範囲を、無料で整理する</span></a>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "faq": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "heading0": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "q_1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "まだShopifyへ移行するか決まっていなくても相談できますか？",
+            "content": "<p>はい。リニューアルを前提にしていない段階でもご相談いただけます。無料相談では、現行ECサイトの課題や、移行が必要かどうかの整理からお手伝いします。無理なご提案はいたしません。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "今のECサイトから商品データはすべて移行できますか？",
+            "content": "<p>商品名・価格・説明文・画像・在庫などは、Shopifyで運用しやすい形で整理して移行します（商品ページ100点まで）。バリエーション数が多い場合や、顧客データ・注文履歴などは、既存サービスの仕様を確認のうえ、移行できるデータ・できないデータを無料相談で整理してお伝えします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "SEO評価は引き継げますか？",
+            "content": "<p>主要URLの確認やリダイレクト方針の整理など、検索流入への影響を抑える基本対応を工程に組み込みます。大量URLの301リダイレクト設計・設定や詳細なSEO設計は別途お見積もりとなります。なお、検索評価の維持を保証するものではありません。（301リダイレクトとは、旧URLにアクセスした人を新URLへ自動で案内し、検索評価の引き継ぎを目指す設定です。）</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "顧客データや注文履歴も移行できますか？",
+            "content": "<p>顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認したうえで、別途お見積もりとなる場合があります。詳細は無料相談で整理します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_5": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "デザインだけの依頼はできますか？",
+            "content": "<p>Standardプランは、デザイン制作だけでなく、Shopifyへの移行や運用基盤づくりまでを含むプランです。デザインだけを少し変えたい場合は、より適したご提案ができることがありますので、まずはご相談ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "公開後の運用サポートは含まれますか？",
+            "content": "<p>本プランは「自分たちで運用しやすい状態に整えてお引き渡しするまで」が範囲です。公開後の保守運用サポートは、別途お見積もりとなります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_7": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Shopifyの月額費用やアプリ費用は別ですか？",
+            "content": "<p>はい。Shopifyの月額利用料、決済手数料、一部アプリの利用料など、外部サービスの費用はお客様のご負担となります。事前に整理してお伝えします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_8": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "Standardプランでは対応できないケースはありますか？",
+            "content": "<p>越境対応（多言語・多通貨）、外部システム（在庫管理・店舗レジ・基幹システムなど）との連携、Shopifyアプリそのものの独自開発などは、別途お見積もりまたは対象外です。複雑な基幹連携が前提の場合は、上位プランが適していることもあります。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_9": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納期はどれくらいですか？",
+            "content": "<p>約8〜12週間が目安です。要件や、お客様側の素材手配のスピードによって変動します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "q_10": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "相談時に何を準備すればいいですか？",
+            "content": "<p>特別な準備は不要です。現行ECサイトの状況や、伸ばしたいカテゴリ、運用の負担感などをお聞かせいただければ、その場で課題や移行範囲を整理できます。お手元にあれば、商品情報や画像素材のイメージもご共有ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading0",
+        "q_1",
+        "q_2",
+        "q_3",
+        "q_4",
+        "q_5",
+        "q_6",
+        "q_7",
+        "q_8",
+        "q_9",
+        "q_10"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "1",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "finalcta": {
+      "type": "section-rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "今のECサイトで十分なのか。Shopifyへ移行すべきなのか。まずは無料相談で整理できます。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>リニューアルを前提にしていなくても問題ありません。現行ECサイトの課題、移行で注意すべき点、Standardプランで対応できる範囲、別途費用が出そうな項目まで、無料相談で整理します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 50
+          }
+        },
+        "cta": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "自社ECサイトの課題と移行範囲を、無料で整理する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "sub": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずはオンラインで話を聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "cta",
+        "sub"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "name_iQFAiV": {
+          "type": "name",
+          "settings": {
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
+            "required": true
+          }
+        },
+        "email_zEpefz": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "heading": "メールアドレス",
+            "required": true
+          }
+        },
+        "telephone_DmUA6B": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number",
+            "heading": "電話番号",
+            "required": true
+          }
+        },
+        "text_UNiVit": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
+            "required": false
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容（任意）",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_GTz36X": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
+          }
+        }
+      },
+      "block_order": [
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X",
+        "Options-select"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "fv",
+    "problem",
+    "growth",
+    "solution",
+    "migration",
+    "benefit",
+    "evidence",
+    "contents",
+    "offer",
+    "fit",
+    "process",
+    "consultation",
+    "faq",
+    "finalcta",
+    "contact"
   ]
 }
