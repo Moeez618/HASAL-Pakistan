@@ -214,44 +214,50 @@
         "heading_tag": "h2"
       }
     },
-    "section_hero_KeEz3X": {
-      "type": "section-hero",
+    "section_double_i8kpjn": {
+      "type": "section-double",
       "blocks": {
-        "heading_wybpUD": {
+        "subheading_WjK49i": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Growth Phase",
+            "padding_bottom": 16
+          }
+        },
+        "heading_iLyqLg": {
           "type": "heading",
           "settings": {
             "title": "「このままのECサイトでいいのだろうか」。そう感じるのには理由があります。",
             "heading_font_size": "heading-large",
-            "heading_tag": "automatic",
-            "padding_bottom": 8
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
           }
         },
-        "text_yTB3Qa": {
+        "text_JXyWGc": {
           "type": "text",
           "settings": {
             "text": "<p>いま使っているECサイトが悪いわけではありません。ブランドが成長したことで、ECサイトに求められる役割が変わってきただけです。今のECサイトを否定するのではなく、フェーズに合わせて再設計することが大切です。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
-        "heading_wybpUD",
-        "text_yTB3Qa"
+        "subheading_WjK49i",
+        "heading_iLyqLg",
+        "text_JXyWGc"
       ],
-      "name": "Image banner",
+      "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Hero_Image_3_copy.webp",
-        "link": "",
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_15_14_50_22.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
         "width": "wrapper--full",
         "height": "image-height",
-        "flex_align_desktop": "align--middle-right-desktop",
-        "content_width": 50,
         "mobile_height": "image-height--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
+        "reverse_blocks": false,
         "color_scheme": "",
-        "show_text_background": false,
-        "overlay_type": "disabled",
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
@@ -868,7 +874,7 @@
     "main",
     "fv",
     "problem",
-    "section_hero_KeEz3X",
+    "section_double_i8kpjn",
     "growth",
     "solution",
     "migration",
