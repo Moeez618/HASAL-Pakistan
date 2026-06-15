@@ -414,6 +414,50 @@
         "padding_bottom": 0
       }
     },
+    "section_before_after_FByLA8": {
+      "type": "section-before-after",
+      "blocks": {
+        "subheading_JPPNwq": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benefit",
+            "padding_bottom": 16
+          }
+        },
+        "heading_4XzfgM": {
+          "type": "heading",
+          "settings": {
+            "heading": "リニューアルで変わるのは、見た目だけではありません。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_9RMPna": {
+          "type": "text",
+          "settings": {
+            "description": "<p>運用のしやすさや、リピート施策の進めやすさも変わります。<br/>リニューアルのあと、現場の毎日がどう変わるかでお伝えします。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JPPNwq",
+        "heading_4XzfgM",
+        "text_9RMPna"
+      ],
+      "name": "Before and after",
+      "settings": {
+        "image_1": "shopify://shop_images/iStock-916408346.jpg",
+        "image_2": "shopify://shop_images/Hero_Image_copy.png",
+        "aspect_ratio": 1.2,
+        "width": "wrapper--full-padded",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "evidence": {
       "type": "section-double",
       "blocks": {
@@ -924,6 +968,7 @@
     "solution",
     "migration",
     "benefit",
+    "section_before_after_FByLA8",
     "evidence",
     "contents",
     "offer",
