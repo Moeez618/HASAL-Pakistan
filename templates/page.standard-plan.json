@@ -11,18 +11,863 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
+      "disabled": true,
       "settings": {
-        "subheading": "モール・SNSで売れている。でも「ブランドとして」届いている実感がない方へ。",
+        "subheading": "",
         "show_title": true,
         "heading_font_size": "heading-large",
         "show_content": true,
         "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h1"
+      }
+    },
+    "fv": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_fv": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Standard Plan",
+            "padding_bottom": 16
+          }
+        },
+        "heading_fv": {
+          "type": "heading",
+          "settings": {
+            "title": "SNSでは魅力的に見えるのに、ECサイトでは「普通のネットショップ」に見えてしまっていませんか。ブランドの世界観を崩さず、売上とリピートを育てるECサイトへ。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h1"
+          }
+        },
+        "text_fv_lead": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いま使っているECサイトが悪いわけではありません。ブランドが成長するにつれて、求められる役割が変わってきただけです。</p><p>月商800万〜1,000万円規模になると、ブランド表現、リピート施策、運用効率、データ活用など、創業期には見えなかった課題が少しずつ増えていきます。</p><p>SOLSTARのStandardプランは、ブランドの世界観を崩さず、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 50
+          }
+        },
+        "buttons_fv": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "自社ECサイトの移行範囲と概算費用を無料で確認する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "text_fv_info": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standardプラン：2,200,000円（税込）から／納期 約6〜12週間／商品ページ100点まで登録・移行対応</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_fv_sub": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは移行の不安を相談する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_fv",
+        "heading_fv",
+        "text_fv_lead",
+        "buttons_fv",
+        "text_fv_info",
+        "buttons_fv_sub"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "problem": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_problem": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Problem",
+            "padding_bottom": 16
+          }
+        },
+        "heading_problem": {
+          "type": "heading",
+          "settings": {
+            "title": "成長したブランドだからこそ見えてくる、いまのECサイトの課題。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_problem_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>商品も顧客も増えている。それなのに、ECサイトにこんな違和感はありませんか。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_problem_list": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>ブランドの世界観が、ECサイトで十分に表現できていない。SNSでは魅力的に見えているのに、商品ページや購入導線に入るとテンプレート感が出てしまう。</li><li>新作発売のたびに、運用が慌ただしくなる。商品登録・画像差し替え・在庫調整に時間を取られ、企画や改善に手が回らない。</li><li>新規集客に偏り、リピート施策が弱い。リピート購入を促す仕組みや、購入後のフォローが十分に整っていない。</li><li>手数料や外部ツールの費用が増えてきた。決済手数料や追加ツールの費用が積み重なり、運営コストが膨らんでいる。</li><li>データはあるのに、改善に活かせていない。アクセス解析は入っていても、どの施策や導線が売上につながっているのか把握できない。</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_problem_close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>これらは、担当者の努力不足でも商品力の問題でもありません。立ち上げ期に選んだシステムが、いまの成長フェーズに合わなくなってきているだけです。放置しているあいだにも、せっかく獲得した顧客との接点を活かしきれない状態が続いていきます。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_problem",
+        "heading_problem",
+        "text_problem_intro",
+        "text_problem_list",
+        "text_problem_close"
+      ],
+      "custom_css": [
+        "p {margin: 1em 0;}",
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "affinity": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_affinity": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Affinity",
+            "padding_bottom": 16
+          }
+        },
+        "heading_affinity": {
+          "type": "heading",
+          "settings": {
+            "title": "「このままのECサイトでいいのだろうか」。そう感じるのには理由があります。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_affinity": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いま使っているECサイトが悪いわけではありません。</p><p>創業期には十分だった仕組みも、商品数や顧客数が増え、ブランドが成長するにつれて少しずつ合わなくなっていきます。問題は「良いシステムか、悪いシステムか」ではありません。いまの成長フェーズに対して、ECサイトに求められる役割が変わってきているだけです。</p><p>そして、それは誰のせいでもありません。</p><p>代表やクリエイティブディレクターには「ブランドの世界観を、ECサイトでも崩したくない」という想いがあり、運用担当には「本当はもっとリピート施策や改善に取り組みたいのに、日々の作業で精一杯」という現実があります。</p><p>月商800万〜1,000万円規模のD2Cブランドの多くが、同じような壁にぶつかります。</p><p>だからこそ、ブランド表現と運用のしやすさを切り離さずに考えることが大切です。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_affinity",
+        "heading_affinity",
+        "text_affinity"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "solution": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_solution": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Solution",
+            "padding_bottom": 16
+          }
+        },
+        "heading_solution": {
+          "type": "heading",
+          "settings": {
+            "title": "「乗り換える」のではなく、成長に合わせてECサイトを再設計する。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_solution_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopifyへの移行そのものが目的ではありません。</p><p>大切なのは、ブランドの世界観を表現しながら、リピート施策や運用改善にも取り組みやすいECサイトへ再設計することです。</p><p>SOLSTARでは、次の3つの観点で進めます。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_solution_1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ブランド表現</strong></p><p>ブランドの世界観を、ECサイトでも崩さない。テンプレートを当てはめるのではなく、ブランドの世界観や商品の魅力が伝わる見せ方を設計します。スマートフォンでの購入体験を整えながら、新作・ランキング・カテゴリ別・LOOK別など、回遊しやすい導線を構築します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_solution_2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>移行設計</strong></p><p>移行で避けたいのは、公開後の売上や検索流入への影響です。リニューアル後にアクセス数や検索流入が落ちる要因は、デザインだけではありません。URL変更にともなうリダイレクト漏れや、商品・顧客データの不整合など、移行設計の不備が影響することもあります。SOLSTARは、旧URLから新URLへの転送設定（301リダイレクト）やサイトマップの再送信といった重要な手順を工程に組み込みます。検索流入や運用面で起こりやすいリスクを想定し、事前に対策を設計します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_solution_3": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>リピートと運用</strong></p><p>公開後に、自分たちで育てられるECサイトにする。リピート施策を進めやすいよう、再入荷通知、LINE連携、レビュー機能など、本当に必要な仕組みだけを厳選して組み込みます。あわせて、商品や特集ページを社内で更新しやすいよう、管理画面やコレクション構成も整理します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_solution",
+        "heading_solution",
+        "text_solution_intro",
+        "text_solution_1",
+        "text_solution_2",
+        "text_solution_3"
+      ],
+      "custom_css": [
+        "p {margin: 1em 0;}",
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "benefit": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_benefit": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Benefit",
+            "padding_bottom": 16
+          }
+        },
+        "heading_benefit": {
+          "type": "heading",
+          "settings": {
+            "title": "リニューアルで変わるのは見た目だけではありません。運用のしやすさや、リピート施策の進めやすさも変わります。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_benefit_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>リニューアルのあと、現場の毎日がどう変わるかでお伝えします。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_benefit_list": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>新作発売前の商品登録の手戻りが減り、在庫調整の慌ただしさが和らぐ</li><li>LOOKや特集ページを、社内で更新しやすくなる</li><li>再入荷希望やカゴ落ちを、そのまま機会損失で終わらせず、購入につなげやすくなる</li><li>LINE登録やレビュー獲得の導線が整い、購入後も顧客とつながりやすくなる</li><li>どの商品ページで離脱し、どの商品が売上につながっているのかを把握しやすくなる</li><li>新作発売時の売上だけに頼らず、リピート購入につなげやすくなる</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_benefit_close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>経営の視点では、手作業に追われる時間や、取りこぼしていた売上機会を減らしながら、ブランドづくりやリピート施策により多くの時間を使える状態を目指せます。実店舗との連携や海外展開を見据えても、拡張しやすいShopifyの土台が整います。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_benefit_note": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※ 効果はブランドの規模・商材・運用体制によって異なり、特定の成果を保証するものではありません。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_benefit",
+        "heading_benefit",
+        "text_benefit_intro",
+        "text_benefit_list",
+        "text_benefit_close",
+        "text_benefit_note"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "evidence": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_evidence": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Evidence",
+            "padding_bottom": 16
+          }
+        },
+        "heading_evidence": {
+          "type": "heading",
+          "settings": {
+            "title": "ブランド表現から移行設計まで、ひとつのチームで支援します。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_evidence_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>成長期のD2Cブランドが気にするのは、ブランドらしい仕上がりと、移行の安全性の両方です。SOLSTARは、ブランド表現と移行設計を切り離さず、ひとつのチームで一貫して支援します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_evidence_design": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>ブランド表現・デザインの面</strong></p><ul><li>SOLSTARでは、日本市場向けに開発したオリジナルテーマをベースに構築することで、ブランドの世界観と運用のしやすさを両立しやすい設計を目指しています。</li><li>商品詳細ページ、コレクションページ、LOOK導線、再入荷通知など、アパレル・D2Cブランドで重要になりやすい構成を踏まえながら、完成イメージを具体的に整理していきます。</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_evidence_migration": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>移行・運用設計の面</strong></p><ul><li>大規模ECサイトやShopify Plusを利用するストアの構築・運用支援で培った知見をもとに、ブランドや運用体制に合わせて必要な機能やアプリを見極めます。</li><li>移行時に見落とされやすいURL変更やデータ移行の影響まで考慮し、公開後のリスクを抑えるための工程を重視しています。</li><li>リピート施策はアプリを増やすことではなく、自社に必要な仕組みを整理することだと考えています。再入荷通知やLINE連携なども、その考え方に沿って選定します。</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_evidence_close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>数字だけで期待を煽ることはしません。「リニューアルすれば必ず売上が上がる」とはお伝えできませんが、ブランドの世界観を表現する設計と、移行リスクを抑える工程をもとに、現実的なご提案を行います。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_evidence",
+        "heading_evidence",
+        "text_evidence_intro",
+        "text_evidence_design",
+        "text_evidence_migration",
+        "text_evidence_close"
+      ],
+      "custom_css": [
+        "p {margin: 1em 0;}",
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "contents": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_contents": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Contents",
+            "padding_bottom": 16
+          }
+        },
+        "heading_contents": {
+          "type": "heading",
+          "settings": {
+            "title": "サイトを作って終わりではありません。公開後の運用まで見据えたリニューアルプランです。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_contents_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standardプランは、デザイン制作だけでなく、Shopifyへの移行や運用基盤づくりまでを含むリニューアルプランです。主な内容は次のとおりです。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_contents_list": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>要件整理：ブランドの方向性や商品構成、購入導線、必要な機能を整理し、Shopifyの基本設定（決済・配送・税設定など）もあわせて設計します。</li><li>デザイン調整（オリジナルページ6ページまで／複数テンプレート作成）：ブランドの世界観を表現しながら、公開後も社内で更新・運用しやすい構成を設計します。</li><li>バナー制作（3点まで）：キービジュアルや特集用のバナー画像を制作します。</li><li>商品データの登録・移行（商品ページ100点まで）：商品名、価格、説明文、画像、在庫などを整理し、Shopifyで運用しやすい形で移行します。バリエーション数が多い場合は、事前に対応範囲を確認します。</li><li>カテゴリー・コレクション設計（コレクション20点まで）：新作、ランキング、カテゴリ別、LOOK別など、商品を探しやすく回遊しやすい導線を設計します。</li><li>主要ページの移行・整備（20ページまで）：About、FAQ、送料、返品、特定商取引法に基づく表記など、主要な固定ページを移行・整備します。</li><li>SEO移行の基本対応：主要URLの確認、301リダイレクト設定、サイトマップ・Search Consoleの基本確認を行います。リダイレクト対象が大量になる場合は、対応範囲を確認のうえ別途お見積もりとなる場合があります。</li><li>アプリ連携（6点まで）：レビュー、再入荷通知、LINE連携、カゴ落ち対策、フォーム、配送・分析関連など、本当に必要な機能を厳選して組み込みます。</li><li>公開前チェック：PC・スマートフォンでの表示確認や購入テスト（決済フローの確認）を行い、対応範囲内で不具合を修正したうえで公開します。</li><li>納品物：構築済みのECサイト（Shopifyストア）と、運用に必要な管理画面・テーマ関連の権限をお渡しします。</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_contents_note": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※ 商品データの登録・移行（商品ページ100点）、カテゴリー・コレクション設計（20点）、主要ページの移行・整備（20ページ）は、それぞれ別枠の対応範囲です。なお、顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認したうえで、別途お見積もりとなる場合があります。移行できるデータ・できないデータは、無料相談の段階で整理してお伝えします。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_contents",
+        "heading_contents",
+        "text_contents_intro",
+        "text_contents_list",
+        "text_contents_note"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "offer": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_offer": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Offer",
+            "padding_bottom": 16
+          }
+        },
+        "heading_offer": {
+          "type": "heading",
+          "settings": {
+            "title": "単なるリニューアルではなく、ブランドの成長を支えるEC基盤づくりです。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_offer_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standardプランは、ECサイトの見た目を整えるだけのリニューアルプランではありません。ブランドの世界観を表現するデザイン、Shopifyへの移行設計、商品データの登録・移行、SEO移行の基本対応、アプリ連携、公開前テストまでを含めて整えるプランです。安価なテンプレート制作では省略されがちな移行設計や公開前テストも含め、公開後の運用を見据えたEC基盤づくりを行います。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_offer_price": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>料金・進め方</strong></p><ul><li>価格：2,200,000円（税込）から（要件や対応範囲により変動します）</li><li>納期：約6〜12週間（要件や、お客様側の素材手配のスピードによって変動します）</li><li>制作体制：ディレクター1名、エンジニア2名を中心とした制作体制</li><li>打ち合わせ：進行・進捗の打ち合わせを合計5回</li><li>修正対応：3回まで（大幅な仕様変更が発生する場合は、別途お見積もりとなります）</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_offer_prepare": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>お客様にご準備いただくもの</strong></p><p>キービジュアル、商品情報、画像素材、ドメイン、各ページの掲載原稿。なお、公開後の商品更新や受注対応、コンテンツ更新などの日々の運用は、お客様側でご対応いただきます。運用しやすい状態を整えたうえでお引き渡しします。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_offer_extra": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>別途発生する費用</strong></p><ul><li>ランニングコスト：Shopifyの月額利用料、決済手数料、一部アプリの利用料など、外部サービスの費用はお客様のご負担となります。</li><li>別途お見積もり：保守運用サポート、追加アプリの実装・追加ページ制作・追加バナー制作、越境対応（多言語・多通貨）、外部システム（在庫管理・店舗レジ・基幹システムなど）との連携、進行途中の大幅な仕様変更。</li><li>対象外：Shopifyアプリそのものの独自開発。</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_offer_close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>事前に、対応範囲や別途費用、運用後に発生する外部サービス費用まで整理してお伝えします。制作途中で想定外の費用が膨らまないよう、できるだけ分かりやすく進めることを大切にしています。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_offer",
+        "heading_offer",
+        "text_offer_intro",
+        "text_offer_price",
+        "text_offer_prepare",
+        "text_offer_extra",
+        "text_offer_close"
+      ],
+      "custom_css": [
+        "p {margin: 1em 0;}",
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "narrow": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_narrow": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Narrow",
+            "padding_bottom": 16
+          }
+        },
+        "heading_narrow": {
+          "type": "heading",
+          "settings": {
+            "title": "正直にお伝えします。Standardプランは、すべての企業に向いているわけではありません。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_narrow_fit": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>向いているブランド・企業</strong></p><ul><li>月商800万〜1,000万円規模まで成長し、今のECサイトに限界を感じ始めている</li><li>現在のEC基盤では、ブランド表現や運用、リピート施策に物足りなさを感じている</li><li>Shopifyへの本格移行を検討している</li><li>新規集客だけでなく、リピート施策やLTV改善の土台を整えたい</li><li>SNSの世界観とECサイトのギャップを解消したい</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_narrow_unfit": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>いまは向いていない企業</strong></p><ul><li>まだ売る商品がなく、低予算でまずは立ち上げたい（より小さく始めるプランが適しています）</li><li>年商10億円を大きく超え、基幹システムや複数店舗POSとの複雑な連携を前提としている（上位プランや大規模開発が適しています）</li><li>Shopifyへの移行や運用基盤の整備は不要で、デザインだけを少し変えたい</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_narrow_close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>複雑な基幹連携や越境対応の有無によっては、上位プランが適している場合もあります。どのプランが最適かは、無料相談で客観的に整理できます。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_narrow",
+        "heading_narrow",
+        "text_narrow_fit",
+        "text_narrow_unfit",
+        "text_narrow_close"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "action": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_action": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Action",
+            "padding_bottom": 16
+          }
+        },
+        "heading_action": {
+          "type": "heading",
+          "settings": {
+            "title": "まずは無料相談で、自社の課題と移行範囲を整理してみませんか。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_action_intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>無料相談では、次のようなことを整理できます。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_action_list": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>現行ECサイトの課題診断</li><li>Shopify移行で注意すべきポイントの整理</li><li>Standardプランで対応できる範囲の確認</li><li>別途費用が出そうな項目の洗い出し</li><li>概算のお見積もり</li><li>移行スケジュールの目安</li></ul>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_action_close": {
+          "type": "text",
+          "settings": {
+            "text": "<p>まだリニューアルするか決まっていない段階でも問題ありません。「今のECサイトで十分なのか」「Shopifyへの移行が必要なのか」を整理するところからご相談いただけます。無理なご提案はいたしません。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_action_note": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※ 無料の対象は、ヒアリング・課題診断・概算見積もりの提示までです（実際の構築作業は有料です）。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 50
+          }
+        },
+        "buttons_action": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "自社ECサイトの課題と移行範囲を、無料で整理する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_action_sub": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずはオンラインで話を聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_action",
+        "heading_action",
+        "text_action_intro",
+        "text_action_list",
+        "text_action_close",
+        "text_action_note",
+        "buttons_action",
+        "buttons_action_sub"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "name_iQFAiV": {
+          "type": "name",
+          "settings": {
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
+            "required": true
+          }
+        },
+        "email_zEpefz": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "heading": "メールアドレス",
+            "required": true
+          }
+        },
+        "telephone_DmUA6B": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number",
+            "heading": "電話番号",
+            "required": true
+          }
+        },
+        "text_UNiVit": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
+            "required": false
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容（任意）",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_GTz36X": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
+          }
+        },
+        "Options-select": {
+          "type": "select",
+          "disabled": true,
+          "settings": {
+            "title": "ご希望プラン",
+            "required": true,
+            "label-one": "Shopify費用比較調査レポートについて",
+            "label-two": "Cream By Solstarについて",
+            "label-three": "SOLSTAR EXPRESSについて",
+            "label-four": "Basicプランについて",
+            "label-five": "Standardプランについて",
+            "label-six": "Proプランについて"
+          }
+        }
+      },
+      "block_order": [
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X",
+        "Options-select"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h1"
@@ -30,6 +875,17 @@
     }
   },
   "order": [
-    "main"
+    "main",
+    "fv",
+    "problem",
+    "affinity",
+    "solution",
+    "benefit",
+    "evidence",
+    "contents",
+    "offer",
+    "narrow",
+    "action",
+    "contact"
   ]
 }
