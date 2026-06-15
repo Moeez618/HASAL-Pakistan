@@ -228,7 +228,7 @@
           "type": "heading",
           "settings": {
             "title": "「このままのECサイトでいいのだろうか」。そう感じるのには理由があります。",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -278,7 +278,7 @@
           "type": "heading",
           "settings": {
             "title": "「乗り換える」のではなく、成長に合わせてECサイトを再設計する。",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "heading_tag": "automatic",
             "padding_bottom": 8
           }
@@ -453,7 +453,7 @@
           "type": "heading",
           "settings": {
             "title": "ブランド表現から移行設計まで、ひとつのチームで支援します。",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "heading_tag": "automatic",
             "padding_bottom": 8
           }
@@ -909,37 +909,11 @@
             "text_font_size": "body-medium",
             "padding_bottom": 50
           }
-        },
-        "cta": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "自社ECサイトの課題と移行範囲を、無料で整理する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        },
-        "sub": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "まずはオンラインで話を聞いてみる",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--secondary",
-            "button_size": "",
-            "button_style": "btn--outline",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "heading",
-        "text",
-        "cta",
-        "sub"
+        "text"
       ],
       "custom_css": [
         ".hero__subheading {color: #ab8c52;}"
@@ -951,7 +925,7 @@
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 0
       }
     },
     "contact": {
