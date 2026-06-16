@@ -164,7 +164,9 @@
 .sp-sec--benefit .bf-card::before,
 .sp-sec--scope .sp-scope-summary__item::before,
 #sp-fit-section .sp-fit-group::before,
-.section-columns .column__inner::before {
+.section-columns .column__inner::before,
+#se-concept-section .se-card-body::before,
+#se-concept-section .se-text-box::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -176,7 +178,9 @@
 .sp-sec--benefit .bf-card::after,
 .sp-sec--scope .sp-scope-summary__item::after,
 #sp-fit-section .sp-fit-group::after,
-.section-columns .column__inner::after {
+.section-columns .column__inner::after,
+#se-concept-section .se-card-body::after,
+#se-concept-section .se-text-box::after {
   content: '';
   position: absolute;
   top: 0;
@@ -191,7 +195,9 @@
 .sp-sec--benefit .bf-card > *,
 .sp-sec--scope .sp-scope-summary__item > *,
 #sp-fit-section .sp-fit-group > *,
-.section-columns .column__inner > * {
+.section-columns .column__inner > *,
+#se-concept-section .se-card-body > *,
+#se-concept-section .se-text-box > * {
   position: relative;
 }
 
@@ -279,7 +285,9 @@
 .sp-sec--benefit .bf-card,
 .sp-sec--scope .sp-scope-summary__item,
 #sp-fit-section .sp-fit-group,
-.section-columns .column__inner {
+.section-columns .column__inner,
+#se-concept-section .se-card-body,
+#se-concept-section .se-text-box {
   position: relative;
   overflow: hidden;
   padding: 26px;
@@ -308,6 +316,20 @@
 .section-columns .column__text {
   color: var(--COLOR-TEXT-A80);
   line-height: 1.9;
+}
+
+#se-concept-section .se-card-body {
+  justify-content: center;
+}
+
+#se-concept-section .se-text-box {
+  line-height: 1.7;
+}
+
+#se-concept-section .se-text-box.is-reflect {
+  border-color: var(--sp-page-border);
+  border-left: 1px solid var(--sp-page-border);
+  background: var(--COLOR-TEXT-A5);
 }
 
 @media (max-width: 760px) {
