@@ -333,6 +333,15 @@
   line-height: 1.9;
 }
 
+[id^="SectionColumns--"][id$="__problem"] .grid.multicolumn {
+  justify-content: center;
+}
+
+[id^="SectionColumns--"][id$="__problem"] .grid-item {
+  flex: 0 0 var(--desktop-width);
+  max-width: var(--desktop-width);
+}
+
 #se-concept-section .se-card-body {
   position: static;
   overflow: visible;
