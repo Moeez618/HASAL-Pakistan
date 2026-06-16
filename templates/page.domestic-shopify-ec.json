@@ -183,6 +183,7 @@
         },
         "text_yTngM7": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>他社と比較検討中の段階でも歓迎です。事例を見ながらのご相談も可能です。</p>",
             "text_font_size": "body-x-small",
