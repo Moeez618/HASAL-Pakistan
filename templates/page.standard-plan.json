@@ -147,7 +147,7 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "リピート施策が弱い",
+            "title": "リピート導線が弱い",
             "heading_font_size": "heading-small",
             "text": "<p>新規集客に偏り、購入後のフォローや再購入の導線が整っていない。</p>",
             "text_font_size": "body-medium",
@@ -163,9 +163,9 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "ツール費用が増えている",
+            "title": "運営コストが膨らむ",
             "heading_font_size": "heading-small",
-            "text": "<p>決済手数料や外部ツール費用が積み重なり、運営コストが見えにくくなっている。</p>",
+            "text": "<p>古いテンプレートの制約により、アプリで対応できる施策にも独自開発が必要になる。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
