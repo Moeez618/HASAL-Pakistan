@@ -20,7 +20,6 @@
 .sol-problem__label,
 .sol-approach__label,
 .sol-concept__label,
-.sol-concept__card-label,
 .sol-pricing__eyebrow,
 .solstar-fit__eyebrow {
   font-family: var(--FONT-STACK-SUBHEADING);
@@ -88,17 +87,8 @@
 
 .sol-problem__label {
   display: inline-flex;
-  align-items: center;
-  gap: 12px;
   margin: 0 0 18px;
   color: var(--COLOR-ACCENT);
-}
-
-.sol-problem__label::before {
-  content: "";
-  width: 34px;
-  height: 1px;
-  background: var(--COLOR-ACCENT);
 }
 
 .sol-problem__title {
@@ -109,13 +99,6 @@
 .sol-problem__lead {
   margin: 24px 0 0;
   color: var(--COLOR-TEXT-A80);
-}
-
-.sol-problem__panel {
-  padding: 10px;
-  background: var(--COLOR-BG-ACCENT-LIGHTEN);
-  border: 1px solid var(--COLOR-BORDER-LIGHT);
-  border-radius: 30px;
 }
 
 .sol-problem__list {
@@ -139,24 +122,6 @@
   border: 1px solid var(--COLOR-BORDER-LIGHT);
   border-radius: 22px;
   overflow: hidden;
-}
-
-.sol-problem__item::after {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 4px;
-  background: var(--COLOR-ACCENT);
-  opacity: 0;
-}
-
-.sol-problem__item:first-child {
-  background: var(--COLOR-BG);
-  border-color: color-mix(in srgb, var(--COLOR-ACCENT) 52%, transparent);
-}
-
-.sol-problem__item:first-child::after {
-  opacity: 1;
 }
 
 .sol-problem__number {
@@ -201,11 +166,6 @@
 
   .sol-problem__lead {
     margin-top: 18px;
-  }
-
-  .sol-problem__panel {
-    padding: 8px;
-    border-radius: 24px;
   }
 
   .sol-problem__item {
@@ -255,17 +215,8 @@
 
 .sol-approach__label {
   display: inline-flex;
-  align-items: center;
-  gap: 12px;
   margin: 0 0 18px;
   color: var(--COLOR-ACCENT);
-}
-
-.sol-approach__label::before {
-  content: "";
-  width: 34px;
-  height: 1px;
-  background: var(--COLOR-ACCENT);
 }
 
 .sol-approach__title {
@@ -287,22 +238,14 @@
   position: relative;
   padding: 32px;
   background: var(--COLOR-BG);
-  border: 1px solid color-mix(in srgb, var(--COLOR-ACCENT) 48%, transparent);
-  border-radius: 28px;
+  border: 1px solid var(--COLOR-BORDER-LIGHT);
+  border-radius: var(--bp-page-radius);
   overflow: hidden;
-}
-
-.sol-approach__insight::before {
-  content: "";
-  position: absolute;
-  inset: 0 auto 0 0;
-  width: 5px;
-  background: var(--COLOR-ACCENT);
 }
 
 .sol-approach__stat {
   margin: 0 0 16px;
-  color: var(--COLOR-ACCENT);
+  color: var(--COLOR-TEXT);
 }
 
 .sol-approach__text {
@@ -421,7 +364,7 @@
 
 .sol-concept__header {
   max-width: 820px;
-  margin: 0 0 48px;
+  margin: 0 0 44px;
 }
 
 .sol-concept__label {
@@ -436,29 +379,23 @@
 
 .sol-concept__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 0;
+  border-top: 1px solid var(--COLOR-BORDER-LIGHT);
 }
 
 .sol-concept__card {
   min-height: 100%;
-  padding: 32px;
-  background: var(--COLOR-BG-ACCENT-LIGHTEN);
-  border: 1px solid var(--COLOR-TEXT-A80);
-  border-radius: 24px;
-}
-
-.sol-concept__card--wide {
-  grid-column: 1 / -1;
-}
-
-.sol-concept__card-label {
-  margin: 0 0 18px;
-  color: var(--COLOR-ACCENT);
+  display: grid;
+  grid-template-columns: minmax(220px, 0.42fr) minmax(0, 0.58fr);
+  gap: 32px;
+  align-items: start;
+  padding: 30px 0;
+  background: transparent;
+  border-bottom: 1px solid var(--COLOR-BORDER-LIGHT);
 }
 
 .sol-concept__card-title {
-  margin: 0 0 16px;
+  margin: 0;
   color: var(--COLOR-TEXT);
 }
 
@@ -495,16 +432,12 @@
 
   .sol-concept__grid {
     grid-template-columns: 1fr;
-    gap: 16px;
   }
 
   .sol-concept__card {
-    padding: 24px 20px;
-    border-radius: 20px;
-  }
-
-  .sol-concept__card--wide {
-    grid-column: auto;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    padding: 24px 0;
   }
 
   .sol-concept__highlight {
@@ -553,17 +486,8 @@
 
 .sol-pricing__eyebrow {
   display: inline-flex;
-  align-items: center;
-  gap: 12px;
   margin: 0 0 18px;
   color: var(--COLOR-ACCENT);
-}
-
-.sol-pricing__eyebrow::before {
-  content: "";
-  width: 34px;
-  height: 1px;
-  background: var(--COLOR-ACCENT);
 }
 
 .sol-pricing__title {
