@@ -337,9 +337,8 @@
   justify-content: center;
 }
 
-[id^="SectionColumns--"][id$="__problem"] .grid-item {
-  flex: 0 0 var(--desktop-width);
-  max-width: var(--desktop-width);
+[id^="SectionColumns--"][id$="__problem"] .column__heading {
+  text-align: center;
 }
 
 #se-concept-section .se-card-body {
@@ -410,6 +409,13 @@
 
   .sp-sec--scope {
     contain-intrinsic-size: 1200px;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  [id^="SectionColumns--"][id$="__problem"] .grid-item {
+    flex: 0 0 var(--desktop-width);
+    max-width: var(--desktop-width);
   }
 }
 
