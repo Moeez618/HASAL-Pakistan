@@ -285,7 +285,8 @@
   overflow: hidden;
 }
 
-.sp-sec--migration .sp-checklist li {
+.sp-sec--migration .sp-checklist li,
+.sp-sec--consultation .sp-checklist li {
   background:
     linear-gradient(135deg, rgba(171, 140, 82, 0.06), transparent 42%),
     var(--COLOR-TEXT-A5);
