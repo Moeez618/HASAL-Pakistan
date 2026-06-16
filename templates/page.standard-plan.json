@@ -535,14 +535,130 @@
       }
     },
     "contents": {
-      "type": "section-custom-code",
-      "name": "Custom code",
+      "type": "section-multicolumn",
+      "blocks": {
+        "item_1": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "要件整理",
+            "heading_font_size": "heading-small",
+            "text": "<p>ブランドの方向性・商品構成・購入導線・必要機能を整理。Shopifyの基本設定（決済・配送・税設定など）もあわせて設計します。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "item_2": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "デザイン調整",
+            "heading_font_size": "heading-small",
+            "text": "<p>オリジナルページ6ページまで／複数テンプレート作成。ブランドの世界観に合わせたデザイン調整に加え、キービジュアルや特集用のバナー制作（3点まで）も行います。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "item_3": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "商品登録・移行",
+            "heading_font_size": "heading-small",
+            "text": "<p>商品ページ100点まで（商品名・価格・説明文・画像・在庫などを整理して移行）。あわせて、新作・ランキング・カテゴリ別・LOOK別など回遊しやすいカテゴリー・コレクション設計（20点まで）も行います。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "item_4": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "主要ページ移行",
+            "heading_font_size": "heading-small",
+            "text": "<p>20ページまで。About、FAQ、送料、返品、特定商取引法に基づく表記など、主要な固定ページを移行・整備します。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "item_5": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "SEO移行の基本対応",
+            "heading_font_size": "heading-small",
+            "text": "<p>主要URLの確認、リダイレクト方針の整理、計測タグ設定（GA4 / Search Console / Meta ピクセル等）の基本確認を行います。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        },
+        "item_6": {
+          "type": "text",
+          "settings": {
+            "column_width": 33,
+            "title": "アプリ連携",
+            "heading_font_size": "heading-small",
+            "text": "<p>6点まで。レビュー、再入荷通知、LINE連携、カゴ落ち対策、フォーム、配送・分析など、本当に必要な機能を厳選して組み込みます。</p>",
+            "text_font_size": "body-medium",
+            "button_text": "",
+            "button_url": "",
+            "button_type": "btn--primary",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
-        "code": "<style>\n  .sp-sec { background: var(--COLOR-BG); color: var(--COLOR-TEXT); padding: 64px 20px; }\n  .sp-sec * { box-sizing: border-box; }\n  .sp-inner { max-width: 1040px; margin: 0 auto; }\n  .sp-head { max-width: 820px; margin: 0 auto 36px; text-align: center; }\n  .sp-eyebrow { display: block; margin: 0 0 12px; color: #AB8C52; font-family: var(--FONT-STACK-SUBHEADING); font-style: var(--FONT-STYLE-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); text-transform: var(--FONT-UPPERCASE-SUBHEADING); }\n  .sp-title { margin: 0 0 16px; line-height: 1.4; color: var(--COLOR-TEXT); }\n  .sp-lead { margin: 0; line-height: 1.9; color: var(--COLOR-TEXT-A80); }\n  .sp-table { width: 100%; border-collapse: collapse; border: 1px solid var(--COLOR-TEXT-A35); border-radius: 14px; overflow: hidden; background: var(--COLOR-TEXT-A5); }\n  .sp-table th { background: var(--BTN-PRIMARY-BG); color: var(--BTN-PRIMARY-TEXT); text-align: center; padding: 16px 20px; line-height: 1.6; }\n  .sp-table td { color: var(--COLOR-TEXT); text-align: left; font-size: 12px; padding: 16px 20px; line-height: 1.9; vertical-align: top; border-top: 1px solid var(--COLOR-TEXT-A35); }\n  .sp-table tbody tr:nth-child(even) td { background: var(--COLOR-TEXT-A5); }\n  .sp-checklist { max-width: 760px; margin: 0 auto; padding: 0; list-style: none; }\n  .sp-checklist li { position: relative; padding: 14px 18px 14px 54px; margin-bottom: 12px; border: 1px solid var(--COLOR-TEXT-A35); border-radius: 12px; background: var(--COLOR-TEXT-A5); color: var(--COLOR-TEXT); line-height: 1.7; }\n  .sp-checklist li::before { content: ''; position: absolute; left: 18px; top: 50%; transform: translateY(-50%); width: 22px; height: 22px; border-radius: 50%; background: var(--BTN-PRIMARY-BG); }\n  .sp-checklist li::after { content: ''; position: absolute; left: 25px; top: 50%; width: 5px; height: 9px; border: solid var(--BTN-PRIMARY-TEXT); border-width: 0 2px 2px 0; transform: translateY(-62%) rotate(45deg); }\n  .sp-checklist--grid { max-width: 860px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }\n  .sp-checklist--grid li { margin-bottom: 0; }\n  .sp-note { max-width: 860px; margin: 20px auto 0; color: var(--COLOR-TEXT-A80); line-height: 1.8; font-size: 12px; text-align: center; }\n  .sp-grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }\n  .sp-card { border: 1px solid var(--COLOR-TEXT-A35); border-radius: 12px; padding: 28px; background: var(--COLOR-TEXT-A5); color: var(--COLOR-TEXT); }\n  .sp-card h3 { margin: 0 0 16px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-price { display: block; color: #AB8C52; margin: 0 0 18px; }\n  .sp-card ul { margin: 0 0 18px; padding-left: 1.2em; line-height: 1.9; }\n  .sp-card .sp-sub { display: block; margin: 18px 0 6px; color: var(--COLOR-TEXT); }\n  .sp-card p { margin: 0 0 6px; line-height: 1.8; color: var(--COLOR-TEXT); }\n  .sp-flow { max-width: 720px; margin: 0 auto; }\n  .sp-flow__item { display: flex; gap: 22px; align-items: baseline; padding: 24px 0; border-top: 1px solid var(--COLOR-TEXT-A35); }\n  .sp-flow__item:last-child { border-bottom: 1px solid var(--COLOR-TEXT-A35); }\n  .sp-flow__no { flex: 0 0 auto; min-width: 2ch; color: #AB8C52; line-height: 1.4; }\n  .sp-flow__body { flex: 1; }\n  .sp-flow__title { margin: 0 0 6px; line-height: 1.5; color: var(--COLOR-TEXT); }\n  .sp-flow__desc { margin: 0; line-height: 1.8; color: var(--COLOR-TEXT-A80); font-size: 12px; }\n  @media (max-width: 760px) { .sp-sec { padding: 48px 16px; } .sp-grid2 { grid-template-columns: 1fr; } .sp-checklist--grid { grid-template-columns: 1fr; } .sp-table th, .sp-table td { padding: 12px; } .sp-flow__item { gap: 16px; } }\n</style>\n<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Contents</p>\n      <h2 class=\"sp-title\">サイトを作って終わりではありません。公開後の運用まで見据えたリニューアルプランです。</h2>\n      <p class=\"sp-lead\">デザイン制作だけでなく、Shopify移行や運用基盤づくりまで含むプランです。<br>主な内容は次のとおりです。</p>\n    </div>\n    <table class=\"sp-table\">\n      <thead><tr><th>項目</th><th>対応内容</th></tr></thead>\n      <tbody>\n        <tr><td>要件整理</td><td>ブランド方向性、商品構成、購入導線、必要機能の整理（決済・配送・税設定など基本設定を含む）</td></tr>\n        <tr><td>デザイン調整</td><td>オリジナルページ6ページまで、複数テンプレート作成</td></tr>\n        <tr><td>バナー制作</td><td>3点まで</td></tr>\n        <tr><td>商品登録・移行</td><td>商品ページ100点まで（商品名・価格・説明文・画像・在庫などを整理）</td></tr>\n        <tr><td>コレクション設計</td><td>20点まで（新作・ランキング・カテゴリ別・LOOK別などの回遊導線）</td></tr>\n        <tr><td>主要ページ移行</td><td>20ページまで（About、FAQ、送料、返品、特定商取引法に基づく表記など）</td></tr>\n        <tr><td>SEO移行の基本対応</td><td>主要URLの確認、リダイレクト方針の整理、計測タグ設定（GA4 / Search Console / Meta ピクセル等）の基本確認</td></tr>\n        <tr><td>アプリ連携</td><td>6点まで（レビュー、再入荷通知、LINE連携、カゴ落ち対策、フォーム、配送・分析など）</td></tr>\n        <tr><td>公開前チェック</td><td>PC・スマートフォン表示確認、購入テスト、対応範囲内の不具合修正</td></tr>\n        <tr><td>納品物</td><td>構築済みShopifyストア、運用に必要な管理画面・テーマ関連の権限</td></tr>\n      </tbody>\n    </table>\n    <p class=\"sp-note\">※ 商品ページ100点、コレクション20点、主要ページ20ページは、それぞれ別枠の対応範囲です。顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認のうえ、別途お見積もりとなる場合があります。移行できるデータ・できないデータは、無料相談の段階で整理してお伝えします。</p>\n  </div>\n</section>",
-        "width": "wrapper--full",
+        "subheading": "Contents",
+        "title": "サイトを作って終わりではありません。公開後の運用まで見据えたリニューアルプランです。",
+        "heading_font_size": "heading-medium",
+        "description": "<p>Standardプランは、デザイン制作だけでなく、Shopifyへの移行や運用基盤づくりまでを含むリニューアルプランです。主な内容は次のとおりです。</p><p>※ 商品ページ100点、コレクション20点、主要ページ20ページは、それぞれ別枠の対応範囲です。顧客データ・注文履歴・レビュー・ポイント・会員ランクなどの移行は、既存サービスの仕様を確認のうえ、別途お見積もりとなる場合があります。移行できるデータ・できないデータは、無料相談の段階で整理してお伝えします。</p>",
+        "align_heading": "text-center",
+        "align_text": "text-left",
+        "width": "wrapper",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "1",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
       }
     },
     "offer": {
