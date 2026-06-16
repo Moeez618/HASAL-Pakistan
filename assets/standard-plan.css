@@ -151,11 +151,48 @@
 }
 
 .sp-card {
-  padding: 28px;
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
   border: 1px solid var(--sp-page-border);
   border-radius: var(--sp-page-card-radius);
   background: var(--COLOR-TEXT-A5);
   color: var(--COLOR-TEXT);
+}
+
+.sp-card::before,
+.sp-sec--benefit .bf-card::before,
+.sp-sec--scope .sp-scope-summary__item::before,
+#sp-fit-section .sp-fit-group::before,
+.section-columns .column__inner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(171, 140, 82, 0.14), transparent 42%);
+  pointer-events: none;
+}
+
+.sp-card::after,
+.sp-sec--benefit .bf-card::after,
+.sp-sec--scope .sp-scope-summary__item::after,
+#sp-fit-section .sp-fit-group::after,
+.section-columns .column__inner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 24px;
+  left: 24px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(171, 140, 82, 0.9), transparent);
+  pointer-events: none;
+}
+
+.sp-card > *,
+.sp-sec--benefit .bf-card > *,
+.sp-sec--scope .sp-scope-summary__item > *,
+#sp-fit-section .sp-fit-group > *,
+.section-columns .column__inner > * {
+  position: relative;
 }
 
 .sp-card h3 {
@@ -233,6 +270,44 @@
   content-visibility: auto;
   contain-intrinsic-size: 900px;
   font-size: 14px;
+}
+
+.sp-checklist li {
+  overflow: hidden;
+}
+
+.sp-sec--benefit .bf-card,
+.sp-sec--scope .sp-scope-summary__item,
+#sp-fit-section .sp-fit-group,
+.section-columns .column__inner {
+  position: relative;
+  overflow: hidden;
+  padding: 26px;
+  border: 1px solid var(--sp-page-border);
+  border-radius: var(--sp-page-card-radius);
+  background: var(--COLOR-TEXT-A5);
+  color: var(--COLOR-TEXT);
+}
+
+.sp-sec--benefit .bf-card.is-after,
+#sp-fit-section .sp-fit-group--fit {
+  border-color: var(--sp-page-border);
+  background: var(--COLOR-TEXT-A5);
+}
+
+.section-columns .column__inner {
+  height: 100%;
+}
+
+.section-columns .column__heading {
+  margin: 0 0 16px;
+  color: var(--COLOR-TEXT);
+  line-height: 1.5;
+}
+
+.section-columns .column__text {
+  color: var(--COLOR-TEXT-A80);
+  line-height: 1.9;
 }
 
 @media (max-width: 760px) {
