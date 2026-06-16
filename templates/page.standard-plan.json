@@ -179,9 +179,9 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "データを改善に活かせていない",
+            "title": "データを活用できていない",
             "heading_font_size": "heading-small",
-            "text": "<p>解析は入っていても、どの導線が売上につながっているのか把握しづらい。</p>",
+            "text": "<p>自社ECサイトの分析が不十分で、最適な施策や導線改善に活かせていない。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
