@@ -559,65 +559,6 @@
         "padding_bottom": 0
       }
     },
-    "fit": {
-      "type": "section-multicolumn",
-      "blocks": {
-        "yes": {
-          "type": "text",
-          "settings": {
-            "column_width": 50,
-            "title": "向いているブランド・企業",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>月商800万〜1,000万円規模まで成長している</li><li>今のECサイトに限界を感じ始めている</li><li>ブランド表現や運用に物足りなさがある</li><li>Shopifyへの本格移行を検討している</li><li>リピート施策やLTV改善の土台を整えたい</li><li>SNSの世界観とECサイトのギャップを解消したい</li></ul>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "h3"
-          }
-        },
-        "no": {
-          "type": "text",
-          "settings": {
-            "column_width": 50,
-            "title": "いまは向いていない企業",
-            "heading_font_size": "heading-small",
-            "text": "<ul><li>まだ売る商品がなく、低予算でまず始めたい</li><li>年商10億円を大きく超え、複雑な基幹連携が前提</li><li>Shopify移行や運用基盤の整備は不要</li><li>デザインだけを少し変えたい</li></ul>",
-            "text_font_size": "body-medium",
-            "button_text": "",
-            "button_url": "",
-            "button_type": "btn--primary",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "yes",
-        "no"
-      ],
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "settings": {
-        "subheading": "Fit / Not Fit",
-        "title": "正直にお伝えします。Standardプランは、すべての企業に向いているわけではありません。",
-        "heading_font_size": "heading-medium",
-        "description": "<p>複雑な基幹連携や越境対応の有無によっては、上位プランが適している場合もあります。どのプランが最適かは、無料相談で客観的に整理できます。</p>",
-        "align_heading": "text-center",
-        "align_text": "text-left",
-        "width": "wrapper",
-        "align_columns": "flex-align-top",
-        "layout_mobile": "1",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "h2"
-      }
-    },
     "section_custom_code_fARBnc": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -962,7 +903,6 @@
     "section_custom_code_qXqJMb",
     "contents",
     "offer",
-    "fit",
     "section_custom_code_fARBnc",
     "process",
     "consultation",
