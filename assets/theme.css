@@ -9689,20 +9689,26 @@ p a:hover::after {
 }
 
 .backdrop--radial {
-  --backdrop-size: 200%;
+  --backdrop-size: 160%;
   position: relative;
 }
 .backdrop--radial::before {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 0;
   top: 50%;
   left: 50%;
   width: var(--backdrop-size);
   height: var(--backdrop-size);
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, var(--overlay-bg) 0%, rgba(255, 255, 255, 0) 70%);
+  background: radial-gradient(ellipse at center, var(--overlay-bg) 0%, rgba(255, 255, 255, 0) 62%);
+  opacity: 0.42;
   transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.backdrop--radial > * {
+  position: relative;
+  z-index: 1;
 }
 .backdrop--radial:empty::before {
   display: none;
