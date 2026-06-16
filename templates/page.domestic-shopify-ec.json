@@ -98,8 +98,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-1",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
@@ -154,68 +154,22 @@
         "padding_bottom": 5
       }
     },
-    "section_rich_text_VK9QYe": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading_VK9QYe": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Concept",
-            "padding_bottom": 16
-          }
-        },
-        "heading_PN7j8V": {
-          "type": "heading",
-          "settings": {
-            "title": "ブランドらしさを伝え、運用しやすいECサイトをShopifyで構築",
-            "heading_font_size": "heading-medium",
-            "padding_bottom": 50,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_qXPENN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>ECサイト制作でいちばん多い失敗は、作りたいものと出来上がるものがずれてしまうこと。 私たちはブランドのコンセプト設計と制作内容のすり合わせを丁寧に行い、この食い違いを防ぎます。</p><p>　</p><p>SOLSTARは、ブランドの価値を整理するコンセプト設計から始め、認識をそろえながら、設計・構築・品質確認までを一貫して担当します。</p><p>　 </p><p>楽天・Amazon・Instagramなどに分散した販売を、ブランドの魅力が伝わる自社ECサイトへ。その設計をご支援します。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 50
-          }
-        },
-        "text_yTngM7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>他社と比較検討中の段階でも歓迎です。事例を見ながらのご相談も可能です。</p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_VK9QYe",
-        "heading_PN7j8V",
-        "text_qXPENN",
-        "text_yTngM7"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "",
-        "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "section_custom_code_QUFQdQ": {
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
         "code": "<style>\n  .sol-concept {\n    background: #FCFBF9;\n    color: #212121;\n    padding: 88px 20px;\n  }\n\n  .sol-concept * {\n    box-sizing: border-box;\n  }\n\n  .sol-concept__inner {\n    max-width: 1040px;\n    margin: 0 auto;\n  }\n\n  .sol-concept__header {\n    max-width: 820px;\n    margin: 0 0 48px;\n  }\n\n  .sol-concept__label {\n    margin: 0 0 16px;\n    color: #AB8C52;\n  }\n\n  .sol-concept__title {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-concept__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 24px;\n  }\n\n  .sol-concept__card {\n    min-height: 100%;\n    padding: 32px;\n    background: #F5F2EC;\n    border: 1px solid #695632;\n    border-radius: 24px;\n  }\n\n  .sol-concept__card--wide {\n    grid-column: 1 / -1;\n  }\n\n  .sol-concept__card-label {\n    margin: 0 0 18px;\n    color: #AB8C52;\n  }\n\n  .sol-concept__card-title {\n    margin: 0 0 16px;\n    color: #212121;\n  }\n\n  .sol-concept__text {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-concept__text + .sol-concept__text {\n    margin-top: 18px;\n  }\n\n  .sol-concept__highlight {\n    margin-top: 24px;\n    padding: 20px 22px;\n    background: #FCFBF9;\n    border-left: 4px solid #AB8C52;\n    border-radius: 16px;\n    color: #695632;\n  }\n\n  .sol-concept__highlight p {\n    margin: 0;\n  }\n\n  @media screen and (max-width: 767px) {\n    .sol-concept {\n      padding: 64px 16px;\n    }\n\n    .sol-concept__header {\n      margin-bottom: 32px;\n    }\n\n    .sol-concept__grid {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n\n    .sol-concept__card {\n      padding: 24px 20px;\n      border-radius: 20px;\n    }\n\n    .sol-concept__card--wide {\n      grid-column: auto;\n    }\n\n    .sol-concept__highlight {\n      margin-top: 20px;\n      padding: 18px 18px;\n      border-radius: 14px;\n    }\n  }\n</style>\n\n<section class=\"sol-concept\">\n  <div class=\"sol-concept__inner\">\n    <div class=\"sol-concept__header\">\n      <p class=\"sol-concept__label\">Concept</p>\n\n      <h2 class=\"sol-concept__title\">\n        ブランドらしさを伝え、運用しやすいECサイトをShopifyで構築\n      </h2>\n    </div>\n\n    <div class=\"sol-concept__grid\">\n      <div class=\"sol-concept__card sol-concept__card--wide\">\n        <p class=\"sol-concept__card-label\">Design Gap</p>\n\n        <h3 class=\"sol-concept__card-title\">\n          作りたいものと、出来上がるもののズレを防ぐ\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          ECサイト制作でいちばん多い失敗は、作りたいものと出来上がるものがずれてしまうこと。私たちはブランドのコンセプト設計と制作内容のすり合わせを丁寧に行い、この食い違いを防ぎます。\n        </p>\n      </div>\n\n      <div class=\"sol-concept__card\">\n        <p class=\"sol-concept__card-label\">Process</p>\n\n        <h3 class=\"sol-concept__card-title\">\n          コンセプト設計から品質確認まで一貫して担当\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          SOLSTARは、ブランドの価値を整理するコンセプト設計から始め、認識をそろえながら、設計・構築・品質確認までを一貫して担当します。\n        </p>\n      </div>\n\n      <div class=\"sol-concept__card\">\n        <p class=\"sol-concept__card-label\">Branding</p>\n\n        <h3 class=\"sol-concept__card-title\">\n          分散した販売を、ブランドが伝わる自社ECサイトへ\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          楽天・Amazon・Instagramなどに分散した販売を、ブランドの魅力が伝わる自社ECサイトへ。その設計をご支援します。\n        </p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_custom_code_tzzkFE": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sol-problem {\n    background: #FCFBF9;\n    color: #212121;\n    padding: 88px 20px;\n  }\n\n  .sol-problem * {\n    box-sizing: border-box;\n  }\n\n  .sol-problem__inner {\n    max-width: 1040px;\n    margin: 0 auto;\n  }\n\n  .sol-problem__header {\n    max-width: 820px;\n    margin: 0 0 48px;\n  }\n\n  .sol-problem__label {\n    margin: 0 0 16px;\n    color: #AB8C52;\n  }\n\n  .sol-problem__title {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-problem__list {\n    display: grid;\n    grid-template-columns: repeat(2, minmax(0, 1fr));\n    gap: 20px;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n  }\n\n  .sol-problem__item {\n    position: relative;\n    min-height: 100%;\n    padding: 28px;\n    background: #F5F2EC;\n    border: 1px solid rgba(105, 86, 50, 0.24);\n    border-radius: 24px;\n  }\n\n  .sol-problem__item:first-child {\n    grid-column: 1 / -1;\n    background: #FFFFFF;\n    border-color: #AB8C52;\n  }\n\n  .sol-problem__number {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    min-width: 36px;\n    height: 36px;\n    margin: 0 0 20px;\n    color: #AB8C52;\n    border: 1px solid #AB8C52;\n    border-radius: 999px;\n  }\n\n  .sol-problem__text {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-problem__footer {\n    margin-top: 32px;\n    padding: 26px 28px;\n    background: #FFFFFF;\n    border-left: 4px solid #AB8C52;\n    border-radius: 18px;\n    color: #695632;\n  }\n\n  .sol-problem__footer p {\n    margin: 0;\n  }\n\n  @media screen and (max-width: 767px) {\n    .sol-problem {\n      padding: 64px 16px;\n    }\n\n    .sol-problem__header {\n      margin-bottom: 32px;\n    }\n\n    .sol-problem__list {\n      grid-template-columns: 1fr;\n      gap: 14px;\n    }\n\n    .sol-problem__item {\n      padding: 24px 20px;\n      border-radius: 20px;\n    }\n\n    .sol-problem__item:first-child {\n      grid-column: auto;\n    }\n\n    .sol-problem__number {\n      margin-bottom: 16px;\n    }\n\n    .sol-problem__footer {\n      margin-top: 24px;\n      padding: 22px 20px;\n      border-radius: 16px;\n    }\n  }\n</style>\n\n<section class=\"sol-problem\">\n  <div class=\"sol-problem__inner\">\n    <div class=\"sol-problem__header\">\n      <p class=\"sol-problem__label\">Problem</p>\n\n      <h2 class=\"sol-problem__title\">\n        ECサイト制作で、こんな心当たりはありませんか？\n      </h2>\n    </div>\n\n    <ul class=\"sol-problem__list\">\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">01</span>\n        <p class=\"sol-problem__text\">\n          販売チャネルが分散し、ブランドの魅力や世界観がうまく伝わらない\n        </p>\n      </li>\n\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">02</span>\n        <p class=\"sol-problem__text\">\n          制作会社に依頼したのに、思っていたものと違うものが出来上がったことがある\n        </p>\n      </li>\n\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">03</span>\n        <p class=\"sol-problem__text\">\n          過去の制作で、意図が伝わらない・返信が遅い・追加費用がかさむ、といったことに苦労した\n        </p>\n      </li>\n\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">04</span>\n        <p class=\"sol-problem__text\">\n          要望は伝えたのに、期待した提案が返ってこなかった\n        </p>\n      </li>\n\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">05</span>\n        <p class=\"sol-problem__text\">\n          専門用語ばかりで判断できない／今さら修正をお願いしづらい\n        </p>\n      </li>\n\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">06</span>\n        <p class=\"sol-problem__text\">\n          作った後、社内に運用ノウハウや人手が足りず、続けられるか不安\n        </p>\n      </li>\n\n      <li class=\"sol-problem__item\">\n        <span class=\"sol-problem__number\">07</span>\n        <p class=\"sol-problem__text\">\n          価格だけで選んでしまい、結局つくり直しになるのではないかと不安\n        </p>\n      </li>\n    </ul>\n\n    <div class=\"sol-problem__footer\">\n      <p>\n        ECサイト制作で大切なのは、見た目だけではありません。ブランドの意図を正しく共有し、公開後の運用まで見据えて設計することが重要です。\n      </p>\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "",
         "padding_top": 0,
@@ -1147,8 +1101,8 @@
     "main",
     "section_double_3i48QY",
     "section_announcement_eRD9xd",
-    "section_rich_text_VK9QYe",
     "section_custom_code_QUFQdQ",
+    "section_custom_code_tzzkFE",
     "section_double_xtYqGK",
     "section_rich_text_3dy8mP",
     "section_rich_text_WcBEQp",
