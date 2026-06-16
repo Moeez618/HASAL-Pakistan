@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "custom_css": [
         ".hero__subheading {color: #ab8c52;}"
       ],
@@ -33,9 +34,8 @@
       "blocks": {
         "subheading_ym64HL": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "subheading": "Introduction",
+            "subheading": "モール・SNSで売れている。でも「ブランドとして」届いている実感がない方へ。",
             "padding_bottom": 16
           }
         },
