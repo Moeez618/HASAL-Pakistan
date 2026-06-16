@@ -359,26 +359,13 @@
             "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
-        },
-        "buttons_jabVAa": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "まずは無料で話を聞いてみる",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "subheading_QrkJEP",
         "heading_jhtjLH",
         "text_wJdiJE",
-        "text_gJeGXm",
-        "buttons_jabVAa"
+        "text_gJeGXm"
       ],
       "custom_css": [
         ".hero__subheading {color: #ab8c52;}"
