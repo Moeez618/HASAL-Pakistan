@@ -176,6 +176,17 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_code_zRTjpe": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .sol-approach {\n    background: #FCFBF9;\n    color: #212121;\n    padding: 96px 20px;\n  }\n\n  .sol-approach * {\n    box-sizing: border-box;\n  }\n\n  .sol-approach__inner {\n    max-width: 1040px;\n    margin: 0 auto;\n  }\n\n  .sol-approach__layout {\n    display: grid;\n    grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.22fr);\n    gap: 56px;\n    align-items: start;\n  }\n\n  .sol-approach__header {\n    position: sticky;\n    top: 96px;\n  }\n\n  .sol-approach__label {\n    display: inline-flex;\n    align-items: center;\n    gap: 12px;\n    margin: 0 0 18px;\n    color: #AB8C52;\n  }\n\n  .sol-approach__label::before {\n    content: \"\";\n    width: 34px;\n    height: 1px;\n    background: #AB8C52;\n  }\n\n  .sol-approach__title {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-approach__lead {\n    margin: 24px 0 0;\n    color: #695632;\n  }\n\n  .sol-approach__content {\n    display: grid;\n    gap: 24px;\n  }\n\n  .sol-approach__insight {\n    position: relative;\n    padding: 32px;\n    background: #FFFFFF;\n    border: 1px solid rgba(171, 140, 82, 0.48);\n    border-radius: 28px;\n    overflow: hidden;\n  }\n\n  .sol-approach__insight::before {\n    content: \"\";\n    position: absolute;\n    inset: 0 auto 0 0;\n    width: 5px;\n    background: #AB8C52;\n  }\n\n  .sol-approach__stat {\n    margin: 0 0 16px;\n    color: #AB8C52;\n  }\n\n  .sol-approach__text {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-approach__text + .sol-approach__text {\n    margin-top: 18px;\n  }\n\n  .sol-approach__subhead {\n    margin: 8px 0 0;\n    color: #695632;\n  }\n\n  .sol-approach__steps {\n    counter-reset: approach;\n    display: grid;\n    gap: 12px;\n    margin: 0;\n    padding: 0;\n    list-style: none;\n  }\n\n  .sol-approach__step {\n    counter-increment: approach;\n    position: relative;\n    display: grid;\n    grid-template-columns: auto 1fr;\n    gap: 18px;\n    align-items: start;\n    padding: 26px;\n    background: #F5F2EC;\n    border: 1px solid rgba(105, 86, 50, 0.18);\n    border-radius: 24px;\n  }\n\n  .sol-approach__number {\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    min-width: 42px;\n    height: 42px;\n    color: #AB8C52;\n    background: #FCFBF9;\n    border: 1px solid rgba(171, 140, 82, 0.52);\n    border-radius: 999px;\n  }\n\n  .sol-approach__number::before {\n    content: counter(approach, decimal-leading-zero);\n  }\n\n  .sol-approach__step-text {\n    margin: 0;\n    color: #212121;\n  }\n\n  .sol-approach__step:nth-child(1),\n  .sol-approach__step:nth-child(5) {\n    background: #FFFFFF;\n  }\n\n  @media screen and (max-width: 767px) {\n    .sol-approach {\n      padding: 64px 16px;\n    }\n\n    .sol-approach__layout {\n      grid-template-columns: 1fr;\n      gap: 32px;\n    }\n\n    .sol-approach__header {\n      position: static;\n    }\n\n    .sol-approach__lead {\n      margin-top: 18px;\n    }\n\n    .sol-approach__insight {\n      padding: 26px 22px;\n      border-radius: 22px;\n    }\n\n    .sol-approach__step {\n      grid-template-columns: 1fr;\n      gap: 14px;\n      padding: 22px 20px;\n      border-radius: 20px;\n    }\n\n    .sol-approach__number {\n      min-width: 38px;\n      height: 38px;\n    }\n  }\n</style>\n\n<section class=\"sol-approach\">\n  <div class=\"sol-approach__inner\">\n    <div class=\"sol-approach__layout\">\n      <div class=\"sol-approach__header\">\n        <p class=\"sol-approach__label\">Approach</p>\n\n        <h2 class=\"sol-approach__title\">\n          「伝わらない」をなくすために、私たちがしていること。\n        </h2>\n\n        <p class=\"sol-approach__lead\">\n          ECサイト制作では、見た目の完成度だけでなく、制作前の認識合わせと進行中のコミュニケーションが重要です。\n        </p>\n      </div>\n\n      <div class=\"sol-approach__content\">\n        <div class=\"sol-approach__insight\">\n          <h3 class=\"sol-approach__stat\">\n            約9割が、Web制作の外注で「失敗した経験がある」と回答\n          </h3>\n\n          <p class=\"sol-approach__text\">\n            Web制作を外注した企業の約9割が「失敗した経験がある」と回答しています。\n          </p>\n\n          <p class=\"sol-approach__text\">\n            その大半は、発注側のイメージや意図が、制作側に正しく伝わらないことに起因するといわれています。\n          </p>\n        </div>\n\n        <p class=\"sol-approach__subhead\">\n          だから私たちは、次のことを徹底しています。\n        </p>\n\n        <ol class=\"sol-approach__steps\">\n          <li class=\"sol-approach__step\">\n            <span class=\"sol-approach__number\" aria-hidden=\"true\"></span>\n            <p class=\"sol-approach__step-text\">\n              つくり始める前に、ブランドのコンセプト（誰に・何を・なぜ・どんな世界観で）を言語化し、プロジェクト全体の軸をそろえます。\n            </p>\n          </li>\n\n          <li class=\"sol-approach__step\">\n            <span class=\"sol-approach__number\" aria-hidden=\"true\"></span>\n            <p class=\"sol-approach__step-text\">\n              作る内容や進め方を書面で整理・確認し、認識のズレを防ぎます。\n            </p>\n          </li>\n\n          <li class=\"sol-approach__step\">\n            <span class=\"sol-approach__number\" aria-hidden=\"true\"></span>\n            <p class=\"sol-approach__step-text\">\n              専門用語はできるだけ使わず、判断に必要なことを分かりやすくご説明します。「聞きづらい」「修正を頼みづらい」をつくりません。\n            </p>\n          </li>\n\n          <li class=\"sol-approach__step\">\n            <span class=\"sol-approach__number\" aria-hidden=\"true\"></span>\n            <p class=\"sol-approach__step-text\">\n              コンセプト設計から構築・確認までを一貫して担当し、伝言による意図のズレを減らします。\n            </p>\n          </li>\n\n          <li class=\"sol-approach__step\">\n            <span class=\"sol-approach__number\" aria-hidden=\"true\"></span>\n            <p class=\"sol-approach__step-text\">\n              「作って終わり」にしないために、設計段階から「育てられるECサイト」を一緒に考えます。\n            </p>\n          </li>\n        </ol>\n      </div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_rich_text_3dy8mP": {
       "type": "section-rich-text",
       "blocks": {
@@ -252,6 +263,7 @@
         "divider_rYpT4N",
         "text_dK9G7X"
       ],
+      "disabled": true,
       "custom_css": [
         ".hero__subheading {color: #ab8c52;}"
       ],
@@ -1051,6 +1063,7 @@
     "section_announcement_eRD9xd",
     "section_custom_code_QUFQdQ",
     "section_custom_code_tzzkFE",
+    "section_custom_code_zRTjpe",
     "section_rich_text_3dy8mP",
     "section_rich_text_WcBEQp",
     "section_double_fp3eKN",
