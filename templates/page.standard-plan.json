@@ -198,6 +198,9 @@
         "card_4",
         "card_5"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "subheading": "Problem",
         "title": "成長したブランドだからこそ見えてくる、いまのECサイトの課題。",
@@ -212,10 +215,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h2"
-      },
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ]
+      }
     },
     "section_double_i8kpjn": {
       "type": "section-double",
@@ -250,6 +250,9 @@
         "heading_iLyqLg",
         "text_JXyWGc"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_15_14_50_22.png",
@@ -264,10 +267,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "show_placeholder": true
-      },
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ]
+      }
     },
     "section_hero_EVpbGH": {
       "type": "section-hero",
@@ -379,9 +379,9 @@
         "align_text": "text-left",
         "width": "wrapper",
         "align_columns": "flex-align-top",
-        "layout_mobile": "1",
+        "layout_mobile": "slider",
         "color_scheme": "scheme-10",
-        "padding_top": 0,
+        "padding_top": 25,
         "padding_bottom": 0,
         "heading_tag": "h2"
       }
@@ -504,6 +504,9 @@
         "text_tP8cG3",
         "text_RBzxhM"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
@@ -518,10 +521,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      },
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ]
+      }
     },
     "section_custom_code_qXqJMb": {
       "type": "section-custom-code",
@@ -712,6 +712,9 @@
         "yes",
         "no"
       ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "subheading": "Fit / Not Fit",
         "title": "正直にお伝えします。Standardプランは、すべての企業に向いているわけではありません。",
@@ -726,10 +729,7 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h2"
-      },
-      "custom_css": [
-        ".hero__subheading {color: #ab8c52;}"
-      ]
+      }
     },
     "process": {
       "type": "section-custom-code",
