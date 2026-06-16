@@ -285,6 +285,13 @@
   overflow: hidden;
 }
 
+.sp-sec--migration .sp-checklist li {
+  background:
+    linear-gradient(135deg, rgba(171, 140, 82, 0.06), transparent 42%),
+    var(--COLOR-TEXT-A5);
+  box-shadow: inset 0 1px 0 rgba(171, 140, 82, 0.24);
+}
+
 .sp-sec--benefit .bf-card,
 .sp-sec--scope .sp-scope-summary__item,
 #sp-fit-section .sp-fit-group,
@@ -336,6 +343,7 @@
 }
 
 #se-concept-section .se-text-box {
+  font-size: var(--font-body-small);
   line-height: 1.7;
 }
 
@@ -343,6 +351,16 @@
   border-color: var(--sp-page-border);
   border-left: 1px solid var(--sp-page-border);
   background: var(--COLOR-TEXT-A5);
+  font-size: var(--font-body-small);
+}
+
+#se-concept-section .se-section-title::after,
+#se-concept-section .se-card-desc {
+  border-bottom: 0;
+}
+
+#se-concept-section .se-section-title::after {
+  display: none;
 }
 
 #sp-fit-section .sp-fit__eyebrow {
