@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "subheading": "",
         "show_title": false,
@@ -23,8 +24,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "heading_tag": "h2"
-      },
-      "disabled": true
+      }
     },
     "fv": {
       "type": "section-double",
@@ -117,7 +117,7 @@
             "column_width": 33,
             "title": "世界観が伝わりきらない",
             "heading_font_size": "heading-small",
-            "text": "<p>SNSでは魅力的に見えるのに、商品ページや購入導線に入るとテンプレート感が出てしまう。</p>",
+            "text": "<p>SNSでは魅力的に見えるのに、ECサイトではブランドが古く見えてしまう。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
@@ -131,7 +131,7 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "新作発売のたびに運用が慌ただしい",
+            "title": "新作発売のたびに運用が大変",
             "heading_font_size": "heading-small",
             "text": "<p>商品登録、画像差し替え、在庫調整に追われ、企画や改善に手が回らない。</p>",
             "text_font_size": "body-medium",
