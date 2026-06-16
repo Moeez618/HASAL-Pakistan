@@ -191,6 +191,7 @@
       "block_order": [
         "text_aeaFyM"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "align_text": "text-left",
