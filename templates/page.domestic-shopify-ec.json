@@ -181,18 +181,6 @@
             "padding_bottom": 50
           }
         },
-        "buttons_6MLxYX": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "まずは話を聞いてみる（無料・営業なし）",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "padding_bottom": 16
-          }
-        },
         "text_yTngM7": {
           "type": "text",
           "settings": {
@@ -206,7 +194,6 @@
         "subheading_VK9QYe",
         "heading_PN7j8V",
         "text_qXPENN",
-        "buttons_6MLxYX",
         "text_yTngM7"
       ],
       "custom_css": [
