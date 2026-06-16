@@ -59,9 +59,8 @@
         },
         "buttons_3JFeeh": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_text": "今すぐ相談する",
+            "button_text": "まずは無料で相談する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
