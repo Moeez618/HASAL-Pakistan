@@ -42,7 +42,7 @@
         "heading_JmMbza": {
           "type": "heading",
           "settings": {
-            "title": "ブランドの魅力を、売上につなげる自社ECサイトへ。",
+            "title": "少数SKUから、ブランドらしい自社ECサイトへ。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -50,9 +50,8 @@
         },
         "text_4qFCMP": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>ブランドのコンセプト設計から、世界観・購入導線・運用のしやすさまで考えたECサイトを、Shopifyで設計・構築します。 </p>",
+            "text": "<p>Shopifyで、公開後も自分たちで更新・運用しやすいECサイトを立ち上げます。ブランドの世界観、購入導線、初期運用に必要な設定まで整理して構築します。</p>",
             "text_font_size": "body-small",
             "padding_bottom": 16
           }
@@ -165,6 +164,17 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_code_affinity_basic": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<section class=\"sol-affinity\" style=\"background:var(--COLOR-BG-ACCENT-LIGHTEN); color:var(--COLOR-TEXT); padding:56px 20px;\">\n  <div style=\"max-width:920px; margin:0 auto;\">\n    <p style=\"margin:0 0 12px; color:var(--COLOR-ACCENT); font-family:var(--FONT-STACK-SUBHEADING); font-size:var(--font-subheading); letter-spacing:var(--LETTER-SPACING-SUBHEADING); text-transform:var(--FONT-UPPERCASE-SUBHEADING);\">Affinity</p>\n    <h2 style=\"margin:0 0 18px; font-family:var(--FONT-STACK-HEADING); font-size:var(--font-heading-medium); letter-spacing:var(--LETTER-SPACING-HEADING); line-height:1.45;\">はじめてのEC制作で、不安になるのは自然です。</h2>\n    <p style=\"margin:0; color:var(--COLOR-TEXT-A80); font-size:var(--font-body-medium); line-height:1.9;\">商品数がまだ少ない段階では、どこまで作り込むべきか、何を先に決めればよいか、公開後に自分たちで運用できるかが見えにくくなります。Basicプランでは、少数SKUで始めるブランドに必要な範囲を整理し、無理なく公開・更新できる状態まで一緒に整えます。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_custom_code_zRTjpe": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -244,7 +254,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<section class=\"sol-concept\">\n  <div class=\"sol-concept__inner\">\n    <div class=\"sol-concept__header\">\n      <p class=\"sol-concept__label\">Concept</p>\n\n      <h2 class=\"sol-concept__title\">\n        ブランドらしさを伝え、運用しやすいECサイトをShopifyで構築\n      </h2>\n    </div>\n\n    <div class=\"sol-concept__grid\">\n      <div class=\"sol-concept__card\">\n        <h3 class=\"sol-concept__card-title\">\n          作りたいものと、出来上がるもののズレを防ぐ\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          ECサイト制作でいちばん多い失敗は、作りたいものと出来上がるものがずれてしまうこと。私たちはブランドのコンセプト設計と制作内容のすり合わせを丁寧に行い、この食い違いを防ぎます。\n        </p>\n      </div>\n\n      <div class=\"sol-concept__card\">\n        <h3 class=\"sol-concept__card-title\">\n          コンセプト設計から品質確認まで一貫して担当\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          SOLSTARは、ブランドの価値を整理するコンセプト設計から始め、認識をそろえながら、設計・構築・品質確認までを一貫して担当します。\n        </p>\n      </div>\n\n      <div class=\"sol-concept__card\">\n        <h3 class=\"sol-concept__card-title\">\n          分散した販売を、ブランドが伝わる自社ECサイトへ\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          楽天・Amazon・Instagramなどに分散した販売を、ブランドの魅力が伝わる自社ECサイトへ。その設計をご支援します。\n        </p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "code": "<section class=\"sol-concept\">\n  <div class=\"sol-concept__inner\">\n    <div class=\"sol-concept__header\">\n      <p class=\"sol-concept__label\">Concept</p>\n\n      <h2 class=\"sol-concept__title\">\n        小さく始めて、公開後に育てられるShopify ECサイトへ\n      </h2>\n    </div>\n\n    <div class=\"sol-concept__grid\">\n      <div class=\"sol-concept__card\">\n        <h3 class=\"sol-concept__card-title\">\n          少数SKUに必要な導線へ絞る\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          商品数が少ない段階では、過剰な機能よりも、商品理解・ブランド理解・購入までの導線が重要です。Basicプランでは、初期公開に必要な範囲へ絞って設計します。\n        </p>\n      </div>\n\n      <div class=\"sol-concept__card\">\n        <h3 class=\"sol-concept__card-title\">\n          公開後に自社で更新しやすくする\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          商品追加、ページ更新、情報修正を自社で続けやすい構成に整えます。公開して終わりではなく、運用しながら育てられる状態を目指します。\n        </p>\n      </div>\n\n      <div class=\"sol-concept__card\">\n        <h3 class=\"sol-concept__card-title\">\n          モールやSNSの先に、ブランドの拠点をつくる\n        </h3>\n\n        <p class=\"sol-concept__text\">\n          楽天・Amazon・Instagramなどに分散した販売や発信を、ブランドの世界観が伝わる自社ECサイトへつなげます。\n        </p>\n      </div>\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "",
         "padding_top": 0,
@@ -255,7 +265,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<style>\n  .solstar-benefits {\n    background: var(--COLOR-BG);\n    color: var(--COLOR-TEXT);\n    padding: 72px 20px;\n  }\n  .solstar-benefits * { box-sizing: border-box; }\n  .solstar-benefits__inner { max-width: 1120px; margin: 0 auto; }\n  .solstar-benefits__head { max-width: 760px; margin: 0 0 34px; }\n  .solstar-benefits__eyebrow {\n    margin: 0 0 12px;\n    color: var(--COLOR-ACCENT);\n    font-size: var(--font-body-medium);\n    font-weight: 700;\n    letter-spacing: var(--LETTER-SPACING-BODY);\n    text-transform: uppercase;\n  }\n  .solstar-benefits__title { margin: 0; font-size: var(--font-body-medium); line-height: 1.35; letter-spacing: var(--LETTER-SPACING-BODY); }\n  .solstar-benefits__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }\n  .solstar-benefits__card {\n    min-height: 178px;\n    padding: 24px;\n    border: 1px solid var(--COLOR-BORDER-LIGHT);\n    border-radius: 12px;\n    background: var(--COLOR-BG-ACCENT-LIGHTEN);\n  }\n  .solstar-benefits__num { display: block; margin-bottom: 28px; color: var(--COLOR-ACCENT); font-size: var(--font-body-medium); font-weight: 700; letter-spacing: var(--LETTER-SPACING-BODY); }\n  .solstar-benefits__card p { margin: 0; color: var(--COLOR-TEXT); font-size: var(--font-body-medium); font-weight: 700; line-height: 1.75; }\n  .solstar-benefits__note {\n    max-width: 860px;\n    margin: 18px 0 0;\n    color: var(--COLOR-TEXT-A80);\n    font-size: var(--font-body-medium);\n    line-height: 1.8;\n  }\n  @media (max-width: 900px) { .solstar-benefits__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }\n  @media (max-width: 640px) {\n    .solstar-benefits { padding: 52px 16px; }\n    .solstar-benefits__grid { grid-template-columns: 1fr; }\n    .solstar-benefits__card { min-height: auto; padding: 20px; }\n  }\n\n  /* Theme typography overrides */\n\n  .solstar-benefits {\n    font-family: var(--FONT-STACK-BODY);\n    font-style: var(--FONT-STYLE-BODY);\n    font-weight: var(--FONT-WEIGHT-BODY);\n    font-size: var(--font-body-medium);\n    letter-spacing: var(--LETTER-SPACING-BODY);\n  }\n  .solstar-benefits__eyebrow,\n  .solstar-benefits__num {\n    font-family: var(--FONT-STACK-SUBHEADING);\n    font-style: var(--FONT-STYLE-SUBHEADING);\n    font-weight: var(--FONT-WEIGHT-SUBHEADING);\n    font-size: var(--font-subheading);\n    letter-spacing: var(--LETTER-SPACING-SUBHEADING);\n    text-transform: var(--FONT-UPPERCASE-SUBHEADING);\n  }\n  .solstar-benefits__title {\n    font-family: var(--FONT-STACK-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-size: var(--font-heading-large);\n    letter-spacing: var(--LETTER-SPACING-HEADING);\n    text-transform: var(--FONT-UPPERCASE-HEADING);\n  }\n  .solstar-benefits__card p,\n  .solstar-benefits__note {\n    font-family: var(--FONT-STACK-BODY);\n    font-style: var(--FONT-STYLE-BODY);\n    letter-spacing: var(--LETTER-SPACING-BODY);\n  }\n  /* End theme typography overrides */\n</style>\n<section class=\"solstar-benefits\">\n  <div class=\"solstar-benefits__inner\">\n    <div class=\"solstar-benefits__head\">\n      <p class=\"solstar-benefits__eyebrow\">What you get</p>\n      <h2 class=\"solstar-benefits__title\">ブランドを「自分たちで運用できる形」に。</h2>\n    </div>\n    <div class=\"solstar-benefits__grid\">\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">01</span><p>ブランドの想い・差別化・世界観を言語化するコンセプト設計から始めるため、ブランドの魅力が伝わるECサイトに</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">02</span><p>モールやSNSに分散した販売を自社ECサイトに集約し、一貫した発信・運用ができる形に</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">03</span><p>コンセプト設計から構築・確認までを一貫して担当するため、認識のズレが起きにくい</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">04</span><p>専門知識がなくても、「何を決めればいいか」「次に何が起きるか」が分かる</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">05</span><p>「丸投げ」ではなく「一緒に決める」進め方だから、納品後も自社で更新・運用しやすい</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">06</span><p>自社開発テーマ「Cream」を無料利用可能（テーマ購入費0円）</p></article>\n    </div>\n    <p class=\"solstar-benefits__note\">お引き渡しから6ヶ月以内は、当社が制作した部分に起因する不具合に無償で対応（納品後にお客様側で加えた変更や、別途追加したアプリによる不具合は対象外です）</p>\n    <p class=\"solstar-benefits__note solstar-benefits__note--small\">※本プランの範囲は「自社で運用できる状態までの設計・構築」です。納品後の保守・運用は、別途サービスとして承っています。</p>\n  </div>\n</section>",
+        "code": "<style>\n  .solstar-benefits {\n    background: var(--COLOR-BG);\n    color: var(--COLOR-TEXT);\n    padding: 72px 20px;\n  }\n  .solstar-benefits * { box-sizing: border-box; }\n  .solstar-benefits__inner { max-width: 1120px; margin: 0 auto; }\n  .solstar-benefits__head { max-width: 760px; margin: 0 0 34px; }\n  .solstar-benefits__eyebrow {\n    margin: 0 0 12px;\n    color: var(--COLOR-ACCENT);\n    font-size: var(--font-body-medium);\n    font-weight: 700;\n    letter-spacing: var(--LETTER-SPACING-BODY);\n    text-transform: uppercase;\n  }\n  .solstar-benefits__title { margin: 0; font-size: var(--font-body-medium); line-height: 1.35; letter-spacing: var(--LETTER-SPACING-BODY); }\n  .solstar-benefits__grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }\n  .solstar-benefits__card {\n    min-height: 178px;\n    padding: 24px;\n    border: 1px solid var(--COLOR-BORDER-LIGHT);\n    border-radius: 12px;\n    background: var(--COLOR-BG-ACCENT-LIGHTEN);\n  }\n  .solstar-benefits__num { display: block; margin-bottom: 28px; color: var(--COLOR-ACCENT); font-size: var(--font-body-medium); font-weight: 700; letter-spacing: var(--LETTER-SPACING-BODY); }\n  .solstar-benefits__card p { margin: 0; color: var(--COLOR-TEXT); font-size: var(--font-body-medium); font-weight: 700; line-height: 1.75; }\n  .solstar-benefits__note {\n    max-width: 860px;\n    margin: 18px 0 0;\n    color: var(--COLOR-TEXT-A80);\n    font-size: var(--font-body-medium);\n    line-height: 1.8;\n  }\n  @media (max-width: 900px) { .solstar-benefits__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }\n  @media (max-width: 640px) {\n    .solstar-benefits { padding: 52px 16px; }\n    .solstar-benefits__grid { grid-template-columns: 1fr; }\n    .solstar-benefits__card { min-height: auto; padding: 20px; }\n  }\n\n  /* Theme typography overrides */\n\n  .solstar-benefits {\n    font-family: var(--FONT-STACK-BODY);\n    font-style: var(--FONT-STYLE-BODY);\n    font-weight: var(--FONT-WEIGHT-BODY);\n    font-size: var(--font-body-medium);\n    letter-spacing: var(--LETTER-SPACING-BODY);\n  }\n  .solstar-benefits__eyebrow,\n  .solstar-benefits__num {\n    font-family: var(--FONT-STACK-SUBHEADING);\n    font-style: var(--FONT-STYLE-SUBHEADING);\n    font-weight: var(--FONT-WEIGHT-SUBHEADING);\n    font-size: var(--font-subheading);\n    letter-spacing: var(--LETTER-SPACING-SUBHEADING);\n    text-transform: var(--FONT-UPPERCASE-SUBHEADING);\n  }\n  .solstar-benefits__title {\n    font-family: var(--FONT-STACK-HEADING);\n    font-style: var(--FONT-STYLE-HEADING);\n    font-weight: var(--FONT-WEIGHT-HEADING);\n    font-size: var(--font-heading-large);\n    letter-spacing: var(--LETTER-SPACING-HEADING);\n    text-transform: var(--FONT-UPPERCASE-HEADING);\n  }\n  .solstar-benefits__card p,\n  .solstar-benefits__note {\n    font-family: var(--FONT-STACK-BODY);\n    font-style: var(--FONT-STYLE-BODY);\n    letter-spacing: var(--LETTER-SPACING-BODY);\n  }\n  /* End theme typography overrides */\n</style>\n<section class=\"solstar-benefits\">\n  <div class=\"solstar-benefits__inner\">\n    <div class=\"solstar-benefits__head\">\n      <p class=\"solstar-benefits__eyebrow\">What you get</p>\n      <h2 class=\"solstar-benefits__title\">少数SKUでも、公開後に育てやすい自社ECへ。</h2>\n    </div>\n    <div class=\"solstar-benefits__grid\">\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">01</span><p>商品数が少ない段階でも、ブランドの魅力が伝わる自社ECを立ち上げやすい</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">02</span><p>モールやSNSだけに頼らず、ブランドの世界観や想いを一貫して伝えられる</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">03</span><p>制作前に内容を書面で整理するため、認識ズレや追加費用への不安を減らせる</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">04</span><p>専門知識がなくても、決めることと次の進行が分かりやすい状態で進められる</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">05</span><p>公開後も自社で商品・ページ・情報を更新しやすい運用前提のサイトになる</p></article>\n      <article class=\"solstar-benefits__card\"><span class=\"solstar-benefits__num\">06</span><p>自社開発テーマ「Cream」を無料で利用でき、テーマ購入費を抑えられる</p></article>\n    </div>\n    <p class=\"solstar-benefits__note\">お引き渡しから6ヶ月以内は、当社が制作した部分に起因する不具合に無償で対応（納品後にお客様側で加えた変更や、別途追加したアプリによる不具合は対象外です）</p>\n    <p class=\"solstar-benefits__note solstar-benefits__note--small\">※本プランの範囲は「自社で運用できる状態までの設計・構築」です。納品後の保守・運用は、別途サービスとして承っています。</p>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-1",
         "padding_top": 0,
@@ -268,7 +278,7 @@
         "heading_raxeTX": {
           "type": "heading",
           "settings": {
-            "title": "ブランドを「自分たちで運用できる形」に。BASICで得られること",
+            "title": "少数SKUでも、公開後に育てやすい自社ECへ。BASICで得られること",
             "heading_font_size": "heading-large",
             "position": "left",
             "padding_bottom": 16,
@@ -278,7 +288,7 @@
         "text_b3hQwV": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>ブランドの想い・差別化・世界観を言語化するコンセプト設計から始めるため、ブランドの魅力が伝わるECサイトに</strong></li><li><strong>モールやSNSに分散した販売を自社ECサイトに集約し、一貫した発信・運用ができる形に</strong></li><li><strong>コンセプト設計から構築・確認までを一貫して担当するため、認識のズレが起きにくい</strong></li><li><strong>専門知識がなくても、「何を決めればいいか」「次に何が起きるか」が分かる</strong></li><li><strong>「丸投げ」ではなく「一緒に決める」進め方だから、納品後も自社で更新・運用しやすい</strong></li><li><strong>自社開発テーマ「Cream」を無料利用可能（テーマ購入費0円）</strong></li></ul><p><strong>お引き渡しから6ヶ月以内は、当社が制作した部分に起因する不具合に無償で対応（納品後にお客様側で加えた変更や、別途追加したアプリによる不具合は対象外です）</strong></p>",
+            "text": "<ul><li><strong>商品数が少ない段階でも、ブランドの魅力が伝わる自社ECを立ち上げやすい</strong></li><li><strong>モールやSNSだけに頼らず、ブランドの世界観や想いを一貫して伝えられる</strong></li><li><strong>制作前に内容を書面で整理するため、認識ズレや追加費用への不安を減らせる</strong></li><li><strong>専門知識がなくても、決めることと次の進行が分かりやすい状態で進められる</strong></li><li><strong>公開後も自社で商品・ページ・情報を更新しやすい運用前提のサイトになる</strong></li><li><strong>自社開発テーマ「Cream」を無料で利用でき、テーマ購入費を抑えられる</strong></li></ul><p><strong>お引き渡しから6ヶ月以内は、当社が制作した部分に起因する不具合に無償で対応（納品後にお客様側で加えた変更や、別途追加したアプリによる不具合は対象外です）</strong></p>",
             "text_font_size": "body-medium",
             "position": "right",
             "padding_bottom": 16
@@ -347,7 +357,7 @@
         "text_wJdiJE": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul>",
+            "text": "<p>大規模ECで培った設計視点を、少数SKUの立ち上げにも活かします。商品数が少ないブランドでも、公開後に更新しやすく、次の成長に備えられるShopifyサイトとして設計します。</p><ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul>",
             "text_font_size": "body-small",
             "padding_bottom": 0
           }
@@ -511,7 +521,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Process</p>\n      <h2 class=\"sp-title\">無料相談から公開までの流れ</h2>\n      <p class=\"sp-lead\">Basicプランは、商品数が少なく短期間で立ち上げたい方向けのプランです。約6〜8週間を目安に、必要な設定を整理しながら公開まで進めます。</p>\n    </div>\n    <div class=\"sp-flow\">\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>01</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">無料相談・立ち上げ方針の整理</h3><p class=\"sp-flow__desc\">商品数、販売開始時期、必要なページ、運用体制を確認します。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>02</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">制作範囲・お見積もり確認</h3><p class=\"sp-flow__desc\">商品登録10点、コレクション登録3点、アプリ連携6点、進捗オンラインMTG3回を軸に範囲を整理します。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>03</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">テーマ選定・ストア基本設定</h3><p class=\"sp-flow__desc\">無料・有料テーマの選定、ストア情報、配送、決済、通知、販売チャネルなどの基本設定を進めます。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>04</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">商品・コレクション・アプリ設定</h3><p class=\"sp-flow__desc\">商品登録、コレクション登録、必要なShopifyアプリ連携を行い、運用しやすい状態に整えます。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>05</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開前チェック・修正対応</h3><p class=\"sp-flow__desc\">表示確認、スマートフォン確認、購入導線の確認、必要な修正を行います。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>06</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開・引き渡し</h3><p class=\"sp-flow__desc\">短期間でローンチできるよう、公開後に自社で更新しやすい状態でお渡しします。</p></div></div>\n    </div>\n  </div>\n</section>",
+        "code": "<section class=\"sp-sec\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Process</p>\n      <h2 class=\"sp-title\">無料相談から公開までの流れ</h2>\n      <p class=\"sp-lead\">Basicプランは、商品数が少なく短期間で立ち上げたい方向けのプランです。約4〜8週間を目安に、必要な設定を整理しながら公開まで進めます。</p>\n    </div>\n    <div class=\"sp-flow\">\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>01</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">無料相談・立ち上げ方針の整理</h3><p class=\"sp-flow__desc\">商品数、販売開始時期、必要なページ、運用体制を確認します。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>02</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">制作範囲・お見積もり確認</h3><p class=\"sp-flow__desc\">商品登録20点、カテゴリ6点、アプリ連携3点、オリジナルページ制作3ページを軸に範囲を整理します。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>03</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">テーマ選定・ストア基本設定</h3><p class=\"sp-flow__desc\">無料・有料テーマの選定、ストア情報、配送、決済、通知、販売チャネルなどの基本設定を進めます。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>04</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">商品・カテゴリ・アプリ設定</h3><p class=\"sp-flow__desc\">商品登録、カテゴリ設定、必要なShopifyアプリ連携を行い、運用しやすい状態に整えます。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>05</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開前チェック・修正対応</h3><p class=\"sp-flow__desc\">表示確認、スマートフォン確認、購入導線の確認、必要な修正を行います。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>06</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開・引き渡し</h3><p class=\"sp-flow__desc\">短期間でローンチできるよう、公開後に自社で更新しやすい状態でお渡しします。</p></div></div>\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-1",
         "padding_top": 0,
@@ -797,7 +807,7 @@
         "heading_8iQFx7": {
           "type": "heading",
           "settings": {
-            "title": "まずは、話を聞かせてください。",
+            "title": "少数SKUで、自社ECを立ち上げたい方へ。",
             "heading_font_size": "heading-large",
             "padding_bottom": 50,
             "heading_tag": "h2"
@@ -806,7 +816,7 @@
         "text_jfXdQt": {
           "type": "text",
           "settings": {
-            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。今すぐご相談いただき、より良いECサイト構築を始めてみませんか？  </p>",
+            "text": "<p>商品数や運用体制を確認しながら、Basicプランで対応できる範囲と公開までの流れを無料で整理します。Shopifyで自社ECを始めたい方、モールやSNS中心の販売から次の一歩を考えている方はご相談ください。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -939,6 +949,7 @@
     "section_double_3i48QY",
     "section_announcement_eRD9xd",
     "section_custom_code_tzzkFE",
+    "section_custom_code_affinity_basic",
     "section_custom_code_zRTjpe",
     "section_rich_text_WcBEQp",
     "section_custom_code_QUFQdQ",
