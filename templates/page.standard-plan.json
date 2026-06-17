@@ -131,9 +131,9 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "新作発売のたびに運用が大変",
+            "title": "小さな変更にも手間がかかる",
             "heading_font_size": "heading-small",
-            "text": "<p>商品登録、画像差し替え、在庫調整に追われ、企画や改善に手が回らない。</p>",
+            "text": "<p>更新や在庫反映に時間がかかり、スピード感のある運用が難しくなる。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
