@@ -133,7 +133,7 @@
             "column_width": 33,
             "title": "更新作業に時間がかかる",
             "heading_font_size": "heading-small",
-            "text": "<p>更新や在庫反映に時間がかかり、スピード感のある運用が難しくなる。</p>",
+            "text": "<p>更新や在庫反映に手間がかかり、スピード感のある運用が難しくなる。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
