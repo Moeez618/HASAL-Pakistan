@@ -327,7 +327,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "{{ 'standard-plan.css' | asset_url | stylesheet_tag }}\n<section class=\"sp-sec sp-sec--migration\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Migration Risk</p>\n      <h2 class=\"sp-title\">ECサイトの移行で大切なのは、<br>検索流入とデータ移行の設計です。</h2>\n      <p class=\"sp-lead\">ECサイトの移行では、デザインだけを整えても十分ではありません。\nURL、商品・顧客データ、決済・配送設定、計測タグ、公開後の確認まで、事前に整理する必要があります。\n</p>\n    </div>\n    <ul class=\"sp-checklist\">\n      <li>URL変更にともなうリダイレクト方針の整理</li>\n      <li>商品データの整理・移行</li>\n      <li>主要ページの移行</li>\n      <li>ページ構成の整理・設計</li>\n      <li>計測タグ（GA4・Search Console等）の設定確認</li>\n      <li>PC・スマートフォンでの表示確認</li>\n      <li>公開前の検証（決済フローの確認</li>\n    </ul>\n  </div>\n</section>",
+        "code": "{{ 'standard-plan.css' | asset_url | stylesheet_tag }}\n<section class=\"sp-sec sp-sec--migration\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Migration Risk</p>\n      <h2 class=\"sp-title\">ECサイトの移行で大切なのは、<br>検索流入とデータ移行の設計です。</h2>\n      <p class=\"sp-lead\">ECサイトの移行では、デザインだけを整えても十分ではありません。\nURL、商品・顧客データ、決済・配送設定、計測タグ、公開後の確認まで、事前に整理する必要があります。\n</p>\n    </div>\n    <ul class=\"sp-checklist\">\n      <li>URL変更にともなうリダイレクト方針の整理</li>\n      <li>商品データの整理・移行</li>\n      <li>主要ページの移行</li>\n      <li>ページ構成の整理・設計</li>\n      <li>計測タグの設定確認</li>\n      <li>PC・スマートフォンでの表示確認</li>\n      <li>公開前の検証（決済フローの確認</li>\n    </ul>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-10",
         "padding_top": 0,
