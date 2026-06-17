@@ -32,7 +32,7 @@
         "sub": {
           "type": "subheading",
           "settings": {
-            "subheading": "Shopify移行・リニューアル｜Standardプラン",
+            "subheading": "ECサイト・リニューアル｜Standardプラン",
             "padding_bottom": 16
           }
         },
@@ -117,7 +117,7 @@
             "column_width": 33,
             "title": "世界観が伝わりきらない",
             "heading_font_size": "heading-small",
-            "text": "<p>SNSでは魅力的に見えるのに、ECサイトではブランドが古く見えてしまう。</p>",
+            "text": "<p>SNSでは伝わるブランドの魅力が、ECサイトでは十分に表現できていない。</p>",
             "text_font_size": "body-medium",
             "button_text": "",
             "button_url": "",
