@@ -348,6 +348,15 @@
     "section_hero_XWjLgY": {
       "type": "section-hero",
       "blocks": {
+        "heading_bbC3Rw": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopify ECサイト・Standardプラン",
+            "heading_font_size": "heading-x-small",
+            "heading_tag": "h2",
+            "padding_bottom": 8
+          }
+        },
         "heading_EByBDA": {
           "type": "heading",
           "settings": {
@@ -367,6 +376,7 @@
         }
       },
       "block_order": [
+        "heading_bbC3Rw",
         "heading_EByBDA",
         "text_hkCRA6"
       ],
