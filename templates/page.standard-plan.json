@@ -163,7 +163,7 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "運営コストが膨らむ",
+            "title": "運用コストが膨らむ",
             "heading_font_size": "heading-small",
             "text": "<p>古いテンプレートの制約で、アプリ対応できる施策にも独自開発が必要。</p>",
             "text_font_size": "body-medium",
