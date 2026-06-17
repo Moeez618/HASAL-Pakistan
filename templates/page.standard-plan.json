@@ -379,7 +379,10 @@
         "heading_EByBDA",
         "text_hkCRA6"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".hero__content.backdrop--radial {--backdrop-size: 190%;}",
+        ".hero__content.backdrop--radial::before {opacity: 0.68;}"
+      ],
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_15_15_54_03.png",
