@@ -131,7 +131,7 @@
           "type": "text",
           "settings": {
             "column_width": 33,
-            "title": "小さな変更にも手間がかかる",
+            "title": "更新作業に時間がかかる",
             "heading_font_size": "heading-small",
             "text": "<p>更新や在庫反映に時間がかかり、スピード感のある運用が難しくなる。</p>",
             "text_font_size": "body-medium",
