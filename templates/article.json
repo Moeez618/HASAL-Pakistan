@@ -18,10 +18,17 @@
             "title": "カテゴリー",
             "blog_linklist": ""
           }
+        },
+        "recent_mwRpQb": {
+          "type": "recent",
+          "settings": {
+            "title": "関連記事"
+          }
         }
       },
       "block_order": [
-        "links_UU7xHf"
+        "links_UU7xHf",
+        "recent_mwRpQb"
       ],
       "custom_css": [],
       "settings": {
