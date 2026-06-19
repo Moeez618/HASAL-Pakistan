@@ -145,6 +145,15 @@
       "read_more": "続きを読む",
       "no_articles": "表示する記事はありません。"
     },
+    "audio": {
+      "heading": "この記事を音声で聴く",
+      "play": "再生",
+      "pause": "一時停止",
+      "stop": "停止",
+      "volume": "音量",
+      "seek": "音声の再生位置",
+      "error": "音声を再生できませんでした。"
+    },
     "comments": {
       "name": "名前",
       "email": "Eメール",

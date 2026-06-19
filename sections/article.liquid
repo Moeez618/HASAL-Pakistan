@@ -14,6 +14,11 @@
   assign selected_color_scheme = section.settings.color_scheme | strip
   assign scheme_bg_color = settings.color_schemes[selected_color_scheme].settings.section_bg
   assign handles = ''
+  assign audio_metafield = article.metafields[section.settings.audio_metafield_namespace][section.settings.audio_metafield_key]
+  assign audio_url = blank
+  if audio_metafield.type == 'url'
+    assign audio_url = audio_metafield.value
+  endif
 -%}
 
 {%- capture style -%}
@@ -73,6 +78,10 @@
     <div class="grid{% if show_sidebar %} grid--article{% else %} grid--1{% endif %}">
       <article class="article article--single">
         <div class="article__content__wrapper">
+          {%- if section.settings.show_audio_player and audio_url != blank -%}
+            {%- render 'article-audio-player', audio_url: audio_url -%}
+          {%- endif -%}
+
           <div class="article__content rte">
             {{ article.content }}
           </div>
@@ -633,6 +642,30 @@
       "id": "show_sharing",
       "label": "Show sharing button",
       "default": true
+    },
+    {
+      "type": "header",
+      "content": "Article audio"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_audio_player",
+      "label": "Show audio player",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "audio_metafield_namespace",
+      "label": "Metafield namespace",
+      "info": "The namespace of the blog post URL metafield",
+      "default": "custom"
+    },
+    {
+      "type": "text",
+      "id": "audio_metafield_key",
+      "label": "Metafield key",
+      "info": "The key of the blog post URL metafield",
+      "default": "audio_url"
     },
     {
       "type": "checkbox",

@@ -145,6 +145,15 @@
       "back_to": "Torna a",
       "all": "Tutti"
     },
+    "audio": {
+      "heading": "Listen to this article",
+      "play": "Play",
+      "pause": "Pause",
+      "stop": "Stop",
+      "volume": "Volume",
+      "seek": "Audio playback position",
+      "error": "The audio could not be played."
+    },
     "comments": {
       "title": "Lascia un commento",
       "name": "Nome",
