@@ -15,7 +15,7 @@
   assign scheme_bg_color = settings.color_schemes[selected_color_scheme].settings.section_bg
   assign handles = ''
   assign audio_metafield_namespace = section.settings.audio_metafield_namespace | default: 'custom'
-  assign audio_metafield_key = section.settings.audio_metafield_key | default: 'audio_url'
+  assign audio_metafield_key = section.settings.audio_metafield_key | default: 'audio_link'
   assign audio_metafield = article.metafields[audio_metafield_namespace][audio_metafield_key]
   assign audio_url = blank
   case audio_metafield.type
@@ -24,6 +24,11 @@
     else
       assign audio_url = audio_metafield.value
   endcase
+
+  if audio_url contains 'cdn.shopify.com/s/files/' and audio_url contains '/files/'
+    assign audio_file_path = audio_url | split: '/files/' | last
+    assign audio_url = '/cdn/shop/files/' | append: audio_file_path
+  endif
 -%}
 
 {%- capture style -%}
@@ -672,7 +677,7 @@
       "id": "audio_metafield_key",
       "label": "Metafield key",
       "info": "The key of the blog post URL metafield",
-      "default": "audio_url"
+      "default": "audio_link"
     },
     {
       "type": "checkbox",
