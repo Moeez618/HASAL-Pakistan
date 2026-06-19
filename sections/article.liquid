@@ -14,11 +14,16 @@
   assign selected_color_scheme = section.settings.color_scheme | strip
   assign scheme_bg_color = settings.color_schemes[selected_color_scheme].settings.section_bg
   assign handles = ''
-  assign audio_metafield = article.metafields[section.settings.audio_metafield_namespace][section.settings.audio_metafield_key]
+  assign audio_metafield_namespace = section.settings.audio_metafield_namespace | default: 'custom'
+  assign audio_metafield_key = section.settings.audio_metafield_key | default: 'audio_url'
+  assign audio_metafield = article.metafields[audio_metafield_namespace][audio_metafield_key]
   assign audio_url = blank
-  if audio_metafield.type == 'url'
-    assign audio_url = audio_metafield.value
-  endif
+  case audio_metafield.type
+    when 'file_reference'
+      assign audio_url = audio_metafield.value.url
+    else
+      assign audio_url = audio_metafield.value
+  endcase
 -%}
 
 {%- capture style -%}
@@ -78,9 +83,11 @@
     <div class="grid{% if show_sidebar %} grid--article{% else %} grid--1{% endif %}">
       <article class="article article--single">
         <div class="article__content__wrapper">
-          {%- if section.settings.show_audio_player and audio_url != blank -%}
-            {%- render 'article-audio-player', audio_url: audio_url -%}
-          {%- endif -%}
+          {%- unless section.settings.show_audio_player == false -%}
+            {%- if audio_url != blank -%}
+              {%- render 'article-audio-player', audio_url: audio_url -%}
+            {%- endif -%}
+          {%- endunless -%}
 
           <div class="article__content rte">
             {{ article.content }}
