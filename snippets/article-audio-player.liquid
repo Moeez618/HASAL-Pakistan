@@ -7,7 +7,7 @@ Renders an accessible audio player for a blog article.
 {% render 'article-audio-player', audio_url: article.metafields.custom.audio_link.value %}
 {% enddoc %}
 
-<article-audio-player class="article-audio-player">
+<article-audio-player class="article-audio-player" data-design-mode="{{ request.design_mode }}">
   <h2 class="article-audio-player__heading h4">{{ 'blogs.audio.heading' | t }}</h2>
 
   <audio
@@ -96,15 +96,50 @@ Renders an accessible audio player for a blog article.
       'article-audio-player',
       class ArticleAudioPlayer extends HTMLElement {
         connectedCallback() {
+          if (this.isInitialized) return;
+
+          this.isInitialized = true;
           this.audio = this.querySelector('[data-audio]');
           this.stopButton = this.querySelector('[data-stop]');
           this.error = this.querySelector('[data-error]');
+          this.handleStop = () => this.stopPlayback();
+          this.handleError = () => this.handleMediaError();
+          this.handleRecovery = () => this.clearMediaError();
 
-          this.stopButton.addEventListener('click', () => this.stopPlayback());
-          this.audio.addEventListener('error', () => {
-            this.error.hidden = false;
-            this.stopButton.disabled = true;
-          });
+          this.stopButton.addEventListener('click', this.handleStop);
+          this.audio.addEventListener('error', this.handleError);
+          this.audio.addEventListener('canplay', this.handleRecovery);
+          this.audio.addEventListener('loadstart', this.handleRecovery);
+        }
+
+        disconnectedCallback() {
+          this.stopButton.removeEventListener('click', this.handleStop);
+          this.audio.removeEventListener('error', this.handleError);
+          this.audio.removeEventListener('canplay', this.handleRecovery);
+          this.audio.removeEventListener('loadstart', this.handleRecovery);
+          this.isInitialized = false;
+        }
+
+        handleMediaError() {
+          const mediaError = this.audio.error;
+
+          if (!mediaError || mediaError.code === 1) return;
+
+          this.error.hidden = false;
+          this.stopButton.disabled = true;
+
+          if (this.dataset.designMode === 'true') {
+            console.error('Article audio failed to load', {
+              code: mediaError.code,
+              message: mediaError.message,
+              currentSrc: this.audio.currentSrc,
+            });
+          }
+        }
+
+        clearMediaError() {
+          this.error.hidden = true;
+          this.stopButton.disabled = false;
         }
 
         stopPlayback() {
