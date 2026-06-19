@@ -87,7 +87,11 @@
         <div class="article__content__wrapper">
           {%- unless section.settings.show_audio_player == false -%}
             {%- if audio_url != blank -%}
-              {%- render 'article-audio-player', audio_url: audio_url -%}
+              {%- render 'article-audio-player',
+                audio_url: audio_url,
+                narrator_image: article.user.image,
+                narrator_name: article.author
+              -%}
             {%- endif -%}
           {%- endunless -%}
 
