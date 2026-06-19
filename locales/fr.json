@@ -147,6 +147,7 @@
     },
     "audio": {
       "heading": "Listen to this article",
+      "narrator": "Narrateur :",
       "play": "Play",
       "pause": "Pause",
       "stop": "Stop",

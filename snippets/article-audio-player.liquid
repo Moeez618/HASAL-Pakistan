@@ -2,42 +2,52 @@
 Renders an accessible audio player for a blog article.
 
 @param {string} audio_url - The URL of the article audio file.
-@param {image} [narrator_image] - The narrator profile image.
-@param {string} [narrator_name] - The narrator name used as image alt text.
+@param {string} narrator_image_url - The narrator profile image URL.
+@param {string} narrator_name - The narrator name.
 
 @example
-{% render 'article-audio-player', audio_url: article.metafields.custom.audio_link.value.url, narrator_image: article.user.image, narrator_name: article.author %}
+{% render 'article-audio-player', audio_url: article.metafields.custom.audio_link.value.url, narrator_image_url: 'https://cdn.shopify.com/example.jpg', narrator_name: article.author %}
 {% enddoc %}
 
 <article-audio-player-native class="article-audio-player">
-  <div class="article-audio-player__header">
-    {%- if narrator_image != blank -%}
+  <div class="article-audio-player__identity">
+    {%- if narrator_image_url != blank -%}
       <div class="article-audio-player__narrator">
-        {{ narrator_image | image_url: width: 240 | image_tag:
-          loading: 'lazy',
-          widths: '80, 120, 160, 240',
-          sizes: '(min-width: 750px) 80px, 64px',
-          alt: narrator_name
-        }}
+        <img
+          src="{{ narrator_image_url | escape }}"
+          alt="{{ narrator_name | escape }}"
+          width="144"
+          height="144"
+          loading="lazy"
+        >
       </div>
     {%- endif -%}
 
-    <h2 class="article-audio-player__heading h4">{{ 'blogs.audio.heading' | t }}</h2>
+    <div class="article-audio-player__copy">
+      <h2 class="article-audio-player__heading h4">{{ 'blogs.audio.heading' | t }}</h2>
+      {%- if narrator_name != blank -%}
+        <p class="article-audio-player__narrator-name">
+          <span>{{ 'blogs.audio.narrator' | t }}</span>
+          <strong>{{ narrator_name }}</strong>
+        </p>
+      {%- endif -%}
+    </div>
   </div>
 
-  <audio
-    class="article-audio-player__native"
-    data-audio
-    controls
-    playsinline
-    preload="metadata"
-    src="{{ audio_url | escape }}"
-  ></audio>
+  <div class="article-audio-player__controls">
+    <audio
+      class="article-audio-player__native"
+      data-audio
+      controls
+      playsinline
+      preload="metadata"
+      src="{{ audio_url | escape }}"
+    ></audio>
 
-  <button type="button" class="article-audio-player__stop" data-stop>
-    {{ 'blogs.audio.stop' | t }}
-  </button>
-
+    <button type="button" class="article-audio-player__stop" data-stop>
+      {{ 'blogs.audio.stop' | t }}
+    </button>
+  </div>
 </article-audio-player-native>
 
 {% stylesheet %}
@@ -46,23 +56,22 @@ Renders an accessible audio player for a blog article.
     gap: 16px;
     margin: 0 0 32px;
     padding: 24px;
-    border: 1px solid var(--text-a35, var(--text));
-    background: var(--bg);
+    border-radius: calc(var(--BUTTON-RADIUS, 0px) + 8px);
+    background: var(--text-a5);
     color: var(--text);
   }
 
-  .article-audio-player__header {
+  .article-audio-player__identity {
     display: flex;
     align-items: center;
     gap: 16px;
   }
 
   .article-audio-player__narrator {
-    flex: 0 0 80px;
-    width: 80px;
-    height: 80px;
+    flex: 0 0 72px;
+    width: 72px;
+    height: 72px;
     overflow: hidden;
-    border: 1px solid var(--text-a35, var(--text));
     border-radius: 50%;
   }
 
@@ -71,34 +80,68 @@ Renders an accessible audio player for a blog article.
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 50% 20%;
+  }
+
+  .article-audio-player__copy {
+    min-width: 0;
   }
 
   .article-audio-player__heading {
     margin: 0;
   }
 
+  .article-audio-player__narrator-name {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    margin: 6px 0 0;
+    color: var(--text-a70, var(--text));
+    font-size: var(--font-body-small);
+  }
+
+  .article-audio-player__narrator-name strong {
+    color: var(--text);
+    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);
+  }
+
+  .article-audio-player__controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px;
+  }
+
   .article-audio-player__native {
+    min-width: 0;
     width: 100%;
     accent-color: var(--text);
   }
 
   .article-audio-player__stop {
-    width: fit-content;
-    min-width: 104px;
-    min-height: 44px;
-    padding: 10px 16px;
-    border: 1px solid var(--text);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 88px;
+    min-height: 48px;
+    padding: 10px 14px;
+    border: 0;
     border-radius: var(--BUTTON-RADIUS, 0);
-    background: transparent;
-    color: var(--text);
+    background: var(--text);
+    color: var(--bg);
     cursor: pointer;
     font: inherit;
   }
 
+  .article-audio-player__stop::before {
+    width: 10px;
+    height: 10px;
+    background: currentcolor;
+    content: '';
+  }
+
   .article-audio-player__stop:hover {
-    background: var(--text);
-    color: var(--bg);
+    opacity: 0.75;
   }
 
   .article-audio-player__stop:focus-visible {
@@ -111,14 +154,23 @@ Renders an accessible audio player for a blog article.
       padding: 20px 16px;
     }
 
+    .article-audio-player__identity {
+      gap: 14px;
+    }
+
     .article-audio-player__narrator {
       flex-basis: 64px;
       width: 64px;
       height: 64px;
     }
 
+    .article-audio-player__controls {
+      gap: 8px;
+    }
+
     .article-audio-player__stop {
-      width: 100%;
+      min-width: 76px;
+      padding-inline: 10px;
     }
   }
 {% endstylesheet %}

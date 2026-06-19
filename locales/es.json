@@ -565,6 +565,7 @@
     },
     "audio": {
       "heading": "Listen to this article",
+      "narrator": "Narrador:",
       "play": "Play",
       "pause": "Pause",
       "stop": "Stop",
