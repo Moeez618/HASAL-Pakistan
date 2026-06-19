@@ -10,52 +10,54 @@ Renders an accessible audio player for a blog article.
 <article-audio-player class="article-audio-player">
   <h2 class="article-audio-player__heading h4">{{ 'blogs.audio.heading' | t }}</h2>
 
-  <audio data-audio preload="metadata" src="{{ audio_url | escape }}"></audio>
+  <audio class="article-audio-player__native" data-audio controls preload="metadata" src="{{ audio_url | escape }}"></audio>
 
-  <div class="article-audio-player__controls">
-    <button
-      type="button"
-      class="article-audio-player__button"
-      data-play
-      data-play-label="{{ 'blogs.audio.play' | t | escape }}"
-      data-pause-label="{{ 'blogs.audio.pause' | t | escape }}"
-      aria-pressed="false"
-    >
-      <span data-play-text>{{ 'blogs.audio.play' | t }}</span>
-    </button>
+  <div class="article-audio-player__enhanced" data-custom-controls hidden>
+    <div class="article-audio-player__controls">
+      <button
+        type="button"
+        class="article-audio-player__button"
+        data-play
+        data-play-label="{{ 'blogs.audio.play' | t | escape }}"
+        data-pause-label="{{ 'blogs.audio.pause' | t | escape }}"
+        aria-pressed="false"
+      >
+        <span data-play-text>{{ 'blogs.audio.play' | t }}</span>
+      </button>
 
-    <button type="button" class="article-audio-player__button" data-stop>
-      {{ 'blogs.audio.stop' | t }}
-    </button>
+      <button type="button" class="article-audio-player__button" data-stop>
+        {{ 'blogs.audio.stop' | t }}
+      </button>
 
-    <label class="article-audio-player__volume">
-      <span>{{ 'blogs.audio.volume' | t }}</span>
-      <input type="range" min="0" max="1" step="0.05" value="1" data-volume>
-    </label>
+      <label class="article-audio-player__volume">
+        <span>{{ 'blogs.audio.volume' | t }}</span>
+        <input type="range" min="0" max="1" step="0.05" value="1" data-volume>
+      </label>
+    </div>
+
+    <div class="article-audio-player__timeline">
+      <input
+        type="range"
+        class="article-audio-player__progress"
+        min="0"
+        max="0"
+        step="0.1"
+        value="0"
+        data-progress
+        aria-label="{{ 'blogs.audio.seek' | t | escape }}"
+        disabled
+      >
+      <output class="article-audio-player__time" data-time>
+        <span data-current-time>0:00</span>
+        <span aria-hidden="true"> / </span>
+        <span data-duration>0:00</span>
+      </output>
+    </div>
+
+    <p class="article-audio-player__error" data-error role="alert" hidden>
+      {{ 'blogs.audio.error' | t }}
+    </p>
   </div>
-
-  <div class="article-audio-player__timeline">
-    <input
-      type="range"
-      class="article-audio-player__progress"
-      min="0"
-      max="0"
-      step="0.1"
-      value="0"
-      data-progress
-      aria-label="{{ 'blogs.audio.seek' | t | escape }}"
-      disabled
-    >
-    <output class="article-audio-player__time" data-time>
-      <span data-current-time>0:00</span>
-      <span aria-hidden="true"> / </span>
-      <span data-duration>0:00</span>
-    </output>
-  </div>
-
-  <p class="article-audio-player__error" data-error role="alert" hidden>
-    {{ 'blogs.audio.error' | t }}
-  </p>
 </article-audio-player>
 
 {% stylesheet %}
@@ -70,6 +72,19 @@ Renders an accessible audio player for a blog article.
 
   .article-audio-player__heading {
     margin: 0;
+  }
+
+  .article-audio-player__native {
+    width: 100%;
+  }
+
+  .article-audio-player__enhanced {
+    display: grid;
+    gap: 16px;
+  }
+
+  .article-audio-player__enhanced[hidden] {
+    display: none;
   }
 
   .article-audio-player__controls {
@@ -174,6 +189,7 @@ Renders an accessible audio player for a blog article.
       class ArticleAudioPlayer extends HTMLElement {
         connectedCallback() {
           this.audio = this.querySelector('[data-audio]');
+          this.customControls = this.querySelector('[data-custom-controls]');
           this.playButton = this.querySelector('[data-play]');
           this.playText = this.querySelector('[data-play-text]');
           this.stopButton = this.querySelector('[data-stop]');
@@ -205,6 +221,9 @@ Renders an accessible audio player for a blog article.
           });
 
           if (this.audio.readyState >= 1) this.setDuration();
+
+          this.audio.removeAttribute('controls');
+          this.customControls.hidden = false;
         }
 
         async togglePlayback() {
