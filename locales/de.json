@@ -145,6 +145,11 @@
       "back_to": "Zurück zu",
       "all": "Alle"
     },
+    "audio": {
+      "heading": "Listen to this article",
+      "narrator": "Erzähler:",
+      "stop": "Stop"
+    },
     "comments": {
       "title": "Kommentar hinterlassen",
       "name": "Name",

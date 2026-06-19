@@ -1,0 +1,211 @@
+{% doc %}
+Renders an accessible audio player for a blog article.
+
+@param {string} audio_url - The URL of the article audio file.
+@param {string} narrator_image_url - The narrator profile image URL.
+@param {string} narrator_name - The narrator name.
+
+@example
+{% render 'article-audio-player', audio_url: article.metafields.custom.audio_link.value.url, narrator_image_url: 'https://cdn.shopify.com/example.jpg', narrator_name: article.author %}
+{% enddoc %}
+
+<article-audio-player-native class="article-audio-player">
+  <div class="article-audio-player__identity">
+    {%- if narrator_image_url != blank -%}
+      <div class="article-audio-player__narrator">
+        <img
+          src="{{ narrator_image_url | escape }}"
+          alt="{{ narrator_name | escape }}"
+          width="144"
+          height="144"
+          loading="lazy"
+        >
+      </div>
+    {%- endif -%}
+
+    <div class="article-audio-player__copy">
+      <h2 class="article-audio-player__heading h4">{{ 'blogs.audio.heading' | t }}</h2>
+      {%- if narrator_name != blank -%}
+        <p class="article-audio-player__narrator-name">
+          <span>{{ 'blogs.audio.narrator' | t }}</span>
+          <strong>{{ narrator_name }}</strong>
+        </p>
+      {%- endif -%}
+    </div>
+  </div>
+
+  <div class="article-audio-player__controls">
+    <audio
+      class="article-audio-player__native"
+      data-audio
+      controls
+      playsinline
+      preload="metadata"
+      src="{{ audio_url | escape }}"
+    ></audio>
+
+    <button type="button" class="article-audio-player__stop" data-stop>
+      {{ 'blogs.audio.stop' | t }}
+    </button>
+  </div>
+</article-audio-player-native>
+
+{% stylesheet %}
+  .article-audio-player {
+    display: grid;
+    gap: 16px;
+    margin: 0 0 32px;
+    padding: 24px;
+    border-radius: calc(var(--BUTTON-RADIUS, 0px) + 8px);
+    background: var(--text-a5);
+    color: var(--text);
+  }
+
+  .article-audio-player__identity {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .article-audio-player__narrator {
+    flex: 0 0 72px;
+    width: 72px;
+    height: 72px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  .article-audio-player__narrator img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .article-audio-player__copy {
+    min-width: 0;
+  }
+
+  .article-audio-player__heading {
+    margin: 0;
+  }
+
+  .article-audio-player__narrator-name {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 8px;
+    margin: 6px 0 0;
+    color: var(--text-a70, var(--text));
+    font-size: var(--font-body-small);
+  }
+
+  .article-audio-player__narrator-name strong {
+    color: var(--text);
+    font-weight: var(--FONT-WEIGHT-BODY-BOLD, 600);
+  }
+
+  .article-audio-player__controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .article-audio-player__native {
+    min-width: 0;
+    width: 100%;
+    accent-color: var(--text);
+  }
+
+  .article-audio-player__stop {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 88px;
+    min-height: 48px;
+    padding: 10px 14px;
+    border: 0;
+    border-radius: var(--BUTTON-RADIUS, 0);
+    background: #ab8c52;
+    color: var(--bg);
+    cursor: pointer;
+    font: inherit;
+  }
+
+  .article-audio-player__stop::before {
+    width: 10px;
+    height: 10px;
+    background: currentcolor;
+    content: '';
+  }
+
+  .article-audio-player__stop:hover {
+    opacity: 0.75;
+  }
+
+  .article-audio-player__stop:focus-visible {
+    outline: 2px solid var(--text);
+    outline-offset: 3px;
+  }
+
+  @media only screen and (max-width: 749px) {
+    .article-audio-player {
+      padding: 20px 16px;
+    }
+
+    .article-audio-player__identity {
+      gap: 14px;
+    }
+
+    .article-audio-player__narrator {
+      flex-basis: 64px;
+      width: 64px;
+      height: 64px;
+    }
+
+    .article-audio-player__controls {
+      gap: 8px;
+    }
+
+    .article-audio-player__stop {
+      min-width: 76px;
+      padding-inline: 10px;
+    }
+  }
+{% endstylesheet %}
+
+{% javascript %}
+  if (!customElements.get('article-audio-player-native')) {
+    customElements.define(
+      'article-audio-player-native',
+      class ArticleAudioPlayer extends HTMLElement {
+        connectedCallback() {
+          if (this.isInitialized) return;
+
+          this.isInitialized = true;
+          this.audio = this.querySelector('[data-audio]');
+          this.stopButton = this.querySelector('[data-stop]');
+          this.handleStop = () => this.stopPlayback();
+
+          this.stopButton.addEventListener('click', this.handleStop);
+        }
+
+        disconnectedCallback() {
+          this.stopButton.removeEventListener('click', this.handleStop);
+          this.isInitialized = false;
+        }
+
+        stopPlayback() {
+          this.audio.pause();
+
+          if (this.audio.readyState > 0) {
+            this.audio.currentTime = 0;
+          } else {
+            this.audio.load();
+          }
+        }
+      }
+    );
+  }
+{% endjavascript %}

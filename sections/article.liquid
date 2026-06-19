@@ -1,5 +1,4 @@
 {% comment %}theme-check-disable UnclosedHTMLElement{% endcomment %}
-<!-- /sections/article.liquid -->
 
 {%- liquid
   assign article_url = article.url
@@ -14,6 +13,18 @@
   assign selected_color_scheme = section.settings.color_scheme | strip
   assign scheme_bg_color = settings.color_schemes[selected_color_scheme].settings.section_bg
   assign handles = ''
+  assign audio_metafield_namespace = section.settings.audio_metafield_namespace | default: 'custom'
+  assign audio_metafield_key = section.settings.audio_metafield_key | default: 'audio_link'
+  assign audio_metafield = article.metafields[audio_metafield_namespace][audio_metafield_key]
+  assign audio_url = blank
+  case audio_metafield.type
+    when 'file_reference'
+      assign audio_url = audio_metafield.value.url
+    when 'link'
+      assign audio_url = audio_metafield.value.url
+    else
+      assign audio_url = audio_metafield.value
+  endcase
 -%}
 
 {%- capture style -%}
@@ -44,9 +55,10 @@
       {%- if show_date or show_author -%}
         <p class="article__meta">
           {%- assign published_at = article.published_at | date: format: 'full_date' -%}
+          {%- assign published_at_iso = article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' -%}
 
           {%- if show_date -%}
-            <time datetime="{{ published_at }}">{{ published_at }}</time>
+            <time datetime="{{ published_at_iso }}">{{ published_at }}</time>
           {%- endif -%}
 
           {%- if show_author -%}
@@ -73,6 +85,16 @@
     <div class="grid{% if show_sidebar %} grid--article{% else %} grid--1{% endif %}">
       <article class="article article--single">
         <div class="article__content__wrapper">
+          {%- unless section.settings.show_audio_player == false -%}
+            {%- if audio_url != blank -%}
+              {%- render 'article-audio-player',
+                audio_url: audio_url,
+                narrator_image_url: 'https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Shun.jpg?v=1781858273&width=144',
+                narrator_name: '島袋隼'
+              -%}
+            {%- endif -%}
+          {%- endunless -%}
+
           <div class="article__content rte">
             {{ article.content }}
           </div>
@@ -359,9 +381,12 @@
                             <p class="article__meta">
                               {%- if show_date -%}
                                 {%- assign published_at = recent_article.published_at | date: format: 'full_date' -%}
-                                <time datetime="{{ published_at }}">{{ published_at }}</time>
-                              {%- elsif show_author -%}
-                                <span class="article__meta__author">{{ 'blogs.article.by_author' | t: author: article.author }} </span>
+                                {%- assign published_at_iso = recent_article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' -%}
+                                <time datetime="{{ published_at_iso }}">{{ published_at }}</time>
+                              {%- endif -%}
+
+                              {%- if show_author -%}
+                                <span class="article__meta__author">{{ 'blogs.article.by_author' | t: author: recent_article.author }} </span>
                               {%- endif -%}
                             </p>
                           {%- endif -%}
@@ -633,6 +658,30 @@
       "id": "show_sharing",
       "label": "Show sharing button",
       "default": true
+    },
+    {
+      "type": "header",
+      "content": "Article audio"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_audio_player",
+      "label": "Show audio player",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "audio_metafield_namespace",
+      "label": "Metafield namespace",
+      "info": "The namespace of the blog post URL metafield",
+      "default": "custom"
+    },
+    {
+      "type": "text",
+      "id": "audio_metafield_key",
+      "label": "Metafield key",
+      "info": "The key of the blog post URL metafield",
+      "default": "audio_link"
     },
     {
       "type": "checkbox",

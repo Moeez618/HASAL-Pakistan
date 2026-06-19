@@ -563,6 +563,11 @@
       "back_to": "Regresar a",
       "all": "Todo"
     },
+    "audio": {
+      "heading": "Listen to this article",
+      "narrator": "Narrador:",
+      "stop": "Stop"
+    },
     "comments": {
       "title": "Deje un comentario",
       "name": "Nombre de pila",
