@@ -24,11 +24,6 @@
     else
       assign audio_url = audio_metafield.value
   endcase
-
-  if audio_url contains 'cdn.shopify.com/s/files/' and audio_url contains '/files/'
-    assign audio_file_path = audio_url | split: '/files/' | last
-    assign audio_url = '/cdn/shop/files/' | append: audio_file_path
-  endif
 -%}
 
 {%- capture style -%}
