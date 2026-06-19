@@ -148,12 +148,7 @@
     "audio": {
       "heading": "この記事を音声で聴く",
       "narrator": "ナレーター：",
-      "play": "再生",
-      "pause": "一時停止",
-      "stop": "停止",
-      "volume": "音量",
-      "seek": "音声の再生位置",
-      "error": "音声を再生できませんでした。"
+      "stop": "停止"
     },
     "comments": {
       "name": "名前",

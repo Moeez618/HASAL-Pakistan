@@ -1,5 +1,4 @@
 {% comment %}theme-check-disable UnclosedHTMLElement{% endcomment %}
-<!-- /sections/article.liquid -->
 
 {%- liquid
   assign article_url = article.url
@@ -56,9 +55,10 @@
       {%- if show_date or show_author -%}
         <p class="article__meta">
           {%- assign published_at = article.published_at | date: format: 'full_date' -%}
+          {%- assign published_at_iso = article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' -%}
 
           {%- if show_date -%}
-            <time datetime="{{ published_at }}">{{ published_at }}</time>
+            <time datetime="{{ published_at_iso }}">{{ published_at }}</time>
           {%- endif -%}
 
           {%- if show_author -%}
@@ -89,8 +89,8 @@
             {%- if audio_url != blank -%}
               {%- render 'article-audio-player',
                 audio_url: audio_url,
-                narrator_image_url: 'https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Shun.jpg?v=1781858273',
-                narrator_name: article.author
+                narrator_image_url: 'https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Shun.jpg?v=1781858273&width=144',
+                narrator_name: '島袋隼'
               -%}
             {%- endif -%}
           {%- endunless -%}
@@ -381,9 +381,12 @@
                             <p class="article__meta">
                               {%- if show_date -%}
                                 {%- assign published_at = recent_article.published_at | date: format: 'full_date' -%}
-                                <time datetime="{{ published_at }}">{{ published_at }}</time>
-                              {%- elsif show_author -%}
-                                <span class="article__meta__author">{{ 'blogs.article.by_author' | t: author: article.author }} </span>
+                                {%- assign published_at_iso = recent_article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' -%}
+                                <time datetime="{{ published_at_iso }}">{{ published_at }}</time>
+                              {%- endif -%}
+
+                              {%- if show_author -%}
+                                <span class="article__meta__author">{{ 'blogs.article.by_author' | t: author: recent_article.author }} </span>
                               {%- endif -%}
                             </p>
                           {%- endif -%}

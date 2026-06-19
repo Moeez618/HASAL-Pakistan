@@ -148,12 +148,7 @@
     "audio": {
       "heading": "Listen to this article",
       "narrator": "Narratore:",
-      "play": "Play",
-      "pause": "Pause",
-      "stop": "Stop",
-      "volume": "Volume",
-      "seek": "Audio playback position",
-      "error": "The audio could not be played."
+      "stop": "Stop"
     },
     "comments": {
       "title": "Lascia un commento",
