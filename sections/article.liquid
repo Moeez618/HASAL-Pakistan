@@ -21,6 +21,8 @@
   case audio_metafield.type
     when 'file_reference'
       assign audio_url = audio_metafield.value.url
+    when 'link'
+      assign audio_url = audio_metafield.value.url
     else
       assign audio_url = audio_metafield.value
   endcase
