@@ -63,11 +63,8 @@ Renders an accessible audio player for a blog article.
 
   .article-audio-player__identity {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 16px;
-    text-align: center;
   }
 
   .article-audio-player__narrator {
@@ -87,7 +84,6 @@ Renders an accessible audio player for a blog article.
 
   .article-audio-player__copy {
     min-width: 0;
-    text-align: center;
   }
 
   .article-audio-player__heading {
@@ -96,11 +92,9 @@ Renders an accessible audio player for a blog article.
 
   .article-audio-player__narrator-name {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
+    flex-wrap: wrap;
+    gap: 4px 8px;
     margin: 6px 0 0;
-    text-align: center;
     color: var(--text-a70, var(--text));
     font-size: var(--font-body-small);
   }
@@ -158,6 +152,10 @@ Renders an accessible audio player for a blog article.
   @media only screen and (max-width: 749px) {
     .article-audio-player {
       padding: 20px 16px;
+    }
+
+    .article-audio-player__identity {
+      gap: 14px;
     }
 
     .article-audio-player__narrator {
