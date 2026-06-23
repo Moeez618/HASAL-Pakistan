@@ -338,7 +338,7 @@
             "heading_font_size": "heading-x-large",
             "text": "<p>「自社ECを始めたいけど、何から相談すればいいかわからない」そんな段階でも問題ありません。まずはお問い合わせいただき、状況を整理するところからサポートします。</p>",
             "text_font_size": "body-large",
-            "button_text": "まずは無料診断を申し込む",
+            "button_text": "自社に合うか無料で相談する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -556,9 +556,9 @@
             "subheading": "",
             "title": "いますぐ、始められます。",
             "heading_font_size": "heading-x-large",
-            "text": "<p>　</p><p>Solstar Expressは、複雑な準備や専門的な知識を必要としません。専任のEC担当者も不要です！</p><p>　</p><p><strong>「売りたい商品がある」、「試したいアイデアがある」</strong></p><p>　<br/><br/>その状態から、<strong>すぐにあなただけのECサイトをスタート</strong>できます。</p><p>　</p><p>思い立った今が、ビジネスを前に進めるベストタイミングです。</p><p>　</p>",
+            "text": "<p><strong>「売りたい商品がある」、「試したいアイデアがある」</strong></p><p>　<br/><br/>その状態から、<strong>すぐにあなただけのECサイトをスタート</strong>できます。</p><p>　</p><p>思い立った今が、ビジネスを前に進めるベストタイミングです。</p><p>　</p>",
             "text_font_size": "body-large",
-            "button_text": "無料診断で具体的に提案を聞いてみる",
+            "button_text": "自社に合うか無料で相談する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -613,7 +613,7 @@
         "text_FfXdJr": {
           "type": "text",
           "settings": {
-            "text": "<p>自社ECサイトを検討する中で、<br/>「時間が足りない」「人手が足りない」「予算が合わない」<br/>そんな壁を感じているのであれば、Solstar Expressは有効な選択肢です。</p>",
+            "text": "<p>自社ECサイトを検討する中でそうした壁を感じているなら、Solstar Expressが有効な選択肢です。</p>",
             "text_font_size": "body-large",
             "padding_bottom": 30
           }
@@ -862,9 +862,9 @@
             "subheading": "知識と経験に自信があるからこそ提供できる、30日間の返金保証。",
             "title": "自信があるから、30日間キャッシュバック",
             "heading_font_size": "heading-large",
-            "text": "<p>自社ECサイト検討時につまずきやすい「時間・人手・予算」の壁。Solstar Expressは、こうした課題を解決するために開発されました。</p><p>　</p><p>それでも不安が残る方のために、<strong>ご契約後30日間のキャッシュバック制度</strong>をご用意しています。Shopifyの知識と豊富な開発経験に自信があるからこそ、提供できる制度です。</p><p>　　</p><p>万が一、サービス内容にご納得いただけなかった場合は、<strong>初期費用および月額費用を返金</strong>致します。</p>",
+            "text": "<p>「本当に成果が出るか」と不安が残る方のために、<strong>ご契約後30日間のキャッシュバック制度</strong>をご用意しています。Shopifyの知識と豊富な開発経験に自信があるからこそ提供できる制度です。</p><p>　　</p><p>万が一、サービス内容にご納得いただけなかった場合は、<strong>初期費用および月額費用を返金</strong>致します。</p>",
             "text_font_size": "body-medium",
-            "button_text": "まずは無料診断を申し込む",
+            "button_text": "自社に合うか無料で相談する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -911,7 +911,7 @@
         "text_h7AdcH": {
           "type": "text",
           "settings": {
-            "text": "<p>かつて私たち自身も、高額な構築費用の壁に悩み、挑戦を諦めそうになった経験があります 。だからこそ、Solstar Expressは「完璧なサイト」ではなく、リスクを抑えて「まず試せるECサイト」をコンセプトに作りました 。</p><p>　</p><p>「売れるだろうか」「運用できるだろうか」という不安も、Shopifyのプロである私たちがまるごと引き受けることで解消します 。万が一ご満足いただけない場合のために、<strong>30日間の返金保証</strong>もご用意しました 。</p><p>　</p><p>一社一社に全力で向き合うため、大変恐縮ですが<strong>同時にお受けできる社数には限りがございます</strong> 。</p><p>　<br/>あなたの「売りたい」という想いを形にするなら、今がベストタイミングです。ビジネスの未来を、私たちと共に切り拓きましょう。</p>",
+            "text": "<p>かつて私たち自身も、高額な構築費用の壁に悩み、挑戦を諦めそうになった経験があります 。だからこそ、Solstar Expressは「完璧なサイト」ではなく、リスクを抑えて「まず試せるECサイト」をコンセプトに作りました 。</p><p>　</p><p>「売れるだろうか」「運用できるだろうか」という不安も、Shopifyのプロである私たちがまるごと引き受けることで解消します 。</p><p>　</p><p>一社一社に全力で向き合うため、大変恐縮ですが<strong>同時にお受けできる社数には限りがございます</strong> 。</p><p>　<br/>あなたの「売りたい」という想いを形にするなら、今がベストタイミングです。ビジネスの未来を、私たちと共に切り拓きましょう。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
