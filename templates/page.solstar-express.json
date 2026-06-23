@@ -629,7 +629,7 @@
         "text_pYEhTn": {
           "type": "text",
           "settings": {
-            "text": "<p>で、<strong>ECサイトの構築・更新・改善運用まで、専門チームに任せながらスタート</strong>できます。</p><p><br/>負担の大きな固定費を抱えずに自社ECサイトを運用してみませんか？</p>",
+            "text": "<p><strong>ECサイトの構築・更新・改善運用まで、専門チームに任せながらスタート</strong>できます。</p><p><br/>負担の大きな固定費を抱えずに自社ECサイトを運用してみませんか？</p>",
             "text_font_size": "body-large",
             "padding_bottom": 16
           }
