@@ -457,7 +457,7 @@
         "heading_kgRwz8": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyアカデミー認定資格を3種取得",
+            "title": "実績と専門性 ",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -466,8 +466,8 @@
         "text_GyN7TV": {
           "type": "text",
           "settings": {
-            "text": "<p>弊社は、Shopifyアカデミー認定資格「提案設計・ソリューション設計・開発基礎」を保有しているため、安心して任せていただける設計・構築が可能です。</p>",
-            "text_font_size": "body-medium",
+            "text": "<ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul><p>※掲載の売上・開発費は、当社が構築・運用を担当した対象サイトの規模を示すものです。</p>",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         }
