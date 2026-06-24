@@ -114,8 +114,8 @@
         "heading_8xAyyR": {
           "type": "heading",
           "settings": {
-            "title": "「あぁ、自社ECサイトあったらなぁ。。」で<br>立ち止まってませんか？",
-            "heading_font_size": "heading-x-large",
+            "title": "「あぁ、自社ECサイトあったらなぁ。。」で立ち止まってませんか？",
+            "heading_font_size": "heading-large",
             "padding_bottom": 50,
             "heading_tag": "h2"
           }
@@ -148,7 +148,7 @@
           "type": "text",
           "settings": {
             "text": "<p><strong>ECサイトには、「時間・人手・予算」と、想像以上に高いハードルがあるからです。</strong></p>",
-            "text_font_size": "body-x-large",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
@@ -160,6 +160,7 @@
         "text_TmwyHn",
         "text_RNRX8y"
       ],
+      "disabled": true,
       "name": "H2 Heading",
       "settings": {
         "align_text": "text-center",
