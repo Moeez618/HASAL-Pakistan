@@ -553,10 +553,10 @@
           "type": "text",
           "settings": {
             "subheading": "",
-            "title": "いますぐ、始められます。",
-            "heading_font_size": "heading-x-large",
-            "text": "<p><strong>「売りたい商品がある」、「試したいアイデアがある」</strong></p><p>　<br/><br/>その状態から、<strong>すぐにあなただけのECサイトをスタート</strong>できます。</p><p>　</p><p>思い立った今が、ビジネスを前に進めるベストタイミングです。</p><p>　</p>",
-            "text_font_size": "body-large",
+            "title": "時間・人手・予算の壁を感じているなら",
+            "heading_font_size": "heading-large",
+            "text": "<p>自社ECサイトを検討する中でそうした壁を感じているなら、Solstar Expressが有効な選択肢です。</p><p>初期費用55,000円（税込）・月額36,500円（税込）〜</p><p><strong>ECサイトの構築・更新・改善運用まで、専門チームに任せながらスタート</strong>できます。</p><p><br/>負担の大きな固定費を抱えずに自社ECサイトを運用してみませんか？</p>",
+            "text_font_size": "body-medium",
             "button_text": "自社に合うか無料で相談する",
             "button_url": "shopify://pages/contact",
             "button_type": "btn--primary",
@@ -586,68 +586,6 @@
         "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "section_rich_text_KwiExc": {
-      "type": "section-rich-text",
-      "blocks": {
-        "subheading_aKxRU9": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "subheading": "時間・人手・予算の壁を感じているなら",
-            "padding_bottom": 16
-          }
-        },
-        "heading_ntWTqt": {
-          "type": "heading",
-          "settings": {
-            "title": "時間・人手・予算の壁を感じているなら",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 50,
-            "heading_tag": "h2"
-          }
-        },
-        "text_FfXdJr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>自社ECサイトを検討する中でそうした壁を感じているなら、Solstar Expressが有効な選択肢です。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 30
-          }
-        },
-        "text_LGUWy6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>初期費用55,000円（税込）・月額36,500円（税込）〜</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 30
-          }
-        },
-        "text_pYEhTn": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ECサイトの構築・更新・改善運用まで、専門チームに任せながらスタート</strong>できます。</p><p><br/>負担の大きな固定費を抱えずに自社ECサイトを運用してみませんか？</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_aKxRU9",
-        "heading_ntWTqt",
-        "text_FfXdJr",
-        "text_LGUWy6",
-        "text_pYEhTn"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "overlay_type": "disabled",
-        "padding_top": 100,
         "padding_bottom": 0
       }
     },
@@ -1143,7 +1081,6 @@
     "section_double_TKNkV8",
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
-    "section_rich_text_KwiExc",
     "section_social_videos_Lg4tEA",
     "section_fit_notfit_solstar",
     "section_custom_content_6DpRDR",
