@@ -196,7 +196,7 @@
           "type": "heading",
           "settings": {
             "title": "私たちも、同じ悩みを抱えていました。",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "padding_bottom": 30,
             "heading_tag": "h2"
           }
@@ -458,7 +458,7 @@
           "type": "heading",
           "settings": {
             "title": "Shopifyアカデミー認定資格を3種取得",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -604,7 +604,7 @@
           "type": "heading",
           "settings": {
             "title": "時間・人手・予算の壁を感じているなら",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "padding_bottom": 50,
             "heading_tag": "h2"
           }
@@ -695,7 +695,7 @@
           "type": "heading",
           "settings": {
             "title": "あなたの世界観を、研ぎ澄ますデザイン設計",
-            "heading_font_size": "heading-x-large",
+            "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -804,9 +804,9 @@
       "name": "Social videos",
       "settings": {
         "heading": "CREAMの4つの標準機能",
-        "heading_font_size": "heading-x-large",
+        "heading_font_size": "heading-large",
         "text": "<p>売れるECサイトに必要な機能を、最初から。</p>",
-        "text_font_size": "body-large",
+        "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper--full-padded",
         "aspect_ratio": 1.5,
