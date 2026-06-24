@@ -645,102 +645,10 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
         "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
-    "section_video_mzndiK": {
-      "type": "section-video",
-      "name": "Video",
-      "settings": {
-        "video": "shopify://files/videos/Cream Theme Video.mp4",
-        "show_video_popup": false,
-        "video_popup_social": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "title": "",
-        "heading_font_size": "heading-large",
-        "text": "",
-        "text_font_size": "body-medium",
-        "flex_align": "align--middle-center",
-        "link_text": "",
-        "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "desktop_height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "show_text_background": false,
-        "color": "",
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "heading_tag": "automatic"
-      }
-    },
-    "section_double_hPwzUa": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_M8Qf9r": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "有料テーマクラスの品質を、追加費用なしで",
-            "padding_bottom": 16
-          }
-        },
-        "heading_BCjf9J": {
-          "type": "heading",
-          "settings": {
-            "title": "あなたの世界観を、研ぎ澄ますデザイン設計",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "h2"
-          }
-        },
-        "text_K9bVtz": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Shopifyの有料テーマは一般的に約6万円前後。</strong>無料テーマもありますが、機能は必要最低限で、立ち上げ初期でも追加開発が必要になる場合があります。</p><p>　</p><p>私たちは、8年以上のShopifyを利用したECサイト開発で培った知見をもとに、有料テーマ同等レベルの品質を備えたオリジナルテーマ「CREAM」を開発しました。</p><p>　</p><p>この 「CREAM」 を、<strong>Solstar Expressご利用者様限定で、追加費用なしで提供</strong>致します。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_aFy6D3": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "自社に合うか無料で相談する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_M8Qf9r",
-        "heading_BCjf9J",
-        "text_K9bVtz",
-        "buttons_aFy6D3"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Cream_Image_1_copy.webp",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "is-reversed",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "screen-height-one-half--mobile",
-        "reverse_blocks": true,
-        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
+        "padding_bottom": 0
       }
     },
     "section_social_videos_Lg4tEA": {
@@ -801,6 +709,7 @@
         "video_UknJn8",
         "video_PRMP4Y"
       ],
+      "disabled": true,
       "name": "Social videos",
       "settings": {
         "heading": "CREAMの4つの標準機能",
@@ -1235,8 +1144,6 @@
     "section_custom_code_7Ywk69",
     "section_custom_content_iJUFkV",
     "section_rich_text_KwiExc",
-    "section_video_mzndiK",
-    "section_double_hPwzUa",
     "section_social_videos_Lg4tEA",
     "section_fit_notfit_solstar",
     "section_custom_content_6DpRDR",
