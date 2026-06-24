@@ -323,8 +323,8 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "show_text_background": false,
         "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 100,
         "show_placeholder": true
       }
     },
@@ -452,7 +452,7 @@
         "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
@@ -525,7 +525,7 @@
         "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
@@ -608,8 +608,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50
       }
     },
     "section_social_videos_Lg4tEA": {
@@ -729,7 +729,7 @@
           "type": "text",
           "settings": {
             "subheading": "Guarantee",
-            "title": "自信があるから、<br class=\"sp-mobile-br\">30日間キャッシュバック",
+            "title": "自信があるから、30日間キャッシュバック",
             "heading_font_size": "heading-large",
             "text": "<p>「サービス内容に納得できるか不安」という方のために、<strong>ご契約後30日間のキャッシュバック制度</strong>をご用意しています。Shopifyの知識と豊富な開発経験に自信があるからこそ提供できる制度です。</p><p>　　</p><p>万が一、サービス内容にご納得いただけなかった場合は、<strong>初期費用および月額費用を返金</strong>いたします。</p>",
             "text_font_size": "body-medium",
@@ -768,8 +768,8 @@
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 100
       }
     },
     "section_double_jzjTnE": {
@@ -971,7 +971,7 @@
         "columns": "1",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 50,
-        "padding_bottom": 50
+        "padding_bottom": 100
       }
     },
     "section_rich_text_pijWhf": {
@@ -1016,7 +1016,7 @@
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 0
+        "padding_bottom": 50
       }
     },
     "contact_form_KKiTE3": {
