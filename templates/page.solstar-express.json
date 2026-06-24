@@ -83,7 +83,7 @@
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title, .hero__rte { text-align: center; } .hero__button { justify-content: center; } }"
+        "@media (max-width: 749px) {.hero__subheading, .hero__title, .hero__rte {text-align: center; } .hero__button {justify-content: center; }}"
       ],
       "name": "Image with text",
       "settings": {
@@ -97,7 +97,7 @@
         "reverse_blocks": true,
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 50,
         "show_placeholder": true
       }
     },
@@ -183,7 +183,7 @@
         "width": "wrapper--full",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 50
       }
     },
     "section_double_MDk6CF": {
@@ -221,9 +221,9 @@
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title { text-align: center; } }",
-        ".sp-mobile-br { display: none; }",
-        "@media (max-width: 749px) { .sp-mobile-br { display: inline; } }"
+        "@media (max-width: 749px) {.hero__subheading, .hero__title {text-align: center; }}",
+        ".sp-mobile-br {display: none;}",
+        "@media (max-width: 749px) {.sp-mobile-br {display: inline; }}"
       ],
       "name": "Image with text",
       "settings": {
@@ -307,7 +307,7 @@
         "text_fEjKCV"
       ],
       "custom_css": [
-        "@media (max-width: 749px) { .hero__button { justify-content: center; } }"
+        "@media (max-width: 749px) {.hero__button {justify-content: center; }}"
       ],
       "name": "H2 Heading",
       "settings": {
@@ -511,7 +511,7 @@
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title { text-align: center; } }"
+        "@media (max-width: 749px) {.hero__subheading, .hero__title {text-align: center; }}"
       ],
       "name": "Image with text",
       "settings": {
@@ -594,10 +594,10 @@
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
-        ".hero__title { margin-bottom: 16px; }",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title { text-align: center; } .hero__button { justify-content: center; } }",
-        ".sp-mobile-br { display: none; }",
-        "@media (max-width: 749px) { .sp-mobile-br { display: inline; } }"
+        ".hero__title {margin-bottom: 16px;}",
+        "@media (max-width: 749px) {.hero__subheading, .hero__title {text-align: center; } .hero__button {justify-content: center; }}",
+        ".sp-mobile-br {display: none;}",
+        "@media (max-width: 749px) {.sp-mobile-br {display: inline; }}"
       ],
       "name": "Text with Banner (Custom)",
       "settings": {
@@ -754,10 +754,10 @@
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
-        ".hero__title { margin-bottom: 16px; }",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title { text-align: center; } .hero__button { justify-content: center; } }",
-        ".sp-mobile-br { display: none; }",
-        "@media (max-width: 749px) { .sp-mobile-br { display: inline; } }"
+        ".hero__title {margin-bottom: 16px;}",
+        "@media (max-width: 749px) {.hero__subheading, .hero__title {text-align: center; } .hero__button {justify-content: center; }}",
+        ".sp-mobile-br {display: none;}",
+        "@media (max-width: 749px) {.sp-mobile-br {display: inline; }}"
       ],
       "name": "Text with Banner (Custom)",
       "settings": {
@@ -816,7 +816,7 @@
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
         ".hero__subheading ~ .hero__subheading {color: var(--COLOR-TEXT);}",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title { text-align: center; } }"
+        "@media (max-width: 749px) {.hero__subheading, .hero__title {text-align: center; }}"
       ],
       "name": "Image with text",
       "settings": {
