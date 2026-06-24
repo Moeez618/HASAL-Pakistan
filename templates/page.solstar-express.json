@@ -467,35 +467,14 @@
           "type": "text",
           "settings": {
             "text": "<p>弊社は、Shopifyアカデミー認定資格「提案設計・ソリューション設計・開発基礎」を保有しているため、安心して任せていただける設計・構築が可能です。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 16
-          }
-        },
-        "subheading_QcURhJ": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "不安を解消する無料診断はこちら↓",
-            "padding_bottom": 16
-          }
-        },
-        "buttons_jwPjQj": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "自社に合うか無料で相談する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
+            "text_font_size": "body-medium",
             "padding_bottom": 16
           }
         }
       },
       "block_order": [
         "heading_kgRwz8",
-        "text_GyN7TV",
-        "subheading_QcURhJ",
-        "buttons_jwPjQj"
+        "text_GyN7TV"
       ],
       "name": "Image with text",
       "settings": {
