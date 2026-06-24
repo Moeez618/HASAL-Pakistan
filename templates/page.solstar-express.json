@@ -83,7 +83,7 @@
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}",
-        "@media (max-width: 749px) { .hero__subheading, .hero__title, .hero__rte { text-align: center; } .hero__button-group { justify-content: center; } }"
+        "@media (max-width: 749px) { .hero__subheading, .hero__title, .hero__rte { text-align: center; } .hero__button { justify-content: center; } }"
       ],
       "name": "Image with text",
       "settings": {
