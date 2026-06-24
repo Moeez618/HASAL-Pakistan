@@ -205,7 +205,7 @@
           "type": "text",
           "settings": {
             "text": "<p>もともと物販事業からスタートした私たち自身も、「自社ECサイトをやったほうがいい」と思いながら、構築費用が高く、なかなか一歩を踏み出せずにいました。</p><p>　</p><p>質の高い商品はある。でも、構築や準備を考えた瞬間、手が止まる。</p><p>　</p><p>その感覚は、今でもよく覚えています。</p>",
-            "text_font_size": "body-large",
+            "text_font_size": "body-medium",
             "padding_bottom": 0
           }
         }
@@ -284,7 +284,7 @@
           "type": "text",
           "settings": {
             "text": "<p>初期費用55,000円（税込）／月額36,500円（税込）〜</p><p>最短2〜4週間でローンチ｜構築・運用お任せ</p>",
-            "text_font_size": "body-small",
+            "text_font_size": "body-x-small",
             "padding_bottom": 8
           }
         }
