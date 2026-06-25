@@ -141,9 +141,9 @@
         "Message": {
           "type": "body",
           "settings": {
-            "title": "Message",
-            "heading": "相談内容・現在の課題",
-            "required": true
+            "title": "問い合わせ内容（任意）",
+            "heading": "",
+            "required": false
           }
         },
         "select_GTz36X": {
@@ -152,7 +152,7 @@
             "title": "お問い合わせ種別",
             "required": true,
             "label-one": "SOLSTAR EXPRESSについて",
-            "label-two": "Cream by SOLSTARについて",
+            "label-two": "Cream by Solstarについて",
             "label-three": "Basicプランについて",
             "label-four": "Standardプランについて",
             "label-five": "Proプランについて",
@@ -166,51 +166,11 @@
             "title": "ご希望プラン",
             "required": true,
             "label-one": "Shopify費用比較調査レポートについて",
-            "label-two": "Cream by SOLSTARについて",
+            "label-two": "Cream By Solstarについて",
             "label-three": "SOLSTAR EXPRESSについて",
             "label-four": "Basicプランについて",
             "label-five": "Standardプランについて",
             "label-six": "Proプランについて"
-          }
-        },
-        "current_site_url": {
-          "type": "text",
-          "settings": {
-            "title": "Current Site URL",
-            "heading": "現行サイトURL",
-            "required": false
-          }
-        },
-        "monthly_sales": {
-          "type": "text",
-          "settings": {
-            "title": "Monthly Sales",
-            "heading": "月商規模",
-            "required": false
-          }
-        },
-        "product_count": {
-          "type": "text",
-          "settings": {
-            "title": "Number of Products",
-            "heading": "商品点数",
-            "required": false
-          }
-        },
-        "current_platform": {
-          "type": "text",
-          "settings": {
-            "title": "Current Platform",
-            "heading": "移行元カート・現行プラットフォーム",
-            "required": false
-          }
-        },
-        "launch_timing": {
-          "type": "text",
-          "settings": {
-            "title": "Launch Timing",
-            "heading": "希望公開時期",
-            "required": false
           }
         }
       },
@@ -220,13 +180,8 @@
         "telephone_DmUA6B",
         "text_UNiVit",
         "text_7YcUqW",
-        "select_GTz36X",
-        "current_site_url",
-        "monthly_sales",
-        "product_count",
-        "current_platform",
-        "launch_timing",
         "Message",
+        "select_GTz36X",
         "Options-select"
       ],
       "settings": {
