@@ -130,10 +130,22 @@
         "padding_top": 50,
         "padding_bottom": 50
       }
+    },
+    "section_custom_code_jsonld_faq": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://www.solstar.co.jp/#organization\",\n      \"name\": \"株式会社SOLSTAR\",\n      \"alternateName\": \"SOLSTAR\",\n      \"url\": \"https://www.solstar.co.jp/\",\n      \"description\": \"Shopifyを専門に、ブランドの成長フェーズに合わせたECサイトの構築・運営を支援する会社です。\",\n      \"sameAs\": [\n        \"https://www.instagram.com/solstar_official\",\n        \"https://www.youtube.com/@solstar-official\"\n      ]\n    },\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://www.solstar.co.jp/#website\",\n      \"url\": \"https://www.solstar.co.jp/\",\n      \"name\": \"株式会社SOLSTAR\",\n      \"publisher\": {\n        \"@id\": \"https://www.solstar.co.jp/#organization\"\n      },\n      \"inLanguage\": \"ja\"\n    },\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"https://www.solstar.co.jp/pages/faq#webpage\",\n      \"url\": \"https://www.solstar.co.jp/pages/faq\",\n      \"name\": \"よくある質問（FAQ）｜株式会社SOLSTAR\",\n      \"description\": \"Shopify ECサイトの構築・制作に関するよくある質問。制作期間や料金、多言語対応、納品後のサポート、実績などをまとめています。\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.solstar.co.jp/#website\"\n      },\n      \"mainEntity\": {\n        \"@id\": \"https://www.solstar.co.jp/pages/faq#faq\"\n      },\n      \"breadcrumb\": {\n        \"@id\": \"https://www.solstar.co.jp/pages/faq#breadcrumb\"\n      },\n      \"inLanguage\": \"ja\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.solstar.co.jp/pages/faq#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"サイト制作の期間はどれくらいですか？\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"要件によりますが、Basicプランは約4〜8週間、Standardプランは約10〜12週間、Proプランは約14〜16週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"予算が限られている場合でも対応可能ですか？\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"はい、もちろんです。Basicプランは最もリーズナブルな価格でご提供しており、商品数の少ないマーチャント様向けに、必要な機能に絞った内容となっております。まずはお気軽にご相談ください。\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"多言語対応は可能ですか？\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"はい、多言語・多通貨にも対応しております。\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"納品後のサポート内容を教えてください。\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"お引き渡しから6ヶ月以内、当社の納品物に起因する不具合に対応します。また、ご確認時に修正が必要な箇所があれば、ご納得いただけるまで無償で対応します。\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"お見積もりは無料ですか？\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"はい、お見積もりは完全無料です。ご要件をヒアリング後、透明性のある価格と内容で最適なプランをご提案します。\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"なぜSOLSTARがオススメなのですか？\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"弊社では、Shopifyの開発や運用に精通したエンジニアと、Shopifyアカデミー認定の専門ディレクターによるチーム体制を整えております。運用コストを抑えながら最適なソリューションを自信を持って提供いたします。\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"実績を教えてください。\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"主な実績として、開発費10億円を超える大規模ECサイトや、UK・US・シンガポール向けの越境ECサイト、年間売上60億円以上のShopify Plusサイトの構築および長期運用サポートを手がけた実績がございます。\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.solstar.co.jp/pages/faq#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"ホーム\",\n          \"item\": \"https://www.solstar.co.jp/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"よくある質問\",\n          \"item\": \"https://www.solstar.co.jp/pages/faq\"\n        }\n      ]\n    }\n  ]\n}\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "faq-main"
+    "faq-main",
+    "section_custom_code_jsonld_faq"
   ]
 }
