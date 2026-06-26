@@ -173,6 +173,17 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_code_problem_image": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<section class=\"se-problem-image\"><div class=\"se-problem-image__inner\"><img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Problem.png?v=1782452344\" alt=\"EC販売を始めたいメーカーが、最初につまずく3つの壁\" loading=\"lazy\" width=\"800\" height=\"800\"></div></section><style>.se-problem-image{padding:0 20px 64px;box-sizing:border-box;}.se-problem-image__inner{max-width:420px;margin:0 auto;}.se-problem-image__inner img{display:block;width:100%;height:auto;}</style>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_double_MDk6CF": {
       "type": "section-double",
       "blocks": {
@@ -1194,6 +1205,7 @@
     "section_double_DkW4H4",
     "section_rich_text_RQU3dK",
     "section_custom_code_w6tfFf",
+    "section_custom_code_problem_image",
     "section_double_MDk6CF",
     "section_custom_code_rjHKWi",
     "section_hero_akkRjM",
