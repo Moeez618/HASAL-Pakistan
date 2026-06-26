@@ -184,6 +184,17 @@
         "padding_bottom": 0
       }
     },
+    "section_custom_code_bying_process": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<section class=\"se-bying-process\"><div class=\"se-bying-process__inner\"><img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/bying_process.jpg?v=1782455222\" alt=\"SOLSTARが担うこと、メーカー様にお願いすること\" loading=\"lazy\" width=\"1200\" height=\"675\"></div></section><style>.se-bying-process{padding:0 20px 64px;box-sizing:border-box;}.se-bying-process__inner{max-width:980px;margin:0 auto;}.se-bying-process__inner img{display:block;width:100%;height:auto;border-radius:14px;}</style>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_double_MDk6CF": {
       "type": "section-double",
       "blocks": {
@@ -1205,6 +1216,7 @@
     "section_double_DkW4H4",
     "section_rich_text_RQU3dK",
     "section_custom_code_w6tfFf",
+    "section_custom_code_bying_process",
     "section_custom_code_problem_image",
     "section_double_MDk6CF",
     "section_custom_code_rjHKWi",
