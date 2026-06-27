@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -892,25 +901,12 @@
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
-        },
-        "buttons_cta": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "先行導入について相談する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "subheading_cta",
         "heading_8iQFx7",
-        "text_jfXdQt",
-        "buttons_cta"
+        "text_jfXdQt"
       ],
       "custom_css": [
         ".hero__subheading {color: var(--BTN-PRIMARY-BG);}"
@@ -920,7 +916,7 @@
         "width": "wrapper",
         "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
         "overlay_type": "disabled",
-        "padding_top": 50,
+        "padding_top": 100,
         "padding_bottom": 50
       }
     },
