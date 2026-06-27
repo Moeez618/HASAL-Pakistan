@@ -48,7 +48,7 @@
         "text_amhRQL": {
           "type": "text",
           "settings": {
-            "text": "<p>Solstar Expressは、メーカー向けのEC販売アウトソーシングです。</p><p>SOLSTARがECサイト制作・販売管理・購入者からの問い合わせ初期対応まで担います。</p><p>メーカー様は、商品供給と発送に集中できます。</p><p>購入者から見た販売者はSOLSTARとなり、販売実績に基づいて商品仕入代金としてお支払いします。</p>",
+            "text": "<p>Solstar Expressは、ECサイト制作、商品ページ作成・更新、販売管理、決済設定・管理、購入者からの問い合わせ初期対応、発送通知、販売データ共有、改善提案までをSOLSTARが担うサービスです。</p>",
             "text_font_size": "body-small",
             "padding_bottom": 16
           }
@@ -181,14 +181,6 @@
     "section_hero_akkRjM": {
       "type": "section-hero",
       "blocks": {
-        "text_kACN66": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Solstar Express（メーカー向けEC販売アウトソーシング）は、ECサイト制作、商品ページ作成・更新、販売管理、決済設定・管理、購入者からの問い合わせ初期対応、発送通知、販売データ共有、改善提案までをSOLSTARが担うサービスです。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 50
-          }
-        },
         "code_GWijPt": {
           "type": "code",
           "settings": {
@@ -226,7 +218,6 @@
         }
       },
       "block_order": [
-        "text_kACN66",
         "code_GWijPt",
         "code_KLPcVj",
         "button_QmXPzr",
@@ -746,6 +737,30 @@
             "icon_color": ""
           }
         },
+        "question_v2_16": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "これはメーカーの自社ECですか？",
+            "content": "<p>本プランでは、購入者から見た販売者はSOLSTARとなります。そのため、メーカー様が直接運営する完全な自社ECではありません。一方で、一定期間の運用後、条件に応じてECサイト資産をメーカー様へ譲渡することも可能です。まずはEC販売を小さく検証し、売れる形が見えてから自社EC化を検討できます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_v2_17": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "販売価格や割引はSOLSTARが自由に決めますか？",
+            "content": "<p>いいえ。販売価格、値引き、クーポン、商品ページの表現などは、事前にメーカー様とルールを定めたうえで運用します。ブランドイメージを損なわないよう、確認フローやNG表現も整理します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
         "question_v2_11": {
           "type": "question",
           "settings": {
@@ -776,30 +791,6 @@
             "default_open": false,
             "title": "契約期間中に販売を停止できますか？",
             "content": "<p>契約条件に基づき、販売停止や掲載商品の変更について協議可能です。商品の在庫状況、返品対応、未発送注文の有無などを確認したうえで対応します。</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_v2_16": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "これはメーカーの自社ECですか？",
-            "content": "<p>本プランでは、購入者から見た販売者はSOLSTARとなります。そのため、メーカー様が直接運営する完全な自社ECではありません。一方で、一定期間の運用後、条件に応じてECサイト資産をメーカー様へ譲渡することも可能です。まずはEC販売を小さく検証し、売れる形が見えてから自社EC化を検討できます。</p>",
-            "show_icon": false,
-            "icon_name": "icon-award",
-            "icon_size": 20,
-            "icon_color": ""
-          }
-        },
-        "question_v2_17": {
-          "type": "question",
-          "settings": {
-            "default_open": false,
-            "title": "販売価格や割引はSOLSTARが自由に決めますか？",
-            "content": "<p>いいえ。販売価格、値引き、クーポン、商品ページの表現などは、事前にメーカー様とルールを定めたうえで運用します。ブランドイメージを損なわないよう、確認フローやNG表現も整理します。</p>",
             "show_icon": false,
             "icon_name": "icon-award",
             "icon_size": 20,
