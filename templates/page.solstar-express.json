@@ -475,7 +475,7 @@
       ],
       "name": "Image with text slider",
       "settings": {
-        "image_1": "shopify://shop_images/Solstar_Express_Infographic_copy.webp",
+        "image_1": "shopify://shop_images/Vacation.jpg",
         "image_width": "one-half",
         "autoplay": true,
         "autoplay_speed": 4,
