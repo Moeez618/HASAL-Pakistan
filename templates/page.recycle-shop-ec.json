@@ -198,49 +198,6 @@
         "show_placeholder": true
       }
     },
-    "solution_banner": {
-      "type": "section-hero",
-      "blocks": {
-        "eyebrow": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>SOLUTION</strong></p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 8
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "今の売り方をやめる必要はありません。\n役割を分けるだけです。",
-            "heading_font_size": "heading-large",
-            "heading_tag": "h2",
-            "padding_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "eyebrow",
-        "heading"
-      ],
-      "custom_css": [],
-      "name": "Image banner",
-      "settings": {
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 60,
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "scheme-7",
-        "show_text_background": false,
-        "overlay_type": "text",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
-      }
-    },
     "solution": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -418,7 +375,6 @@
     "fv",
     "problem",
     "affinity",
-    "solution_banner",
     "solution",
     "benefit",
     "evidence",
