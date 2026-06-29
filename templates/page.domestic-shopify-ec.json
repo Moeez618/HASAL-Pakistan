@@ -26,11 +26,206 @@
         "heading_tag": "h2"
       }
     },
-    "basic_content": {
-      "type": "section-custom-code",
-      "name": "Basic plan content",
+    "fv": {
+      "type": "section-double",
+      "blocks": {
+        "sub": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Basicプラン",
+            "padding_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "ブランドの魅力を、売上につなげる自社ECサイトへ。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h1"
+          }
+        },
+        "subtitle": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopifyで始める、自社ECの第一歩。",
+            "heading_font_size": "heading-small",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>自社ECを始めたい。<br>でも、売れるか分からない段階で、いきなり大きな制作費をかけるのは不安。</p><p>それは、とても現実的な判断です。</p><p>ECサイト制作には、設計から構築・検証まで含めると、100万円〜200万円かかることも珍しくありません。<br>平均制作費は約163万円。<br>※出典：Web幹事（全国5,000社の見積もりデータ）</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "text2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>だからこそ、最初から大規模に作り込む必要はありません。</p><p>まずは必要な範囲に絞って立ち上げる。<br>商品が売れるか。<br>どの導線で反応があるか。<br>公開後に自社で更新できるか。</p><p>これらを確かめながら、段階的に育てていく。</p><p>SOLSTARのBasicプランは、商品数を絞って自社ECを始めたい企業向けのShopify構築プランです。<br>販売開始に必要な機能、ブランドの世界観、購入導線、初期設定まで整え、まずは自社ECの土台を作ります。</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "cta": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Basicプランで対応できるか無料で相談する",
+            "button_url": "https://www.solstar.co.jp/pages/pricing",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "sub",
+        "heading",
+        "subtitle",
+        "text1",
+        "text2",
+        "cta"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: var(--bp-page-accent);}",
+        ".hero__content {max-width: 680px;}",
+        ".hero__description {line-height: 1.9;}"
+      ],
       "settings": {
-        "code": "{{ 'basic-plan.css' | asset_url | stylesheet_tag }}\n<div class=\"bp-page\"><section class=\"bp-hero\">\n  <div class=\"bp-hero__inner\">\n    <div class=\"bp-hero__content\">\n      <h1 class=\"bp-hero__title\">ブランドの魅力を、売上につなげる自社ECサイトへ。</h1>\n      <h2 class=\"bp-hero__subtitle\">Shopifyで始める、自社ECの第一歩。</h2>\n      <div class=\"bp-copy bp-copy--hero\">\n        <p>自社ECを始めたい。<br>でも、売れるか分からない段階で、いきなり大きな制作費をかけるのは不安。</p>\n        <p>それは、とても現実的な判断です。</p>\n        <p>ECサイト制作には、設計から構築・検証まで含めると、100万円〜200万円かかることも珍しくありません。<br>平均制作費は約163万円。<br>※出典：Web幹事（全国5,000社の見積もりデータ）</p>\n        <p>だからこそ、最初から大規模に作り込む必要はありません。</p>\n        <p>まずは必要な範囲に絞って立ち上げる。<br>商品が売れるか。<br>どの導線で反応があるか。<br>公開後に自社で更新できるか。</p>\n        <p>これらを確かめながら、段階的に育てていく。</p>\n        <p>SOLSTARのBasicプランは、商品数を絞って自社ECを始めたい企業向けのShopify構築プランです。<br>販売開始に必要な機能、ブランドの世界観、購入導線、初期設定まで整え、まずは自社ECの土台を作ります。</p>\n      </div>\n      <div class=\"bp-cta-line\"><p>Basicプランで対応できるか無料で相談する<br>https://www.solstar.co.jp/pages/pricing</p></div>\n    </div>\n  </div>\n</section><section class=\"bp-sec bp-sec--decision\"><div class=\"bp-inner bp-split\"><div class=\"bp-side\"><h2 class=\"bp-title\">自社ECの最初の壁は、制作ではなく“判断”です。</h2></div><div class=\"bp-main\"><div class=\"bp-card bp-card--copy\"><div class=\"bp-copy\">\n    <p>自社ECに興味はある。<br>でも、いざ始めようとすると、考えることが一気に増えます。</p>\n    <p>制作費はいくらかかるのか。<br>公開後の運用は誰がやるのか。<br>集客はどうするのか。<br>商品登録や在庫管理はどう進めるのか。<br>決済や配送はどう設定するのか。<br>お客様に信頼して購入してもらえるのか。</p>\n    <p>ECサイトは、作れば売れるものではありません。<br>公開後も、商品登録、ページ更新、在庫管理、顧客対応、キャンペーン、改善施策など、継続的な運用が必要です。</p>\n    <p>だから、自社ECに踏み出せないのは自然なことです。</p>\n    <p>問題は、自社ECに可能性がないことではありません。<br>最初の一歩が、大きすぎることです。</p>\n  </div></div></div></div></section><section class=\"bp-sec bp-sec--cost\"><div class=\"bp-inner\"><div class=\"bp-head\"><h2 class=\"bp-title\">ただし、自社ECを持たないままにも見えないコストがあります。</h2><p class=\"bp-lead\">自社ECを始めない判断にも理由はあります。<br>一方で、自社ECを持たないまま時間が過ぎることにも、見えないコストが積み上がります。</p></div>\n  <div class=\"bp-grid3\">\n    <article class=\"bp-card\"><span class=\"bp-no\">01</span><h3>売上が伸びるほど、手数料負担も大きくなる</h3><div class=\"bp-copy\"><p>Amazonや楽天などのモールは、集客力がある一方で、販売手数料・決済手数料・ポイント原資などのコストが発生します。</p><p>モールで売ることが悪いわけではありません。<br>ただ、売上が伸びるほど、外に出ていく金額も大きくなります。</p><p>自社ECを持つことで、モールだけに依存せず、自社にも利益を残しやすい販売基盤を作ることができます。</p></div></article>\n    <article class=\"bp-card\"><span class=\"bp-no\">02</span><h3>顧客データが自社の資産になりにくい</h3><div class=\"bp-copy\"><p>モール経由の購入では、顧客との関係がモール側に蓄積されやすくなります。</p><p>自社ECなら、購入者情報、購買履歴、メール・LINE施策などを通じて、お客様との関係を自社の資産として蓄積できます。</p><p>一度買ってくれたお客様と、継続的につながる。<br>新商品やキャンペーンを、自社から直接届ける。<br>それが、自社ECを持つ大きな価値です。</p></div></article>\n    <article class=\"bp-card\"><span class=\"bp-no\">03</span><h3>ブランドの価値が、価格比較に埋もれやすい</h3><div class=\"bp-copy\"><p>モールでは、同じ画面に競合商品が並びやすく、価格やスペックで比較されがちです。</p><p>自社ECなら、競合が並ばない自社だけの空間で、ブランドの世界観や商品のこだわりを伝えられます。</p><p>価格だけで選ばれるのではなく、ブランドとして選ばれる状態を作る。<br>そのための拠点が、自社ECです。</p></div></article>\n  </div></div></section><section class=\"bp-sec bp-sec--concept\"><div class=\"bp-inner bp-split\"><div class=\"bp-side\"><h2 class=\"bp-title\">だから、最初から大きく作らない。</h2></div><div class=\"bp-main\"><div class=\"bp-card bp-card--copy\"><div class=\"bp-copy\">\n    <p>自社ECに必要なのは、最初から完璧なECサイトを作ることではありません。</p>\n    <p>まずは販売に必要な機能に絞る。<br>ブランドの魅力が伝わるページを用意する。<br>購入前の不安を減らす導線を整える。<br>決済・配送・税設定など、販売に必要な初期設定を整える。<br>公開後に自社で更新できる状態にする。</p>\n    <p>そして、実際に販売しながら検証していく。</p>\n    <p>売れる兆しが見えてから、商品数、ページ数、アプリ、広告、CRM、越境対応、外部システム連携などに投資を広げていく。</p>\n    <p>最初から全部やらない。<br>でも、将来育てられる土台はしっかり作る。</p>\n    <p>それが、Basicプランの考え方です。</p>\n  </div></div></div></div></section><section class=\"bp-sec bp-sec--scope\"><div class=\"bp-inner\"><div class=\"bp-head\"><h2 class=\"bp-title\">Basicプランでできること</h2><p class=\"bp-lead\">SOLSTARのBasicプランでは、Shopifyで自社ECを始めるために必要な基本構築をまとめて対応します。</p></div>\n  <ul class=\"bp-scope-list\"><li>コンセプト定義</li><li>要件定義</li><li>ECサイトセットアップ</li><li>決済・配送・税設定</li><li>サイトデザイン制作</li><li>商品登録：20点</li><li>カテゴリ登録：6点</li><li>アプリ連携：3点</li><li>オリジナルページ制作：3ページ</li><li>購入テスト・表示確認</li></ul>\n  <p class=\"bp-note\">商品数や機能を必要な範囲に絞ることで、過剰な開発を抑えながら、自社ECに必要な販売基盤を整えます。</p></div></section><section class=\"bp-sec bp-sec--benefits\"><div class=\"bp-inner\"><div class=\"bp-head\"><h2 class=\"bp-title\">Basicプランで得られること</h2></div>\n  <div class=\"bp-grid2\">\n    <article class=\"bp-card\"><h3>売れるか分からない段階でも、自社ECを始められる</h3><div class=\"bp-copy\"><p>最初から大規模に作り込まず、販売開始に必要な機能へ絞って構築できます。<br>商品数が少ない段階でも、まずは自社ECの可能性を検証できます。</p></div></article>\n    <article class=\"bp-card\"><h3>ブランドの世界観を反映できる</h3><div class=\"bp-copy\"><p>テンプレートをただ当てはめるだけではありません。<br>ブランドの方向性、商品の魅力、ターゲットに伝えるべき価値を整理しながら、ECサイトの土台を作ります。</p></div></article>\n    <article class=\"bp-card\"><h3>販売に必要な設定までまとめて整えられる</h3><div class=\"bp-copy\"><p>商品登録、カテゴリ設計、決済・配送・税設定、アプリ連携、オリジナルページ制作まで対応します。<br>「何を準備すればいいか分からない」状態からでも、販売開始に必要な基本構築を一括で進められます。</p></div></article>\n    <article class=\"bp-card\"><h3>公開後も自社で更新しやすい</h3><div class=\"bp-copy\"><p>自社ECは、公開してから育てていくものです。<br>商品追加、ページ更新、情報修正などを自社で進めやすい構成にすることで、公開後の運用もしやすくします。</p></div></article>\n  </div></div></section><section class=\"bp-sec bp-sec--expertise\"><div class=\"bp-inner bp-split\"><div class=\"bp-side\"><h2 class=\"bp-title\">Shopify構築・運用を知るチームが、公開後まで見据えて設計します。</h2></div><div class=\"bp-main\"><div class=\"bp-card bp-card--copy\"><div class=\"bp-copy\">\n    <p>SOLSTARは、Shopifyを活用したECサイト構築・運用を支援してきたECパートナーです。</p>\n    <p>小規模ブランドの立ち上げから、Shopify Plusの大規模サイト構築・長期運用、越境ECまで、さまざまなフェーズのECに関わってきました。</p>\n    <p>Basicプランでは、その知見をもとに、商品数を絞った自社ECの立ち上げに必要な範囲へ絞って構築します。</p>\n    <p>ただ見た目を整えるだけではなく、ブランドの伝わり方、購入導線、公開後の更新しやすさまで考えて設計します。</p>\n  </div></div></div></div></section><section class=\"bp-sec bp-sec--after\"><div class=\"bp-inner\"><div class=\"bp-head\"><h2 class=\"bp-title\">自社ECは、公開してから育てていくものです。</h2><div class=\"bp-copy\"><p>Basicプランは、販売できる状態を整えるためのプランです。<br>一方で、自社ECは公開してからが本番です。</p><p>SEO、SNS、広告、メール、LINEなどを通じて、見込み客を集め続ける必要があります。</p><p>Basicプランで土台を作ったあとは、次のように段階的に育てていけます。</p></div></div>\n  <ul class=\"bp-check-list\"><li>まずは自分たちで運用しながら、売れる兆しを確かめる</li><li>反応が見えてきたら、商品・ページ・アプリを少しずつ広げる</li><li>手が回らなくなってきたら、運用・改善のサポートに切り替える</li></ul>\n  <p class=\"bp-note\">公開後の運用・集客サポートが必要になった際も、フェーズに合わせてご提案します。</p></div></section><section class=\"bp-sec bp-sec--price\"><div class=\"bp-inner\"><div class=\"bp-price-layout\">\n    <div class=\"bp-price-panel\">\n      <h2 class=\"bp-title\">Basicプラン</h2>\n      <h3 class=\"bp-subtitle\">必要な範囲に絞って、Shopify自社ECを立ち上げる構築プランです。</h3>\n    </div>\n    <div class=\"bp-specs\">\n      <div class=\"bp-spec\"><h4>価格</h4><p>1,100,000円（税込）〜</p></div>\n      <div class=\"bp-spec\"><h4>納期</h4><p>約4〜8週間</p></div>\n      <div class=\"bp-spec\"><h4>体制</h4><p>ディレクター1名 / エンジニア1名</p></div>\n      <div class=\"bp-spec\"><h4>進捗打ち合わせ</h4><p>3回<br>要件確認 / 構築内容確認 / 公開前確認</p></div>\n      <div class=\"bp-spec\"><h4>修正対応</h4><p>3回まで<br>※大幅な仕様変更は別途お見積りとなります。</p></div>\n    </div>\n  </div></div></section><section class=\"bp-sec bp-sec--exclude\"><div class=\"bp-inner\"><div class=\"bp-head\"><h2 class=\"bp-title\">別途費用となるもの</h2><p class=\"bp-lead\">以下はBasicプランの料金には含まれません。</p></div>\n  <ul class=\"bp-scope-list\"><li>Shopifyの月額利用料</li><li>各種アプリの利用料</li><li>追加ページ制作</li><li>追加アプリ実装</li><li>バナー画像制作</li><li>納品後の保守・運用</li><li>越境対応</li><li>外部システム連携</li><li>POS連携</li><li>独自アプリ開発</li></ul>\n  <p class=\"bp-note\">必要に応じて、別途お見積りいたします。</p></div></section><section class=\"bp-sec bp-sec--fit\"><div class=\"bp-inner\"><div class=\"bp-grid2\">\n    <article class=\"bp-card bp-card--fit\"><h2>Basicプランが向いている企業</h2><ul class=\"bp-list\"><li>自社ECを初めて立ち上げたい企業</li><li>商品数を絞って、まずは販売基盤を整えたい企業</li><li>まずは自社ECで売れるかを検証したい企業</li><li>ブランドの世界観を反映したECサイトを作りたい企業</li><li>モールやSNSだけに頼らず、自社の販売拠点を作りたい企業</li><li>公開後は、自社で商品追加や更新を行っていきたい企業</li></ul></article>\n    <article class=\"bp-card\"><h2>Basicプランでは対応範囲が足りないケース</h2><ul class=\"bp-list\"><li>最初から大量の商品登録が必要な企業</li><li>独自機能や複雑なカスタマイズが必要な企業</li><li>基幹システム、POS、倉庫システムなど外部連携が必要な企業</li><li>越境EC、多言語、多通貨対応を本格的に進めたい企業</li><li>広告運用や日々の更新まで丸ごと依頼したい企業</li><li>すでに売上規模が大きく、リニューアルや運用改善まで含めた設計が必要な企業</li></ul></article>\n  </div>\n  <div class=\"bp-card bp-card--copy bp-fit-note\"><div class=\"bp-copy\"><p>Basicプランは、すべての企業に向けたプランではありません。<br>まずは必要な範囲に絞って、自社ECの販売基盤を整えたい企業に向いています。</p></div></div></div></section><section class=\"bp-sec bp-sec--final\"><div class=\"bp-inner\"><div class=\"bp-final\">\n    <h2 class=\"bp-title\">まずは、販売できる土台から始めませんか。</h2>\n    <div class=\"bp-copy\">\n      <p>自社ECは、最初から大きく作り込む必要はありません。</p>\n      <p>大切なのは、必要な機能に絞って販売できる状態を整え、実際に売れるかを検証することです。</p>\n      <p>Basicプランでは、商品登録、カテゴリ設計、アプリ連携、オリジナルページ制作、購入テスト・表示確認まで、販売開始に必要な基本構築をまとめて対応します。</p>\n      <p>小さく始めながら、自社ECの土台を整える。<br>そして、売れる兆しが見えてから、ページ、商品、施策、運用体制を広げていく。</p>\n      <p>それが、失敗しにくい自社ECの始め方です。</p>\n      <p>自社ECの第一歩として、まずはBasicプランをご検討ください。</p>\n    </div>\n    <div class=\"bp-cta-line\"><p>Basicプランで対応できるか無料で相談する<br>https://www.solstar.co.jp/pages/pricing</p></div>\n  </div></div></section></div>",
+        "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "intro": {
+      "type": "section-custom-code",
+      "name": "intro",
+      "settings": {
+        "code": "{{ 'basic-plan.css' | asset_url | stylesheet_tag }}\n<section class=\"bp-editorial bp-editorial--decision\">\n  <div class=\"bp-wrap bp-split\">\n    <aside class=\"bp-rail\">\n      <p class=\"bp-kicker\">Decision</p>\n      <h2 class=\"bp-title\">自社ECの最初の壁は、制作ではなく“判断”です。</h2>\n    </aside>\n    <div class=\"bp-stack\">\n      <article class=\"bp-panel bp-panel--story\"><div class=\"bp-copy\"><p>自社ECに興味はある。<br>でも、いざ始めようとすると、考えることが一気に増えます。</p><p>制作費はいくらかかるのか。<br>公開後の運用は誰がやるのか。<br>集客はどうするのか。<br>商品登録や在庫管理はどう進めるのか。<br>決済や配送はどう設定するのか。<br>お客様に信頼して購入してもらえるのか。</p><p>ECサイトは、作れば売れるものではありません。<br>公開後も、商品登録、ページ更新、在庫管理、顧客対応、キャンペーン、改善施策など、継続的な運用が必要です。</p><p>だから、自社ECに踏み出せないのは自然なことです。</p><p>問題は、自社ECに可能性がないことではありません。<br>最初の一歩が、大きすぎることです。</p></div></article>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cost": {
+      "type": "section-custom-code",
+      "name": "cost",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--cost\">\n  <div class=\"bp-wrap\">\n    <header class=\"bp-headline\">\n      <p class=\"bp-kicker\">Hidden Cost</p>\n      <h2 class=\"bp-title\">ただし、自社ECを持たないままにも見えないコストがあります。</h2>\n      <div class=\"bp-copy bp-lead\"><p>自社ECを始めない判断にも理由はあります。<br>一方で、自社ECを持たないまま時間が過ぎることにも、見えないコストが積み上がります。</p></div>\n    </header>\n    <div class=\"bp-card-row\">\n      <article class=\"bp-panel \"><h3>売上が伸びるほど、手数料負担も大きくなる</h3><div class=\"bp-copy\"><p>Amazonや楽天などのモールは、集客力がある一方で、販売手数料・決済手数料・ポイント原資などのコストが発生します。</p><p>モールで売ることが悪いわけではありません。<br>ただ、売上が伸びるほど、外に出ていく金額も大きくなります。</p><p>自社ECを持つことで、モールだけに依存せず、自社にも利益を残しやすい販売基盤を作ることができます。</p></div></article>\n      <article class=\"bp-panel \"><h3>顧客データが自社の資産になりにくい</h3><div class=\"bp-copy\"><p>モール経由の購入では、顧客との関係がモール側に蓄積されやすくなります。</p><p>自社ECなら、購入者情報、購買履歴、メール・LINE施策などを通じて、お客様との関係を自社の資産として蓄積できます。</p><p>一度買ってくれたお客様と、継続的につながる。<br>新商品やキャンペーンを、自社から直接届ける。<br>それが、自社ECを持つ大きな価値です。</p></div></article>\n      <article class=\"bp-panel \"><h3>ブランドの価値が、価格比較に埋もれやすい</h3><div class=\"bp-copy\"><p>モールでは、同じ画面に競合商品が並びやすく、価格やスペックで比較されがちです。</p><p>自社ECなら、競合が並ばない自社だけの空間で、ブランドの世界観や商品のこだわりを伝えられます。</p><p>価格だけで選ばれるのではなく、ブランドとして選ばれる状態を作る。<br>そのための拠点が、自社ECです。</p></div></article>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "principle": {
+      "type": "section-custom-code",
+      "name": "principle",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--principle\">\n  <div class=\"bp-wrap bp-feature\">\n    <div class=\"bp-feature__statement\">\n      <p class=\"bp-kicker\">Principle</p>\n      <h2 class=\"bp-title\">だから、最初から大きく作らない。</h2>\n    </div>\n    <div class=\"bp-feature__body bp-panel bp-panel--quiet\">\n      <div class=\"bp-copy\">\n        <p>自社ECに必要なのは、最初から完璧なECサイトを作ることではありません。</p>\n        <p>まずは販売に必要な機能に絞る。<br>ブランドの魅力が伝わるページを用意する。<br>購入前の不安を減らす導線を整える。<br>決済・配送・税設定など、販売に必要な初期設定を整える。<br>公開後に自社で更新できる状態にする。</p>\n        <p>そして、実際に販売しながら検証していく。</p>\n        <p>売れる兆しが見えてから、商品数、ページ数、アプリ、広告、CRM、越境対応、外部システム連携などに投資を広げていく。</p>\n        <p>最初から全部やらない。<br>でも、将来育てられる土台はしっかり作る。</p>\n        <p>それが、Basicプランの考え方です。</p>\n      </div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "scope": {
+      "type": "section-custom-code",
+      "name": "scope",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--scope\">\n  <div class=\"bp-wrap\">\n    <header class=\"bp-headline bp-headline--left\">\n      <p class=\"bp-kicker\">Scope</p>\n      <h2 class=\"bp-title\">Basicプランでできること</h2>\n      <div class=\"bp-copy bp-lead\"><p>SOLSTARのBasicプランでは、Shopifyで自社ECを始めるために必要な基本構築をまとめて対応します。</p></div>\n    </header>\n    <ul class=\"bp-matrix\"><li>コンセプト定義</li><li>要件定義</li><li>ECサイトセットアップ</li><li>決済・配送・税設定</li><li>サイトデザイン制作</li><li>商品登録：20点</li><li>カテゴリ登録：6点</li><li>アプリ連携：3点</li><li>オリジナルページ制作：3ページ</li><li>購入テスト・表示確認</li></ul>\n    <div class=\"bp-copy bp-note\"><p>商品数や機能を必要な範囲に絞ることで、過剰な開発を抑えながら、自社ECに必要な販売基盤を整えます。</p></div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "benefit": {
+      "type": "section-custom-code",
+      "name": "benefit",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--benefit\">\n  <div class=\"bp-wrap\">\n    <header class=\"bp-headline\">\n      <p class=\"bp-kicker\">Benefit</p>\n      <h2 class=\"bp-title\">Basicプランで得られること</h2>\n    </header>\n    <div class=\"bp-bento\">\n      <article class=\"bp-panel bp-bento__wide\"><h3>売れるか分からない段階でも、自社ECを始められる</h3><div class=\"bp-copy\"><p>最初から大規模に作り込まず、販売開始に必要な機能へ絞って構築できます。<br>商品数が少ない段階でも、まずは自社ECの可能性を検証できます。</p></div></article>\n      <article class=\"bp-panel \"><h3>ブランドの世界観を反映できる</h3><div class=\"bp-copy\"><p>テンプレートをただ当てはめるだけではありません。<br>ブランドの方向性、商品の魅力、ターゲットに伝えるべき価値を整理しながら、ECサイトの土台を作ります。</p></div></article>\n      <article class=\"bp-panel \"><h3>販売に必要な設定までまとめて整えられる</h3><div class=\"bp-copy\"><p>商品登録、カテゴリ設計、決済・配送・税設定、アプリ連携、オリジナルページ制作まで対応します。<br>「何を準備すればいいか分からない」状態からでも、販売開始に必要な基本構築を一括で進められます。</p></div></article>\n      <article class=\"bp-panel bp-bento__wide\"><h3>公開後も自社で更新しやすい</h3><div class=\"bp-copy\"><p>自社ECは、公開してから育てていくものです。<br>商品追加、ページ更新、情報修正などを自社で進めやすい構成にすることで、公開後の運用もしやすくします。</p></div></article>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "expertise": {
+      "type": "section-custom-code",
+      "name": "expertise",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--expertise\">\n  <div class=\"bp-wrap bp-split\">\n    <aside class=\"bp-rail\">\n      <p class=\"bp-kicker\">Expertise</p>\n      <h2 class=\"bp-title\">Shopify構築・運用を知るチームが、公開後まで見据えて設計します。</h2>\n    </aside>\n    <article class=\"bp-panel bp-panel--story\"><div class=\"bp-copy\"><p>SOLSTARは、Shopifyを活用したECサイト構築・運用を支援してきたECパートナーです。</p><p>小規模ブランドの立ち上げから、Shopify Plusの大規模サイト構築・長期運用、越境ECまで、さまざまなフェーズのECに関わってきました。</p><p>Basicプランでは、その知見をもとに、商品数を絞った自社ECの立ち上げに必要な範囲へ絞って構築します。</p><p>ただ見た目を整えるだけではなく、ブランドの伝わり方、購入導線、公開後の更新しやすさまで考えて設計します。</p></div></article>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "after": {
+      "type": "section-custom-code",
+      "name": "after",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--after\">\n  <div class=\"bp-wrap\">\n    <header class=\"bp-headline\">\n      <p class=\"bp-kicker\">After Launch</p>\n      <h2 class=\"bp-title\">自社ECは、公開してから育てていくものです。</h2>\n      <div class=\"bp-copy bp-lead\"><p>Basicプランは、販売できる状態を整えるためのプランです。<br>一方で、自社ECは公開してからが本番です。</p><p>SEO、SNS、広告、メール、LINEなどを通じて、見込み客を集め続ける必要があります。</p><p>Basicプランで土台を作ったあとは、次のように段階的に育てていけます。</p></div>\n    </header>\n    <ul class=\"bp-steps\"><li>まずは自分たちで運用しながら、売れる兆しを確かめる</li><li>反応が見えてきたら、商品・ページ・アプリを少しずつ広げる</li><li>手が回らなくなってきたら、運用・改善のサポートに切り替える</li></ul>\n    <div class=\"bp-copy bp-note\"><p>公開後の運用・集客サポートが必要になった際も、フェーズに合わせてご提案します。</p></div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "price": {
+      "type": "section-custom-code",
+      "name": "price",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--price\">\n  <div class=\"bp-wrap bp-price\">\n    <div class=\"bp-price__summary\">\n      <p class=\"bp-kicker\">Basicプラン</p>\n      <h2 class=\"bp-title\">Basicプラン</h2>\n      <h3 class=\"bp-subtitle\">必要な範囲に絞って、Shopify自社ECを立ち上げる構築プランです。</h3>\n    </div>\n    <div class=\"bp-price__details\">\n      <div class=\"bp-stat\"><span>価格</span><strong>1,100,000円（税込）〜</strong></div>\n      <div class=\"bp-stat\"><span>納期</span><strong>約4〜8週間</strong></div>\n      <div class=\"bp-stat\"><span>体制</span><strong>ディレクター1名 / エンジニア1名</strong></div>\n      <div class=\"bp-stat\"><span>進捗打ち合わせ</span><strong>3回<br>要件確認 / 構築内容確認 / 公開前確認</strong></div>\n      <div class=\"bp-stat\"><span>修正対応</span><strong>3回まで<br>※大幅な仕様変更は別途お見積りとなります。</strong></div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "exclude": {
+      "type": "section-custom-code",
+      "name": "exclude",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--exclude\">\n  <div class=\"bp-wrap\">\n    <header class=\"bp-headline bp-headline--left\">\n      <p class=\"bp-kicker\">Excluded</p>\n      <h2 class=\"bp-title\">別途費用となるもの</h2>\n      <div class=\"bp-copy bp-lead\"><p>以下はBasicプランの料金には含まれません。</p></div>\n    </header>\n    <ul class=\"bp-matrix bp-matrix--muted\"><li>Shopifyの月額利用料</li><li>各種アプリの利用料</li><li>追加ページ制作</li><li>追加アプリ実装</li><li>バナー画像制作</li><li>納品後の保守・運用</li><li>越境対応</li><li>外部システム連携</li><li>POS連携</li><li>独自アプリ開発</li></ul>\n    <div class=\"bp-copy bp-note\"><p>必要に応じて、別途お見積りいたします。</p></div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "fit": {
+      "type": "section-custom-code",
+      "name": "fit",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--fit\">\n  <div class=\"bp-wrap\">\n    <div class=\"bp-fit-grid\">\n      <article class=\"bp-panel bp-panel--fit\"><h3>Basicプランが向いている企業</h3><div class=\"bp-copy\"><ul class=\"bp-list\"><li>自社ECを初めて立ち上げたい企業</li><li>商品数を絞って、まずは販売基盤を整えたい企業</li><li>まずは自社ECで売れるかを検証したい企業</li><li>ブランドの世界観を反映したECサイトを作りたい企業</li><li>モールやSNSだけに頼らず、自社の販売拠点を作りたい企業</li><li>公開後は、自社で商品追加や更新を行っていきたい企業</li></ul></div></article>\n      <article class=\"bp-panel \"><h3>Basicプランでは対応範囲が足りないケース</h3><div class=\"bp-copy\"><ul class=\"bp-list\"><li>最初から大量の商品登録が必要な企業</li><li>独自機能や複雑なカスタマイズが必要な企業</li><li>基幹システム、POS、倉庫システムなど外部連携が必要な企業</li><li>越境EC、多言語、多通貨対応を本格的に進めたい企業</li><li>広告運用や日々の更新まで丸ごと依頼したい企業</li><li>すでに売上規模が大きく、リニューアルや運用改善まで含めた設計が必要な企業</li></ul></div></article>\n    </div>\n    <div class=\"bp-fit-note bp-panel bp-panel--quiet\"><div class=\"bp-copy\"><p>Basicプランは、すべての企業に向けたプランではありません。<br>まずは必要な範囲に絞って、自社ECの販売基盤を整えたい企業に向いています。</p></div></div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "finalcta": {
+      "type": "section-custom-code",
+      "name": "finalcta",
+      "settings": {
+        "code": "<section class=\"bp-editorial bp-editorial--final\">\n  <div class=\"bp-wrap bp-final\">\n    <p class=\"bp-kicker\">Start Small</p>\n    <h2 class=\"bp-title\">まずは、販売できる土台から始めませんか。</h2>\n    <div class=\"bp-copy\">\n      <p>自社ECは、最初から大きく作り込む必要はありません。</p>\n      <p>大切なのは、必要な機能に絞って販売できる状態を整え、実際に売れるかを検証することです。</p>\n      <p>Basicプランでは、商品登録、カテゴリ設計、アプリ連携、オリジナルページ制作、購入テスト・表示確認まで、販売開始に必要な基本構築をまとめて対応します。</p>\n      <p>小さく始めながら、自社ECの土台を整える。<br>そして、売れる兆しが見えてから、ページ、商品、施策、運用体制を広げていく。</p>\n      <p>それが、失敗しにくい自社ECの始め方です。</p>\n      <p>自社ECの第一歩として、まずはBasicプランをご検討ください。</p>\n      <p>Basicプランで対応できるか無料で相談する<br>https://www.solstar.co.jp/pages/pricing</p>\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-7",
         "padding_top": 0,
@@ -144,7 +339,18 @@
   },
   "order": [
     "main",
-    "basic_content",
+    "fv",
+    "intro",
+    "cost",
+    "principle",
+    "scope",
+    "benefit",
+    "expertise",
+    "after",
+    "price",
+    "exclude",
+    "fit",
+    "finalcta",
     "contact"
   ]
 }
