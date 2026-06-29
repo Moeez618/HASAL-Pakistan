@@ -56,7 +56,7 @@
         "cta": {
           "type": "buttons",
           "settings": {
-            "button_text": "Basicプランで対応できるか無料で相談する",
+            "button_text": "まずは無料で相談する",
             "button_url": "https://www.solstar.co.jp/pages/pricing",
             "button_type": "btn--primary",
             "button_size": "",
