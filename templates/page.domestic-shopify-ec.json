@@ -57,7 +57,7 @@
         "text1": {
           "type": "text",
           "settings": {
-            "text": "<p>自社ECを始めたい。<br>でも、売れるか分からない段階で、いきなり大きな制作費をかけるのは不安。</p><p>それは、とても現実的な判断です。</p><p>ECサイト制作には、設計から構築・検証まで含めると、100万円〜200万円かかることも珍しくありません。<br>平均制作費は約163万円。<br>※出典：Web幹事（全国5,000社の見積もりデータ）</p>",
+            "text": "<p>自社ECを始めたい。<br/>でも、売れるか分からない段階で、いきなり大きな制作費をかけるのは不安。</p><p>それは、とても現実的な判断です。</p><p>ECサイト制作には、設計から構築・検証まで含めると、100万円〜200万円かかることも珍しくありません。<br/>平均制作費は約163万円。<br/>※出典：Web幹事（全国5,000社の見積もりデータ）</p>",
             "text_font_size": "body-small",
             "padding_bottom": 16
           }
@@ -102,7 +102,7 @@
         "text_alignment": "text-left",
         "layout": "is-reversed",
         "width": "wrapper--full",
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
         "color_scheme": "scheme-7",
