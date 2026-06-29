@@ -32,14 +32,14 @@
         "sub": {
           "type": "subheading",
           "settings": {
-            "subheading": "Basicプラン",
+            "subheading": "Shopifyで始める、自社ECの第一歩。｜Basicプラン",
             "padding_bottom": 16
           }
         },
         "subtitle": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyで始める、自社ECの第一歩。",
+            "title": "ブランドの魅力を、売上につなげる自社ECサイトへ。",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
