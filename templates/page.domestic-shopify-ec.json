@@ -36,15 +36,6 @@
             "padding_bottom": 16
           }
         },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "ブランドの魅力を、売上につなげる自社ECサイトへ。",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "h1"
-          }
-        },
         "subtitle": {
           "type": "heading",
           "settings": {
@@ -57,15 +48,7 @@
         "text1": {
           "type": "text",
           "settings": {
-            "text": "<p>自社ECを始めたい。<br/>でも、売れるか分からない段階で、いきなり大きな制作費をかけるのは不安。</p><p>それは、とても現実的な判断です。</p><p>ECサイト制作には、設計から構築・検証まで含めると、100万円〜200万円かかることも珍しくありません。<br/>平均制作費は約163万円。<br/>※出典：Web幹事（全国5,000社の見積もりデータ）</p>",
-            "text_font_size": "body-small",
-            "padding_bottom": 16
-          }
-        },
-        "text2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>だからこそ、最初から大規模に作り込む必要はありません。</p><p>まずは必要な範囲に絞って立ち上げる。<br>商品が売れるか。<br>どの導線で反応があるか。<br>公開後に自社で更新できるか。</p><p>これらを確かめながら、段階的に育てていく。</p><p>SOLSTARのBasicプランは、商品数を絞って自社ECを始めたい企業向けのShopify構築プランです。<br>販売開始に必要な機能、ブランドの世界観、購入導線、初期設定まで整え、まずは自社ECの土台を作ります。</p>",
+            "text": "<p>Shopifyで、公開後も自分たちで更新・運用しやすいECサイトを立ち上げます。ブランドの世界観、購入導線、初期運用に必要な設定まで整理して構築します。</p>",
             "text_font_size": "body-small",
             "padding_bottom": 16
           }
@@ -85,10 +68,8 @@
       },
       "block_order": [
         "sub",
-        "heading",
         "subtitle",
         "text1",
-        "text2",
         "cta"
       ],
       "custom_css": [
