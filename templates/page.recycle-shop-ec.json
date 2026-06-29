@@ -184,6 +184,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_29_17_16_22.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
