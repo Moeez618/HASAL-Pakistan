@@ -85,7 +85,7 @@
         ".hero__subheading {color: var(--sp-page-accent);}"
       ],
       "settings": {
-        "image_1": "",
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_29_17_09_41.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -184,7 +184,6 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -226,13 +225,11 @@
       "custom_css": [],
       "name": "Image banner",
       "settings": {
-        "image_1": "",
         "link": "",
         "width": "wrapper--full",
         "height": "screen-height-one-half",
         "flex_align_desktop": "align--middle-center-desktop",
         "content_width": 60,
-        "mobile_image": "",
         "mobile_height": "screen-height-three-quarters--mobile",
         "flex_align_mobile": "align--middle-center-mobile",
         "color_scheme": "scheme-7",
@@ -380,7 +377,8 @@
             "label-two": "フリマ・オークションサイト",
             "label-three": "モール（楽天・Yahoo!等）",
             "label-four": "自社ECサイトあり",
-            "label-five": "その他"
+            "label-five": "その他",
+            "label-six": "Option six"
           }
         },
         "message": {
