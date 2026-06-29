@@ -85,7 +85,7 @@
         ".hero__subheading {color: var(--sp-page-accent);}"
       ],
       "settings": {
-        "image_1": "",
+        "image_1": "shopify://shop_images/Recycle.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -157,7 +157,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "",
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_29_17_16_22.png",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -194,51 +194,6 @@
         "overlay_type": "disabled",
         "padding_top": 0,
         "padding_bottom": 50
-      }
-    },
-    "solution_banner": {
-      "type": "section-hero",
-      "blocks": {
-        "eyebrow": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>SOLUTION</strong></p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 8
-          }
-        },
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "今の売り方をやめる必要はありません。\n役割を分けるだけです。",
-            "heading_font_size": "heading-large",
-            "heading_tag": "h2",
-            "padding_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "eyebrow",
-        "heading"
-      ],
-      "custom_css": [],
-      "name": "Image banner",
-      "settings": {
-        "image_1": "",
-        "link": "",
-        "width": "wrapper--full",
-        "height": "screen-height-one-half",
-        "flex_align_desktop": "align--middle-center-desktop",
-        "content_width": 60,
-        "mobile_image": "",
-        "mobile_height": "screen-height-three-quarters--mobile",
-        "flex_align_mobile": "align--middle-center-mobile",
-        "color_scheme": "scheme-7",
-        "show_text_background": false,
-        "overlay_type": "text",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "show_placeholder": true
       }
     },
     "solution": {
@@ -378,7 +333,8 @@
             "label-two": "フリマ・オークションサイト",
             "label-three": "モール（楽天・Yahoo!等）",
             "label-four": "自社ECサイトあり",
-            "label-five": "その他"
+            "label-five": "その他",
+            "label-six": "Option six"
           }
         },
         "message": {
@@ -421,7 +377,6 @@
     "problem",
     "affinity",
     "affinity_message",
-    "solution_banner",
     "solution",
     "benefit",
     "evidence",
