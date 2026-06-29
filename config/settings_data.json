@@ -113,14 +113,14 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
+          "greeting_message": "お手伝いできることはありますか？",
           "button_color": "#003185",
           "secondary_color": "#ffffff",
           "ternary_color": "#6a6a6a",
           "button_icon": "team",
           "button_text": "need_help",
           "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest",
-          "greeting_message": "お手伝いできることはありますか？"
+          "button_vertical_position": "lowest"
         }
       }
     },
@@ -131,7 +131,7 @@
           "section_bg": "#fcfbf9",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
-          "btn_primary_bg": "#AB8C52",
+          "btn_primary_bg": "#ab8c52",
           "btn_primary_text": "#ffffff",
           "btn_primary_border": "#695632",
           "btn_secondary_bg": "#212121",
@@ -235,7 +235,7 @@
       },
       "scheme-7": {
         "settings": {
-          "section_text": "#685a3f",
+          "section_text": "#000000",
           "section_bg": "#f5f2ec",
           "section_bg_light": "#f5f2ec",
           "section_bg_gradient": "",
