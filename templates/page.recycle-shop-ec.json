@@ -85,7 +85,7 @@
         ".hero__subheading {color: var(--sp-page-accent);}"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_29_17_09_41.png",
+        "image_1": "shopify://shop_images/Recycle.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
