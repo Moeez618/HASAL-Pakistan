@@ -85,7 +85,7 @@
         ".hero__subheading {color: var(--sp-page-accent);}"
       ],
       "settings": {
-        "image_1": "shopify://shop_images/Recycle.jpg",
+        "image_1": "",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -142,30 +142,6 @@
           "settings": {
             "text": "<ul><li>どの販路（実店舗・既存の販路）で、いま売れているか</li><li>どのカテゴリ（ブランド品・古着・楽器・家電・ホビーなど）を伸ばしたいか</li><li>出品・在庫更新・発送・問い合わせに、どれくらい手が取られているか</li><li>社内で、誰がどこまで運用に関われそうか</li></ul>",
             "text_font_size": "body-small",
-            "padding_bottom": 16
-          }
-        },
-        "p1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>買取が増えること自体は、本来うれしいことです。でも、清掃・検品・動作確認・撮影・商品登録が追いつかなければ、売れるはずの商品がバックヤードや倉庫に積み上がっていきます。私たちは、そうしたお店をこれまで数多く見てきました。</p>",
-            "text_font_size": "body-small",
-            "padding_bottom": 16
-          }
-        },
-        "p2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>在庫を見るたびに、「早く出品したい」「売り場に出したい」と思いながらも、日々の業務に追われて後回しになってしまう。そんな状態になっていないでしょうか。</p>",
-            "text_font_size": "body-small",
-            "padding_bottom": 16
-          }
-        },
-        "p3": {
-          "type": "text",
-          "settings": {
-            "text": "<p>だからこそ私たちは、「ECサイトを作ること」ではなく、「買い取った商品を売れる状態にし、既存スタッフでも回しやすい形にすること」から考えます。いまのスタッフに新しい仕事を山ほど増やさずに始められる形をつくること。それが私たちの仕事です。</p>",
-            "text_font_size": "body-small",
             "padding_bottom": 0
           }
         }
@@ -174,17 +150,14 @@
         "sub",
         "heading",
         "intro",
-        "list",
-        "p1",
-        "p2",
-        "p3"
+        "list"
       ],
       "custom_css": [
         ".hero__subheading {color: var(--sp-page-accent);}"
       ],
       "name": "Image with text",
       "settings": {
-        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_29_17_16_22.png",
+        "image_1": "",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "",
@@ -198,11 +171,81 @@
         "show_placeholder": true
       }
     },
+    "affinity_message": {
+      "type": "section-rich-text",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>買取が増えること自体は、本来うれしいことです。でも、清掃・検品・動作確認・撮影・商品登録が追いつかなければ、売れるはずの商品がバックヤードや倉庫に積み上がっていきます。私たちは、そうしたお店をこれまで数多く見てきました。</p><p>在庫を見るたびに、「早く出品したい」「売り場に出したい」と思いながらも、日々の業務に追われて後回しになってしまう。そんな状態になっていないでしょうか。</p><p>だからこそ私たちは、「ECサイトを作ること」ではなく、「買い取った商品を売れる状態にし、既存スタッフでも回しやすい形にすること」から考えます。いまのスタッフに新しい仕事を山ほど増やさずに始められる形をつくること。それが私たちの仕事です。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-left",
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-7",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "solution_banner": {
+      "type": "section-hero",
+      "blocks": {
+        "eyebrow": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>SOLUTION</strong></p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 8
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "今の売り方をやめる必要はありません。\n役割を分けるだけです。",
+            "heading_font_size": "heading-large",
+            "heading_tag": "h2",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "eyebrow",
+        "heading"
+      ],
+      "custom_css": [],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "screen-height-one-half",
+        "flex_align_desktop": "align--middle-center-desktop",
+        "content_width": 60,
+        "mobile_image": "",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "flex_align_mobile": "align--middle-center-mobile",
+        "color_scheme": "scheme-7",
+        "show_text_background": false,
+        "overlay_type": "text",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
     "solution": {
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<style>\n  .rs-roles { max-width: 760px; margin: 0 auto 12px; }\n  .rs-support { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 920px; margin: 40px auto 0; }\n  .rs-support .sp-card .rs-no { display: block; margin: 0 0 10px; color: var(--sp-page-accent); font-family: var(--FONT-STACK-SUBHEADING); font-weight: va\nr(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); }\n  .rs-support .sp-card h3 { font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); margin: 0 0 12px; }\n  .rs-support .sp-card p { font-size: var(--font-body-small); color: var(--COLOR-TEXT-A80); line-height: 1.9; }\n  .rs-support-head { max-width: 920px; margin: 44px auto 0; text-align: center; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); }\n  .rs-glossary { max-width: 860px; margin: 32px auto 0; padding: 20px 22px; border: 1px dashed var(--sp-page-border); border-radius: var(--sp-page-card-radius); background: var(--COLOR-TEXT-A5); color: var(--COLOR-TEXT-A80); font-size: var(--font-body-small); line-height: 1.9; }\n  @media (max-width: 760px) { .rs-support { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--solution\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Role Design</p>\n      <h2 class=\"sp-title\">今ある売り方に、<br>自社ECサイトという選択肢を加える</h2>\n      <p class=\"sp-lead\">メルカリやヤフオクをやめて、自社ECサイトだけで売ることをおすすめしているわけではありません。大切なのは、商品ごとに売る場所を整理することです。</p>\n    </div>\n    <ul class=\"sp-checklist sp-checklist--grid rs-roles\">\n      <li>早く販売したい商品は、既存の販路へ</li>\n      <li>価値や背景を伝えたい商品は、自社ECサイトへ</li>\n      <li>来店購入につなげたい大型商品は、実店舗へ</li>\n      <li>海外需要が見込める専門商材は、将来的に越境ECサイトへ</li>\n    </ul>\n    <p class=\"sp-note\">商品ごとに役割を分けることで、作業を増やしすぎず、在庫を販売・現金化しやすい流れをつくることができます。</p>\n    <p class=\"rs-support-head\">SOLSTARがご支援すること</p>\n    <div class=\"rs-support\">\n      <div class=\"sp-card\"><span class=\"rs-no\">01</span><h3>商品化・出品・在庫管理の流れを整える</h3><p>買い取った商品を早く売れる状態にするために、検品・撮影・商品登録・出品の流れを整理します。また、実店舗・既存の販路・自社ECサイトの在庫管理が煩雑にならないよう、お店の状況に合わせて運用を設計します。</p></div>\n      <div class=\"sp-card\"><span class=\"rs-no\">02</span><h3>自社ECサイトを、小さく始める</h3><p>最初から大きく作り込む必要はありません。ブランド品・古着・楽器・家電など、価値や背景を伝えたい商品から始められる形で、自社ECサイトを構築します。</p></div>\n      <div class=\"sp-card\"><span class=\"rs-no\">03</span><h3>運用が回るところまで伴走する</h3><p>私たちは、サイトを作って終わりではありません。公開後の運用や顧客管理も含め、既存スタッフで回せる形になるまで一緒に進めます。新しくEC専任者を採用しなくても始められるように設計します。</p></div>\n      <div class=\"sp-card\"><span class=\"rs-no\">04</span><h3>必要に応じて、販路を広げる</h3><p>商材によっては、将来的に越境ECなどの選択肢もあります。まずは無理に広げるのではなく、いまのお店に合った形から始めます。</p></div>\n    </div>\n    <p class=\"rs-glossary\">※ 専門用語のかんたん補足：「CRM（顧客管理）」＝買ってくれた人の情報をためて、再購入につなげる仕組み。「カゴ落ち対策メール」＝カートに入れたまま購入しなかった人へ、あとから案内するメール。「越境ECサイト」＝海外のお客様にも買ってもらえるようにしたECサイト。これらの専門用語は、覚えていただく必要はありません。</p>\n  </div>\n</section>",
+        "code": "<style>\n  .rs-solution-figure { max-width: 920px; margin: 8px auto 4px; border-radius: var(--sp-page-card-radius); overflow: hidden; }\n  .rs-solution-figure img { display: block; width: 100%; height: auto; }\n  .rs-roles { max-width: 760px; margin: 28px auto 12px; }\n  .rs-support { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 920px; margin: 40px auto 0; }\n  .rs-support .sp-card .rs-no { display: block; margin: 0 0 10px; color: var(--sp-page-accent); font-family: var(--FONT-STACK-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); }\n  .rs-support .sp-card h3 { font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); margin: 0 0 12px; }\n  .rs-support .sp-card p { font-size: var(--font-body-small); color: var(--COLOR-TEXT-A80); line-height: 1.9; }\n  .rs-support-head { max-width: 920px; margin: 44px auto 0; text-align: center; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); }\n  @media (max-width: 760px) { .rs-support { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--solution\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Role Design</p>\n      <h2 class=\"sp-title\">今ある売り方に、<br>自社ECサイトという選択肢を加える</h2>\n      <p class=\"sp-lead\">メルカリやヤフオクをやめて、自社ECサイトだけで売ることをおすすめしているわけではありません。大切なのは、商品ごとに売る場所を整理することです。</p>\n    </div>\n    <figure class=\"rs-solution-figure\"><img src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/2_iphones_Hero_Image_copy_2.webp?v=1765271340\" alt=\"実店舗・既存の販路・自社ECサイトをつなぐイメージ\" loading=\"lazy\"></figure>\n    <ul class=\"sp-checklist sp-checklist--grid rs-roles\">\n      <li>早く販売したい商品は、既存の販路へ</li>\n      <li>価値や背景を伝えたい商品は、自社ECサイトへ</li>\n      <li>来店購入につなげたい大型商品は、実店舗へ</li>\n      <li>海外需要が見込める専門商材は、将来的に越境ECサイトへ</li>\n    </ul>\n    <p class=\"sp-note\">商品ごとに役割を分けることで、作業を増やしすぎず、在庫を販売・現金化しやすい流れをつくることができます。</p>\n    <p class=\"rs-support-head\">SOLSTARがご支援すること</p>\n    <div class=\"rs-support\">\n      <div class=\"sp-card\"><span class=\"rs-no\">01</span><h3>商品化・出品・在庫管理の流れを整える</h3><p>買い取った商品を早く売れる状態にするために、検品・撮影・商品登録・出品の流れを整理します。また、実店舗・既存の販路・自社ECサイトの在庫管理が煩雑にならないよう、お店の状況に合わせて運用を設計します。</p></div>\n      <div class=\"sp-card\"><span class=\"rs-no\">02</span><h3>自社ECサイトを、小さく始める</h3><p>最初から大きく作り込む必要はありません。ブランド品・古着・楽器・家電など、価値や背景を伝えたい商品から始められる形で、自社ECサイトを構築します。</p></div>\n      <div class=\"sp-card\"><span class=\"rs-no\">03</span><h3>運用が回るところまで伴走する</h3><p>私たちは、サイトを作って終わりではありません。ECサイトの納品後も、保守運用をお任せいただける伴走サービス（運用サービスプラン）をご利用いただけます。公開後の運用や顧客管理も含め、既存スタッフで回せる形になるまで一緒に進めます。新しくEC専任者を採用しなくても始められるように設計します。</p></div>\n      <div class=\"sp-card\"><span class=\"rs-no\">04</span><h3>必要に応じて、販路を広げる</h3><p>商材によっては、将来的に越境ECなどの選択肢もあります。まずは無理に広げるのではなく、いまのお店に合った形から始めます。</p></div>\n    </div>\n    <p class=\"sp-note\">※ 専門用語のかんたん補足：「CRM（顧客管理）」＝買ってくれた人の情報をためて、再購入につなげる仕組み。「カゴ落ち対策メール」＝カートに入れたまま購入しなかった人へ、あとから案内するメール。「越境ECサイト」＝海外のお客様にも買ってもらえるようにしたECサイト。これらの専門用語は、覚えていただく必要はありません。</p>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-7",
         "padding_top": 0,
@@ -268,7 +311,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<style>\n  .rs-action-cta { text-align: center; margin-top: 36px; }\n  .rs-action-cta .btn { font-size: var(--font-body-medium); }\n  .rs-sublinks { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 28px; margin: 22px auto 0; }\n  .rs-sublinks a { color: var(--sp-page-accent); font-size: var(--font-body-small); text-decoration: underline; text-underline-offset: 3px; }\n  .rs-sublinks a:hover { opacity: 0.75; }\n</style>\n<section class=\"sp-sec sp-sec--action\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Action</p>\n      <h2 class=\"sp-title\">全部の商品を載せなくて大丈夫。<br>まずは「届けたい数点」から、小さく始めましょう。</h2>\n      <p class=\"sp-lead\">最初からすべてを作り込もうとしなくて大丈夫です。「これは価値が分かる人に届けたい」と思える商品から始めるだけでも、自社ECサイトの第一歩になります。無料相談では、いまの状況をうかがいながら、無理なく始められる進め方を一緒に整理します。</p>\n    </div>\n    <ul class=\"sp-checklist sp-checklist--grid\">\n      <li>いまどの販路で売れていて、どのカテゴリを伸ばしたいか</li>\n      <li>買い取った商品の、どこで商品化・出品が止まっているか</li>\n      <li>どの商品を自社ECサイトに載せ、どの商品は既存の販路・店頭で販売・現金化したいか</li>\n      <li>どの商品から、どんな順番で始めるのが無理がないか</li>\n    </ul>\n    <p class=\"sp-note\">ご準備は不要です。いまの売り方と、伸ばしたい商品を聞かせていただくだけで大丈夫です。まずは、どの商品をどこで売るべきかを整理するところから始めましょう。</p>\n    <div class=\"rs-action-cta\">\n      <a class=\"btn btn--solid btn--primary\" href=\"#shopify-section-contact\"><span>30分無料診断する</span></a>\n    </div>\n    <div class=\"rs-sublinks\">\n      <a href=\"shopify://pages/cream-by-solstar\">先にCreamのデモ画面を見てみる</a>\n      <a href=\"#shopify-section-contact\">いまの在庫と販路の見直しだけ聞いてみる</a>\n    </div>\n  </div>\n</section>",
+        "code": "<style>\n  .rs-action-cta { text-align: center; margin-top: 36px; }\n  .rs-action-cta .btn { font-size: var(--font-body-medium); }\n</style>\n<section class=\"sp-sec sp-sec--action\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Action</p>\n      <h2 class=\"sp-title\">全部の商品を載せなくて大丈夫。<br>まずは「届けたい数点」から、小さく始めましょう。</h2>\n      <p class=\"sp-lead\">最初からすべてを作り込もうとしなくて大丈夫です。「これは価値が分かる人に届けたい」と思える商品から始めるだけでも、自社ECサイトの第一歩になります。無料相談では、いまの状況をうかがいながら、無理なく始められる進め方を一緒に整理します。</p>\n    </div>\n    <ul class=\"sp-checklist sp-checklist--grid\">\n      <li>いまどの販路で売れていて、どのカテゴリを伸ばしたいか</li>\n      <li>買い取った商品の、どこで商品化・出品が止まっているか</li>\n      <li>どの商品を自社ECサイトに載せ、どの商品は既存の販路・店頭で販売・現金化したいか</li>\n      <li>どの商品から、どんな順番で始めるのが無理がないか</li>\n    </ul>\n    <p class=\"sp-note\">ご準備は不要です。いまの売り方と、伸ばしたい商品を聞かせていただくだけで大丈夫です。まずは、どの商品をどこで売るべきかを整理するところから始めましょう。</p>\n    <div class=\"rs-action-cta\">\n      <a class=\"btn btn--solid btn--primary\" href=\"#shopify-section-contact\"><span>30分無料診断する</span></a>\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-7",
         "padding_top": 0,
@@ -335,8 +378,7 @@
             "label-two": "フリマ・オークションサイト",
             "label-three": "モール（楽天・Yahoo!等）",
             "label-four": "自社ECサイトあり",
-            "label-five": "その他",
-            "label-six": "Option six"
+            "label-five": "その他"
           }
         },
         "message": {
@@ -357,6 +399,9 @@
         "channel",
         "message"
       ],
+      "custom_css": [
+        ".contact__form__subheading {text-align: center; color: var(--sp-page-accent);}"
+      ],
       "settings": {
         "subheading": "Free Diagnosis",
         "title": "30分無料診断・ご相談",
@@ -375,6 +420,8 @@
     "fv",
     "problem",
     "affinity",
+    "affinity_message",
+    "solution_banner",
     "solution",
     "benefit",
     "evidence",
