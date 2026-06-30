@@ -403,6 +403,17 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "scroll_to_form": {
+      "type": "section-custom-code",
+      "name": "Scroll buttons to form",
+      "settings": {
+        "code": "<style>#shopify-section-contact { scroll-margin-top: 16px; }</style>\n<script>\n  (function () {\n    document.addEventListener('click', function (e) {\n      var trigger = e.target.closest('a.btn');\n      if (!trigger) return;\n      var form = document.getElementById('shopify-section-contact');\n      if (!form || form.contains(trigger)) return;\n      e.preventDefault();\n      form.scrollIntoView({ behavior: 'smooth', block: 'start' });\n    });\n  })();\n</script>",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -422,6 +433,7 @@
     "narrow",
     "action",
     "contact",
-    "seo_jsonld"
+    "seo_jsonld",
+    "scroll_to_form"
   ]
 }
