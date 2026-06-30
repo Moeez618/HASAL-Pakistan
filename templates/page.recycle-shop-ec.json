@@ -206,7 +206,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "まずは無料で相談してみる",
-            "button_url": "",
+            "button_url": "#shopify-section-contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
