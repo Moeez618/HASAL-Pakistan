@@ -206,7 +206,7 @@
           "type": "buttons",
           "settings": {
             "button_text": "まずは無料で相談してみる",
-            "button_url": "",
+            "button_url": "#shopify-section-contact",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
@@ -392,6 +392,28 @@
         "padding_bottom": 50,
         "heading_tag": "h2"
       }
+    },
+    "seo_jsonld": {
+      "type": "section-custom-code",
+      "name": "SEO JSON-LD",
+      "settings": {
+        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://www.solstar.co.jp/#organization\",\n      \"name\": \"株式会社SOLSTAR\",\n      \"url\": \"https://www.solstar.co.jp\",\n      \"description\": \"ShopifyによるECサイト構築・伴走支援を行う制作会社。\"\n    },\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"{{ canonical_url }}#webpage\",\n      \"url\": \"{{ canonical_url }}\",\n      \"name\": \"リサイクルショップ向け 自社ECサイト構築・伴走支援｜SOLSTAR\",\n      \"description\": \"リサイクルショップ・リユース店専門に、買い取った商品を店舗・既存販路・自社ECサイトで早く売れる状態にし、在庫回転と現金化、顧客管理までを伴走支援します。\",\n      \"inLanguage\": \"ja\",\n      \"about\": { \"@id\": \"{{ canonical_url }}#service\" },\n      \"audience\": {\n        \"@type\": \"Audience\",\n        \"audienceType\": \"リサイクルショップ・総合リユース店オーナー\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"{{ canonical_url }}#service\",\n      \"name\": \"リサイクルショップ向け 自社ECサイト構築・伴走支援\",\n      \"serviceType\": \"中古品・リユース店向け 自社ECサイト構築／伴走支援\",\n      \"description\": \"買い取った商品を店舗・既存販路・自社ECサイトで売れる状態にし、在庫回転と現金化、顧客管理までを支援。商品ランクや状態表記のルール化、古物商許可番号の表示や中古品ECの表示設計にも対応します。\",\n      \"provider\": { \"@id\": \"https://www.solstar.co.jp/#organization\" },\n      \"areaServed\": { \"@type\": \"Country\", \"name\": \"日本\" },\n      \"audience\": {\n        \"@type\": \"Audience\",\n        \"audienceType\": \"リサイクルショップ・総合リユース店オーナー\"\n      },\n      \"offers\": {\n        \"@type\": \"Offer\",\n        \"name\": \"Basicプラン\",\n        \"priceCurrency\": \"JPY\",\n        \"price\": \"1100000\",\n        \"description\": \"小規模・少数SKUで自社ECを始めたいお店向け。構築期間の目安は約4〜8週間（税込1,100,000円〜）。\",\n        \"url\": \"{{ canonical_url }}\"\n      }\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [\n        { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"{{ shop.url }}\" },\n        { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"リサイクルショップ向け 自社EC構築・伴走支援\", \"item\": \"{{ canonical_url }}\" }\n      ]\n    }\n  ]\n}\n</script>",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "scroll_to_form": {
+      "type": "section-custom-code",
+      "name": "Scroll buttons to form",
+      "settings": {
+        "code": "<style>#shopify-section-contact { scroll-margin-top: 16px; }</style>\n<script>\n  (function () {\n    document.addEventListener('click', function (e) {\n      var trigger = e.target.closest('a.btn');\n      if (!trigger) return;\n      var form = document.getElementById('shopify-section-contact');\n      if (!form || form.contains(trigger)) return;\n      e.preventDefault();\n      form.scrollIntoView({ behavior: 'smooth', block: 'start' });\n    });\n  })();\n</script>",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -410,6 +432,8 @@
     "offer",
     "narrow",
     "action",
-    "contact"
+    "contact",
+    "seo_jsonld",
+    "scroll_to_form"
   ]
 }
