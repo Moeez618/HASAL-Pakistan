@@ -48,7 +48,7 @@
         "subcopy": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>店舗・既存販路・自社ECをつなぎ、在庫回転と現金化の流れをつくる、リサイクルショップ向けEC構築・伴走支援。</strong></p>",
+            "text": "<p>店舗・既存販路・自社ECをつなぎ、在庫回転と現金化の流れをつくる、リサイクルショップ向けEC構築・伴走支援。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
