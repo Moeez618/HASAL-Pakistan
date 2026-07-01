@@ -66,7 +66,7 @@
         "button_type": "btn--primary",
         "show_social_icons": true,
         "secondary_menu_linklist": "",
-        "show_locale_selector": false,
+        "show_locale_selector": true,
         "show_locale_code": false,
         "show_globe_icon": true,
         "show_country_selector": false,
