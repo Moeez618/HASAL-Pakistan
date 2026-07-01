@@ -154,7 +154,7 @@
         "subheading_F6iYVY": {
           "type": "subheading",
           "settings": {
-            "subheading": "メーカー向け外部EC事業部プラン",
+            "subheading": "メーカー向けECサイト制作・販売・運営アウトソーシング",
             "padding_bottom": 16
           }
         },
@@ -170,8 +170,8 @@
         "text_JAawQi": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>商品供給と発送に集中。ECサイト制作・販売管理・購入者対応の一次窓口まで、SOLSTARが支援。</strong></p>",
-            "text_font_size": "body-medium",
+            "text": "<p>商品供給と発送に集中。ECサイト制作・販売管理・購入者対応の一次窓口まで、SOLSTARが支援。</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 16
           }
         },
