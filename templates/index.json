@@ -9,17 +9,38 @@
  */
 {
   "sections": {
+    "section_video_gbncyG": {
+      "type": "section-video",
+      "settings": {
+        "video": "shopify://files/videos/Homepage Video Final.mp4",
+        "show_video_popup": false,
+        "video_popup_social": "",
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "flex_align": "align--bottom-center",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "desktop_height": "screen-height-full",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
     "section_rich_text_LBH8Lm": {
       "type": "section-rich-text",
       "blocks": {
-        "image_T97ewF": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Outdoor_Poster_Mockup_copy.jpg",
-            "image_width": 100,
-            "padding_bottom": 16
-          }
-        },
         "subheading_Dx7ER7": {
           "type": "subheading",
           "settings": {
@@ -46,7 +67,6 @@
         }
       },
       "block_order": [
-        "image_T97ewF",
         "subheading_Dx7ER7",
         "heading_mwxG8e",
         "text_m4UgTi"
@@ -58,7 +78,7 @@
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 50,
-        "padding_bottom": 0
+        "padding_bottom": 50
       }
     },
     "section_hero_ywHUVn": {
@@ -357,6 +377,7 @@
         "text_YdXDMN",
         "button_UkgqyV"
       ],
+      "disabled": true,
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_31_55.png",
@@ -445,35 +466,6 @@
         "padding_top": 0,
         "padding_bottom": 100,
         "show_placeholder": true
-      }
-    },
-    "section_video_gbncyG": {
-      "type": "section-video",
-      "settings": {
-        "video": "shopify://files/videos/Homepage Video Final.mp4",
-        "show_video_popup": false,
-        "video_popup_social": "",
-        "title": "",
-        "heading_font_size": "heading-medium",
-        "text": "",
-        "text_font_size": "body-medium",
-        "flex_align": "align--bottom-center",
-        "link_text": "",
-        "link": "",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": true,
-        "desktop_height": "screen-height-full",
-        "mobile_height": "four-fifty-height-hero--mobile",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-10",
-        "show_text_background": false,
-        "color": "",
-        "overlay_type": "disabled",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "heading_tag": "automatic"
       }
     },
     "section_announcement_qqjQ8T": {
@@ -1056,6 +1048,7 @@
     }
   },
   "order": [
+    "section_video_gbncyG",
     "section_rich_text_LBH8Lm",
     "section_hero_ywHUVn",
     "section_double_AptAaD",
@@ -1065,7 +1058,6 @@
     "section_custom_code_AaQ3Ee",
     "section_hero_KXKF4d",
     "section_double_pi63CE",
-    "section_video_gbncyG",
     "section_announcement_qqjQ8T",
     "section_multicolumn_YVyPLA",
     "section_blog_FtdhjN",
