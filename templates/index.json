@@ -87,7 +87,7 @@
         "text_6mTxMf": {
           "type": "text",
           "settings": {
-            "text": "<p>オリジナルShopifyテーマ</p>",
+            "text": "<p>Standardプラン</p>",
             "text_font_size": "body-small",
             "padding_bottom": 8
           }
@@ -95,17 +95,17 @@
         "heading_hAURjE": {
           "type": "heading",
           "settings": {
-            "title": "Cream by Solstar",
+            "title": "Shopify ECサイト リニューアル",
             "heading_font_size": "heading-x-large",
-            "heading_tag": "automatic",
+            "heading_tag": "h2",
             "padding_bottom": 8
           }
         },
         "text_PzkdL8": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>すべての機能を完全無料でお試しいただけます。</strong></p>",
-            "text_font_size": "body-medium",
+            "text": "<p>Standardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text_font_size": "body-small",
             "padding_bottom": 8
           }
         },
@@ -113,7 +113,7 @@
           "type": "button",
           "settings": {
             "link_text": "詳細を見る",
-            "link": "shopify://pages/cream-by-solstar",
+            "link": "shopify://pages/standard-plan",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
