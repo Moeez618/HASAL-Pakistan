@@ -91,21 +91,80 @@
       }
     },
     "problem": {
-      "type": "section-custom-code",
-      "name": "Custom code",
+      "type": "section-double",
+      "blocks": {
+        "sub_problem": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Problem",
+            "padding_bottom": 16
+          }
+        },
+        "heading_problem": {
+          "type": "heading",
+          "settings": {
+            "title": "自社ECの最初の壁は、\n制作ではなく「判断」です。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "lead_problem": {
+          "type": "text",
+          "settings": {
+            "text": "<p>自社ECサイトに興味はある。でも、いざ始めようとすると、考えることが一気に増えます。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "list_problem": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>制作費はいくらかかるのか。</li><li>公開後の運用は誰がやるのか。</li><li>集客はどうするのか。</li><li>商品登録や在庫管理はどう進めるのか。</li><li>決済や配送はどう設定するのか。</li><li>お客様に信頼して購入してもらえるのか。</li></ul>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "note_problem": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイトは、公開して終わりではありません。商品登録、ページ更新、在庫管理、顧客対応、キャンペーン、改善施策など、公開後も継続的な運用が必要です。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "sub_problem",
+        "heading_problem",
+        "lead_problem",
+        "list_problem",
+        "note_problem"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: var(--sp-page-accent);}"
+      ],
+      "name": "Image with text",
       "settings": {
-        "code": "{{ 'standard-plan.css' | asset_url | stylesheet_tag }}\n<style>\n  .bpl-list { max-width: 760px; margin: 8px auto 0; padding: 0; list-style: none; }\n  .bpl-list li { position: relative; margin: 0 0 12px; padding-left: 1.5em; color: var(--COLOR-TEXT); font-size: var(--font-body-medium); line-height: 1.9; }\n  .bpl-list li:last-child { margin-bottom: 0; }\n  .bpl-list li::before { content: ''; position: absolute; left: 0.2em; top: 0.78em; width: 6px; height: 6px; border-radius: 50%; background: var(--sp-page-accent); }\n  @media (min-width: 761px) { .bpl-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 12px; max-width: 920px; } .bpl-list li { margin-bottom: 0; } }\n</style>\n<section class=\"sp-sec sp-sec--problem\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Problem</p>\n      <h2 class=\"sp-title\">自社ECの最初の壁は、<br>制作ではなく「判断」です。</h2>\n      <p class=\"sp-lead\">自社ECサイトに興味はある。でも、いざ始めようとすると、考えることが一気に増えます。</p>\n    </div>\n    <ul class=\"bpl-list\">\n      <li>制作費はいくらかかるのか。</li>\n      <li>公開後の運用は誰がやるのか。</li>\n      <li>集客はどうするのか。</li>\n      <li>商品登録や在庫管理はどう進めるのか。</li>\n      <li>決済や配送はどう設定するのか。</li>\n      <li>お客様に信頼して購入してもらえるのか。</li>\n    </ul>\n    <p class=\"sp-note\">ECサイトは、公開して終わりではありません。商品登録、ページ更新、在庫管理、顧客対応、キャンペーン、改善施策など、公開後も継続的な運用が必要です。</p>\n  </div>\n</section>",
+        "image_1": "shopify://shop_images/Focus_on_problem.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
         "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
         "color_scheme": "scheme-7",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
       }
     },
     "risk": {
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<style>\n  .bpl-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 980px; margin: 0 auto; }\n  .bpl-grid3 .sp-card h3 { font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); margin: 0 0 10px; text-align: center; }\n  .bpl-grid3 .sp-card p { font-size: var(--font-body-small); color: var(--COLOR-TEXT-A80); line-height: 1.8; margin: 0; }\n  @media (max-width: 760px) { .bpl-grid3 { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--risk\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Risk</p>\n      <h2 class=\"sp-title\">Amazonや楽天などのモール型ECだけでは、<br>売上以外の資産が残りにくいことがあります。</h2>\n      <p class=\"sp-lead\">Amazonや楽天などのモール型ECは、集客力があり、販売を始めやすい大きなメリットがあります。一方で、モールだけに依存した販売では、売上が伸びるほど手数料負担が大きくなり、顧客との関係やブランド価値が自社に蓄積されにくいという課題もあります。</p>\n    </div>\n    <div class=\"bpl-grid3\">\n      <div class=\"sp-card\"><h3>売上が伸びるほど、<br>手数料負担も大きくなる</h3><p>Amazonや楽天などのモール型ECは集客力がある一方で、売上が伸びるほど、支払う手数料も大きくなります。</p></div>\n      <div class=\"sp-card\"><h3>顧客との関係を、<br>自社の資産にしにくい</h3><p>モール経由の購入では、顧客との関係がモール側に蓄積されやすく、自社でメール・LINE・CRM施策に自由に活用しづらいケースがあります。</p></div>\n      <div class=\"sp-card\"><h3>ブランドの価値が、<br>価格比較に埋もれやすい</h3><p>モールでは、同じ画面に競合商品が並びやすく、価格やスペックで比較されがちです。</p></div>\n    </div>\n  </div>\n</section>",
+        "code": "{{ 'standard-plan.css' | asset_url | stylesheet_tag }}\n<style>\n  .bpl-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 980px; margin: 0 auto; }\n  .bpl-grid3 .sp-card h3 { font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); margin: 0 0 10px; text-align: center; }\n  .bpl-grid3 .sp-card p { font-size: var(--font-body-small); color: var(--COLOR-TEXT-A80); line-height: 1.8; margin: 0; }\n  @media (max-width: 760px) { .bpl-grid3 { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--risk\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Risk</p>\n      <h2 class=\"sp-title\">Amazonや楽天などのモール型ECだけでは、<br>売上以外の資産が残りにくいことがあります。</h2>\n      <p class=\"sp-lead\">Amazonや楽天などのモール型ECは、集客力があり、販売を始めやすい大きなメリットがあります。一方で、モールだけに依存した販売では、売上が伸びるほど手数料負担が大きくなり、顧客との関係やブランド価値が自社に蓄積されにくいという課題もあります。</p>\n    </div>\n    <div class=\"bpl-grid3\">\n      <div class=\"sp-card\"><h3>売上が伸びるほど、<br>手数料負担も大きくなる</h3><p>Amazonや楽天などのモール型ECは集客力がある一方で、売上が伸びるほど、支払う手数料も大きくなります。</p></div>\n      <div class=\"sp-card\"><h3>顧客との関係を、<br>自社の資産にしにくい</h3><p>モール経由の購入では、顧客との関係がモール側に蓄積されやすく、自社でメール・LINE・CRM施策に自由に活用しづらいケースがあります。</p></div>\n      <div class=\"sp-card\"><h3>ブランドの価値が、<br>価格比較に埋もれやすい</h3><p>モールでは、同じ画面に競合商品が並びやすく、価格やスペックで比較されがちです。</p></div>\n    </div>\n  </div>\n</section>",
         "width": "wrapper--full",
         "color_scheme": "scheme-7",
         "padding_top": 0,
