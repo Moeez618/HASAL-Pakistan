@@ -1,0 +1,472 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "show_title": false,
+        "heading_font_size": "heading-large",
+        "show_content": false,
+        "text_font_size": "body-medium",
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "h2"
+      }
+    },
+    "fv": {
+      "type": "section-double",
+      "blocks": {
+        "sub": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shopifyで小さく始めて、売上に合わせて育てるBasicプラン。",
+            "padding_bottom": 16
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "モール型ECだけに依存しない、\n自社に資産が残るECサイトへ。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "h1"
+          }
+        },
+        "subcopy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ブランドの世界観、購入導線、商品登録、決済・配送設定まで整理し、公開後も、自社で育てやすい構成にできるECサイトの土台を構築します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "cta": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Basicプランで対応できるか無料で確認する",
+            "button_url": "#shopify-section-contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "sub",
+        "heading",
+        "subcopy",
+        "cta"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: var(--sp-page-accent);}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_6_30_18_35_03.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-7",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "problem": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "{{ 'standard-plan.css' | asset_url | stylesheet_tag }}\n<style>\n  .bpl-list { max-width: 760px; margin: 8px auto 0; padding: 0; list-style: none; }\n  .bpl-list li { position: relative; margin: 0 0 12px; padding-left: 1.5em; color: var(--COLOR-TEXT); font-size: var(--font-body-medium); line-height: 1.9; }\n  .bpl-list li:last-child { margin-bottom: 0; }\n  .bpl-list li::before { content: ''; position: absolute; left: 0.2em; top: 0.78em; width: 6px; height: 6px; border-radius: 50%; background: var(--sp-page-accent); }\n  @media (min-width: 761px) { .bpl-list { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 12px; max-width: 920px; } .bpl-list li { margin-bottom: 0; } }\n</style>\n<section class=\"sp-sec sp-sec--problem\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Problem</p>\n      <h2 class=\"sp-title\">自社ECの最初の壁は、<br>制作ではなく「判断」です。</h2>\n      <p class=\"sp-lead\">自社ECサイトに興味はある。でも、いざ始めようとすると、考えることが一気に増えます。</p>\n    </div>\n    <ul class=\"bpl-list\">\n      <li>制作費はいくらかかるのか。</li>\n      <li>公開後の運用は誰がやるのか。</li>\n      <li>集客はどうするのか。</li>\n      <li>商品登録や在庫管理はどう進めるのか。</li>\n      <li>決済や配送はどう設定するのか。</li>\n      <li>お客様に信頼して購入してもらえるのか。</li>\n    </ul>\n    <p class=\"sp-note\">ECサイトは、公開して終わりではありません。商品登録、ページ更新、在庫管理、顧客対応、キャンペーン、改善施策など、公開後も継続的な運用が必要です。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "risk": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 980px; margin: 0 auto; }\n  .bpl-grid3 .sp-card h3 { font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); margin: 0 0 10px; text-align: center; }\n  .bpl-grid3 .sp-card p { font-size: var(--font-body-small); color: var(--COLOR-TEXT-A80); line-height: 1.8; margin: 0; }\n  @media (max-width: 760px) { .bpl-grid3 { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--risk\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Risk</p>\n      <h2 class=\"sp-title\">Amazonや楽天などのモール型ECだけでは、<br>売上以外の資産が残りにくいことがあります。</h2>\n      <p class=\"sp-lead\">Amazonや楽天などのモール型ECは、集客力があり、販売を始めやすい大きなメリットがあります。一方で、モールだけに依存した販売では、売上が伸びるほど手数料負担が大きくなり、顧客との関係やブランド価値が自社に蓄積されにくいという課題もあります。</p>\n    </div>\n    <div class=\"bpl-grid3\">\n      <div class=\"sp-card\"><h3>売上が伸びるほど、<br>手数料負担も大きくなる</h3><p>Amazonや楽天などのモール型ECは集客力がある一方で、売上が伸びるほど、支払う手数料も大きくなります。</p></div>\n      <div class=\"sp-card\"><h3>顧客との関係を、<br>自社の資産にしにくい</h3><p>モール経由の購入では、顧客との関係がモール側に蓄積されやすく、自社でメール・LINE・CRM施策に自由に活用しづらいケースがあります。</p></div>\n      <div class=\"sp-card\"><h3>ブランドの価値が、<br>価格比較に埋もれやすい</h3><p>モールでは、同じ画面に競合商品が並びやすく、価格やスペックで比較されがちです。</p></div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "philosophy": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-msg { max-width: 720px; margin: 0 auto; text-align: center; }\n  .bpl-msg__divider { width: 40px; height: 2px; margin: 0 auto 28px; background: var(--sp-page-accent); border: 0; }\n  .bpl-msg p { margin: 0 0 24px; color: var(--COLOR-TEXT-A80); font-size: var(--font-body-medium); line-height: 2; }\n  .bpl-msg p:last-child { margin-bottom: 0; }\n  .bpl-msg .bpl-msg__lead { margin: 0 0 24px; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-style: var(--FONT-STYLE-HEADING); font-weight: var(--FONT-WEIGHT-HEADING); font-size: var(--font-heading-small); line-height: 1.7; }\n</style>\n<section class=\"sp-sec sp-sec--philosophy\">\n  <div class=\"sp-inner\">\n    <div class=\"bpl-msg\">\n      <hr class=\"bpl-msg__divider\">\n      <p>自社ECサイトに必要なのは、最初から完璧なサイトを作ることではありません。</p>\n      <p class=\"bpl-msg__lead\">まずは販売に必要な機能に絞り、自社の資産として育てていける土台を整えることです。</p>\n      <p>売上だけでなく、顧客との関係やブランド価値も自社に残していく。それが、Basicプランの考え方です。</p>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "scope": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<section class=\"sp-sec sp-sec--scope-list\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Scope</p>\n      <h2 class=\"sp-title\">Basicプランでできること</h2>\n      <p class=\"sp-lead\">SOLSTARのBasicプランでは、Shopifyで自社ECを始めるために必要な基本構築をまとめて対応します。</p>\n    </div>\n    <ul class=\"sp-checklist sp-checklist--grid\">\n      <li>コンセプト定義</li>\n      <li>要件定義</li>\n      <li>Shopify初期セットアップ</li>\n      <li>決済・配送・税設定</li>\n      <li>ECサイトデザイン制作</li>\n      <li>商品登録：20点</li>\n      <li>カテゴリ・コレクション登録：6点</li>\n      <li>アプリ連携：3点</li>\n      <li>オリジナルページ制作：3ページ</li>\n      <li>購入テスト・表示確認</li>\n    </ul>\n    <p class=\"sp-note\">商品数や機能を必要な範囲に絞ることで、過剰な開発を抑えながら、自社ECに必要な販売基盤を整えます。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "benefit": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<section class=\"sp-sec sp-sec--benefit3\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Benefit</p>\n      <h2 class=\"sp-title\">Basicプランで得られること</h2>\n    </div>\n    <div class=\"sp-flow\">\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>01</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">自社に利益・顧客・ブランド価値が残る販売基盤を作れる</h3><p class=\"sp-flow__desc\">モールだけに頼らず、自社でも販売できるECサイトの土台を整えます。売上だけでなく、顧客との関係やブランド価値も自社に蓄積しやすい状態を目指します。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>02</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">ブランドの世界観を反映できる</h3><p class=\"sp-flow__desc\">ブランドの方向性、商品の魅力、ターゲットに伝えるべき価値を整理しながら、ECサイトの土台を作ります。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>03</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">検索エンジンやAIに伝わりやすい情報設計を整えられる</h3><p class=\"sp-flow__desc\">商品情報、カテゴリ、ブランド情報、FAQなどを整理し、検索エンジンやAIに内容を理解されやすいECサイトの土台を整えます。</p></div></div>\n      <div class=\"sp-flow__item\"><div class=\"sp-flow__no\"><strong>04</strong></div><div class=\"sp-flow__body\"><h3 class=\"sp-flow__title\">公開後も、自社で育てやすい構成にできる</h3><p class=\"sp-flow__desc\">商品追加、ページ更新、情報修正などを自社で進めやすい構成にすることで、公開後の運用もしやすくします。</p></div></div>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "expertise_intro": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-msg { max-width: 720px; margin: 0 auto; text-align: center; }\n  .bpl-msg__divider { width: 40px; height: 2px; margin: 0 auto 28px; background: var(--sp-page-accent); border: 0; }\n  .bpl-msg p { margin: 0 0 24px; color: var(--COLOR-TEXT-A80); font-size: var(--font-body-medium); line-height: 2; }\n  .bpl-msg p:last-child { margin-bottom: 0; }\n  .bpl-msg .bpl-msg__lead { margin: 0 0 24px; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-style: var(--FONT-STYLE-HEADING); font-weight: var(--FONT-WEIGHT-HEADING); font-size: var(--font-heading-small); line-height: 1.7; }\n</style>\n<section class=\"sp-sec sp-sec--expertise-intro\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Expertise</p>\n      <h2 class=\"sp-title\">大規模ECの知見を、<br>始めやすい自社ECの土台作りへ。</h2>\n    </div>\n    <div class=\"bpl-msg\">\n      <p>SOLSTARは、Shopifyを活用したECサイト構築・運用を支援してきたECパートナーです。</p>\n      <p>小規模ブランドの立ち上げから、Shopify Plusの大規模サイト構築・長期運用、越境ECまで、さまざまなフェーズのECに関わってきました。</p>\n      <p>Basicプランでは、その知見をもとに、商品数を絞った自社ECの立ち上げに必要な範囲へ絞って構築します。</p>\n      <p>ただ見た目を整えるだけではなく、ブランドの伝わり方、購入導線、公開後の更新しやすさまで考えて設計します。</p>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_double_expertise": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_exp": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Expertise",
+            "padding_bottom": 16
+          }
+        },
+        "heading_exp": {
+          "type": "heading",
+          "settings": {
+            "title": "実績と専門性",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_exp": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "text_exp_note": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※掲載の売上・開発費は、当社が構築・運用を担当した対象サイトの規模を示すものです。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_exp": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは無料で相談してみる",
+            "button_url": "#shopify-section-contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_exp",
+        "heading_exp",
+        "text_exp",
+        "text_exp_note",
+        "buttons_exp"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: var(--sp-page-accent);}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "stats": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- 実績ハイライト - SOLSTAR -->\n<div class=\"solstar-stats\">\n  <div class=\"solstar-stats__grid\">\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"100\"\n           data-decimals=\"0\"\n           data-suffix=\"億円以上\">\n        100億円以上\n      </div>\n      <div class=\"solstar-stats__label\">支援先ECサイトの年間売上規模</div>\n    </div>\n\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"13\"\n           data-decimals=\"0\"\n           data-suffix=\"％\">\n        13％\n      </div>\n      <div class=\"solstar-stats__label\">表示速度改善率</div>\n    </div>\n\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"4.37\"\n           data-decimals=\"2\"\n           data-suffix=\"％\">\n        4.37％\n      </div>\n      <div class=\"solstar-stats__label\">新規顧客の購入CVR</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .solstar-stats {\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 48px 16px;\n    background-color: var(--COLOR-BG);\n  }\n\n  .solstar-stats__grid {\n    display: grid;\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n    gap: 32px;\n  }\n\n  .solstar-stats__item {\n    text-align: center;\n    padding: 24px 16px;\n    opacity: 1;\n    transform: translateY(0);\n    transition:\n      opacity 0.6s ease-out,\n      transform 0.6s ease-out;\n  }\n\n  .solstar-stats.is-animated .solstar-stats__item:not(.is-visible) {\n    opacity: 0;\n    transform: translateY(24px);\n  }\n\n  .solstar-stats__item.is-visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  .solstar-stats__value {\n    font-weight: 700;\n    letter-spacing: 0;\n    font-size: clamp(40px, 4.2vw, 55px);\n    line-height: 1.1;\n    margin-bottom: 8px;\n    font-feature-settings: \"pnum\" on, \"lnum\" on;\n    color: var(--COLOR-TEXT);\n    white-space: nowrap;\n    word-break: keep-all;\n  }\n\n  .solstar-stats__label {\n    font-size: 20px;\n    font-weight: 700;\n    line-height: 1.6;\n    letter-spacing: 0;\n    color: var(--sp-page-accent);\n  }\n\n  @media (max-width: 767px) {\n    .solstar-stats {\n      padding: 32px 16px;\n    }\n\n    .solstar-stats__grid {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n\n    .solstar-stats__item {\n      padding: 20px 16px;\n    }\n\n    .solstar-stats__value {\n      font-size: clamp(38px, 12vw, 44px);\n    }\n\n    .solstar-stats__label {\n      font-size: 17px;\n    }\n  }\n</style>\n\n<script>\n  (function () {\n    function initSolstarStats() {\n      var sections = document.querySelectorAll('.solstar-stats');\n\n      if (!sections.length) return;\n\n      sections.forEach(function (section) {\n        if (section.dataset.solstarStatsInitialized === 'true') return;\n        section.dataset.solstarStatsInitialized = 'true';\n\n        var items = section.querySelectorAll('.solstar-stats__item');\n        var values = section.querySelectorAll('.solstar-stats__value');\n        var animated = false;\n\n        section.classList.add('is-animated');\n\n        function animateNumbers() {\n          if (animated) return;\n          animated = true;\n\n          values.forEach(function (el) {\n            var target = parseFloat(el.getAttribute('data-value') || '0');\n            var decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);\n            var suffix = el.getAttribute('data-suffix') || '';\n            var duration = 1500;\n            var start = null;\n\n            el.textContent = (0).toFixed(decimals) + suffix;\n\n            function step(timestamp) {\n              if (!start) start = timestamp;\n\n              var progress = Math.min((timestamp - start) / duration, 1);\n              var easedProgress = 1 - Math.pow(1 - progress, 3);\n              var current = target * easedProgress;\n\n              el.textContent = current.toFixed(decimals) + suffix;\n\n              if (progress < 1) {\n                window.requestAnimationFrame(step);\n              } else {\n                el.textContent = target.toFixed(decimals) + suffix;\n              }\n            }\n\n            window.requestAnimationFrame(step);\n          });\n        }\n\n        function revealItems() {\n          items.forEach(function (item, index) {\n            item.style.transitionDelay = (index * 0.12) + 's';\n            item.classList.add('is-visible');\n          });\n        }\n\n        function runAnimation() {\n          revealItems();\n          animateNumbers();\n        }\n\n        function isInViewport(el) {\n          var rect = el.getBoundingClientRect();\n          var windowHeight = window.innerHeight || document.documentElement.clientHeight;\n\n          return rect.top < windowHeight * 0.85 && rect.bottom > 0;\n        }\n\n        if ('IntersectionObserver' in window) {\n          var observer = new IntersectionObserver(function (entries) {\n            entries.forEach(function (entry) {\n              if (entry.isIntersecting) {\n                runAnimation();\n                observer.unobserve(section);\n              }\n            });\n          }, {\n            root: null,\n            threshold: 0.2\n          });\n\n          observer.observe(section);\n\n          setTimeout(function () {\n            if (!animated && isInViewport(section)) {\n              runAnimation();\n              observer.unobserve(section);\n            }\n          }, 300);\n        } else {\n          runAnimation();\n        }\n      });\n    }\n\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', initSolstarStats);\n    } else {\n      initSolstarStats();\n    }\n\n    window.addEventListener('load', initSolstarStats);\n\n    document.addEventListener('shopify:section:load', function () {\n      initSolstarStats();\n    });\n  })();\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "growth": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-steps { max-width: 760px; margin: 28px auto 0; padding: 0; list-style: none; counter-reset: bpl-step; border-top: 1px solid var(--sp-page-border); }\n  .bpl-steps li { position: relative; counter-increment: bpl-step; padding: 22px 0 22px 64px; border-bottom: 1px solid var(--sp-page-border); color: var(--COLOR-TEXT); font-size: var(--font-body-medium); line-height: 1.8; }\n  .bpl-steps li::before { content: counter(bpl-step, decimal-leading-zero); position: absolute; top: 22px; left: 0; color: var(--sp-page-accent); font-family: var(--FONT-STACK-SUBHEADING); font-weight: var(--FONT-WEIGHT-SUBHEADING); font-size: var(--font-subheading); letter-spacing: var(--LETTER-SPACING-SUBHEADING); }\n  .bpl-steps-lead { max-width: 820px; margin: 0 auto; text-align: center; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); line-height: 1.6; }\n</style>\n<section class=\"sp-sec sp-sec--growth\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Growth</p>\n      <h2 class=\"sp-title\">自社ECは、<br>公開してから育てていくものです。</h2>\n      <p class=\"sp-lead\">Basicプランは、自社ECサイトで販売できる状態を整えるためのプランです。一方で、自社ECは公開してからが本番です。SEO、SNS、広告、メール、LINEなどを通じて、見込み客を集め続ける必要があります。</p>\n    </div>\n    <p class=\"bpl-steps-lead\">Basicプランで土台を作ったあとは、次のように段階的に育てていけます。</p>\n    <ol class=\"bpl-steps\">\n      <li>まずは自分たちで運用しながら、売れる兆しを確かめる</li>\n      <li>反応が見えてきたら、商品・ページ・アプリを少しずつ広げる</li>\n      <li>手が回らなくなってきたら、運用・改善のサポートに切り替える</li>\n    </ol>\n    <p class=\"sp-note\">公開後の運用・集客サポートが必要になった際も、フェーズに合わせてご提案します。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "offer": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-price-card { max-width: 920px; margin: 0 auto; border: 1px solid var(--sp-page-accent); border-radius: var(--sp-page-card-radius); background: var(--COLOR-TEXT-A5); padding: 32px; }\n  .bpl-price-card__name { margin: 0 0 6px; font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); color: var(--COLOR-TEXT); }\n  .bpl-price-card__price { margin: 0 0 10px; font-family: var(--FONT-STACK-HEADING); font-size: clamp(28px, 4vw, 40px); line-height: 1.2; color: var(--COLOR-TEXT); }\n  .bpl-price-card__price small { font-size: var(--font-body-medium); }\n  .bpl-price-card__for { margin: 0 0 24px; color: var(--COLOR-TEXT-A80); font-size: var(--font-body-small); line-height: 1.8; }\n  .bpl-price-card__sub { margin: 0 0 14px; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); }\n  .bpl-scope { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 28px; margin: 0 0 24px; padding: 0; list-style: none; }\n  .bpl-scope li { position: relative; padding-left: 1.5em; color: var(--COLOR-TEXT); font-size: var(--font-body-small); line-height: 1.7; }\n  .bpl-scope li::before { content: ''; position: absolute; left: 0.2em; top: 0.78em; width: 6px; height: 6px; border-radius: 50%; background: var(--sp-page-accent); }\n  .bpl-spec { display: grid; grid-template-columns: 1fr 1fr; gap: 0 32px; margin: 0 0 20px; padding: 0; list-style: none; }\n  .bpl-spec li { display: flex; justify-content: space-between; gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--sp-page-border); font-size: var(--font-body-small); }\n  .bpl-spec li > span:first-child { color: var(--COLOR-TEXT-A80); white-space: nowrap; }\n  .bpl-spec li > span:last-child { color: var(--COLOR-TEXT); font-weight: var(--FONT-WEIGHT-BODY-BOLD); text-align: right; }\n  .bpl-price-card__note { margin: 0; color: var(--COLOR-TEXT-A80); font-size: var(--font-body-small); line-height: 1.9; }\n  @media (max-width: 760px) { .bpl-scope, .bpl-spec { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--offer\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Offer</p>\n      <h2 class=\"sp-title\">Basicプラン</h2>\n      <p class=\"sp-lead\">必要な範囲に絞って、Shopify自社ECを立ち上げる構築プランです。</p>\n    </div>\n    <div class=\"bpl-price-card\">\n      <p class=\"bpl-price-card__name\">Basicプラン</p>\n      <p class=\"bpl-price-card__price\">1,100,000円<small>（税込）〜</small></p>\n      <p class=\"bpl-price-card__for\">Shopifyで小さく始めて、売上に合わせて育てる、自社EC構築プランです。</p>\n      <p class=\"bpl-price-card__sub\">構築内容</p>\n      <ul class=\"bpl-scope\">\n        <li>コンセプト定義・要件定義</li>\n        <li>Shopify初期セットアップ・決済・配送・税設定</li>\n        <li>ECサイトデザイン制作</li>\n        <li>商品登録 20点 / カテゴリ・コレクション登録 6点</li>\n        <li>アプリ連携 3点 / オリジナルページ制作 3ページ</li>\n        <li>購入テスト・表示確認</li>\n      </ul>\n      <ul class=\"bpl-spec\">\n        <li><span>納期</span><span>約4〜8週間</span></li>\n        <li><span>体制</span><span>ディレクター1名 / エンジニア1名</span></li>\n        <li><span>進捗打ち合わせ</span><span>3回</span></li>\n        <li><span>修正対応</span><span>3回まで</span></li>\n      </ul>\n      <p class=\"bpl-price-card__note\">進捗打ち合わせ3回は、要件確認／構築内容確認／公開前確認を予定しています。※大幅な仕様変更は別途お見積りとなります。</p>\n    </div>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "exclusions": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-list2 { max-width: 760px; margin: 8px auto 0; padding: 0; list-style: none; }\n  .bpl-list2 li { position: relative; margin: 0 0 12px; padding-left: 1.5em; color: var(--COLOR-TEXT); font-size: var(--font-body-medium); line-height: 1.9; }\n  .bpl-list2 li:last-child { margin-bottom: 0; }\n  .bpl-list2 li::before { content: ''; position: absolute; left: 0.2em; top: 0.78em; width: 6px; height: 6px; border-radius: 50%; background: var(--sp-page-accent); }\n  @media (min-width: 761px) { .bpl-list2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 12px; max-width: 820px; } .bpl-list2 li { margin-bottom: 0; } }\n</style>\n<section class=\"sp-sec sp-sec--exclusions\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Note</p>\n      <h2 class=\"sp-title\">別途費用となるもの</h2>\n      <p class=\"sp-lead\">以下はBasicプランの料金には含まれません。</p>\n    </div>\n    <ul class=\"bpl-list2\">\n      <li>Shopifyの月額利用料</li>\n      <li>各種アプリの利用料</li>\n      <li>追加ページ制作</li>\n      <li>追加アプリ実装</li>\n      <li>バナー画像制作</li>\n      <li>納品後の保守・運用</li>\n      <li>越境対応</li>\n      <li>外部システム連携</li>\n      <li>POS連携</li>\n      <li>独自アプリ開発</li>\n    </ul>\n    <p class=\"sp-note\">必要に応じて、別途お見積りいたします。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "narrow": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n  .bpl-fit { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 980px; margin: 0 auto; }\n  .bpl-fit .sp-card h3 { font-family: var(--FONT-STACK-HEADING); font-size: var(--font-heading-small); margin: 0 0 16px; text-align: center; }\n  .bpl-fit .sp-card.is-fit h3 { color: var(--sp-page-accent); }\n  .bpl-fit .sp-card ul { margin: 0; padding: 0; list-style: none; }\n  .bpl-fit .sp-card li { position: relative; padding-left: 1.5em; font-size: var(--font-body-small); color: var(--COLOR-TEXT-A80); line-height: 1.9; margin-bottom: 10px; }\n  .bpl-fit .sp-card li:last-child { margin-bottom: 0; }\n  .bpl-fit .sp-card li::before { content: ''; position: absolute; left: 0.2em; top: 0.78em; width: 6px; height: 6px; border-radius: 50%; background: var(--sp-page-accent); }\n  @media (max-width: 760px) { .bpl-fit { grid-template-columns: 1fr; } }\n</style>\n<section class=\"sp-sec sp-sec--narrow\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Narrow</p>\n      <h2 class=\"sp-title\">正直にお伝えします。<br>Basicプランが向いている企業、向いていない企業があります。</h2>\n    </div>\n    <div class=\"bpl-fit\">\n      <div class=\"sp-card is-fit\"><h3>Basicプランが向いている企業</h3><ul><li>自社ECサイトを立ち上げたい企業</li><li>商品数を絞って、まずは販売基盤を整えたい企業</li><li>まずは自社ECで売れるかを検証したい企業</li><li>ブランドの世界観を反映したECサイトを作りたい企業</li><li>モールやSNSだけに頼らず、自社の販売拠点を作りたい企業</li><li>公開後は、自社で商品追加や更新を行っていきたい企業</li></ul></div>\n      <div class=\"sp-card\"><h3>上位プランが向いているケース</h3><ul><li>最初から大量の商品登録が必要な企業</li><li>独自機能や複雑なカスタマイズが必要な企業</li><li>基幹システム、POS、倉庫システムなど外部連携が必要な企業</li><li>越境EC、多言語、多通貨対応を本格的に進めたい企業</li><li>広告運用や日々の更新まで丸ごと依頼したい企業</li><li>すでに売上規模が大きく、リニューアルや運用改善まで含めた設計が必要な企業</li></ul></div>\n    </div>\n    <p class=\"sp-note\">Basicプランは、すべての企業に向けたプランではありません。まずは必要な範囲に絞って、自社ECの販売基盤を整えたい企業に向いています。</p>\n  </div>\n</section>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "action": {
+      "type": "section-rich-text",
+      "blocks": {
+        "sub_action": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Action",
+            "padding_bottom": 16
+          }
+        },
+        "heading_action": {
+          "type": "heading",
+          "settings": {
+            "title": "まずは、販売できる土台から\n始めませんか。",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_action": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Basicプランでは、商品登録、カテゴリ設計、アプリ連携、オリジナルページ制作、購入テスト・表示確認まで、販売開始に必要な基本構築をまとめて対応します。</p><p>小さく始めながら、自社ECの土台を整える。そして、売れる兆しが見えてから、ページ、商品、施策、運用体制を広げていく。それが、失敗しにくい自社ECの始め方です。</p><p>自社ECの第一歩として、まずはBasicプランをご検討ください。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "cta_action": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Basicプランで対応できるか無料で相談する",
+            "button_url": "#shopify-section-contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "sub_action",
+        "heading_action",
+        "text_action",
+        "cta_action"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: var(--sp-page-accent);}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "overlay_type": "disabled",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "contact": {
+      "type": "contact-form",
+      "blocks": {
+        "name": {
+          "type": "name",
+          "settings": {
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
+            "required": true
+          }
+        },
+        "email": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "heading": "メールアドレス",
+            "required": true
+          }
+        },
+        "tel": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number",
+            "heading": "電話番号",
+            "required": false
+          }
+        },
+        "company": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "heading": "会社名・屋号",
+            "required": true
+          }
+        },
+        "status": {
+          "type": "select",
+          "settings": {
+            "title": "現在の販売状況",
+            "required": true,
+            "label-one": "モール型ECのみ（Amazon・楽天等）",
+            "label-two": "SNS販売のみ",
+            "label-three": "実店舗のみ",
+            "label-four": "自社ECサイトあり（リニューアル検討）",
+            "label-five": "まだ販売していない（これから）",
+            "label-six": "その他"
+          }
+        },
+        "message": {
+          "type": "body",
+          "settings": {
+            "title": "ご相談内容・伝えたいブランドの魅力など（任意）",
+            "heading": "",
+            "required": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "tel",
+        "company",
+        "status",
+        "message"
+      ],
+      "custom_css": [
+        ".contact__form__subheading {text-align: center; color: var(--sp-page-accent);}"
+      ],
+      "settings": {
+        "subheading": "Free Consultation",
+        "title": "Basicプランの無料相談・お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-7",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "seo_jsonld": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://www.solstar.co.jp/#organization\",\n      \"name\": \"株式会社SOLSTAR\",\n      \"url\": \"https://www.solstar.co.jp\",\n      \"description\": \"ShopifyによるECサイト構築・伴走支援を行う制作会社。\"\n    },\n    {\n      \"@type\": \"WebPage\",\n      \"@id\": \"{{ canonical_url }}#webpage\",\n      \"url\": \"{{ canonical_url }}\",\n      \"name\": \"自社ECサイト構築 Basicプラン｜SOLSTAR\",\n      \"description\": \"Shopifyで小さく始めて、売上に合わせて育てる自社ECサイト構築プラン「Basicプラン」。ブランドの世界観、購入導線、商品登録、決済・配送設定まで整理し、公開後も自社で育てやすいECサイトの土台を構築します。\",\n      \"inLanguage\": \"ja\",\n      \"about\": { \"@id\": \"{{ canonical_url }}#service\" },\n      \"audience\": {\n        \"@type\": \"Audience\",\n        \"audienceType\": \"自社ECサイトの立ち上げを検討する企業\"\n      }\n    },\n    {\n      \"@type\": \"Service\",\n      \"@id\": \"{{ canonical_url }}#service\",\n      \"name\": \"自社ECサイト構築 Basicプラン\",\n      \"serviceType\": \"Shopify自社ECサイト構築\",\n      \"description\": \"必要な範囲に絞って自社ECサイトを立ち上げるShopify構築プラン。コンセプト定義、要件定義、初期セットアップ、デザイン制作、商品登録、アプリ連携、オリジナルページ制作、購入テストまで対応します。\",\n      \"provider\": { \"@id\": \"https://www.solstar.co.jp/#organization\" },\n      \"areaServed\": { \"@type\": \"Country\", \"name\": \"日本\" },\n      \"audience\": {\n        \"@type\": \"Audience\",\n        \"audienceType\": \"自社ECサイトの立ち上げを検討する企業\"\n      },\n      \"offers\": {\n        \"@type\": \"Offer\",\n        \"name\": \"Basicプラン\",\n        \"priceCurrency\": \"JPY\",\n        \"price\": \"1100000\",\n        \"description\": \"小規模・少数SKUで自社ECを始めたい企業向け。構築期間の目安は約4〜8週間（税込1,100,000円〜）。\",\n        \"url\": \"{{ canonical_url }}\"\n      }\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"itemListElement\": [\n        { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"ホーム\", \"item\": \"{{ shop.url }}\" },\n        { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"自社ECサイト構築 Basicプラン\", \"item\": \"{{ canonical_url }}\" }\n      ]\n    }\n  ]\n}\n</script>",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "scroll_to_form": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<script>\n  (function () {\n    function getForm() { return document.querySelector('.index-contact'); }\n\n    function headerOffset() {\n      var off = 0;\n      var els = document.querySelectorAll('header, [class*=\"header\"], [class*=\"Header\"]');\n      for (var i = 0; i < els.length; i++) {\n        var el = els[i], s = window.getComputedStyle(el);\n        if ((s.position === 'fixed' || s.position === 'sticky') && el.offsetHeight && el.getBoundingClientRect().top <= 1) {\n          off = Math.max(off, el.offsetHeight);\n        }\n      }\n      return off;\n    }\n\n    function jumpToForm() {\n      var form = getForm();\n      if (!form) return;\n      var top = form.getBoundingClientRect().top + window.pageYOffset - headerOffset() - 12;\n      window.scrollTo({ top: top < 0 ? 0 : top, behavior: 'smooth' });\n    }\n\n    // Make every CTA button (a.btn) scroll to the contact form (now and in the future).\n    document.addEventListener('click', function (e) {\n      var trigger = e.target.closest('a.btn');\n      if (!trigger) return;\n      var form = getForm();\n      if (!form || form.contains(trigger)) return;\n      e.preventDefault();\n      jumpToForm();\n    });\n\n    // Also point the native href at the real section id (fallback / correct anchor).\n    function fixHrefs() {\n      var form = getForm();\n      if (!form) return;\n      var wrap = form.closest('[id^=\"shopify-section-\"]');\n      if (!wrap) return;\n      var btns = document.querySelectorAll('a.btn');\n      for (var i = 0; i < btns.length; i++) {\n        if (!form.contains(btns[i])) btns[i].setAttribute('href', '#' + wrap.id);\n      }\n    }\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', fixHrefs);\n    } else {\n      fixHrefs();\n    }\n  })();\n</script>",
+        "width": "wrapper",
+        "color_scheme": "scheme-7",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fv",
+    "problem",
+    "risk",
+    "philosophy",
+    "scope",
+    "benefit",
+    "expertise_intro",
+    "section_double_expertise",
+    "stats",
+    "growth",
+    "offer",
+    "exclusions",
+    "narrow",
+    "action",
+    "contact",
+    "seo_jsonld",
+    "scroll_to_form"
+  ]
+}
