@@ -56,7 +56,7 @@
         "cta": {
           "type": "buttons",
           "settings": {
-            "button_text": "Basicプランで対応できるか無料で確認する",
+            "button_text": "無料で相談してみる",
             "button_url": "#shopify-section-contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -194,7 +194,7 @@
         "buttons_exp": {
           "type": "buttons",
           "settings": {
-            "button_text": "まずは無料で相談してみる",
+            "button_text": "無料で相談してみる",
             "button_url": "#shopify-section-contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -263,17 +263,6 @@
         "padding_bottom": 0
       }
     },
-    "exclusions": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "<style>\n  .bpl-list2 { max-width: 760px; margin: 8px auto 0; padding: 0; list-style: none; }\n  .bpl-list2 li { position: relative; margin: 0 0 12px; padding-left: 1.5em; color: var(--COLOR-TEXT); font-size: var(--font-body-medium); line-height: 1.9; }\n  .bpl-list2 li:last-child { margin-bottom: 0; }\n  .bpl-list2 li::before { content: ''; position: absolute; left: 0.2em; top: 0.78em; width: 6px; height: 6px; border-radius: 50%; background: var(--sp-page-accent); }\n  @media (min-width: 761px) { .bpl-list2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 40px; row-gap: 12px; max-width: 820px; } .bpl-list2 li { margin-bottom: 0; } }\n</style>\n<section class=\"sp-sec sp-sec--exclusions\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Note</p>\n      <h2 class=\"sp-title\">別途費用となるもの</h2>\n      <p class=\"sp-lead\">以下はBasicプランの料金には含まれません。</p>\n    </div>\n    <ul class=\"bpl-list2\">\n      <li>Shopifyの月額利用料</li>\n      <li>各種アプリの利用料</li>\n      <li>追加ページ制作</li>\n      <li>追加アプリ実装</li>\n      <li>バナー画像制作</li>\n      <li>納品後の保守・運用</li>\n      <li>越境対応</li>\n      <li>外部システム連携</li>\n      <li>POS連携</li>\n      <li>独自アプリ開発</li>\n    </ul>\n    <p class=\"sp-note\">必要に応じて、別途お見積りいたします。</p>\n  </div>\n</section>",
-        "width": "wrapper--full",
-        "color_scheme": "scheme-7",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "narrow": {
       "type": "section-custom-code",
       "name": "Custom code",
@@ -315,7 +304,7 @@
         "cta_action": {
           "type": "buttons",
           "settings": {
-            "button_text": "Basicプランで対応できるか無料で相談する",
+            "button_text": "無料で相談してみる",
             "button_url": "#shopify-section-contact",
             "button_type": "btn--primary",
             "button_size": "",
@@ -462,7 +451,6 @@
     "stats",
     "growth",
     "offer",
-    "exclusions",
     "narrow",
     "action",
     "contact",
