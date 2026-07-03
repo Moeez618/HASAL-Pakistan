@@ -138,7 +138,9 @@
         "heading_mwxG8e",
         "text_m4UgTi"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Rich text",
       "settings": {
         "align_text": "text-center",
@@ -157,7 +159,7 @@
           "settings": {
             "text": "<p><strong>STANDARDプラン</strong></p>",
             "text_font_size": "body-x-small",
-            "padding_bottom": 16
+            "padding_bottom": 10
           }
         },
         "heading_hAURjE": {
@@ -197,7 +199,9 @@
         "text_PzkdL8",
         "button_FFFgqn"
       ],
-      "custom_css": [".hero__description.body-x-small { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__description.body-x-small {color: #ab8c52;}"
+      ],
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
@@ -276,7 +280,9 @@
         "buttons_Rt7QaN",
         "buttons_4C89nG"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
@@ -339,7 +345,9 @@
         "text_JAawQi",
         "buttons_3McXLw"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "image_1": "shopify://shop_images/Solstar_Express_Image_copy.webp",
         "image_width": "one-half",
@@ -401,8 +409,10 @@
         "text_METDwq",
         "buttons_jNhDXL"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
       "disabled": true,
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Two_Iphones_copy.png",
@@ -474,7 +484,9 @@
         "text_iVtXhb",
         "buttons_hFaaNK"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_Black_Version_copy.png",
         "image_width": "one-half",
@@ -560,8 +572,10 @@
         "text_YdXDMN",
         "button_UkgqyV"
       ],
-      "custom_css": [".hero__description.body-x-small { color: #AB8C52; }"],
       "disabled": true,
+      "custom_css": [
+        ".hero__description.body-x-small {color: #ab8c52;}"
+      ],
       "name": "Image banner",
       "settings": {
         "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_31_55.png",
@@ -635,8 +649,10 @@
         "icon_GARgGW",
         "icon_NLgcEe"
       ],
-      "custom_css": [".grid__subheading { color: #AB8C52; margin-bottom: 16px; }"],
       "disabled": true,
+      "custom_css": [
+        ".grid__subheading {color: #ab8c52; margin-bottom: 16px;}"
+      ],
       "name": "Multi column",
       "settings": {
         "subheading": "Why SOLSTAR",
@@ -668,7 +684,9 @@
       "block_order": [
         "featured_post_CbFCdc"
       ],
-      "custom_css": [".editorial__subheading { color: #AB8C52; padding-bottom: 16px; }"],
+      "custom_css": [
+        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px;}"
+      ],
       "name": "Featured blog posts",
       "settings": {
         "show_author": false,
@@ -766,7 +784,9 @@
         "image_taieYG",
         "newsletter_pA7FUr"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; margin-bottom: 16px; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52; margin-bottom: 16px;}"
+      ],
       "name": "Newsletter",
       "settings": {
         "width": "wrapper--full",
@@ -1050,7 +1070,9 @@
         "question_6",
         "question_7"
       ],
-      "custom_css": [".accordion__subheading { color: #AB8C52; margin-bottom: 16px; }"],
+      "custom_css": [
+        ".accordion__subheading {color: #ab8c52; margin-bottom: 16px;}"
+      ],
       "settings": {
         "heading_font_size": "heading-medium",
         "question_font_size": "heading-small",
@@ -1116,7 +1138,9 @@
         "text_tx8jki",
         "buttons_DMXQEk"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Secret_Doc_copy.jpg",
@@ -1166,7 +1190,9 @@
         "heading_qArXnM",
         "text_PYKqxD"
       ],
-      "custom_css": [".hero__subheading { color: #AB8C52; }"],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
       "settings": {
         "align_text": "text-center",
         "width": "wrapper--narrow",
@@ -1268,7 +1294,9 @@
         "select_GTz36X",
         "Options-select"
       ],
-      "custom_css": [".contact__form__subheading { color: #AB8C52; margin-bottom: 16px; }"],
+      "custom_css": [
+        ".contact__form__subheading {color: #ab8c52; margin-bottom: 16px;}"
+      ],
       "settings": {
         "subheading": "Contact",
         "title": "お問い合わせ",
