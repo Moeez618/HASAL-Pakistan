@@ -685,8 +685,9 @@
         "featured_post_CbFCdc"
       ],
       "custom_css": [
-        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px;}",
-        ".editorial__content {margin-top: 0;}"
+        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px; margin-bottom: 0;}",
+        ".editorial__content {margin: 0;}",
+        ".editorial__aside-inner[data-subheading]::after {display: none;}"
       ],
       "name": "Featured blog posts",
       "settings": {
