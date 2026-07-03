@@ -409,11 +409,18 @@
     "section_double_qLiMQE": {
       "type": "section-double",
       "blocks": {
+        "subheading_yqbGdh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Expertise",
+            "padding_bottom": 16
+          }
+        },
         "heading_WDH9rM": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyアカデミー認定資格を3種取得",
-            "heading_font_size": "heading-large",
+            "title": "実績と専門性",
+            "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -421,8 +428,16 @@
         "text_FiRFdK": {
           "type": "text",
           "settings": {
-            "text": "<p>当社は、Shopifyの開発・運営・B2B販売戦略に関する3つの認定資格を取得しています。</p><p>Shopifyの標準機能や仕組みを正しく理解したうえで、必要以上に作り込みすぎず、将来もスムーズに運用・拡張できるECサイトを構築します。</p><p>改善や機能追加を重ねながら、長く使い続けられるECサイトを実現します。</p>",
-            "text_font_size": "body-medium",
+            "text": "<ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "text_iVtXhb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※掲載の売上・開発費は、当社が構築・運用を担当した対象サイトの規模を示すものです。</p>",
+            "text_font_size": "body-x-small",
             "padding_bottom": 16
           }
         },
@@ -440,8 +455,10 @@
         }
       },
       "block_order": [
+        "subheading_yqbGdh",
         "heading_WDH9rM",
         "text_FiRFdK",
+        "text_iVtXhb",
         "buttons_hFaaNK"
       ],
       "settings": {
