@@ -154,8 +154,8 @@
         "text_6mTxMf": {
           "type": "text",
           "settings": {
-            "text": "<p>Standardプラン</p>",
-            "text_font_size": "body-small",
+            "text": "<p><strong>STANDARDプラン</strong></p>",
+            "text_font_size": "body-x-small",
             "padding_bottom": 8
           }
         },
@@ -221,14 +221,14 @@
         "subheading_K3mPqR": {
           "type": "subheading",
           "settings": {
-            "subheading": "モール型ECからの卒業。自社ECを小さく始める",
+            "subheading": "Basicプラン",
             "padding_bottom": 16
           }
         },
         "heading_9TxLmZ": {
           "type": "heading",
           "settings": {
-            "title": "Basicプラン",
+            "title": "モール型ECからの卒業。自社ECを小さく始める",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
