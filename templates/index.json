@@ -719,8 +719,8 @@
         "rows": 1,
         "enable_mobile_slider": true,
         "color_scheme": "scheme-10",
-        "padding_top": 32,
-        "padding_bottom": 0,
+        "padding_top": 50,
+        "padding_bottom": 50,
         "heading_tag": "h2",
         "title_tag": "automatic"
       }
