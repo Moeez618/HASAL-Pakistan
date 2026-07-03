@@ -16,6 +16,7 @@
       "blocks": {
         "text_GntGQL": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><strong>EC制作会社比較資料を無料配布中</strong></p>",
             "target_url_enabled": false,
