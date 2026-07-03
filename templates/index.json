@@ -1304,7 +1304,7 @@
         "terms": true,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
-        "padding_top": 50,
+        "padding_top": 100,
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
