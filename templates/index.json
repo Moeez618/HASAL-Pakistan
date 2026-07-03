@@ -687,6 +687,69 @@
         "title_tag": "automatic"
       }
     },
+    "section_newsletter_ythLAz": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_taieYG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Multi_Hero_Images_copy.webp",
+            "title": "Join Our Newsletter",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "newsletter_pA7FUr": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "heading": "Sign up",
+            "heading_font_size": "heading-large",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "show_name": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_taieYG",
+        "newsletter_pA7FUr"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper--full",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "section_double_pi63CE": {
       "type": "section-double",
       "blocks": {
@@ -1188,9 +1251,10 @@
     "section_multicolumn_YVyPLA",
     "featured_posts_eqCTwW",
     "section_blog_FtdhjN",
-    "section_double_pi63CE",
+    "section_newsletter_ythLAz",
     "section_accordion_tjkJbb",
     "section_accordion_group_8HKY7N",
+    "section_double_pi63CE",
     "section_rich_text_zfdhKE",
     "contact_form_AN7jRB"
   ]
