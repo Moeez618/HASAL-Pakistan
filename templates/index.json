@@ -322,6 +322,7 @@
         "text_METDwq",
         "buttons_jNhDXL"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image_1": "shopify://shop_images/Two_Iphones_copy.png",
@@ -1124,6 +1125,7 @@
   },
   "order": [
     "section_video_gbncyG",
+    "section_announcement_qqjQ8T",
     "section_rich_text_LBH8Lm",
     "section_hero_ywHUVn",
     "section_double_K3mPqR",
@@ -1134,7 +1136,6 @@
     "section_custom_code_AaQ3Ee",
     "section_hero_KXKF4d",
     "section_double_pi63CE",
-    "section_announcement_qqjQ8T",
     "section_multicolumn_YVyPLA",
     "section_blog_FtdhjN",
     "section_accordion_tjkJbb",
