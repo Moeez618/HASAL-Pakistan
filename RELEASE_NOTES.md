@@ -1,18 +1,5 @@
 # Release Notes
 
-## 2026-07-03
-
-### Changed
-
-- Cream の公開リリースノートを確認し、Broadcast の Release Notes ページ用スニペットを復元・更新しました。
-- Release Notes ページを Shopify ページ本文依存から `snippets/cream-release-notes.liquid` の表示へ戻し、`Version 3.0.1` から最新の `Version 3.4.9` までをテーマ内で表示できるようにしました。
-- `Version 3.4.9` の項目を公開ページの内容に合わせ、モバイルドロワー、問い合わせフォーム、Theme Check、CI 検証の更新内容へ修正しました。
-
-### Verification
-
-- `templates/page.release-notes.json` の JSON parsing passed。
-- `snippets/cream-release-notes.liquid` に `Version 3.4.9` から `Version 3.0.1` までが含まれることを確認しました。
-
 ## 2026-06-19
 
 ### Added
