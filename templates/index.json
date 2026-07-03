@@ -697,7 +697,7 @@
         "show_date": false,
         "heading_font_size": "heading-large",
         "show_button": true,
-        "button_text": "Read more",
+        "button_text": "続きを読む",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--text",
