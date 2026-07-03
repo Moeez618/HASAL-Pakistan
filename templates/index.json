@@ -557,77 +557,6 @@
         "show_placeholder": true
       }
     },
-    "section_double_pi63CE": {
-      "type": "section-double",
-      "blocks": {
-        "subheading_V69Tbj": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Shopifyパートナー50社比較資料｜無料配布中",
-            "padding_bottom": 16
-          }
-        },
-        "heading_aXg6pj": {
-          "type": "heading",
-          "settings": {
-            "title": "ECサイト構築会社の比較に悩んでいませんか？",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_tm4HLk": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Shopify公式に認定されたパートナー50社を対象に、費用感やサービスの特徴を、比較しやすいようにまとめました。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        },
-        "text_tx8jki": {
-          "type": "text",
-          "settings": {
-            "text": "<p>※本資料は、弊社の独自基準および調査結果に基づき実施しております。</p><p></p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 0
-          }
-        },
-        "buttons_DMXQEk": {
-          "type": "buttons",
-          "settings": {
-            "button_text": "今すぐ資料を請求する",
-            "button_url": "shopify://pages/contact",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": true,
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "subheading_V69Tbj",
-        "heading_aXg6pj",
-        "text_tm4HLk",
-        "text_tx8jki",
-        "buttons_DMXQEk"
-      ],
-      "name": "Image with text",
-      "settings": {
-        "image_1": "shopify://shop_images/Secret_Doc_copy.jpg",
-        "image_width": "one-half",
-        "text_alignment": "text-left",
-        "layout": "",
-        "width": "wrapper--full",
-        "height": "image-height",
-        "mobile_height": "image-height--mobile",
-        "reverse_blocks": false,
-        "color_scheme": "scheme-10",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "show_placeholder": true
-      }
-    },
     "section_multicolumn_YVyPLA": {
       "type": "section-multicolumn",
       "blocks": {
@@ -723,6 +652,77 @@
         "padding_bottom": 50,
         "heading_tag": "h2",
         "title_tag": "automatic"
+      }
+    },
+    "section_double_pi63CE": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_V69Tbj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shopifyパートナー50社比較資料｜無料配布中",
+            "padding_bottom": 16
+          }
+        },
+        "heading_aXg6pj": {
+          "type": "heading",
+          "settings": {
+            "title": "ECサイト構築会社の比較に悩んでいませんか？",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_tm4HLk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopify公式に認定されたパートナー50社を対象に、費用感やサービスの特徴を、比較しやすいようにまとめました。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_tx8jki": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※本資料は、弊社の独自基準および調査結果に基づき実施しております。</p><p></p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 0
+          }
+        },
+        "buttons_DMXQEk": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "今すぐ資料を請求する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_V69Tbj",
+        "heading_aXg6pj",
+        "text_tm4HLk",
+        "text_tx8jki",
+        "buttons_DMXQEk"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Secret_Doc_copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_placeholder": true
       }
     },
     "section_accordion_tjkJbb": {
@@ -1152,9 +1152,9 @@
     "section_custom_code_YPEkCV",
     "section_custom_code_AaQ3Ee",
     "section_hero_KXKF4d",
-    "section_double_pi63CE",
     "section_multicolumn_YVyPLA",
     "section_blog_FtdhjN",
+    "section_double_pi63CE",
     "section_accordion_tjkJbb",
     "section_accordion_group_8HKY7N",
     "section_rich_text_zfdhKE",
