@@ -1080,8 +1080,8 @@
         "width": "wrapper",
         "columns": "2",
         "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "padding_top": 100,
+        "padding_bottom": 100
       }
     },
     "section_double_pi63CE": {
