@@ -6,6 +6,12 @@
   assign button_add = false
   assign blocks_form = section.blocks | where: 'type', 'form'
   assign add_to_cart_text = 'products.product.add_to_cart' | t
+  assign is_cream_template = false
+
+  if template.name == 'product' and template.suffix == 'cream'
+    assign is_cream_template = true
+    assign add_to_cart_text = '無料でテーマを体験する'
+  endif
 
   if template.name == 'product' and template.suffix == 'after-hours'
     assign add_to_cart_text = '抽選に無料応募する'
@@ -38,6 +44,13 @@
   {%- assign button_add = true -%}
 {%- endif -%}
 
+{%- assign cream_cart_bar_contact = false -%}
+{%- if is_cream_template -%}
+  {%- if any_variant_available == false or button_add and current_variant.available != true -%}
+    {%- assign cream_cart_bar_contact = true -%}
+  {%- endif -%}
+{%- endif -%}
+
 {%- style -%}
   :root {
     --cart-bar-height: 80px;
@@ -48,7 +61,7 @@
 
 <cart-bar id="CartBar-{{ section.id }}" class="cart-bar">
   <div
-    class="cart-bar__form__wrapper form__wrapper{% if button_add and current_variant.available != true %} variant--soldout{% endif %}{% if settings.show_newsletter %} show-product-notification{% endif %}{% unless any_variant_available %} all-variants--soldout{% endunless %}"
+    class="cart-bar__form__wrapper form__wrapper{% if button_add and current_variant.available != true %} variant--soldout{% endif %}{% if settings.show_newsletter and is_cream_template == false %} show-product-notification{% endif %}{% unless any_variant_available %} all-variants--soldout{% endunless %}"
     data-form-wrapper
   >
     <div class="cart-bar__info">
@@ -84,13 +97,18 @@
         <button
           type="button"
           class="btn btn--primary btn--outline product__submit__add{% unless button_add %} product__submit__add--default{% endunless %}"
-          {% if button_add %}
+          {% if button_add and cream_cart_bar_contact == false %}
             data-cart-bar-add-to-cart
-          {% elsif any_variant_available %}
+          {% elsif any_variant_available and cream_cart_bar_contact == false %}
             data-cart-bar-scroll
           {% endif %}
           {% if any_variant_available == false or button_add and current_variant.available != true %}
-            disabled="disabled"
+            {% unless is_cream_template %}
+              disabled="disabled"
+            {% endunless %}
+          {% endif %}
+          {% if cream_cart_bar_contact %}
+            onclick="window.location.href='{{ routes.root_url }}pages/contact'"
           {% endif %}
         >
           <span
@@ -110,11 +128,15 @@
                 {{ 'products.product.pre_order' | t }}
               {%- elsif current_variant.available -%}
                 {{ add_to_cart_text }}
+              {%- elsif is_cream_template -%}
+                導入について相談する
               {%- else -%}
                 {{ 'products.product.sold_out' | t }}
               {%- endif -%}
             {%- elsif any_variant_available -%}
               {{ 'products.product.configure' | t }}
+            {%- elsif is_cream_template -%}
+              導入について相談する
             {%- else -%}
               {{ 'products.product.sold_out' | t }}
             {%- endif -%}
@@ -134,7 +156,7 @@
           {%- endunless -%}
         </button>
 
-        {%- if settings.show_newsletter -%}
+        {%- if settings.show_newsletter and is_cream_template == false -%}
           {%- assign newsletter_text = 'general.newsletter_form.newsletter_product_availability' | t -%}
           {%- assign newsletter_button_text = 'products.product.sold_out'
             | t

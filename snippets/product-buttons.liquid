@@ -20,8 +20,14 @@
   assign show_quantity = show_quantity | default: block.settings.show_quantity | default: false
   assign is_quickview = quickview | default: false
   assign show_newsletter = settings.show_newsletter
+  assign is_cream_template = false
   assign color_scheme = 'color-' | append: section.settings.color_scheme
   assign section_id = unique | default: section.id
+
+  if template.name == 'product' and template.suffix == 'cream'
+    assign is_cream_template = true
+    assign show_newsletter = false
+  endif
 
   if quickview
     assign show_newsletter = false
@@ -47,6 +53,10 @@
   endif
 
   assign add_to_cart_text = 'products.product.add_to_cart' | t
+
+  if is_cream_template
+    assign add_to_cart_text = '無料でテーマを体験する'
+  endif
 
   if current_variant == null
     assign button_text = 'products.product.unavailable' | t
@@ -90,6 +100,23 @@
   endif
   if current_variant.quantity_rule.min > current_variant.inventory_quantity and check_against_inventory
     assign quantity_rule_soldout = true
+  endif
+
+  assign cream_theme_unavailable = false
+
+  if is_cream_template
+    if current_variant == null or current_variant.available == false or quantity_rule_soldout
+      assign cream_theme_unavailable = true
+      assign button_text = '導入について相談する'
+    endif
+  endif
+
+  assign button_disabled = false
+  if current_variant == null or current_variant.available == false or quantity_rule_soldout
+    assign button_disabled = true
+  endif
+  if cream_theme_unavailable
+    assign button_disabled = false
   endif
 -%}
 
@@ -365,12 +392,19 @@
 
               <button
                 id="ProductSubmitButton-{{ section_id }}"
-                type="submit"
-                name="add"
+                type="{% if cream_theme_unavailable %}button{% else %}submit{% endif %}"
+                {% unless cream_theme_unavailable %}
+                  name="add"
+                {% endunless %}
                 class="btn {{ button_size }} {{ button_style }} {{ button_type }}"
                 data-preorder="{{ preorder }}"
-                data-add-to-cart
-                {% if current_variant.available == false or quantity_rule_soldout or current_variant == null %}
+                {% unless cream_theme_unavailable %}
+                  data-add-to-cart
+                {% endunless %}
+                {% if cream_theme_unavailable %}
+                  onclick="window.location.href='{{ routes.root_url }}pages/contact'"
+                {% endif %}
+                {% if button_disabled %}
                   disabled
                 {% endif %}
               >
