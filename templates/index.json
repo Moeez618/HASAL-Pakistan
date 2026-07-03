@@ -178,7 +178,7 @@
         "buttons_Rt7QaN": {
           "type": "buttons",
           "settings": {
-            "button_text": "詳細を見る",
+            "button_text": "モール型EC向け",
             "button_url": "shopify://pages/shopify-ec-store-basic-plan",
             "button_type": "btn--primary",
             "button_size": "",
