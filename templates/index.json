@@ -685,7 +685,8 @@
         "featured_post_CbFCdc"
       ],
       "custom_css": [
-        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px;}"
+        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px;}",
+        ".editorial__content {margin-top: 0;}"
       ],
       "name": "Featured blog posts",
       "settings": {
@@ -785,7 +786,8 @@
         "newsletter_pA7FUr"
       ],
       "custom_css": [
-        ".hero__subheading {color: #ab8c52; margin-bottom: 16px;}"
+        ".hero__subheading {color: #ab8c52; margin-bottom: 16px;}",
+        ".brick__block__image .hero__title {text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);}"
       ],
       "name": "Newsletter",
       "settings": {
