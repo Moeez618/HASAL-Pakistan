@@ -1071,7 +1071,7 @@
         "question_7"
       ],
       "custom_css": [
-        ".accordion__subheading {color: #ab8c52; margin-bottom: 16px; text-align: center;}",
+        ".accordion__subheading {color: #ab8c52; margin-bottom: 16px; text-align: center; grid-column: 1/-1;}",
         ".accordion__heading {margin-top: 0; text-align: center;}"
       ],
       "settings": {
