@@ -1124,7 +1124,7 @@
       ],
       "settings": {
         "align_text": "text-center",
-        "width": "wrapper",
+        "width": "wrapper--narrow",
         "color_scheme": "scheme-10",
         "overlay_type": "disabled",
         "padding_top": 50,
