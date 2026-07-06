@@ -103,7 +103,7 @@
         "heading_problem": {
           "type": "heading",
           "settings": {
-            "title": "自社ECの最初の壁は、\n制作ではなく「判断」です。",
+            "title": "自社ECを始めるとき、最初に迷うのは「何から整えるか」です。",
             "heading_font_size": "heading-medium",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -112,7 +112,7 @@
         "lead_problem": {
           "type": "text",
           "settings": {
-            "text": "<h3>自社ECを始めるとき、最初に迷うのは「何から整えるか」です。</h3><p>自社ECサイトに興味はあっても、いざ立ち上げようとすると、制作費、運用体制、集客方法、商品登録、決済・配送設定など、事前に整理すべきことが多くあります。</p>",
+            "text": "<p>自社ECサイトに興味はあっても、いざ立ち上げようとすると、制作費、運用体制、集客方法、商品登録、決済・配送設定など、事前に整理すべきことが多くあります。</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
