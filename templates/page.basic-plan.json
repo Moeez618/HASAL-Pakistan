@@ -206,6 +206,7 @@
     },
     "expertise_intro": {
       "type": "section-custom-code",
+      "disabled": true,
       "name": "Custom code",
       "settings": {
         "code": "<style>\n  .bpl-msg { max-width: 720px; margin: 0 auto; text-align: center; }\n  .bpl-msg__divider { width: 40px; height: 2px; margin: 0 auto 28px; background: var(--sp-page-accent); border: 0; }\n  .bpl-msg p { margin: 0 0 24px; color: var(--COLOR-TEXT-A80); font-size: var(--font-body-medium); line-height: 2; }\n  .bpl-msg p:last-child { margin-bottom: 0; }\n  .bpl-msg .bpl-msg__lead { margin: 0 0 24px; color: var(--COLOR-TEXT); font-family: var(--FONT-STACK-HEADING); font-style: var(--FONT-STYLE-HEADING); font-weight: var(--FONT-WEIGHT-HEADING); font-size: var(--font-heading-small); line-height: 1.7; }\n</style>\n<section class=\"sp-sec sp-sec--expertise-intro\">\n  <div class=\"sp-inner\">\n    <div class=\"sp-head\">\n      <p class=\"sp-eyebrow\">Experience</p>\n      <h2 class=\"sp-title\">大規模ECの知見を、<br>始めやすい自社ECづくりへ。</h2>\n    </div>\n    <div class=\"bpl-msg\">\n      <p>SOLSTARは、Shopifyを活用したECサイト制作・運用支援を行うECパートナーです。</p>\n      <p>小規模ブランドの立ち上げから、Shopify Plusを活用した大規模ECサイトの構築・長期運用、越境ECまで、さまざまなフェーズのECサイトに関わってきました。</p>\n      <p>Basicプランでは、その知見をもとに、自社ECの立ち上げに必要なページ、商品登録、カテゴリ設計、決済・配送設定、初期アプリ連携までを整理して構築します。</p>\n      <p>ただ見た目を整えるだけではなく、ブランドの伝わり方、購入導線、公開後の更新のしやすさまで考え、無理なく運用を始められるECサイトを目指します。</p>\n    </div>\n  </div>\n</section>",
