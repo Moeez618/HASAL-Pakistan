@@ -1,0 +1,316 @@
+<style>
+  .cm {
+    color: var(--text);
+    display: grid;
+    gap: 24px;
+    line-height: 1.75;
+    margin: 0 auto;
+    max-width: 1080px;
+    padding-bottom: 56px;
+  }
+
+  .cm * {
+    box-sizing: border-box;
+  }
+
+  .cm nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 16px;
+    justify-content: center;
+  }
+
+  .cm button {
+    appearance: none;
+    background: transparent;
+    border: 0;
+    color: var(--text-a80);
+    cursor: pointer;
+    padding: 12px 0;
+    position: relative;
+  }
+
+  .cm button[aria-selected='true'] {
+    color: var(--text);
+  }
+
+  .cm button::after {
+    background-color: var(--link);
+    bottom: 8px;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: width 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    width: 0;
+  }
+
+  @media (hover: hover) {
+    .cm button:hover::after {
+      width: 100%;
+    }
+  }
+
+  .cm button[aria-selected='true']::after {
+    width: 100%;
+  }
+
+  .cm section[hidden] {
+    display: none;
+  }
+
+  .cm h2 {
+    text-align: center;
+  }
+
+  .cm h2,
+  .cm h3,
+  .cm h4,
+  .cm h5,
+  .cm p,
+  .cm ul {
+    margin: 0;
+  }
+
+  .cm section,
+  .cm div {
+    display: grid;
+    gap: 16px;
+  }
+
+  .cm ul {
+    display: grid;
+    gap: 8px;
+    padding-left: 1.2em;
+  }
+
+  .cm li,
+  .cm p,
+  .cm summary span {
+    color: var(--text-a80);
+  }
+
+  .cm details {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 12px;
+  }
+
+  .cm summary {
+    cursor: pointer;
+    display: grid;
+    gap: 4px;
+    padding: 12px 0;
+  }
+
+  .cm .d {
+    color: var(--text);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: max-content;
+  }
+
+  .cm .d::after {
+    background-color: var(--link);
+    bottom: -2px;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: width 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+    width: 0;
+  }
+
+  @media (hover: hover) {
+    .cm .d:hover::after {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 749px) {
+    .cm {
+      gap: 20px;
+      padding-bottom: 40px;
+    }
+  }
+</style>
+
+<div class="cm" data-cm>
+  <div>
+    <p>本書は Shopify テーマ「Cream by Solstar」の現行実装をもとに、機能概要と編集ポイントを整理した運用マニュアルです。</p>
+    <ul>
+      <li>確認基準: <code>config/settings_schema.json</code> / <code>templates/</code> / <code>sections/</code> / <code>snippets/</code> / <code>assets/</code></li>
+      <li>対象バージョン: 2026-07-10 時点の現行リポジトリ</li>
+      <li>補足: Shopify テーマエディタで調整する内容を中心にまとめています。<code>_</code> で始まる内部ブロックやレンダリング用セクションは通常運用では直接編集しません。</li>
+    </ul>
+  </div>
+
+  <nav>
+    <button type="button" data-t="t0" aria-selected="true">基本操作</button>
+    <button type="button" data-t="t1" aria-selected="false">テンプレート構成</button>
+    <button type="button" data-t="t2" aria-selected="false">テーマ設定</button>
+    <button type="button" data-t="t3" aria-selected="false">セクション一覧</button>
+    <button type="button" data-t="t4" aria-selected="false">運用メモ・連携事項</button>
+  </nav>
+
+  <section id="t0">
+    <h2>基本操作</h2>
+    <p>Shopify 管理画面のテーマエディタでページごとの構成を編集します。</p>
+    <ul>
+      <li>操作: 「オンラインストア &gt; テーマ &gt; カスタマイズ」を開きます。</li>
+      <li>操作: 上部のテンプレート切替でホーム、商品、コレクション、検索、カート、ブログ、固定ページなどを選びます。</li>
+      <li>操作: 左サイドバーでセクション、グループ、ブロックの追加、並べ替え、非表示、削除を行います。</li>
+      <li>操作: 画像や動画、音声ファイルは「設定 &gt; ファイル」にアップロードしてから選択します。</li>
+      <li>補足: ヘッダーとフッターはページ本体とは別に「グループ」として管理されます。</li>
+    </ul>
+  </section>
+
+  <section id="t1" hidden>
+    <h2>テンプレート構成</h2>
+    <ul>
+      <li><code>header-group.json</code>: お知らせバー + ヘッダー。</li>
+      <li><code>footer-group.json</code>: 追従メニュー + 追従カート + フッター + ユーティリティ。</li>
+      <li><code>templates/index.json</code>: ヒーロー画像、コレクションリスト、ヒーロービデオ、テキストプロモ、タブコレクション、特集コレクション、地図、カウントダウンタイマー、ビフォー／アフター、お客様の声。</li>
+      <li><code>templates/product.json</code>: 商品情報、おすすめ商品、セクション。</li>
+      <li><code>templates/product.cream.json</code>: Cream 専用の商品テンプレート。</li>
+      <li><code>templates/collection.json</code>: セクション（コレクション見出し）、コレクション。</li>
+      <li><code>templates/search.json</code>: 検索、検索結果。</li>
+      <li><code>templates/cart.json</code>: カート、任意の特集コレクション（初期状態では無効）。</li>
+      <li><code>templates/blog.json</code>: ブログ記事一覧。</li>
+      <li><code>templates/article.json</code>: ブログ記事。</li>
+      <li><code>templates/page.json</code>: ページ。</li>
+      <li><code>templates/page.contact.json</code>: ページ + お問い合わせフォーム。</li>
+      <li><code>templates/page.cream-by-solstar.json</code>: Cream サービス紹介ページ。</li>
+      <li><code>templates/page.cream-manual.json</code>: この運用マニュアルページ。</li>
+      <li><code>templates/page.wishlist.liquid</code>: お気に入りリスト。</li>
+      <li><code>templates/404.json</code>: 404 + 特集コレクション。</li>
+      <li><code>templates/password.json</code>: パスワード。</li>
+    </ul>
+  </section>
+
+  <section id="t2" hidden>
+    <h2>テーマ設定</h2>
+    <details open>
+      <summary><h3>ロゴとファビコン</h3><span>サイト全体で使うロゴとファビコンを設定します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: テーマ設定 &gt; ロゴとファビコン。</li><li>主な項目: デフォルトロゴ、反転ロゴ、ロゴ高さ（PC / モバイル）、ファビコン。</li></ul></div>
+    </details>
+    <details>
+      <summary><h3>色</h3><span>カラースキームを作成し、各セクションやドロワーに割り当てます。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: テーマ設定 &gt; 色。</li><li>主な項目: 背景、見出し、本文、プライマリ色、ボーダー、シャドウ、ボタン色、入力欄色、バリエーション色。</li></ul></div>
+    </details>
+    <details>
+      <summary><h3>タイポグラフィー</h3><span>本文、見出し、サブ見出し、アクセント文字のフォントとサイズを管理します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: テーマ設定 &gt; タイポグラフィー。</li><li>主な項目: 本文、見出し <code>H1-H6</code>、行間、文字間隔、大文字 / 小文字、ボタン書体。</li></ul></div>
+    </details>
+    <details>
+      <summary><h3>カート</h3><span>カート全体の表示方式とサムネイルまわりの見た目を設定します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: テーマ設定 &gt; カート。</li><li>主な項目: カート形式（ページ / ドロワー）、カートアイコン、商品名の文字ケース、価格フォント、ドロワー自動オープン、サムネイルの枠線と角丸。</li><li>補足: カートアイコンは <code>Default</code> / <code>The Sleek Basket</code> から選択できます。</li><li>補足: 送料無料進捗、税込メモ、ディスカウント入力、カートメモ、数量セレクター表示、subtotal note はカートセクションやカート要約ブロック側で設定します。</li></ul></div>
+    </details>
+    <details>
+      <summary><h3>商品カード</h3><span>一覧カードの購入導線とホバー挙動を設定します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: テーマ設定 &gt; 商品カード。</li><li>主な項目: クイック追加、モバイルのクイック追加、クイック追加の配色、クイック追加背景の角丸、2枚目画像ホバー、カード内カルーセル。</li></ul></div>
+    </details>
+    <details>
+      <summary><h3>ビデオイントロ</h3><span>初回訪問時などに表示するイントロ動画を設定します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: テーマ設定 &gt; ビデオイントロ。</li><li>主な項目: 有効化、ホームのみ表示、自動再生、PC / モバイルの動画ソース、音声ファイル、音量、スキップ表示、音声有効化ボタン、ボタンスタイル。</li></ul></div>
+    </details>
+  </section>
+
+  <section id="t3" hidden>
+    <h2>セクション一覧</h2>
+    <h3>ヘッダー・検索・フッター</h3>
+    <details>
+      <summary><h4>お知らせバー</h4><span>画面上部の告知メッセージを流すセクションです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: ヘッダーグループ内で編集します。</li><li>主な設定: 次の発表までの時間、表示幅、配色、区切り線、上下余白。</li><li>ブロック: お知らせ、送料無料メッセージ。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>ヘッダー</h4><span>ロゴ、メニュー、検索、国 / 言語切替を表示します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: ヘッダーグループ内で編集します。</li><li>主な設定: ロゴ位置、メニュー位置、検索表示、国 / 言語セレクター、ヘッダー高さ、追従ヘッダー、透明ヘッダー、ページ別の透明時配色。</li><li>ブロック: デスクトップメニュー、モバイルメニュー、Mega menu。</li><li>補足: モバイルメニューの SNS はフッターグループ内のユーティリティにある SNS ブロックから同期されます。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>追従メニュー</h4><span>モバイル下部に固定表示されるメニューです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: フッターグループ内で編集します。</li><li>主な設定: 背景色、アイコン色、文字色、Glass 効果、コンパクト表示、罫線、角の半径、カートバブル色、Wishlist カウンター色。</li></ul></div>
+    </details>
+
+    <h3>ビジュアル / 汎用</h3>
+    <details>
+      <summary><h4>テキストプロモ</h4><span>背景画像または動画の上に、最大 3 つのテキスト系ブロックを配置する販促セクションです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: セクション追加 &gt; テキストプロモ。</li><li>主な設定: 背景メディアタイプ、枠線、枠線アニメーション、表示幅、配色、オーバーレイ、配置、高さ、余白。</li><li>ブロック: 見出し、テキスト、ボタン。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>ニュースレターポップアップ</h4><span>メール登録用のモーダルポップアップです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: セクション追加 &gt; ニュースレターポップアップ。</li><li>主な設定: 有効化、ホームのみ表示、表示遅延、再表示日数、オーバーレイ、不透明度、ぼかし、画像、見出し、説明、入力ラベル、送信ボタン文言、登録後メッセージ、クーポン表示。</li><li>補足: 複数追加しても、実際に描画されるのは最初に条件を満たした 1 セクションのみです。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>セクション（<code>section.liquid</code> 系）</h4><span>1 つの基盤セクションから複数の preset を提供する汎用セクションです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>共通設定: 方向、配置、ギャップ、幅、高さ、背景メディア、背景画像、枠線、オーバーレイ、配色、余白。</li><li>代表的なブロック: テキスト、画像、ボタン、動画、アイコン、グループ、スペーサー、区切り線、フォーム系ブロック。</li><li>preset: カスタムセクション、リッチテキスト、よくある質問、ビデオ、お問い合わせフォーム、メール登録者、テキスト付きアイコン、Split showcase、テキスト付き画像、マルチカラム、大きなロゴ。</li><li>補足: Name ブロックでは <code>Reverse first and last name order</code> を有効にすると「姓 → 名」の順で入力欄を表示できます。</li><li>補足: ブロック順は <code>Reverse block order on mobile</code> でモバイルのみ反転できます。</li></ul></div>
+    </details>
+
+    <h3>商品・コレクション</h3>
+    <details>
+      <summary><h4>特集コレクション / タブコレクション</h4><span>商品一覧をグリッドやタブで見せる主力セクションです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>特集コレクションの主な設定: 対象コレクション、レイアウト、モバイルカルーセル、表示件数、列数、カードサイズ、表示幅、配色、余白。</li><li>タブコレクションの主な設定: 見出し、サブ見出し、ヘッダー配置、レイアウト、列数、列間隔、アイコンスタイル、表示幅、配色、余白。</li><li>補足: 関連商品や補完商品は Shopify Search &amp; Discovery 側の設定も必要です。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>商品情報 / 追従カート</h4><span>商品ページの購入導線を構成するセクションです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>商品情報の既定構成: 商品メディアギャラリー、商品詳細グループ、バリエーションピッカー、ポップアップリンク、購入ボタン、タブリッチテキスト、アコーディオン。</li><li>追従カートの主な設定: 有効化、モバイルのみ表示、配色、Glass 効果、数量表示、バリエーションピッカー表示、商品画像表示。</li></ul></div>
+    </details>
+
+    <h3>ブログ・ページ</h3>
+    <details>
+      <summary><h4>ブログ記事</h4><span>記事ページ本体です。音声プレイヤー対応を含みます。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: 記事テンプレートで編集します。</li><li>主な設定: 方向、ギャップ、配色、上下余白。</li><li>追加機能: <code>Show audio player</code> を有効にすると、記事上部に音声プレイヤーを表示できます。</li><li>メタフィールド: 既定では <code>custom.audio_link</code> を参照します。namespace / key はテーマ設定から変更可能です。</li><li>補足: <code>file_reference</code> / <code>link</code> / URL 文字列に対応します。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>ブログ記事（特集表示）</h4><span>指定ブログの記事カードを任意ページに表示します。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: セクション追加 &gt; ブログ記事。</li><li>主な設定: 対象ブログ、レイアウト、モバイルカルーセル、表示件数、列数、カードサイズ、間隔、アイコンスタイル、表示幅、配色、余白。</li><li>追加設定: <code>Enable mobile slider</code> でモバイル時のみ横スクロール表示に切り替えられます。</li></ul></div>
+    </details>
+    <details>
+      <summary><h4>ページ</h4><span>固定ページ本文を表示するメインセクションです。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: ページテンプレートで編集します。</li><li>主な設定: 方向、ギャップ、配色、表示幅、上下余白。</li><li>補足: <code>page.contact</code> では、このセクションの下にお問い合わせフォームが追加されています。</li></ul></div>
+    </details>
+
+    <h3>検索・カート・システム</h3>
+    <details>
+      <summary><h4>カート</h4><span>カートページ本体です。</span><span class="d">詳細を見る</span></summary>
+      <div><ul><li>操作: カートテンプレートで編集します。</li><li>既定構成: カートタイトル、カート商品一覧、カート要約。</li><li>追加設定: <code>Show quantity selector</code> で数量操作 UI の表示 / 非表示を切り替えられます。</li><li>追加設定: <code>Show subtotal note</code> で subtotal note の表示 / 非表示を切り替えられます。</li><li>カート要約ブロックで設定できる内容: 送料無料進捗、送料無料条件金額、進捗文言、達成文言、税 / 配送料テキスト、カートメモ、ディスカウントコード入力、分割払い表示、高速チェックアウト、空カート時リンク。</li></ul></div>
+    </details>
+  </section>
+
+  <section id="t4" hidden>
+    <h2>運用メモ・連携事項</h2>
+    <ul>
+      <li>フィルター、関連商品、補完商品の管理には Shopify Search &amp; Discovery アプリを使います。</li>
+      <li>レビュー表示はレビューアプリや app block の導入が必要です。</li>
+      <li>税込ラベルは「テーマ設定 &gt; 価格」のグローバル設定と、各価格ブロックの表示設定の両方で影響を受けます。</li>
+      <li>商品カードの価格順やセール価格表示を調整する場合は、対象セクションの価格ブロック設定も確認してください。</li>
+      <li>記事の音声プレイヤーは、記事メタフィールドに音声リンクがある場合のみ表示されます。既定キーは <code>custom.audio_link</code> です。</li>
+      <li>ニュースレターポップアップは複数追加しても 1 件だけ描画されます。</li>
+      <li>お気に入りページは <code>page.wishlist</code> テンプレートを使う前提です。</li>
+      <li>お問い合わせフォームの姓名順を日本語向けにしたい場合は、Name ブロックの <code>Reverse first and last name order</code> を確認してください。</li>
+    </ul>
+  </section>
+</div>
+
+<script>
+  (function() {
+    var root = document.querySelector('[data-cm]');
+
+    if (!root) return;
+
+    var buttons = [].slice.call(root.querySelectorAll('nav button'));
+    var panels = [].slice.call(root.querySelectorAll('section'));
+
+    buttons.forEach(function(button) {
+      button.onclick = function() {
+        buttons.forEach(function(item) {
+          item.setAttribute('aria-selected', item === button);
+        });
+
+        panels.forEach(function(panel) {
+          panel.hidden = panel.id !== button.dataset.t;
+        });
+      };
+    });
+  })();
+</script>
