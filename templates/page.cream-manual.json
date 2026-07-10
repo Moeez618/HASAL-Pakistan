@@ -25,6 +25,17 @@
         "heading_tag": "h1"
       }
     },
+    "section_custom_code_WAzGAA": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "{% render 'cream-manual-content' %}",
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "contact_form_XtLXAm": {
       "type": "contact-form",
       "blocks": {
@@ -132,6 +143,7 @@
   },
   "order": [
     "main",
+    "section_custom_code_WAzGAA",
     "contact_form_XtLXAm"
   ]
 }
