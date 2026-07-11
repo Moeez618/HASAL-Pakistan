@@ -783,8 +783,8 @@
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
 <a class="cmv3-quick__card" href="#header">
-<span class="cmv3-quick__t">ヘッダー・メニューを設定する</span>
-<span class="cmv3-quick__s">ヘッダーグループ</span>
+<span class="cmv3-quick__t">ヘッダー・フッターを編集する</span>
+<span class="cmv3-quick__s">共通グループ設定</span>
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
 <a class="cmv3-quick__card" href="#pages-sections">
@@ -802,9 +802,9 @@
 <span class="cmv3-quick__s">テーマ設定 &gt; カート</span>
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
-<a class="cmv3-quick__card" href="#footer">
-<span class="cmv3-quick__t">フッターを編集する</span>
-<span class="cmv3-quick__s">フッターグループ</span>
+<a class="cmv3-quick__card" href="#search-section">
+<span class="cmv3-quick__t">検索まわりを設定する</span>
+<span class="cmv3-quick__s">検索ページと検索結果</span>
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
     </div>
@@ -3100,20 +3100,61 @@
   const searchBox = root.querySelector('[data-cmv3-search]');
   const input = searchBox && searchBox.querySelector('input');
   const results = searchBox && searchBox.querySelector('.cmv3-search__results');
+  const tocLinks = [...root.querySelectorAll('a[data-toc]')];
+  const mobileToc = root.querySelector('.cmv3-toc-m');
+  const escapeSelector = (value) => (window.CSS && typeof window.CSS.escape === 'function' ? window.CSS.escape(value) : value.replace(/([^a-zA-Z0-9_-])/g, '\\$1'));
+
+  const navigateToId = (id) => {
+    if (!id) return;
+    const target = root.querySelector(`#${escapeSelector(id)}`);
+    if (!target) return;
+    history.replaceState(null, '', `#${id}`);
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (mobileToc) mobileToc.removeAttribute('open');
+  };
+
+  tocLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href') || '';
+      if (!href.startsWith('#')) return;
+      e.preventDefault();
+      navigateToId(href.slice(1));
+    });
+  });
 
   if (input && results) {
     const index = [];
     root.querySelectorAll('.cmv3-cat').forEach((cat) => {
       const catTitle = cat.querySelector('h2').textContent.trim().replace(/^\d+\s*/, '');
-      index.push({ id: cat.id, title: catTitle, sub: 'カテゴリ', text: catTitle.toLowerCase() });
+      const catTitleLower = catTitle.toLowerCase();
+      index.push({
+        id: cat.id,
+        kind: 'category',
+        title: catTitle,
+        titleLower: catTitleLower,
+        sub: 'カテゴリ',
+        subLower: 'カテゴリ',
+        text: catTitleLower
+      });
       cat.querySelectorAll('.cmv3-item').forEach((item) => {
         const title = item.querySelector('h3').textContent.trim();
+        const titleLower = title.toLowerCase();
+        const keywords = (item.dataset.kw || '').toLowerCase();
         const place = item.querySelector('.cmv3-place');
         const settings = item.querySelector('.cmv3-settings');
-        const text = [title, item.dataset.kw || '', place ? place.textContent : '', settings ? settings.textContent : '']
+        const subLower = catTitleLower;
+        const text = [title, keywords, place ? place.textContent : '', settings ? settings.textContent : '']
           .join(' ')
           .toLowerCase();
-        index.push({ id: item.id, title, sub: catTitle, text });
+        index.push({
+          id: item.id,
+          kind: 'item',
+          title,
+          titleLower,
+          sub: catTitle,
+          subLower,
+          text
+        });
       });
     });
 
@@ -3127,6 +3168,21 @@
       input.setAttribute('aria-expanded', 'false');
     };
 
+    const escapeHtml = (value) => value.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+    const getScore = (entry, query, terms) => {
+      let score = entry.kind === 'item' ? 20 : 0;
+      if (entry.titleLower === query) score += 120;
+      if (entry.titleLower.startsWith(query)) score += 70;
+      if (entry.titleLower.includes(query)) score += 35;
+      terms.forEach((term) => {
+        if (entry.titleLower.includes(term)) score += 24;
+        if (entry.subLower.includes(term)) score += 8;
+        if (entry.text.includes(term)) score += 4;
+      });
+      return score;
+    };
+
     const render = (query) => {
       const q = query.trim().toLowerCase();
       if (!q) {
@@ -3134,12 +3190,16 @@
         return;
       }
       const terms = q.split(/\s+/);
-      const hits = index.filter((e) => terms.every((t) => e.text.includes(t))).slice(0, 8);
+      const hits = index
+        .filter((entry) => terms.every((term) => entry.text.includes(term)))
+        .map((entry) => ({ ...entry, score: getScore(entry, q, terms) }))
+        .sort((a, b) => b.score - a.score || (a.kind === b.kind ? a.title.length - b.title.length : a.kind === 'item' ? -1 : 1))
+        .slice(0, 8);
       results.innerHTML = hits.length
         ? hits
             .map(
               (e) =>
-                `<li><a href="#${e.id}">${e.title.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]))}<small>${e.sub}</small></a></li>`
+                `<li><a href="#${e.id}">${escapeHtml(e.title)}<small>${escapeHtml(e.sub)}</small></a></li>`
             )
             .join('')
         : '<li class="cmv3-search__empty">該当する項目が見つかりませんでした</li>';
@@ -3182,7 +3242,11 @@
       }
     });
     results.addEventListener('click', (e) => {
-      if (e.target.closest('a')) close();
+      const link = e.target.closest('a');
+      if (!link) return;
+      e.preventDefault();
+      navigateToId(link.getAttribute('href').slice(1));
+      close();
     });
     document.addEventListener('click', (e) => {
       if (!searchBox.contains(e.target)) close();
@@ -3218,7 +3282,6 @@
 
   /* ---------- TOC: initial state, scrollspy, drawer auto-close ---------- */
   const desktopToc = root.querySelector('.cmv3-toc');
-  const mobileToc = root.querySelector('.cmv3-toc-m');
 
   if (desktopToc) {
     const first = desktopToc.querySelector('details');
@@ -3277,12 +3340,6 @@
       { rootMargin: '-96px 0px -55% 0px', threshold: 0 }
     );
     targets.forEach((t) => io.observe(t));
-  }
-
-  if (mobileToc) {
-    mobileToc.addEventListener('click', (e) => {
-      if (e.target.closest('a[data-toc]')) mobileToc.removeAttribute('open');
-    });
   }
 })();
 </script>
