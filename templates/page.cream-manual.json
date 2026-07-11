@@ -19,9 +19,9 @@
         "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_bottom": 20,
         "heading_tag": "h1"
       }
     },
@@ -31,119 +31,14 @@
       "settings": {
         "code": "{% render 'cream-manual-content' %}",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "contact_form_XtLXAm": {
-      "type": "contact-form",
-      "blocks": {
-        "name_iQFAiV": {
-          "type": "name",
-          "settings": {
-            "first_heading": "名前",
-            "first_label": "太郎",
-            "last_heading": "苗字",
-            "last_label": "鈴木",
-            "reverse_name": true,
-            "required": true
-          }
-        },
-        "email_zEpefz": {
-          "type": "email",
-          "settings": {
-            "title": "Email",
-            "heading": "メールアドレス",
-            "required": true
-          }
-        },
-        "telephone_DmUA6B": {
-          "type": "telephone",
-          "settings": {
-            "title": "Phone Number",
-            "heading": "電話番号",
-            "required": true
-          }
-        },
-        "text_UNiVit": {
-          "type": "text",
-          "settings": {
-            "title": "Company",
-            "heading": "会社名",
-            "required": true
-          }
-        },
-        "text_7YcUqW": {
-          "type": "text",
-          "settings": {
-            "title": "Position",
-            "heading": "役職",
-            "required": false
-          }
-        },
-        "Message": {
-          "type": "body",
-          "settings": {
-            "title": "問い合わせ内容（任意）",
-            "heading": "",
-            "required": false
-          }
-        },
-        "select_GTz36X": {
-          "type": "select",
-          "settings": {
-            "title": "お問い合わせ種別",
-            "required": true,
-            "label-one": "SOLSTAR EXPRESSについて",
-            "label-two": "Cream by Solstarについて",
-            "label-three": "Basicプランについて",
-            "label-four": "Standardプランについて",
-            "label-five": "Proプランについて",
-            "label-six": "その他"
-          }
-        },
-        "Options-select": {
-          "type": "select",
-          "disabled": true,
-          "settings": {
-            "title": "ご希望プラン",
-            "required": true,
-            "label-one": "Shopify費用比較調査レポートについて",
-            "label-two": "Cream By Solstarについて",
-            "label-three": "SOLSTAR EXPRESSについて",
-            "label-four": "Basicプランについて",
-            "label-five": "Standardプランについて",
-            "label-six": "Proプランについて"
-          }
-        }
-      },
-      "block_order": [
-        "name_iQFAiV",
-        "email_zEpefz",
-        "telephone_DmUA6B",
-        "text_UNiVit",
-        "text_7YcUqW",
-        "Message",
-        "select_GTz36X",
-        "Options-select"
-      ],
-      "settings": {
-        "subheading": "",
-        "title": "お問い合わせ",
-        "heading_font_size": "heading-large",
-        "terms": true,
-        "width": "wrapper--narrow",
-        "color_scheme": "scheme-10",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
+        "padding_bottom": 40
       }
     }
   },
   "order": [
     "main",
-    "section_custom_code_WAzGAA",
-    "contact_form_XtLXAm"
+    "section_custom_code_WAzGAA"
   ]
 }
