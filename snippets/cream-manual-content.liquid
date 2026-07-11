@@ -3011,7 +3011,8 @@
       const box = desktopToc.getBoundingClientRect();
       const item = link.getBoundingClientRect();
       if (item.top < box.top + 40 || item.bottom > box.bottom - 40) {
-        link.scrollIntoView({ block: 'center' });
+        const top = desktopToc.scrollTop + item.top - box.top - (box.height - item.height) / 2;
+        desktopToc.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
       }
     };
 
