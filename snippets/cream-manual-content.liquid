@@ -1,6 +1,8 @@
 {% doc %}
   Renders the Cream by Solstar operation manual as static, server-rendered HTML.
-  Content mirrors the Cream repository manual (v4.1.0) in full.
+  Content mirrors the Cream repository manual (v4.1.0) in full, restructured so
+  each card shows a label only once (設定場所 / 操作手順 / 設定項目 / 補足 ...)
+  with feature-level sub-headings for larger cards.
   Styling relies only on Broadcast color-scheme CSS variables so the look
   follows the color scheme assigned to the hosting Custom code section.
 
@@ -22,7 +24,7 @@
     color: var(--text);
     display: grid;
     gap: clamp(28px, 5vw, 48px);
-    line-height: 1.85;
+    line-height: 1.8;
     margin: 0 auto;
     max-width: 1120px;
     padding: 8px 0 72px;
@@ -41,7 +43,8 @@
   .cream-manual p,
   .cream-manual dl,
   .cream-manual dd,
-  .cream-manual ul {
+  .cream-manual ul,
+  .cream-manual ol {
     margin: 0;
   }
 
@@ -245,7 +248,7 @@
 
   .cm-rows {
     display: grid;
-    gap: 8px;
+    gap: 10px;
   }
 
   .cm-chapter__body > .cm-rows,
@@ -259,7 +262,7 @@
   .cm-row {
     display: grid;
     gap: 2px 14px;
-    grid-template-columns: minmax(64px, max-content) 1fr;
+    grid-template-columns: minmax(72px, max-content) 1fr;
   }
 
   .cm-row dt {
@@ -285,23 +288,6 @@
     width: fit-content;
   }
 
-  .cm-label--lead {
-    background: var(--BTN-PRIMARY-BG, var(--accent));
-    border-color: var(--BTN-PRIMARY-BG, var(--accent));
-    color: var(--BTN-PRIMARY-TEXT, var(--COLOR-BG));
-  }
-
-  .cm-label--muted {
-    border-style: dashed;
-    color: var(--cm-muted);
-  }
-
-  .cm-label--warn {
-    border-color: var(--BTN-PRIMARY-BG, var(--accent));
-    color: var(--BTN-PRIMARY-BG, var(--accent));
-    font-weight: 600;
-  }
-
   .cm-rows--files .cm-label {
     border-radius: 8px;
     white-space: normal;
@@ -312,6 +298,72 @@
     grid-template-columns: minmax(150px, max-content) 1fr;
   }
 
+  /* ===== Feature sub-headings (weaker than common labels) ===== */
+
+  .cm-row--feature {
+    border-top: 1px solid var(--cm-border);
+    gap: 4px;
+    grid-template-columns: 1fr;
+    margin-top: 4px;
+    padding-top: 12px;
+  }
+
+  .cm-subhead {
+    color: var(--text);
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+  }
+
+  .cm-row--feature + .cm-row:not(.cm-row--feature) {
+    border-top: 1px solid var(--cm-border);
+    margin-top: 4px;
+    padding-top: 12px;
+  }
+
+  /* ===== Lists inside rows ===== */
+
+  .cm-steps {
+    display: grid;
+    gap: 4px;
+    padding-left: 22px;
+  }
+
+  .cm-steps li::marker {
+    color: var(--BTN-PRIMARY-BG, var(--accent));
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cm-bullets {
+    display: grid;
+    gap: 4px;
+    padding-left: 20px;
+  }
+
+  .cm-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 20px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .cm-items li {
+    padding-left: 13px;
+    position: relative;
+  }
+
+  .cm-items li::before {
+    background: var(--BTN-PRIMARY-BG, var(--accent));
+    border-radius: 50%;
+    content: '';
+    height: 4px;
+    left: 1px;
+    position: absolute;
+    top: 0.75em;
+    width: 4px;
+  }
+
   .cm-list {
     display: grid;
     gap: 8px;
@@ -320,10 +372,6 @@
 
   .cm-list li {
     color: var(--cm-muted);
-  }
-
-  .cm-list .cm-label {
-    margin-right: 4px;
   }
 
   /* anchor offset for sticky header */
@@ -343,10 +391,6 @@
 
     .cm-row {
       grid-template-columns: 1fr;
-    }
-
-    .cm-row dd {
-      padding-left: 2px;
     }
 
     .cm-rows--files .cm-row {
@@ -384,7 +428,7 @@
 </dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>Shopify テーマエディタで調整する内容を中心にまとめています。<code>_</code> で始まる内部ブロックやレンダリング用セクションは、通常運用では直接編集しません。</dd>
 </div>
 </dl>
@@ -439,27 +483,22 @@
 <div class="cm-chapter__body">
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>Shopify 管理画面のテーマエディタでページごとの構成を編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
-<dd>「オンラインストア &gt; テーマ &gt; カスタマイズ」を開きます。</dd>
+<dt class="cm-label">操作手順</dt>
+<dd>
+<ol class="cm-steps">
+<li>「オンラインストア &gt; テーマ &gt; カスタマイズ」を開きます。</li>
+<li>上部のテンプレート切替でホーム、商品、コレクション、検索、カート、ブログ、固定ページなどを選びます。</li>
+<li>左サイドバーでセクション、グループ、ブロックの追加、並べ替え、非表示、削除を行います。</li>
+<li>画像や動画は「設定 &gt; ファイル」にアップロードしてから選択します。</li>
+</ol>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
-<dd>上部のテンプレート切替でホーム、商品、コレクション、検索、カート、ブログ、固定ページなどを選びます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">操作</dt>
-<dd>左サイドバーでセクション、グループ、ブロックの追加、並べ替え、非表示、削除を行います。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">操作</dt>
-<dd>画像や動画は「設定 &gt; ファイル」にアップロードしてから選択します。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>ヘッダーとフッターはページ本体とは別に「グループ」として管理されます。</dd>
 </div>
 </dl>
@@ -575,16 +614,23 @@
 <h3 class="cm-card__title">ロゴとファビコン</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>サイト全体で使うロゴとファビコンを設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; ロゴとファビコン。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>デフォルトロゴ、反転ロゴ、ロゴ高さ（PC / モバイル）、ファビコン。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>デフォルトロゴ</li>
+<li>反転ロゴ</li>
+<li>ロゴ高さ（PC / モバイル）</li>
+<li>ファビコン</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -592,19 +638,33 @@
 <h3 class="cm-card__title">色</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>カラースキームを作成し、各セクションやドロワーに割り当てます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; 色。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>背景、背景グラデーション、見出し、本文、プライマリ色、ボーダー、シャドウ、ボタン色、ボタングラデーション、入力欄色、バリエーション色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>背景</li>
+<li>背景グラデーション</li>
+<li>見出し</li>
+<li>本文</li>
+<li>プライマリ色</li>
+<li>ボーダー</li>
+<li>シャドウ</li>
+<li>ボタン色</li>
+<li>ボタングラデーション</li>
+<li>入力欄色</li>
+<li>バリエーション色</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>プライマリーボタンには通常時とホバー時のグラデーションカラーを設定できます。未設定の場合は各ボタン背景色が使われます。</dd>
 </div>
 </dl>
@@ -613,16 +673,26 @@
 <h3 class="cm-card__title">タイポグラフィー</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>本文、見出し、サブ見出し、アクセント文字のフォントとサイズを管理します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; タイポグラフィー。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>本文、見出し <code>H1-H6</code>、行間、文字間隔、大文字 / 小文字、ボタン書体。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>本文</li>
+<li>見出し <code>H1-H6</code>
+</li>
+<li>行間</li>
+<li>文字間隔</li>
+<li>大文字 / 小文字</li>
+<li>ボタン書体</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -630,16 +700,21 @@
 <h3 class="cm-card__title">ページレイアウト</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>全体のページ幅とパンくずの表示を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; ページレイアウト。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>ページ幅、パンくず表示。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>ページ幅</li>
+<li>パンくず表示</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -647,39 +722,39 @@
 <h3 class="cm-card__title">アニメーション</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>スクロール時のセクション表示、ホバー演出、ページ遷移を制御します。設定は「スクロール表示」「ホバー演出」「遷移エフェクト」の3グループに分かれています。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; アニメーション。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">スクロール表示</dt>
-<dd>セクション表示アニメーション、アニメーション速度（ゆったり / 標準 / きびきび）、グリッド項目の時間差表示。速度は表示時間・移動距離・時間差の間隔が連動して変わります。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">スクロール表示</dt>
+<dd>セクション表示アニメーション、アニメーション速度（ゆったり / 標準 / きびきび）、グリッド項目の時間差表示を設定します。速度は表示時間・移動距離・時間差の間隔が連動して変わります。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">ホバー演出</dt>
-<dd>カードホバー演出、ボタンホバー演出。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">遷移エフェクト</dt>
-<dd>ページ遷移、商品メイン画像への遷移、カート追加演出。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">ボタンホバー演出</dt>
-<dd>なし / リフト(浮き上がり + シャドウ)/ シャインスイープ(光の帯が横切る)から選択します。押下時は軽い縮小フィードバックが入ります。マウス操作時のみ適用され、タッチ端末では無効です。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">セクション表示アニメーション</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">セクション表示アニメーション</dt>
 <dd>なし / フェード / フェードアップ / フェード + 拡大 から選択します。スクロールに合わせて対象要素がふわっと表示されます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">セクション単位の上書き</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">ホバー演出</dt>
+<dd>カードホバー演出、ボタンホバー演出を設定します。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">ボタンホバー演出</dt>
+<dd>なし / リフト（浮き上がり + シャドウ）/ シャインスイープ（光の帯が横切る）から選択します。押下時は軽い縮小フィードバックが入ります。マウス操作時のみ適用され、タッチ端末では無効です。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">遷移エフェクト</dt>
+<dd>ページ遷移、商品メイン画像への遷移、カート追加演出を設定します。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">セクション単位の上書き</dt>
 <dd>主要セクション（ヒーロー、コレクションリスト、特集コレクション、ブログ記事、テキストプロモ、お客様の声、リッチテキストカラム、タイムライン）は、各セクション設定で全体設定と異なる表示アニメーションを個別に指定できます（デフォルト = 全体設定に従う）。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">動作仕様</dt>
 <dd>OS で「視差効果を減らす」を有効にしている訪問者、低性能端末、JavaScript 無効環境では自動的に無効になり、コンテンツは常に表示されます。ページ最初のセクション（ファーストビュー）には適用されません。</dd>
 </div>
 </dl>
@@ -688,16 +763,25 @@
 <h3 class="cm-card__title">バッジ</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>Sale、Sold out、New、Bestseller の表示ルールを設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; バッジ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>表示位置、各バッジの色、ラベル、角丸、割引表示形式、バッジ書体。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>表示位置</li>
+<li>各バッジの色</li>
+<li>ラベル</li>
+<li>角丸</li>
+<li>割引表示形式</li>
+<li>バッジ書体</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -705,16 +789,23 @@
 <h3 class="cm-card__title">ボタン</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>プライマリ、セカンダリ、ピル型ボタンの見た目を管理します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; ボタン。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>枠線の太さ、角丸、フォント、文字ケース。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>枠線の太さ</li>
+<li>角丸</li>
+<li>フォント</li>
+<li>文字ケース</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -722,27 +813,40 @@
 <h3 class="cm-card__title">カート</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>カート全体の表示方式とサムネイルまわりの見た目を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; カート。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>カート形式（ページ / ドロワー）、カートアイコン、商品名の文字ケース、価格フォント、ドロワー自動オープン、送料無料メッセージ、送料無料条件金額、進捗文言、達成文言、サムネイルの枠線と角丸。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>カート形式（ページ / ドロワー）</li>
+<li>カートアイコン</li>
+<li>商品名の文字ケース</li>
+<li>価格フォント</li>
+<li>ドロワー自動オープン</li>
+<li>送料無料メッセージ</li>
+<li>送料無料条件金額</li>
+<li>進捗文言</li>
+<li>達成文言</li>
+<li>サムネイルの枠線と角丸</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">カートアイコン</dt>
 <dd>カートアイコンは <code>Default</code> / <code>The Sleek Basket</code> から選択できます。選択したアイコンはヘッダー、カートドロワー、追従メニュー、商品カードのQuick add、Add to cartボタン、WishlistのAdd to cartボタンに反映されます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">送料無料メッセージ</dt>
 <dd>送料無料メッセージはテーマ設定で一元管理され、カートページとカートドロワーの両方に反映されます。残額表示には <code>||amount||</code> プレースホルダーを使います。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>税メモ、ディスカウント入力、カートメモなどは、カートテンプレートのカート要約ブロック側で設定します。</dd>
 </div>
 </dl>
@@ -751,24 +855,32 @@
 <h3 class="cm-card__title">ドロワー</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>カートドロワーや検索ポップオーバーなどの共通見た目を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; ドロワー。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>配色、罫線、太さ、不透明度。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配色</li>
+<li>罫線</li>
+<li>太さ</li>
+<li>不透明度</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>ドロワー配色は背景グラデーションにも対応します。グラデーション未設定時は背景色が使われます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>カートドロワー表示中は、Quick addやフィルタードロワーと同じ仕様でドロワー外側に背景ぼかしが入ります。</dd>
+<dt class="cm-label">補足</dt>
+<dd>
+<ul class="cm-bullets">
+<li>ドロワー配色は背景グラデーションにも対応します。グラデーション未設定時は背景色が使われます。</li>
+<li>カートドロワー表示中は、Quick addやフィルタードロワーと同じ仕様でドロワー外側に背景ぼかしが入ります。</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -776,19 +888,23 @@
 <h3 class="cm-card__title">アイコン</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>テーマ内アイコンの線幅を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; アイコン。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>ストロークの太さ。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>ストロークの太さ</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>ホーム、Wishlist、カート、Quick add、Add to cartなどの主要な線アイコンは、このストローク設定に追従します。</dd>
 </div>
 </dl>
@@ -797,16 +913,22 @@
 <h3 class="cm-card__title">入力フィールド</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>フォーム入力欄の共通スタイルを設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; 入力フィールド。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>罫線の太さ、角丸、文字プリセット。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>罫線の太さ</li>
+<li>角丸</li>
+<li>文字プリセット</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -814,16 +936,23 @@
 <h3 class="cm-card__title">ポップオーバーとモーダル</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>モーダルやポップオーバーの見た目を管理します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; ポップオーバーとモーダル。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>配色、角丸、罫線、シャドウ。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配色</li>
+<li>角丸</li>
+<li>罫線</li>
+<li>シャドウ</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -831,19 +960,24 @@
 <h3 class="cm-card__title">価格</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>価格表記の共通ルールを設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; 価格。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>通貨コード表示（商品ページ、商品カード、カート明細、カート合計）、税込ラベルの表示。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-bullets">
+<li>通貨コード表示（商品ページ、商品カード、カート明細、カート合計）</li>
+<li>税込ラベルの表示</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>個々の価格ブロックでは「セール価格を先に表示」「税メモを表示」も別途設定できます。</dd>
 </div>
 </dl>
@@ -852,19 +986,28 @@
 <h3 class="cm-card__title">商品カード</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>一覧カードの購入導線とホバー挙動を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; 商品カード。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>クイック追加、モバイルのクイック追加、クイック追加の配色、クイック追加背景の角丸、2枚目画像ホバー、カード内カルーセル。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>クイック追加</li>
+<li>モバイルのクイック追加</li>
+<li>クイック追加の配色</li>
+<li>クイック追加背景の角丸</li>
+<li>2枚目画像ホバー</li>
+<li>カード内カルーセル</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">動作仕様</dt>
 <dd>PCではQuick addアイコンにカーソルを重ねると、プライマリボタン配色に合わせた反転アニメーションが入ります。</dd>
 </div>
 </dl>
@@ -873,16 +1016,23 @@
 <h3 class="cm-card__title">お気に入りリスト</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>お気に入りアイコンの表示と色を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; お気に入りリスト。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>有効化、枠線色、塗り色、背景色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>有効化</li>
+<li>枠線色</li>
+<li>塗り色</li>
+<li>背景色</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -890,16 +1040,28 @@
 <h3 class="cm-card__title">ビデオイントロ</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>初回訪問時などに表示するイントロ動画を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; ビデオイントロ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>有効化、ホームのみ表示、自動再生、PC / モバイルの動画ソース、音声ファイル、音量、スキップ表示、音声有効化ボタン、ボタンスタイル。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>有効化</li>
+<li>ホームのみ表示</li>
+<li>自動再生</li>
+<li>PC / モバイルの動画ソース</li>
+<li>音声ファイル</li>
+<li>音量</li>
+<li>スキップ表示</li>
+<li>音声有効化ボタン</li>
+<li>ボタンスタイル</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -907,16 +1069,23 @@
 <h3 class="cm-card__title">検索</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>検索ポップオーバーや空状態カードの見た目を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; 検索。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>空状態コレクション、商品画像の角丸、カード角丸、カードタイトルの文字ケース。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>空状態コレクション</li>
+<li>商品画像の角丸</li>
+<li>カード角丸</li>
+<li>カードタイトルの文字ケース</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -924,16 +1093,24 @@
 <h3 class="cm-card__title">見本（スウォッチ）</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>色見本やバリエーションチップの見た目を管理します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; 見本。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>画像見本の使用、幅、高さ、角丸、ボーダースタイル。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>画像見本の使用</li>
+<li>幅</li>
+<li>高さ</li>
+<li>角丸</li>
+<li>ボーダースタイル</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -941,16 +1118,22 @@
 <h3 class="cm-card__title">バリエーションピッカー</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>商品ページなどのバリエーション選択ボタンを設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; バリエーションピッカー。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>枠線の太さ、角丸、ボタン幅。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>枠線の太さ</li>
+<li>角丸</li>
+<li>ボタン幅</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -958,16 +1141,23 @@
 <h3 class="cm-card__title">スプラッシュスクリーン</h3>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>読み込み時のスプラッシュ表示を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>テーマ設定 &gt; スプラッシュスクリーン。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な項目</dt>
-<dd>有効化、ロゴ、ロゴ最大幅（PC / モバイル）、背景色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>有効化</li>
+<li>ロゴ</li>
+<li>ロゴ最大幅（PC / モバイル）</li>
+<li>背景色</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -986,32 +1176,38 @@
 <h4 class="cm-card__title">お知らせバー</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>画面上部の告知メッセージを流すセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>ヘッダーグループ内で編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>次の発表までの時間、表示幅、配色、区切り線、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>次の発表までの時間</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>区切り線</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>お知らせ、送料無料メッセージ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>お知らせブロックを複数追加すると自動で切り替わります。切り替え間隔は「次の発表までの時間」で調整します。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>送料無料メッセージはカート合計をもとに残り金額または達成メッセージを表示します。Ajaxで商品をカート追加した場合も、ページを再読み込みせずに表示が更新されます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>送料無料メッセージのしきい値はショップ通貨の金額で設定します。通貨記号や文字は入れず、数字のみを入力してください。</dd>
+<dt class="cm-label">補足</dt>
+<dd>
+<ul class="cm-bullets">
+<li>お知らせブロックを複数追加すると自動で切り替わります。切り替え間隔は「次の発表までの時間」で調整します。</li>
+<li>送料無料メッセージはカート合計をもとに残り金額または達成メッセージを表示します。Ajaxで商品をカート追加した場合も、ページを再読み込みせずに表示が更新されます。</li>
+<li>送料無料メッセージのしきい値はショップ通貨の金額で設定します。通貨記号や文字は入れず、数字のみを入力してください。</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1019,56 +1215,69 @@
 <h4 class="cm-card__title">ヘッダー</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>ロゴ、メニュー、検索、国 / 言語切替を表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>ヘッダーグループ内で編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>ロゴ位置、メニュー位置、検索表示、国 / 言語セレクター、ヘッダー高さ、追従ヘッダー、透明ヘッダー、ページ別の透明時配色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>ロゴ位置</li>
+<li>メニュー位置</li>
+<li>検索表示</li>
+<li>国 / 言語セレクター</li>
+<li>ヘッダー高さ</li>
+<li>追従ヘッダー</li>
+<li>透明ヘッダー</li>
+<li>ページ別の透明時配色</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>デスクトップメニュー、モバイルメニュー、Mega menu。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">デスクトップメニュー</dt>
 <dd>デスクトップメニューはPC表示のメニュー設定専用です。モバイルドロワーやメニューバーの設定は含みません。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">モバイルメニュー</dt>
 <dd>モバイルメニューでは、モバイルドロワー表示、ドロワーロゴ、ロゴ幅、ドロワーのアコーディオン / 区切り線、1階層目メディア、SNSリンク表示、メニューバー表示、メニューバーのメニュー、メニューバー配色を設定できます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>ドロワーロゴは Mobile menu ブロック内で個別にアップロードできます。テーマ設定のメインロゴとは別管理です。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">モバイル用ロゴ</dt>
 <dd>
-<code>Logo width</code> を大きくしても、ドロワーヘッダー内でロゴ高さが自動的に制御され、閉じるボタンやメニューリンクと重ならないように表示されます。</dd>
+<ul class="cm-bullets">
+<li>ドロワーロゴは Mobile menu ブロック内で個別にアップロードできます。テーマ設定のメインロゴとは別管理です。</li>
+<li>
+<code>Logo width</code>（ロゴ幅）を大きくしても、ドロワーヘッダー内でロゴ高さが自動的に制御され、閉じるボタンやメニューリンクと重ならないように表示されます。</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>1階層目メディアは、モバイルドロワーの第1階層画面に表示されます。メディアタイプは「表示しない / 画像 / 動画」から選択でき、見出し、テキスト、リンクを設定できます。動画はミュート、ループ、インライン再生で表示されます。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">1階層目メディア</dt>
+<dd>
+<ul class="cm-bullets">
+<li>1階層目メディアは、モバイルドロワーの第1階層画面に表示されます。メディアタイプは「表示しない / 画像 / 動画」から選択でき、見出し、テキスト、リンクを設定できます。動画はミュート、ループ、インライン再生で表示されます。</li>
+<li>1階層目メディアはメニューリンクの下に独立して表示されます。画像や動画はメニューリンクと重ならないようにレイアウトされています。</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>1階層目メディアはメニューリンクの下に独立して表示されます。画像や動画はメニューリンクと重ならないようにレイアウトされています。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">SNSリンク</dt>
 <dd>モバイルメニューのSNSリンクは、フッターグループ内のユーティリティにあるSNSブロックから同期されます。リンクやアイコンを変更したい場合は、ユーティリティ側のSNSブロックを編集してください。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">メニューバー</dt>
 <dd>メニューバーのメニューは、モバイルドロワーのメニューとは別に選択できます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">透明ヘッダー</dt>
 <dd>透明ヘッダーはホーム、商品、コレクションごとに個別設定できます。</dd>
 </div>
 </dl>
@@ -1078,40 +1287,37 @@
 <span class="cm-card__tag">ブロック</span>Mega menu</h5>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>ヘッダーの第1階層メニューに、ナビゲーションリンクと最大2つのメディアエリアを含む大型ドロップダウンを表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>ヘッダーグループ &gt; ヘッダー &gt; ブロック追加 &gt; Mega menu。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">設定</dt>
-<dd>「メガメニューを適用するメニュー項目」に、第1階層メニュー名を入力します。ヘッダーのメニュー項目名と一致した項目に Mega menu が適用されます。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-bullets">
+<li>
+<strong>適用するメニュー項目</strong>: 「メガメニューを適用するメニュー項目」に、第1階層メニュー名を入力します。ヘッダーのメニュー項目名と一致した項目に Mega menu が適用されます。</li>
+<li>
+<strong>メディアの表示位置</strong>: メディアエリアをリンク一覧の左側または右側に配置できます。</li>
+<li>
+<strong>メディアエリア1 / 2</strong>: タイプを「画像」または「動画」から選択します。選択したタイプに応じて画像または動画を設定できます。</li>
+<li>
+<strong>見出し / 説明文 / リンク先</strong>: 各メディアエリアに設定できます。リンク先を設定すると、メディアエリア全体がクリック可能になります。</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">設定</dt>
-<dd>「メディアの表示位置」で、メディアエリアをリンク一覧の左側または右側に配置できます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">設定</dt>
-<dd>メディアエリア1 / 2 では、タイプを「画像」または「動画」から選択します。選択したタイプに応じて画像または動画を設定できます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">設定</dt>
-<dd>各メディアエリアには、見出し、説明文、リンク先を設定できます。リンク先を設定すると、メディアエリア全体がクリック可能になります。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>メディアエリアは、画像 / 動画 / 見出し / 説明文のいずれかが設定されている場合に表示されます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>動画はミュート、ループ、インライン再生で表示されます。メニューやドロワーを開いたときに再生され、閉じると停止します。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>PCでは第1階層と第2階層の間に区切り線を表示しません。</dd>
+<dt class="cm-label">補足</dt>
+<dd>
+<ul class="cm-bullets">
+<li>メディアエリアは、画像 / 動画 / 見出し / 説明文のいずれかが設定されている場合に表示されます。</li>
+<li>動画はミュート、ループ、インライン再生で表示されます。メニューやドロワーを開いたときに再生され、閉じると停止します。</li>
+<li>PCでは第1階層と第2階層の間に区切り線を表示しません。</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1119,36 +1325,45 @@
 <h4 class="cm-card__title">追従メニュー</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>モバイル下部に固定表示されるメニューです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>フッターグループ内で編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>配色、Glass効果、影を表示、コンパクト表示、罫線を非表示、角の半径。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>Glass効果を有効にすると、半透明背景、15pxのぼかし、薄い罫線、上端と左端のハイライト、内側の光を使ったガラス風の表示になります。角の半径はGlass有効時も追従メニュー全体の角丸に反映されます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>「影を表示」をオフにすると、通常表示とGlass表示のどちらでも追従メニューのシャドウを非表示にできます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>コンパクト表示を有効にすると、追従メニューの上下左右に同じ余白が入り、メニューが画面下部から浮いて見える表示になります。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>ホーム、カート、Wishlistなどの主要アイコンはテーマ設定のアイコンストロークに追従します。カートアイコンはテーマ設定 &gt; カートの選択内容が反映されます。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配色</li>
+<li>Glass効果</li>
+<li>影を表示</li>
+<li>コンパクト表示</li>
+<li>罫線を非表示</li>
+<li>角の半径</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>カスタム、ホーム、カート、お気に入りリスト、SNSリンク、アカウント、検索、カテゴリー、もっと見る。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">Glass効果</dt>
+<dd>Glass効果を有効にすると、半透明背景、15pxのぼかし、薄い罫線、上端と左端のハイライト、内側の光を使ったガラス風の表示になります。角の半径はGlass有効時も追従メニュー全体の角丸に反映されます。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">影</dt>
+<dd>「影を表示」をオフにすると、通常表示とGlass表示のどちらでも追従メニューのシャドウを非表示にできます。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">コンパクト表示</dt>
+<dd>コンパクト表示を有効にすると、追従メニューの上下左右に同じ余白が入り、メニューが画面下部から浮いて見える表示になります。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">アイコンの連携</dt>
+<dd>ホーム、カート、Wishlistなどの主要アイコンはテーマ設定のアイコンストロークに追従します。カートアイコンはテーマ設定 &gt; カートの選択内容が反映されます。</dd>
 </div>
 </dl>
 </article>
@@ -1156,17 +1371,23 @@
 <h4 class="cm-card__title">検索</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>検索ページ上部の検索欄セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>
 <code>検索</code> テンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>配置、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配置</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1174,15 +1395,15 @@
 <h4 class="cm-card__title">検索ポップオーバー</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>ヘッダー検索アイコンから開く予測検索用の内部セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>通常は直接追加せず、ヘッダー設定とテーマ設定 &gt; 検索で調整します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">技術仕様</dt>
 <dd>
 <code>predictive-search</code> と <code>predictive-search-empty</code> は内部表示用です。</dd>
 </div>
@@ -1192,16 +1413,23 @@
 <h4 class="cm-card__title">フッター</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>サイト下部の主要フッターです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>フッターグループ内でブロックを追加して編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>表示幅、ブロック間隔、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>表示幅</li>
+<li>ブロック間隔</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1213,23 +1441,31 @@
 <h4 class="cm-card__title">ユーティリティ</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>フッター最下段の補助領域です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>フッターグループ内で編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>表示幅、間隔、区切り線の太さ、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>表示幅</li>
+<li>間隔</li>
+<li>区切り線の太さ</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>コピーライト、ポリシー一覧、SNS。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>ユーティリティのSNSブロックは、ヘッダーのモバイルメニューに表示するSNSリンクの同期元としても使われます。SNSリンクをモバイルメニューに表示する場合は、ここでプロフィールURLを設定します。</dd>
 </div>
 </dl>
@@ -1238,16 +1474,24 @@
 <h4 class="cm-card__title">ロゴ</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>単独ロゴをセクションとして配置したいときに使います。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ロゴ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>反転ロゴの使用、サイズ単位（<code>px</code> / <code>%</code>）、PC / モバイルサイズ、配置、配色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>反転ロゴの使用</li>
+<li>サイズ単位（<code>px</code> / <code>%</code>）</li>
+<li>PC / モバイルサイズ</li>
+<li>配置</li>
+<li>配色</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1255,16 +1499,20 @@
 <h4 class="cm-card__title">パスワードフッター</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>パスワードページ専用のフッターです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>パスワードページの編集画面で調整します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>配色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配色</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1277,24 +1525,38 @@
 <h4 class="cm-card__title">ヒーロー画像</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>画像や動画を背景に使う大型キービジュアルです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ヒーロー画像。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>メディア1 / 2、メディア1モバイル画像、メディア2モバイル画像、リンク、レイアウト方向、配置、ギャップ、高さ、配色、オーバーレイ、反射表現。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>メディア1 / 2 を画像にした場合は、それぞれにモバイル専用画像を設定できます。未設定時はデスクトップ画像がモバイルにも使用されます。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>メディア1 / 2</li>
+<li>メディア1モバイル画像</li>
+<li>メディア2モバイル画像</li>
+<li>リンク</li>
+<li>レイアウト方向</li>
+<li>配置</li>
+<li>ギャップ</li>
+<li>高さ</li>
+<li>配色</li>
+<li>オーバーレイ</li>
+<li>反射表現</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>テキスト、ボタン、ロゴ、ジャンボテキスト、スペーサー、グループ、スクロールテキスト。</dd>
+</div>
+<div class="cm-row">
+<dt class="cm-label">補足</dt>
+<dd>メディア1 / 2 を画像にした場合は、それぞれにモバイル専用画像を設定できます。未設定時はデスクトップ画像がモバイルにも使用されます。</dd>
 </div>
 </dl>
 </article>
@@ -1302,16 +1564,28 @@
 <h4 class="cm-card__title">ヒーロービデオ</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>動画主体のキービジュアルです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ヒーロービデオ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>タイトル、サブ見出し、テキスト配置、リンク、ボタンスタイル、PC / モバイル動画、高さ、オーバーレイ、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>タイトル</li>
+<li>サブ見出し</li>
+<li>テキスト配置</li>
+<li>リンク</li>
+<li>ボタンスタイル</li>
+<li>PC / モバイル動画</li>
+<li>高さ</li>
+<li>オーバーレイ</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1319,16 +1593,26 @@
 <h4 class="cm-card__title">スライドショー</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>スライドを切り替えて表示するセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; スライドショー。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>アイコンスタイル、コントロール形式、自動再生、切替速度、表示幅、高さ、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>アイコンスタイル</li>
+<li>コントロール形式</li>
+<li>自動再生</li>
+<li>切替速度</li>
+<li>表示幅</li>
+<li>高さ</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1340,16 +1624,24 @@
 <h4 class="cm-card__title">スクロールテキスト</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>横方向に流れるテキストやアイコンの帯です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; スクロールテキスト。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>繰り返し方式、方向、速度、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>繰り返し方式</li>
+<li>方向</li>
+<li>速度</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1357,28 +1649,41 @@
 <h4 class="cm-card__title">テキストプロモ</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>背景画像または動画の上に、最大3つのテキスト系ブロックを配置する販促セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; テキストプロモ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>背景メディアタイプ（画像 / 動画）、枠線、枠線アニメーション、表示幅、配色、オーバーレイ、PC / モバイルのテキスト配置、PCのブロック配置、高さ、上下余白。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">枠線アニメーション</dt>
-<dd>回転グラデーション、シマー、レインボーグロー、パルスアウトライン、SVGトレースから選択できます。色はアニメーション種類に応じて個別設定できます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>配色は枠線内のコンテンツに適用され、枠線外はデフォルトの配色が使われます。モバイル専用画像設定はありません。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>背景メディアタイプ（画像 / 動画）</li>
+<li>枠線</li>
+<li>枠線アニメーション</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>オーバーレイ</li>
+<li>PC / モバイルのテキスト配置</li>
+<li>PCのブロック配置</li>
+<li>高さ</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>見出し、テキスト、ボタン。</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">枠線アニメーション</dt>
+<dd>回転グラデーション、シマー、レインボーグロー、パルスアウトライン、SVGトレースから選択できます。色はアニメーション種類に応じて個別設定できます。</dd>
+</div>
+<div class="cm-row">
+<dt class="cm-label">補足</dt>
+<dd>配色は枠線内のコンテンツに適用され、枠線外はデフォルトの配色が使われます。モバイル専用画像設定はありません。</dd>
 </div>
 </dl>
 </article>
@@ -1386,16 +1691,27 @@
 <h4 class="cm-card__title">タイムライン</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>ブランドストーリー、沿革、制作工程などを最大3つの項目で見せるスクロール連動セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; タイムライン。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>画像表示、見出し、説明文、PC / モバイルのテキスト配置、見出しタグ、ドットと線の色、モバイル画像高さ、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>画像表示</li>
+<li>見出し</li>
+<li>説明文</li>
+<li>PC / モバイルのテキスト配置</li>
+<li>見出しタグ</li>
+<li>ドットと線の色</li>
+<li>モバイル画像高さ</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1406,16 +1722,17 @@
 <dd>画像、小見出し、見出し、見出しプリセット、本文、本文サイズ、ボタン、リンク、新しいタブで開く、見出しタグ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>ブロックは最大3つまで追加できます。画像表示をオフにすると、画像だけのブロックは表示対象になりません。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">動作仕様</dt>
 <dd>PCではスクロールに合わせて項目と画像が切り替わり、モバイルでは横スクロールのカードとタイムライン線で表示されます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>モバイル画像高さは <code>auto</code> / <code>250px</code> / <code>350px</code> / <code>450px</code> / <code>50svh</code> / <code>66svh</code> から選べます。<code>auto</code> の場合は 5:4 比率、それ以外は選択した高さ内で画像をトリミングして表示します。</dd>
+<dt class="cm-label">補足</dt>
+<dd>
+<ul class="cm-bullets">
+<li>ブロックは最大3つまで追加できます。画像表示をオフにすると、画像だけのブロックは表示対象になりません。</li>
+<li>モバイル画像高さは <code>auto</code> / <code>250px</code> / <code>350px</code> / <code>450px</code> / <code>50svh</code> / <code>66svh</code> から選べます。<code>auto</code> の場合は 5:4 比率、それ以外は選択した高さ内で画像をトリミングして表示します。</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1423,16 +1740,31 @@
 <h4 class="cm-card__title">アコーディオン</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>FAQ、サポート情報、商品説明、補足コンテンツなどを折りたたみ表示する独立セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; アコーディオン。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>初期状態で開く、開閉アイコン、見出し、見出しプリセット、セクションアイコン、表示幅、列数、列間隔、行間隔、モバイルスライダー、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>初期状態で開く</li>
+<li>開閉アイコン</li>
+<li>見出し</li>
+<li>見出しプリセット</li>
+<li>セクションアイコン</li>
+<li>表示幅</li>
+<li>列数</li>
+<li>列間隔</li>
+<li>行間隔</li>
+<li>モバイルスライダー</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1443,12 +1775,12 @@
 <dd>見出し、見出しプリセット、本文、本文サイズ、テキスト配置。画像ブロックでは画像と比率、アイコンブロックではアイコン、アイコン画像、サイズ、色、配置も設定できます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">動作仕様</dt>
 <dd>
-<code>Show blocks as slider on mobile</code> を有効にすると、モバイル画面のみブロックが横スクロールのスライダー表示になります。PCでは設定した列数のグリッド表示を維持します。</dd>
+<code>Show blocks as slider on mobile</code>（モバイルでスライダー表示）を有効にすると、モバイル画面のみブロックが横スクロールのスライダー表示になります。PCでは設定した列数のグリッド表示を維持します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>新規追加時は、4つのテキストブロック、2カラム、Plusアイコン、モバイルスライダー有効の構成で開始します。</dd>
 </div>
 </dl>
@@ -1457,19 +1789,29 @@
 <h4 class="cm-card__title">テキスト付きメディア</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>画像 / 動画とテキストを左右に並べるセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; テキスト付きメディア。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>メディア位置、幅、高さ、表示幅、端まで拡張するか、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>メディア位置</li>
+<li>幅</li>
+<li>高さ</li>
+<li>表示幅</li>
+<li>端まで拡張するか</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>編集</code> と <code>編集：ジャンボ文字</code> の preset があります。</dd>
 </div>
@@ -1479,16 +1821,26 @@
 <h4 class="cm-card__title">区切り線</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>セクション間の境界線を表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; 区切り線。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>配色、表示幅、太さ、角丸、長さ、左右配置、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配色</li>
+<li>表示幅</li>
+<li>太さ</li>
+<li>角丸</li>
+<li>長さ</li>
+<li>左右配置</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1496,16 +1848,26 @@
 <h4 class="cm-card__title">カウントダウンタイマー</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>キャンペーン期限を表示するセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; カウントダウンタイマー。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>レイアウト、完了時に隠すか、テキスト配置、PC / モバイル高さ、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>レイアウト</li>
+<li>完了時に隠すか</li>
+<li>テキスト配置</li>
+<li>PC / モバイル高さ</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1517,16 +1879,27 @@
 <h4 class="cm-card__title">ビフォー／アフター</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>2枚の画像をスライダーで比較するセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ビフォー／アフター。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>Before / After 画像、ラベル、比率、角丸、表示幅、配色、テキスト配置、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>Before / After 画像</li>
+<li>ラベル</li>
+<li>比率</li>
+<li>角丸</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>テキスト配置</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1538,16 +1911,31 @@
 <h4 class="cm-card__title">地図</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>店舗地図やアクセス情報を表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; 地図。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>API キー、住所、緯度経度、ズーム、スタイル、見出し、住所本文、ボタン、補助画像、高さ、表示幅、配色。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>API キー</li>
+<li>住所</li>
+<li>緯度経度</li>
+<li>ズーム</li>
+<li>スタイル</li>
+<li>見出し</li>
+<li>住所本文</li>
+<li>ボタン</li>
+<li>補助画像</li>
+<li>高さ</li>
+<li>表示幅</li>
+<li>配色</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1555,19 +1943,36 @@
 <h4 class="cm-card__title">ニュースレターポップアップ</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>メール登録用のモーダルポップアップです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ニュースレターポップアップ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>有効化、ホームのみ表示、表示遅延、再表示日数、オーバーレイ、不透明度、ぼかし、画像、見出し、説明、入力ラベル、送信ボタン文言、登録後メッセージ、クーポン表示。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>有効化</li>
+<li>ホームのみ表示</li>
+<li>表示遅延</li>
+<li>再表示日数</li>
+<li>オーバーレイ</li>
+<li>不透明度</li>
+<li>ぼかし</li>
+<li>画像</li>
+<li>見出し</li>
+<li>説明</li>
+<li>入力ラベル</li>
+<li>送信ボタン文言</li>
+<li>登録後メッセージ</li>
+<li>クーポン表示</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">表示条件</dt>
 <dd>複数配置しても、実際に描画されるのは最初に条件を満たした 1 セクションのみです。</dd>
 </div>
 </dl>
@@ -1576,16 +1981,27 @@
 <h4 class="cm-card__title">お客様の声</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>レビューや体験談をカードで見せるセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; お客様の声。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>見出し、見出しプリセット、配色、画像表示、カード枠線、カード角丸、画像角丸、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>見出し</li>
+<li>見出しプリセット</li>
+<li>配色</li>
+<li>画像表示</li>
+<li>カード枠線</li>
+<li>カード角丸</li>
+<li>画像角丸</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
@@ -1597,16 +2013,23 @@
 <h4 class="cm-card__title">カスタムLiquid</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>独自の Liquid / HTML を挿入します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; カスタムLiquid。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>Liquid コード、配色、表示幅、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>Liquid コード</li>
+<li>配色</li>
+<li>表示幅</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1619,20 +2042,34 @@
 <h4 class="cm-card__title">セクション</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>1つの基盤セクションから複数の preset を提供する汎用セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">共通設定</dt>
-<dd>方向、配置、ギャップ、幅、高さ、背景メディア、背景画像、枠線、オーバーレイ、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>方向</li>
+<li>配置</li>
+<li>ギャップ</li>
+<li>幅</li>
+<li>高さ</li>
+<li>背景メディア</li>
+<li>背景画像</li>
+<li>枠線</li>
+<li>オーバーレイ</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">代表的なブロック</dt>
+<dt class="cm-label">ブロック</dt>
 <dd>テキスト、画像、ボタン、動画、アイコン、グループ、スペーサー、区切り線、フォーム系ブロック。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>セクション直下のブロック順は、モバイル時のみ <code>Reverse block order on mobile</code> で反転できます。ネストした <code>グループ</code> ブロック内でも同じ考え方で利用できます。</dd>
+<dt class="cm-label">補足</dt>
+<dd>セクション直下のブロック順は、モバイル時のみ <code>Reverse block order on mobile</code>（モバイルでブロック順を反転）で反転できます。ネストした <code>グループ</code> ブロック内でも同じ考え方で利用できます。</dd>
 </div>
 </dl>
 </article>
@@ -1684,7 +2121,7 @@
 <dd>ブランドロゴを大きく見せる用途です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>テキスト付き画像</code> では、画像ブロック側で Desktop / Mobile それぞれのアスペクト比を個別に設定できます。モバイルだけ画像を先頭にしたい場合は、セクションまたはグループ側の <code>Reverse block order on mobile</code> を使います。</dd>
 </div>
@@ -1699,15 +2136,15 @@
 <h4 class="cm-card__title">最近見た商品</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>訪問者が最近閲覧した商品（最大10件）を自動表示するセクションです。閲覧履歴は各訪問者のブラウザ（localStorage）に保存されます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; 最近見た商品。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
+<dt class="cm-label">設定項目</dt>
 <dd>おすすめ商品と同一のレイアウト設定（グリッド / カルーセル、モバイルカルーセル、表示件数、列数、カードサイズ、行 / 列間隔、タイトル行数制限、カルーセル矢印、表示幅、配色、余白）。</dd>
 </div>
 <div class="cm-row">
@@ -1715,8 +2152,14 @@
 <dd>見出しなどのテキスト系ブロックに加え、商品カード（静的ブロック）の画像比率、タイトル、価格、スウォッチをおすすめ商品と同じ方法で調整できます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>閲覧履歴がない訪問者にはセクション自体が表示されません。商品ページでは表示中の商品を除外します。テーマエディタではプレースホルダーカードでプレビューされます。</dd>
+<dt class="cm-label">表示条件</dt>
+<dd>
+<ul class="cm-bullets">
+<li>閲覧履歴がない訪問者にはセクション自体が表示されません。</li>
+<li>商品ページでは表示中の商品を除外します。</li>
+<li>テーマエディタではプレースホルダーカードでプレビューされます。</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1724,19 +2167,33 @@
 <h4 class="cm-card__title">特集コレクション</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>指定コレクションの商品一覧を表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; 特集コレクション。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象コレクション、レイアウト、モバイルカルーセル、表示件数、列数、カードサイズ、行 / 列間隔、タイトル行数制限、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>対象コレクション</li>
+<li>レイアウト</li>
+<li>モバイルカルーセル</li>
+<li>表示件数</li>
+<li>列数</li>
+<li>カードサイズ</li>
+<li>行 / 列間隔</li>
+<li>タイトル行数制限</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>グリッド</code>、<code>カルーセル</code>、<code>エディトリアル</code> の preset があります。</dd>
 </div>
@@ -1746,16 +2203,23 @@
 <h4 class="cm-card__title">商品のハイライト</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>特定商品の詳細を大きく見せるセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; 商品のハイライト。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象商品、レイアウト、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>対象商品</li>
+<li>レイアウト</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1763,19 +2227,33 @@
 <h4 class="cm-card__title">おすすめ商品</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>関連商品または補完商品を表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>商品テンプレートや任意ページで追加します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象商品、表示種別（関連 / 補完）、レイアウト、モバイルカルーセル、表示件数、列数、間隔、タイトル行数制限、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>対象商品</li>
+<li>表示種別（関連 / 補完）</li>
+<li>レイアウト</li>
+<li>モバイルカルーセル</li>
+<li>表示件数</li>
+<li>列数</li>
+<li>間隔</li>
+<li>タイトル行数制限</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>商品データ側の関連付けには Shopify Search &amp; Discovery の設定が必要です。</dd>
 </div>
 </dl>
@@ -1784,19 +2262,32 @@
 <h4 class="cm-card__title">コレクション</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>コレクションページ本体の商品一覧です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>コレクションテンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>レイアウト、カードサイズ、無限スクロール、1ページ件数、グリッド幅、モバイル全幅、行 / 列間隔、タイトル行数制限、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>レイアウト</li>
+<li>カードサイズ</li>
+<li>無限スクロール</li>
+<li>1ページ件数</li>
+<li>グリッド幅</li>
+<li>モバイル全幅</li>
+<li>行 / 列間隔</li>
+<li>タイトル行数制限</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>既定テンプレートではフィルター、並び替え、グリッド密度切替のブロックが含まれます。</dd>
 </div>
 </dl>
@@ -1805,19 +2296,33 @@
 <h4 class="cm-card__title">コレクションリスト</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>複数コレクションをカードで一覧表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; コレクションリスト。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象コレクション群、レイアウト、モバイルカルーセル、列数、カードサイズ、表示数、間隔、アイコンスタイル、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>対象コレクション群</li>
+<li>レイアウト</li>
+<li>モバイルカルーセル</li>
+<li>列数</li>
+<li>カードサイズ</li>
+<li>表示数</li>
+<li>間隔</li>
+<li>アイコンスタイル</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>Bento</code>、<code>グリッド</code>、<code>カルーセル</code>、<code>エディトリアル</code> の preset があります。</dd>
 </div>
@@ -1827,17 +2332,28 @@
 <h4 class="cm-card__title">コレクションリスト（一覧ページ）</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>
 <code>list-collections</code> テンプレート用のメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>コレクション一覧ページで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>レイアウト、列数、モバイル表示、間隔、アイコンスタイル、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>レイアウト</li>
+<li>列数</li>
+<li>モバイル表示</li>
+<li>間隔</li>
+<li>アイコンスタイル</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -1845,19 +2361,29 @@
 <h4 class="cm-card__title">コレクションリンク</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>コレクションへのリンクを強調表示するセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; コレクションリンク。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象コレクション群、レイアウト、表示幅、テキスト配置、画像位置、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>対象コレクション群</li>
+<li>レイアウト</li>
+<li>表示幅</li>
+<li>テキスト配置</li>
+<li>画像位置</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>Spotlight</code> と <code>テキスト</code> の preset があります。</dd>
 </div>
@@ -1867,24 +2393,37 @@
 <h4 class="cm-card__title">タブコレクション</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>タブ切替で複数コレクションを見せるセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; タブコレクション。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>見出し、サブ見出し、ヘッダー配置、レイアウト、列数、列間隔、アイコンスタイル、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>見出し</li>
+<li>サブ見出し</li>
+<li>ヘッダー配置</li>
+<li>レイアウト</li>
+<li>列数</li>
+<li>列間隔</li>
+<li>アイコンスタイル</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">ブロック</dt>
 <dd>タブ。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">タブブロックで設定できる内容</dt>
-<dd>対象コレクション、表示件数、カード配色、枠線、特集画像、画像比率、画像上 CTA ボタン、商品タイトル体裁、価格体裁、<code>Show sale price first</code>、スウォッチ配置と余白。</dd>
+<dt class="cm-label">ブロック設定</dt>
+<dd>対象コレクション、表示件数、カード配色、枠線、特集画像、画像比率、画像上 CTA ボタン、商品タイトル体裁、価格体裁、<code>Show sale price first</code>（セール価格を先に表示）、スウォッチ配置と余白。</dd>
 </div>
 </dl>
 </article>
@@ -1892,31 +2431,43 @@
 <h4 class="cm-card__title">商品情報</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>商品ページのメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>商品テンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>コンテンツ幅、PC でのメディア位置、均等カラム、詳細幅制限、詳細の幅、ギャップ、最大コンテンツ幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>コンテンツ幅</li>
+<li>PC でのメディア位置</li>
+<li>均等カラム</li>
+<li>詳細幅制限</li>
+<li>詳細の幅</li>
+<li>ギャップ</li>
+<li>最大コンテンツ幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">既定構成</dt>
 <dd>商品メディアギャラリー、商品詳細グループ、バリエーションピッカー、フィットガイド、ポップアップリンク、購入ボタン、タブリッチテキスト、アコーディオン、アップセル。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">均等カラムと詳細の幅</dt>
 <dd>「均等カラム」と「商品の詳細の幅を制限する」を有効にすると、PCでは「詳細の幅」で商品詳細エリアの最大幅を50〜100%の範囲で調整できます。100%未満では商品詳細の中身が詳細カラム内で中央配置され、メディアとの余白はギャップ設定値そのものになります。100%では従来どおり、ギャップ設定値に固定の40px余白が加わります。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">最大コンテンツ幅</dt>
 <dd>「最大コンテンツ幅」は、横並びのメディア / 商品詳細エリアがワイド画面で広がりすぎるのを防ぐ上限幅です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>価格ブロックではセール価格の表示順や税メモ表示、購入ボタンでは数量、即時購入、ギフトカード入力などを設定できます。</dd>
 </div>
 </dl>
@@ -1926,51 +2477,74 @@
 <span class="cm-card__tag">ブロック</span>フィットガイド</h5>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>商品詳細エリア内に、5分割のフィット感インジケーターを表示する商品ページ用ブロックです。サイズ感、着用感、ゆとり感などを、左から右への段階表示で伝える用途に使います。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>商品テンプレート &gt; 商品情報 &gt; 商品詳細グループ &gt; ブロック追加 &gt; フィットガイド。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">既定配置</dt>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>見出し</li>
+<li>フォールバックアクティブセグメント</li>
+<li>左ラベル</li>
+<li>中央ラベル</li>
+<li>右ラベル</li>
+<li>アクティブ色</li>
+<li>上下左右余白</li>
+</ul>
+</dd>
+</div>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">既定配置</dt>
 <dd>既定の商品テンプレートでは、バリエーションピッカーと購入ボタンの間に配置されています。位置を変えたい場合は、商品詳細グループ内でブロックをドラッグして並べ替えます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>見出し、フォールバックアクティブセグメント、左ラベル、中央ラベル、右ラベル、アクティブ色、上下左右余白。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">表示仕様</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">表示仕様</dt>
 <dd>インジケーターは常に5セグメントで表示され、アクティブな1セグメントだけが強調表示されます。<code>1</code> は左端、<code>3</code> は中央、<code>5</code> は右端です。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">優先順位</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">優先順位</dt>
 <dd>商品メタフィールド <code>theme.fit_guide_segment</code> に値がある場合は、その値をアクティブセグメントとして使用します。メタフィールドが空の場合は、ブロック側の「フォールバックアクティブセグメント」を使用します。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">メタフィールド定義の作成手順</dt>
-<dd>Shopify管理画面 &gt; 設定 &gt; カスタムデータ &gt; 商品 &gt; 定義を追加 を開きます。名前は <code>Fit guide segment</code>、namespace は <code>theme</code>、key は <code>fit_guide_segment</code>、型は <code>Number</code> の <code>Integer</code> を選択します。検証を設定できる場合は最小値 <code>1</code>、最大値 <code>5</code> を設定します。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">メタフィールド定義の作成手順</dt>
+<dd>
+<ol class="cm-steps">
+<li>Shopify管理画面 &gt; 設定 &gt; カスタムデータ &gt; 商品 &gt; 定義を追加 を開きます。</li>
+<li>名前は <code>Fit guide segment</code>、namespace は <code>theme</code>、key は <code>fit_guide_segment</code>、型は <code>Number</code> の <code>Integer</code> を選択します。</li>
+<li>検証を設定できる場合は最小値 <code>1</code>、最大値 <code>5</code> を設定します。</li>
+</ol>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">商品ごとの入力手順</dt>
-<dd>Shopify管理画面 &gt; 商品管理 で対象商品を開き、メタフィールド欄の <code>Fit guide segment</code> に <code>1</code> から <code>5</code> の整数を入力して保存します。入力後、該当商品のフィットガイドは商品ごとの値を優先して表示します。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">商品ごとの入力手順</dt>
+<dd>
+<ol class="cm-steps">
+<li>Shopify管理画面 &gt; 商品管理 で対象商品を開きます。</li>
+<li>メタフィールド欄の <code>Fit guide segment</code> に <code>1</code> から <code>5</code> の整数を入力して保存します。</li>
+<li>入力後、該当商品のフィットガイドは商品ごとの値を優先して表示します。</li>
+</ol>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">ブロック側だけで運用する場合</dt>
-<dd>商品メタフィールドを入力しなければ、すべての商品でブロック設定の「フォールバックアクティブセグメント」が使われます。全商品で同じフィット表示にしたい場合は、この運用で問題ありません。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">運用パターン</dt>
+<dd>
+<ul class="cm-bullets">
+<li>ブロック側だけで運用する場合: 商品メタフィールドを入力しなければ、すべての商品でブロック設定の「フォールバックアクティブセグメント」が使われます。全商品で同じフィット表示にしたい場合は、この運用で問題ありません。</li>
+<li>商品ごとに表示有無を分ける場合: このブロックは、追加されているテンプレート上ではメタフィールド未入力でもフォールバック値で表示されます。表示しない商品を分けたい場合は、フィットガイドを含む商品テンプレートと含まない商品テンプレートを分け、商品ごとにテンプレートを割り当てます。</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">商品ごとに表示有無を分ける場合</dt>
-<dd>このブロックは、追加されているテンプレート上ではメタフィールド未入力でもフォールバック値で表示されます。表示しない商品を分けたい場合は、フィットガイドを含む商品テンプレートと含まない商品テンプレートを分け、商品ごとにテンプレートを割り当てます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label">ラベル設計</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">ラベル設計</dt>
 <dd>左ラベル、中央ラベル、右ラベルは任意です。例として <code>小さめ / 標準 / 大きめ</code>、<code>タイト / ジャスト / ゆったり</code>、<code>Short / Regular / Long</code> など、商品カテゴリに合う表現を設定します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--warn">注意</dt>
+<dt class="cm-label">注意点</dt>
 <dd>メタフィールド値が <code>1</code> から <code>5</code> の範囲外の場合、ブロックは表示されません。Shopify側のメタフィールド検証で <code>1-5</code> に制限しておくと安全です。</dd>
 </div>
 </dl>
@@ -1980,35 +2554,47 @@
 <span class="cm-card__tag">ブロック</span>アップセル</h5>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>商品詳細エリア内に、関連商品や一緒に購入してほしい商品をコンパクトに表示する商品ページ用ブロックです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>商品テンプレート &gt; 商品情報 &gt; 商品詳細グループ &gt; ブロック追加 &gt; アップセル。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>見出し、単一商品、商品リスト、画像比率、在庫がある商品のみ表示、レイアウト（縦並び / スライダー）、スライド自動切り替え、背景色、上下左右余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>見出し</li>
+<li>単一商品</li>
+<li>商品リスト</li>
+<li>画像比率</li>
+<li>在庫がある商品のみ表示</li>
+<li>レイアウト（縦並び / スライダー）</li>
+<li>スライド自動切り替え</li>
+<li>背景色</li>
+<li>上下左右余白</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">商品の指定</dt>
 <dd>商品リストを設定した場合は、単一商品より商品リストが優先されます。表示できる商品は最大3件です。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">メタフィールド連携</dt>
 <dd>商品メタフィールド <code>theme.upsell</code> または <code>theme.upsell_list</code> を動的ソースとして接続すると、商品ごとにアップセル商品を出し分けできます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">Plusボタンの動作</dt>
 <dd>バリエーションが1つの商品はPlusボタンで直接カートに追加され、追加後はチェックマークが表示されます。複数バリエーションの商品はPlusボタンからQuick addドロワーを開きます。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">在庫切れ表示</dt>
 <dd>在庫切れ商品はPlusボタンの位置にSold out文言を表示します。この文言はテーマ設定のSold outバッジラベルを参照します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>税込ラベルは「テーマ設定 &gt; 価格」の税込ラベル設定に追従し、有効時は価格の横に表示されます。</dd>
 </div>
 </dl>
@@ -2017,27 +2603,38 @@
 <h4 class="cm-card__title">追従カート</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>商品ページで追従表示される購入バーです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>フッターグループ内または該当セクション設定から有効化します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>有効化、モバイルのみ表示、配色、Glass効果、影を表示、数量表示、バリエーションピッカー表示、商品画像表示。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>有効化</li>
+<li>モバイルのみ表示</li>
+<li>配色</li>
+<li>Glass効果</li>
+<li>影を表示</li>
+<li>数量表示</li>
+<li>バリエーションピッカー表示</li>
+<li>商品画像表示</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">Glass効果</dt>
 <dd>Glass効果を有効にすると、追従カート本体とバリエーションピッカーが半透明背景、15pxのぼかし、薄い罫線、上端と左端のハイライト、内側の光を使ったガラス風の表示になります。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">影</dt>
 <dd>「影を表示」をオフにすると、追従カート本体とバリエーションピッカーのシャドウを非表示にできます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>現在は上下余白設定ではなく、必要要素の表示有無を中心に調整する構成です。</dd>
 </div>
 </dl>
@@ -2046,12 +2643,12 @@
 <h4 class="cm-card__title">お気に入りリスト</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>
 <code>page.wishlist</code> JSONテンプレート、または固定ページテンプレートに追加したWishlistセクションで表示するお気に入り一覧ページです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>お気に入りページテンプレート、または固定ページテンプレート内のWishlistセクションで編集します。</dd>
 </div>
 <div class="cm-row">
@@ -2059,20 +2656,33 @@
 <dd>タイトルブロック、ページコンテンツブロック、Wishlistセクション固定のお気に入りリスト。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>カードサイズ、モバイルカードサイズ、商品名を2行までに制限、商品名タイポグラフィー、バリエーションピッカー、画像比率、グリッド幅、列間隔、配色、下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>カードサイズ</li>
+<li>モバイルカードサイズ</li>
+<li>商品名を2行までに制限</li>
+<li>商品名タイポグラフィー</li>
+<li>バリエーションピッカー</li>
+<li>画像比率</li>
+<li>グリッド幅</li>
+<li>列間隔</li>
+<li>配色</li>
+<li>下余白</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">商品名タイポグラフィー</dt>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">商品名タイポグラフィー</dt>
 <dd>プリセット、フォント、カスタムサイズ、行間、文字間隔、大文字 / 小文字、折り返し、色を設定できます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>お気に入りリスト本体は重複描画を避けるためブロックではなく、Wishlistセクション側の固定コンテンツとして管理します。</dd>
+<dt class="cm-label">関連する設定</dt>
+<dd>WishlistのAdd to cartボタンのカートアイコンは、テーマ設定 &gt; カートのカートアイコン設定に追従します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>WishlistのAdd to cartボタンのカートアイコンは、テーマ設定 &gt; カートのカートアイコン設定に追従します。</dd>
+<dt class="cm-label">技術仕様</dt>
+<dd>お気に入りリスト本体は重複描画を避けるためブロックではなく、Wishlistセクション側の固定コンテンツとして管理します。</dd>
 </div>
 </dl>
 </article>
@@ -2080,11 +2690,11 @@
 <h4 class="cm-card__title">商品カードのレンダリング</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>セクションレンダリング API 用の内部セクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">補足</dt>
 <dd>通常のテーマ編集では使用しません。</dd>
 </div>
 </dl>
@@ -2098,16 +2708,21 @@
 <h4 class="cm-card__title">ブログ記事一覧</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>ブログ一覧ページのメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>ブログテンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -2115,16 +2730,23 @@
 <h4 class="cm-card__title">ブログ記事</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>記事ページ本体です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>記事テンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>方向、ギャップ、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>方向</li>
+<li>ギャップ</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -2132,19 +2754,33 @@
 <h4 class="cm-card__title">ブログ記事（特集表示）</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>指定ブログの記事カードを任意ページに表示します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ブログ記事。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象ブログ、レイアウト、モバイルカルーセル、表示件数、列数、カードサイズ、間隔、アイコンスタイル、表示幅、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>対象ブログ</li>
+<li>レイアウト</li>
+<li>モバイルカルーセル</li>
+<li>表示件数</li>
+<li>列数</li>
+<li>カードサイズ</li>
+<li>間隔</li>
+<li>アイコンスタイル</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>カルーセル</code>、<code>グリッド</code>、<code>編集</code> の preset があります。</dd>
 </div>
@@ -2154,20 +2790,37 @@
 <h4 class="cm-card__title">ブログ記事（ヒーロー）</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>1記事ずつを全幅のヒーロースライドショーで表示します。各スライドは画像とテキストを左右半々に配置し、複数記事をスライドで切り替えます（Cream 設計のブログ特集ヒーロー）。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>セクション追加 &gt; ブログ記事（ヒーロー）。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>対象ブログ、表示件数、画像位置（左 / 右）、スライド高さ（450 / 550 / 650 / 750px）、アイコンスタイル、ページネーション（ドット / カウンター）、自動回転と速度、表示幅、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-bullets">
+<li>対象ブログ</li>
+<li>表示件数</li>
+<li>画像位置（左 / 右）</li>
+<li>スライド高さ（450 / 550 / 650 / 750px）</li>
+<li>アイコンスタイル</li>
+<li>ページネーション（ドット / カウンター）</li>
+<li>自動回転と速度</li>
+<li>表示幅</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>デスクトップでは画像とコンテンツを 50% ずつの横並び、モバイルでは縦積みになります。タイトルとカード見出しは静的な既定文言で、編集して使用します。</dd>
+<dt class="cm-label">動作仕様</dt>
+<dd>デスクトップでは画像とコンテンツを 50% ずつの横並び、モバイルでは縦積みになります。</dd>
+</div>
+<div class="cm-row">
+<dt class="cm-label">補足</dt>
+<dd>タイトルとカード見出しは静的な既定文言で、編集して使用します。</dd>
 </div>
 </dl>
 </article>
@@ -2175,19 +2828,27 @@
 <h4 class="cm-card__title">ページ</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>固定ページ本文を表示するメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>ページテンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>方向、ギャップ、配色、表示幅、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>方向</li>
+<li>ギャップ</li>
+<li>配色</li>
+<li>表示幅</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>
 <code>page.contact</code> では、このセクションの下に <code>セクション &gt; お問い合わせフォーム</code> が追加されています。</dd>
 </div>
@@ -2197,25 +2858,29 @@
 <h4 class="cm-card__title">お問い合わせフォーム</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>
 <code>page.contact</code> で使用する編集可能な問い合わせフォームです。名前、メール、電話番号、テキスト、問い合わせ内容、プルダウン、チェックボックス、小見出し、スペーサー、送信ボタンを組み合わせられます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>ページテンプレート <code>page.contact</code> を開き、セクション &gt; お問い合わせフォームを編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>フォーム注記、隙間、配色、透過背景、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>フォーム注記</li>
+<li>隙間</li>
+<li>配色</li>
+<li>透過背景</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">名前ブロック</dt>
-<dd>名のラベル、名のプレースホルダー、姓のラベル、姓のプレースホルダー、表示を逆にする、必須を設定できます。</dd>
-</div>
-<div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
-<dd>「表示を逆にする」を有効にすると、名前ブロックの表示順と入力順が <code>姓 &gt; 名</code> になります。無効時は <code>名 &gt; 姓</code> です。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">名前ブロック</dt>
+<dd>名のラベル、名のプレースホルダー、姓のラベル、姓のプレースホルダー、表示を逆にする、必須を設定できます。「表示を逆にする」を有効にすると、名前ブロックの表示順と入力順が <code>姓 &gt; 名</code> になります。無効時は <code>名 &gt; 姓</code> です。</dd>
 </div>
 </dl>
 </article>
@@ -2228,19 +2893,31 @@
 <h4 class="cm-card__title">検索結果</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>検索結果一覧のメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>検索テンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>レイアウト、カードサイズ、無限スクロール、1ページ件数、グリッド幅、モバイル全幅、行 / 列間隔、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>レイアウト</li>
+<li>カードサイズ</li>
+<li>無限スクロール</li>
+<li>1ページ件数</li>
+<li>グリッド幅</li>
+<li>モバイル全幅</li>
+<li>行 / 列間隔</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">補足</dt>
 <dd>既定テンプレートではフィルター、並び替え、グリッド密度切替に対応します。</dd>
 </div>
 </dl>
@@ -2249,27 +2926,33 @@
 <h4 class="cm-card__title">カート</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>カートページ本体です。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>カートテンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>表示幅、配色、上下余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>表示幅</li>
+<li>配色</li>
+<li>上下余白</li>
+</ul>
+</dd>
 </div>
 <div class="cm-row">
 <dt class="cm-label">既定構成</dt>
 <dd>カートタイトル、カート商品一覧、カート要約。</dd>
 </div>
-<div class="cm-row">
-<dt class="cm-label">カート要約ブロックで設定できる内容</dt>
-<dd>税 / 配送料テキスト、カートメモ、ディスカウントコード入力、分割払い表示、高速チェックアウト、空カート時リンク。</dd>
+<div class="cm-row cm-row--feature">
+<dt class="cm-subhead">カート要約ブロック</dt>
+<dd>税 / 配送料テキスト、カートメモ、ディスカウントコード入力、分割払い表示、高速チェックアウト、空カート時リンクを設定できます。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label cm-label--muted">補足</dt>
+<dt class="cm-label">関連する設定</dt>
 <dd>送料無料進捗は「テーマ設定 &gt; カート」で一元管理します。有効にするとカートページとカートドロワーの共通要約描画に反映されます。</dd>
 </div>
 </dl>
@@ -2278,16 +2961,26 @@
 <h4 class="cm-card__title">404</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>404 ページのメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>404 テンプレートで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>方向、表示幅、高さ、配置、ギャップ、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>方向</li>
+<li>表示幅</li>
+<li>高さ</li>
+<li>配置</li>
+<li>ギャップ</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
@@ -2295,16 +2988,28 @@
 <h4 class="cm-card__title">パスワード</h4>
 <dl class="cm-rows">
 <div class="cm-row">
-<dt class="cm-label cm-label--lead">概要</dt>
+<dt class="cm-label">概要</dt>
 <dd>ストアパスワードページ用のメインセクションです。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">操作</dt>
+<dt class="cm-label">設定場所</dt>
 <dd>パスワードページで編集します。</dd>
 </div>
 <div class="cm-row">
-<dt class="cm-label">主な設定</dt>
-<dd>方向、配置、ギャップ、表示幅、背景メディア、背景画像、枠線、配色、余白。</dd>
+<dt class="cm-label">設定項目</dt>
+<dd>
+<ul class="cm-items">
+<li>方向</li>
+<li>配置</li>
+<li>ギャップ</li>
+<li>表示幅</li>
+<li>背景メディア</li>
+<li>背景画像</li>
+<li>枠線</li>
+<li>配色</li>
+<li>余白</li>
+</ul>
+</dd>
 </div>
 </dl>
 </article>
