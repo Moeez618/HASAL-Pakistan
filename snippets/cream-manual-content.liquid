@@ -20,16 +20,18 @@
   }
 
   .cmv3 {
-    --cmv3-text: #212121;
-    --cmv3-muted: #5f5b54;
-    --cmv3-faint: #8a857c;
-    --cmv3-hair: #e8e4dc;
-    --cmv3-panel: #f6f4ef;
-    --cmv3-accent: #8a6a35;
-    --cmv3-accent-bg: #f6f1e7;
-    --cmv3-gold: #ab8c52;
+    /* Inherit all foreground and surface colors from the section's scheme. */
+    --cmv3-text: var(--COLOR-TEXT);
+    --cmv3-muted: var(--COLOR-TEXT-A80);
+    --cmv3-faint: var(--COLOR-TEXT-A80);
+    --cmv3-hair: var(--COLOR-BORDER-LIGHT);
+    --cmv3-panel: var(--COLOR-TEXT-A5);
+    --cmv3-surface: var(--COLOR-BG-BRIGHTER);
+    --cmv3-accent: var(--BTN-PRIMARY-BG);
+    --cmv3-accent-text: var(--BTN-PRIMARY-TEXT);
+    --cmv3-accent-bg: var(--COLOR-TEXT-A5);
+    --cmv3-gold: var(--BTN-PRIMARY-BG);
     color: var(--cmv3-text);
-    font-size: 1.5rem;
     line-height: 1.9;
     margin: 0 auto;
     max-width: 1160px;
@@ -79,7 +81,7 @@
 
   .cmv3 .cmv3-support__btn,
   .cmv3 .cmv3-support__btn:hover {
-    color: #fff;
+    color: var(--cmv3-accent-text);
   }
 
   .cmv3 code {
@@ -87,7 +89,6 @@
     border: 1px solid var(--cmv3-hair);
     border-radius: 5px;
     color: var(--cmv3-text);
-    font-size: 0.9em;
     padding: 0.05em 0.35em;
     word-break: break-all;
   }
@@ -114,7 +115,6 @@
 
   .cmv3-hero__version {
     color: var(--cmv3-faint);
-    font-size: 1.3rem;
   }
 
   .cmv3-search {
@@ -125,26 +125,24 @@
   }
 
   .cmv3-search input {
-    background: #fff;
-    border: 1px solid var(--cmv3-hair);
-    border-radius: 999px;
-    color: var(--cmv3-text);
-    font-size: 1.5rem;
-    line-height: 1.4;
-    padding: 12px 20px;
-    width: 100%;
+    background: var(--bg);
+    color: var(--text);
   }
 
-  .cmv3-search input:focus {
-    border-color: var(--cmv3-gold);
-    outline: 2px solid var(--cmv3-accent-bg);
+  .cmv3-search .input-holder {
+    border: 1px solid var(--border);
+    border-radius: var(--RADIUS);
+  }
+
+  .cmv3-search.search-form .search-box {
+    border-radius: var(--RADIUS);
   }
 
   .cmv3-search__results {
-    background: #fff;
-    border: 1px solid var(--cmv3-hair);
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(33, 33, 33, 0.08);
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--RADIUS);
+    box-shadow: 0 8px 24px var(--COLOR-BG-ALPHA-25);
     display: grid;
     left: 0;
     list-style: none;
@@ -165,7 +163,7 @@
 
   .cmv3-search__results a {
     border-radius: 8px;
-    color: var(--cmv3-text);
+    color: var(--text);
     display: block;
     padding: 8px 12px;
     text-decoration: none;
@@ -173,18 +171,16 @@
 
   .cmv3-search__results a:hover,
   .cmv3-search__results a:focus {
-    background: var(--cmv3-accent-bg);
+    background: var(--text-a5);
   }
 
   .cmv3-search__results a small {
     color: var(--cmv3-faint);
     display: block;
-    font-size: 1.2rem;
   }
 
   .cmv3-search__empty {
     color: var(--cmv3-faint);
-    font-size: 1.3rem;
     padding: 8px 12px;
   }
 
@@ -197,7 +193,6 @@
   }
 
   .cmv3-quick h2 {
-    font-size: 1.4rem;
     color: var(--cmv3-faint);
     font-weight: 600;
     letter-spacing: 0.1em;
@@ -233,7 +228,6 @@
 
   .cmv3-quick__s {
     color: var(--cmv3-faint);
-    font-size: 1.2rem;
     grid-column: 1;
   }
 
@@ -269,7 +263,6 @@
 
   .cmv3-toc,
   .cmv3-toc-m {
-    font-size: 1.35rem;
     line-height: 1.6;
   }
 
@@ -290,7 +283,6 @@
 
   .cmv3-toc summary,
   .cmv3-toc__cat {
-    align-items: baseline;
     color: var(--cmv3-text);
     cursor: pointer;
     display: flex;
@@ -324,7 +316,6 @@
 
   .cmv3-no {
     color: var(--cmv3-gold);
-    font-size: 0.85em;
     font-variant-numeric: tabular-nums;
   }
 
@@ -377,7 +368,6 @@
   .cmv3-cat > h2 {
     align-items: baseline;
     display: flex;
-    font-size: 2.2rem;
     gap: 12px;
     line-height: 1.35;
   }
@@ -388,7 +378,6 @@
   }
 
   .cmv3-cat > h3 {
-    font-size: 1.6rem;
     padding-top: 22px;
   }
 
@@ -409,13 +398,11 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.8rem;
     gap: 10px;
     line-height: 1.4;
   }
 
   .cmv3-item > h4 {
-    font-size: 1.5rem;
     padding-top: 8px;
   }
 
@@ -433,7 +420,6 @@
     border: 1px solid var(--cmv3-hair);
     border-radius: 999px;
     color: var(--cmv3-muted);
-    font-size: 1.15rem;
     font-weight: 500;
     line-height: 1.6;
     padding: 1px 10px;
@@ -444,20 +430,17 @@
     background: var(--cmv3-panel);
     border-radius: 8px;
     color: var(--cmv3-muted);
-    font-size: 1.35rem;
     padding: 6px 12px;
     width: fit-content;
   }
 
   .cmv3-place span {
     color: var(--cmv3-faint);
-    font-size: 1.2rem;
     margin-right: 10px;
   }
 
   .cmv3-cap {
     color: var(--cmv3-faint);
-    font-size: 1.2rem;
     font-weight: 600;
     letter-spacing: 0.06em;
   }
@@ -512,7 +495,6 @@
     border-left: 3px solid var(--cmv3-hair);
     border-radius: 0 8px 8px 0;
     color: var(--cmv3-muted);
-    font-size: 1.4rem;
     padding: 8px 14px;
   }
 
@@ -521,41 +503,30 @@
   }
 
   .cmv3-note--warn {
-    background: #faf3e4;
-    border-left-color: #c39441;
+    background: var(--cmv3-panel);
+    border-left-color: var(--BTN-PRIMARY-BG);
   }
 
   .cmv3-note--warn strong {
-    color: #8a5f1d;
+    color: var(--cmv3-text);
   }
 
   .cmv3-note--hint {
-    background: #eef3ef;
-    border-left-color: #6f9880;
+    background: var(--cmv3-panel);
+    border-left-color: var(--BTN-SECONDARY-BG);
   }
 
   .cmv3-note--hint strong {
-    color: #44634f;
+    color: var(--cmv3-text);
   }
 
   .cmv3-note--ext {
-    background: #edf2f6;
-    border-left-color: #7592a7;
+    background: var(--cmv3-panel);
+    border-left-color: var(--cmv3-hair);
   }
 
   .cmv3-note--ext strong {
-    color: #47637a;
-  }
-
-  .cmv3-note--spec,
-  .cmv3-note--internal {
-    background: var(--cmv3-panel);
-    border-left-color: #b6b0a5;
-  }
-
-  .cmv3-note--spec strong,
-  .cmv3-note--internal strong {
-    color: var(--cmv3-muted);
+    color: var(--cmv3-text);
   }
 
   /* ===== Tables ===== */
@@ -567,7 +538,6 @@
 
   .cmv3-tablewrap table {
     border-collapse: collapse;
-    font-size: 1.35rem;
     min-width: 540px;
     width: 100%;
   }
@@ -596,7 +566,6 @@
     border-radius: 6px;
     color: var(--cmv3-faint);
     cursor: pointer;
-    font-size: 1.3rem;
     line-height: 1;
     min-height: 32px;
     min-width: 32px;
@@ -629,7 +598,6 @@
   }
 
   .cmv3-support h2 {
-    font-size: 1.7rem;
   }
 
   .cmv3-support p {
@@ -639,7 +607,7 @@
   .cmv3-support__btn {
     background: var(--cmv3-accent);
     border-radius: 999px;
-    color: #fff;
+    color: var(--cmv3-accent-text);
     display: inline-block;
     font-weight: 600;
     margin-top: 6px;
@@ -649,8 +617,8 @@
   }
 
   .cmv3-support__btn:hover {
-    background: var(--cmv3-text);
-    color: #fff;
+    background: var(--BTN-PRIMARY-BG-BRIGHTER);
+    color: var(--cmv3-accent-text);
   }
 
   /* ===== Responsive ===== */
@@ -675,7 +643,7 @@
     }
 
     .cmv3-toc-m {
-      background: #fff;
+      background: var(--cmv3-surface);
       border: 1px solid var(--cmv3-hair);
       border-radius: 12px;
       display: block;
@@ -754,13 +722,6 @@
       columns: 1;
     }
 
-    .cmv3-cat > h2 {
-      font-size: 1.9rem;
-    }
-
-    .cmv3-item > h3 {
-      font-size: 1.65rem;
-    }
   }
 </style>
 
@@ -768,8 +729,10 @@
   <header class="cmv3-hero">
     <p class="cmv3-hero__lede">Cream の設定方法や、各セクションの使い方を確認できます。</p>
     <p class="cmv3-hero__version">対象バージョン：4.1.0</p>
-    <div class="cmv3-search" data-cmv3-search>
-      <input type="search" placeholder="マニュアル内を検索（例：送料無料、ヘッダー、クイック追加）" aria-label="マニュアル内検索" autocomplete="off">
+    <div class="cmv3-search search-form" data-cmv3-search role="search">
+      <div class="input-holder">
+        <input class="search-box" type="search" placeholder="マニュアル内を検索（例：送料無料、ヘッダー、クイック追加）" aria-label="マニュアル内検索" autocomplete="off">
+      </div>
       <ul class="cmv3-search__results" hidden></ul>
     </div>
   </header>
@@ -783,8 +746,8 @@
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
 <a class="cmv3-quick__card" href="#header">
-<span class="cmv3-quick__t">ヘッダー・メニューを設定する</span>
-<span class="cmv3-quick__s">ヘッダーグループ</span>
+<span class="cmv3-quick__t">ヘッダー・フッターを編集する</span>
+<span class="cmv3-quick__s">共通グループ設定</span>
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
 <a class="cmv3-quick__card" href="#pages-sections">
@@ -802,9 +765,9 @@
 <span class="cmv3-quick__s">テーマ設定 &gt; カート</span>
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
-<a class="cmv3-quick__card" href="#footer">
-<span class="cmv3-quick__t">フッターを編集する</span>
-<span class="cmv3-quick__s">フッターグループ</span>
+<a class="cmv3-quick__card" href="#search-section">
+<span class="cmv3-quick__t">検索まわりを設定する</span>
+<span class="cmv3-quick__s">検索ページと検索結果</span>
 <span class="cmv3-quick__arrow" aria-hidden="true">&rarr;</span>
 </a>
     </div>
@@ -813,16 +776,13 @@
   <details class="cmv3-toc-m">
     <summary>目次を開く</summary>
     <div class="cmv3-toc-m__inner">
-      <nav aria-label="目次">
+{%- capture cmv3_toc -%}
 <a class="cmv3-toc__cat" href="#introduction" data-toc>
 <span class="cmv3-no">01</span>はじめに</a>
 <details>
 <summary>
 <span class="cmv3-no">02</span>基本操作</summary>
 <ul>
-<li>
-<a href="#basic-operations" data-toc>このカテゴリの先頭</a>
-</li>
 <li>
 <a href="#editor-basics" data-toc>テーマエディタの共通手順</a>
 </li>
@@ -832,9 +792,6 @@
 <summary>
 <span class="cmv3-no">03</span>テーマ全体の設定</summary>
 <ul>
-<li>
-<a href="#theme-settings" data-toc>このカテゴリの先頭</a>
-</li>
 <li>
 <a href="#logo-favicon" data-toc>ロゴとファビコン</a>
 </li>
@@ -902,9 +859,6 @@
 <span class="cmv3-no">04</span>ヘッダー・フッター</summary>
 <ul>
 <li>
-<a href="#header-footer" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
 <a href="#announcement-bar" data-toc>お知らせバー</a>
 </li>
 <li>
@@ -934,9 +888,6 @@
 <summary>
 <span class="cmv3-no">05</span>ページ・セクション</summary>
 <ul>
-<li>
-<a href="#pages-sections" data-toc>このカテゴリの先頭</a>
-</li>
 <li>
 <a href="#hero-image" data-toc>ヒーロー画像</a>
 </li>
@@ -1019,9 +970,6 @@
 <span class="cmv3-no">06</span>商品・コレクション</summary>
 <ul>
 <li>
-<a href="#products-collections" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
 <a href="#product-info" data-toc>商品情報</a>
 </li>
 <li>
@@ -1070,9 +1018,6 @@
 <span class="cmv3-no">07</span>カート・検索</summary>
 <ul>
 <li>
-<a href="#cart-search" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
 <a href="#cart-page" data-toc>カートページ</a>
 </li>
 <li>
@@ -1090,9 +1035,6 @@
 <span class="cmv3-no">09</span>上級者向け・内部仕様</summary>
 <ul>
 <li>
-<a href="#advanced-internal" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
 <a href="#theme-structure" data-toc>テーマの確認基準</a>
 </li>
 <li>
@@ -1106,306 +1048,17 @@
 </li>
 </ul>
 </details>
+{%- endcapture -%}
+      <nav aria-label="目次">
+      {{ cmv3_toc }}
       </nav>
     </div>
   </details>
 
   <div class="cmv3-layout">
     <nav class="cmv3-toc" aria-label="目次">
-<a class="cmv3-toc__cat" href="#introduction" data-toc>
-<span class="cmv3-no">01</span>はじめに</a>
-<details>
-<summary>
-<span class="cmv3-no">02</span>基本操作</summary>
-<ul>
-<li>
-<a href="#basic-operations" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#editor-basics" data-toc>テーマエディタの共通手順</a>
-</li>
-</ul>
-</details>
-<details>
-<summary>
-<span class="cmv3-no">03</span>テーマ全体の設定</summary>
-<ul>
-<li>
-<a href="#theme-settings" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#logo-favicon" data-toc>ロゴとファビコン</a>
-</li>
-<li>
-<a href="#theme-colors" data-toc>色</a>
-</li>
-<li>
-<a href="#typography" data-toc>タイポグラフィー</a>
-</li>
-<li>
-<a href="#page-layout" data-toc>ページレイアウト</a>
-</li>
-<li>
-<a href="#animations" data-toc>アニメーション</a>
-</li>
-<li>
-<a href="#badges" data-toc>バッジ</a>
-</li>
-<li>
-<a href="#buttons" data-toc>ボタン</a>
-</li>
-<li>
-<a href="#cart-settings" data-toc>カート</a>
-</li>
-<li>
-<a href="#drawers" data-toc>ドロワー</a>
-</li>
-<li>
-<a href="#icons" data-toc>アイコン</a>
-</li>
-<li>
-<a href="#input-fields" data-toc>入力フィールド</a>
-</li>
-<li>
-<a href="#popovers" data-toc>ポップオーバーとモーダル</a>
-</li>
-<li>
-<a href="#prices" data-toc>価格</a>
-</li>
-<li>
-<a href="#product-card" data-toc>商品カード</a>
-</li>
-<li>
-<a href="#wishlist-settings" data-toc>お気に入りリスト</a>
-</li>
-<li>
-<a href="#video-intro" data-toc>ビデオイントロ</a>
-</li>
-<li>
-<a href="#search-settings" data-toc>検索</a>
-</li>
-<li>
-<a href="#swatches" data-toc>見本（スウォッチ）</a>
-</li>
-<li>
-<a href="#variant-picker" data-toc>バリエーションピッカー</a>
-</li>
-<li>
-<a href="#splash-screen" data-toc>スプラッシュスクリーン</a>
-</li>
-</ul>
-</details>
-<details>
-<summary>
-<span class="cmv3-no">04</span>ヘッダー・フッター</summary>
-<ul>
-<li>
-<a href="#header-footer" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#announcement-bar" data-toc>お知らせバー</a>
-</li>
-<li>
-<a href="#header" data-toc>ヘッダー</a>
-</li>
-<li>
-<a href="#mobile-menu" data-toc>モバイルメニュー</a>
-</li>
-<li>
-<a href="#mega-menu" data-toc>メガメニュー</a>
-</li>
-<li>
-<a href="#mobile-dock" data-toc>追従メニュー</a>
-</li>
-<li>
-<a href="#footer" data-toc>フッター</a>
-</li>
-<li>
-<a href="#utility-bar" data-toc>ユーティリティ</a>
-</li>
-<li>
-<a href="#password-footer" data-toc>パスワードフッター</a>
-</li>
-</ul>
-</details>
-<details>
-<summary>
-<span class="cmv3-no">05</span>ページ・セクション</summary>
-<ul>
-<li>
-<a href="#pages-sections" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#hero-image" data-toc>ヒーロー画像</a>
-</li>
-<li>
-<a href="#hero-video" data-toc>ヒーロービデオ</a>
-</li>
-<li>
-<a href="#slideshow" data-toc>スライドショー</a>
-</li>
-<li>
-<a href="#scrolling-text" data-toc>スクロールテキスト</a>
-</li>
-<li>
-<a href="#text-promo" data-toc>テキストプロモ</a>
-</li>
-<li>
-<a href="#timeline" data-toc>タイムライン</a>
-</li>
-<li>
-<a href="#accordion-section" data-toc>アコーディオン</a>
-</li>
-<li>
-<a href="#media-with-text" data-toc>テキスト付きメディア</a>
-</li>
-<li>
-<a href="#divider" data-toc>区切り線</a>
-</li>
-<li>
-<a href="#countdown" data-toc>カウントダウンタイマー</a>
-</li>
-<li>
-<a href="#before-after" data-toc>ビフォー／アフター</a>
-</li>
-<li>
-<a href="#map" data-toc>地図</a>
-</li>
-<li>
-<a href="#newsletter-popup" data-toc>ニュースレターポップアップ</a>
-</li>
-<li>
-<a href="#testimonials" data-toc>お客様の声</a>
-</li>
-<li>
-<a href="#custom-liquid" data-toc>カスタムLiquid</a>
-</li>
-<li>
-<a href="#flexible-section" data-toc>汎用セクション</a>
-</li>
-<li>
-<a href="#logo-section" data-toc>ロゴ</a>
-</li>
-<li>
-<a href="#blog-list" data-toc>ブログ記事一覧</a>
-</li>
-<li>
-<a href="#article" data-toc>ブログ記事</a>
-</li>
-<li>
-<a href="#blog-posts" data-toc>ブログ記事（特集表示）</a>
-</li>
-<li>
-<a href="#blog-hero" data-toc>ブログ記事（ヒーロー）</a>
-</li>
-<li>
-<a href="#page-section" data-toc>ページ</a>
-</li>
-<li>
-<a href="#contact-form" data-toc>お問い合わせフォーム</a>
-</li>
-<li>
-<a href="#page-404" data-toc>404ページ</a>
-</li>
-<li>
-<a href="#password-page" data-toc>パスワードページ</a>
-</li>
-</ul>
-</details>
-<details>
-<summary>
-<span class="cmv3-no">06</span>商品・コレクション</summary>
-<ul>
-<li>
-<a href="#products-collections" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#product-info" data-toc>商品情報</a>
-</li>
-<li>
-<a href="#fit-guide" data-toc>フィットガイド</a>
-</li>
-<li>
-<a href="#upsell" data-toc>アップセル</a>
-</li>
-<li>
-<a href="#sticky-cart" data-toc>追従カート</a>
-</li>
-<li>
-<a href="#recently-viewed" data-toc>最近見た商品</a>
-</li>
-<li>
-<a href="#featured-collection" data-toc>特集コレクション</a>
-</li>
-<li>
-<a href="#product-highlight" data-toc>商品のハイライト</a>
-</li>
-<li>
-<a href="#recommended-products" data-toc>おすすめ商品</a>
-</li>
-<li>
-<a href="#collection-page" data-toc>コレクション</a>
-</li>
-<li>
-<a href="#collection-list" data-toc>コレクションリスト</a>
-</li>
-<li>
-<a href="#list-collections" data-toc>コレクションリスト（一覧ページ）</a>
-</li>
-<li>
-<a href="#collection-links" data-toc>コレクションリンク</a>
-</li>
-<li>
-<a href="#tab-collections" data-toc>タブコレクション</a>
-</li>
-<li>
-<a href="#wishlist-page" data-toc>お気に入りリストページ</a>
-</li>
-</ul>
-</details>
-<details>
-<summary>
-<span class="cmv3-no">07</span>カート・検索</summary>
-<ul>
-<li>
-<a href="#cart-search" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#cart-page" data-toc>カートページ</a>
-</li>
-<li>
-<a href="#search-section" data-toc>検索</a>
-</li>
-<li>
-<a href="#search-results" data-toc>検索結果</a>
-</li>
-</ul>
-</details>
-<a class="cmv3-toc__cat" href="#apps-operations" data-toc>
-<span class="cmv3-no">08</span>外部アプリ・運用上の注意</a>
-<details>
-<summary>
-<span class="cmv3-no">09</span>上級者向け・内部仕様</summary>
-<ul>
-<li>
-<a href="#advanced-internal" data-toc>このカテゴリの先頭</a>
-</li>
-<li>
-<a href="#theme-structure" data-toc>テーマの確認基準</a>
-</li>
-<li>
-<a href="#template-structure" data-toc>テンプレート構成</a>
-</li>
-<li>
-<a href="#predictive-search" data-toc>検索ポップオーバー</a>
-</li>
-<li>
-<a href="#product-card-rendering" data-toc>商品カードのレンダリング</a>
-</li>
-</ul>
-</details>
+      {{ cmv3_toc }}
     </nav>
-
     <div class="cmv3-body">
 <section class="cmv3-cat" id="introduction">
 <h2>
@@ -3095,36 +2748,98 @@
   const root = document.querySelector('.cmv3');
   if (!root || root.dataset.initialized === 'true') return;
   root.dataset.initialized = 'true';
+  const controller = new AbortController();
+  const { signal } = controller;
+  let scrollSpy;
+  const cleanup = () => {
+    controller.abort();
+    if (scrollSpy) scrollSpy.disconnect();
+  };
+
+  document.addEventListener('shopify:section:unload', (event) => {
+    if (event.target instanceof Element && event.target.contains(root)) cleanup();
+  }, { signal });
 
   /* ---------- In-page search ---------- */
   const searchBox = root.querySelector('[data-cmv3-search]');
   const input = searchBox && searchBox.querySelector('input');
   const results = searchBox && searchBox.querySelector('.cmv3-search__results');
+  const tocLinks = [...root.querySelectorAll('a[data-toc]')];
+  const mobileToc = root.querySelector('.cmv3-toc-m');
+  const escapeSelector = (value) => (window.CSS && typeof window.CSS.escape === 'function' ? window.CSS.escape(value) : value.replace(/([^a-zA-Z0-9_-])/g, '\\$1'));
+
+  const navigateToId = (id) => {
+    if (!id) return;
+    const target = root.querySelector(`#${escapeSelector(id)}`);
+    if (!target) return;
+    if (location.hash !== `#${id}`) history.pushState(null, '', `#${id}`);
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    target.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+    if (mobileToc) mobileToc.removeAttribute('open');
+  };
+
+  tocLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+      const href = link.getAttribute('href') || '';
+      if (!href.startsWith('#')) return;
+      e.preventDefault();
+      navigateToId(href.slice(1));
+    });
+  });
 
   if (input && results) {
     const index = [];
     root.querySelectorAll('.cmv3-cat').forEach((cat) => {
       const catTitle = cat.querySelector('h2').textContent.trim().replace(/^\d+\s*/, '');
-      index.push({ id: cat.id, title: catTitle, sub: 'カテゴリ', text: catTitle.toLowerCase() });
+      const catTitleLower = catTitle.toLowerCase();
+      index.push({
+        id: cat.id,
+        kind: 'category',
+        title: catTitle,
+        titleLower: catTitleLower,
+        sub: 'カテゴリ',
+        subLower: 'カテゴリ',
+        text: catTitleLower
+      });
       cat.querySelectorAll('.cmv3-item').forEach((item) => {
         const title = item.querySelector('h3').textContent.trim();
+        const titleLower = title.toLowerCase();
+        const keywords = (item.dataset.kw || '').toLowerCase();
         const place = item.querySelector('.cmv3-place');
         const settings = item.querySelector('.cmv3-settings');
-        const text = [title, item.dataset.kw || '', place ? place.textContent : '', settings ? settings.textContent : '']
+        const subLower = catTitleLower;
+        const text = [title, keywords, place ? place.textContent : '', settings ? settings.textContent : '']
           .join(' ')
           .toLowerCase();
-        index.push({ id: item.id, title, sub: catTitle, text });
+        index.push({
+          id: item.id,
+          kind: 'item',
+          title,
+          titleLower,
+          sub: catTitle,
+          subLower,
+          text
+        });
       });
     });
 
-    input.setAttribute('role', 'combobox');
-    input.setAttribute('aria-expanded', 'false');
-    input.setAttribute('aria-controls', 'cmv3-search-results');
-    results.id = 'cmv3-search-results';
-
     const close = () => {
       results.hidden = true;
-      input.setAttribute('aria-expanded', 'false');
+    };
+
+    const escapeHtml = (value) => value.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+
+    const getScore = (entry, query, terms) => {
+      let score = entry.kind === 'item' ? 20 : 0;
+      if (entry.titleLower === query) score += 120;
+      if (entry.titleLower.startsWith(query)) score += 70;
+      if (entry.titleLower.includes(query)) score += 35;
+      terms.forEach((term) => {
+        if (entry.titleLower.includes(term)) score += 24;
+        if (entry.subLower.includes(term)) score += 8;
+        if (entry.text.includes(term)) score += 4;
+      });
+      return score;
     };
 
     const render = (query) => {
@@ -3134,17 +2849,20 @@
         return;
       }
       const terms = q.split(/\s+/);
-      const hits = index.filter((e) => terms.every((t) => e.text.includes(t))).slice(0, 8);
+      const hits = index
+        .filter((entry) => terms.every((term) => entry.text.includes(term)))
+        .map((entry) => ({ ...entry, score: getScore(entry, q, terms) }))
+        .sort((a, b) => b.score - a.score || (a.kind === b.kind ? a.title.length - b.title.length : a.kind === 'item' ? -1 : 1))
+        .slice(0, 8);
       results.innerHTML = hits.length
         ? hits
             .map(
               (e) =>
-                `<li><a href="#${e.id}">${e.title.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]))}<small>${e.sub}</small></a></li>`
+                `<li><a href="#${e.id}">${escapeHtml(e.title)}<small>${escapeHtml(e.sub)}</small></a></li>`
             )
             .join('')
         : '<li class="cmv3-search__empty">該当する項目が見つかりませんでした</li>';
       results.hidden = false;
-      input.setAttribute('aria-expanded', 'true');
     };
 
     input.addEventListener('input', () => render(input.value));
@@ -3182,11 +2900,15 @@
       }
     });
     results.addEventListener('click', (e) => {
-      if (e.target.closest('a')) close();
+      const link = e.target.closest('a');
+      if (!link) return;
+      e.preventDefault();
+      navigateToId(link.getAttribute('href').slice(1));
+      close();
     });
     document.addEventListener('click', (e) => {
       if (!searchBox.contains(e.target)) close();
-    });
+    }, { signal });
   }
 
   /* ---------- Copy-link buttons ---------- */
@@ -3218,7 +2940,6 @@
 
   /* ---------- TOC: initial state, scrollspy, drawer auto-close ---------- */
   const desktopToc = root.querySelector('.cmv3-toc');
-  const mobileToc = root.querySelector('.cmv3-toc-m');
 
   if (desktopToc) {
     const first = desktopToc.querySelector('details');
@@ -3241,11 +2962,12 @@
       const box = desktopToc.getBoundingClientRect();
       const item = link.getBoundingClientRect();
       if (item.top < box.top + 40 || item.bottom > box.bottom - 40) {
-        link.scrollIntoView({ block: 'center' });
+        const top = desktopToc.scrollTop + item.top - box.top - (box.height - item.height) / 2;
+        desktopToc.scrollTo({ top: Math.max(0, top), behavior: 'auto' });
       }
     };
 
-    const targets = [...root.querySelectorAll('.cmv3-cat, .cmv3-item')];
+    const targets = [...root.querySelectorAll('.cmv3-cat, .cmv3-item')].filter((target) => links.has(target.id));
     const visible = new Set();
     const pick = () => {
       let best = null;
@@ -3269,20 +2991,14 @@
       }
       if (best) setActive(best.id);
     };
-    const io = new IntersectionObserver(
+    scrollSpy = new IntersectionObserver(
       (entries) => {
         entries.forEach((e) => (e.isIntersecting ? visible.add(e.target) : visible.delete(e.target)));
         pick();
       },
       { rootMargin: '-96px 0px -55% 0px', threshold: 0 }
     );
-    targets.forEach((t) => io.observe(t));
-  }
-
-  if (mobileToc) {
-    mobileToc.addEventListener('click', (e) => {
-      if (e.target.closest('a[data-toc]')) mobileToc.removeAttribute('open');
-    });
+    targets.forEach((t) => scrollSpy.observe(t));
   }
 })();
 </script>
