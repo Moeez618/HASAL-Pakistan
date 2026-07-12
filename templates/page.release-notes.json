@@ -30,8 +30,8 @@
         "button_hkx3tz": {
           "type": "button",
           "settings": {
-            "button_text": "詳しく聞いてみる",
-            "button_url": "shopify://pages/contact",
+            "button_text": "詳細を確認する",
+            "button_url": "shopify://products/cream-by-solstar",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
