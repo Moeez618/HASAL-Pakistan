@@ -52,12 +52,12 @@
         "toolbar_PMQgzP": {
           "type": "toolbar",
           "settings": {
-            "text": "<p>Toolbar</p>",
+            "text": "",
             "menu": "",
             "show_border": false,
             "border_color": "",
             "border_opacity": 50,
-            "show_social_links": false,
+            "show_social_links": true,
             "show_gift_card": false,
             "show_locale_selector": true,
             "show_locale_code": false,
@@ -91,7 +91,7 @@
         "button_text": "無料相談はこちら",
         "button_link": "shopify://pages/contact",
         "button_type": "btn--primary",
-        "show_social_icons": true,
+        "show_social_icons": false,
         "secondary_menu_linklist": "",
         "show_locale_selector": true,
         "show_locale_code": false,

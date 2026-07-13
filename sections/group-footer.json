@@ -14,49 +14,60 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "footer-0": {
-          "type": "newsletter",
-          "settings": {
-            "title": "EC運用の「次の一手」が届くメールマガジン",
-            "heading_font_size": "heading-medium",
-            "text": "<p>Shopify最新アップデートの解説、売上改善の実践ノウハウ、セミナー・無料資料のご案内をお届けします。</p>",
-            "button_text": "登録する",
-            "show_arrow": true,
-            "terms": false,
-            "show_name": false,
-            "button_type": "btn--black",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_social_links": false,
-            "column_width": 33
-          }
-        },
-        "footer-1": {
-          "type": "linklist",
-          "settings": {
-            "linklist": "footer",
-            "title": "メニュー",
-            "heading_font_size": "heading-medium",
-            "column_width": 33,
-            "enable_accordion": false
-          }
-        },
-        "footer-2": {
+        "text_BcWxrH": {
           "type": "text",
           "settings": {
             "image_width": 150,
-            "title": "お問い合わせ",
+            "title": "Text",
             "heading_font_size": "heading-medium",
-            "text": "<p>ご相談は<a href=\"/pages/contact\" title=\"Contact\">こちら</a></p>",
-            "column_width": 33,
+            "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
+            "column_width": 30,
             "enable_accordion": false
+          }
+        },
+        "linklist_BVjQBB": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "column_width": 20,
+            "enable_accordion": false
+          }
+        },
+        "linklist_87qiem": {
+          "type": "linklist",
+          "settings": {
+            "linklist": "footer",
+            "title": "",
+            "heading_font_size": "heading-medium",
+            "column_width": 20,
+            "enable_accordion": false
+          }
+        },
+        "newsletter_daEgbT": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "heading_font_size": "heading-medium",
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
+            "button_text": "Join",
+            "show_arrow": false,
+            "terms": true,
+            "show_name": false,
+            "button_type": "btn--secondary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "column_width": 30
           }
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-1",
-        "footer-2"
+        "text_BcWxrH",
+        "linklist_BVjQBB",
+        "linklist_87qiem",
+        "newsletter_daEgbT"
       ],
       "custom_css": [],
       "settings": {
@@ -76,7 +87,7 @@
         "enable_greyscale": false,
         "show_locale_selector": false,
         "show_locale_code": false,
-        "show_globe_icon": true,
+        "show_globe_icon": false,
         "show_country_selector": false,
         "show_country_name": false,
         "show_country_flag": false,
