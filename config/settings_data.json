@@ -64,7 +64,7 @@
     "youtube_link": "https://www.youtube.com/@solstar-official",
     "product_grid_center": true,
     "overlay_text": false,
-    "show_recently_viewed_indicator": false,
+    "show_recently_viewed_indicator": true,
     "image_hover_enable": true,
     "image_hover_limit": 5,
     "product_grid_aspect_ratio": 1.1,
