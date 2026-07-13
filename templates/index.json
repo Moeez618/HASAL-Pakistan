@@ -678,7 +678,7 @@
         "featured_post_CbFCdc": {
           "type": "featured_post",
           "settings": {
-            "featured_post": "shopify/shopify-editions-spring-2026-agentic-commerce",
+            "featured_post": "marketing/ec-cvr-improvement-checklist",
             "subheading": "Featured post"
           }
         }
@@ -694,7 +694,7 @@
       "name": "Featured blog posts",
       "settings": {
         "show_author": false,
-        "show_date": false,
+        "show_date": true,
         "heading_font_size": "heading-large",
         "show_button": true,
         "button_text": "続きを読む",
