@@ -8,6 +8,1318 @@
  * ------------------------------------------------------------
  */
 {
-  "sections": {},
-  "order": []
+  "sections": {
+    "section_video_gbncyG": {
+      "type": "section-video",
+      "settings": {
+        "show_video_popup": false,
+        "video_popup_social": "",
+        "title": "",
+        "heading_font_size": "heading-medium",
+        "text": "",
+        "text_font_size": "body-medium",
+        "flex_align": "align--bottom-center",
+        "link_text": "",
+        "link": "",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": true,
+        "image": "shopify://shop_images/Solstar_Rectangle_White.png",
+        "desktop_height": "image-height",
+        "mobile_image": "shopify://shop_images/Solstar_Rectangle_White.png",
+        "mobile_height": "four-fifty-height-hero--mobile",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "color": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_announcement_qqjQ8T": {
+      "type": "section-announcement",
+      "blocks": {
+        "image_B6QYYA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MORFU_copy.png",
+            "image_width": 100
+          }
+        },
+        "image_zXJNrJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/shopify-mono-white.png",
+            "image_width": 100
+          }
+        },
+        "image_VcaPw8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_4_copy.png",
+            "image_width": 50
+          }
+        },
+        "image_p4PUBr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_2_copy.png",
+            "image_width": 90
+          }
+        },
+        "image_qQFVRW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_1_copy.png",
+            "image_width": 70
+          }
+        },
+        "image_KfmrPa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Garry_Panda_copy.png",
+            "image_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_B6QYYA",
+        "image_zXJNrJ",
+        "image_VcaPw8",
+        "image_p4PUBr",
+        "image_qQFVRW",
+        "image_KfmrPa"
+      ],
+      "settings": {
+        "slider_speed": 7,
+        "text_alignment": "center",
+        "marquee_speed": 100,
+        "direction": "ticker-rtl",
+        "message_spacing": 30,
+        "show_border": false,
+        "layout": "marquee",
+        "color_scheme": "scheme-10",
+        "padding_top": 5,
+        "padding_bottom": 5
+      }
+    },
+    "section_rich_text_LBH8Lm": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_Dx7ER7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "株式会社SOLSTAR",
+            "padding_bottom": 16
+          }
+        },
+        "heading_mwxG8e": {
+          "type": "heading",
+          "settings": {
+            "title": "ブランドの魅力が、売上につながるECサイトへ。",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h1"
+          }
+        },
+        "text_m4UgTi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopify専門ECパートナー｜9年以上の実績｜国内ECから越境ECまで</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Dx7ER7",
+        "heading_mwxG8e",
+        "text_m4UgTi"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_ywHUVn": {
+      "type": "section-hero",
+      "blocks": {
+        "text_6mTxMf": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>STANDARDプラン</strong></p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_hAURjE": {
+          "type": "heading",
+          "settings": {
+            "title": "Shopify ECサイト リニューアル",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h2",
+            "padding_bottom": 8
+          }
+        },
+        "text_PzkdL8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Standardプランは、Shopifyへの移行から購入導線の見直し、リピート施策の土台づくり、公開後に運用しやすい管理画面設計まで支援します。</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 8
+          }
+        },
+        "button_FFFgqn": {
+          "type": "button",
+          "settings": {
+            "link_text": "詳細を見る",
+            "link": "shopify://pages/standard-plan",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "text_6mTxMf",
+        "heading_hAURjE",
+        "text_PzkdL8",
+        "button_FFFgqn"
+      ],
+      "custom_css": [
+        ".hero__description.body-x-small {color: #ab8c52;}"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/Standard_plan_image_copy.webp",
+        "link": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "flex_align_desktop": "align--middle-left-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/Standard_plan_image_Vertical_copy_41b6dfe0-04c6-4000-a441-61410005f9c9.webp",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--top-left-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_double_K3mPqR": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_K3mPqR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Basicプラン",
+            "padding_bottom": 16
+          }
+        },
+        "heading_9TxLmZ": {
+          "type": "heading",
+          "settings": {
+            "title": "モール型ECからの卒業。自社ECを小さく始める",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_Wp4FgH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>必要な機能に絞り、約4〜8週間で公開。商品数を絞って検証しながら、自社に資産として残るECサイトの土台を構築します。</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_Rt7QaN": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "モール型EC向け",
+            "button_url": "shopify://pages/shopify-ec-store-basic-plan",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_4C89nG": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "リサイクルショップ向け",
+            "button_url": "shopify://pages/recycle-shop-ec",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_K3mPqR",
+        "heading_9TxLmZ",
+        "text_Wp4FgH",
+        "buttons_Rt7QaN",
+        "buttons_4C89nG"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Solstar_x_Customer_Result_Image_Fixed_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-7",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_placeholder": true
+      }
+    },
+    "section_double_AptAaD": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_F6iYVY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "メーカー向けECサイト制作・販売・運営アウトソーシング",
+            "padding_bottom": 16
+          }
+        },
+        "heading_bVMMjf": {
+          "type": "heading",
+          "settings": {
+            "title": "Solstar Express",
+            "heading_font_size": "heading-x-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_JAawQi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>商品供給と発送に集中。ECサイト制作・販売管理・購入者対応の一次窓口まで、SOLSTARが支援。</p>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_3McXLw": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "詳細を見る",
+            "button_url": "shopify://pages/solstar-express",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_F6iYVY",
+        "heading_bVMMjf",
+        "text_JAawQi",
+        "buttons_3McXLw"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Solstar_Express_Image_copy.webp",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-a834ebaa-257b-48bd-9853-4460159b9060",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "section_double_qaxP3k": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_qaxP3k": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "越境EC対応",
+            "padding_bottom": 16
+          }
+        },
+        "heading_twP4zj": {
+          "type": "heading",
+          "settings": {
+            "title": "越境ECへのスケール対応",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_METDwq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>国内向けECの立ち上げや改善から、越境ECを見据えた設計まで、ブランドの成長段階に合わせて、無理なく広げていける構成を整えます。</p><p>   </p><p>アメリカ・UK・シンガポール向けのShopify Plusストア構築実績を活かし、多言語・多通貨・海外配送を前提としながら、構築後の運用まで見据えたECの構成や仕組みを設計します。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_jNhDXL": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "まずは30分無料相談してみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qaxP3k",
+        "heading_twP4zj",
+        "text_METDwq",
+        "buttons_jNhDXL"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Two_Iphones_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_double_qLiMQE": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_yqbGdh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Expertise",
+            "padding_bottom": 16
+          }
+        },
+        "heading_WDH9rM": {
+          "type": "heading",
+          "settings": {
+            "title": "実績と専門性",
+            "heading_font_size": "heading-medium",
+            "padding_bottom": 16,
+            "heading_tag": "h2"
+          }
+        },
+        "text_FiRFdK": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>年間売上60億円超のShopify Plusサイトの構築・長期運用</li><li>開発費10億円超の大規模ECサイト構築</li><li>Shopifyパートナー認定／Shopifyアカデミー認定資格3種（開発・運営・B2B）</li><li>米国・英国・シンガポールなど、越境ECの構築・運用実績</li><li>中古物販・家具・アパレル・アウトドア・スーツケース・スニーカー・雑貨・ネイルなど多様な業種での支援実績</li></ul>",
+            "text_font_size": "body-small",
+            "padding_bottom": 16
+          }
+        },
+        "text_iVtXhb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※掲載の売上・開発費は、当社が構築・運用を担当した対象サイトの規模を示すものです。</p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "buttons_hFaaNK": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "無料診断で具体的な提案を聞いてみる",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yqbGdh",
+        "heading_WDH9rM",
+        "text_FiRFdK",
+        "text_iVtXhb",
+        "buttons_hFaaNK"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "image_1": "shopify://shop_images/Shopify_Academy_Latest_Version_Black_Version_copy.png",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "is-reversed",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
+    },
+    "section_custom_code_YPEkCV": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<!-- 実績ハイライト - SOLSTAR -->\n<div class=\"solstar-stats\">\n  <div class=\"solstar-stats__grid\">\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"100\"\n           data-decimals=\"0\"\n           data-suffix=\"億円以上\">\n        100億円以上\n      </div>\n      <div class=\"solstar-stats__label\">支援先ECサイトの年間売上規模</div>\n    </div>\n\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"13\"\n           data-decimals=\"0\"\n           data-suffix=\"％\">\n        13％\n      </div>\n      <div class=\"solstar-stats__label\">表示速度改善率</div>\n    </div>\n\n    <div class=\"solstar-stats__item\">\n      <div class=\"solstar-stats__value\"\n           data-value=\"4.37\"\n           data-decimals=\"2\"\n           data-suffix=\"％\">\n        4.37％\n      </div>\n      <div class=\"solstar-stats__label\">新規顧客の購入CVR</div>\n    </div>\n  </div>\n</div>\n\n<style>\n  .solstar-stats {\n    max-width: 1080px;\n    margin: 0 auto;\n    padding: 48px 16px;\n    background-color: var(--COLOR-BG);\n  }\n\n  .solstar-stats__grid {\n    display: grid;\n    grid-template-columns: repeat(3, minmax(0, 1fr));\n    gap: 32px;\n  }\n\n  .solstar-stats__item {\n    text-align: center;\n    padding: 24px 16px;\n    opacity: 1;\n    transform: translateY(0);\n    transition:\n      opacity 0.6s ease-out,\n      transform 0.6s ease-out;\n  }\n\n  .solstar-stats.is-animated .solstar-stats__item:not(.is-visible) {\n    opacity: 0;\n    transform: translateY(24px);\n  }\n\n  .solstar-stats__item.is-visible {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  .solstar-stats__value {\n    font-weight: 700;\n    letter-spacing: 0;\n    font-size: clamp(40px, 4.2vw, 55px);\n    line-height: 1.1;\n    margin-bottom: 8px;\n    font-feature-settings: \"pnum\" on, \"lnum\" on;\n    color: #ffffff;\n    white-space: nowrap;\n    word-break: keep-all;\n  }\n\n  .solstar-stats__label {\n    font-size: 20px;\n    font-weight: 700;\n    line-height: 1.6;\n    letter-spacing: 0;\n    color: #AB8C52;\n  }\n\n  @media (max-width: 767px) {\n    .solstar-stats {\n      padding: 32px 16px;\n    }\n\n    .solstar-stats__grid {\n      grid-template-columns: 1fr;\n      gap: 16px;\n    }\n\n    .solstar-stats__item {\n      padding: 20px 16px;\n    }\n\n    .solstar-stats__value {\n      font-size: clamp(38px, 12vw, 44px);\n    }\n\n    .solstar-stats__label {\n      font-size: 17px;\n    }\n  }\n</style>\n\n<script>\n  (function () {\n    function initSolstarStats() {\n      var sections = document.querySelectorAll('.solstar-stats');\n\n      if (!sections.length) return;\n\n      sections.forEach(function (section) {\n        if (section.dataset.solstarStatsInitialized === 'true') return;\n        section.dataset.solstarStatsInitialized = 'true';\n\n        var items = section.querySelectorAll('.solstar-stats__item');\n        var values = section.querySelectorAll('.solstar-stats__value');\n        var animated = false;\n\n        section.classList.add('is-animated');\n\n        function animateNumbers() {\n          if (animated) return;\n          animated = true;\n\n          values.forEach(function (el) {\n            var target = parseFloat(el.getAttribute('data-value') || '0');\n            var decimals = parseInt(el.getAttribute('data-decimals') || '0', 10);\n            var suffix = el.getAttribute('data-suffix') || '';\n            var duration = 1500;\n            var start = null;\n\n            el.textContent = (0).toFixed(decimals) + suffix;\n\n            function step(timestamp) {\n              if (!start) start = timestamp;\n\n              var progress = Math.min((timestamp - start) / duration, 1);\n              var easedProgress = 1 - Math.pow(1 - progress, 3);\n              var current = target * easedProgress;\n\n              el.textContent = current.toFixed(decimals) + suffix;\n\n              if (progress < 1) {\n                window.requestAnimationFrame(step);\n              } else {\n                el.textContent = target.toFixed(decimals) + suffix;\n              }\n            }\n\n            window.requestAnimationFrame(step);\n          });\n        }\n\n        function revealItems() {\n          items.forEach(function (item, index) {\n            item.style.transitionDelay = (index * 0.12) + 's';\n            item.classList.add('is-visible');\n          });\n        }\n\n        function runAnimation() {\n          revealItems();\n          animateNumbers();\n        }\n\n        function isInViewport(el) {\n          var rect = el.getBoundingClientRect();\n          var windowHeight = window.innerHeight || document.documentElement.clientHeight;\n\n          return rect.top < windowHeight * 0.85 && rect.bottom > 0;\n        }\n\n        if ('IntersectionObserver' in window) {\n          var observer = new IntersectionObserver(function (entries) {\n            entries.forEach(function (entry) {\n              if (entry.isIntersecting) {\n                runAnimation();\n                observer.unobserve(section);\n              }\n            });\n          }, {\n            root: null,\n            threshold: 0.2\n          });\n\n          observer.observe(section);\n\n          setTimeout(function () {\n            if (!animated && isInViewport(section)) {\n              runAnimation();\n              observer.unobserve(section);\n            }\n          }, 300);\n        } else {\n          runAnimation();\n        }\n      });\n    }\n\n    if (document.readyState === 'loading') {\n      document.addEventListener('DOMContentLoaded', initSolstarStats);\n    } else {\n      initSolstarStats();\n    }\n\n    window.addEventListener('load', initSolstarStats);\n\n    document.addEventListener('shopify:section:load', function () {\n      initSolstarStats();\n    });\n  })();\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_custom_code_AaQ3Ee": {
+      "type": "section-custom-code",
+      "name": "Custom code",
+      "settings": {
+        "code": "<style>\n/* ===============================\n   MODERN AI STYLE - FIXED SIZE CARD (NO TOP PADDING)\n================================ */\n\n.solstar-testimonial {\n  /* 上の余白を0に設定、下はカードの影などを考慮して少し空ける */\n  padding: 0 20px 80px;\n  font-family: \"Inter\", \"Plus Jakarta Sans\", sans-serif;\n  color: #ffffff;\n  background-color: #0D0326;\n  box-sizing: border-box;\n}\n\n.solstar-testimonial-inner {\n  max-width: 1000px;\n  margin: 0 auto;\n}\n\n/* セクション見出し (H2) */\n.solstar-heading {\n  font-size: 32px;\n  font-weight: 800;\n  text-align: center;\n  color: #ffffff;\n  \n  /* 上部の余白を削除 */\n  margin-top: 0;\n  padding-top: 0;\n  \n  margin-bottom: 48px; /* カードとの間隔 */\n  letter-spacing: -0.02em;\n}\n\n/* カード全体（コンテナ） */\n.solstar-testimonial-card {\n  background: rgba(255, 255, 255, 0.03);\n  border: 1px solid rgba(255, 255, 255, 0.1);\n  border-radius: 24px;\n  padding: 40px;\n  backdrop-filter: blur(12px);\n  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.5);\n  \n  display: flex;\n  flex-direction: row;\n  gap: 40px;\n  \n  /* PCでの高さを固定 */\n  height: 480px; \n  box-sizing: border-box;\n  overflow: hidden;\n}\n\n/* --- 左側：画像エリア --- */\n.solstar-col-img {\n  flex: 0 0 40%;\n  position: relative;\n  display: flex;\n  align-items: flex-start;\n  height: 100%;\n}\n\n.solstar-img-frame {\n  width: 100%;\n  aspect-ratio: 1 / 1;\n  border-radius: 16px;\n  overflow: hidden;\n  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);\n  max-height: 100%; \n}\n\n.solstar-img-frame img {\n  width: 100%;\n  height: 100%;\n  object-fit: cover;\n  transition: opacity 0.3s ease;\n}\n\n/* --- 右側：テキストエリア --- */\n.solstar-col-text {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  text-align: left;\n  height: 100%;\n  padding-top: 10px;\n  box-sizing: border-box;\n}\n\n/* 1. 上部固定：ラベル */\n.solstar-label {\n  font-size: 13px;\n  font-weight: 700;\n  letter-spacing: 0.1em;\n  color: #AB8C52;\n  text-transform: uppercase;\n  margin-bottom: 24px;\n  display: block;\n  flex-shrink: 0;\n}\n\n/* 2. 中間可変エリア：コンテンツ */\n.solstar-content-body {\n  flex-grow: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  overflow: hidden;\n}\n\n/* 引用見出し */\n.solstar-quote-heading {\n  font-size: 26px;\n  font-weight: 700;\n  line-height: 1.4;\n  color: #ffffff;\n  margin-bottom: 20px;\n  \n  display: -webkit-box;\n  -webkit-line-clamp: 3;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n}\n\n/* 本文 */\n.solstar-body-text {\n  font-size: 15px;\n  line-height: 1.7;\n  color: #cbd5e1;\n  \n  display: -webkit-box;\n  -webkit-line-clamp: 4;\n  -webkit-box-orient: vertical;\n  overflow: hidden;\n}\n\n/* 3. 下部固定：区切り線とフッター */\n.solstar-divider {\n  width: 100%;\n  height: 1px;\n  background: rgba(255, 255, 255, 0.1);\n  margin-bottom: 24px;\n  margin-top: 24px;\n  flex-shrink: 0;\n}\n\n.solstar-footer {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  flex-shrink: 0;\n}\n\n.solstar-author-info {\n  display: flex;\n  flex-direction: column;\n}\n\n.solstar-author-name {\n  font-size: 16px;\n  font-weight: 700;\n  color: #ffffff;\n  margin-bottom: 4px;\n}\n\n.solstar-author-role {\n  font-size: 13px;\n  color: #94a3b8;\n}\n\n/* 矢印ボタンエリア */\n.solstar-nav-buttons {\n  display: flex;\n  gap: 12px;\n}\n\n.solstar-btn-arrow {\n  width: 44px;\n  height: 44px;\n  border-radius: 50%;\n  border: 1px solid rgba(255, 255, 255, 0.15);\n  background: rgba(255, 255, 255, 0.05);\n  color: #ffffff;\n  cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  transition: all 0.2s ease;\n}\n\n.solstar-btn-arrow:hover {\n  background: #AB8C52;\n  border-color: #AB8C52;\n}\n\n/* アニメーション */\n.solstar-anim-fade {\n  animation: solstarFadeIn 0.4s ease-out forwards;\n}\n\n@keyframes solstarFadeIn {\n  from { opacity: 0; transform: translateY(5px); }\n  to { opacity: 1; transform: translateY(0); }\n}\n\n/* --- モバイル対応 --- */\n@media (max-width: 768px) {\n  .solstar-testimonial {\n    padding: 0 20px 60px; /* モバイルも上余白0 */\n  }\n\n  .solstar-heading {\n    font-size: 24px;\n    margin-bottom: 32px;\n    margin-top: 30px;\n  }\n\n  .solstar-testimonial-card {\n    flex-direction: column;\n    padding: 24px;\n    gap: 32px;\n    \n    height: auto; \n    min-height: 600px;\n  }\n\n  .solstar-col-img {\n    flex: auto;\n    width: 100%;\n    height: auto;\n  }\n\n  .solstar-col-text {\n    height: auto;\n    padding-top: 0;\n  }\n  \n  .solstar-label {\n    margin-bottom: 16px;\n  }\n\n  .solstar-quote-heading {\n    font-size: 20px;\n    margin-bottom: 16px;\n    -webkit-line-clamp: 4;\n  }\n  \n  .solstar-body-text {\n    -webkit-line-clamp: 6;\n  }\n  \n  .solstar-divider {\n    margin-top: 32px;\n  }\n  \n  .solstar-footer {\n    flex-wrap: wrap;\n    gap: 20px;\n  }\n  \n  .solstar-nav-buttons {\n    margin-left: auto;\n  }\n}\n</style>\n\n<div class=\"solstar-testimonial\">\n  <div class=\"solstar-testimonial-inner\">\n    \n    <h2 class=\"solstar-heading\">導入企業の声</h2>\n\n    <div class=\"solstar-testimonial-card\">\n      \n      <div class=\"solstar-col-img\">\n        <div class=\"solstar-img-frame\">\n          <img id=\"solstar-img\" src=\"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_5.webp?v=1766473796\" alt=\"Client Image\">\n        </div>\n      </div>\n\n      <div class=\"solstar-col-text\">\n        <span class=\"solstar-label\">お客様の声</span>\n        \n        <div class=\"solstar-content-body\" id=\"solstar-anim-wrapper\">\n            <div class=\"solstar-quote-heading\" id=\"solstar-quote\"></div>\n            <div class=\"solstar-body-text\" id=\"solstar-body\"></div>\n        </div>\n\n        <div class=\"solstar-divider\"></div>\n\n        <div class=\"solstar-footer\">\n          <div class=\"solstar-author-info\">\n            <div class=\"solstar-author-name\" id=\"solstar-title\"></div>\n            <div class=\"solstar-author-role\" id=\"solstar-sub\"></div>\n          </div>\n\n          <div class=\"solstar-nav-buttons\">\n            <button type=\"button\" class=\"solstar-btn-arrow\" id=\"btn-prev\" aria-label=\"Previous\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M19 12H5M12 19l-7-7 7-7\"/></svg>\n            </button>\n            <button type=\"button\" class=\"solstar-btn-arrow\" id=\"btn-next\" aria-label=\"Next\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M12 5l7 7-7 7\"/></svg>\n            </button>\n          </div>\n        </div>\n      </div>\n\n    </div>\n  </div>\n</div>\n\n<script>\n(function () {\n  const data = [\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_5.webp?v=1766473796\",\n      title: \"合同会社Rsworks\",\n      sub: \"キッチンブランド\",\n      body: \"ブランドの世界観と高級感を保ったECサイトを構築。キャンペーンではLINE登録単価30円、登録者2,306人を達成。\",\n      quote: \"洗練されたクリエイティブセンスで一目置くECサイトを構築していただき、とても満足しています。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_3.webp?v=1766473796\",\n      title: \"PAW MINT\",\n      sub: \"ペットブランド\",\n      body: \"ブランドの世界観をポップに表現したLPを制作。広告施策により2,000名以上のメルマガ登録獲得。\",\n      quote: \"可愛くポップなECサイトを作って頂きました。世界観の表現が素晴らしいです。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_2.webp?v=1766473796\",\n      title: \"株式会社EDGBLACK\",\n      sub: \"キッチンブランド\",\n      body: \"Shopify移行後、公開初月に27万円以上の売上を実現。\",\n      quote: \"とても丁寧かつ詳細に説明してくださったので、困ることは一切ありませんでした。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_1.webp?v=1766473795\",\n      title: \"株式会社ONETREE\",\n      sub: \"スニーカーブランド\",\n      body: \"公式ECサイトを約2か月で立ち上げ、公開初月に12万円以上の売上を達成されました。Shopifyを活用し、ブランドの認知拡大とファンづくりを進められています。\",\n      quote: \"調整にも柔軟に対応してもらえ、安心して任せられました。\"\n    },\n    {\n      img: \"https://cdn.shopify.com/s/files/1/0704/2642/7614/files/Testimonials_4.webp?v=1766473796\",\n      title: \"SANDY HAZE\",\n      sub: \"水着ブランド\",\n      body: \"英語圏向け越境ECを構築。商品撮影から広告運用まで対応し、3ヶ月で月商100万円を達成。\",\n      quote: \"They made our first e-commerce site look amazing.\"\n    }\n  ];\n\n  let index = 0;\n\n  const imgEl = document.getElementById(\"solstar-img\");\n  const quoteEl = document.getElementById(\"solstar-quote\");\n  const bodyEl = document.getElementById(\"solstar-body\");\n  const titleEl = document.getElementById(\"solstar-title\");\n  const subEl = document.getElementById(\"solstar-sub\");\n  const animWrapper = document.getElementById(\"solstar-anim-wrapper\");\n\n  function render(i) {\n    const d = data[i];\n\n    imgEl.style.opacity = 0;\n    \n    animWrapper.classList.remove('solstar-anim-fade');\n    void animWrapper.offsetWidth; \n    animWrapper.classList.add('solstar-anim-fade');\n\n    setTimeout(() => {\n        imgEl.src = d.img;\n        imgEl.onload = () => { imgEl.style.opacity = 1; };\n        \n        quoteEl.textContent = d.quote; \n        bodyEl.textContent = d.body;\n        titleEl.textContent = d.title;\n        subEl.textContent = d.sub;\n    }, 100);\n  }\n\n  document.getElementById(\"btn-next\").addEventListener(\"click\", () => {\n    index = (index + 1) % data.length;\n    render(index);\n  });\n\n  document.getElementById(\"btn-prev\").addEventListener(\"click\", () => {\n    index = (index - 1 + data.length) % data.length;\n    render(index);\n  });\n\n  render(index);\n})();\n</script>",
+        "width": "wrapper--full",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 50
+      }
+    },
+    "section_hero_KXKF4d": {
+      "type": "section-hero",
+      "blocks": {
+        "text_KXKF4dSub": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>プレゼント企画</strong></p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 16
+          }
+        },
+        "heading_cB4kaB": {
+          "type": "heading",
+          "settings": {
+            "title": "ECサイト「After Hours」プレゼント企画",
+            "heading_font_size": "heading-x-large",
+            "heading_tag": "h2",
+            "padding_bottom": 8
+          }
+        },
+        "text_YdXDMN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>弊社がShopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選でプレゼントします。</p>",
+            "text_font_size": "body-large",
+            "padding_bottom": 8
+          }
+        },
+        "button_UkgqyV": {
+          "type": "button",
+          "settings": {
+            "link_text": "詳細を見る",
+            "link": "shopify://pages/after-hours-giveaway",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "full_width": false,
+            "padding_bottom": 8
+          }
+        }
+      },
+      "block_order": [
+        "text_KXKF4dSub",
+        "heading_cB4kaB",
+        "text_YdXDMN",
+        "button_UkgqyV"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".hero__description.body-x-small {color: #ab8c52;}"
+      ],
+      "name": "Image banner",
+      "settings": {
+        "image_1": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_31_55.png",
+        "link": "",
+        "width": "wrapper--full-padded",
+        "height": "image-height",
+        "flex_align_desktop": "align--bottom-left-desktop",
+        "content_width": 50,
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_2026_3_12_15_37_40.png",
+        "mobile_height": "image-height--mobile",
+        "flex_align_mobile": "align--bottom-center-mobile",
+        "color_scheme": "scheme-10",
+        "show_text_background": false,
+        "overlay_type": "text",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "show_placeholder": true
+      }
+    },
+    "section_multicolumn_YVyPLA": {
+      "type": "section-multicolumn",
+      "blocks": {
+        "icon_VXxXpB": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "UI/UX設計",
+            "heading_font_size": "heading-small",
+            "text": "<p>ブランドコンセプトや大切にしている価値観を理解し、ユーザーが迷ったり、不安を感じたりすることなく、自然な流れで購入まで進めるUI/UXを設計します。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_GARgGW": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "安心",
+            "heading_font_size": "heading-small",
+            "text": "<p>Shopifyアカデミー認定のディレクターを中心に、マーケティング・デザイン・実装の専門チームが連携し、戦略から開発まで一貫して対応します。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        },
+        "icon_NLgcEe": {
+          "type": "icon",
+          "settings": {
+            "column_width": 33,
+            "icon_name": "icon-smile",
+            "icon_size": 20,
+            "icon_alignment": "icon--top",
+            "icon_color": "",
+            "title": "サポート体制",
+            "heading_font_size": "heading-small",
+            "text": "<p>Shopify専門チームが運用・集客・改善に継続して関わり、事業のフェーズに応じて必要なことを見極めながら、ECの成長を支えます。</p>",
+            "text_font_size": "body-medium",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "icon_VXxXpB",
+        "icon_GARgGW",
+        "icon_NLgcEe"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".grid__subheading {color: #ab8c52; margin-bottom: 16px;}"
+      ],
+      "name": "Multi column",
+      "settings": {
+        "subheading": "Why SOLSTAR",
+        "title": "株式会社SOLSTARの魅力",
+        "heading_font_size": "heading-large",
+        "description": "<p>当社は、Shopifyを専門に、ブランドの成長フェーズに合わせたECサイトの構築・運営を支援するパートナーです。</p><p>ブランドの魅力が正しく伝わり、ユーザーが迷わず購入できる導線までを設計することで、<br/>作って終わらない、運用し続けられるECを実現します。</p><p>また、こうした考え方を形にしたオリジナルテーマ「Cream」を開発・提供し、事業フェーズに応じた、無理のないEC構築を支援しています。</p>",
+        "align_heading": "text-center",
+        "align_text": "text-center",
+        "width": "wrapper--full-padded",
+        "align_columns": "flex-align-top",
+        "layout_mobile": "slider",
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "heading_tag": "h2"
+      }
+    },
+    "featured_posts_eqCTwW": {
+      "type": "featured-posts",
+      "blocks": {
+        "featured_post_CbFCdc": {
+          "type": "featured_post",
+          "settings": {
+            "featured_post": "marketing/ec-cvr-improvement-checklist",
+            "subheading": "Featured post"
+          }
+        }
+      },
+      "block_order": [
+        "featured_post_CbFCdc"
+      ],
+      "custom_css": [
+        ".editorial__subheading {color: #ab8c52; padding-bottom: 16px; margin-bottom: 0;}",
+        ".editorial__content {margin: 0;}",
+        ".editorial__aside-inner[data-subheading]::after {display: none;}"
+      ],
+      "name": "Featured blog posts",
+      "settings": {
+        "show_author": false,
+        "show_date": true,
+        "heading_font_size": "heading-large",
+        "show_button": true,
+        "button_text": "続きを読む",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--text",
+        "show_arrow": true,
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_blog_FtdhjN": {
+      "type": "section-blog",
+      "name": "Blog posts",
+      "settings": {
+        "blog_name": "shopify",
+        "aspect_ratio": "0.5625",
+        "title": "失敗しないECサイト構築のためのShopify戦略ブログ",
+        "heading_font_size": "heading-medium",
+        "title_font_size": "heading-small",
+        "show_tags": false,
+        "show_author": true,
+        "show_date": true,
+        "show_button": true,
+        "show_comments": false,
+        "width": "wrapper--full-padded",
+        "grid": 4,
+        "rows": 1,
+        "enable_mobile_slider": true,
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "heading_tag": "h2",
+        "title_tag": "automatic"
+      }
+    },
+    "section_newsletter_ythLAz": {
+      "type": "section-newsletter",
+      "blocks": {
+        "image_taieYG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Multi_Hero_Images_copy.webp",
+            "title": "売上につながるヒントを、メールでお届け。",
+            "heading_font_size": "heading-large",
+            "text": "",
+            "text_font_size": "body-medium",
+            "flex_align": "align--middle-center",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled",
+            "link_text": "",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "heading_tag": "automatic"
+          }
+        },
+        "newsletter_pA7FUr": {
+          "type": "newsletter",
+          "settings": {
+            "subheading": "Newsletter",
+            "heading": "メールマガジン登録",
+            "heading_font_size": "heading-large",
+            "text": "<p>Shopify運用のノウハウやEC構築事例、セミナー・キャンペーン情報を、無料のメールマガジンで定期的にお届けします。</p>",
+            "text_font_size": "body-medium",
+            "text_columns": 1,
+            "align_text": "text-left",
+            "button_text": "無料で登録する",
+            "show_arrow": false,
+            "terms": true,
+            "show_name": true,
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_social_links": false,
+            "bg_color": "",
+            "color": "",
+            "heading_tag": "automatic"
+          }
+        }
+      },
+      "block_order": [
+        "image_taieYG",
+        "newsletter_pA7FUr"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52; margin-bottom: 16px;}",
+        ".brick__block__image .hero__title {text-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);}"
+      ],
+      "name": "Newsletter",
+      "settings": {
+        "width": "wrapper--full",
+        "height": "three-fifty-height-hero",
+        "mobile_height": "screen-height-one-half--mobile",
+        "color_scheme": "scheme-10",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordion_tjkJbb": {
+      "type": "section-accordion",
+      "blocks": {
+        "icon_kikRWa": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-notes",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "直感的で使いやすい管理画面",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>ドラッグ＆ドロップの操作で、デザインや機能を直感的にカスタマイズ可能。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_gWANgd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "豊富なデザインテンプレート",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>プロフェッショナルな見た目のテンプレートが多数用意されており、業種やブランドに合わせたデザインを選べます。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_qJcYYT": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-cloud",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "多彩なアプリ連携",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>Shopify App Storeには拡張機能が豊富に揃っており、SEO対策、マーケティング、配送管理などを強化可能。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_hGGBWj": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-trophy",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "多言語・多通貨対応",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>世界中の顧客をターゲットにできるよう、多言語や多通貨を簡単に導入可能。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_qjXTVV": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "充実したカスタマーサポート",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>24時間365日対応のサポートがあり、英語や日本語でも質問に応じてもらえます。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_Mjc4Vd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-pin",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "モバイル最適化",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>テンプレートや管理画面はモバイルフレンドリーで、スマホからの閲覧や購入がスムーズ。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_hCGxtr": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-flare",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "SEOに強い設計",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>メタタグやURL構造が最適化されており、検索エンジンでのランキング向上をサポート。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_tATz74": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-gift",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "豊富な決済オプション",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>クレジットカード、PayPal、Apple Pay、Google Payなど、幅広い決済手段をサポート。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_pJxQrF": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-star",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "スケーラビリティ",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>小規模から始めても、ビジネスの成長に合わせて機能やプランを拡張できる柔軟性があります。</p>",
+            "text_alignment": "text-left"
+          }
+        },
+        "icon_QBhLQd": {
+          "type": "icon",
+          "settings": {
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "",
+            "title": "在庫管理や分析ツール",
+            "heading_font_size": "heading-small",
+            "icon_alignment": "left",
+            "text": "<p>在庫管理機能が充実しており、売上データや顧客分析も簡単に行えるダッシュボードを提供。</p>",
+            "text_alignment": "text-left"
+          }
+        }
+      },
+      "block_order": [
+        "icon_kikRWa",
+        "icon_gWANgd",
+        "icon_qJcYYT",
+        "icon_hGGBWj",
+        "icon_qjXTVV",
+        "icon_Mjc4Vd",
+        "icon_hCGxtr",
+        "icon_tATz74",
+        "icon_pJxQrF",
+        "icon_QBhLQd"
+      ],
+      "disabled": true,
+      "settings": {
+        "default_open": true,
+        "title": "Why Shopify?",
+        "heading_font_size": "heading-large",
+        "show_icon": true,
+        "icon_name": "icon-award",
+        "icon_image": "shopify://shop_images/shopify_glyph.png",
+        "icon_size": 50,
+        "width": "wrapper",
+        "color_scheme": "scheme-10",
+        "icon_color": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_accordion_group_8HKY7N": {
+      "type": "section-accordion-group",
+      "blocks": {
+        "subheading_8HKY7N": {
+          "type": "subheading",
+          "settings": {
+            "title": "FAQ"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "よくある質問"
+          }
+        },
+        "question_1": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "サイト制作の期間はどれくらいですか？",
+            "content": "<p>要件によりますが、Basicプランは約4〜8週間、Standardプランは約8〜12週間、Proプランは約12〜24週間が目安です。ただし、具体的なご要件や修正回数によって多少変動する場合がございます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_2": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "予算が限られている場合でも対応可能ですか？",
+            "content": "<p>はい、もちろんです。Basicプランは最もリーズナブルな価格でご提供しており、商品数の少ないマーチャント様向けに、必要な機能に絞った内容となっております。まずはお気軽にご相談ください。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_3": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "多言語対応は可能ですか？",
+            "content": "<p>はい、多言語・多通貨にも対応しております。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_4": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "納品後のサポート内容を教えてください。",
+            "content": "<p>お引き渡しから6ヶ月以内、当社の納品物に起因する不具合に対応します。また、ご確認時に修正が必要な箇所があれば、ご納得いただけるまで無償で対応します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_5": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "お見積もりは無料ですか？",
+            "content": "<p>はい、お見積もりは完全無料です。ご要件をヒアリング後、透明性のある価格と内容で最適なプランをご提案します。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_6": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "なぜSOLSTARがオススメなのですか？",
+            "content": "<p>弊社では、Shopifyの開発や運用に精通したエンジニアと、Shopifyアカデミー認定の専門ディレクターによるチーム体制を整えております。運用コストを抑えながら最適なソリューションを自信を持って提供いたします。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        },
+        "question_7": {
+          "type": "question",
+          "settings": {
+            "default_open": false,
+            "title": "実績を教えてください。",
+            "content": "<p>主な実績として、開発費10億円を超える大規模ECサイトや、UK・US・シンガポール向けの越境ECサイト、年間売上60億円以上のShopify Plusサイトの構築および長期運用サポートを手がけた実績がございます。</p>",
+            "show_icon": false,
+            "icon_name": "icon-award",
+            "icon_size": 20,
+            "icon_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8HKY7N",
+        "heading",
+        "question_1",
+        "question_2",
+        "question_3",
+        "question_4",
+        "question_5",
+        "question_6",
+        "question_7"
+      ],
+      "custom_css": [
+        ".accordion__subheading {color: #ab8c52; margin-bottom: 16px; text-align: center; grid-column: 1/-1;}",
+        ".accordion__heading {margin-top: 0; text-align: center;}"
+      ],
+      "settings": {
+        "heading_font_size": "heading-medium",
+        "question_font_size": "heading-small",
+        "width": "wrapper",
+        "columns": "2",
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "section_double_pi63CE": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_V69Tbj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shopifyパートナー50社比較資料｜無料配布中",
+            "padding_bottom": 16
+          }
+        },
+        "heading_aXg6pj": {
+          "type": "heading",
+          "settings": {
+            "title": "ECサイト構築会社の比較に悩んでいませんか？",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_tm4HLk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shopify公式に認定されたパートナー50社を対象に、費用感やサービスの特徴を、比較しやすいようにまとめました。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "text_tx8jki": {
+          "type": "text",
+          "settings": {
+            "text": "<p>※本資料は、弊社の独自基準および調査結果に基づき実施しております。</p><p></p>",
+            "text_font_size": "body-x-small",
+            "padding_bottom": 0
+          }
+        },
+        "buttons_DMXQEk": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "今すぐ資料を請求する",
+            "button_url": "shopify://pages/contact",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": true,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_V69Tbj",
+        "heading_aXg6pj",
+        "text_tm4HLk",
+        "text_tx8jki",
+        "buttons_DMXQEk"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_1": "shopify://shop_images/Secret_Doc_copy.jpg",
+        "image_width": "one-half",
+        "text_alignment": "text-left",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "image-height",
+        "mobile_height": "image-height--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "scheme-10",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_placeholder": true
+      }
+    },
+    "section_rich_text_zfdhKE": {
+      "type": "section-rich-text",
+      "blocks": {
+        "subheading_zfdhKE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Get Started",
+            "padding_bottom": 16
+          }
+        },
+        "heading_qArXnM": {
+          "type": "heading",
+          "settings": {
+            "title": "最初の一歩を踏み出しましょう",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_PYKqxD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ECサイト構築を考えている、または現状のサイトに課題を感じている方は、ぜひ私たちにお任せください。知識と経験、そしてお客様への手厚いサポートで、ビジネスの未来をサポートします。</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zfdhKE",
+        "heading_qArXnM",
+        "text_PYKqxD"
+      ],
+      "custom_css": [
+        ".hero__subheading {color: #ab8c52;}"
+      ],
+      "settings": {
+        "align_text": "text-center",
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "overlay_type": "disabled",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "contact_form_AN7jRB": {
+      "type": "contact-form",
+      "blocks": {
+        "name_iQFAiV": {
+          "type": "name",
+          "settings": {
+            "first_heading": "名前",
+            "first_label": "太郎",
+            "last_heading": "苗字",
+            "last_label": "鈴木",
+            "reverse_name": true,
+            "required": true
+          }
+        },
+        "email_zEpefz": {
+          "type": "email",
+          "settings": {
+            "title": "Email",
+            "heading": "メールアドレス",
+            "required": true
+          }
+        },
+        "telephone_DmUA6B": {
+          "type": "telephone",
+          "settings": {
+            "title": "Phone Number",
+            "heading": "電話番号",
+            "required": true
+          }
+        },
+        "text_UNiVit": {
+          "type": "text",
+          "settings": {
+            "title": "Company",
+            "heading": "会社名",
+            "required": true
+          }
+        },
+        "text_7YcUqW": {
+          "type": "text",
+          "settings": {
+            "title": "Position",
+            "heading": "役職",
+            "required": false
+          }
+        },
+        "Message": {
+          "type": "body",
+          "settings": {
+            "title": "問い合わせ内容（任意）",
+            "heading": "",
+            "required": false
+          }
+        },
+        "select_GTz36X": {
+          "type": "select",
+          "settings": {
+            "title": "お問い合わせ種別",
+            "required": true,
+            "label-one": "SOLSTAR EXPRESSについて",
+            "label-two": "Cream by Solstarについて",
+            "label-three": "Basicプランについて",
+            "label-four": "Standardプランについて",
+            "label-five": "Proプランについて",
+            "label-six": "その他"
+          }
+        }
+      },
+      "block_order": [
+        "name_iQFAiV",
+        "email_zEpefz",
+        "telephone_DmUA6B",
+        "text_UNiVit",
+        "text_7YcUqW",
+        "Message",
+        "select_GTz36X"
+      ],
+      "custom_css": [
+        ".contact__form__subheading {color: #ab8c52; margin-bottom: 16px; text-align: center;}"
+      ],
+      "settings": {
+        "subheading": "Contact",
+        "title": "お問い合わせ",
+        "heading_font_size": "heading-large",
+        "terms": true,
+        "width": "wrapper--narrow",
+        "color_scheme": "scheme-10",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    }
+  },
+  "order": [
+    "section_video_gbncyG",
+    "section_announcement_qqjQ8T",
+    "section_rich_text_LBH8Lm",
+    "section_hero_ywHUVn",
+    "section_double_K3mPqR",
+    "section_double_AptAaD",
+    "section_double_qaxP3k",
+    "section_double_qLiMQE",
+    "section_custom_code_YPEkCV",
+    "section_custom_code_AaQ3Ee",
+    "section_hero_KXKF4d",
+    "section_multicolumn_YVyPLA",
+    "featured_posts_eqCTwW",
+    "section_blog_FtdhjN",
+    "section_newsletter_ythLAz",
+    "section_accordion_tjkJbb",
+    "section_accordion_group_8HKY7N",
+    "section_double_pi63CE",
+    "section_rich_text_zfdhKE",
+    "contact_form_AN7jRB"
+  ]
 }
