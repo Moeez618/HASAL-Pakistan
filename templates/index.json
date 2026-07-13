@@ -701,7 +701,7 @@
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--text",
-        "show_arrow": false,
+        "show_arrow": true,
         "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
