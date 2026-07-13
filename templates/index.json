@@ -9,76 +9,188 @@
  */
 {
   "sections": {
-    "section_hero_KXKF4d": {
-      "type": "section-hero",
+    "section_slideshow_nested_kD3Qn9": {
+      "type": "section-slideshow-nested",
       "blocks": {
-        "text_KXKF4dSub": {
-          "type": "text",
+        "slide_image_BxMxLA": {
+          "type": "_slide-image",
           "settings": {
-            "text": "<p><strong>プレゼント企画</strong></p>",
-            "text_font_size": "body-x-small",
-            "padding_bottom": 16
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled"
+          },
+          "blocks": {
+            "heading_dcKdBq": {
+              "type": "heading",
+              "settings": {
+                "text": "Image slide",
+                "heading_font_size": "heading-x-large",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_rT6Ngb": {
+              "type": "text",
+              "settings": {
+                "text": "Tell your brand's story through images.",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "button_bCiwNC": {
+              "type": "button",
+              "settings": {
+                "text": "View products",
+                "link": "",
+                "type": "btn--primary",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_dcKdBq",
+            "text_rT6Ngb",
+            "button_bCiwNC"
+          ]
+        },
+        "slide_image_WQ8bFi": {
+          "type": "_slide-image",
+          "settings": {
+            "link": "",
+            "flex_align_desktop": "align--middle-center-desktop",
+            "flex_align_mobile": "align--middle-center-mobile",
+            "show_text_background": false,
+            "bg_color": "",
+            "color": "",
+            "overlay_type": "disabled"
+          },
+          "blocks": {
+            "heading_b3dHYG": {
+              "type": "heading",
+              "settings": {
+                "text": "Image slide",
+                "heading_font_size": "heading-x-large",
+                "heading_tag": "automatic",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "text_9RDRri": {
+              "type": "text",
+              "settings": {
+                "text": "Tell your brand's story through images.",
+                "text_font_size": "body-large",
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            },
+            "button_wHX6wQ": {
+              "type": "button",
+              "settings": {
+                "text": "View products",
+                "link": "",
+                "type": "btn--primary",
+                "size": "",
+                "style": "btn--solid",
+                "show_arrow": false,
+                "full_width": false,
+                "padding_bottom": 8
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading_b3dHYG",
+            "text_9RDRri",
+            "button_wHX6wQ"
+          ]
+        }
+      },
+      "block_order": [
+        "slide_image_BxMxLA",
+        "slide_image_WQ8bFi"
+      ],
+      "name": "Slideshow (Nested)",
+      "settings": {
+        "transition": "slide",
+        "show_arrows": true,
+        "autoplay": false,
+        "autoplay_speed": 8,
+        "width": "wrapper--full",
+        "height": "screen-height-two-thirds",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "section_collections_list_XPKLmz": {
+      "type": "section-collections-list",
+      "blocks": {
+        "collection_iGGzwJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
           }
         },
-        "heading_cB4kaB": {
-          "type": "heading",
+        "collection_NnCCUT": {
+          "type": "collection",
           "settings": {
-            "title": "ECサイト「After Hours」プレゼント企画",
-            "heading_font_size": "heading-x-large",
-            "heading_tag": "h2",
-            "padding_bottom": 8
+            "collection": "",
+            "title": ""
           }
         },
-        "text_YdXDMN": {
-          "type": "text",
+        "collection_ihNiRH": {
+          "type": "collection",
           "settings": {
-            "text": "<p>弊社がShopifyでブランド設計から構築した、ストリートブランド「After Hours」のECサイトを、抽選でプレゼントします。</p>",
-            "text_font_size": "body-large",
-            "padding_bottom": 8
-          }
-        },
-        "button_UkgqyV": {
-          "type": "button",
-          "settings": {
-            "link_text": "詳細を見る",
-            "link": "shopify://pages/after-hours-giveaway",
-            "button_type": "btn--primary",
-            "button_size": "",
-            "button_style": "btn--solid",
-            "show_arrow": false,
-            "full_width": false,
-            "padding_bottom": 8
+            "collection": "",
+            "title": ""
           }
         }
       },
       "block_order": [
-        "text_KXKF4dSub",
-        "heading_cB4kaB",
-        "text_YdXDMN",
-        "button_UkgqyV"
+        "collection_iGGzwJ",
+        "collection_NnCCUT",
+        "collection_ihNiRH"
       ],
-      "custom_css": [
-        ".hero__description.body-x-small {color: #ab8c52;}"
-      ],
-      "name": "Image banner",
+      "name": "Collection list",
       "settings": {
-        "link": "",
+        "title": "Collection list",
+        "heading_font_size": "heading-medium",
+        "description": "",
+        "text_font_size": "body-medium",
+        "button_text": "",
+        "button_url": "shopify://collections",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "aspect_ratio": 1,
         "width": "wrapper--full-padded",
-        "height": "image-height",
-        "flex_align_desktop": "align--bottom-left-desktop",
-        "content_width": 50,
-        "mobile_height": "image-height--mobile",
-        "flex_align_mobile": "align--bottom-center-mobile",
-        "color_scheme": "scheme-10",
-        "show_text_background": false,
-        "overlay_type": "text",
-        "padding_top": 0,
-        "padding_bottom": 100,
-        "show_placeholder": true
+        "layout": "grid",
+        "grid": 3,
+        "layout_mobile": "slider",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 32,
+        "heading_tag": "automatic"
       }
     }
   },
   "order": [
-    "section_hero_KXKF4d"
+    "section_slideshow_nested_kD3Qn9",
+    "section_collections_list_XPKLmz"
   ]
 }

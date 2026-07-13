@@ -9,12 +9,12 @@
  */
 {
   "current": {
-    "color_scheme": "scheme-10",
-    "menu_bg_color": "#0d0326",
-    "header_link": "#fcfbf9",
-    "submenu_bg_color": "#0d0326",
+    "color_scheme": "scheme-1",
+    "menu_bg_color": "#FFFFFF",
+    "header_link": "#000000",
+    "submenu_bg_color": "#FFFFFF",
     "submenu_link_color": "#fcfbf9",
-    "menu_transparent_color": "#fcfbf9",
+    "menu_transparent_color": "#000000",
     "sale_color": "#212121",
     "type_nav_font": "sans-serif",
     "nav_font_size": 16,
@@ -62,7 +62,7 @@
     "instagram_link": "https://www.instagram.com/solstar_official?igsh=dWo2dzlrb2ZqeXE4&utm_source=qr",
     "facebook_link": "",
     "youtube_link": "https://www.youtube.com/@solstar-official",
-    "product_grid_center": false,
+    "product_grid_center": true,
     "overlay_text": false,
     "show_recently_viewed_indicator": false,
     "image_hover_enable": true,
@@ -98,32 +98,6 @@
     "show_recently_viewed_products": false,
     "currency_code_enable": false,
     "content_for_index": [],
-    "blocks": {
-      "17535540140036349125": {
-        "type": "shopify://apps/xb-pricing-table/blocks/xo-pricing-table-script/1f0c62e0-05b8-4253-b892-33c4344fae3e",
-        "disabled": false,
-        "settings": {}
-      },
-      "10436698916776057164": {
-        "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-helper/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-        "disabled": false,
-        "settings": {}
-      },
-      "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
-        "settings": {
-          "greeting_message": "お手伝いできることはありますか？",
-          "button_color": "#003185",
-          "secondary_color": "#ffffff",
-          "ternary_color": "#6a6a6a",
-          "button_icon": "team",
-          "button_text": "need_help",
-          "button_horizontal_position": "bottom_right",
-          "button_vertical_position": "lowest"
-        }
-      }
-    },
     "color_schemes": {
       "scheme-1": {
         "settings": {

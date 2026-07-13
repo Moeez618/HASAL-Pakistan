@@ -48,6 +48,32 @@
     },
     "header": {
       "type": "header",
+      "blocks": {
+        "toolbar_PMQgzP": {
+          "type": "toolbar",
+          "settings": {
+            "text": "<p>Toolbar</p>",
+            "menu": "",
+            "show_border": false,
+            "border_color": "",
+            "border_opacity": 50,
+            "show_social_links": false,
+            "show_gift_card": false,
+            "show_locale_selector": true,
+            "show_locale_code": false,
+            "show_globe_icon": true,
+            "show_country_selector": true,
+            "show_country_name": false,
+            "show_country_flag": true,
+            "color_scheme": "scheme_1",
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "toolbar_PMQgzP"
+      ],
       "settings": {
         "header_sticky": true,
         "enable_search": true,
@@ -61,7 +87,7 @@
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
         "main_menu_linklist": "",
-        "enable_call_to_action": true,
+        "enable_call_to_action": false,
         "button_text": "無料相談はこちら",
         "button_link": "shopify://pages/contact",
         "button_type": "btn--primary",
@@ -75,7 +101,6 @@
         "show_country_flag": false,
         "highlight_item": "Sale",
         "highlight_item_color": "#d02e2e",
-        "transparent_logo": "shopify://shop_images/Solstar_Rectangle_White.png",
         "transparent_home": false,
         "transparent_collection": false,
         "transparent_article": false,

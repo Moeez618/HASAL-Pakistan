@@ -60,9 +60,8 @@
       ],
       "custom_css": [],
       "settings": {
-        "logo": "shopify://shop_images/Solstar_Rectangle_White.png",
         "logo_image_width": 150,
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "border_color": "#212121",
         "padding_top": 30,
         "padding_bottom": 30
@@ -81,7 +80,7 @@
         "show_country_selector": false,
         "show_country_name": false,
         "show_country_flag": false,
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 30,
         "padding_bottom": 30
       }
