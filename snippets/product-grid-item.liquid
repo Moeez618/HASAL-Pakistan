@@ -773,31 +773,7 @@
             </span>
           </div>
         {%- endif -%}
-        {%- unless card_product.has_only_default_variant -%}
-  {%- for option in card_product.options_with_values -%}
-    {%- assign downcased_option_name = option.name | downcase -%}
-    
-    {%- if downcased_option_name contains 'size' -%}
-      <div class="card-product__sizes-wrapper">
-        {%- for value in option.values -%}
-          {%- liquid
-            # Check availability specifically for this size variant
-            assign is_available = false
-            for variant in card_product.variants
-              if variant.options contains value and variant.available
-                assign is_available = true
-                break
-              endif
-            endfor
-          -%}
-          <span class="card-product__size-badge{% unless is_available %} out-of-stock{% endunless %}">
-            {{ value }}
-          </span>
-        {%- endfor -%}
-      </div>
-    {%- endif -%}
-  {%- endfor -%}-
-{%- endunless -%}
+        
 
         {%- comment -%} Recently viewed indicator {%- endcomment -%}
         {% if show_recently_viewed_indicator %}
