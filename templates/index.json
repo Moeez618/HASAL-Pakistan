@@ -130,12 +130,89 @@
         "aspect_ratio": 1,
         "width": "wrapper--full-padded",
         "layout": "grid",
-        "grid": 5,
+        "grid": 3,
         "layout_mobile": "slider",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32,
         "heading_tag": "automatic"
+      }
+    },
+    "section_double_AHHJmN": {
+      "type": "section-double",
+      "blocks": {
+        "subheading_QtN7ki": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Introducing",
+            "padding_bottom": 16
+          }
+        },
+        "heading_Fk9LmQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
+          }
+        },
+        "text_rraLrk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
+          }
+        },
+        "collection_JQrCwe": {
+          "type": "collection",
+          "settings": {
+            "show_collection_card": false,
+            "collection_1": "bestseller",
+            "button_text_1": "",
+            "collection_2": "",
+            "button_text_2": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        },
+        "buttons_qfnwPJ": {
+          "type": "buttons",
+          "settings": {
+            "button_text": "Learn more",
+            "button_url": "",
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--text",
+            "show_arrow": false,
+            "padding_bottom": 16
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QtN7ki",
+        "heading_Fk9LmQ",
+        "text_rraLrk",
+        "collection_JQrCwe",
+        "buttons_qfnwPJ"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image_width": "one-half",
+        "text_alignment": "text-center",
+        "layout": "",
+        "width": "wrapper--full",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-one-half--mobile",
+        "reverse_blocks": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
       }
     },
     "section_collection_J47g6D": {
@@ -168,15 +245,6 @@
     "section_hero_scrolling_NF8DfD": {
       "type": "section-hero-scrolling",
       "blocks": {
-        "text_fNWtU7": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "description": "Tell your brand's story through images.",
-            "text_font_size": "body-large",
-            "color": ""
-          }
-        },
         "button_w3eFEG": {
           "type": "button",
           "settings": {
@@ -187,20 +255,10 @@
             "button_style": "btn--solid",
             "show_arrow": false
           }
-        },
-        "scrolling_text_VmdXeB": {
-          "type": "scrolling_text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>Make an announcement</strong> | More info</p>",
-            "color": ""
-          }
         }
       },
       "block_order": [
-        "text_fNWtU7",
-        "button_w3eFEG",
-        "scrolling_text_VmdXeB"
+        "button_w3eFEG"
       ],
       "name": "Image with scrolling text",
       "settings": {
@@ -228,6 +286,7 @@
   "order": [
     "section_slideshow_nested_kD3Qn9",
     "section_collections_list_XPKLmz",
+    "section_double_AHHJmN",
     "section_collection_J47g6D",
     "section_hero_scrolling_NF8DfD"
   ]
