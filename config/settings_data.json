@@ -1954,5 +1954,14 @@
         "links": "#282c2e"
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "/* Container holding the label and badges */.card-product__sizes-wrapper {display: flex; align-items: center; gap: 10px; margin-top: 10px; margin-bottom: 10px; width: 100%;}",
+      "/* Style for the \"Size:\" text */.card-product__sizes-wrapper .sizes-label {font-size: 13px; font-weight: 600; color: #333; white-space: nowrap;}",
+      "/* Container containing only the badges */.card-product__sizes-wrapper .sizes-list {display: flex; flex-wrap: wrap; gap: 6px;}",
+      "/* Style for individual size badge */.card-product__size-badge {font-size: 11px; padding: 4px 10px; border: 1px solid #ccc; border-radius: 16px; /* Pill-shaped like your mockup */ background-color: #fff; color: #333; text-transform: uppercase; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; transition: all 0.2s ease;}",
+      "/* Out of stock sizing */.card-product__size-badge.out-of-stock {opacity: 0.4; text-decoration: line-through; background-color: #f5f5f5; border-color: #ddd; color: #999;}"
+    ]
   }
 }
