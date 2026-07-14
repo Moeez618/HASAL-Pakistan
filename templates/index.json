@@ -63,63 +63,10 @@
             "text_rT6Ngb",
             "button_bCiwNC"
           ]
-        },
-        "slide_image_WQ8bFi": {
-          "type": "_slide-image",
-          "settings": {
-            "link": "",
-            "flex_align_desktop": "align--middle-center-desktop",
-            "flex_align_mobile": "align--middle-center-mobile",
-            "show_text_background": false,
-            "bg_color": "",
-            "color": "",
-            "overlay_type": "disabled"
-          },
-          "blocks": {
-            "heading_b3dHYG": {
-              "type": "heading",
-              "settings": {
-                "text": "Image slide",
-                "heading_font_size": "heading-x-large",
-                "heading_tag": "automatic",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "text_9RDRri": {
-              "type": "text",
-              "settings": {
-                "text": "Tell your brand's story through images.",
-                "text_font_size": "body-large",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "button_wHX6wQ": {
-              "type": "button",
-              "settings": {
-                "text": "View products",
-                "link": "",
-                "type": "btn--primary",
-                "size": "",
-                "style": "btn--solid",
-                "show_arrow": false,
-                "full_width": false,
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            }
-          },
-          "block_order": [
-            "heading_b3dHYG",
-            "text_9RDRri",
-            "button_wHX6wQ"
-          ]
         }
       },
       "block_order": [
-        "slide_image_BxMxLA",
-        "slide_image_WQ8bFi"
+        "slide_image_BxMxLA"
       ],
       "name": "Slideshow (Nested)",
       "settings": {
@@ -217,11 +164,71 @@
         "padding_bottom": 50,
         "heading_tag": "automatic"
       }
+    },
+    "section_hero_scrolling_NF8DfD": {
+      "type": "section-hero-scrolling",
+      "blocks": {
+        "text_fNWtU7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "description": "Tell your brand's story through images.",
+            "text_font_size": "body-large",
+            "color": ""
+          }
+        },
+        "button_w3eFEG": {
+          "type": "button",
+          "settings": {
+            "link_text": "View products",
+            "link": "",
+            "button_type": "btn--primary",
+            "button_size": "",
+            "button_style": "btn--solid",
+            "show_arrow": false
+          }
+        },
+        "scrolling_text_VmdXeB": {
+          "type": "scrolling_text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>Make an announcement</strong> | More info</p>",
+            "color": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_fNWtU7",
+        "button_w3eFEG",
+        "scrolling_text_VmdXeB"
+      ],
+      "name": "Image with scrolling text",
+      "settings": {
+        "link": "",
+        "message_spacing": 10,
+        "marquee_speed": 100,
+        "flex_align": "align--bottom-center",
+        "type_font": "poppins_n4",
+        "text_font_size_px": 20,
+        "mobile_text_font_size_px": 16,
+        "type_letter_spacing": 0,
+        "type_font_caps": false,
+        "scrolling_align": "align--middle-center",
+        "direction": "ticker-rtl",
+        "height": "screen-height-three-quarters",
+        "mobile_height": "screen-height-three-quarters--mobile",
+        "color_scheme": "",
+        "overlay_type": "disabled",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_placeholder": true
+      }
     }
   },
   "order": [
     "section_slideshow_nested_kD3Qn9",
     "section_collections_list_XPKLmz",
-    "section_collection_J47g6D"
+    "section_collection_J47g6D",
+    "section_hero_scrolling_NF8DfD"
   ]
 }

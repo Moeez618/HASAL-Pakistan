@@ -84,6 +84,7 @@
         "show_icons": true,
         "icon_as_circle": true,
         "cart_icon_family": "bag",
+        "logo": "shopify://shop_images/logo_2a90b302-4713-40b0-9c91-887b17b3039d.png",
         "logo_max_limit": 120,
         "logo_max_limit_mobile": 120,
         "main_menu_linklist": "",

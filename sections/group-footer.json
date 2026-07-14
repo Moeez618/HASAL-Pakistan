@@ -17,8 +17,9 @@
         "text_BcWxrH": {
           "type": "text",
           "settings": {
+            "image": "shopify://shop_images/logo_2a90b302-4713-40b0-9c91-887b17b3039d.png",
             "image_width": 150,
-            "title": "Text",
+            "title": "",
             "heading_font_size": "heading-medium",
             "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
             "column_width": 30,
@@ -28,8 +29,8 @@
         "linklist_BVjQBB": {
           "type": "linklist",
           "settings": {
-            "linklist": "footer",
-            "title": "",
+            "linklist": "main-menu",
+            "title": "Quick Links",
             "heading_font_size": "heading-medium",
             "column_width": 20,
             "enable_accordion": false
@@ -39,7 +40,7 @@
           "type": "linklist",
           "settings": {
             "linklist": "footer",
-            "title": "",
+            "title": "Resources",
             "heading_font_size": "heading-medium",
             "column_width": 20,
             "enable_accordion": false
