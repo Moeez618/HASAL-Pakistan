@@ -80,6 +80,7 @@
     "variant_image_style": "inline",
     "final_sale": true,
     "atc_show_product_price": false,
+    "enable_swatches": false,
     "swatch_size": "regular",
     "swatch_style": "circle",
     "sibling_style": "swatch",
