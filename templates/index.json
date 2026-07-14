@@ -141,21 +141,21 @@
         "collection_iGGzwJ": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "shop",
             "title": ""
           }
         },
         "collection_NnCCUT": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bestseller",
             "title": ""
           }
         },
         "collection_ihNiRH": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bestseller",
             "title": ""
           }
         }
@@ -165,10 +165,13 @@
         "collection_NnCCUT",
         "collection_ihNiRH"
       ],
+      "custom_css": [
+        "{border-radius: 200px;}"
+      ],
       "name": "Collection list",
       "settings": {
-        "title": "Collection list",
-        "heading_font_size": "heading-medium",
+        "title": "Playful Fun Kids Wear",
+        "heading_font_size": "heading-large",
         "description": "",
         "text_font_size": "body-medium",
         "button_text": "",
