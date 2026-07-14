@@ -756,6 +756,12 @@
             <div class="product-item__price" data-product-price>
               {%- render 'product-grid-price', product: product, current_variant: current_variant -%}
             </div>
+            {% render 'product-variant-picker',
+                  product: product,
+                  block: block,
+                  product_form_id: product_form_id,
+                  update_url: false
+                %}
           </div>
         </a>
 
