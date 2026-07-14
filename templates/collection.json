@@ -1,1 +1,64 @@
-{"sections":{"hero":{"type":"collection-image-with-title","settings":{"show_title":true,"show_description":true,"flex_align":"align--middle-center","show_image":true,"banner_layout":"overlay","height":"screen-height-one-third","mobile_height":"screen-height-one-half--mobile","padding_top":0,"padding_bottom":0}},"subcollections":{"type":"subcollections","settings":{"subcollection_layout":"grid","subcollection_description":false,"select_image":"collection","color":"#ffffff","bg_color":"","padding_top":20,"padding_bottom":20}},"main":{"type":"collection","blocks":{"featured_image_g7ACpb":{"type":"featured_image","settings":{"featured_image":"shopify:\/\/shop_images\/PawMintNightyNightBed2.jpg","position":1,"featured_heading":"Featured link","featured_text":"<p>Promote products or collections<\/p>","featured_button_text":"Learn more","featured_button_link":"","button_type":"btn--secondary","button_size":"","button_style":"btn--outline","show_arrow":false,"featured_color_text":"#ffffff"}}},"block_order":["featured_image_g7ACpb"],"settings":{"enable_sort":true,"enable_filters":true,"filter_layout":"slide-out","collection_linklist":"","grid":4,"grid_mobile":"1","products_per_page":24,"padding_top":0,"padding_bottom":0}}},"order":["hero","subcollections","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "collection-image-with-title",
+      "settings": {
+        "show_title": true,
+        "show_description": true,
+        "flex_align": "align--middle-center",
+        "color_scheme": "",
+        "show_text_background": false,
+        "overlay_type": "disabled",
+        "show_image": true,
+        "banner_layout": "overlay",
+        "height": "screen-height-one-third",
+        "mobile_height": "screen-height-one-half--mobile",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "subcollections": {
+      "type": "subcollections",
+      "settings": {
+        "subcollection_layout": "grid",
+        "subcollection_description": false,
+        "select_image": "collection",
+        "color_scheme": "",
+        "color": "#ffffff",
+        "bg_color": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "main": {
+      "type": "collection",
+      "settings": {
+        "enable_sort": true,
+        "enable_filters": true,
+        "filter_layout": "slide-out",
+        "default_open": true,
+        "collection_linklist": "",
+        "grid": 4,
+        "grid_mobile": "1",
+        "products_per_page": 24,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "subcollections",
+    "main"
+  ]
+}
