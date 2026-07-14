@@ -113,7 +113,7 @@
         "collection_ihNiRH"
       ],
       "custom_css": [
-        ".collection-item__image {border-radius: 200px;}"
+        ".collection-item__image {border-radius: 50%;}"
       ],
       "name": "Collection list",
       "settings": {
