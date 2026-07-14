@@ -756,12 +756,34 @@
             <div class="product-item__price" data-product-price>
               {%- render 'product-grid-price', product: product, current_variant: current_variant -%}
             </div>
-            {% render 'product-variant-picker',
-                  product: product,
-                  block: block,
-                  product_form_id: product_form_id,
-                  update_url: false
-                %}
+            {%- unless product.has_only_default_variant -%}
+  {%- for option in product.options_with_values -%}
+    {%- assign downcased_option_name = option.name | downcase -%}
+    
+    {%- if downcased_option_name contains 'size' -%}
+      <div class="card-product__sizes-wrapper">
+        <span class="sizes-label">Size:</span>
+        <div class="sizes-list">
+          {%- for value in option.values -%}
+            {%- liquid
+              # Check availability specifically for this size variant
+              assign is_available = false
+              for variant in product.variants
+                if variant.options contains value and variant.available
+                  assign is_available = true
+                  break
+                endif
+              endfor
+            -%}
+            <span class="card-product__size-badge{% unless is_available %} out-of-stock{% endunless %}">
+              {{ value }}
+            </span>
+          {%- endfor -%}
+        </div>
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+{%- endunless -%}
           </div>
         </a>
 
