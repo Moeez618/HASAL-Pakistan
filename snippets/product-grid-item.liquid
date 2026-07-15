@@ -756,7 +756,7 @@
             <div class="product-item__price" data-product-price>
               {%- render 'product-grid-price', product: product, current_variant: current_variant -%}
             </div>
-            {%- unless product.has_only_default_variant -%}
+  {%- unless product.has_only_default_variant -%}
   {%- for option in product.options_with_values -%}
     {%- assign downcased_option_name = option.name | downcase -%}
     
@@ -766,18 +766,22 @@
         <div class="sizes-list">
           {%- for value in option.values -%}
             {%- liquid
-              # Check availability specifically for this size variant
-              assign is_available = false
+              # Find the exact variant ID and stock availability for this option value
+              assign target_variant = blank
               for variant in product.variants
-                if variant.options contains value and variant.available
-                  assign is_available = true
+                if variant.options contains value
+                  assign target_variant = variant
                   break
                 endif
               endfor
             -%}
-            <span class="card-product__size-badge{% unless is_available %} out-of-stock{% endunless %}">
-              {{ value }}
-            </span>
+            
+            {%- if target_variant != blank -%}
+              <a href="{{ product.url }}?variant={{ target_variant.id }}" 
+                 class="card-product__size-badge{% unless target_variant.available %} out-of-stock{% endunless %}">
+                {{ value }}
+              </a>
+            {%- endif -%}
           {%- endfor -%}
         </div>
       </div>
