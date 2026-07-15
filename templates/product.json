@@ -158,6 +158,7 @@
         "faq-3",
         "faq-4"
       ],
+      "disabled": true,
       "settings": {
         "default_open": false,
         "title": "FAQ",
@@ -220,6 +221,7 @@
         "shipping-1",
         "shipping-2"
       ],
+      "disabled": true,
       "settings": {
         "default_open": false,
         "title": "Shipping",
@@ -270,6 +272,7 @@
         "about-1",
         "about-2"
       ],
+      "disabled": true,
       "settings": {
         "default_open": false,
         "title": "About us",
