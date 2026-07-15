@@ -133,6 +133,9 @@
         "checkbox_gcikHF",
         "select_xMtTP9"
       ],
+      "custom_css": [
+        ".aos-initialized [data-aos][data-aos-order=\"8\"] {display: none;}"
+      ],
       "name": "Contact form",
       "settings": {
         "subheading": "",
