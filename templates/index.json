@@ -133,6 +133,7 @@
           "settings": {
             "show_collection_card": false,
             "collection_1": "bestseller",
+            "image_1": "shopify://shop_images/Gemini_Generated_Image_507ij5507ij5507i.png",
             "button_text_1": "",
             "collection_2": "",
             "button_text_2": "",
@@ -165,6 +166,7 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image_1": "shopify://shop_images/Gemini_Generated_Image_hmivjahmivjahmiv.png",
         "image_width": "one-half",
         "text_alignment": "text-center",
         "layout": "",
