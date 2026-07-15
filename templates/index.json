@@ -227,6 +227,7 @@
       ],
       "name": "Image with scrolling text",
       "settings": {
+        "image_1": "shopify://shop_images/Gemini_Generated_Image_lpa2w5lpa2w5lpa2.png",
         "link": "",
         "message_spacing": 10,
         "marquee_speed": 100,
