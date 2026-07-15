@@ -1971,7 +1971,6 @@
   "platform_customizations": {
     "custom_css": [
       "/* Container holding the label and badges */.card-product__sizes-wrapper {display: flex; align-items: center; gap: 10px; margin-top: 10px; margin-bottom: 10px; width: 100%;}",
-      " /* Style for the \"Size:\" text */.card-product__sizes-wrapper .sizes-label {font-size: 13px; font-weight: 600; color: #333; white-space: nowrap;}",
       " /* Flexbox container managing layout wrapping */.card-product__sizes-wrapper .sizes-list {display: flex; flex-wrap: wrap; gap: 6px;}",
       " /* Dynamic clickable size badge */.card-product__size-badge {font-size: 11px; padding: 4px 10px; border: 1px solid #ccc; border-radius: 16px; /* Pill-shaped */ background-color: #fff; color: #333; text-transform: uppercase; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; /* Removes default link underline */ transition: all 0.2s ease; cursor: pointer;}",
       " /* Hover effect to show clickability */.card-product__size-badge:hover {background-color: #333; color: #fff; border-color: #333;}",
