@@ -62,6 +62,7 @@
     "instagram_link": "https://www.instagram.com/hasal.co/",
     "facebook_link": "",
     "youtube_link": "",
+    "enable_infinity_scroll": true,
     "product_grid_center": true,
     "overlay_text": false,
     "show_recently_viewed_indicator": true,
