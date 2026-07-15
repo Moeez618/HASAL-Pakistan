@@ -762,11 +762,13 @@
     
     {%- if downcased_option_name contains 'size' -%}
       <div class="card-product__sizes-wrapper">
-        <span class="sizes-label">Size:</span>
+        <!-- Center-aligned Title -->
+        <span class="sizes-label">Size</span>
+        
+        <!-- Center-aligned & Wrapped Badges -->
         <div class="sizes-list">
           {%- for value in option.values -%}
             {%- liquid
-              # Find the exact variant ID and stock availability for this option value
               assign target_variant = blank
               for variant in product.variants
                 if variant.options contains value
