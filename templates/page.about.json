@@ -239,41 +239,6 @@
         "padding_top": 25,
         "padding_bottom": 25
       }
-    },
-    "section_rich_text_UkQey4": {
-      "type": "section-rich-text",
-      "blocks": {
-        "heading_aeCzUc": {
-          "type": "heading",
-          "settings": {
-            "title": "SOLSTARの名前の由来",
-            "heading_font_size": "heading-large",
-            "padding_bottom": 16,
-            "heading_tag": "automatic"
-          }
-        },
-        "text_kqKKtn": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>SOLSTAR</strong> は、<br/><br/><strong>Solution（解決）＋ Steady（安定）＋ Strong（力強さ）</strong> を掛け合わせた造語です。</p><p>ECサイト運営における課題に対して、場当たり的ではなく、<br/><br/><strong>安定した進行（Steady）</strong> と <strong>確かな実行力（Strong）</strong> で、<br/><br/>本質的な解決策（Solution）を提供するプロフェッショナルでありたい。<br/><br/>その想いをこの名前に込めています。</p><p>また、<strong>SOL</strong> はラテン語で「太陽」を意味します。<br/><br/><strong>STAR（星）</strong> と組み合わせることで、<br/><br/><strong>ときに太陽のように力強く背中を押し、ときに星のように静かに寄り添いながら、進むべき道を照らし、ECサイトの成功へ導く存在でありたい</strong><br/><br/>という意味も持たせています。</p>",
-            "text_font_size": "body-medium",
-            "padding_bottom": 16
-          }
-        }
-      },
-      "block_order": [
-        "heading_aeCzUc",
-        "text_kqKKtn"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "align_text": "text-center",
-        "width": "wrapper",
-        "color_scheme": "scheme-1",
-        "overlay_type": "disabled",
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
@@ -283,7 +248,6 @@
     "section_rich_text_bjzmaN",
     "section_rich_text_FiDmCf",
     "double-1",
-    "divider",
-    "section_rich_text_UkQey4"
+    "divider"
   ]
 }
