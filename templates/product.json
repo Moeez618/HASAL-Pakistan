@@ -58,10 +58,10 @@
             "title": "Size Guide",
             "text": "",
             "page": "",
-            "text_font_size": "body-small",
+            "text_font_size": "body-medium",
             "show_icon": true,
             "icon_name": "icon-ruler",
-            "icon_size": 20,
+            "icon_size": 25,
             "icon_color": "",
             "padding_bottom": 16
           }
@@ -101,7 +101,7 @@
             "style": "collapsible",
             "show_description": false,
             "show_read_more": true,
-            "default_open": false,
+            "default_open": true,
             "heading": "Description",
             "heading_font_size": "body-large",
             "text": "{{ product.description }}",
