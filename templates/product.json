@@ -28,6 +28,13 @@
             "padding_bottom": 16
           }
         },
+        "divider_1": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
         "variants": {
           "type": "variants",
           "settings": {
@@ -53,39 +60,47 @@
             "padding_bottom": 32
           }
         },
+        "features_GxTKmh": {
+          "type": "features",
+          "settings": {
+            "icon_name": "icon-chat",
+            "icon_size": 20,
+            "title": "Description",
+            "text_font_size": "body-medium",
+            "text": "{{ product.description }}",
+            "bg_color": "",
+            "color": "",
+            "padding_bottom": 16
+          }
+        },
         "tabs": {
           "type": "tab_richtext",
+          "disabled": true,
           "settings": {
             "show_description": true,
             "show_read_more": false,
-            "title_1": "製品仕様",
-            "raw_content_1": "<p>This content type will accept <strong>rich text</strong> to help with adding styles and links to additional pages or content. Use this to add supplementary information to help your buyers.</p>",
-            "title_2": "配送",
-            "raw_content_2": "<p>送料は全国一律 ¥350 (税込)となります。<br/>商品を合計 ¥4,950(税込)以上お買い上げ頂きますと、送料が無料となります。</p>",
-            "title_3": "返品交換",
-            "raw_content_3": "<p><strong>返品条件</strong>・商品に欠陥がない場合<br/>-未使用かつ未開封の場合であって、商品受取後30日以内にカスタマーセンターへメールで返品を依頼した場合に限り、返品に応じます。<br/>-返品には、タグ、元のパッケージ、及び領収書（又は購入証明）が必要です。<br/>-送料は、お客様負担といたします。</p>",
+            "title_1": "",
+            "raw_content_1": "",
+            "title_2": "",
+            "raw_content_2": "",
+            "title_3": "",
+            "raw_content_3": "",
             "title_4": "",
             "raw_content_4": "",
             "title_5": "",
             "raw_content_5": "",
             "padding_bottom": 0
           }
-        },
-        "divider_1": {
-          "type": "divider",
-          "settings": {
-            "show_line": true,
-            "padding_bottom": 16
-          }
         }
       },
       "block_order": [
         "title",
         "price",
+        "divider_1",
         "variants",
         "buttons",
-        "tabs",
-        "divider_1"
+        "features_GxTKmh",
+        "tabs"
       ],
       "settings": {
         "product_sticky_enable": true,
