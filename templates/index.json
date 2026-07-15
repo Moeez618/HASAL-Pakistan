@@ -15,6 +15,7 @@
         "slide_image_BxMxLA": {
           "type": "_slide-image",
           "settings": {
+            "image": "shopify://shop_images/Gemini_Generated_Image_5r6ooo5r6ooo5r6o.png",
             "link": "",
             "flex_align_desktop": "align--middle-center-desktop",
             "flex_align_mobile": "align--middle-center-mobile",
@@ -24,30 +25,11 @@
             "overlay_type": "disabled"
           },
           "blocks": {
-            "heading_dcKdBq": {
-              "type": "heading",
-              "settings": {
-                "text": "Image slide",
-                "heading_font_size": "heading-x-large",
-                "heading_tag": "automatic",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
-            "text_rT6Ngb": {
-              "type": "text",
-              "settings": {
-                "text": "Tell your brand's story through images.",
-                "text_font_size": "body-large",
-                "padding_bottom": 8
-              },
-              "blocks": {}
-            },
             "button_bCiwNC": {
               "type": "button",
               "settings": {
-                "text": "View products",
-                "link": "",
+                "text": "",
+                "link": "shopify://collections/all",
                 "type": "btn--primary",
                 "size": "",
                 "style": "btn--solid",
@@ -59,8 +41,6 @@
             }
           },
           "block_order": [
-            "heading_dcKdBq",
-            "text_rT6Ngb",
             "button_bCiwNC"
           ]
         }
