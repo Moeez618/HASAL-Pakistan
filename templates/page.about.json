@@ -19,7 +19,7 @@
         "text_font_size": "body-medium",
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 0,
         "heading_tag": "h1"
@@ -28,10 +28,17 @@
     "section_rich_text_RTqCQj": {
       "type": "section-rich-text",
       "blocks": {
+        "subheading_83DTpK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Our Story, Our Promise",
+            "padding_bottom": 16
+          }
+        },
         "heading_NyzxJ4": {
           "type": "heading",
           "settings": {
-            "title": "SOLSTARについて",
+            "title": "Welcome to HASAL",
             "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -40,34 +47,23 @@
         "text_dWmYBn": {
           "type": "text",
           "settings": {
-            "text": "<h3>成果につながるECを、Shopifyで実現</h3><p>株式会社SOLSTARは、日本市場にフォーカスしたShopifyを専門にECサイトの構築と運営を支援するパートナーです。</p><p>さまざまな業種が高品質なECサイトを気軽に立ち上げられるようサポートし、幅広いニーズに応えるソリューションを提供します。</p>",
+            "text": "<p>At <strong>HASAL</strong>, we believe that quality is not just a standard—it is a lifestyle. Our brand was founded on a simple yet powerful mission: to bring our customers meticulously curated, high-quality products that seamlessly blend functionality with modern design. We don't just sell products; we deliver experiences that elevate your everyday routine.</p>",
             "text_font_size": "body-large",
-            "padding_bottom": 0
+            "padding_bottom": 26
           }
         }
       },
       "block_order": [
+        "subheading_83DTpK",
         "heading_NyzxJ4",
         "text_dWmYBn"
       ],
-      "disabled": true,
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "overlay_type": "disabled",
-        "padding_top": 50,
-        "padding_bottom": 0
-      }
-    },
-    "section_custom_code_bQCpin": {
-      "type": "section-custom-code",
-      "name": "Custom code",
-      "settings": {
-        "code": "<style>\n  .modern-mvv-section {\n    background-color: #0D0326;\n    color: #ffffff;\n    padding: 100px 10%; /* 左右の余白を十分に確保 */\n    line-height: 1.6;\n    letter-spacing: 0 !important;\n  }\n\n  .mvv-container {\n    max-width: 1100px;\n    margin: 0 auto;\n  }\n\n  .mvv-block {\n    display: grid;\n    grid-template-columns: 180px 1fr; /* 見出し幅を固定して安定感を出す */\n    gap: 20px; /* 見出しと文章の距離を狭めました */\n    padding: 60px 0;\n    border-top: 1px solid rgba(255, 255, 255, 0.15);\n    opacity: 0;\n    transform: translateY(20px);\n    transition: all 0.8s ease-out;\n  }\n\n  .mvv-block:first-child {\n    border-top: none;\n    padding-top: 0;\n  }\n\n  .mvv-block.is-active {\n    opacity: 1;\n    transform: translateY(0);\n  }\n\n  .mvv-title {\n    font-size: 1.1rem;\n    font-weight: 700;\n    margin: 6px 0 0 0; /* 本文の1行目と高さを合わせる調整 */\n    color: rgba(255, 255, 255, 0.4);\n    text-transform: uppercase;\n  }\n\n  .mvv-content-wrap {\n    display: flex;\n    flex-direction: column;\n    gap: 12px; /* キャッチコピーと本文の隙間もタイトに調整 */\n  }\n\n  .mvv-h2 {\n    font-size: clamp(1.4rem, 3.5vw, 2rem);\n    font-weight: 600;\n    margin: 0;\n    line-height: 1.3;\n    color: #ffffff;\n  }\n\n  .mvv-description {\n    font-size: 0.95rem;\n    color: rgba(255, 255, 255, 0.75);\n    margin: 0;\n    text-align: justify;\n  }\n\n  @media (max-width: 768px) {\n    .modern-mvv-section {\n      padding: 60px 8%;\n    }\n    .mvv-block {\n      grid-template-columns: 1fr;\n      gap: 10px; /* スマホ時もタイトに */\n      padding: 40px 0;\n    }\n    .mvv-title {\n      font-size: 0.9rem;\n      margin-top: 0;\n    }\n    .mvv-h2 {\n      font-size: 1.3rem;\n    }\n  }\n</style>\n\n<section class=\"modern-mvv-section\">\n  <div class=\"mvv-container\">\n    \n    <div class=\"mvv-block\">\n      <h2 class=\"mvv-title\">Mission</h2>\n      <div class=\"mvv-content-wrap\">\n        <p class=\"mvv-h2\">誰もが、無理なく成長できるECを。</p>\n        <p class=\"mvv-description\">\n          私たちのミッションは、ブランドのビジョンや大切にしている価値観を理解し、限られた予算や体制の中でも、継続的に売上を積み上げていけるECを実現することです。<br><br>\n          作って終わるECではなく、事業として育て、運用し続けられるECを通じて、ブランドの成長に継続的に寄り添います。\n        </p>\n      </div>\n    </div>\n\n    <div class=\"mvv-block\">\n      <h2 class=\"mvv-title\">Vision</h2>\n      <div class=\"mvv-content-wrap\">\n        <p class=\"mvv-h2\">日本発ブランドを、世界へ。</p>\n        <p class=\"mvv-description\">\n          私たちは、日本発ブランドが国内での成功にとどまらず、世界市場でも事業として成立するECを構築できるよう支援します。<br><br>\n          2030年までに、年商1億円以上を達成する100のブランドを輩出し、日本発のEC成功モデルを世界へ広げることを目指します。\n        </p>\n      </div>\n    </div>\n\n    <div class=\"mvv-block\">\n      <h2 class=\"mvv-title\">Value</h2>\n      <div class=\"mvv-content-wrap\">\n        <p class=\"mvv-h2\">ブランドの魅力を、成果につながる形へ</p>\n        <p class=\"mvv-description\">\n          私たちは、ブランドの背景や大切にしている価値観を理解したうえで、その魅力が正しく伝わり、運用し続けられるECを設計します。<br><br>\n          デザイン性や機能性も大切にしながら、事業フェーズに応じて本当に必要な構成を見極め、無駄な開発や過剰な投資を抑えます。<br><br>\n          成果につながる構成と運用を重視し、事業者のビジョンに寄り添うパートナーとして、ECの成長に向き合い続けます。\n        </p>\n      </div>\n    </div>\n\n  </div>\n</section>\n\n<script>\n  const mvvObserver = new IntersectionObserver((entries) => {\n    entries.forEach(entry => {\n      if (entry.isIntersecting) {\n        entry.target.classList.add('is-active');\n      }\n    });\n  }, { threshold: 0.1 });\n\n  document.querySelectorAll('.mvv-block').forEach(el => mvvObserver.observe(el));\n</script>",
-        "width": "wrapper--full",
-        "color_scheme": "",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 0
       }
     },
@@ -182,7 +178,7 @@
         "heading-1-1": {
           "type": "heading",
           "settings": {
-            "title": "Shopifyで理想のECサイトを形に",
+            "title": "Our Core Values",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
@@ -191,34 +187,36 @@
         "text-1-1": {
           "type": "text",
           "settings": {
-            "text": "<p>株式会社SOLSTARは、Shopifyを専門に、ブランドの成長フェーズに合わせたECサイトの構築・運営を支援するパートナーです。 <br/><br/>立ち上げ・検証段階から、事業成長を見据えたECリニューアル、 さらには越境ECを前提としたグローバル展開まで。 <br/>私たちは、ブランドが置かれている状況や判断フェーズに向き合いながら、 「今、どこまで作るべきか」「何に投資すべきか」を共に考え、成果につながるECをShopifyで形にします。 <br/><br/>これまでに、 開発費10億円超の大規模ECサイトや、 年間売上60億円以上のShopify Plusサイトの構築・運用を手がけ、 幅広い業種・事業規模のECに対応してきました。 <br/><br/>パフォーマンス、使いやすさ、デザイン性を両立させながら、 無駄な開発や運用コストを抑え、 事業として継続的に成長できるECサイトを提供しています。 <br/><br/>また、Shopifyアカデミー認定資格を多数保有し、 専門知識と実践経験に基づいた最適なソリューションを提供しています。<br/><br/>今後も、進化し続けるShopifyの機能や仕組みを的確に取り入れながら、国内外でブランドの価値を届け、運用し続けられるECを、パートナーとして共に築いてまいります。<br/><br/>今後ともご支援のほど、よろしくお願い申し上げます。</p>",
+            "text": "<ul><li><strong>Uncompromised Quality:</strong> We obsess over the details. Every product in the HASAL collection is carefully selected and thoroughly tested to ensure it meets our strict standards of durability and excellence.</li><li><strong>Customer-First Approach:</strong> To us, you are not just a customer; you are a part of the HASAL community. We are dedicated to providing a seamless shopping journey, from the moment you browse our site to the day your package arrives at your doorstep.</li><li><strong>Innovation & Design:</strong> We stay ahead of the curve, constantly searching for innovative solutions and contemporary designs that bring both beauty and practicality into your life.</li></ul>",
             "text_font_size": "body-medium",
             "padding_bottom": 10
           }
         },
-        "subheading_XTkhJK": {
-          "type": "subheading",
+        "heading_rwJxzm": {
+          "type": "heading",
           "settings": {
-            "subheading": "代表取締役　島袋　隼",
-            "padding_bottom": 10
+            "title": "The HASAL Journey",
+            "heading_font_size": "heading-large",
+            "padding_bottom": 16,
+            "heading_tag": "automatic"
           }
         },
-        "subheading_TtkViy": {
-          "type": "subheading",
+        "text_DAQM6M": {
+          "type": "text",
           "settings": {
-            "subheading": "サンディエゴ州立大学 経済学部 卒業",
-            "padding_bottom": 10
+            "text": "<p>What started as a passion project born out of a desire for better, more reliable everyday essentials has quickly grown into a trusted brand serving customers who refuse to compromise on quality. Today, HASAL represents a commitment to excellence, integrity, and exceptional service.</p><p>We are incredibly grateful to have you join us on this journey. Thank you for choosing <strong>HASAL</strong>—we look forward to being a part of your story.</p>",
+            "text_font_size": "body-medium",
+            "padding_bottom": 16
           }
         }
       },
       "block_order": [
         "heading-1-1",
         "text-1-1",
-        "subheading_XTkhJK",
-        "subheading_TtkViy"
+        "heading_rwJxzm",
+        "text_DAQM6M"
       ],
       "settings": {
-        "image_2": "shopify://shop_images/20240930_Shimabukuro_sama-24703.jpg",
         "image_width": "one-half",
         "text_alignment": "text-left",
         "layout": "is-reversed",
@@ -226,7 +224,7 @@
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 26,
         "padding_bottom": 26,
         "show_placeholder": true
@@ -237,7 +235,7 @@
       "settings": {
         "show_line": true,
         "width": "wrapper",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 25,
         "padding_bottom": 25
       }
@@ -271,7 +269,6 @@
       "settings": {
         "align_text": "text-center",
         "width": "wrapper",
-        "image": "shopify://shop_images/mountains-and-sunset-2026-01-07-02-24-34-utc.jpg",
         "color_scheme": "scheme-1",
         "overlay_type": "disabled",
         "padding_top": 100,
@@ -282,7 +279,6 @@
   "order": [
     "main",
     "section_rich_text_RTqCQj",
-    "section_custom_code_bQCpin",
     "section_rich_text_DG7JpK",
     "section_rich_text_bjzmaN",
     "section_rich_text_FiDmCf",
