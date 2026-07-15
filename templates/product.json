@@ -45,6 +45,27 @@
             "padding_bottom": 16
           }
         },
+        "divider_CNQVWU": {
+          "type": "divider",
+          "settings": {
+            "show_line": true,
+            "padding_bottom": 16
+          }
+        },
+        "popup_Y6bKyB": {
+          "type": "popup",
+          "settings": {
+            "title": "Size Guide",
+            "text": "",
+            "page": "",
+            "text_font_size": "body-small",
+            "show_icon": true,
+            "icon_name": "icon-ruler",
+            "icon_size": 20,
+            "icon_color": "",
+            "padding_bottom": 16
+          }
+        },
         "buttons": {
           "type": "buttons",
           "settings": {
@@ -117,6 +138,8 @@
         "price",
         "divider_1",
         "variants",
+        "divider_CNQVWU",
+        "popup_Y6bKyB",
         "buttons",
         "features_GxTKmh",
         "accordion_nMPEtH",
