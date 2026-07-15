@@ -157,56 +157,22 @@
     "shipping": {
       "type": "section-accordion",
       "blocks": {
-        "shipping-0": {
-          "type": "icon",
+        "text_fw6y7t": {
+          "type": "text",
           "settings": {
-            "icon_name": "icon-fast-shipment",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Fast shipping",
+            "title": "",
             "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "shipping-1": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-box",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Order tracking",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "text_alignment": "text-left"
-          }
-        },
-        "shipping-2": {
-          "type": "icon",
-          "settings": {
-            "icon_name": "icon-chat",
-            "icon_size": 20,
-            "icon_color": "#545454",
-            "title": "Get in touch",
-            "heading_font_size": "heading-small",
-            "icon_alignment": "left",
-            "text": "<p>Use this to answer some common questions you hear from your customers. You could discuss product details, size fit, shipping policies, or anything you think would help merchants make an informed decision about your products. This section will appear across all products.</p>",
-            "text_alignment": "text-left"
+            "text": "<p>We will gladly accept any unworn, unwashed merchandise with original tags within 30 Days of purchase for a refund or an exchange.<br/>Please return goods with a copy of the invoice and mention the reason for returning the items.<br/>Customer needs to return the merchandise via traceable delivery i.e. courier or registered post on his own expense to our address. <br/>Delivery Charges will not be refunded. <br/>Refund requests will be processed within 7 working days after receiving the return products.<br/>For further queries about exchanges and returns, please contact us at +923131786190</p>"
           }
         }
       },
       "block_order": [
-        "shipping-0",
-        "shipping-1",
-        "shipping-2"
+        "text_fw6y7t"
       ],
-      "disabled": true,
       "settings": {
         "default_open": false,
-        "title": "Shipping",
-        "heading_font_size": "heading-small",
+        "title": "Refund & Exchanges",
+        "heading_font_size": "heading-medium",
         "show_icon": false,
         "icon_name": "icon-award",
         "icon_size": 20,
