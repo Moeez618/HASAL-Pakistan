@@ -763,12 +763,8 @@
   {%- unless product.has_only_default_variant -%}
   {%- for option in product.options_with_values -%}
     {%- assign downcased_option_name = option.name | downcase -%}
-    
     {%- if downcased_option_name contains 'size' -%}
       <div class="card-product__sizes-wrapper">
-        <!-- Center-aligned Title -->
-        <span class="sizes-label">Sizes</span>
-        
         <!-- Center-aligned & Wrapped Badges -->
         <div class="sizes-list">
           {%- for value in option.values -%}
@@ -781,7 +777,6 @@
                 endif
               endfor
             -%}
-            
             {%- if target_variant != blank -%}
               <a href="{{ product.url }}?variant={{ target_variant.id }}" 
                  class="card-product__size-badge{% unless target_variant.available %} out-of-stock{% endunless %}">
