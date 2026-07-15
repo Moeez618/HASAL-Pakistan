@@ -68,7 +68,7 @@
     "show_recently_viewed_indicator": true,
     "image_hover_enable": true,
     "image_hover_limit": 5,
-    "product_grid_aspect_ratio": 1.1,
+    "product_grid_aspect_ratio": 1.3,
     "quickview_enable": true,
     "show_siblings": true,
     "show_cutline": true,

@@ -200,7 +200,7 @@
         "grid": 4,
         "rows": 3,
         "width": "wrapper",
-        "layout_mobile": "slider",
+        "layout_mobile": "2",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50,
