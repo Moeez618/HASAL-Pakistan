@@ -153,8 +153,9 @@
       ],
       "name": "Mobile menu",
       "settings": {
-        "logo_max_limit": 120,
-        "color_scheme": "scheme-10"
+        "logo": "shopify://shop_images/logo_2a90b302-4713-40b0-9c91-887b17b3039d.png",
+        "logo_max_limit": 200,
+        "color_scheme": "scheme-1"
       }
     }
   },
