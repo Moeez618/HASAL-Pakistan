@@ -43,7 +43,7 @@
           "type": "variants",
           "settings": {
             "info_page": "",
-            "size_chart_style": "text",
+            "size_chart_style": "ruler",
             "option_font_size": "body-large",
             "value_font_size": "body-small",
             "padding_bottom": 16
@@ -58,6 +58,7 @@
         },
         "popup_Y6bKyB": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "title": "Size Guide",
             "text": "",
@@ -83,6 +84,15 @@
             "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
             "padding_bottom": 32
+          }
+        },
+        "estimate_delivery_UQDrgA": {
+          "type": "estimate_delivery",
+          "settings": {
+            "label": "Estimated delivery:",
+            "days_from_today": 4,
+            "text_font_size": "body-large",
+            "padding_bottom": 0
           }
         },
         "features_GxTKmh": {
@@ -146,6 +156,7 @@
         "divider_CNQVWU",
         "popup_Y6bKyB",
         "buttons",
+        "estimate_delivery_UQDrgA",
         "features_GxTKmh",
         "accordion_nMPEtH",
         "tabs"
