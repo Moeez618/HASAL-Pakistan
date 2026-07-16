@@ -179,7 +179,7 @@
           "type": "heading",
           "settings": {
             "title": "Our Core Values",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "h2"
           }
@@ -188,7 +188,7 @@
           "type": "text",
           "settings": {
             "text": "<ul><li><strong>Uncompromised Quality:</strong> We obsess over the details. Every product in the HASAL collection is carefully selected and thoroughly tested to ensure it meets our strict standards of durability and excellence.</li><li><strong>Customer-First Approach:</strong> To us, you are not just a customer; you are a part of the HASAL community. We are dedicated to providing a seamless shopping journey, from the moment you browse our site to the day your package arrives at your doorstep.</li><li><strong>Innovation & Design:</strong> We stay ahead of the curve, constantly searching for innovative solutions and contemporary designs that bring both beauty and practicality into your life.</li></ul>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 10
           }
         },
@@ -196,7 +196,7 @@
           "type": "heading",
           "settings": {
             "title": "The HASAL Journey",
-            "heading_font_size": "heading-large",
+            "heading_font_size": "heading-x-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
           }
@@ -205,7 +205,7 @@
           "type": "text",
           "settings": {
             "text": "<p>What started as a passion project born out of a desire for better, more reliable everyday essentials has quickly grown into a trusted brand serving customers who refuse to compromise on quality. Today, HASAL represents a commitment to excellence, integrity, and exceptional service.</p><p>We are incredibly grateful to have you join us on this journey. Thank you for choosing <strong>HASAL</strong>—we look forward to being a part of your story.</p>",
-            "text_font_size": "body-medium",
+            "text_font_size": "body-large",
             "padding_bottom": 16
           }
         }
@@ -217,10 +217,11 @@
         "text_DAQM6M"
       ],
       "settings": {
+        "image_1": "shopify://shop_images/Gemini_Generated_Image_8x74t28x74t28x74.png",
         "image_width": "one-half",
-        "text_alignment": "text-left",
+        "text_alignment": "text-center",
         "layout": "is-reversed",
-        "width": "wrapper",
+        "width": "wrapper--full",
         "height": "image-height",
         "mobile_height": "image-height--mobile",
         "reverse_blocks": false,
