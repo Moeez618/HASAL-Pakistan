@@ -28,7 +28,7 @@
     "type_sub_uppercase": true,
     "subheading_size_desktop": 12,
     "subheading_size_mobile": 12,
-    "type_header_font": "sans_serif_n7",
+    "type_header_font": "sans_serif_n4",
     "heading_letter_spacing": 0,
     "type_header_uppercase": false,
     "heading_mini": 12,
@@ -1971,10 +1971,10 @@
   "platform_customizations": {
     "custom_css": [
       "/* Container holding the label and badges */.card-product__sizes-wrapper {display: flex; align-items: center; justify-content: center; /* Centers the list block horizontally */ gap: 10px; margin-top: 10px; margin-bottom: 10px; width: 100%;}",
-      "/* Flexbox container managing layout wrapping */.card-product__sizes-wrapper .sizes-list {display: flex; flex-wrap: wrap; justify-content: center; /* Centers wrapped items/rows (especially critical for mobile) */ gap: 6px;}",
-      "/* Dynamic clickable size badge */.card-product__size-badge {font-size: 11px; padding: 4px 10px; border: 1px solid #ccc; border-radius: 16px; /* Pill-shaped */ background-color: #fff; color: #333; text-transform: uppercase; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; /* Removes default link underline */ transition: all 0.2s ease; cursor: pointer;}",
-      "/* Hover effect to show clickability */.card-product__size-badge:hover {background-color: #333; color: #fff; border-color: #333;}",
-      "/* Out of stock styling */.card-product__size-badge.out-of-stock {opacity: 0.4; text-decoration: line-through; background-color: #f5f5f5; border-color: #ddd; color: #999;}"
+      " /* Flexbox container managing layout wrapping */.card-product__sizes-wrapper .sizes-list {display: flex; flex-wrap: wrap; justify-content: center; /* Centers wrapped items/rows (especially critical for mobile) */ gap: 6px;}",
+      " /* Dynamic clickable size badge */.card-product__size-badge {font-size: 11px; padding: 4px 10px; border: 1px solid #ccc; border-radius: 16px; /* Pill-shaped */ background-color: #fff; color: #333; text-transform: uppercase; font-weight: 500; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; /* Removes default link underline */ transition: all 0.2s ease; cursor: pointer;}",
+      " /* Hover effect to show clickability */.card-product__size-badge:hover {background-color: #333; color: #fff; border-color: #333;}",
+      " /* Out of stock styling */.card-product__size-badge.out-of-stock {opacity: 0.4; text-decoration: line-through; background-color: #f5f5f5; border-color: #ddd; color: #999;}"
     ]
   }
 }

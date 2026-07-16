@@ -80,9 +80,9 @@
       ],
       "name": "Collection list",
       "settings": {
-        "title": "Playful Fun Kids Wear",
+        "title": "",
         "heading_font_size": "heading-large",
-        "description": "",
+        "description": "<h2>PLAYFUL FUN KIDSWEAR</h2>",
         "text_font_size": "body-medium",
         "button_text": "",
         "button_url": "shopify://collections",
