@@ -73,13 +73,13 @@
         "buttons": {
           "type": "buttons",
           "settings": {
-            "show_quantity": true,
-            "button_type": "btn--primary",
-            "button_size": "btn--large",
-            "button_style": "btn--solid",
-            "show_dynamic_checkout": false,
-            "button_type_dynamic": "btn--secondary",
-            "button_size_dynamic": "btn--large",
+            "show_quantity": false,
+            "button_type": "btn--black",
+            "button_size": "",
+            "button_style": "btn--outline",
+            "show_dynamic_checkout": true,
+            "button_type_dynamic": "btn--primary",
+            "button_size_dynamic": "",
             "button_style_dynamic": "btn--solid",
             "show_gift_card_recipient": false,
             "padding_bottom": 32
