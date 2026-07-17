@@ -33,7 +33,7 @@
             "title": "Quick Links",
             "heading_font_size": "heading-medium",
             "column_width": 20,
-            "enable_accordion": false
+            "enable_accordion": true
           }
         },
         "linklist_87qiem": {
@@ -43,7 +43,7 @@
             "title": "Resources",
             "heading_font_size": "heading-medium",
             "column_width": 20,
-            "enable_accordion": false
+            "enable_accordion": true
           }
         },
         "newsletter_daEgbT": {
