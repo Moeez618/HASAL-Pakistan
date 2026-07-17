@@ -49,7 +49,7 @@
         "newsletter_daEgbT": {
           "type": "newsletter",
           "settings": {
-            "title": "Newsletter",
+            "title": "",
             "heading_font_size": "heading-medium",
             "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>",
             "button_text": "Join",
