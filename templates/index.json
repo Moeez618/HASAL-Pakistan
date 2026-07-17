@@ -94,7 +94,7 @@
         "width": "wrapper--full-padded",
         "layout": "grid",
         "grid": 3,
-        "layout_mobile": "slider",
+        "layout_mobile": "1",
         "color_scheme": "",
         "padding_top": 32,
         "padding_bottom": 32,
