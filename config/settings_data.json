@@ -94,7 +94,7 @@
     "show_sold_out_badge": true,
     "show_automatic_new_badge": true,
     "badge_new_date_limit": 20,
-    "favicon": "shopify://shop_images/fabicon_copy_2.png",
+    "favicon": "shopify://shop_images/logo.png",
     "show_lock_icon": true,
     "enable_accept_terms": false,
     "show_recently_viewed_products": false,
