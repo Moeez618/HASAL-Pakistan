@@ -16,6 +16,7 @@
       "blocks": {
         "cart-message": {
           "type": "cart-message",
+          "disabled": true,
           "settings": {
             "cart_custom_message_text": "<p>Use coupon code <strong>WELCOME10</strong> for 10% off your first order.</p>",
             "text_font_size": "body-x-small",
@@ -34,7 +35,7 @@
         "order-note": {
           "type": "order-note",
           "settings": {
-            "pin_to_bottom": false
+            "pin_to_bottom": true
           }
         },
         "checkout-buttons": {
