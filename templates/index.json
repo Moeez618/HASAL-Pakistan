@@ -177,9 +177,9 @@
       "name": "Featured collection",
       "settings": {
         "featured_collection": "shop",
-        "heading": "Best Sellers",
-        "heading_font_size": "heading-medium",
-        "description": "",
+        "heading": "YOUR FAVES",
+        "heading_font_size": "heading-large",
+        "description": "<p>Timeless Solid Colors</p>",
         "text_font_size": "body-medium",
         "layout": "inline",
         "link_text": "Shop Now",
