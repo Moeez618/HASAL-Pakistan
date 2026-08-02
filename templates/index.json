@@ -104,17 +104,10 @@
     "section_double_AHHJmN": {
       "type": "section-double",
       "blocks": {
-        "subheading_QtN7ki": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Introducing",
-            "padding_bottom": 16
-          }
-        },
         "heading_Fk9LmQ": {
           "type": "heading",
           "settings": {
-            "title": "Image with text",
+            "title": "Little Essentials. Endless Comfort.",
             "heading_font_size": "heading-large",
             "padding_bottom": 16,
             "heading_tag": "automatic"
@@ -123,7 +116,7 @@
         "text_rraLrk": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Minimal co-ord sets in timeless solid colours, thoughtfully designed for everyday play, comfort, and effortless style.</p>",
             "text_font_size": "body-medium",
             "padding_bottom": 16
           }
@@ -158,7 +151,6 @@
         }
       },
       "block_order": [
-        "subheading_QtN7ki",
         "heading_Fk9LmQ",
         "text_rraLrk",
         "collection_JQrCwe",
