@@ -77,7 +77,7 @@
       "settings": {
         "header_sticky": true,
         "enable_search": true,
-        "header_style": "logo_beside",
+        "header_style": "logo_above",
         "show_separator_line": true,
         "header_border_color": "#d1cdc4",
         "separator_opacity": 50,
