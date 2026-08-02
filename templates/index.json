@@ -81,8 +81,8 @@
       "name": "Collection list",
       "settings": {
         "title": "",
-        "heading_font_size": "heading-large",
-        "description": "<p>Timeless Solid Colours</p>",
+        "heading_font_size": "heading-x-large",
+        "description": "<p><strong>Timeless Solid Colours</strong></p>",
         "text_font_size": "body-x-large",
         "button_text": "",
         "button_url": "shopify://collections",
