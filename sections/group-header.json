@@ -14,6 +14,19 @@
     "announcement": {
       "type": "announcement",
       "blocks": {
+        "message_CjXUd7": {
+          "type": "message",
+          "settings": {
+            "show_wheel": true,
+            "message": "You are PKR 4000 away from free shipping.",
+            "target_url_enabled": false,
+            "target_url": "",
+            "target_referrer_enabled": false,
+            "target_referrer": "",
+            "target_device_enabled": false,
+            "target_device": "mobile"
+          }
+        },
         "text_GntGQL": {
           "type": "text",
           "disabled": true,
@@ -29,6 +42,7 @@
         }
       },
       "block_order": [
+        "message_CjXUd7",
         "text_GntGQL"
       ],
       "settings": {
