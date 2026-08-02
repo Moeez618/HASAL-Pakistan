@@ -13,38 +13,6 @@
   "sections": {
     "announcement": {
       "type": "announcement",
-      "blocks": {
-        "message_CjXUd7": {
-          "type": "message",
-          "settings": {
-            "show_wheel": false,
-            "message": "You Are PKR 4000 Away From Free Shipping",
-            "target_url_enabled": false,
-            "target_url": "",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        },
-        "text_GntGQL": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>EC制作会社比較資料を無料配布中</strong></p>",
-            "target_url_enabled": false,
-            "target_url": "shopify://pages/contact",
-            "target_referrer_enabled": false,
-            "target_referrer": "",
-            "target_device_enabled": false,
-            "target_device": "mobile"
-          }
-        }
-      },
-      "block_order": [
-        "message_CjXUd7",
-        "text_GntGQL"
-      ],
       "settings": {
         "show_border": false,
         "layout": "marquee",
@@ -79,7 +47,7 @@
             "show_country_selector": true,
             "show_country_name": false,
             "show_country_flag": true,
-            "color_scheme": "scheme_1",
+            "color_scheme": "scheme-1",
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -117,7 +85,7 @@
         "highlight_item": "Sale",
         "highlight_item_color": "#d02e2e",
         "transparent_logo": "shopify://shop_images/logo_d3a118aa-df31-4342-9229-aa15fca31494.png",
-        "transparent_home": true,
+        "transparent_home": false,
         "transparent_collection": false,
         "transparent_article": false,
         "transparent_page": false,
