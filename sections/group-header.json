@@ -17,8 +17,8 @@
         "message_CjXUd7": {
           "type": "message",
           "settings": {
-            "show_wheel": true,
-            "message": "You are PKR 4000 away from free shipping.",
+            "show_wheel": false,
+            "message": "You Are PKR 4000 Away From Free Shipping",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
