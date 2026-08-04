@@ -58,16 +58,16 @@
         "collection_NnCCUT": {
           "type": "collection",
           "settings": {
-            "collection": "bestseller",
+            "collection": "products",
             "collection_image": "shopify://shop_images/SAVE_20260803_024411_jpg.jpg",
-            "title": ""
+            "title": "Single Co-ord Sets"
           }
         },
         "collection_ihNiRH": {
           "type": "collection",
           "settings": {
             "collection": "bestseller",
-            "title": ""
+            "title": "Bundles"
           }
         }
       },
