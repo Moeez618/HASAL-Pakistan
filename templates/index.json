@@ -52,6 +52,7 @@
           "type": "collection",
           "settings": {
             "collection": "shop",
+            "collection_image": "shopify://shop_images/red_maron_11.jpg",
             "title": "Shop All"
           }
         },
@@ -59,7 +60,7 @@
           "type": "collection",
           "settings": {
             "collection": "products",
-            "collection_image": "shopify://shop_images/SAVE_20260803_024411_jpg.jpg",
+            "collection_image": "shopify://shop_images/SAVE_20260802_193943_jpg.jpg",
             "title": "Single Co-ord Sets"
           }
         },
@@ -67,7 +68,8 @@
           "type": "collection",
           "settings": {
             "collection": "bestseller",
-            "title": "Bundles"
+            "collection_image": "shopify://shop_images/ChatGPT_Image_Aug_3_2026_03_29_32_AM.png",
+            "title": "Save on Bundles"
           }
         }
       },
