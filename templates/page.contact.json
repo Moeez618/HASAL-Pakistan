@@ -32,79 +32,36 @@
         "name_iQFAiV": {
           "type": "name",
           "settings": {
-            "first_heading": "名前",
-            "first_label": "太郎",
-            "last_heading": "苗字",
-            "last_label": "鈴木",
-            "reverse_name": true,
-            "required": true
+            "first_heading": "First Name",
+            "first_label": "First Name",
+            "last_heading": "Last Name",
+            "last_label": "Last Name",
+            "reverse_name": false,
+            "required": false
           }
         },
         "email_zEpefz": {
           "type": "email",
           "settings": {
             "title": "Email",
-            "heading": "メールアドレス",
-            "required": true
+            "heading": "Email Address",
+            "required": false
           }
         },
         "telephone_DmUA6B": {
           "type": "telephone",
           "settings": {
             "title": "Phone Number",
-            "heading": "電話番号",
+            "heading": "Phone Number",
             "required": true
-          }
-        },
-        "text_UNiVit": {
-          "type": "text",
-          "settings": {
-            "title": "Company",
-            "heading": "会社名",
-            "required": true
-          }
-        },
-        "text_7YcUqW": {
-          "type": "text",
-          "settings": {
-            "title": "Position",
-            "heading": "役職",
-            "required": false
           }
         },
         "Message": {
           "type": "body",
           "settings": {
-            "title": "問い合わせ内容（任意）",
+            "title": "Write your concerns here...",
             "heading": "",
             "required": false
-          }
-        },
-        "select_GTz36X": {
-          "type": "select",
-          "settings": {
-            "title": "お問い合わせ種別",
-            "required": true,
-            "label-one": "SOLSTAR EXPRESSについて",
-            "label-two": "Cream by Solstarについて",
-            "label-three": "Basicプランについて",
-            "label-four": "Standardプランについて",
-            "label-five": "Proプランについて",
-            "label-six": "その他"
-          }
-        },
-        "Options-select": {
-          "type": "select",
-          "disabled": true,
-          "settings": {
-            "title": "ご希望プラン",
-            "required": true,
-            "label-one": "Shopify費用比較調査レポートについて",
-            "label-two": "Cream By Solstarについて",
-            "label-three": "SOLSTAR EXPRESSについて",
-            "label-four": "Basicプランについて",
-            "label-five": "Standardプランについて",
-            "label-six": "Proプランについて"
           }
         }
       },
@@ -112,19 +69,15 @@
         "name_iQFAiV",
         "email_zEpefz",
         "telephone_DmUA6B",
-        "text_UNiVit",
-        "text_7YcUqW",
-        "Message",
-        "select_GTz36X",
-        "Options-select"
+        "Message"
       ],
       "settings": {
         "subheading": "",
-        "title": "お問い合わせ",
+        "title": "Contact Us",
         "heading_font_size": "heading-large",
         "terms": true,
         "width": "wrapper--narrow",
-        "color_scheme": "scheme-10",
+        "color_scheme": "scheme-1",
         "padding_top": 50,
         "padding_bottom": 50,
         "heading_tag": "h1"
@@ -197,7 +150,7 @@
       "type": "section-custom-code",
       "name": "Custom code",
       "settings": {
-        "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"Organization\",\n      \"@id\": \"https://www.solstar.co.jp/#organization\",\n      \"name\": \"株式会社SOLSTAR\",\n      \"alternateName\": \"SOLSTAR\",\n      \"url\": \"https://www.solstar.co.jp/\",\n      \"description\": \"Shopifyを専門に、ブランドの成長フェーズに合わせたECサイトの構築・運営を支援する会社です。\",\n      \"sameAs\": [\n        \"https://www.instagram.com/solstar_official\",\n        \"https://www.youtube.com/@solstar-official\"\n      ]\n    },\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://www.solstar.co.jp/#website\",\n      \"url\": \"https://www.solstar.co.jp/\",\n      \"name\": \"株式会社SOLSTAR\",\n      \"publisher\": {\n        \"@id\": \"https://www.solstar.co.jp/#organization\"\n      },\n      \"inLanguage\": \"ja\"\n    },\n    {\n      \"@type\": \"ContactPage\",\n      \"@id\": \"https://www.solstar.co.jp/pages/contact#webpage\",\n      \"url\": \"https://www.solstar.co.jp/pages/contact\",\n      \"name\": \"お問い合わせ｜株式会社SOLSTAR\",\n      \"description\": \"Shopify ECサイトの構築・制作・運用に関するご相談やお見積もりのお問い合わせはこちら。SOLSTAR EXPRESSやCream by Solstar、各プランについてもお気軽にお問い合わせください。\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.solstar.co.jp/#website\"\n      },\n      \"about\": {\n        \"@id\": \"https://www.solstar.co.jp/#organization\"\n      },\n      \"breadcrumb\": {\n        \"@id\": \"https://www.solstar.co.jp/pages/contact#breadcrumb\"\n      },\n      \"inLanguage\": \"ja\"\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.solstar.co.jp/pages/contact#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"ホーム\",\n          \"item\": \"https://www.solstar.co.jp/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"お問い合わせ\",\n          \"item\": \"https://www.solstar.co.jp/pages/contact\"\n        }\n      ]\n    }\n  ]\n}\n</script>",
+        "code": "",
         "width": "wrapper--full",
         "color_scheme": "scheme-1",
         "padding_top": 0,
