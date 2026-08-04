@@ -75,7 +75,7 @@
         "subheading": "",
         "title": "Contact Us",
         "heading_font_size": "heading-large",
-        "terms": true,
+        "terms": false,
         "width": "wrapper--narrow",
         "color_scheme": "scheme-1",
         "padding_top": 50,
