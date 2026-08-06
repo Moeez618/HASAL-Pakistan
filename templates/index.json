@@ -48,14 +48,6 @@
     "section_collections_list_XPKLmz": {
       "type": "section-collections-list",
       "blocks": {
-        "collection_iGGzwJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "shop",
-            "collection_image": "shopify://shop_images/red_maron_11.jpg",
-            "title": "Shop All"
-          }
-        },
         "collection_NnCCUT": {
           "type": "collection",
           "settings": {
@@ -74,7 +66,6 @@
         }
       },
       "block_order": [
-        "collection_iGGzwJ",
         "collection_NnCCUT",
         "collection_ihNiRH"
       ],
