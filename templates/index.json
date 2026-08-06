@@ -86,7 +86,7 @@
         "show_arrow": false,
         "aspect_ratio": 1,
         "width": "wrapper--full-padded",
-        "layout": "grid",
+        "layout": "slider",
         "grid": 3,
         "layout_mobile": "1",
         "color_scheme": "",
