@@ -155,8 +155,8 @@
         "button_w3eFEG": {
           "type": "button",
           "settings": {
-            "link_text": "View products",
-            "link": "",
+            "link_text": "SHOP ALL",
+            "link": "https://hasal.co/collections/shop",
             "button_type": "btn--primary",
             "button_size": "",
             "button_style": "btn--solid",
