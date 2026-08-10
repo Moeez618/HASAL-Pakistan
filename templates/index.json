@@ -76,7 +76,7 @@
       "settings": {
         "title": "",
         "heading_font_size": "heading-large",
-        "description": "<p><strong>Timeless Solid Colours</strong></p>",
+        "description": "<p>Timeless Solid Colours</p>",
         "text_font_size": "body-x-large",
         "button_text": "",
         "button_url": "shopify://collections",
@@ -107,6 +107,33 @@
         "layout": "inline",
         "link_text": "Shop Now",
         "link_url": "shopify://collections/products",
+        "button_type": "btn--primary",
+        "button_size": "",
+        "button_style": "btn--solid",
+        "show_arrow": false,
+        "layout_desktop": "slider",
+        "grid": 4,
+        "rows": 3,
+        "width": "wrapper",
+        "layout_mobile": "2",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "heading_tag": "automatic"
+      }
+    },
+    "section_collection_gQwzzQ": {
+      "type": "section-collection",
+      "name": "Featured collection",
+      "settings": {
+        "featured_collection": "bestseller",
+        "heading": "SAVE ON BUNDLES",
+        "heading_font_size": "heading-large",
+        "description": "<p>Get valued savings on co-ord sets for your little one's.</p>",
+        "text_font_size": "body-medium",
+        "layout": "inline",
+        "link_text": "Shop Now",
+        "link_url": "shopify://collections/bestseller",
         "button_type": "btn--primary",
         "button_size": "",
         "button_style": "btn--solid",
@@ -161,33 +188,6 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "show_placeholder": true
-      }
-    },
-    "section_collection_gQwzzQ": {
-      "type": "section-collection",
-      "name": "Featured collection",
-      "settings": {
-        "featured_collection": "bestseller",
-        "heading": "SAVE ON BUNDLES",
-        "heading_font_size": "heading-large",
-        "description": "<p>Get valued savings on co-ord sets for your little one's.</p>",
-        "text_font_size": "body-medium",
-        "layout": "inline",
-        "link_text": "Shop Now",
-        "link_url": "shopify://collections/bestseller",
-        "button_type": "btn--primary",
-        "button_size": "",
-        "button_style": "btn--solid",
-        "show_arrow": false,
-        "layout_desktop": "slider",
-        "grid": 4,
-        "rows": 3,
-        "width": "wrapper",
-        "layout_mobile": "2",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "heading_tag": "automatic"
       }
     }
   },
