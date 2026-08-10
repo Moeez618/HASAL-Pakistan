@@ -181,7 +181,7 @@
         "type_font_caps": false,
         "scrolling_align": "align--middle-center",
         "direction": "ticker-rtl",
-        "height": "screen-height-three-quarters",
+        "height": "image-height",
         "mobile_height": "screen-height-three-quarters--mobile",
         "color_scheme": "",
         "overlay_type": "disabled",
