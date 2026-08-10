@@ -76,7 +76,7 @@
         "grid": 3,
         "rows": 1,
         "width": "wrapper--full-padded",
-        "layout_mobile": "slider",
+        "layout_mobile": "2",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0,
