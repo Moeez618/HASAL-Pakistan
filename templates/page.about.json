@@ -28,22 +28,6 @@
     "section_rich_text_RTqCQj": {
       "type": "section-rich-text",
       "blocks": {
-        "subheading_83DTpK": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "Our Story, Our Promise",
-            "padding_bottom": 16
-          }
-        },
-        "heading_NyzxJ4": {
-          "type": "heading",
-          "settings": {
-            "title": "Welcome to HASAL",
-            "heading_font_size": "heading-x-large",
-            "padding_bottom": 16,
-            "heading_tag": "h2"
-          }
-        },
         "text_dWmYBn": {
           "type": "text",
           "settings": {
@@ -54,8 +38,6 @@
         }
       },
       "block_order": [
-        "subheading_83DTpK",
-        "heading_NyzxJ4",
         "text_dWmYBn"
       ],
       "settings": {
