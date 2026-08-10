@@ -26,16 +26,6 @@
             "enable_accordion": false
           }
         },
-        "linklist_BVjQBB": {
-          "type": "linklist",
-          "settings": {
-            "linklist": "main-menu",
-            "title": "QUICK LINKS",
-            "heading_font_size": "heading-medium",
-            "column_width": 20,
-            "enable_accordion": true
-          }
-        },
         "linklist_87qiem": {
           "type": "linklist",
           "settings": {
@@ -66,7 +56,6 @@
       },
       "block_order": [
         "text_BcWxrH",
-        "linklist_BVjQBB",
         "linklist_87qiem",
         "newsletter_daEgbT"
       ],
