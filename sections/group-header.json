@@ -17,7 +17,7 @@
         "text_3bateG": {
           "type": "text",
           "settings": {
-            "text": "<p>Summer Sesaon End Sale</p>",
+            "text": "<p><strong>Summer Sesaon End Sale</strong></p>",
             "target_url_enabled": false,
             "target_url": "",
             "target_referrer_enabled": false,
