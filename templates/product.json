@@ -42,7 +42,7 @@
         "variants": {
           "type": "variants",
           "settings": {
-            "info_page": "",
+            "info_page": "size-chart",
             "size_chart_style": "ruler",
             "option_font_size": "body-large",
             "value_font_size": "body-small",
@@ -58,6 +58,7 @@
         },
         "popup_Y6bKyB": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "title": "Size Chart",
             "text": "",
