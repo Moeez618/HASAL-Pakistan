@@ -42,7 +42,7 @@
         "variants": {
           "type": "variants",
           "settings": {
-            "info_page": "{{ product.metafields.custom.size_chart.value }}",
+            "info_page": "",
             "size_chart_style": "ruler",
             "option_font_size": "body-large",
             "value_font_size": "body-small",
@@ -58,15 +58,14 @@
         },
         "popup_Y6bKyB": {
           "type": "popup",
-          "disabled": true,
           "settings": {
-            "title": "Size Guide",
+            "title": "Size Chart",
             "text": "",
-            "page": "",
-            "text_font_size": "body-medium",
+            "page": "{{ product.metafields.custom.size_chart.value }}",
+            "text_font_size": "body-large",
             "show_icon": true,
             "icon_name": "icon-ruler",
-            "icon_size": 25,
+            "icon_size": 30,
             "icon_color": "",
             "padding_bottom": 16
           }
