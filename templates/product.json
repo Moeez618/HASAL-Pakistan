@@ -42,8 +42,8 @@
         "variants": {
           "type": "variants",
           "settings": {
-            "info_page": "size-chart",
-            "size_chart_style": "ruler",
+            "info_page": "{{ product.metafields.custom.size_chart.value }}",
+            "size_chart_style": "text",
             "option_font_size": "body-x-large",
             "value_font_size": "body-large",
             "padding_bottom": 16
