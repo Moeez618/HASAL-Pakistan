@@ -60,7 +60,7 @@
           "type": "collection",
           "settings": {
             "collection": "bestseller",
-            "collection_image": "shopify://shop_images/file_00000000cd4082079f7165748249d110_jpg.jpg",
+            "collection_image": "shopify://shop_images/bundle_33_jpg.jpg",
             "title": "Save on Bundles"
           }
         }
@@ -129,7 +129,7 @@
         "featured_collection": "bestseller",
         "heading": "SAVE ON BUNDLES",
         "heading_font_size": "heading-large",
-        "description": "<p>Get valued savings on co-ord sets for your little one's.</p>",
+        "description": "<h4><strong>Pack of 2 & 3 Co ord sets</strong></h4><p>Get valued savings on co-ord sets for your little one's.</p>",
         "text_font_size": "body-medium",
         "layout": "inline",
         "link_text": "Shop Now",
